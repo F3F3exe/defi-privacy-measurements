@@ -1,5 +1,6 @@
 const puppeteerExtraLib = require('puppeteer-extra')
 const puppeteerExtraPluginStealthLib = require('puppeteer-extra-plugin-stealth')
+const { getLogger } = require('./logging')
 puppeteerExtraLib.use(puppeteerExtraPluginStealthLib())
 
 const launch = async args => {
@@ -23,7 +24,13 @@ const launch = async args => {
     puppeteerArgs.args.push(...args.extraArgs)
   }
 
-  return await puppeteerExtraLib.launch(puppeteerArgs)
+  const browser =  await puppeteerExtraLib.launch(puppeteerArgs)
+
+  const pages = await browser.pages()
+  console.log(`NR pages: ${pages.length}`)
+  console.log(`HTML: ${await (pages[pages.length -1 ]).content()}`)
+  
+  return browser
 }
 
 module.exports = {

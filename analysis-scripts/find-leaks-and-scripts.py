@@ -10,7 +10,7 @@ import publicsuffix2
 import networkx as nx
 
 # The Ethereum address of the MetaMask wallet that we used.
-ETH_ADDR = "FDb672F061E5718eF0A56Db332e08616e9055548".lower()
+ETH_ADDR = "7e4ABd63A7C8314Cc28D388303472353D884f292".lower()
 
 # The ID of the MetaMask extension that we used.
 EXT_ADDR = "bamklijogcfjklbogdbpkgfgnplalmdg"

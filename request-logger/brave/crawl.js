@@ -13,8 +13,8 @@ const DEFAULT_VIEWPORT = {
 }
 
 const waitForNavigation = async (page) => {
-  const POST_CLICK_LOAD_TIMEOUT = 2000;
-  let maxWaitTimeInMillisecs =  2000;
+  const POST_CLICK_LOAD_TIMEOUT = 2500;
+  let maxWaitTimeInMillisecs =  2500;
 
   if (maxWaitTimeInMillisecs <= POST_CLICK_LOAD_TIMEOUT) {
       maxWaitTimeInMillisecs = POST_CLICK_LOAD_TIMEOUT;
@@ -105,7 +105,7 @@ const crawl = async args => {
     
     const pages = await browser.pages()
 
-   // logger.debug(`nr of pages: ${pages.length}`)
+    //logger.debug(`nr of pages:: ${pages.length}`)
     const mm_login = await pages[pages.length - 1]
     await mm_login.bringToFront();
     const get_started_button = await mm_login
@@ -137,63 +137,115 @@ const crawl = async args => {
     const all_done_button = await mm_login.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div/button');
     await mm_login.evaluate($submit => $submit.click(), all_done_button);
     
+    
+    await page.goto(url, {});
 
-    await page.goto(url, {})
     //page.setViewport(DEFAULT_VIEWPORT)
+    //await (pages[pages.length - 2]).bringToFront();
+    /*await waitForNavigation(page)
+    logger.debug(`nr of pages:: ${(await browser.pages()).length}`)
+    let pages_instant_popup = await browser.pages();
+    if (pages_instant_popup.length == 5){
+      await (pages_instant_popup[4]).bringToFront();
+      let page = pages_instant_popup[4];
+      logger.debug(`found popup`);
+      const next_button = await page.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[3]/div[2]/button[2]');
+      await page.evaluate($submit => $submit.click(), next_button);
+      const continue_button = await page.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[2]/div[2]/div[2]/footer/button[2]');
+      let newPagePromise1 = new Promise(x => browser.once('targetcreated', target => x(target.page())));
+      await page.evaluate($submit => $submit.click(), continue_button);
+      
+      try {
+        const newPageResult1 = timeoutPromise(newPagePromise1, 1000);
+        let popup1 = await newPageResult1;
+        const sign_button = await popup1.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[3]/button[2]');
+        await popup1.evaluate($submit => $submit.click(), sign_button);
+      } catch (error) {
+        logger.debug('no signature needed');
+      }
+    } else {*/
     await (pages[pages.length - 2]).bringToFront();
-    await waitForNavigation(page)
-
+    await waitForNavigation(page);
     logger.debug('looking for wallet button');
     let newPagePromise = null
-    let wallet_buttons = ["Wallet", "Connect Wallet", "Connect wallet", "Connect to a wallet",  "Connect your wallet", "Connect", "Sign In", "Wallet"]
+    //await page.bringToFront();
+    let wallet_buttons = [ "Connect Wallet", "Connect wallet", "connect wallet", "Connect to a wallet",  "Connect your wallet", "Sign In", "CONNECT WALLET", "CONNECT", "SIGN IN", "WALLET", "SIGN", "sign", "SIGNIN", "Sign Up", "Connect Your Wallet", "Wallet", "Connect", "Connect a Wallet", "Connect a wallet", "Sign in", "sign in", "connect"]
     let found_wallet_button = false
     for (const wallet_button_string of wallet_buttons) {
       if(found_wallet_button) break;
       try {
-      const wallet_button = await page.waitForXPath(`//*[normalize-space(text())="${wallet_button_string}"]`);
+        
+      const wallet_button = await page.waitForXPath(`//*[normalize-space(text())="${wallet_button_string}"]`, {timeout: 500});
+     
+      //let dummy_page = await browser.newPage();
       newPagePromise = new Promise(x => browser.once('targetcreated', target => x(target.page())));
-      await page.evaluate($submit => $submit.click(), wallet_button);
+     //logger.debug(`nr of pages:: ${(await browser.pages()).length}`)
+ 
+     await page.evaluate($submit => $submit.click(), wallet_button);
+
       found_wallet_button = true
-      logger.debug('found wallet button');
+      logger.debug(`found wallet button: ${wallet_button_string}`);
       wallet = wallet_button_string;
       } catch {
         logger.debug('try next wallet button')
       }
     }
 
-    /*try {
-      await page.$eval(`input[type="checkbox"]`, check => check.checked = true);
-      console.log('clicked checkbox')
-      //await page.evaluate($submit => $submit.click(), cb_button);
-    } catch (error) {
-      console.log('no checkbox found');
-    }*/
+    
+    const newPageResult1 = timeoutPromise(newPagePromise, 1000);
+    let popup1 = await newPageResult1;
 
-    let mm_buttons = ["MetaMask", "Metamask", "metamask"]
+    logger.debug(`popup1: ${popup1}`);
+
+    let mm_buttons = ["metamask", "MetaMask", "Metamask",  "Connect MetaMask", "Connect Metamask", "Connect Metamask", "Continue", "Connect to MetaMask", "browser wallet", "Browser Wallet"];
 
    // const mm_button = await page.waitForXPath('//*[text()="MetaMask"]')
     //let newPagePromise = new Promise(x => browser.once('targetcreated', target => x(target.page())));
    // await page.evaluate($submit => $submit.click(), mm_button);
+    logger.debug(`pages: ${(await browser.pages()).length}`)
+    try {
+      const click_agree_button = await page.waitForXPath('//input[@type="checkbox"]', {timeout: 500});
+      await page.evaluate($submit => $submit.click(), click_agree_button);
+      //await page.$eval(`input[type="checkbox"]`, check => check.checked = true);
+      console.log('clicked checkbox')
+      //await page.evaluate($submit => $submit.click(), cb_button);
+    } catch (error) {
+      console.log('no checkbox found');
+    }
     console.log('find mm button now');
-    let found_mm_button = false
+    let found_mm_button = false;
     for (const mm_button_string of mm_buttons) {
       if(found_mm_button) break;
       try {
-        const mm_button = await page.waitForXPath(`//*[normalize-space(text())="${mm_button_string}"]`)
+        //let dummy_page = await browser.newPage();
+        //await page.bringToFront();
+        const mm_button = await page.waitForXPath(`//*[text()="${mm_button_string}"]`, {timeout: 500});
         newPagePromise = new Promise(x => browser.once('targetcreated', target => x(target.page())));
         await page.evaluate($submit => $submit.click(), mm_button);
-        found_mm_button = true
+        found_mm_button = true;
         mm = mm_button_string;
+        logger.debug(`found mm button: ${mm_button_string}`);
       } catch {
-        logger.debug('try next metamask button')
+        logger.debug('try next metamask button');
       }
     }
-
+    // /html/body/onboard-v2//section/div/div/div/div/div/div/div/div[2]/div[2]/div/div/button[1]/span
+    // section > div > div > div > div > div > div > div > div.scroll-container.svelte-ro440k > div.svelte-ro440k > div > div > button:nth-child(6) > span
+    // name svelte-1hnpcft
+    //section > div > div > div > div > div > div > div > div.scroll-container.svelte-1n0mo1q > div.svelte-1n0mo1q > div > div > button:nth-child(1) > span
+    
+    try {
+      const click_agree_button = await page.waitForSelector('section > div > div > div > div > div > div > div > div.scroll-container.svelte-1n0mo1q > div.svelte-1n0mo1q > div > div > button:nth-child(1) > span', {visible: true}, {timeout: 500});
+      logger.debug(`mm button: ${click_agree_button}`)
+      await page.evaluate($submit => $submit.click(), click_agree_button);
+    } catch {
+      logger.debug(' ')
+    }
 
     //await waitForNavigation(page)
     logger.debug(`nr of pages: ${pages.length}`)
-    logger.debug(`html page 0: ${await (pages[pages.length -2]).content()}`)
-    logger.debug(`html page 1: ${await (pages[pages.length -1]).content()}`)
+    //logger.debug(`html page 0: ${await (pages[pages.length -2]).content()}`)
+    //logger.debug(`html page 1: ${await (pages[pages.length -1]).content()}`)
 
    /* const wallet_button = await page.waitForXPath('//*[@id="root"]/div/div[4]/header/div/button/span');
     await page.evaluate($submit => $submit.click(), wallet_button);
@@ -202,21 +254,23 @@ const crawl = async args => {
     */
     //const html = await page.content()
     //logger.debug(`html: ${html}`)
-   // await page.waitForNavigation();
+    await waitForNavigation(page);
 
     const pages1 = await browser.pages()
     logger.debug(`nr of pages:: ${pages1.length}`)
     //logger.debug(`html page 2: ${await (pages1[pages1.length -1]).content()}`)
 
 
-    const newPageResult = timeoutPromise(newPagePromise, 1000);
+    const newPageResult = timeoutPromise(newPagePromise, 5000);
     let popup = await newPageResult;
 
     //await mm_login.bringToFront();
-
+    logger.debug(`popup:: ${popup}`)
     let newPagePromise1 = null;
     //connect
-    
+    if(pages1.length == 4){
+      popup = pages1[pages1.length - 1]
+    }
     const next_button = await popup.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[3]/div[2]/button[2]');
     await popup.evaluate($submit => $submit.click(), next_button);
     const continue_button = await popup.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[2]/div[2]/div[2]/footer/button[2]');
@@ -231,10 +285,10 @@ const crawl = async args => {
     } catch (error) {
       logger.debug('no signature needed');
     }
-
+  
 
     let content = url + ': ' + wallet + ', ' + mm + '\n'
-    fs.appendFile('/home/fefe/defi-privacy-measurements/connect_logs.txt', content, err => {
+    fs.appendFile('/home/fefe/defi-privacy-measurements/connect_logs_whats_in_your_wallet.txt', content, err => {
       if (err) {
         console.log('no login found');
       }

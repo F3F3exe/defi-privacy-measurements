@@ -10,6 +10,10 @@ const launch = async args => {
     executablePath: args.executablePath,
     headless: args.headless
   }
+  puppeteerArgs.args.push(`--start-maximized`)
+  puppeteerArgs.args.push(`--disable-popup-blocking`)
+  puppeteerArgs.args.push(`--allow-popups-during-upload`)
+
 
   if (args.metamaskPath) {
     puppeteerArgs.args.push(`--disable-extensions-except=${args.metamaskPath}`)

@@ -1,3 +1,23 @@
+-> "whats_in_your_wallet" folder contains the crawls from the 78 dapps (without debug stuff)
+-> "request-logger" is where the modified crawler is
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # DeFi Privacy Measurements
 
 This repository contains the code and data that we developed as part of our

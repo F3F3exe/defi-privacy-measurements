@@ -5,10 +5,7 @@
 
 script_dir=$(dirname "$0")
 crawler="${script_dir}/run.js"
-google_chrome_binary="/opt/google/chrome/google-chrome"
-google_chrome_profile="/home/fefe/.config/google-chrome/Default"
-metamask_path="~/.config/google-chrome/Default/Extensions/nkbihfbeogaeaoehlefnkodbefgpgknn/10.22.2_0"
-echo 'hello'
+metamask_path="metamask-chrome-10.22.2"
 if [ $# != 1 ]
 then
     >&2 echo "Usage: $0 FILE"
@@ -21,10 +18,8 @@ while read url; do
   domain=$(echo "$url" | awk -F/ '{print $3}')
   "$crawler" \
     --interactive \
-    --binary "$google_chrome_binary" \
     --debug verbose \
     --metamask "$metamask_path" \
     --ancestors \
-    --url "$url" > "${domain}.json" 
+    --url "$url" > "${domain}.json"
 done <"$file_name"
-   # --profile "$google_chrome_profile" \

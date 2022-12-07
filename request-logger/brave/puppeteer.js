@@ -33,7 +33,7 @@ const launch = async args => {
   const pages = await browser.pages()
   console.log(`NR pages: ${pages.length}`)
   console.log(`HTML: ${await (pages[pages.length -1 ]).content()}`)
-  
+
   return browser
 }
 

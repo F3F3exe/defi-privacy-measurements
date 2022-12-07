@@ -1,5 +1,6 @@
 const fsLib = require('fs')
 const urlLib = require('url')
+const puppeteer = require('puppeteer')
 
 const isUrl = possibleUrl => {
   try {
@@ -15,10 +16,13 @@ const isFile = path => {
 }
 
 const validate = rawArgs => {
-  if (!isFile(rawArgs.binary)) {
-    return [false, `Invalid path to Brave binary: ${rawArgs.binary}`]
+  let executablePath = puppeteer.executablePath();
+  if (rawArgs.binary != undefined) {
+    if (!isFile(rawArgs.binary)) {
+      return [false, `Invalid path to browser binary: ${rawArgs.binary}`]
+    }
+    executablePath = rawArgs.binary
   }
-  const executablePath = rawArgs.binary
 
   if (!isUrl(rawArgs.url)) {
     return [false, `Found invalid URL: ${rawArgs.url}`]

@@ -13,7 +13,7 @@ const parser = new argparseLib.ArgumentParser({
   description: 'CLI tool for recording requests made when visiting a URL.'
 })
 parser.add_argument('-b', '--binary', {
-  required: true,
+  required: false,
   help: 'Path to a puppeteer compatible browser.'
 })
 parser.add_argument('--debug', {
@@ -22,7 +22,7 @@ parser.add_argument('--debug', {
   default: defaultDebugSetting
 })
 parser.add_argument('-u', '--url', {
-  help: 'The URL to record requests no',
+  help: 'The URL to record requests',
   required: true
 })
 parser.add_argument('-p', '--profile', {

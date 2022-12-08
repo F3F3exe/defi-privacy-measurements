@@ -15,6 +15,10 @@ const isFile = path => {
   return fsLib.existsSync(path) && fsLib.lstatSync(path).isFile()
 }
 
+const isDirectory = path => {
+  return fsLib.existsSync(path) && fsLib.lstatSync(path).isDirectory()
+}
+
 const validate = rawArgs => {
   let executablePath = puppeteer.executablePath();
   if (rawArgs.binary != undefined) {
@@ -28,6 +32,14 @@ const validate = rawArgs => {
     return [false, `Found invalid URL: ${rawArgs.url}`]
   }
 
+  let destination = '.'
+  if (rawArgs.destination != undefined) {
+    if (!isDirectory(rawArgs.destination)) {
+      return [false, `Invalid destination path: ${rawArgs.destination}. Must be a directory.`]
+    }
+    destination = rawArgs.destination
+  }
+
   const validatedArgs = {
     printFrameHierarchy: !!rawArgs.ancestors,
     debugLevel: rawArgs.debug,
@@ -36,6 +48,7 @@ const validate = rawArgs => {
     secs: rawArgs.secs,
     url: rawArgs.url,
     metamaskPath: rawArgs.metamask,
+    destination: destination,
     executablePath
   }
   return [true, Object.freeze(validatedArgs)]

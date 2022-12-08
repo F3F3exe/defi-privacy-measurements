@@ -1,5 +1,7 @@
 #!/usr/bin/env node
+const fs = require('fs')
 const argparseLib = require('argparse')
+
 
 const braveCrawlLib = require('./brave/crawl.js')
 const braveLoggerLib = require('./brave/logging.js')
@@ -47,6 +49,10 @@ parser.add_argument('-m', '--metamask', {
   help: 'Path to the MetaMask extension.',
   required: false
 })
+parser.add_argument('-d', '--destination', {
+  help: 'Path where to log intercepted requests.',
+  required: false
+})
 
 const rawArgs = parser.parse_args()
 const [isValid, errorOrArgs] = braveValidateLib.validate(rawArgs)
@@ -58,6 +64,11 @@ if (!isValid) {
   const logger = braveLoggerLib.getLoggerForLevel(errorOrArgs.debugLevel)
   logger.debug('Executing with arguments: ', errorOrArgs)
   const crawlLog = await braveCrawlLib.crawl(errorOrArgs)
-  console.log(JSON.stringify(crawlLog))
+  try {
+    domain = errorOrArgs.url.split('//')[1].split('?')[0].split('/')[0]
+    fs.writeFileSync(errorOrArgs.destination+'/'+domain+'.json', JSON.stringify(crawlLog, null, 4))
+  } catch (err) {
+    console.error(err);
+  }
   process.exit(crawlLog.success === true ? 0 : 1)
 })()

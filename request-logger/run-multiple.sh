@@ -6,13 +6,14 @@
 script_dir=$(dirname "$0")
 crawler="${script_dir}/run.js"
 metamask_path="metamask-chrome-10.22.2"
+destination="test_crawls"
+logs="test_logs"
 if [ $# != 1 ]
 then
     >&2 echo "Usage: $0 FILE"
     exit 1
 fi
 file_name="$1"
-echo $file_name
 while read url; do
   echo "Crawling ${url}."
   domain=$(echo "$url" | awk -F/ '{print $3}')
@@ -21,5 +22,6 @@ while read url; do
     --debug verbose \
     --metamask "$metamask_path" \
     --ancestors \
-    --url "$url" > "${domain}.json"
+    --destination "$destination" \
+    --url "$url" > "${logs}/${domain}.log"
 done <"$file_name"

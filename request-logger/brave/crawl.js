@@ -52,11 +52,17 @@ const onRequest = async (options, requestLog, request) => {
 
   const requestUrl = request.url()
   const requestType = request.resourceType()
+  const requestMethod = request.method()
+  const requestHeaders = request.headers()
+  const requestPostData = request.postData()
 
   requestLog.requests.push({
     requestContext,
     url: requestUrl,
-    type: requestType
+    type: requestType,
+    method: requestMethod,
+    headers: requestHeaders,
+    postData: requestPostData
   })
 
   const numRequests = requestLog.requests.length
@@ -93,16 +99,16 @@ const crawl = async args => {
   let browser
   try {
     browser = await bravePuppeteerLib.launch(args)
-   
+
     browser.on('targetcreated', onTargetCreated.bind(undefined, args, log))
-   
+
     //await mm_page.bringToFront()
 
-   
+
     const page = await browser.newPage()
     await waitForNavigation(page)
     logger.debug(`Visiting ${url}`)
-    
+
     const pages = await browser.pages()
 
     //logger.debug(`nr of pages:: ${pages.length}`)
@@ -136,8 +142,8 @@ const crawl = async args => {
 
     const all_done_button = await mm_login.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div/button');
     await mm_login.evaluate($submit => $submit.click(), all_done_button);
-    
-    
+
+
     await page.goto(url, {});
 
     //page.setViewport(DEFAULT_VIEWPORT)
@@ -154,7 +160,7 @@ const crawl = async args => {
       const continue_button = await page.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[2]/div[2]/div[2]/footer/button[2]');
       let newPagePromise1 = new Promise(x => browser.once('targetcreated', target => x(target.page())));
       await page.evaluate($submit => $submit.click(), continue_button);
-      
+
       try {
         const newPageResult1 = timeoutPromise(newPagePromise1, 1000);
         let popup1 = await newPageResult1;
@@ -174,13 +180,13 @@ const crawl = async args => {
     for (const wallet_button_string of wallet_buttons) {
       if(found_wallet_button) break;
       try {
-        
+
       const wallet_button = await page.waitForXPath(`//*[normalize-space(text())="${wallet_button_string}"]`, {timeout: 500});
-     
+
       //let dummy_page = await browser.newPage();
       newPagePromise = new Promise(x => browser.once('targetcreated', target => x(target.page())));
      //logger.debug(`nr of pages:: ${(await browser.pages()).length}`)
- 
+
      await page.evaluate($submit => $submit.click(), wallet_button);
 
       found_wallet_button = true
@@ -191,7 +197,7 @@ const crawl = async args => {
       }
     }
 
-    
+
     const newPageResult1 = timeoutPromise(newPagePromise, 1000);
     let popup1 = await newPageResult1;
 
@@ -233,7 +239,7 @@ const crawl = async args => {
     // section > div > div > div > div > div > div > div > div.scroll-container.svelte-ro440k > div.svelte-ro440k > div > div > button:nth-child(6) > span
     // name svelte-1hnpcft
     //section > div > div > div > div > div > div > div > div.scroll-container.svelte-1n0mo1q > div.svelte-1n0mo1q > div > div > button:nth-child(1) > span
-    
+
     try {
       const click_agree_button = await page.waitForSelector('section > div > div > div > div > div > div > div > div.scroll-container.svelte-1n0mo1q > div.svelte-1n0mo1q > div > div > button:nth-child(1) > span', {visible: true}, {timeout: 500});
       logger.debug(`mm button: ${click_agree_button}`)
@@ -261,7 +267,7 @@ const crawl = async args => {
     //logger.debug(`html page 2: ${await (pages1[pages1.length -1]).content()}`)
 
 
-    const newPageResult = timeoutPromise(newPagePromise, 5000);
+    const newPageResult = timeoutPromise(newPagePromise, 1000);
     let popup = await newPageResult;
 
     //await mm_login.bringToFront();
@@ -276,7 +282,7 @@ const crawl = async args => {
     const continue_button = await popup.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[2]/div[2]/div[2]/footer/button[2]');
     newPagePromise1 = new Promise(x => browser.once('targetcreated', target => x(target.page())));
     await popup.evaluate($submit => $submit.click(), continue_button);
-    
+
     try {
       const newPageResult1 = timeoutPromise(newPagePromise1, 1000);
       let popup1 = await newPageResult1;
@@ -285,7 +291,7 @@ const crawl = async args => {
     } catch (error) {
       logger.debug('no signature needed');
     }
-  
+
 
     let content = url + ': ' + wallet + ', ' + mm + '\n'
     fs.appendFile('/home/fefe/defi-privacy-measurements/connect_logs_whats_in_your_wallet.txt', content, err => {
@@ -296,7 +302,7 @@ const crawl = async args => {
 
 
 
-    
+
     const waitTimeMs = args.secs * 1000
     logger.debug(`Waiting for ${waitTimeMs}ms`)
     await page.waitForTimeout(waitTimeMs)
@@ -330,7 +336,6 @@ const timeoutPromise = async (promise, ms) => {
 
 
 const click = async (elHandle, loginRegisterLinkAttrs, method = "method1", page) => {
-
   try {
       if (method === NATIVE_CLICK) {
           await elHandle.click();
@@ -348,4 +353,3 @@ const click = async (elHandle, loginRegisterLinkAttrs, method = "method1", page)
 module.exports = {
   crawl
 }
-

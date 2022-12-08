@@ -175,13 +175,13 @@ const crawl = async args => {
     logger.debug('looking for wallet button');
     let newPagePromise = null
     //await page.bringToFront();
-    let wallet_buttons = [ "Connect Wallet", "Connect wallet", "connect wallet", "Connect to a wallet",  "Connect your wallet", "Sign In", "CONNECT WALLET", "CONNECT", "SIGN IN", "WALLET", "SIGN", "sign", "SIGNIN", "Sign Up", "Connect Your Wallet", "Wallet", "Connect", "Connect a Wallet", "Connect a wallet", "Sign in", "sign in", "connect"]
+    let wallet_buttons = [ "Connect Wallet", "Connect wallet", "connect wallet", "Connect to a wallet",  "Connect to wallet", "Connect your wallet", "Sign In", "CONNECT WALLET", "CONNECT", "SIGN IN", "WALLET", "SIGN", "sign", "SIGNIN", "Sign Up", "Connect Your Wallet", "Wallet", "Connect", "Connect a Wallet", "Connect a wallet", "Sign in", "sign in", "connect"]
     let found_wallet_button = false
     for (const wallet_button_string of wallet_buttons) {
       if(found_wallet_button) break;
       try {
 
-      const wallet_button = await page.waitForXPath(`//*[normalize-space(text())="${wallet_button_string}"]`, {timeout: 500});
+      const wallet_button = await page.waitForXPath(`//*[normalize-space(text())="${wallet_button_string}"]`, {timeout: 200});
 
       //let dummy_page = await browser.newPage();
       newPagePromise = new Promise(x => browser.once('targetcreated', target => x(target.page())));
@@ -203,7 +203,7 @@ const crawl = async args => {
 
     logger.debug(`popup1: ${popup1}`);
 
-    let mm_buttons = ["metamask", "MetaMask", "Metamask",  "Connect MetaMask", "Connect Metamask", "Connect Metamask", "Continue", "Connect to MetaMask", "browser wallet", "Browser Wallet"];
+    let mm_buttons = ["metamask", "MetaMask", "Metamask",  "Connect MetaMask", "Connect Metamask", "Connect Metamask", "Continue", "Connect to MetaMask", "browser wallet", "Browser Wallet", "Browser wallet", "Metamask & Web3", "Metamask\n& Web3"];
 
    // const mm_button = await page.waitForXPath('//*[text()="MetaMask"]')
     //let newPagePromise = new Promise(x => browser.once('targetcreated', target => x(target.page())));
@@ -225,7 +225,7 @@ const crawl = async args => {
       try {
         //let dummy_page = await browser.newPage();
         //await page.bringToFront();
-        const mm_button = await page.waitForXPath(`//*[text()="${mm_button_string}"]`, {timeout: 500});
+        const mm_button = await page.waitForXPath(`//*[text()="${mm_button_string}"]`, {timeout: 200});
         newPagePromise = new Promise(x => browser.once('targetcreated', target => x(target.page())));
         await page.evaluate($submit => $submit.click(), mm_button);
         found_mm_button = true;
@@ -303,7 +303,7 @@ const crawl = async args => {
 
 
 
-    const waitTimeMs = args.secs * 1000
+    const waitTimeMs = args.secs * 300
     logger.debug(`Waiting for ${waitTimeMs}ms`)
     await page.waitForTimeout(waitTimeMs)
     await page.close()

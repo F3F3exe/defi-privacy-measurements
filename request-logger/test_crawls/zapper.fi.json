@@ -1,0 +1,3138 @@
+{
+    "url": "https://zapper.fi/dashboard",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://zapper.fi/dashboard",
+        "metamaskPath": "metamask-chrome-10.22.2",
+        "destination": "test_crawls",
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1670515255655,
+        "end": 1670515320482
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/react-gallery/carousel.min.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:00:59.708Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"09e15ab9d87b49178f05cc1393b1d1df\",\"init\":true,\"started\":\"2022-12-08T16:00:59.708Z\",\"timestamp\":\"2022-12-08T16:00:59.708Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/_locales/en/messages.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/_locales/en/messages.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/welcome"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:02.346Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"09e15ab9d87b49178f05cc1393b1d1df\",\"init\":false,\"started\":\"2022-12-08T16:00:59.708Z\",\"timestamp\":\"2022-12-08T16:01:02.346Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/welcome"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:02.347Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"dc2f312548a74c8bbbd7c491af347728\",\"init\":true,\"started\":\"2022-12-08T16:01:02.345Z\",\"timestamp\":\"2022-12-08T16:01:02.346Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/welcome"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/welcome"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/welcome"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/images/logo/metamask-fox.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/metametrics-opt-in"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:02.613Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"dc2f312548a74c8bbbd7c491af347728\",\"init\":false,\"started\":\"2022-12-08T16:01:02.345Z\",\"timestamp\":\"2022-12-08T16:01:02.613Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/metametrics-opt-in"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:02.617Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ddfeba3a28ae44ae96fd39f7a96a642e\",\"init\":true,\"started\":\"2022-12-08T16:01:02.613Z\",\"timestamp\":\"2022-12-08T16:01:02.613Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/metametrics-opt-in"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/images/metrics-chart.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/metametrics-opt-in"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/metametrics-opt-in"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/select-action"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:02.827Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ddfeba3a28ae44ae96fd39f7a96a642e\",\"init\":false,\"started\":\"2022-12-08T16:01:02.613Z\",\"timestamp\":\"2022-12-08T16:01:02.827Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/select-action"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:02.828Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a96d8edaae3d47a3a152ca38706828d8\",\"init\":true,\"started\":\"2022-12-08T16:01:02.827Z\",\"timestamp\":\"2022-12-08T16:01:02.827Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:02.936Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a96d8edaae3d47a3a152ca38706828d8\",\"init\":false,\"started\":\"2022-12-08T16:01:02.827Z\",\"timestamp\":\"2022-12-08T16:01:02.936Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:02.938Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"87b9577a37c54e42b5be509f8442b1d7\",\"init\":true,\"started\":\"2022-12-08T16:01:02.936Z\",\"timestamp\":\"2022-12-08T16:01:02.936Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Roboto/Roboto-Regular.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/fontawesome/fa-regular-400.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/end-of-flow"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:07.133Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"87b9577a37c54e42b5be509f8442b1d7\",\"init\":false,\"started\":\"2022-12-08T16:01:02.936Z\",\"timestamp\":\"2022-12-08T16:01:07.133Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/end-of-flow"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:07.135Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1fa9d5d97c9c4e56a01023c3e3a1b784\",\"init\":true,\"started\":\"2022-12-08T16:01:07.133Z\",\"timestamp\":\"2022-12-08T16:01:07.133Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "url": "https://zapper.fi/dashboard",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:07.223Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1fa9d5d97c9c4e56a01023c3e3a1b784\",\"init\":false,\"started\":\"2022-12-08T16:01:07.133Z\",\"timestamp\":\"2022-12-08T16:01:07.223Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:07.233Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"e6697866bf3948a79ce46df2d17f6861\",\"init\":true,\"started\":\"2022-12-08T16:01:07.223Z\",\"timestamp\":\"2022-12-08T16:01:07.223Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/scripts/theme.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/css/55d512fc0d8652e8.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/css/c5b553232c8947dc.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/webpack-46af0f5ae7c17381.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/framework-cb2346359d1fb235.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/main-cde42a3f263a992e.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/_app-7c3f1f6dfd674ab8.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/299-bf46b77463a5b943.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/8091-9723cf41ff3a25ca.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/247-efdf69610db1ba0c.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/1655-78247114cec754ac.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/2600-d9c2005267d368b6.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/9449-8452d6fa7afdc0f3.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/5109-74aae1a13ba12aaf.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/3137-1e9574b2d4fe44c4.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/4156-8c8bf646caf48039.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/dashboard-04c4e1ed55590011.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/PWpY7rzLOnz5fuMEykUKO/_buildManifest.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/PWpY7rzLOnz5fuMEykUKO/_ssgManifest.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/images/eth_logo.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://sessions.bugsnag.com/",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "bugsnag-api-key,bugsnag-payload-version,bugsnag-sent-at,content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://sessions.bugsnag.com/",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "bugsnag-api-key": "94cf63e39b30eeed0386f5cd699124eb",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "bugsnag-payload-version": "1",
+                "referer": "https://zapper.fi/",
+                "bugsnag-sent-at": "2022-12-08T16:01:08.136Z",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"notifier\":{\"name\":\"Bugsnag JavaScript\",\"version\":\"7.14.0\",\"url\":\"https://github.com/bugsnag/bugsnag-js\"},\"device\":{\"locale\":\"en-US\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"orientation\":\"landscape-primary\",\"id\":\"clbf9nqck0000356h3iz5akrg\"},\"app\":{\"releaseStage\":\"production\",\"version\":\"1e0e8695ea70dcfe2c1f427701552fee74278731\",\"type\":\"browser\"},\"sessions\":[{\"id\":\"clbf9nqcm0000356hodp6sy2c\",\"startedAt\":\"2022-12-08T16:01:08.134Z\",\"user\":{\"id\":\"clbf9nqck0000356h3iz5akrg\"}}]}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://sessions.bugsnag.com/",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "bugsnag-api-key": "94cf63e39b30eeed0386f5cd699124eb",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "bugsnag-payload-version": "1",
+                "referer": "https://zapper.fi/",
+                "bugsnag-sent-at": "2022-12-08T16:01:08.207Z",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"notifier\":{\"name\":\"Bugsnag JavaScript\",\"version\":\"7.14.0\",\"url\":\"https://github.com/bugsnag/bugsnag-js\"},\"device\":{\"locale\":\"en-US\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"orientation\":\"landscape-primary\",\"id\":\"clbf9nqck0000356h3iz5akrg\"},\"app\":{\"releaseStage\":\"production\",\"version\":\"1e0e8695ea70dcfe2c1f427701552fee74278731\",\"type\":\"browser\"},\"sessions\":[{\"id\":\"clbf9nqen0001356hpda743iy\",\"startedAt\":\"2022-12-08T16:01:08.207Z\",\"user\":{\"id\":\"clbf9nqck0000356h3iz5akrg\"}}]}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://sessions.bugsnag.com/",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "bugsnag-api-key,bugsnag-payload-version,bugsnag-sent-at,content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://www.googletagmanager.com/gtag/js?id=UA-154758579-1",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"\\n      query SearchRecommended {\\n        searchRecommendations {\\n          results {\\n            __typename\\n            ... on AppResult {\\n              id\\n              category\\n              title\\n              imageUrl\\n              score\\n              networks\\n              appId\\n              name\\n            }\\n            ... on BaseTokenResult {\\n              id\\n              category\\n              title\\n              imageUrl\\n              score\\n              symbol\\n              name\\n              coingeckoId\\n              marketCap\\n              verified\\n              perNetworkInfo {\\n                address\\n                network\\n              }\\n            }\\n            ... on DAOResult {\\n              id\\n              category\\n              title\\n              slug\\n              imageUrl\\n              score\\n              treasuryAddresses\\n              tokenAddress\\n              tags\\n            }\\n            ... on NftCollectionResult {\\n              id\\n              category\\n              title\\n              imageUrl\\n              score\\n              network\\n              address\\n              name\\n              monthlyVolume\\n              openseaSlug\\n              nftStandard\\n            }\\n            ... on UserResult {\\n              id\\n              category\\n              title\\n              imageUrl\\n              score\\n              address\\n              ens\\n            }\\n          }\\n        }\\n      }\\n    \"}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"\\n  query FeatureFlagsEnabled {\\n    featureFlagsEnabled {\\n      name\\n    }\\n  }\\n\",\"variables\":{}}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v1/ios-appstore",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v1/fiat-rates",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v1/gas-prices?network=ethereum&eip1559=true",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v1/deployment/web",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://sse.zapper.fi/v1/sse?streams%5B0%5D=gas-prices%3Aethereum&streams%5B1%5D=deployment%3Aweb%3Aupdated_sha",
+            "type": "eventsource",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "text/event-stream",
+                "cache-control": "no-cache",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://sessions.bugsnag.com/",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "bugsnag-api-key": "94cf63e39b30eeed0386f5cd699124eb",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "bugsnag-payload-version": "1",
+                "referer": "https://zapper.fi/",
+                "bugsnag-sent-at": "2022-12-08T16:01:08.456Z",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"notifier\":{\"name\":\"Bugsnag JavaScript\",\"version\":\"7.14.0\",\"url\":\"https://github.com/bugsnag/bugsnag-js\"},\"device\":{\"locale\":\"en-US\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"orientation\":\"landscape-primary\",\"id\":\"clbf9nqck0000356h3iz5akrg\"},\"app\":{\"releaseStage\":\"production\",\"version\":\"1e0e8695ea70dcfe2c1f427701552fee74278731\",\"type\":\"browser\"},\"sessions\":[{\"id\":\"clbf9nqlj0002356hh9zzpzk9\",\"startedAt\":\"2022-12-08T16:01:08.455Z\",\"user\":{\"id\":\"clbf9nqck0000356h3iz5akrg\"}}]}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/favicon.ico",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/fonts/Inter/Inter-Regular.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/_next/static/css/55d512fc0d8652e8.css",
+                "origin": "https://zapper.fi",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/fonts/Inter/Inter-SemiBold.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/_next/static/css/55d512fc0d8652e8.css",
+                "origin": "https://zapper.fi",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-JJ1RCE5CXC&l=dataLayer&cx=c",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://www.google-analytics.com/analytics.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-JJ1RCE5CXC&gtm=2oebu0&_p=2048050352&cid=1357936318.1670515269&ul=en-us&sr=1280x960&_s=1&sid=1670515268&sct=1&seg=0&dl=https%3A%2F%2Fzapper.fi%2Fdashboard&dt=0%20Gwei%20%7C%20Zapper%20-%20Your%20Home%20to%20Web3&en=page_view&_fv=1&_nsi=1&_ss=1",
+            "type": "ping",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&aip=1&a=2048050352&t=pageview&_s=1&dl=https%3A%2F%2Fzapper.fi%2Fdashboard&dp=%2Fdashboard&ul=en-us&de=UTF-8&dt=0%20Gwei%20%7C%20Zapper%20-%20Your%20Home%20to%20Web3&sd=24-bit&sr=1280x960&vp=1199x813&je=0&_u=YADAAUABAAAAACAAI~&jid=1366413947&gjid=1870441809&cid=1357936318.1670515269&tid=UA-154758579-1&_gid=517686132.1670515269&_r=1&gtm=2oubu0&z=101107460",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "ping",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{}\n{\"type\":\"client_report\"}\n{\"timestamp\":1670515268.946,\"discarded_events\":[{\"reason\":\"network_error\",\"category\":\"session\",\"quantity\":4}]}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"\\n      query SearchRecommended {\\n        searchRecommendations {\\n          results {\\n            __typename\\n            ... on AppResult {\\n              id\\n              category\\n              title\\n              imageUrl\\n              score\\n              networks\\n              appId\\n              name\\n            }\\n            ... on BaseTokenResult {\\n              id\\n              category\\n              title\\n              imageUrl\\n              score\\n              symbol\\n              name\\n              coingeckoId\\n              marketCap\\n              verified\\n              perNetworkInfo {\\n                address\\n                network\\n              }\\n            }\\n            ... on DAOResult {\\n              id\\n              category\\n              title\\n              slug\\n              imageUrl\\n              score\\n              treasuryAddresses\\n              tokenAddress\\n              tags\\n            }\\n            ... on NftCollectionResult {\\n              id\\n              category\\n              title\\n              imageUrl\\n              score\\n              network\\n              address\\n              name\\n              monthlyVolume\\n              openseaSlug\\n              nftStandard\\n            }\\n            ... on UserResult {\\n              id\\n              category\\n              title\\n              imageUrl\\n              score\\n              address\\n              ens\\n            }\\n          }\\n        }\\n      }\\n    \"}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v1/ios-appstore",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/index-5f91bae3a290a3a7.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en/dashboard.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en/feed.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/feed-64a0f272260fcb69.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en/nft.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/nft-ef8f2f035432e1b9.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en/apps.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/3671-bdda89429d0b86d0.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/1997-b2e35297dd3197e2.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/apps-3402e12ce8bd5a96.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en/daos.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/daos-d630f16605701d1a.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en/exchange.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/5331-13dd4ea11a1deaa7.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/exchange-c8d67cb5786bdf81.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en/bridge.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/bridge-372418b658b77219.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j98&tid=UA-154758579-1&cid=1357936318.1670515269&jid=1366413947&gjid=1870441809&_gid=517686132.1670515269&_u=YADAAUAAAAAAACAAI~&z=644777008",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/manifest.json",
+            "type": "manifest",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/css/c5b553232c8947dc.css",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/index-5f91bae3a290a3a7.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/css/eca7348c56b55677.css",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/feed-64a0f272260fcb69.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/css/15cd99233ce144b7.css",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/nft-ef8f2f035432e1b9.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/3671-bdda89429d0b86d0.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/1997-b2e35297dd3197e2.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/apps-3402e12ce8bd5a96.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/css/6df57a347b0be305.css",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/daos-d630f16605701d1a.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/5331-13dd4ea11a1deaa7.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/exchange-c8d67cb5786bdf81.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/logo192.png",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/bridge-372418b658b77219.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/css/8572924ca020038d.css",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper-frontend-next-2q1vyddvk-zapper-fi.vercel.app/api/event",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"api_key\":\"8637806ba8260d95da4cdfc38c13a4e0\",\"events\":[{\"user_id\":\"686ae52d-4015-4d31-bd7e-4df71a12417c\",\"device_id\":\"f1559ffe-19d2-4fb6-8ff7-d23277c5f198\",\"session_id\":1670515268397,\"time\":1670515268424,\"platform\":\"Web\",\"os_name\":\"Chrome\",\"os_version\":\"108.0.0.0\",\"device_model\":\"Windows\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"0d16459c-0899-46a2-afe3-2c3272cac20d\",\"event_type\":\"$identify\",\"user_properties\":{\"$setOnce\":{\"initial_utm_source\":\"EMPTY\",\"initial_utm_medium\":\"EMPTY\",\"initial_utm_campaign\":\"EMPTY\",\"initial_utm_term\":\"EMPTY\",\"initial_utm_content\":\"EMPTY\",\"initial_referrer\":\"EMPTY\",\"initial_referring_domain\":\"EMPTY\",\"initial_gclid\":\"EMPTY\",\"initial_fbclid\":\"EMPTY\"},\"$unset\":{\"utm_source\":\"-\",\"utm_medium\":\"-\",\"utm_campaign\":\"-\",\"utm_term\":\"-\",\"utm_content\":\"-\",\"referrer\":\"-\",\"referring_domain\":\"-\",\"gclid\":\"-\",\"fbclid\":\"-\"}},\"event_id\":0,\"library\":\"amplitude-ts/1.3.0\"}],\"options\":{}}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://zapper-frontend-next-2q1vyddvk-zapper-fi.vercel.app/api/event",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/984.a6b8ce9f2a940be6.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/7922.a169a34b4492987e.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/3837.97c2688c380c3ea9.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/3484.84ddbb2eed8431d6.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/2217.5d6a167f992d25e1.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/3970.f1d3a23b2d9f1dfc.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/1415.aba39617aac07e84.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/4718.5cd28b841bc546b0.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/5894.784ea6c414374360.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/5117.58f89849269b6958.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/2454.41c6fc2a65cfdf79.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/fonts/Inter/Inter-Bold.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/_next/static/css/55d512fc0d8652e8.css",
+                "origin": "https://zapper.fi",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper-frontend-next-2q1vyddvk-zapper-fi.vercel.app/api/event",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"api_key\":\"8637806ba8260d95da4cdfc38c13a4e0\",\"events\":[{\"user_id\":\"686ae52d-4015-4d31-bd7e-4df71a12417c\",\"device_id\":\"f1559ffe-19d2-4fb6-8ff7-d23277c5f198\",\"session_id\":1670515268397,\"time\":1670515271625,\"platform\":\"Web\",\"os_name\":\"Chrome\",\"os_version\":\"108.0.0.0\",\"device_model\":\"Windows\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"e2dac372-5761-4d52-b69c-0c0c95875465\",\"event_type\":\"connect wallet provider\",\"event_properties\":{\"source\":\"\",\"previousEvent\":null},\"event_id\":1,\"library\":\"amplitude-ts/1.3.0\"}],\"options\":{}}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-JJ1RCE5CXC&gtm=2oebu0&_p=2048050352&cid=1357936318.1670515269&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_s=2&sid=1670515268&sct=1&seg=0&dl=https%3A%2F%2Fzapper.fi%2Fdashboard&dt=0%20Gwei%20%7C%20Zapper%20-%20Your%20Home%20to%20Web3&en=scroll&epn.percent_scrolled=90",
+            "type": "ping",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/react-gallery/carousel.min.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"NvIn/XHEambnCZtG0yvgBcz+hLs=\"",
+                "if-modified-since": "Wed, 07 Dec 2022 16:54:57 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:47.161Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"92ccde5d2b39462591b2aeb9d80e4ff7\",\"init\":true,\"started\":\"2022-12-08T16:01:47.161Z\",\"timestamp\":\"2022-12-08T16:01:47.161Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/_locales/en/messages.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/_locales/en/messages.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html#connect/UjCJEDFSo-jXkzgDhCHxX"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "if-none-match": "\"jIAGOEulBi3kwpJMcy3RVo5YI2Q=\"",
+                "if-modified-since": "Wed, 07 Dec 2022 16:54:57 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html#connect/UjCJEDFSo-jXkzgDhCHxX"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "if-none-match": "\"jIAGOEulBi3kwpJMcy3RVo5YI2Q=\"",
+                "if-modified-since": "Wed, 07 Dec 2022 16:54:57 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html#connect/UjCJEDFSo-jXkzgDhCHxX"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "if-none-match": "\"lgtb/Dtmefu9LG5yca9ICTMoI64=\"",
+                "if-modified-since": "Wed, 07 Dec 2022 16:54:57 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html#connect/UjCJEDFSo-jXkzgDhCHxX"
+            ],
+            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "if-none-match": "\"jIAGOEulBi3kwpJMcy3RVo5YI2Q=\"",
+                "if-modified-since": "Wed, 07 Dec 2022 16:54:57 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html#connect/UjCJEDFSo-jXkzgDhCHxX"
+            ],
+            "url": "https://zapper.fi/favicon.ico",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html#connect/UjCJEDFSo-jXkzgDhCHxX/confirm-permissions"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:50.177Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"92ccde5d2b39462591b2aeb9d80e4ff7\",\"init\":false,\"started\":\"2022-12-08T16:01:47.161Z\",\"timestamp\":\"2022-12-08T16:01:50.176Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html#connect/UjCJEDFSo-jXkzgDhCHxX/confirm-permissions"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:50.179Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"17584e38f24847ebbc6fadc05046e03a\",\"init\":true,\"started\":\"2022-12-08T16:01:50.176Z\",\"timestamp\":\"2022-12-08T16:01:50.176Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v1/users/0x7e4abd63a7c8314cc28d388303472353d884f292/avatar",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://eth-mainnet.alchemyapi.io/v2/O3BC8-S6t0tHVqzuxxrMPH9eT5a_zr2a",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://eth-mainnet.alchemyapi.io/v2/O3BC8-S6t0tHVqzuxxrMPH9eT5a_zr2a",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"\\n  query BridgeClaimableAlerts($input: BridgeClaimableAlertsInput!) {\\n    bridgeClaimableAlerts(input: $input) {\\n      id\\n      title\\n      description\\n      kind\\n      link {\\n        label\\n        href\\n      }\\n      meta {\\n        ownerAddress\\n        allowancesToRevoke {\\n          tokenAddress\\n          tokenSymbol\\n        }\\n        balancesToClaim {\\n          tokenAddress\\n          tokenSymbol\\n          balance\\n          balanceRaw\\n        }\\n      }\\n      isClosable\\n    }\\n  }\\n\",\"variables\":{\"input\":{\"addresses\":[\"0x7e4abd63a7c8314cc28d388303472353d884f292\"]}}}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"\\n        query NftNetWorth($addresses: [Address!]!, $network: Network) {\\n          nftNetWorth(addresses: $addresses, network: $network)\\n        }\\n      \",\"variables\":{\"addresses\":[\"0x7e4abd63a7c8314cc28d388303472353d884f292\"]}}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"\\n      query UsersAvatars($usersInput: UsersInput!) {\\n        users(input: $usersInput) {\\n          address\\n          avatarURI\\n        }\\n      }\\n    \",\"variables\":{\"usersInput\":{\"addresses\":[\"0x7e4abd63a7c8314cc28d388303472353d884f292\"]}}}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/images/networks/ethereum-icon.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v1/gamification/users/0x7e4abd63a7c8314cc28d388303472353d884f292/rewards-v2",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v1/gamification/users/0x7e4abd63a7c8314cc28d388303472353d884f292/zp",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v1/gamification/users/0x7e4abd63a7c8314cc28d388303472353d884f292",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v1/gamification/users/0x7e4abd63a7c8314cc28d388303472353d884f292/available-quests",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v2/balances?addresses%5B0%5D=0x7e4abd63a7c8314cc28d388303472353d884f292&networks%5B0%5D=ethereum&networks%5B1%5D=polygon&networks%5B2%5D=optimism&networks%5B3%5D=gnosis&networks%5B4%5D=binance-smart-chain&networks%5B5%5D=fantom&networks%5B6%5D=avalanche&networks%5B7%5D=arbitrum&networks%5B8%5D=bitcoin&networks%5B9%5D=cronos&networks%5B10%5D=aurora&nonNilOnly=true&useNewBalancesFormat=true&useNftService=true",
+            "type": "eventsource",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "text/event-stream",
+                "cache-control": "no-cache",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"\\n        query UserSocialStats($address: Address!) {\\n          user(input: { address: $address }) {\\n            address\\n            level\\n            xp\\n            ens\\n            socialStats {\\n              followersCount\\n              followedCount\\n            }\\n          }\\n        }\\n      \",\"variables\":{\"address\":\"0x7e4abd63a7c8314cc28d388303472353d884f292\"}}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://storage.googleapis.com/zapper-fi-assets/status-pages/dashboard",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"\\n        query NftUsersCollectionsTotals(\\n          $owners: [Address!]!\\n          $network: Network\\n          $minCollectionValueUsd: Float\\n          $search: String\\n          $collections: [Address!]\\n        ) {\\n          nftUsersCollections(\\n            input: {\\n              owners: $owners\\n              network: $network\\n              search: $search\\n              minCollectionValueUsd: $minCollectionValueUsd\\n              collections: $collections\\n            }\\n          ) {\\n            totals {\\n              count\\n              balanceUSD\\n            }\\n          }\\n        }\\n      \",\"variables\":{\"owners\":[\"0x7e4abd63a7c8314cc28d388303472353d884f292\"],\"minCollectionValueUsd\":0,\"search\":\"\",\"collections\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"\\n          query UserDaoMembership($input: UserInput!) {\\n            user(input: $input) {\\n              daoMemberships {\\n                id\\n                img\\n                name\\n                slug\\n                share\\n                percentileShare\\n                governanceBaseToken {\\n                  symbol\\n                }\\n              }\\n            }\\n          }\\n        \",\"variables\":{\"input\":{\"address\":\"0x7e4abd63a7c8314cc28d388303472353d884f292\"}}}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v1/ens?addresses[]=0x7e4abd63a7c8314cc28d388303472353d884f292",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://eth-mainnet.alchemyapi.io/v2/O3BC8-S6t0tHVqzuxxrMPH9eT5a_zr2a",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_call\",\"params\":[{\"to\":\"0x00000000000c2e074ec69a0dfb2997ba6c7d2e1e\",\"data\":\"0x0178b8bf51eff83f0a5549774727abce67518779c5e7e7cfb5286a9db9b2581961e391a0\"},\"latest\"],\"id\":43,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://eth-mainnet.alchemyapi.io/v2/O3BC8-S6t0tHVqzuxxrMPH9eT5a_zr2a",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en/dashboard/social.json?tab_social=followees",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/dashboard/social-e7c025d764b1ff04.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en/dashboard/social.json?tab_social=followers",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/dashboard/social-e7c025d764b1ff04.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_call\",\"params\":[{\"to\":\"0x00000000000c2e074ec69a0dfb2997ba6c7d2e1e\",\"data\":\"0x0178b8bf51eff83f0a5549774727abce67518779c5e7e7cfb5286a9db9b2581961e391a0\"},\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/graphql",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"\\n        query NftUsersCollections(\\n          $owners: [Address!]!\\n          $network: Network\\n          $minCollectionValueUsd: Float\\n          $search: String\\n          $collections: [Address!]\\n          $first: Int\\n          $after: String\\n        ) {\\n          nftUsersCollections(\\n            input: {\\n              owners: $owners\\n              network: $network\\n              search: $search\\n              minCollectionValueUsd: $minCollectionValueUsd\\n              collections: $collections\\n              first: $first\\n              after: $after\\n            }\\n          ) {\\n            edges {\\n              cursor\\n              balances {\\n                user {\\n                  address\\n                  ens\\n                  avatarURI\\n                  avatar {\\n                    medias {\\n                      ... on Image {\\n                        url(input: { size: THUMBNAIL })\\n                      }\\n                    }\\n                  }\\n                }\\n                balance\\n                balanceUSD\\n                balanceUnique\\n              }\\n              collection {\\n                name\\n                address\\n                network\\n                floorPriceEth\\n                logoImageUrl\\n                bannerImageUrl\\n                openseaId\\n              }\\n            }\\n          }\\n        }\\n      \",\"variables\":{\"owners\":[\"0x7e4abd63a7c8314cc28d388303472353d884f292\"],\"minCollectionValueUsd\":0,\"first\":5,\"collections\":[]}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html#"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:51.417Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"17584e38f24847ebbc6fadc05046e03a\",\"init\":false,\"started\":\"2022-12-08T16:01:50.176Z\",\"timestamp\":\"2022-12-08T16:01:51.417Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/notification.html#"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-08T16:01:51.421Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"718c65d291d44efa9a9fc8226b978884\",\"init\":true,\"started\":\"2022-12-08T16:01:51.417Z\",\"timestamp\":\"2022-12-08T16:01:51.417Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://web.zapper.fi/v1/ios-appstore",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper-frontend-next-2q1vyddvk-zapper-fi.vercel.app/api/event",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"api_key\":\"8637806ba8260d95da4cdfc38c13a4e0\",\"events\":[{\"user_id\":\"686ae52d-4015-4d31-bd7e-4df71a12417c\",\"device_id\":\"f1559ffe-19d2-4fb6-8ff7-d23277c5f198\",\"session_id\":1670515268397,\"time\":1670515310527,\"platform\":\"Web\",\"os_name\":\"Chrome\",\"os_version\":\"108.0.0.0\",\"device_model\":\"Windows\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"73055b7a-e157-489b-94c5-66e3290ddc57\",\"event_type\":\"view my profile - main\",\"event_properties\":{\"source\":\"\",\"previousEvent\":\"connect wallet provider\"},\"event_id\":2,\"library\":\"amplitude-ts/1.3.0\"}],\"options\":{}}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://zapper-frontend-next-2q1vyddvk-zapper-fi.vercel.app/api/event",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://zapper.fi",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://i.seadn.io/gae/AyVlS6iBN7ZPb2-MvDnO8ssUeM9CffBB4rhtB3K78VBjneSAtf5R1P6iIQNTDTT36P4Xhr4Vm-N5hS6APpzaIb4Vo2COyDZ4L8EprA?w=1280&auto=format",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en/nft/ethereum/0xbb08660aeb9d5bfd2b77137a716530319c6fd453.json?collectionOwners%5B%5D=0x7e4abd63a7c8314cc28d388303472353d884f292",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/8411-66295d6499495cc0.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/9576-53b6eea481222278.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/7137-afcc699f18879ae3.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/596-11efcb3359ec7f72.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/1992-ef1f448cd6b8591f.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/nft/%5Bnetwork%5D/%5BcollectionAddress%5D-faa7864ddb0699b6.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/8411-66295d6499495cc0.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/9576-53b6eea481222278.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/7137-afcc699f18879ae3.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/596-11efcb3359ec7f72.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/1992-ef1f448cd6b8591f.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/nft/%5Bnetwork%5D/%5BcollectionAddress%5D-faa7864ddb0699b6.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/css/af2a311902d92101.css",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/images/networks/binance-smart-chain-icon.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://storage.googleapis.com/zapper-fi-assets/tokens/binance-smart-chain/0x0000000000000000000000000000000000000000.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en/token/binance-smart-chain/0x0000000000000000000000000000000000000000/BNB/details.json?network=binance-smart-chain&tokenAddress=0x0000000000000000000000000000000000000000&symbol=BNB",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/6745-4cca9bc8fc2f29d4.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/4318-c06313c91d9988f6.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/token/%5Bnetwork%5D/%5BtokenAddress%5D/%5Bsymbol%5D/details-904354c2c69c5431.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/6745-4cca9bc8fc2f29d4.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/4318-c06313c91d9988f6.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/chunks/pages/token/%5Bnetwork%5D/%5BtokenAddress%5D/%5Bsymbol%5D/details-904354c2c69c5431.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/static/css/ed9d156bb83c489e.css",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper-frontend-next-2q1vyddvk-zapper-fi.vercel.app/api/event",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://zapper.fi/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"api_key\":\"8637806ba8260d95da4cdfc38c13a4e0\",\"events\":[{\"user_id\":\"686ae52d-4015-4d31-bd7e-4df71a12417c\",\"device_id\":\"f1559ffe-19d2-4fb6-8ff7-d23277c5f198\",\"session_id\":1670515268397,\"time\":1670515311760,\"platform\":\"Web\",\"os_name\":\"Chrome\",\"os_version\":\"108.0.0.0\",\"device_model\":\"Windows\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"f4165794-d150-454e-862d-d5a8041c4c98\",\"event_type\":\"successfull wallet connection\",\"event_properties\":{\"wallet provider\":\"MetaMask\",\"source\":\"\",\"previousEvent\":\"view my profile - main\"},\"event_id\":3,\"library\":\"amplitude-ts/1.3.0\"}],\"options\":{}}"
+        },
+        {
+            "requestContext": [
+                "https://zapper.fi/dashboard"
+            ],
+            "url": "https://zapper.fi/_next/data/PWpY7rzLOnz5fuMEykUKO/en/feed.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "purpose": "prefetch",
+                "x-nextjs-data": "1",
+                "referer": "https://zapper.fi/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        }
+    ],
+    "success": true
+}

@@ -9,21 +9,24 @@ import matplotlib.pyplot as plt
 import publicsuffix2
 import networkx as nx
 
+import LeakDetector
+MAX_LEAK_DETECTION_LAYERS = 3
+
 # The Ethereum address of the MetaMask wallet that we used.
-ETH_ADDR = "7e4ABd63A7C8314Cc28D388303472353D884f292".lower()
-
-# The ID of the MetaMask extension that we used.
-EXT_ADDR = "bamklijogcfjklbogdbpkgfgnplalmdg"
-
-# 1Inch's domains.
-ONE_INCH_DOMAINS = ["1inch.exchange", "1inch.io"]
-BALANCER_DOMAINS = ["balancer.fi", "balancer.finance"]
+#ETH_ADDR = "FDb672F061E5718eF0A56Db332e08616e9055548"
+ETH_ADDR = "7e4ABd63A7C8314Cc28D388303472353D884f292"
 
 G = nx.DiGraph()
 defi_nodes = set()
 script_nodes = set()
 edges = []
 addr_leaks = {}
+
+class colors:
+    INFO = '\033[94m'
+    OK = '\033[92m'
+    FAIL = '\033[91m'
+    END = '\033[0m'
 
 def log(msg):
     """Log the given message to stderr."""
@@ -32,7 +35,7 @@ def log(msg):
 def parse_file(file_name):
     """Parse the given JSON file and return its content."""
     with open(file_name, "r") as fd:
-        json_data = json.load(fd)
+            json_data = json.load(fd)
     return json_data
 
 def get_etld1(url):
@@ -40,24 +43,17 @@ def get_etld1(url):
     fqdn = urlparse(url).netloc
     return publicsuffix2.get_sld(fqdn)
 
-def has_eth_addr(url):
-    """Return True if the given URL contains our Ethereum address."""
-    # TODO: Check for popular encodings.
-    url = url.lower()
-    return ETH_ADDR in url
-
 def is_irrelevant(req):
     """Return True if the given request is irrelevant to our data analysis."""
-    if EXT_ADDR in req["url"]:
+    if req["url"].startswith("chrome-extension://") or req["url"].startswith("data:") or req["url"].startswith("blob:"):
         return True
     return False
 
 def are_unrelated(domain, origin):
     """Return True if the two given domains are likely independent."""
-    if domain in ONE_INCH_DOMAINS and origin in ONE_INCH_DOMAINS:
-        return False
-    if domain in BALANCER_DOMAINS and origin in BALANCER_DOMAINS:
-        return False
+    if domain != None and "." in domain:
+        if origin.split('.')[-2] in domain.split('.')[-2]:
+            return False
     return domain != origin
 
 def analyse_reqs(origin, reqs):
@@ -66,7 +62,18 @@ def analyse_reqs(origin, reqs):
     req_dst = {}
     leaks = {}
     origin = get_etld1(origin)
-    log("Analyzing requests for origin: {}".format(origin))
+    log("Analyzing requests for origin: "+colors.INFO+origin+colors.END)
+
+    search_terms = [ETH_ADDR, ETH_ADDR.lower(), ETH_ADDR.upper()]
+
+    detector = LeakDetector.LeakDetector(
+        search_terms,
+        encoding_set=LeakDetector.LIKELY_ENCODINGS,
+        hash_set=LeakDetector.LIKELY_HASHES,
+        encoding_layers=MAX_LEAK_DETECTION_LAYERS,
+        hash_layers=MAX_LEAK_DETECTION_LAYERS,
+        debugging=False
+    )
 
     for req in reqs:
         if is_irrelevant(req):
@@ -74,20 +81,26 @@ def analyse_reqs(origin, reqs):
         url = req["url"]
         domain = get_etld1(url)
 
-        if req["type"] == "script" and domain != origin:
+        if req["type"] == "script" and domain != origin and domain != None:
             G.add_node(domain)
             script_domains.add(domain)
             script_nodes.add(domain)
             edges.append(tuple([origin, domain]))
 
-        if are_unrelated(domain, origin) and has_eth_addr(url):
-            log("Found leak: {}".format(url))
-            addr_leaks[origin] = addr_leaks.get(origin, 0) + 1
+        if are_unrelated(domain, origin):
+            url_leaks = detector.check_url(req["url"], encoding_layers=MAX_LEAK_DETECTION_LAYERS)
+            if len(url_leaks) > 0:
+                log(colors.OK+"Found leak (URL): "+req["url"]+colors.END)
+                addr_leaks[origin] = addr_leaks.get(origin, 0) + 1
+            if "postData" in req:
+                post_leaks = detector.check_post_data(req["postData"], encoding_layers=MAX_LEAK_DETECTION_LAYERS)
+                if len(post_leaks) > 0:
+                    log(colors.OK+"Found leak (POST DATA): "+req["url"]+colors.END)
+                    addr_leaks[origin] = addr_leaks.get(origin, 0) + 1
 
         req_dst[domain] = req_dst.get(domain, 0) + 1
 
-    log("Sourced {} scripts from: {}".format(len(script_domains),
-                                             script_domains))
+    log("Found "+colors.INFO+str(len(script_domains))+colors.END+" third-party script(s).")
 
 def print_leaks():
     """Print the number of Ethereum address leaks per DeFi origin."""
@@ -95,7 +108,7 @@ def print_leaks():
     for origin, num_leaks in sorted(addr_leaks.items(),
                                     key=lambda x: x[1],
                                     reverse=True):
-        print("{} & {} \\\\".format(origin, num_leaks))
+        print("  {} \t {} ".format(num_leaks, origin))
 
 def print_sourced_script_popularity():
     """Print the domains whose scripts are sourced by DeFi sites."""
@@ -146,10 +159,14 @@ def parse_directory(directory):
             log("Skipping {}; not a JSON file.".format(file_name))
             continue
 
-        log("Parsing file: {}".format(file_name))
-        json_data = parse_file(file_name)
-        log("Extracted {} reqs from file: {}".format(
-              len(json_data["requests"]), file_name))
+        log("Parsing file: "+colors.INFO+file_name+colors.END)
+        try:
+            json_data = parse_file(file_name)
+        except:
+            print(colors.FAIL+"Error: Could not parse", file_name+colors.END)
+            continue
+
+        log("Extracted "+colors.INFO+str(len(json_data["requests"]))+colors.END+" reqs from file: "+colors.INFO+file_name+colors.END)
 
         # Add DeFi site as new node to dependency graph.
 
@@ -167,4 +184,4 @@ if __name__ == "__main__":
 
     # create_connectivity_graph()
     print_leaks()
-    print_sourced_script_popularity()
+    #print_sourced_script_popularity()

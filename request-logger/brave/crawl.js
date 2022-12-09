@@ -294,7 +294,7 @@ const crawl = async args => {
 
 
     let content = url + ': ' + wallet + ', ' + mm + '\n'
-    fs.appendFile('/home/fefe/defi-privacy-measurements/connect_logs_whats_in_your_wallet.txt', content, err => {
+    fs.appendFile('/home/fefe/new/defi-privacy-measurements/connect_logs_whats_in_your_wallet.txt', content, err => {
       if (err) {
         console.log('no login found');
       }

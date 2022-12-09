@@ -76,7 +76,7 @@ def get_path_from_url(url):
     try:
         return url.split(urlparse(url).netloc, 1)[-1]
     except Exception as exc:
-        print("Cannot parse url %s %s" % (url, exc))
+        #print("Cannot parse url %s %s" % (url, exc))
         return ""
 
 

@@ -12,15 +12,8 @@ import networkx as nx
 import LeakDetector
 MAX_LEAK_DETECTION_LAYERS = 3
 
-# The Ethereum address of the MetaMask wallet that we used.
-#ETH_ADDR = "FDb672F061E5718eF0A56Db332e08616e9055548"
+ETH_ADDR_WHATS_IN_YOUR_WALLET = "FDb672F061E5718eF0A56Db332e08616e9055548"
 ETH_ADDR = "7e4ABd63A7C8314Cc28D388303472353D884f292"
-
-G = nx.DiGraph()
-defi_nodes = set()
-script_nodes = set()
-edges = []
-addr_leaks = {}
 
 class colors:
     INFO = '\033[94m'
@@ -43,9 +36,14 @@ def get_etld1(url):
     fqdn = urlparse(url).netloc
     return publicsuffix2.get_sld(fqdn)
 
+def has_eth_addr(url, eth_address):
+    """Return True if the given URL contains our Ethereum address."""
+    url = url.lower()
+    return eth_address in url
+
 def is_irrelevant(req):
     """Return True if the given request is irrelevant to our data analysis."""
-    if req["url"].startswith("chrome-extension://") or req["url"].startswith("data:") or req["url"].startswith("blob:"):
+    if req["url"].startswith("chrome-extension://"):
         return True
     return False
 
@@ -56,15 +54,14 @@ def are_unrelated(domain, origin):
             return False
     return domain != origin
 
-def analyse_reqs(origin, reqs):
+def analyse_reqs(origin, reqs, G, script_nodes, edges, addr_leaks, post_leaks, eth_address):
     """Analyze the given requests for the given origin."""
     script_domains = set()
     req_dst = {}
-    leaks = {}
     origin = get_etld1(origin)
     log("Analyzing requests for origin: "+colors.INFO+origin+colors.END)
 
-    search_terms = [ETH_ADDR, ETH_ADDR.lower(), ETH_ADDR.upper()]
+    search_terms = [eth_address, eth_address.lower(), eth_address.upper()]
 
     detector = LeakDetector.LeakDetector(
         search_terms,
@@ -81,34 +78,48 @@ def analyse_reqs(origin, reqs):
         url = req["url"]
         domain = get_etld1(url)
 
-        if req["type"] == "script" and domain != origin and domain != None:
+        if domain != origin and domain != None:
             G.add_node(domain)
             script_domains.add(domain)
             script_nodes.add(domain)
             edges.append(tuple([origin, domain]))
 
         if are_unrelated(domain, origin):
-            url_leaks = detector.check_url(req["url"], encoding_layers=MAX_LEAK_DETECTION_LAYERS)
-            if len(url_leaks) > 0:
+            url_leaks_detected = detector.check_url(req["url"], encoding_layers=MAX_LEAK_DETECTION_LAYERS)
+            if len(url_leaks_detected) > 0 or has_eth_addr(req["url"], eth_address.lower()):
                 log(colors.OK+"Found leak (URL): "+req["url"]+colors.END)
                 addr_leaks[origin] = addr_leaks.get(origin, 0) + 1
             if "postData" in req:
-                post_leaks = detector.check_post_data(req["postData"], encoding_layers=MAX_LEAK_DETECTION_LAYERS)
-                if len(post_leaks) > 0:
+                post_leaks_detected = detector.check_post_data(req["postData"], encoding_layers=MAX_LEAK_DETECTION_LAYERS)
+                if len(post_leaks_detected) > 0 or has_eth_addr(req["postData"], eth_address.lower()):
                     log(colors.OK+"Found leak (POST DATA): "+req["url"]+colors.END)
                     addr_leaks[origin] = addr_leaks.get(origin, 0) + 1
+                    post_leaks[origin] = post_leaks.get(origin, 0) + 1
 
         req_dst[domain] = req_dst.get(domain, 0) + 1
 
     log("Found "+colors.INFO+str(len(script_domains))+colors.END+" third-party script(s).")
 
-def print_leaks():
+def print_leaks(total, addr_leaks, post_leaks, whats_in_your_wallet_leaks):
     """Print the number of Ethereum address leaks per DeFi origin."""
+    log("")
+    ratio = len(addr_leaks) / total * 100
+    log("Found "+colors.INFO+str(len(addr_leaks))+"/"+str(total)+" ("+str(int(ratio))+"%)"+colors.END+" websites leaking the Ethereum wallet address.")
     log("Number of 3rd party leaks per origin:")
     for origin, num_leaks in sorted(addr_leaks.items(),
                                     key=lambda x: x[1],
                                     reverse=True):
-        print("  {} \t {} ".format(num_leaks, origin))
+        if origin in whats_in_your_wallet_leaks:
+            if origin in post_leaks:
+                print("  "+colors.OK+str(num_leaks)+" \t "+origin+" [P]"+colors.END+" ")
+            else:
+                print("  "+colors.OK+str(num_leaks)+" \t "+origin+colors.END+" ")
+        else:
+            if origin in post_leaks:
+                print("  {} \t {} [P] ".format(num_leaks, origin))
+            else:
+                print("  {} \t {} ".format(num_leaks, origin))
+    log(" [P] This indicates that leaks happened via HTTP POST requests.")
 
 def print_sourced_script_popularity():
     """Print the domains whose scripts are sourced by DeFi sites."""
@@ -151,13 +162,27 @@ def create_connectivity_graph():
     plt.tight_layout()
     plt.show()
 
-def parse_directory(directory):
+def parse_directory(directory, eth_address):
     """Iterate over the given directory and parse its JSON files."""
+    log("")
+    log("Parsing "+colors.INFO+directory+colors.END+" directory...")
+
+    G = nx.DiGraph()
+    defi_nodes = set()
+    script_nodes = set()
+    edges = []
+    addr_leaks = {}
+
+    total_sites = 0
+    post_leaks = {}
+
     for file_name in os.listdir(directory):
         file_name = os.path.join(directory, file_name)
         if not os.path.isfile(file_name) or not file_name.endswith(".json"):
             log("Skipping {}; not a JSON file.".format(file_name))
             continue
+
+        total_sites += 1
 
         log("Parsing file: "+colors.INFO+file_name+colors.END)
         try:
@@ -174,14 +199,17 @@ def parse_directory(directory):
         G.add_node(defi_domain)
         defi_nodes.add(defi_domain)
 
-        analyse_reqs(json_data["url"], json_data["requests"])
+        analyse_reqs(json_data["url"], json_data["requests"], G, script_nodes, edges, addr_leaks, post_leaks, eth_address)
+    return total_sites, addr_leaks, post_leaks
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: {} DIRECTORY".format(sys.argv[0]), file=sys.stderr)
+    if len(sys.argv) != 3:
+        print("Usage: {} <DIRECTORY_WITH_LATEST_CRAWLS> <DIRECTORY_WITH_WHATS_IN_YOUR_WALLET_CRAWLS>".format(sys.argv[0]), file=sys.stderr)
         sys.exit(1)
-    parse_directory(sys.argv[1])
+    total_latest_sites, latest_leaks, post_leaks = parse_directory(sys.argv[1], ETH_ADDR)
+    _, whats_in_your_wallet_leaks, _ = parse_directory(sys.argv[2], ETH_ADDR_WHATS_IN_YOUR_WALLET)
 
     # create_connectivity_graph()
-    print_leaks()
+    print_leaks(total_latest_sites, latest_leaks, post_leaks, whats_in_your_wallet_leaks)
+
     #print_sourced_script_popularity()

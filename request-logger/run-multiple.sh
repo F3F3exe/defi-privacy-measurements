@@ -6,8 +6,8 @@
 script_dir=$(dirname "$0")
 crawler="${script_dir}/run.js"
 metamask_path="metamask-chrome-10.22.2"
-destination="test_crawls"
-logs="test_logs"
+destination="test_crawls_2"
+logs="test_logs_2"
 if [ $# != 1 ]
 then
     >&2 echo "Usage: $0 FILE"

@@ -12,7 +12,7 @@ const launch = async args => {
   }
   puppeteerArgs.args.push(`--start-maximized`)
   puppeteerArgs.args.push(`--disable-popup-blocking`)
-  puppeteerArgs.args.push(`--allow-popups-during-upload`)
+  puppeteerArgs.args.push(`--allow-popups-during-page-unload`)
 
 
   if (args.metamaskPath) {

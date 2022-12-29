@@ -2,6 +2,8 @@ const { createTimer } = require('./timer');
 const braveLoggerLib = require('./logging.js')
 const bravePuppeteerLib = require('./puppeteer.js')
 const fs = require('fs');
+const { resolve } = require('path');
+
 
 let wallet = "";
 let mm = "";
@@ -24,15 +26,7 @@ const waitForNavigation = async (page, maxWaitTimeInMillisecs) => {
     }
   }
   
-  const timeoutPromise = async (promise, ms) => {
-    let timeout = new Promise(function(resolve, reject) {
-        setTimeout(resolve, ms, 1);
-    });
-    let result = Promise.race([promise, timeout]).then(function(value) {
-        return value;
-    });
-    return result;
-  }
+
 
 async function importWallet(mm_login) { 
     const get_started_button = await mm_login.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div/div/button');
@@ -66,220 +60,283 @@ async function importWallet(mm_login) {
  } 
 
 
- async function check_for_instant_popup(page,logger ,browser) {
-    logger.debug(`nr of pages:: ${(await browser.pages()).length}`)
-    let pages_instant_popup = await browser.pages();
-    if (pages_instant_popup.length == 4){
-      await (pages_instant_popup[3]).bringToFront();
-      let page = pages_instant_popup[3];
-      logger.debug(`found popup`);
-      const next_button = await page.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[3]/div[2]/button[2]');
-      await page.evaluate($submit => $submit.click(), next_button);
-      const continue_button = await page.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[2]/div[2]/div[2]/footer/button[2]');
-      let newPagePromise1 = new Promise(x => browser.once('targetcreated', target => x(target.page())));
-      await page.evaluate($submit => $submit.click(), continue_button);
+ async function connectWallet(page, logger, browser, args){
 
-      try {
-        const newPageResult1 = timeoutPromise(newPagePromise1, 1000);
-        let popup1 = await newPageResult1;
-        const sign_button = await popup1.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[3]/button[2]');
-        await popup1.evaluate($submit => $submit.click(), sign_button);
-      } catch (error) {
-        logger.debug('no signature needed');
-      }
- }
-}
-
-
- async function connectWallet(page, logger, browser){
-    let url = page.url();
     await waitForNavigation(page, 8000);
-    let pages_instant_popup = await browser.pages();
-    if (pages_instant_popup.length == 4){
-    await check_for_instant_popup(page, logger, browser);
-    let content = url + ': ' + wallet + ', ' + mm + '\n'
-    fs.appendFile('/home/fefe/new/defi-privacy-measurements/connect_logs_whats_in_your_wallet.txt', content, err => {
-      if (err) {
-        console.log('no login found');
+    let url = page.url();
+
+    
+    
+    let poss_wallet_buttons = []
+
+    let html = await page.content();
+    let wallet_strings = [ "Connect Wallet", "Connect wallet", "connect wallet", "Connect to a wallet",  "Connect to wallet", "Connect your wallet", "Sign In", "Connect", "CONNECT WALLET", "CONNECT", "SIGN IN", "WALLET", "SIGN", "sign", "SIGNIN", "Sign Up", "Connect Your Wallet", "Wallet", "Connect a Wallet", "Connect a wallet", "Sign in", "sign in", "connect", "Log in via web3 wallet", "wallet", "account"]
+
+    //search for possible wallet buttons in the html
+    for (const x of wallet_strings){
+      if(html.includes(x)){
+        poss_wallet_buttons.push(x);
+
       }
-    });
-    } else {
-    let newPagePromise = null
-    let wallet_buttons = [ "Connect Wallet", "Connect wallet", "connect wallet", "Connect to a wallet",  "Connect to wallet", "Connect your wallet", "Connect Wallet", "Sign In", "Connect wallet", "Connect", "CONNECT WALLET", "CONNECT", "SIGN IN", "WALLET", "SIGN", "sign", "SIGNIN", "Sign Up", "Connect Your Wallet", "Wallet", "Connect", "Connect a Wallet", "Connect a wallet", "Sign in", "sign in", "connect"]
-    let found_wallet_button = false
-    for (const wallet_button_string of wallet_buttons) {
-      if(found_wallet_button) break;
+    }
+    
+  let connected = false;
+  
+  //try to click one of the possible wallet buttons
+    for (const wallet_button_string of poss_wallet_buttons) {
       try {
-
-      const wallet_button = await page.waitForXPath(`//*[normalize-space(text())="${wallet_button_string}"]`, {timeout: 200});
-     
-      //const wallet_button = await page.waitForXPath(`//*[normalize-space(text())=${wallet_button_string}]`, {timeout: 200});
-
-      //let dummy_page = await browser.newPage();
-      newPagePromise = new Promise(x => browser.once('targetcreated', target => x(target.page())));
-     //logger.debug(`nr of pages:: ${(await browser.pages()).length}`)
+        const wallet_button = await page.waitForXPath(`//*[normalize-space(text())="${wallet_button_string}"]`, {timeout: 500});
 
      await page.evaluate($submit => $submit.click(), wallet_button);
-
-      found_wallet_button = true
-      
-      logger.debug(`found wallet button: ${wallet_button_string}`);
       wallet = wallet_button_string;
+      break;
       } catch {
-        logger.debug('try next wallet button')
-      }
-    }
-    
-    try {
-      let mm_button_check = null;
-      mm_button_check = await page.waitForXPath(`//*[contains(text(), "metamask")]`, {timeout: 200});
-      await page.evaluate($submit => $submit.click(), mm_button_check);
+        try {
+          //also try to click it via its coordinates
+          const wallet_button = await page.waitForXPath(`//*[text()="${wallet_button_string}"]`, {timeout: 600});
 
-    } catch {
-      try {
-        const wallet_button = await page.waitForXPath(`//button[contains(text(),"Connect")]`, {timeout: 200});
-        await page.evaluate($submit => $submit.click(), wallet_button);
+          const rect = await page.evaluate(el => {
+            const {x,y} = el.getBoundingClientRect();
+            return {x,y};
+    
+        }, wallet_button);
+        await page.mouse.click(rect.x, rect.y);
+        wallet = wallet_button_string;
+        break;
       } catch (error) {
-         logger.debug('blaa');
+          logger.debug(`try next wallet button: ${error}`)
+    
+        }
       }
     }
 
+    //if no 'wallet button' was found, we try the less precise 'contains method'
+    if(wallet == ""){
+      for (const wallet_button_string of poss_wallet_buttons) {
 
-    const newPageResult1 = timeoutPromise(newPagePromise, 1000);
-    let popup1 = await newPageResult1;
-
-    logger.debug(`popup1: ${popup1}`);
-
-    let mm_buttons = ["metamask", "MetaMask", "Metamask",  "Connect MetaMask", "Connect Metamask", "Connect Metamask", "Continue", "Connect to MetaMask", "browser wallet", "Browser Wallet", "Browser wallet", "Metamask & Web3", "Metamask\n& Web3"];
-
-   // const mm_button = await page.waitForXPath('//*[text()="MetaMask"]')
-    //let newPagePromise = new Promise(x => browser.once('targetcreated', target => x(target.page())));
-   // await page.evaluate($submit => $submit.click(), mm_button);
-    logger.debug(`pages: ${(await browser.pages()).length}`)
-    try {
-      const click_agree_button = await page.waitForXPath('//input[@type="checkbox"]', {timeout: 200});
-      await page.evaluate($submit => $submit.click(), click_agree_button);
-      //await page.$eval(`input[type="checkbox"]`, check => check.checked = true);
-      console.log('clicked checkbox')
-      //await page.evaluate($submit => $submit.click(), cb_button);
-    } catch (error) {
-      console.log('no checkbox found');
-    }
-    try {
-      const wallet_button = await page.waitForXPath(`//*[contains(text(),"Ethereum")]`, {timeout: 200});
-      await page.evaluate($submit => $submit.click(), wallet_button);
-      const continue_button = await page.waitForXPath(`//*[contains(text(),"start")]`, {timeout: 200});
-      await page.evaluate($submit => $submit.click(), continue_button);
-    } catch {
-      logger.debug('already on ethereum network');
-    }
-    console.log('find mm button now');
-    let found_mm_button = false;
-    for (const mm_button_string of mm_buttons) {
-      if(found_mm_button) break;
       try {
-        //let dummy_page = await browser.newPage();
-        //await page.bringToFront();
-        const mm_button = await page.waitForXPath(`//*[normalize-space(text())="${mm_button_string}"]`, {timeout: 200});
-        newPagePromise = new Promise(x => browser.once('targetcreated', target => x(target.page())));
+        let mm_button = await page.$x(`//button[contains(text(), ${wallet_button_string})]`);     
+        await mm_button[0].click();
+      } catch (error) {
+      }
+    }
+    }
+    
+    
+    
+    
+    let checkbox_clicked = false;
+    let d = new Date();
+    let start = d.getTime();
+
+    while(true){
+
+      //timeout for the while loop
+      let d = new Date();
+      let now = d.getTime();
+      if((now-start)>30000) {
+    
+        console.log(`diff: ${now - start}`);
+         break;
+        }
+
+        //we have a metamask popup
+    let pages3 = await browser.pages();
+    if(pages3.length > 3){
+      break;}
+    
+
+    await waitForNavigation(page,2000);
+  
+      
+
+    let html_mm = await page.content();
+    let poss_other_buttons = [];
+    let poss_mm_buttons = [];
+
+    //first we check for 'metamask connect' strings in the html
+    let metamask_strings = ["MetaMask", "metamask",  "Connect Metamask","Metamask", "Connect to MetaMask", "browser wallet", "Browser Wallet", "Browser wallet", "Metamask & Web3", "Metamask\n& Web3", "Metamask \n& Web3", "Browser"];
+    for (const x of metamask_strings){
+      if(html_mm.includes(x)){
+        logger.debug(`mm: ${x}`);
+        poss_mm_buttons.push(x);
+
+      }
+      
+    }
+
+    //we also check for other strings that are related to connecting to mm in case we require some extra steps
+    let other_strings = ["Connect", "Select", "Connect Wallet", "CONNECT WALLET", "Get started", "Web3", "Browser"];
+    for (const x of other_strings){
+      if(html_mm.includes(x)){
+        poss_other_buttons.push(x);
+
+      }
+    }
+    poss_other_buttons = poss_mm_buttons.concat(poss_other_buttons);
+    
+
+    //we check for if we can click any of the mm strings
+    for (const mm_button_string of poss_mm_buttons) {
+      //first we try to find an explicit button with the mm string
+      try {
+        const mm_button = await page.waitForXPath(`//button[normalize-space(text())="${mm_button_string}"]`, {timeout: 600});
         await page.evaluate($submit => $submit.click(), mm_button);
-        found_mm_button = true;
         mm = mm_button_string;
-        logger.debug(`found mm button: ${mm_button_string}`);
+      } catch (error) {
+       try {
+        //otherwise we try to find any other element with the mm string
+        const mm_button = await page.waitForXPath(`//*[normalize-space(text())="${mm_button_string}"]`, {timeout: 600});
+        await page.evaluate($submit => $submit.click(), mm_button);
+        mm = mm_button_string;
+       } catch (error){
+        
+        //also try to 'force click' any element with the mm string
+        try {         
+          const mm_button = await page.waitForXPath(`//*[text()="${mm_button_string}"]`, {timeout: 600});
+          const rect = await page.evaluate(el => { const {x,y} = el.getBoundingClientRect(); return {x,y}; }, mm_button);
+
+          await page.mouse.click(rect.x, rect.y);
+          mm = mm_button_string;
+      } catch (error) {
+          //else try the next mm string we found
+          logger.debug(`try next mm button: ${error}`)
+    
+        }
+      }
+    }
+    }
+
+    await waitForNavigation(page, 2000);
+
+
+    //try to find a checkbox (e.g. agree to terms) 
+    //we also 'force click' this checkbox and do it after first checking the mm strings 
+    //since we might click some other unrelated checkbox
+    //we only click this box once, otherwise we would unclick it for the loop iteration
+    try {
+      let new_checkbox = await page.waitForXPath('//input[@type="checkbox"]', {timeout: 500});
+      if (checkbox_clicked == false) {
+        const rect = await page.evaluate(el => {
+          const {x,y} = el.getBoundingClientRect();
+          return {x,y};     }, new_checkbox);
+
+      await page.mouse.click(rect.x, rect.y);
+      checkbox_clicked = true;
+      }
+    } catch { 
+        console.log('no checkbox found');
+      }
+
+      await waitForNavigation(page, 2000);
+
+      //same thing for the rest of the buttons
+      for (const mm_button_string of poss_other_buttons) {
+        try {
+          const mm_button = await page.waitForXPath(`//button[normalize-space(text())="${mm_button_string}"]`, {timeout: 600});
+          await page.evaluate($submit => $submit.click(), mm_button);
+          mm = mm_button_string;
+        } catch (error) {
+        try {
+  
+        const mm_button = await page.waitForXPath(`//*[normalize-space(text())="${mm_button_string}"]`, {timeout: 600});
+  
+       await page.evaluate($submit => $submit.click(), mm_button);
+       mm = mm_button_string;
+        } catch (error){
+          try {
+            
+            const mm_button = await page.waitForXPath(`//*[text()="${mm_button_string}"]`, {timeout: 600});
+  
+            const rect = await page.evaluate(el => {
+              const {x,y} = el.getBoundingClientRect();
+              return {x,y};
+      
+          }, mm_button);
+          await page.mouse.click(rect.x, rect.y);
+          mm = mm_button_string;
+          
+        } catch (error) {
+          
+            logger.debug(`try next mm button: ${error}`)
+      
+          }
+        }
+      }
+      }  
+  }
+
+  
+    
+    let popup = null;
+    let pages = await browser.pages();
+
+    //semi-good workaround for the non-visible mm buttons
+    if(pages.length <= 3){
+      try {
+        //TODO: this probably only works for my screen, need to adjust it based on screen size
+        await page.mouse.click(600, 300);
+        
       } catch {
-        logger.debug('try next metamask button');
+        logger.debug('failed coordinate click ');
       }
     }
     
-   /* try {
-      const mm_button =  await page.waitForXPath(`//*[@id="app"]/div/div[1]/div[1]/div[2]/div[1]/div/div[2]/div/div/div[3]/div/div[3]/div[2]/div[1]/i`);
-      const rect = await page.evaluate(el => {
-          const {x,y} = el.getBoundingClientRect();
-          return {x,y};
+    await waitForNavigation(page, 8000);
 
-      }, mm_button);
-      logger.debug(`x: ${rect.x}, y: ${rect.y}`);
-    } catch {
-      logger.debug('bla');
-    }*/
+    pages = await browser.pages();
 
-    
-    // /html/body/onboard-v2//section/div/div/div/div/div/div/div/div[2]/div[2]/div/div/button[1]/span
-    // section > div > div > div > div > div > div > div > div.scroll-container.svelte-ro440k > div.svelte-ro440k > div > div > button:nth-child(6) > span
-    // name svelte-1hnpcft
-    //section > div > div > div > div > div > div > div > div.scroll-container.svelte-1n0mo1q > div.svelte-1n0mo1q > div > div > button:nth-child(1) > span
-   
-    if (mm == ""){
-    try {
-      await page.mouse.click(600, 300);
-      
-    } catch {
-      logger.debug('next coordinate click ')
+    //most metamask popups are opened as a new page
+    if(pages.length > 3){
+      popup = pages[pages.length - 1];
+    } else {
+      //sometime a metamask popup is not visible to puppeteer as a new page and we force-open it ourselfs
+        popup = await browser.newPage();
+        await popup.goto('chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html');
+        await popup.bringToFront();
+        await waitForNavigation(popup, 4000);
     }
-    }
-    //await waitForNavigation(page)
-    //logger.debug(`nr of pages: ${pages.length}`)
-    //logger.debug(`html page 0: ${await (pages[pages.length -2]).content()}`)
-    //logger.debug(`html page 1: ${await (pages[pages.length -1]).content()}`)
+        //connect metamask
+        try {
+        const next_button = await popup.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[3]/div[2]/button[2]');
+        await popup.evaluate($submit => $submit.click(), next_button);
+        logger.debug('clicker connect');
+        const continue_button = await popup.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[2]/div[2]/div[2]/footer/button[2]');
+        await popup.evaluate($submit => $submit.click(), continue_button);
+        logger.debug('clicker next');
+        connected = true;
+        
+        } catch (error) {
+          logger.debug(`no metamask popup: ${error}`);
+        }
 
-   /* const wallet_button = await page.waitForXPath('//*[@id="root"]/div/div[4]/header/div/button/span');
-    await page.evaluate($submit => $submit.click(), wallet_button);
-    const mm_button = await page.waitForXPath('/html/body/aside/section/ul/li[1]/button/span')
-    await page.evaluate($submit => $submit.click(), mm_button);
-    */
-    //const html = await page.content()
-    //logger.debug(`html: ${html}`)
-    await waitForNavigation(page,2000);
-
-    const pages1 = await browser.pages()
-    logger.debug(`nr of pages:: ${pages1.length}`)
-    //logger.debug(`html page 2: ${await (pages1[pages1.length -1]).content()}`)
-
-
-    const newPageResult = timeoutPromise(newPagePromise, 1000);
-    let popup = await newPageResult;
-
-    //await mm_login.bringToFront();
-    logger.debug(`popup:: ${popup}`)
-    let newPagePromise1 = null;
-    //connect
-    if(pages1.length == 4){
-      popup = pages1[pages1.length - 1]
-    }
-    const next_button = await popup.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[3]/div[2]/button[2]');
-    await popup.evaluate($submit => $submit.click(), next_button);
-    const continue_button = await popup.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[2]/div[2]/div[2]/footer/button[2]');
-    newPagePromise1 = new Promise(x => browser.once('targetcreated', target => x(target.page())));
-    await popup.evaluate($submit => $submit.click(), continue_button);
-
-    try {
-      const newPageResult1 = timeoutPromise(newPagePromise1, 1000);
-      let popup1 = await newPageResult1;
-      const sign_button = await popup1.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[3]/button[2]');
-      await popup1.evaluate($submit => $submit.click(), sign_button);
-    } catch (error) {
-      logger.debug('no signature needed');
-    }
-
-
-    let content = url + ': ' + wallet + ', ' + mm + '\n'
+    //record that we were able to login
+    let content = url + ': ' + connected + '\n'
     fs.appendFile('/home/fefe/new/defi-privacy-measurements/connect_logs_whats_in_your_wallet.txt', content, err => {
       if (err) {
         console.log('no login found');
       }
     });
+
+    await waitForNavigation(page, 4000);
+    
+    //sign the metamask login
+    pages = await browser.pages();
+        console.log(`pages for sign: ${pages.length}`);
+        if(pages.length > 3){
+          let popup = pages[pages.length - 1];
+          const Sign_button = await popup.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[3]/button[2]');
+        await popup.evaluate($submit => $submit.click(), Sign_button);
+        console.log('signed');
+        }
+
     }
- }
+ 
 
- async function connectMetamask(){
-
- }
+ 
 
 
 module.exports = {
     importWallet, 
-    connectWallet, 
-    connectMetamask
+    connectWallet
 };
-
-

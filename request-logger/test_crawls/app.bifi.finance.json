@@ -1,25 +1,25 @@
 {
-    "url": "https://app.bifi.finance",
+    "url": "https://app.bifi.finance/lend",
     "arguments": {
         "printFrameHierarchy": true,
         "debugLevel": "verbose",
         "headless": false,
-        "secs": 30,
-        "url": "https://app.bifi.finance",
+        "secs": 45,
+        "url": "https://app.bifi.finance/lend",
         "metamaskPath": "metamask-chrome-10.22.2",
         "destination": "test_crawls",
         "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
     },
     "timestamps": {
-        "start": 1670513931676,
-        "end": 1670513983737
+        "start": 1672430619205,
+        "end": 1672430674069
     },
     "requests": [
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
             ],
-            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/react-gallery/carousel.min.css",
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css",
             "type": "stylesheet",
             "method": "GET",
             "headers": {
@@ -29,7 +29,7 @@
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -42,13 +42,13 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:38:55.596Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"96854c521a414211a4418f599794ff9e\",\"init\":true,\"started\":\"2022-12-08T15:38:55.596Z\",\"timestamp\":\"2022-12-08T15:38:55.596Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:42.743Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f1f4cb5b01f142e68aa128f895d06869\",\"init\":true,\"started\":\"2022-12-30T20:03:42.743Z\",\"timestamp\":\"2022-12-30T20:03:42.743Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
             ],
-            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/_locales/en/messages.json",
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
             "type": "fetch",
             "method": "GET",
             "headers": {
@@ -58,9 +58,9 @@
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
             ],
-            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/_locales/en/messages.json",
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
             "type": "fetch",
             "method": "GET",
             "headers": {
@@ -70,7 +70,7 @@
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/welcome"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -83,11 +83,11 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:38:58.543Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"96854c521a414211a4418f599794ff9e\",\"init\":false,\"started\":\"2022-12-08T15:38:55.596Z\",\"timestamp\":\"2022-12-08T15:38:58.542Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:45.077Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f1f4cb5b01f142e68aa128f895d06869\",\"init\":false,\"started\":\"2022-12-30T20:03:42.743Z\",\"timestamp\":\"2022-12-30T20:03:45.077Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/welcome"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -100,37 +100,37 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:38:58.547Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"bc9eae74a3784ed8aafc3f7abacf95e2\",\"init\":true,\"started\":\"2022-12-08T15:38:58.542Z\",\"timestamp\":\"2022-12-08T15:38:58.542Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:45.079Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"feca3da2672a4ddcacb5b4dff745d3bf\",\"init\":true,\"started\":\"2022-12-30T20:03:45.077Z\",\"timestamp\":\"2022-12-30T20:03:45.077Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/welcome"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
             ],
-            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
             "type": "font",
             "method": "GET",
             "headers": {
                 "referer": "",
-                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
             }
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/welcome"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
             ],
-            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf",
             "type": "font",
             "method": "GET",
             "headers": {
                 "referer": "",
-                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
             }
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/metametrics-opt-in"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -143,11 +143,11 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:38:58.745Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"bc9eae74a3784ed8aafc3f7abacf95e2\",\"init\":false,\"started\":\"2022-12-08T15:38:58.542Z\",\"timestamp\":\"2022-12-08T15:38:58.745Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:45.220Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"feca3da2672a4ddcacb5b4dff745d3bf\",\"init\":false,\"started\":\"2022-12-30T20:03:45.077Z\",\"timestamp\":\"2022-12-30T20:03:45.219Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/metametrics-opt-in"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -160,13 +160,13 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:38:58.747Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"225ffcaf3f3f4a71b1ba6c81953be0c0\",\"init\":true,\"started\":\"2022-12-08T15:38:58.745Z\",\"timestamp\":\"2022-12-08T15:38:58.745Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:45.221Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"6a084d34f7d648cead25cffbb8d948a0\",\"init\":true,\"started\":\"2022-12-30T20:03:45.219Z\",\"timestamp\":\"2022-12-30T20:03:45.219Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/metametrics-opt-in"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
             ],
-            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/images/metrics-chart.svg",
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/metrics-chart.svg",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -176,33 +176,33 @@
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/metametrics-opt-in"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
             ],
-            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/fontawesome/fa-solid-900.woff2",
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2",
             "type": "font",
             "method": "GET",
             "headers": {
                 "referer": "",
-                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
             }
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/metametrics-opt-in"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
             ],
-            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
             "type": "font",
             "method": "GET",
             "headers": {
                 "referer": "",
-                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
             }
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/select-action"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/select-action"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -215,11 +215,11 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:38:58.851Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"225ffcaf3f3f4a71b1ba6c81953be0c0\",\"init\":false,\"started\":\"2022-12-08T15:38:58.745Z\",\"timestamp\":\"2022-12-08T15:38:58.851Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:45.390Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"6a084d34f7d648cead25cffbb8d948a0\",\"init\":false,\"started\":\"2022-12-30T20:03:45.219Z\",\"timestamp\":\"2022-12-30T20:03:45.389Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/select-action"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/select-action"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -232,11 +232,11 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:38:58.852Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"daef255c41c94005a9441f7c2b599cc2\",\"init\":true,\"started\":\"2022-12-08T15:38:58.851Z\",\"timestamp\":\"2022-12-08T15:38:58.851Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:45.391Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ebfea9ba6830494caf6f4bb12ea27ec9\",\"init\":true,\"started\":\"2022-12-30T20:03:45.389Z\",\"timestamp\":\"2022-12-30T20:03:45.389Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/create-password/import-with-seed-phrase"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -249,11 +249,11 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:38:58.909Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"daef255c41c94005a9441f7c2b599cc2\",\"init\":false,\"started\":\"2022-12-08T15:38:58.851Z\",\"timestamp\":\"2022-12-08T15:38:58.909Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:45.455Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ebfea9ba6830494caf6f4bb12ea27ec9\",\"init\":false,\"started\":\"2022-12-30T20:03:45.389Z\",\"timestamp\":\"2022-12-30T20:03:45.454Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/create-password/import-with-seed-phrase"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -266,37 +266,37 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:38:58.917Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"27fda70d58e04ccf8142b9c8386e34e3\",\"init\":true,\"started\":\"2022-12-08T15:38:58.909Z\",\"timestamp\":\"2022-12-08T15:38:58.909Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:45.455Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ab00e232fb7f44689869519c817ab71c\",\"init\":true,\"started\":\"2022-12-30T20:03:45.454Z\",\"timestamp\":\"2022-12-30T20:03:45.454Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/create-password/import-with-seed-phrase"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
             ],
-            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Roboto/Roboto-Regular.ttf",
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Roboto/Roboto-Regular.ttf",
             "type": "font",
             "method": "GET",
             "headers": {
                 "referer": "",
-                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
             }
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/create-password/import-with-seed-phrase"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
             ],
-            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/fontawesome/fa-regular-400.woff2",
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-regular-400.woff2",
             "type": "font",
             "method": "GET",
             "headers": {
                 "referer": "",
-                "origin": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn",
+                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
             }
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/end-of-flow"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/end-of-flow"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -309,11 +309,11 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:39:03.250Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"27fda70d58e04ccf8142b9c8386e34e3\",\"init\":false,\"started\":\"2022-12-08T15:38:58.909Z\",\"timestamp\":\"2022-12-08T15:39:03.249Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:48.793Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ab00e232fb7f44689869519c817ab71c\",\"init\":false,\"started\":\"2022-12-30T20:03:45.454Z\",\"timestamp\":\"2022-12-30T20:03:48.793Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#initialize/end-of-flow"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/end-of-flow"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -326,13 +326,13 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:39:03.253Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8547c12e4e184064ab4babe949a41f41\",\"init\":true,\"started\":\"2022-12-08T15:39:03.249Z\",\"timestamp\":\"2022-12-08T15:39:03.249Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:48.795Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"57c52c76d13e4737b1aa315ed429e898\",\"init\":true,\"started\":\"2022-12-30T20:03:48.793Z\",\"timestamp\":\"2022-12-30T20:03:48.793Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
                 "about:blank"
             ],
-            "url": "https://app.bifi.finance/",
+            "url": "https://app.bifi.finance/lend",
             "type": "document",
             "method": "GET",
             "headers": {
@@ -345,7 +345,7 @@
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -358,11 +358,11 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:39:03.414Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8547c12e4e184064ab4babe949a41f41\",\"init\":false,\"started\":\"2022-12-08T15:39:03.249Z\",\"timestamp\":\"2022-12-08T15:39:03.414Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:48.921Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"57c52c76d13e4737b1aa315ed429e898\",\"init\":false,\"started\":\"2022-12-30T20:03:48.793Z\",\"timestamp\":\"2022-12-30T20:03:48.920Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
             ],
             "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
             "type": "fetch",
@@ -375,18 +375,49 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-08T15:39:03.415Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"90b28b5847bd4499bbf723a6681e2fcc\",\"init\":true,\"started\":\"2022-12-08T15:39:03.414Z\",\"timestamp\":\"2022-12-08T15:39:03.414Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:48.922Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"05ca0766c2004ca9ad72a9217140ae52\",\"init\":true,\"started\":\"2022-12-30T20:03:48.920Z\",\"timestamp\":\"2022-12-30T20:03:48.920Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
             ],
-            "url": "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/images/eth_logo.svg",
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/eth_logo.svg",
             "type": "image",
             "method": "GET",
             "headers": {
                 "referer": "",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://app.bifi.finance/",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "referer": "https://app.bifi.finance/lend",
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://app.bifi.finance/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/lend",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
             }
         },
         {
@@ -466,7 +497,7 @@
         },
         {
             "requestContext": [
-                "https://app.bifi.finance/"
+                "https://app.bifi.finance/lend"
             ],
             "url": "https://cdn.heapanalytics.com/js/heap-784487605.js",
             "type": "script",
@@ -530,7 +561,7 @@
             "requestContext": [
                 "https://app.bifi.finance/lend"
             ],
-            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/fonts/materialdesignicons-webfont.woff2?v=7.0.96",
+            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/fonts/materialdesignicons-webfont.woff2?v=7.1.96",
             "type": "font",
             "method": "GET",
             "headers": {
@@ -562,34 +593,7 @@
             "requestContext": [
                 "https://app.bifi.finance/lend"
             ],
-            "url": "https://app.bifi.finance/favicon.png",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://app.bifi.finance/lend",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://app.bifi.finance/lend"
-            ],
-            "url": "blob:https://app.bifi.finance/00e6409a-fd21-4c04-ac72-74a66c07fe60",
-            "type": "other",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://app.bifi.finance/lend"
-            ],
-            "url": "https://heapanalytics.com/h?a=784487605&u=7822841416020254&v=2478672152837972&s=7586448021293013&b=web&tv=4.0&z=0&h=%2Flend&d=app.bifi.finance&t=BiFi%20-%20Multichain%20DeFi%20Platform&ts=1670513945285&upv=10.0&st=1670513945306",
+            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/dot.svg",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -599,69 +603,6 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
             }
-        },
-        {
-            "requestContext": [
-                "https://app.bifi.finance/lend"
-            ],
-            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-N0GP4MVT2C&gtm=2oebu0&_p=901323999&cid=181745905.1670513945&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_eu=Ag&_s=1&dt=Lend&dl=https%3A%2F%2Fapp.bifi.finance%2Flend&sid=1670513945&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.page_path=%2Flend",
-            "type": "ping",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://app.bifi.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://app.bifi.finance/lend"
-            ],
-            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-N0GP4MVT2C&gtm=2oebu0&_p=901323999&cid=181745905.1670513945&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_eu=AAg&_s=2&dt=Lend&dl=https%3A%2F%2Fapp.bifi.finance%2Flend&sid=1670513945&sct=1&seg=0&en=visit_lend_page&ep.page_path=%2Flend",
-            "type": "ping",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://app.bifi.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://app.bifi.finance/lend"
-            ],
-            "url": "https://session-replay.browser-intake-datadoghq.com/api/v2/replay?ddsource=browser&ddtags=sdk_version%3A4.0.1%2Cenv%3Aprod%2Cservice%3Abifi&dd-api-key=pub8203b55acfd4e1bfcf426929c02f1dd6&dd-evp-origin-version=4.0.1&dd-evp-origin=browser&dd-request-id=97256097-f99b-4d64-9a1c-ab3bf3a8aa12",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://app.bifi.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryABZowmloSzDn0iMr"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/home.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "ping",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{}\n{\"type\":\"client_report\"}\n{\"timestamp\":1670513945.683,\"discarded_events\":[{\"reason\":\"network_error\",\"category\":\"session\",\"quantity\":1}]}"
         },
         {
             "requestContext": [
@@ -697,6 +638,21 @@
             "requestContext": [
                 "https://app.bifi.finance/lend"
             ],
+            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/logo.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
             "url": "https://app.bifi.finance/img/beta.7988a398.svg",
             "type": "image",
             "method": "GET",
@@ -712,7 +668,95 @@
             "requestContext": [
                 "https://app.bifi.finance/lend"
             ],
-            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/dot.svg",
+            "url": "https://app.bifi.finance/favicon.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/lend",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "blob:https://app.bifi.finance/d25cc008-4cf9-4fd4-8b45-72e1c8e0b325",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-N0GP4MVT2C&gtm=2oebu0&_p=390021662&cid=133107787.1672430631&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_eu=Ag&_s=1&dt=Lend&dl=https%3A%2F%2Fapp.bifi.finance%2Flend&sid=1672430631&sct=1&seg=0&dr=https%3A%2F%2Fapp.bifi.finance%2Flend&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.page_path=%2Flend",
+            "type": "ping",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-N0GP4MVT2C&gtm=2oebu0&_p=390021662&cid=133107787.1672430631&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_eu=AAg&_s=2&dt=Lend&dl=https%3A%2F%2Fapp.bifi.finance%2Flend&sid=1672430631&sct=1&seg=0&dr=https%3A%2F%2Fapp.bifi.finance%2Flend&en=visit_lend_page&ep.page_path=%2Flend&_et=4",
+            "type": "ping",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
+            ],
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"lU+Iva0L/M9elz6CIYIWabdK+b8=\"",
+                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-30T20:03:52.086Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a6fd91a40ecf49eb95061d3b026f23bf\",\"init\":true,\"started\":\"2022-12-30T20:03:52.086Z\",\"timestamp\":\"2022-12-30T20:03:52.086Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://heapanalytics.com/h?a=784487605&u=6037618209875951&v=7847292458400254&s=279555505753819&b=web&tv=4.0&z=0&h=%2Flend&d=app.bifi.finance&t=BiFi%20-%20Multichain%20DeFi%20Platform&r=https%3A%2F%2Fapp.bifi.finance%2Flend&ts=1672430632161&pr=%2Flend&upv=10.0&st=1672430632193",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -727,16 +771,34 @@
             "requestContext": [
                 "https://app.bifi.finance/lend"
             ],
-            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/logo.svg",
-            "type": "image",
-            "method": "GET",
+            "url": "https://session-replay.browser-intake-datadoghq.com/api/v2/replay?ddsource=browser&ddtags=sdk_version%3A4.0.1%2Cenv%3Aprod%2Cservice%3Abifi&dd-api-key=pub8203b55acfd4e1bfcf426929c02f1dd6&dd-evp-origin-version=4.0.1&dd-evp-origin=browser&dd-request-id=90767637-905d-4b8f-abbe-6094ebf9da1f",
+            "type": "xhr",
+            "method": "POST",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
                 "referer": "https://app.bifi.finance/",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
+                "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryVrQT0DBpwUrMngHc"
             }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://rum.browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A4.0.1%2Cenv%3Aprod%2Cservice%3Abifi&dd-api-key=pub8203b55acfd4e1bfcf426929c02f1dd6&dd-evp-origin-version=4.0.1&dd-evp-origin=browser&dd-request-id=cf618404-2989-4e48-9aea-48d7804602bb&batch_time=1672430633218",
+            "type": "ping",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430629763,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"86d17af3-b94d-472b-bdad-32bea0c0f0fe\",\"type\":\"css\",\"url\":\"https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css\",\"duration\":139000000,\"size\":334139,\"download\":{\"duration\":46900000,\"start\":92100000},\"first_byte\":{\"duration\":63600000,\"start\":28500000},\"connect\":{\"duration\":20200000,\"start\":8100000},\"ssl\":{\"duration\":13100000,\"start\":15200000},\"dns\":{\"duration\":0,\"start\":8100000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430629763,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"0476ca71-a3b9-4ac8-a512-bdeb85b190d7\",\"type\":\"css\",\"url\":\"https://app.bifi.finance/css/app.344ad2e7.css\",\"duration\":802800000,\"size\":126529,\"download\":{\"duration\":78900000,\"start\":723900000},\"first_byte\":{\"duration\":721200000,\"start\":2700000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430629764,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"b6dc65f4-2f36-4c5a-8ab9-babf84ab4666\",\"type\":\"css\",\"url\":\"https://app.bifi.finance/css/chunk-vendors.3e60ca05.css\",\"duration\":751600000,\"size\":471323,\"download\":{\"duration\":250300000,\"start\":501300000},\"first_byte\":{\"duration\":498100000,\"start\":3200000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430629763,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"cb3648b9-6f73-4fd5-a2db-90e9123f0b62\",\"type\":\"js\",\"url\":\"https://app.bifi.finance/js/app.903fa741.js\",\"duration\":664200000,\"size\":562108,\"download\":{\"duration\":373400000,\"start\":290800000},\"first_byte\":{\"duration\":287000000,\"start\":3800000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430629763,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"cb4b680e-035e-4eca-923d-af892b5a28d1\",\"type\":\"js\",\"url\":\"https://app.bifi.finance/js/chunk-vendors.2f07f583.js\",\"duration\":799100000,\"size\":2420508,\"download\":{\"duration\":774700000,\"start\":24400000},\"first_byte\":{\"duration\":19900000,\"start\":4500000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430630598,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"long_task\":{\"id\":\"9db4323d-b562-4591-8956-023f42c2488b\",\"duration\":665000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430629671,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"b9a6796c-e71b-4d97-9e71-b383a40c633d\",\"type\":\"document\",\"url\":\"https://app.bifi.finance/\",\"duration\":69900000,\"size\":3375,\"download\":{\"duration\":1000000,\"start\":68900000},\"first_byte\":{\"duration\":13000000,\"start\":55900000},\"redirect\":{\"duration\":0,\"start\":0}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430630877,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"18167131-a4c8-44d6-9022-f708996deb8e\",\"type\":\"other\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-N0GP4MVT2C&l=dataLayer\",\"duration\":448200000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631416,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"long_task\":{\"id\":\"7722fd8e-25af-47df-99f7-49b2fe183c79\",\"duration\":64000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631198,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"cd6d9f1b-a7e9-4d65-b031-5c73af47bf98\",\"type\":\"font\",\"url\":\"https://app.bifi.finance/fonts/NotoSansKR-Regular.476563b3.woff\",\"duration\":464300000,\"size\":242532,\"download\":{\"duration\":51000000,\"start\":413300000},\"first_byte\":{\"duration\":292000000,\"start\":121300000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631672,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"long_task\":{\"id\":\"bd7e0fad-e0dd-4f7c-a71c-11c2e4896a18\",\"duration\":81000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430630664,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"1aa206eb-3059-4b35-99de-fa52c39d3a63\",\"type\":\"js\",\"url\":\"https://cdn.heapanalytics.com/js/heap-784487605.js\",\"duration\":850700000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631472,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"a192c1c6-1e61-48c4-915a-681b63b357a2\",\"type\":\"beacon\",\"url\":\"https://region1.google-analytics.com/g/collect?v=2&tid=G-N0GP4MVT2C&gtm=2oebu0&_p=390021662&cid=133107787.1672430631&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_eu=Ag&_s=1&dt=Lend&dl=https%3A%2F%2Fapp.bifi.finance%2Flend&sid=1672430631&sct=1&seg=0&dr=https%3A%2F%2Fapp.bifi.finance%2Flend&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.page_path=%2Flend\",\"duration\":188800000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":-1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631504,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"fd4b156a-cbc8-4a15-9ebc-a0459f169088\",\"type\":\"beacon\",\"url\":\"https://region1.google-analytics.com/g/collect?v=2&tid=G-N0GP4MVT2C&gtm=2oebu0&_p=390021662&cid=133107787.1672430631&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_eu=AAg&_s=2&dt=Lend&dl=https%3A%2F%2Fapp.bifi.finance%2Flend&sid=1672430631&sct=1&seg=0&dr=https%3A%2F%2Fapp.bifi.finance%2Flend&en=visit_lend_page&ep.page_path=%2Flend&_et=4\",\"duration\":158000000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631193,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"8b26b158-a3a9-432f-9156-5621cd77b703\",\"type\":\"font\",\"url\":\"https://app.bifi.finance/fonts/NotoSansKR-Bold.bcacd006.woff\",\"duration\":690800000,\"size\":244996,\"download\":{\"duration\":61800000,\"start\":629000000},\"first_byte\":{\"duration\":507100000,\"start\":121900000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631195,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"1ce2626f-895d-4e4f-8675-40a28319d07b\",\"type\":\"font\",\"url\":\"https://app.bifi.finance/fonts/NotoSansKR-Medium.679643f1.woff\",\"duration\":727600000,\"size\":242224,\"download\":{\"duration\":77900000,\"start\":649700000},\"first_byte\":{\"duration\":529000000,\"start\":120700000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631298,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"426680af-bf73-4552-9da1-5bf67c9cce70\",\"type\":\"image\",\"url\":\"https://app.bifi.finance/img/beta.7988a398.svg\",\"duration\":628000000,\"size\":2679,\"download\":{\"duration\":2500000,\"start\":625500000},\"first_byte\":{\"duration\":620900000,\"start\":4600000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631325,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"c1b1e8bf-7d1e-4386-b201-b73175da93a3\",\"type\":\"image\",\"url\":\"https://app.bifi.finance/favicon.png\",\"duration\":604300000,\"size\":1101,\"download\":{\"duration\":2900000,\"start\":601400000},\"first_byte\":{\"duration\":592300000,\"start\":9100000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631899,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"long_task\":{\"id\":\"9a91487b-7047-4117-846b-205aa5832a65\",\"duration\":68000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631972,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"long_task\":{\"id\":\"1c60ef07-515a-4ecd-9a5d-e58ce817b6e7\",\"duration\":105000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631297,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"7adcc15d-b45f-4d4d-b6ce-decd612282a4\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/header/eth_w.svg\",\"duration\":781500000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631297,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"23a1ccd2-bb87-4d6d-869e-8bd0db8d7ac7\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/logo.svg\",\"duration\":772500000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631296,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"521861b4-04ce-4236-b911-b33ed66bdb06\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/dot.svg\",\"duration\":878700000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430632194,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"842e7846-ee07-48d1-b27e-e605e9d2a5c7\",\"type\":\"image\",\"url\":\"https://heapanalytics.com/h?a=784487605&u=6037618209875951&v=7847292458400254&s=279555505753819&b=web&tv=4.0&z=0&h=%2Flend&d=app.bifi.finance&t=BiFi%20-%20Multichain%20DeFi%20Platform&r=https%3A%2F%2Fapp.bifi.finance%2Flend&ts=1672430632161&pr=%2Flend&upv=10.0&st=1672430632193\",\"duration\":357300000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430632860,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"long_task\":{\"id\":\"dec3dd14-7b0d-45f7-b1c5-fff6c87cfef1\",\"duration\":65000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2},\"document_version\":1},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430629671,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\",\"action\":{\"count\":0},\"cumulative_layout_shift\":0,\"error\":{\"count\":0},\"is_active\":true,\"loading_type\":\"initial_load\",\"long_task\":{\"count\":0},\"resource\":{\"count\":0},\"time_spent\":1007000000,\"in_foreground_periods\":[{\"start\":1004400000,\"duration\":2600000}]},\"type\":\"view\"}"
         },
         {
             "requestContext": [
@@ -770,28 +832,110 @@
         },
         {
             "requestContext": [
-                "https://app.bifi.finance/lend"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
             ],
-            "url": "https://rum.browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A4.0.1%2Cenv%3Aprod%2Cservice%3Abifi&dd-api-key=pub8203b55acfd4e1bfcf426929c02f1dd6&dd-evp-origin-version=4.0.1&dd-evp-origin=browser&dd-request-id=978dc336-2eec-49c6-9f1c-579de4eab508&batch_time=1670513946569",
-            "type": "ping",
-            "method": "POST",
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
+            ],
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/BhxIGo2t4diWyRtwMnYYD"
+            ],
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
+                "if-none-match": "\"22x+BPhFJooAnbWq29O/q8fWiA0=\"",
+                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/BhxIGo2t4diWyRtwMnYYD"
+            ],
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
+                "if-none-match": "\"ne1DMtZSzKWK2ogtgudctA37YhQ=\"",
+                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/BhxIGo2t4diWyRtwMnYYD"
+            ],
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
+                "if-none-match": "\"kRq+F78w0UQqcTRjfhLUjiv/+Ow=\"",
+                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/BhxIGo2t4diWyRtwMnYYD"
+            ],
+            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
+                "if-none-match": "\"22x+BPhFJooAnbWq29O/q8fWiA0=\"",
+                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/BhxIGo2t4diWyRtwMnYYD"
+            ],
+            "url": "https://app.bifi.finance/favicon.png",
+            "type": "image",
+            "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://app.bifi.finance/",
+                "referer": "",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513943650,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/\",\"referrer\":\"\",\"id\":\"e1b401a6-76e6-44d8-abf1-39c498126771\"},\"resource\":{\"id\":\"30d6f8bd-da79-4d60-82f0-4527eb1dd7eb\",\"type\":\"css\",\"url\":\"https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css\",\"duration\":104300000,\"size\":329124,\"download\":{\"duration\":11100000,\"start\":93200000},\"first_byte\":{\"duration\":40300000,\"start\":52900000},\"connect\":{\"duration\":27000000,\"start\":24600000},\"ssl\":{\"duration\":20700000,\"start\":30900000},\"dns\":{\"duration\":0,\"start\":24600000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513943650,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/\",\"referrer\":\"\",\"id\":\"e1b401a6-76e6-44d8-abf1-39c498126771\"},\"resource\":{\"id\":\"07798c5d-84f9-49c4-9664-adae7a6eb088\",\"type\":\"css\",\"url\":\"https://app.bifi.finance/css/app.344ad2e7.css\",\"duration\":58500000,\"size\":126529,\"download\":{\"duration\":28800000,\"start\":29700000},\"first_byte\":{\"duration\":17100000,\"start\":12600000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513943650,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/\",\"referrer\":\"\",\"id\":\"e1b401a6-76e6-44d8-abf1-39c498126771\"},\"resource\":{\"id\":\"dfeeeb9c-d933-4ca5-9bc3-552c5ad62db5\",\"type\":\"css\",\"url\":\"https://app.bifi.finance/css/chunk-vendors.3e60ca05.css\",\"duration\":148500000,\"size\":471323,\"download\":{\"duration\":86100000,\"start\":62400000},\"first_byte\":{\"duration\":49400000,\"start\":13000000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513943650,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/\",\"referrer\":\"\",\"id\":\"e1b401a6-76e6-44d8-abf1-39c498126771\"},\"resource\":{\"id\":\"a429ad1a-461c-4ecd-9a9b-b3376f1f0f0d\",\"type\":\"js\",\"url\":\"https://app.bifi.finance/js/app.903fa741.js\",\"duration\":276900000,\"size\":562108,\"download\":{\"duration\":83400000,\"start\":193500000},\"first_byte\":{\"duration\":20800000,\"start\":172700000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513943651,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/\",\"referrer\":\"\",\"id\":\"e1b401a6-76e6-44d8-abf1-39c498126771\"},\"resource\":{\"id\":\"6a82fff5-0461-497f-9a11-6e2a37c43221\",\"type\":\"js\",\"url\":\"https://app.bifi.finance/js/chunk-vendors.2f07f583.js\",\"duration\":522400000,\"size\":2420508,\"download\":{\"duration\":244700000,\"start\":277700000},\"first_byte\":{\"duration\":104300000,\"start\":173400000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":-1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513944180,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/\",\"referrer\":\"\",\"id\":\"e1b401a6-76e6-44d8-abf1-39c498126771\"},\"long_task\":{\"id\":\"47825dc2-ba71-4a1d-804a-ab0eb5e40532\",\"duration\":706000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513943371,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/\",\"referrer\":\"\",\"id\":\"e1b401a6-76e6-44d8-abf1-39c498126771\"},\"resource\":{\"id\":\"a61dd7f7-3b7a-45cd-b724-bb9fb44f0cdb\",\"type\":\"document\",\"url\":\"https://app.bifi.finance/\",\"duration\":250300000,\"size\":3375,\"download\":{\"duration\":800000,\"start\":249500000},\"first_byte\":{\"duration\":29100000,\"start\":220400000},\"connect\":{\"duration\":32700000,\"start\":187400000},\"ssl\":{\"duration\":19500000,\"start\":200600000},\"dns\":{\"duration\":0,\"start\":187400000},\"redirect\":{\"duration\":0,\"start\":0}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513944790,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"fc1308a1-f4b3-4684-9536-5cd15dd18120\",\"type\":\"font\",\"url\":\"https://app.bifi.finance/fonts/NotoSansKR-Bold.bcacd006.woff\",\"duration\":158600000,\"size\":244996,\"download\":{\"duration\":11900000,\"start\":146700000},\"first_byte\":{\"duration\":42300000,\"start\":104400000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513944803,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"e1bc2403-cfed-4dd8-82e1-d792f4d594db\",\"type\":\"font\",\"url\":\"https://app.bifi.finance/fonts/NotoSansKR-Medium.679643f1.woff\",\"duration\":137000000,\"size\":242224,\"download\":{\"duration\":22900000,\"start\":114100000},\"first_byte\":{\"duration\":21500000,\"start\":92600000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513944813,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"65b4ff2b-1aa4-4b36-8e29-4f89394498f8\",\"type\":\"font\",\"url\":\"https://app.bifi.finance/fonts/NotoSansKR-Regular.476563b3.woff\",\"duration\":224700000,\"size\":242532,\"download\":{\"duration\":17800000,\"start\":206900000},\"first_byte\":{\"duration\":19700000,\"start\":187200000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513944986,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"long_task\":{\"id\":\"daf044e8-720e-4085-b84b-d4b80f38e300\",\"duration\":141000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513944242,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/\",\"referrer\":\"\",\"id\":\"e1b401a6-76e6-44d8-abf1-39c498126771\"},\"resource\":{\"id\":\"44daf1bb-3951-4eae-91f9-0ebb5bd9db0f\",\"type\":\"js\",\"url\":\"https://cdn.heapanalytics.com/js/heap-784487605.js\",\"duration\":913200000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513944451,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/\",\"referrer\":\"\",\"id\":\"e1b401a6-76e6-44d8-abf1-39c498126771\"},\"resource\":{\"id\":\"4fa7eb1c-a44b-41d8-b1af-e2a546e6e9c8\",\"type\":\"other\",\"url\":\"https://www.googletagmanager.com/gtag/js?id=G-N0GP4MVT2C&l=dataLayer\",\"duration\":741400000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513944896,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"38efbf73-716a-4ce2-a9f5-cf214e1b7a52\",\"type\":\"image\",\"url\":\"https://app.bifi.finance/favicon.png\",\"duration\":313700000,\"size\":1101,\"download\":{\"duration\":2800000,\"start\":310900000},\"first_byte\":{\"duration\":26600000,\"start\":284300000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513945205,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"long_task\":{\"id\":\"ed5edaac-aa1c-40e5-9116-a44b6849fc68\",\"duration\":59000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513945308,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"long_task\":{\"id\":\"c84ce006-555c-439e-85b4-3a9db8e80142\",\"duration\":58000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513945356,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"2f8c7f71-d837-43b7-afaa-d14b5bd6c537\",\"type\":\"beacon\",\"url\":\"https://region1.google-analytics.com/g/collect?v=2&tid=G-N0GP4MVT2C&gtm=2oebu0&_p=901323999&cid=181745905.1670513945&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_eu=Ag&_s=1&dt=Lend&dl=https%3A%2F%2Fapp.bifi.finance%2Flend&sid=1670513945&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.page_path=%2Flend\",\"duration\":75900000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513945380,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"caf52d12-f3e4-489a-a50b-c4dc5e06fb3e\",\"type\":\"beacon\",\"url\":\"https://region1.google-analytics.com/g/collect?v=2&tid=G-N0GP4MVT2C&gtm=2oebu0&_p=901323999&cid=181745905.1670513945&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_eu=AAg&_s=2&dt=Lend&dl=https%3A%2F%2Fapp.bifi.finance%2Flend&sid=1670513945&sct=1&seg=0&en=visit_lend_page&ep.page_path=%2Flend\",\"duration\":52700000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":-1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513945307,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"f9379d96-7870-4c78-9ae1-52a94203fa01\",\"type\":\"image\",\"url\":\"https://heapanalytics.com/h?a=784487605&u=7822841416020254&v=2478672152837972&s=7586448021293013&b=web&tv=4.0&z=0&h=%2Flend&d=app.bifi.finance&t=BiFi%20-%20Multichain%20DeFi%20Platform&ts=1670513945285&upv=10.0&st=1670513945306\",\"duration\":343900000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513945738,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"c5b3c2c0-b58f-4861-8a71-8e45d92ec2ab\",\"type\":\"image\",\"url\":\"https://app.bifi.finance/img/beta.7988a398.svg\",\"duration\":33900000,\"size\":2679,\"download\":{\"duration\":1000000,\"start\":32900000},\"first_byte\":{\"duration\":31000000,\"start\":1900000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513945741,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"e73d2e10-f0f3-4e0a-b9d7-27aa8d37c1a2\",\"type\":\"other\",\"url\":\"https://app.bifi.finance/manifest.webmanifest\",\"duration\":40500000,\"size\":609,\"download\":{\"duration\":1400000,\"start\":39100000},\"first_byte\":{\"duration\":37700000,\"start\":1400000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513945761,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"8b0445b4-8448-4562-b535-866257419ca7\",\"type\":\"image\",\"url\":\"https://app.bifi.finance/favicon.png\",\"duration\":24200000,\"size\":1101,\"download\":{\"duration\":3800000,\"start\":20400000},\"first_byte\":{\"duration\":13500000,\"start\":6900000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":-1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513945737,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"9138f26b-f7ca-421a-b7ca-b941a8613f2d\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/header/eth_w.svg\",\"duration\":802300000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513945739,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"d0ec7fc2-aec9-4220-99a0-6fded688fc04\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/dot.svg\",\"duration\":819000000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":-1,\"session\":{\"plan\":2},\"document_version\":2},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513943371,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/\",\"referrer\":\"\",\"id\":\"e1b401a6-76e6-44d8-abf1-39c498126771\",\"action\":{\"count\":0},\"cumulative_layout_shift\":0,\"error\":{\"count\":0},\"is_active\":false,\"loading_type\":\"initial_load\",\"long_task\":{\"count\":0},\"resource\":{\"count\":5},\"time_spent\":1103000000,\"in_foreground_periods\":[]},\"type\":\"view\"}\n{\"_dd\":{\"format_version\":2,\"drift\":-1,\"session\":{\"plan\":2},\"document_version\":1},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513944475,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\",\"action\":{\"count\":0},\"cumulative_layout_shift\":0,\"error\":{\"count\":0},\"is_active\":true,\"loading_type\":\"route_change\",\"long_task\":{\"count\":0},\"resource\":{\"count\":0},\"time_spent\":0,\"in_foreground_periods\":[]},\"type\":\"view\"}"
+                "sec-ch-ua-platform": "\"Windows\""
+            }
         },
         {
             "requestContext": [
                 "https://app.bifi.finance/lend"
             ],
-            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/biport.png",
-            "type": "image",
-            "method": "GET",
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-N0GP4MVT2C&gtm=2oebu0&_p=390021662&cid=133107787.1672430631&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_s=3&sid=1672430631&sct=1&seg=0&dl=https%3A%2F%2Fapp.bifi.finance%2Flend&dr=https%3A%2F%2Fapp.bifi.finance%2Flend&dt=BiFi%20-%20Multichain%20DeFi%20Platform&en=scroll&epn.percent_scrolled=90&_et=10",
+            "type": "ping",
+            "method": "POST",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
                 "referer": "https://app.bifi.finance/",
@@ -834,7 +978,7 @@
             "requestContext": [
                 "https://app.bifi.finance/lend"
             ],
-            "url": "https://heapanalytics.com/h?a=784487605&u=7822841416020254&v=2478672152837972&s=7586448021293013&b=web&tv=4.0&sp=ts&sp=1670513945285&sp=d&sp=app.bifi.finance&sp=h&sp=%2Flend&pp=d&pp=app.bifi.finance&pp=h&pp=%2Flend&pp=t&pp=BiFi%20-%20Multichain%20DeFi%20Platform&pp=ts&pp=1670513945285&id0=6473935808329762&t0=click&n0=div&c0=wallet-button-title&y0=%40div%3B%23app%3B.theme--light%3B.v-application%3B.v-application--is-ltr%3B%5Bdata-app%3Dtrue%5D%3B%7C%40div%3B.v-application--wrap%3B%7C%40div%3B.ethereum%3B.header%3B.transition-all%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.container%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.header-content%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.button-wrapper%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.button%3B.wallet%3B%5Bdata-v-5245c3ee%3D%5D%3B%5Bdata-v-5800557c%3D%5D%3B%7C%40button%3B.elevation-0%3B.theme--dark%3B.transition-all%3B.v-btn%3B.v-btn--outlined%3B.v-size--default%3B.wallet-button%3B%5Bdata-v-5800557c%3D%5D%3B%5Btype%3Dbutton%5D%3B%7C%40span%3B.v-btn__content%3B%7C%40div%3B.wallet-button-title%3B%5Bdata-v-5800557c%3D%5D%3B%7C&ts0=1670513948232&x0=Connect%20Wallet&upv0=10.0&st=1670513949321",
+            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/biport.png",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -849,7 +993,7 @@
             "requestContext": [
                 "https://app.bifi.finance/lend"
             ],
-            "url": "https://heapanalytics.com/h?a=784487605&u=7822841416020254&v=2478672152837972&s=7586448021293013&b=web&tv=4.0&sp=ts&sp=1670513945285&sp=d&sp=app.bifi.finance&sp=h&sp=%2Flend&pp=d&pp=app.bifi.finance&pp=h&pp=%2Flend&pp=t&pp=BiFi%20-%20Multichain%20DeFi%20Platform&pp=ts&pp=1670513945285&id0=983765390250112&t0=click&n0=span&c0=popup-wallet-button-title&y0=%40div%3B%23app%3B.theme--light%3B.v-application%3B.v-application--is-ltr%3B%5Bdata-app%3Dtrue%5D%3B%7C%40div%3B.v-dialog__content%3B.v-dialog__content--active%3B%5Bdata-v-84202c34%3D%5D%3B%5Brole%3Ddocument%5D%3B%5Btabindex%3D0%5D%3B%7C%40div%3B.v-dialog%3B.v-dialog--active%3B.wallet-connector%3B%7C%40div%3B.column%3B.layout%3B.popup-content%3B%5Bdata-v-84202c34%3D%5D%3B%7C%40div%3B.column%3B.layout%3B.popup-wallet%3B%5Bdata-v-84202c34%3D%5D%3B%7C%40button%3B.popup-wallet-button%3B.theme--dark%3B.v-btn%3B.v-btn--disabled%3B.v-btn--has-bg%3B.v-size--default%3B%5Bdata-v-84202c34%3D%5D%3B%5Bdisabled%3Ddisabled%5D%3B%5Btype%3Dbutton%5D%3B%7C%40span%3B.v-btn__content%3B%7C%40span%3B.popup-wallet-button-title%3B%5Bdata-v-84202c34%3D%5D%3B%7C&ts0=1670513949991&x0=MetaMask&upv0=10.0&st=1670513950274",
+            "url": "https://heapanalytics.com/h?a=784487605&u=6037618209875951&v=7847292458400254&s=279555505753819&b=web&tv=4.0&sp=r&sp=https%3A%2F%2Fapp.bifi.finance%2Flend&sp=ts&sp=1672430632161&sp=d&sp=app.bifi.finance&sp=h&sp=%2Flend&pp=d&pp=app.bifi.finance&pp=h&pp=%2Flend&pp=t&pp=BiFi%20-%20Multichain%20DeFi%20Platform&pp=ts&pp=1672430632161&pp=pr&pp=%2Flend&id0=348442827587011&t0=click&n0=div&c0=wallet-button-title&y0=%40div%3B%23app%3B.theme--light%3B.v-application%3B.v-application--is-ltr%3B%5Bdata-app%3Dtrue%5D%3B%7C%40div%3B.v-application--wrap%3B%7C%40div%3B.ethereum%3B.header%3B.transition-all%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.container%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.header-content%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.button-wrapper%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.button%3B.wallet%3B%5Bdata-v-5245c3ee%3D%5D%3B%5Bdata-v-5800557c%3D%5D%3B%7C%40button%3B.elevation-0%3B.theme--dark%3B.transition-all%3B.v-btn%3B.v-btn--outlined%3B.v-size--default%3B.wallet-button%3B%5Bdata-v-5800557c%3D%5D%3B%5Btype%3Dbutton%5D%3B%7C%40span%3B.v-btn__content%3B%7C%40div%3B.wallet-button-title%3B%5Bdata-v-5800557c%3D%5D%3B%7C&ts0=1672430643260&x0=Connect%20Wallet&upv0=10.0&st=1672430644201",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -862,13 +1006,47 @@
         },
         {
             "requestContext": [
-                "https://app.bifi.finance/lend"
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/BhxIGo2t4diWyRtwMnYYD/confirm-permissions"
             ],
-            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-N0GP4MVT2C&gtm=2oebu0&_p=901323999&cid=181745905.1670513945&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_s=3&sid=1670513945&sct=1&seg=0&dl=https%3A%2F%2Fapp.bifi.finance%2Flend&dt=BiFi%20-%20Multichain%20DeFi%20Platform&en=scroll&epn.percent_scrolled=90",
-            "type": "ping",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
             "method": "POST",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-30T20:04:07.307Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a6fd91a40ecf49eb95061d3b026f23bf\",\"init\":false,\"started\":\"2022-12-30T20:03:52.086Z\",\"timestamp\":\"2022-12-30T20:04:07.307Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/BhxIGo2t4diWyRtwMnYYD/confirm-permissions"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-30T20:04:07.308Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"107ed2c3e31e46908584de581f8a1a3f\",\"init\":true,\"started\":\"2022-12-30T20:04:07.306Z\",\"timestamp\":\"2022-12-30T20:04:07.306Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://heapanalytics.com/api/identify_v3?a=784487605&u=6037618209875951&v=7847292458400254&s=279555505753819&i=0x7e4abd63a7c8314cc28d388303472353d884f292&b=web&tv=4.0&z=0&st=1672430647371",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
                 "referer": "https://app.bifi.finance/",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
@@ -879,7 +1057,274 @@
             "requestContext": [
                 "https://app.bifi.finance/lend"
             ],
-            "url": "https://rum.browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A4.0.1%2Cenv%3Aprod%2Cservice%3Abifi&dd-api-key=pub8203b55acfd4e1bfcf426929c02f1dd6&dd-evp-origin-version=4.0.1&dd-evp-origin=browser&dd-request-id=7ecbfb37-cb2b-44b2-9690-d70e3d8c49bb&batch_time=1670513974261",
+            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/bifi.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/usdc.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/dai.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/btc.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/wbtc.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/usdt.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/eth.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/link.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-30T20:04:08.540Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"107ed2c3e31e46908584de581f8a1a3f\",\"init\":false,\"started\":\"2022-12-30T20:04:07.306Z\",\"timestamp\":\"2022-12-30T20:04:08.540Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
+            ],
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2022-12-30T20:04:08.542Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"84e7cc58df994ac7949e4a2784d0899e\",\"init\":true,\"started\":\"2022-12-30T20:04:08.540Z\",\"timestamp\":\"2022-12-30T20:04:08.540Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x01688e1a356c38a8ed7c565bf6c6bfd59543a560\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.bifi.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x1ec9b867b701c1e5ce9a6567ecc4b71838497c27\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x01688e1a356c38a8ed7c565bf6c6bfd59543a560\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x1ec9b867b701c1e5ce9a6567ecc4b71838497c27\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x281df7fc89294c84afa2a21ffee8f6807f9c9226\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.bifi.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://rum.browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A4.0.1%2Cenv%3Aprod%2Cservice%3Abifi&dd-api-key=pub8203b55acfd4e1bfcf426929c02f1dd6&dd-evp-origin-version=4.0.1&dd-evp-origin=browser&dd-request-id=b969cfa0-26ed-4b8f-9fa4-d589258323b8&batch_time=1672430649888",
             "type": "ping",
             "method": "POST",
             "headers": {
@@ -890,13 +1335,276 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513945740,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"5e6a1f18-e3c6-45a8-9985-ec52fb15b453\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/logo.svg\",\"duration\":822000000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513945737,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"43fa2f26-6aad-49f5-80e3-ad2a16bf52db\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/welcome/background.png\",\"duration\":1811600000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513948222,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\",\"in_foreground\":true},\"action\":{\"id\":\"6cbb5037-a371-4e7b-9706-9522910cc3f0\",\"target\":{\"name\":\"Connect Wallet\"},\"type\":\"click\",\"error\":{\"count\":0},\"loading_time\":48000000,\"long_task\":{\"count\":0},\"resource\":{\"count\":0}},\"type\":\"action\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513948263,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"action\":{\"id\":\"6cbb5037-a371-4e7b-9706-9522910cc3f0\"},\"resource\":{\"id\":\"3f159d65-107d-4d8e-ad44-71bde9cb34e2\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/biport.png\",\"duration\":297700000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513948264,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"action\":{\"id\":\"6cbb5037-a371-4e7b-9706-9522910cc3f0\"},\"resource\":{\"id\":\"911a066b-d157-4d4a-ae0b-c3a9467e955e\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/coinbase.svg\",\"duration\":293800000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513948265,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"action\":{\"id\":\"6cbb5037-a371-4e7b-9706-9522910cc3f0\"},\"resource\":{\"id\":\"c002b543-1421-4e20-bc20-4ddd1fb495e2\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/metamask.svg\",\"duration\":296700000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513949323,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"4ea8c248-7b27-4463-adff-45f76ca2d6ad\",\"type\":\"image\",\"url\":\"https://heapanalytics.com/h?a=784487605&u=7822841416020254&v=2478672152837972&s=7586448021293013&b=web&tv=4.0&sp=ts&sp=1670513945285&sp=d&sp=app.bifi.finance&sp=h&sp=%2Flend&pp=d&pp=app.bifi.finance&pp=h&pp=%2Flend&pp=t&pp=BiFi%20-%20Multichain%20DeFi%20Platform&pp=ts&pp=1670513945285&id0=6473935808329762&t0=click&n0=div&c0=wallet-button-title&y0=%40div%3B%23app%3B.theme--light%3B.v-application%3B.v-application--is-ltr%3B%5Bdata-app%3Dtrue%5D%3B%7C%40div%3B.v-application--wrap%3B%7C%40div%3B.ethereum%3B.header%3B.transition-all%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.container%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.header-content%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.button-wrapper%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.button%3B.wallet%3B%5Bdata-v-5245c3ee%3D%5D%3B%5Bdata-v-5800557c%3D%5D%3B%7C%40button%3B.elevation-0%3B.theme--dark%3B.transition-all%3B.v-btn%3B.v-btn--outlined%3B.v-size--default%3B.wallet-button%3B%5Bdata-v-5800557c%3D%5D%3B%5Btype%3Dbutton%5D%3B%7C%40span%3B.v-btn__content%3B%7C%40div%3B.wallet-button-title%3B%5Bdata-v-5800557c%3D%5D%3B%7C&ts0=1670513948232&x0=Connect%20Wallet&upv0=10.0&st=1670513949321\",\"duration\":113000000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":-1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513950275,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"c892a441-481e-47eb-a58b-1c02c8906349\",\"type\":\"image\",\"url\":\"https://heapanalytics.com/h?a=784487605&u=7822841416020254&v=2478672152837972&s=7586448021293013&b=web&tv=4.0&sp=ts&sp=1670513945285&sp=d&sp=app.bifi.finance&sp=h&sp=%2Flend&pp=d&pp=app.bifi.finance&pp=h&pp=%2Flend&pp=t&pp=BiFi%20-%20Multichain%20DeFi%20Platform&pp=ts&pp=1670513945285&id0=983765390250112&t0=click&n0=span&c0=popup-wallet-button-title&y0=%40div%3B%23app%3B.theme--light%3B.v-application%3B.v-application--is-ltr%3B%5Bdata-app%3Dtrue%5D%3B%7C%40div%3B.v-dialog__content%3B.v-dialog__content--active%3B%5Bdata-v-84202c34%3D%5D%3B%5Brole%3Ddocument%5D%3B%5Btabindex%3D0%5D%3B%7C%40div%3B.v-dialog%3B.v-dialog--active%3B.wallet-connector%3B%7C%40div%3B.column%3B.layout%3B.popup-content%3B%5Bdata-v-84202c34%3D%5D%3B%7C%40div%3B.column%3B.layout%3B.popup-wallet%3B%5Bdata-v-84202c34%3D%5D%3B%7C%40button%3B.popup-wallet-button%3B.theme--dark%3B.v-btn%3B.v-btn--disabled%3B.v-btn--has-bg%3B.v-size--default%3B%5Bdata-v-84202c34%3D%5D%3B%5Bdisabled%3Ddisabled%5D%3B%5Btype%3Dbutton%5D%3B%7C%40span%3B.v-btn__content%3B%7C%40span%3B.popup-wallet-button-title%3B%5Bdata-v-84202c34%3D%5D%3B%7C&ts0=1670513949991&x0=MetaMask&upv0=10.0&st=1670513950274\",\"duration\":121000000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513950386,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"resource\":{\"id\":\"ceeff90e-af0c-4a3c-ad11-1f74867d991d\",\"type\":\"beacon\",\"url\":\"https://region1.google-analytics.com/g/collect?v=2&tid=G-N0GP4MVT2C&gtm=2oebu0&_p=901323999&cid=181745905.1670513945&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_s=3&sid=1670513945&sct=1&seg=0&dl=https%3A%2F%2Fapp.bifi.finance%2Flend&dt=BiFi%20-%20Multichain%20DeFi%20Platform&en=scroll&epn.percent_scrolled=90\",\"duration\":76700000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513965381,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"long_task\":{\"id\":\"0fb85995-0ee5-4091-b211-a706b4796955\",\"duration\":56000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513970853,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\"},\"long_task\":{\"id\":\"534ce780-16dd-47ae-8a20-fe142f2024a3\",\"duration\":59000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2},\"document_version\":3},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513943371,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\"},\"view\":{\"url\":\"https://app.bifi.finance/\",\"referrer\":\"\",\"id\":\"e1b401a6-76e6-44d8-abf1-39c498126771\",\"action\":{\"count\":0},\"cumulative_layout_shift\":0,\"dom_complete\":2302300000,\"dom_content_loaded\":1545200000,\"dom_interactive\":1523500000,\"error\":{\"count\":0},\"is_active\":false,\"load_event\":2302700000,\"loading_type\":\"initial_load\",\"long_task\":{\"count\":0},\"resource\":{\"count\":5},\"time_spent\":1103000000,\"in_foreground_periods\":[]},\"type\":\"view\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2},\"document_version\":7,\"replay_stats\":{\"records_count\":51,\"segments_count\":2,\"segments_total_raw_size\":1325746}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1670513944475,\"service\":\"bifi\",\"session\":{\"id\":\"c6b70126-1c44-406e-8504-8c1755fb6c3b\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/\",\"id\":\"e06f804d-0a7f-46b1-a857-14f7442f57f1\",\"action\":{\"count\":1},\"cumulative_layout_shift\":0.0223,\"error\":{\"count\":0},\"is_active\":true,\"loading_time\":818000000,\"loading_type\":\"route_change\",\"long_task\":{\"count\":6},\"resource\":{\"count\":23},\"time_spent\":29447000000,\"in_foreground_periods\":[{\"start\":1236400000,\"duration\":28210600000}]},\"type\":\"view\"}"
+            "postData": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430631297,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"79f5c1ea-07b9-4ef4-af85-bd11ef9459c1\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/welcome/background.png\",\"duration\":1912700000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430633238,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"36dab0a5-8893-4bd3-ab52-3b92f4373ae6\",\"type\":\"other\",\"url\":\"https://app.bifi.finance/manifest.webmanifest\",\"duration\":27800000,\"size\":609,\"download\":{\"duration\":1200000,\"start\":26600000},\"first_byte\":{\"duration\":13400000,\"start\":13200000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430633262,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"ef21ac39-ef77-44cf-886b-d2abeb3203a3\",\"type\":\"image\",\"url\":\"https://app.bifi.finance/favicon.png\",\"duration\":2200000,\"size\":1101,\"download\":{\"duration\":600000,\"start\":1600000},\"first_byte\":{\"duration\":0,\"start\":1600000}},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430636511,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"2125e4a9-2659-4eda-8304-f4d219d71c27\",\"type\":\"beacon\",\"url\":\"https://region1.google-analytics.com/g/collect?v=2&tid=G-N0GP4MVT2C&gtm=2oebu0&_p=390021662&cid=133107787.1672430631&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_s=3&sid=1672430631&sct=1&seg=0&dl=https%3A%2F%2Fapp.bifi.finance%2Flend&dr=https%3A%2F%2Fapp.bifi.finance%2Flend&dt=BiFi%20-%20Multichain%20DeFi%20Platform&en=scroll&epn.percent_scrolled=90&_et=10\",\"duration\":61000000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430643252,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\",\"in_foreground\":false},\"action\":{\"id\":\"90f9ad1f-6ac4-4004-b07e-3350df0e6c35\",\"target\":{\"name\":\"Connect Wallet\"},\"type\":\"click\",\"error\":{\"count\":0},\"loading_time\":41000000,\"long_task\":{\"count\":0},\"resource\":{\"count\":0}},\"type\":\"action\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430643286,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"action\":{\"id\":\"90f9ad1f-6ac4-4004-b07e-3350df0e6c35\"},\"resource\":{\"id\":\"a72aeffe-fabd-449d-9d74-2eafbba538e9\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/coinbase.svg\",\"duration\":732400000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430643289,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"action\":{\"id\":\"90f9ad1f-6ac4-4004-b07e-3350df0e6c35\"},\"resource\":{\"id\":\"4840b3f4-bb07-4a1a-894e-1024d2be4221\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/biport.png\",\"duration\":730400000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430643287,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"action\":{\"id\":\"90f9ad1f-6ac4-4004-b07e-3350df0e6c35\"},\"resource\":{\"id\":\"d0812338-437a-4441-978b-d309763ded8e\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/metamask.svg\",\"duration\":754200000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430644201,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"201b2169-1c7c-40d1-a325-3fc391a4b264\",\"type\":\"image\",\"url\":\"https://heapanalytics.com/h?a=784487605&u=6037618209875951&v=7847292458400254&s=279555505753819&b=web&tv=4.0&sp=r&sp=https%3A%2F%2Fapp.bifi.finance%2Flend&sp=ts&sp=1672430632161&sp=d&sp=app.bifi.finance&sp=h&sp=%2Flend&pp=d&pp=app.bifi.finance&pp=h&pp=%2Flend&pp=t&pp=BiFi%20-%20Multichain%20DeFi%20Platform&pp=ts&pp=1672430632161&pp=pr&pp=%2Flend&id0=348442827587011&t0=click&n0=div&c0=wallet-button-title&y0=%40div%3B%23app%3B.theme--light%3B.v-application%3B.v-application--is-ltr%3B%5Bdata-app%3Dtrue%5D%3B%7C%40div%3B.v-application--wrap%3B%7C%40div%3B.ethereum%3B.header%3B.transition-all%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.container%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.header-content%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.button-wrapper%3B%5Bdata-v-5245c3ee%3D%5D%3B%7C%40div%3B.button%3B.wallet%3B%5Bdata-v-5245c3ee%3D%5D%3B%5Bdata-v-5800557c%3D%5D%3B%7C%40button%3B.elevation-0%3B.theme--dark%3B.transition-all%3B.v-btn%3B.v-btn--outlined%3B.v-size--default%3B.wallet-button%3B%5Bdata-v-5800557c%3D%5D%3B%5Btype%3Dbutton%5D%3B%7C%40span%3B.v-btn__content%3B%7C%40div%3B.wallet-button-title%3B%5Bdata-v-5800557c%3D%5D%3B%7C&ts0=1672430643260&x0=Connect%20Wallet&upv0=10.0&st=1672430644201\",\"duration\":111200000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430647376,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"5ce6ce11-05b1-409b-b759-acb8ac6b93e6\",\"type\":\"image\",\"url\":\"https://heapanalytics.com/api/identify_v3?a=784487605&u=6037618209875951&v=7847292458400254&s=279555505753819&i=0x7e4abd63a7c8314cc28d388303472353d884f292&b=web&tv=4.0&z=0&st=1672430647371\",\"duration\":114200000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430647871,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"long_task\":{\"id\":\"51196e5e-df82-479d-88d2-14dbe61f0bb1\",\"duration\":194000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430648122,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"1843530d-97a6-4127-8ec0-ce76388f54e5\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/dai.svg\",\"duration\":298600000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430648122,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"f8563c3d-b85d-4b9e-93ec-1af56dc91af3\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/usdc.svg\",\"duration\":310400000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":-16,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430648122,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"2523f23c-1f57-426a-aaf3-761ca6c7658b\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/bifi.png\",\"duration\":505500000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430648123,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"f9a6eeae-af57-4e86-876d-ae50e7c82c61\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/btc.svg\",\"duration\":577300000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430648123,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"5143858b-c6d4-4bc4-9545-e5daccc3006f\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/wbtc.svg\",\"duration\":582700000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430648124,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"6590b5df-cd26-4fc8-8d36-366892cd2e54\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/eth.svg\",\"duration\":748200000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430648124,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"9511e645-6655-4516-b4a7-ed2bcf8021fe\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/link.svg\",\"duration\":747000000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430648124,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"95332b82-922c-4eb8-b819-e9052da43865\",\"type\":\"image\",\"url\":\"https://s3.ap-northeast-2.amazonaws.com/bifi.finance/icon/usdt.svg\",\"duration\":775000000},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430648773,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"5a5399a0-1d08-41e5-9d7e-1f8950ee5149\",\"type\":\"xhr\",\"duration\":491000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430649521,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"long_task\":{\"id\":\"d5f2c7cf-db0e-40fe-9a34-9611fbf185d0\",\"duration\":82000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430649422,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"96804bf1-02a1-4121-af4f-11f648866f19\",\"type\":\"xhr\",\"duration\":226000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430649456,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"beb9bc58-cdc7-4196-9e50-dde467bb76ec\",\"type\":\"xhr\",\"duration\":227000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":1,\"session\":{\"plan\":2},\"document_version\":4,\"replay_stats\":{\"records_count\":25,\"segments_count\":2,\"segments_total_raw_size\":1321058}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430629671,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\",\"action\":{\"count\":1},\"cumulative_layout_shift\":0.1006,\"dom_complete\":3553900000,\"dom_content_loaded\":1678100000,\"dom_interactive\":1648200000,\"error\":{\"count\":0},\"first_contentful_paint\":1664800000,\"is_active\":true,\"largest_contentful_paint\":3575300000,\"load_event\":3554300000,\"loading_time\":3554300000,\"loading_type\":\"initial_load\",\"long_task\":{\"count\":6},\"resource\":{\"count\":27},\"time_spent\":16737000000,\"in_foreground_periods\":[{\"start\":1004400000,\"duration\":913400000},{\"start\":15762400000,\"duration\":974600000}]},\"type\":\"view\"}"
         },
         {
             "requestContext": [
                 "https://app.bifi.finance/lend"
             ],
-            "url": "https://session-replay.browser-intake-datadoghq.com/api/v2/replay?ddsource=browser&ddtags=sdk_version%3A4.0.1%2Cenv%3Aprod%2Cservice%3Abifi&dd-api-key=pub8203b55acfd4e1bfcf426929c02f1dd6&dd-evp-origin-version=4.0.1&dd-evp-origin=browser&dd-request-id=ead65e12-c667-44e9-a517-9db7a1333946",
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x281df7fc89294c84afa2a21ffee8f6807f9c9226\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.bifi.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x0bec54c89a7d9f15c4e7faa8d47adedf374462ed\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x0bec54c89a7d9f15c4e7faa8d47adedf374462ed\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      token(id: \\\"0x0c7d5ae016f806603cb1782bea29ac69471cab9c\\\") {\\n        derivedETH\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      token(id: \\\"0x0c7d5ae016f806603cb1782bea29ac69471cab9c\\\") {\\n        derivedETH\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      token(id: \\\"0x2791bfd60d232150bff86b39b7146c0eaaa2ba81\\\") {\\n        derivedETH\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      token(id: \\\"0x2791bfd60d232150bff86b39b7146c0eaaa2ba81\\\") {\\n        derivedETH\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x01688e1a356c38a8ed7c565bf6c6bfd59543a560\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.bifi.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x1ec9b867b701c1e5ce9a6567ecc4b71838497c27\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x281df7fc89294c84afa2a21ffee8f6807f9c9226\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.bifi.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x0bec54c89a7d9f15c4e7faa8d47adedf374462ed\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      token(id: \\\"0x0c7d5ae016f806603cb1782bea29ac69471cab9c\\\") {\\n        derivedETH\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      token(id: \\\"0x2791bfd60d232150bff86b39b7146c0eaaa2ba81\\\") {\\n        derivedETH\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://rum.browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A4.0.1%2Cenv%3Aprod%2Cservice%3Abifi&dd-api-key=pub8203b55acfd4e1bfcf426929c02f1dd6&dd-evp-origin-version=4.0.1&dd-evp-origin=browser&dd-request-id=30b46586-3fdf-4845-9170-56808084de35&batch_time=1672430660728",
             "type": "ping",
             "method": "POST",
             "headers": {
@@ -905,10 +1613,317 @@
                 "referer": "https://app.bifi.finance/",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryN2dj5pmrEPYxndSd"
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430649685,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"30af49ad-cbd2-4227-aba8-d6d3c9c0e51b\",\"type\":\"xhr\",\"duration\":203000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430649807,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"e593a976-81df-46ee-82f9-da71dae50152\",\"type\":\"xhr\",\"duration\":449000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/sushiswap/exchange\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430649899,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"877977bb-dea6-4969-b535-8a3b57119a99\",\"type\":\"xhr\",\"duration\":458000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/sushiswap/exchange\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430650401,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"7f6bd355-0793-4949-b314-e28372efbf73\",\"type\":\"xhr\",\"duration\":235000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/sushiswap/exchange\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430650399,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"a611983c-1f7d-4da7-9d07-1341b2817e7f\",\"type\":\"xhr\",\"duration\":249000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/sushiswap/exchange\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430650768,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"f250f67f-38e6-40c4-850e-d9792d51fd46\",\"type\":\"xhr\",\"duration\":230000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/sushiswap/exchange\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430650763,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"e09b448e-2fc8-449e-9190-622dbbc419a5\",\"type\":\"xhr\",\"duration\":249000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/sushiswap/exchange\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430651167,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"d91bb5da-ddd6-4a56-8e43-66b247ac1c48\",\"type\":\"xhr\",\"duration\":214000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/sushiswap/exchange\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430651165,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"fb9a89a0-f501-48bf-98ec-b516e2d5eee1\",\"type\":\"xhr\",\"duration\":244000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/sushiswap/exchange\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430651505,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"long_task\":{\"id\":\"cf57dc61-595e-4bde-a4cd-7aaf7a8cd133\",\"duration\":65000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430651591,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"long_task\":{\"id\":\"4a384548-54f2-43c6-ae46-a3480ff73074\",\"duration\":59000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430651671,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"long_task\":{\"id\":\"647ef532-d79e-4c86-95fa-6ba7913fe8fb\",\"duration\":93000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":1,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430655434,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"long_task\":{\"id\":\"c58b0a6c-a80c-427c-9a7a-61a1d778b769\",\"duration\":56000000},\"type\":\"long_task\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430655410,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"c34ebd7e-65e8-4a8a-83d9-c5e0cc88a483\",\"type\":\"xhr\",\"duration\":452000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430655864,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"85479df2-804e-49d2-bf53-6f4dfed1c06f\",\"type\":\"xhr\",\"duration\":243000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430656110,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"9af95746-fd80-4aa8-b8dd-ce95fe055233\",\"type\":\"xhr\",\"duration\":443000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/sushiswap/exchange\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430656556,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"02c342fe-643c-49c6-a7f2-caaae9b82322\",\"type\":\"xhr\",\"duration\":278000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/sushiswap/exchange\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430656836,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"453a3626-64cd-4069-b9a7-ed5374502228\",\"type\":\"xhr\",\"duration\":220000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/sushiswap/exchange\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430657059,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\"},\"resource\":{\"id\":\"b95b6f65-40c8-48c0-bb4a-ba8357a885b9\",\"type\":\"xhr\",\"duration\":261000000,\"method\":\"POST\",\"status_code\":200,\"url\":\"https://api.thegraph.com/subgraphs/name/sushiswap/exchange\"},\"type\":\"resource\"}\n{\"_dd\":{\"format_version\":2,\"drift\":0,\"session\":{\"plan\":2},\"document_version\":7,\"replay_stats\":{\"records_count\":47,\"segments_count\":2,\"segments_total_raw_size\":1432656}},\"application\":{\"id\":\"e4641fb1-fb60-46a1-9450-7cde55cedbe9\"},\"date\":1672430629671,\"service\":\"bifi\",\"session\":{\"id\":\"b2be6e75-30e5-44d9-b3b6-8596056f385d\",\"type\":\"user\",\"has_replay\":true},\"view\":{\"url\":\"https://app.bifi.finance/lend\",\"referrer\":\"https://app.bifi.finance/lend\",\"id\":\"d42acd10-ae6a-477d-8761-61a07a944072\",\"action\":{\"count\":1},\"cumulative_layout_shift\":0.2078,\"dom_complete\":3553900000,\"dom_content_loaded\":1678100000,\"dom_interactive\":1648200000,\"error\":{\"count\":0},\"first_contentful_paint\":1664800000,\"is_active\":true,\"largest_contentful_paint\":3575300000,\"load_event\":3554300000,\"loading_time\":3554300000,\"loading_type\":\"initial_load\",\"long_task\":{\"count\":12},\"resource\":{\"count\":54},\"time_spent\":28828000000,\"in_foreground_periods\":[{\"start\":1004400000,\"duration\":913400000},{\"start\":15762400000,\"duration\":13065600000}]},\"type\":\"view\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x01688e1a356c38a8ed7c565bf6c6bfd59543a560\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.bifi.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x1ec9b867b701c1e5ce9a6567ecc4b71838497c27\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x281df7fc89294c84afa2a21ffee8f6807f9c9226\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.bifi.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://session-replay.browser-intake-datadoghq.com/api/v2/replay?ddsource=browser&ddtags=sdk_version%3A4.0.1%2Cenv%3Aprod%2Cservice%3Abifi&dd-api-key=pub8203b55acfd4e1bfcf426929c02f1dd6&dd-evp-origin-version=4.0.1&dd-evp-origin=browser&dd-request-id=d5da80a7-be75-475c-9441-758c40ad877d",
+            "type": "ping",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryFAXHCSYixFBveTkf"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x0bec54c89a7d9f15c4e7faa8d47adedf374462ed\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      token(id: \\\"0x0c7d5ae016f806603cb1782bea29ac69471cab9c\\\") {\\n        derivedETH\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      token(id: \\\"0x2791bfd60d232150bff86b39b7146c0eaaa2ba81\\\") {\\n        derivedETH\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x01688e1a356c38a8ed7c565bf6c6bfd59543a560\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.bifi.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x1ec9b867b701c1e5ce9a6567ecc4b71838497c27\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.bifi.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x281df7fc89294c84afa2a21ffee8f6807f9c9226\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x0bec54c89a7d9f15c4e7faa8d47adedf374462ed\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      token(id: \\\"0x0c7d5ae016f806603cb1782bea29ac69471cab9c\\\") {\\n        derivedETH\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      token(id: \\\"0x2791bfd60d232150bff86b39b7146c0eaaa2ba81\\\") {\\n        derivedETH\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.bifi.finance/lend"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.bifi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"query\":\"{\\n      bundle(id: \\\"1\\\" ) {\\n        ethPrice\\n      }\\n      pair(id: \\\"0x01688e1a356c38a8ed7c565bf6c6bfd59543a560\\\") {\\n        token0 {\\n          derivedETH\\n        }\\n        token1 {\\n          derivedETH\\n        }\\n        reserve0\\n        reserve1\\n        totalSupply\\n      }\\n    }\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.bifi.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
             }
         }
     ],
-    "success": false,
-    "msg": "TypeError: popup.waitForXPath is not a function"
+    "success": true
 }

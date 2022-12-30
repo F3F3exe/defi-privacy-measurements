@@ -3,7 +3,7 @@ Executing with arguments:  {
   debugLevel: 'verbose',
   headless: false,
   profilePath: undefined,
-  secs: 30,
+  secs: 45,
   url: 'https://yearn.finance',
   metamaskPath: 'metamask-chrome-10.22.2',
   destination: 'test_crawls',
@@ -15,9 +15,9 @@ Completed configuring new page.
 Will wait for navigation about:blank
 Completed configuring new page.
 Request 1: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css
-Request 2: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Error while waiting navigation about:blank
 Visiting https://yearn.finance
+Request 2: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 3: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
 Request 4: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
 Request 5: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
@@ -41,244 +41,119 @@ Request 22: https://yearn.finance/
 Request 23: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 24: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 25: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/eth_logo.svg
-Request 26: https://analytics.yearn.finance/js/plausible.js
-Request 27: https://yearn.finance/static/css/23.e0280511.chunk.css
-Request 28: https://yearn.finance/static/css/main.0ba5df1b.chunk.css
-Request 29: https://yearn.finance/static/js/runtime-main.541b3e56.js
-Request 30: https://yearn.finance/static/js/23.ae293170.chunk.js
-Request 31: https://yearn.finance/static/js/main.22ec9487.chunk.js
-Request 32: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/aliases.json
-Request 33: https://api.github.com/repos/yearn/yearn-assets/contents/icons/multichain-tokens/250
-Request 34: https://api.github.com/repos/yearn/yearn-assets/contents/icons/multichain-tokens/42161
-Request 35: https://api.github.com/repos/yearn/yearn-assets/contents/icons/multichain-tokens/10
-Request 36: https://yearn.finance/locales/en/common.json
-Request 37: https://yearn.finance/locales/en/home.json
-Request 38: https://yearn.finance/locales/en/labs.json
-Request 39: https://yearn.finance/locales/en/modals.json
-Request 40: https://yearn.finance/locales/en/settings.json
-Request 41: https://yearn.finance/locales/en/vaultdetails.json
-Request 42: https://yearn.finance/locales/en/vaults.json
-Request 43: https://yearn.finance/locales/en/wallet.json
-Request 44: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 45: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 46: https://rpc.ftm.tools/
-Request 47: https://arb1.arbitrum.io/rpc
-Request 48: https://rpc.ftm.tools/
-Request 49: https://rpc.ankr.com/optimism/2522d095ce2de8227c227c09191400c0c660cd826948bd6a46463a07d296f0d5
-Request 50: https://arb1.arbitrum.io/rpc
-Request 51: https://rpc.ankr.com/optimism/2522d095ce2de8227c227c09191400c0c660cd826948bd6a46463a07d296f0d5
-Request 52: https://yearn.finance/favicon.ico
-Request 53: https://raw.githack.com/trustwallet/assets/master/blockchains/ethereum/tokenlist.json
-Request 54: https://api.github.com/repos/yearn/yearn-assets/contents/icons/multichain-tokens/1
-Request 55: http://yearn-alerts-balancer-2019386215.us-east-1.elb.amazonaws.com/health
-Request 56: https://cache.yearn.finance/v1/chains/1/tokens/supported
-Request 57: https://yearn.finance/static/media/goblin-town.0c02a085.jpg
-Request 58: https://cache.yearn.finance/v1/chains/1/vaults/get
-Will wait for navigation https://yearn.finance/vaults
-Request 59: https://yearn.finance/static/media/Roboto-Bold.75371f53.ttf
-Request 60: https://yearn.finance/static/media/Roboto-Regular.a8d6ac03.ttf
-Request 61: https://yearn.finance/manifest.json
-Request 62: https://yearn.finance/favicon.ico
-Request 63: https://yearn.finance/logo192.png
-Page load after click took 0.791s
-Request 64: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xFCc5c47bE19d06BF83eB04298b026F81069ff65b/logo-128.png
-Request 65: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x178E029173417b1F9C8bC16DCeC6f697bC323746/logo-128.png
-Request 66: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x22CF19EB64226e0E1A79c69b345b31466fD273A7/logo-128.png
-Request 67: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE/logo-128.png
-Request 68: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x06325440D014e39736583c165C2963BA99fAf14E/logo-128.png
-Request 69: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo-128.png
-Request 70: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo-128.png
-Request 71: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo-128.png
-Request 72: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo-128.png
-Request 73: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x5282a4eF67D9C33135340fB3289cc1711c13638C/logo-128.png
-Request 74: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xEd279fDD11cA84bEef15AF5D39BB4d4bEE23F0cA/logo-128.png
-Request 75: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo-128.png
-Request 76: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo-128.png
-Request 77: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xc4AD29ba4B3c580e6D59105FFf484999997675Ff/logo-128.png
-Request 78: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x4f3E8F405CF5aFC05D68142F3783bDfE13811522/logo-128.png
-Request 79: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x29059568bB40344487d62f7450E78b8E6C74e0e5/logo-128.png
-Request 80: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo-128.png
-Request 81: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo-128.png
-Request 82: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xA3D87FffcE63B53E0d54fAa1cc983B7eB0b74A9c/logo-128.png
-Request 83: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xb9446c4Ef5EBE66268dA6700D26f96273DE3d571/logo-128.png
-Request 84: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x43b4FdFD4Ff969587185cDB6f0BD875c5Fc83f8c/logo-128.png
-Request 85: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x453D92C7d4263201C69aACfaf589Ed14202d83a4/logo-128.png
-Request 86: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo-128.png
-Request 87: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xC25a3A3b969415c80451098fa907EC722572917F/logo-128.png
-Request 88: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x3A283D9c08E8b55966afb64C515f5143cf907611/logo-128.png
-Request 89: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x53a901d48795C58f485cBB38df08FA96a24669D5/logo-128.png
-Request 90: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x5a6A4D54456819380173272A5E8E9B9904BdF41B/logo-128.png
-Request 91: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xEd4064f376cB8d68F770FB1Ff088a3d0F3FF5c4d/logo-128.png
-Request 92: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x6BA5b4e438FA0aAf7C1bD179285aF65d13bD3D90/logo-128.png
-Request 93: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x5f98805A4E8be255a32880FDeC7F6728C6568bA0/logo-128.png
-Request 94: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x1AEf73d49Dedc4b1778d0706583995958Dc862e6/logo-128.png
-Request 95: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xA13a9247ea42D743238089903570127DdA72fE44/logo-128.png
-Request 96: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3/logo-128.png
-Request 97: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xD2967f45c4f384DEEa880F807Be904762a3DeA07/logo-128.png
-Request 98: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x410e3E86ef427e30B9235497143881f717d93c2A/logo-128.png
-Request 99: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x3b6831c0077a1e44ED0a21841C3bC4dC11bCE833/logo-128.png
-Request 100: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xaA17A236F2bAdc98DDc0Cf999AbB47D47Fc0A6Cf/logo-128.png
-Request 101: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x3a664Ab939FD8482048609f652f9a0B0677337B9/logo-128.png
-Request 102: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xb19059ebb43466C323583928285a49f558E572Fd/logo-128.png
-Request 103: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x2fE94ea3d5d4a175184081439753DE15AeF9d614/logo-128.png
-Request 104: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x9D0464996170c6B9e75eED71c68B99dDEDf279e8/logo-128.png
-Request 105: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x87650D7bbfC3A9F10587d7778206671719d9910D/logo-128.png
-Request 106: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x0000000000085d4780B73119b644AE5ecd22b376/logo-128.png
-Request 107: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x49849C98ae39Fff122806C06791Fa73784FB3675/logo-128.png
-Request 108: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xc270b3B858c335B6BA5D5b10e2Da8a09976005ad/logo-128.png
-Request 109: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xC4C319E2D4d66CcA4464C0c2B32c9Bd23ebe784e/logo-128.png
-Request 110: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x3Fb78e61784C9c637D560eDE23Ad57CA1294c14a/logo-128.png
-Request 111: https://raw.githack.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x4647B6D835f3B393C7A955df51EEfcf0db961606/logo-128.png
-Request 112: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE/logo-128.png
-Request 113: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xFCc5c47bE19d06BF83eB04298b026F81069ff65b/logo-128.png
-Request 114: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo-128.png
-Request 115: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo-128.png
-Request 116: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x22CF19EB64226e0E1A79c69b345b31466fD273A7/logo-128.png
-Request 117: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xEd279fDD11cA84bEef15AF5D39BB4d4bEE23F0cA/logo-128.png
-Request 118: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xc4AD29ba4B3c580e6D59105FFf484999997675Ff/logo-128.png
-Request 119: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x29059568bB40344487d62f7450E78b8E6C74e0e5/logo-128.png
-Request 120: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo-128.png
-Request 121: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xb9446c4Ef5EBE66268dA6700D26f96273DE3d571/logo-128.png
-Request 122: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x43b4FdFD4Ff969587185cDB6f0BD875c5Fc83f8c/logo-128.png
-Request 123: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo-128.png
-Request 124: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x5a6A4D54456819380173272A5E8E9B9904BdF41B/logo-128.png
-Request 125: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x178E029173417b1F9C8bC16DCeC6f697bC323746/logo-128.png
-Request 126: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x06325440D014e39736583c165C2963BA99fAf14E/logo-128.png
-Request 127: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3/logo-128.png
-Request 128: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo-128.png
-Request 129: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo-128.png
-Request 130: https://api.coingecko.com/api/v3/simple/price?ids=yvboost&vs_currencies=usd
-Request 131: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo-128.png
-Request 132: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xA3D87FffcE63B53E0d54fAa1cc983B7eB0b74A9c/logo-128.png
-Request 133: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x453D92C7d4263201C69aACfaf589Ed14202d83a4/logo-128.png
-Request 134: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xD2967f45c4f384DEEa880F807Be904762a3DeA07/logo-128.png
-Request 135: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo-128.png
-Request 136: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x5282a4eF67D9C33135340fB3289cc1711c13638C/logo-128.png
-Request 137: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo-128.png
-Request 138: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xC25a3A3b969415c80451098fa907EC722572917F/logo-128.png
-Request 139: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x3A283D9c08E8b55966afb64C515f5143cf907611/logo-128.png
-Request 140: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x4f3E8F405CF5aFC05D68142F3783bDfE13811522/logo-128.png
-Request 141: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x53a901d48795C58f485cBB38df08FA96a24669D5/logo-128.png
-Request 142: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xEd4064f376cB8d68F770FB1Ff088a3d0F3FF5c4d/logo-128.png
-Request 143: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x6BA5b4e438FA0aAf7C1bD179285aF65d13bD3D90/logo-128.png
-Request 144: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x5f98805A4E8be255a32880FDeC7F6728C6568bA0/logo-128.png
-Request 145: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x1AEf73d49Dedc4b1778d0706583995958Dc862e6/logo-128.png
-Request 146: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xA13a9247ea42D743238089903570127DdA72fE44/logo-128.png
-Request 147: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x410e3E86ef427e30B9235497143881f717d93c2A/logo-128.png
-Request 148: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x3b6831c0077a1e44ED0a21841C3bC4dC11bCE833/logo-128.png
-Request 149: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xaA17A236F2bAdc98DDc0Cf999AbB47D47Fc0A6Cf/logo-128.png
-Request 150: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x3a664Ab939FD8482048609f652f9a0B0677337B9/logo-128.png
-Request 151: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xb19059ebb43466C323583928285a49f558E572Fd/logo-128.png
-Request 152: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x2fE94ea3d5d4a175184081439753DE15AeF9d614/logo-128.png
-Request 153: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x9D0464996170c6B9e75eED71c68B99dDEDf279e8/logo-128.png
-Request 154: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x87650D7bbfC3A9F10587d7778206671719d9910D/logo-128.png
-Request 155: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x0000000000085d4780B73119b644AE5ecd22b376/logo-128.png
-Request 156: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x49849C98ae39Fff122806C06791Fa73784FB3675/logo-128.png
-Request 157: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xc270b3B858c335B6BA5D5b10e2Da8a09976005ad/logo-128.png
-Request 158: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0xC4C319E2D4d66CcA4464C0c2B32c9Bd23ebe784e/logo-128.png
-Request 159: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x3Fb78e61784C9c637D560eDE23Ad57CA1294c14a/logo-128.png
-Request 160: https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/multichain-tokens/1/0x4647B6D835f3B393C7A955df51EEfcf0db961606/logo-128.png
-looking for wallet button
-Request 161: https://yearn.finance/static/js/62.19bcf80c.chunk.js
-Request 162: https://yearn.finance/static/js/89.7487baeb.chunk.js
-Request 163: https://yearn.finance/static/js/88.ff92fd16.chunk.js
-Request 164: https://yearn.finance/static/js/84.efeb9f87.chunk.js
-Request 165: https://yearn.finance/static/js/55.a86ef922.chunk.js
-Request 166: https://yearn.finance/static/js/44.4fd2e8ed.chunk.js
-Request 167: https://yearn.finance/static/js/69.58f1870f.chunk.js
-Request 168: https://yearn.finance/static/js/68.96e1480b.chunk.js
-Request 169: https://yearn.finance/static/js/83.a8b64e45.chunk.js
-Request 170: https://yearn.finance/static/js/76.6cc9554b.chunk.js
-Request 171: https://yearn.finance/static/js/86.c0c423e0.chunk.js
-Request 172: https://yearn.finance/static/js/82.031556f0.chunk.js
-Request 173: https://yearn.finance/static/js/87.c689f2bf.chunk.js
-Request 174: https://yearn.finance/static/js/79.7ff71387.chunk.js
-Request 175: https://yearn.finance/static/js/73.7c46bf32.chunk.js
-Request 176: https://yearn.finance/static/js/64.525bfe4c.chunk.js
-Request 177: https://yearn.finance/static/js/65.a585c0d2.chunk.js
-Request 178: https://yearn.finance/static/js/58.b635f175.chunk.js
-Request 179: https://yearn.finance/static/js/61.c0853eb2.chunk.js
-Request 180: https://yearn.finance/static/js/20.acfe9af7.chunk.js
-Request 181: https://yearn.finance/static/js/0.8a493b90.chunk.js
-Request 182: https://yearn.finance/static/js/2.f76f9ac5.chunk.js
-Request 183: https://yearn.finance/static/js/1.333a0d1a.chunk.js
-Request 184: https://yearn.finance/static/js/3.1fcd27d1.chunk.js
-Request 185: https://yearn.finance/static/js/24.791d7ca9.chunk.js
-Request 186: https://yearn.finance/static/js/56.07924bb6.chunk.js
-Request 187: https://yearn.finance/static/js/59.17c8d60f.chunk.js
-Request 188: https://yearn.finance/static/js/54.e53d9659.chunk.js
-Request 189: https://yearn.finance/static/js/81.2fade3d4.chunk.js
-found wallet button: Connect Wallet
-Request 190: https://yearn.finance/static/js/9.28e9b268.chunk.js
-Request 191: https://yearn.finance/static/js/16.59280cab.chunk.js
-Request 192: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABQCAMAAACEXWP5AAABfVBMVEVHcEzffSL3jCOASB3hfSLkgCJxQyKdW0QhHh6hZj9qPyB/Rx3jfiSBSR+ARx3vhyN9Rhx8Rht/Rh1/Rx3jfSPpgiJ/RhzmgSPmgCPHtqqARx1+Rxx+Rx1+Rh18RBzifyPkfiPDsqjCsqbEs6nFtazmfyN9Rh31iyPlfiO8s7HceiTAsKXkfSOBSBzFtajsjjfaeiXifSLGtajogyIgHh4vJR7ffCfDsqbDsaaTUx4hHx8iHx8oIyPDsaaXioK9aCBaOx/PcyjZx7nYbyDHtqrddSEiHx/+kCTjeiLbcSDLuq7geCLayr3QvrElPFHWxLYaGRraw7BzVD02QU3khjLhmlzbtZbgq31dU0qdYTLfomzjj0VKSUhuZV+RZTqPWjSLf3emmI6ASB7lfyTngCR9Rh6FSh6DSR7ogSSMTx7JcSPsgyT4jSTqgiTffSStYCC1ZiWhWR+aVh/1iyTziiTwhiSVVB+/aiLXeSTlfiPxiCTuhST6jiT2jCTUbyHcqlRkAAAAQnRSTlMAE/DlIzgVA4YJI/DKWvqma0vPs5VQO2m65tvCkYMxRfBt/Y5K53fh+Bq0LeKnrdKi3MWGRvnAv9LD3bJmuczD09A0/4S4AAAGXElEQVR4XqyWyW6jQBCGHSEbATFjg+JE3iYnKxrF0kg5zWnepXd272syzz4mELppGpyDvyOHT1V/d1XTUtNxJnrrRpgusbu3cwGgTW/i6jsXF6DDwS1cQwJSyKjzbcHd49+B0qVRkEFm39Dod3cPv16ffc1UuLoWBQXdawW122+vCDG492Yqlw0ErIbYjPbD4xPaBgiyOMGkX3VNSi5AtRpb++33/XOwDeAF5q+wKt+xTUEJOjIVYT/dv8IgYDDD9zAg80rhEwoq/Hkr8+P++YVFDOUmdNxfXMCS09UnpOrCXvweigQIQQ6Lk88GnMo8WkABTjYfAmEABdhhiUHKWC6sR4EK7H+IbIXCUBpXilWJfwjUeJEo23BZFldKpcu+DWpIQtHGchWKF7T2co9onYwc3gVZUMQFvrDlLqdarQzvmFDbOXftMMihc0OK3yWgFpysuW2TulAWVwYdqAtTg8mBy9YMwuOCCK6hKd8LAhrAyzOXRSiNi0N6etnV4fGr2a95aP92GHCoLS+M/hUX3p34DCxxqTBHOktjTJpdns/73PhEtNnyKBnz5sroHjGhz4UYMHUN+c1tli0QRKdCdoILMRUyLtsMrdl1hBCeQ2E8F2JpVvmFHdhNgSUwhfe5YfCYYL7ae4a4YF2t2ZVxCvl4IsFmzQSZ3tcaRynOF855Lew0FBcXhNql16Qz0ezaux8X635TnED6idvkB6Cr0RrXgS9Dfp5R6o5XOB+n8pSPHUvtWgkuGH31GWZrKN9CpFSYbs40Uu/ilPuE6LDCvDKO2bPoVRc8C2sos+1w9f9Gn7qgiie5YFTZ3b6HqfxDYrhENdwMSpz4RBU2u9eSmDoVm8IFg5Dv7gzkz1sVzCG57oJozfvMefnZUtoIpZRkUM//34jZ9aaNRGE4IFPKihU3oIarAKEiJFHShH6p3V3txiH4I0ALSQjZtN3VzIUVeyok213swfz2tQfPgEdjdh+BfAE8es8cnWNkCAS4NJpL9bXMjoBi4DB8HwtdHqIy34tlL0WuvdYi2ARxHm6kHCOWnQlc+VIvSOALZR6rE3srWVEgk1pUtj2aaXOHtiuQVZhrezToJ/8NQYEsw6pk2OaqsCQKZhOlKLre1Q/zOzy5rBXw+F745QSqqsoKrVORZXkpy3884135DgnG4SqqzFDV6bdleFXiOi2kyrOR2q39xMsyLRqM66hOdepsNB7PIhmmwbvydDxTDn7m66xQF2+D3irdP6PxYDC4X8pdj96lLF3+NhjNwSs+WUkgY1tQUZfTSDUYj6eqzvppecvR+Ot3yHdAIscvxIUegPOvo/vHyPf4pEBgxjJ3OZ33sFHkZKWARE/Nhno96/vTbDp6HIUyg/VTCY2IG4HMKR1LcTZS2aLXW+A52SXrFiiWg94mZS9YlWIb8Ghli4WNAYAu/UR3LXQonvF0m2En6mY9wJ5tvuJmfBFsBxvOZofROhvCuJyskgZLx/c33VGpOM7qJmWZ3f+WuabPNwXHYj8hy20v0naw11UVaGCHhGGLllZa2hinQictmGUFjovIOHVBBHId22ILKrZZ2c7alslaYgIHIzrnOgQEaPpOEPtwbFtkK+sqXRNHmBxI6cqULmB4EGFnpfMNk7dJB0CIt3bJXuIDABHJZDkmJrZeK0fP7BCl21gwHoh8O7BsvLItWhK9YZpAjKeyYCIMM2yv79pkbE/jfSudISBGiU8fpIGw4/uBNX+a/fj9dYGM5gsMUtDJwvZSghMM0529ufr06erq42vSz5oBtjRBEVvAzZ+3t7cPk7u7+9AU8ZxE2zVB+rGpHv11xM1N6Hh4mEzuPkcMLy6utVj2ZnVsHQBTbTowiIHG+Hyx4jq+rmXPV4OQOxa3AGJce3s6mUSO64iL8EXhZR/o/bMEBSbTrXUquUK7uV/lHbws5OoXumr3DpI2CKFRK+dyUfDwfdTcv+z3hyk27cvjl7/+/u0ZW9zFtQwaCNSOy1KmsLnZ281fq5f9oUA41BqNhlatbyxbg04JBi+LZWlHRP1dtdEPE24qh/1LQuhiSDVI9pVxvNvZS3+ofVQ/qWp9TaNCqtL2E08PyiY0jWKnIlGTkHw+H55flSi0fp9cG8zF2ANn5ZxEj2mrsHDUfBca1mgn/HMlcuD/l0K7/r76/vz8/GS/3my3metfQ4SXfUiW+00AAAAASUVORK5CYII=
-popup1: 1
-pages: 3
-no checkbox found
-find mm button now
-try next metamask button
-found mm button: MetaMask
+Request 26: https://yearn.finance/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyearn%2Fyearn-assets%2Fmaster%2Ficons%2Fmultichain-tokens%2F%2F1%2F0xFCc5c47bE19d06BF83eB04298b026F81069ff65b%2Flogo-128.png&w=48&q=75
+Request 27: https://yearn.finance/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyearn%2Fyearn-assets%2Fmaster%2Ficons%2Fmultichain-tokens%2F%2F1%2F0xFCc5c47bE19d06BF83eB04298b026F81069ff65b%2Flogo-128.png&w=128&q=75
+Request 28: https://yearn.finance/_next/static/media/1f4e78e644c8ac59.p.woff2
+Request 29: https://yearn.finance/_next/static/media/33ad0db21eef7aba.p.woff2
+Request 30: https://yearn.finance/_next/static/css/12121bbdadc250cf.css
+Request 31: https://yearn.finance/_next/static/chunks/webpack-0657a30a75e0bc47.js
+Request 32: https://yearn.finance/_next/static/chunks/framework-50116e63224baba2.js
+Request 33: https://yearn.finance/_next/static/chunks/main-686b607336fff95e.js
+Request 34: https://yearn.finance/_next/static/chunks/pages/_app-848fddb6272623ec.js
+Request 35: https://yearn.finance/_next/static/chunks/pages/index-e1ac870e46909bea.js
+Request 36: https://yearn.finance/_next/static/V4HmtE3CPL4EQfeRorKH8/_buildManifest.js
+Request 37: https://yearn.finance/_next/static/V4HmtE3CPL4EQfeRorKH8/_ssgManifest.js
+Request 38: https://yearn.finance/
+Request 39: https://ydaemon.yearn.finance/1/prices/all
+Request 40: https://ydaemon.yearn.finance/1/tokens/all
+Request 41: https://ydaemon.yearn.finance/1/vaults/all?hideAlways=true&orderBy=apy.net_apy&orderDirection=desc&strategiesDetails=withDetails&strategiesRisk=withRisk&strategiesCondition=inQueue
+Request 42: https://yearn.finance/favicons/favicon.ico
+Will wait for navigation https://yearn.finance/
+Request 43: https://1rpc.io/eth
+Request 44: https://1rpc.io/eth
+Request 45: https://1rpc.io/eth
+Request 46: https://1rpc.io/eth
+Request 47: https://1rpc.io/eth
+Request 48: https://1rpc.io/eth
+Request 49: https://1rpc.io/eth
+Request 50: https://yearn.finance/manifest.json
+Request 51: https://1rpc.io/eth
+Request 52: https://yearn.finance/favicons/favicon.ico
+Request 53: https://yearn.finance/favicons/favicon-32x32.png
+Request 54: https://yearn.finance/favicons/android-icon-144x144.png
+Request 55: https://1rpc.io/eth
+Request 56: https://1rpc.io/eth
+Request 57: https://1rpc.io/eth
+Request 58: https://1rpc.io/eth
+Request 59: https://1rpc.io/eth
+Request 60: https://1rpc.io/eth
+Request 61: https://1rpc.io/eth
+Request 62: https://1rpc.io/eth
+Request 63: https://1rpc.io/eth
+Request 64: https://1rpc.io/eth
+Request 65: https://1rpc.io/eth
+Request 66: https://1rpc.io/eth
+Request 67: https://1rpc.io/eth
+Request 68: https://1rpc.io/eth
+Request 69: https://yearn.finance/
+Error while waiting navigation https://yearn.finance/
+[ 'Connect wallet', 'Connect', 'wallet' ]
+clicked wallet button: Connect wallet
+Will wait for navigation https://yearn.finance/
+Request 70: https://1rpc.io/eth
+Request 71: https://1rpc.io/eth
+Error while waiting navigation https://yearn.finance/
+mm: Metamask
+[ 'Metamask' ]
+[ 'Metamask', 'Connect' ]
+it: Metamask
+Will wait for navigation https://yearn.finance/
+Error while waiting navigation https://yearn.finance/
+Will wait for navigation https://yearn.finance/
+Request 72: https://1rpc.io/eth
+Request 73: https://1rpc.io/eth
 Completed configuring new page.
-Request 193: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css
-Request 194: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 195: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
-Request 196: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
-Request 197: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf
-Request 198: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf
-Request 199: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2
-Request 200: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf
-Request 201: https://yearn.finance/favicon.ico
- 
-nr of pages: 3
-Will wait for navigation https://yearn.finance/vaults
-Error while waiting navigation https://yearn.finance/vaults
-nr of pages:: 4
-popup:: [object Object]
-Request 202: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 203: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 204: https://yearn.finance/static/js/30.959ee230.chunk.js
-Request 205: https://api.thegraph.com/subgraphs/name/rareweasel/yearn-vaults-v2-subgraph-mainnet
-Request 206: https://api.thegraph.com/subgraphs/name/rareweasel/yearn-vaults-v2-subgraph-mainnet
-Request 207: https://api.thegraph.com/subgraphs/name/rareweasel/yearn-vaults-v2-subgraph-mainnet
-Request 208: https://api.thegraph.com/subgraphs/name/rareweasel/yearn-vaults-v2-subgraph-mainnet
-Request 209: https://api.portals.fi/v2/account?ownerAddress=0x7e4ABd63A7C8314Cc28D388303472353D884f292&networks%5B%5D=ethereum
-Request 210: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 211: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 212: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 213: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 214: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 215: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-no signature needed
-Waiting for 9000ms
-Request 216: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 217: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 218: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 219: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 220: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 221: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 222: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 223: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 224: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 225: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 226: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 227: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 228: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 229: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 230: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 231: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 232: https://cache.yearn.finance/v1/chains/1/vaults/tokens
-Request 233: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 234: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 235: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 236: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 237: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 238: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 239: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 240: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 241: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 242: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 243: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 244: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 245: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
-Request 246: https://eth-mainnet.alchemyapi.io/v2/9cicFu4e8HkwL2DHHfFreESkZ-F6cJmr
+Request 74: https://1rpc.io/eth
+Request 75: https://1rpc.io/eth
+Request 76: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css
+Request 77: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
+Error while waiting navigation https://yearn.finance/
+no checkbox found
+Will wait for navigation https://yearn.finance/
+Request 78: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
+Request 79: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
+Request 80: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf
+Request 81: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf
+Request 82: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2
+Request 83: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf
+Request 84: https://yearn.finance/favicons/favicon.ico
+Error while waiting navigation https://yearn.finance/
+it2: Metamask
+Will wait for navigation https://yearn.finance/
+Error while waiting navigation https://yearn.finance/
+Request 85: https://1rpc.io/eth
+Request 86: https://1rpc.io/eth
+it2: Connect
+Will wait for navigation https://yearn.finance/
+Request 87: https://1rpc.io/eth
+Request 88: https://1rpc.io/eth
+Error while waiting navigation https://yearn.finance/
+try next mm button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="Connect"]` failed: Waiting failed: 200ms exceeded
+Will wait for navigation https://yearn.finance/
+Error while waiting navigation https://yearn.finance/
+Request 89: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
+Request 90: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
+clicker connect
+clicker next
+Will wait for navigation https://yearn.finance/
+Request 91: https://ydaemon.yearn.finance/1/earned/0x7e4ABd63A7C8314Cc28D388303472353D884f292
+Request 92: https://1rpc.io/eth
+Request 93: https://1rpc.io/eth
+Request 94: https://1rpc.io/eth
+Request 95: https://1rpc.io/eth
+Request 96: https://1rpc.io/eth
+Request 97: https://1rpc.io/eth
+Request 98: https://1rpc.io/eth
+Request 99: https://1rpc.io/eth
+Request 100: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
+Request 101: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
+Request 102: https://1rpc.io/eth
+Request 103: https://1rpc.io/eth
+Request 104: https://1rpc.io/eth
+Request 105: https://1rpc.io/eth
+Request 106: https://1rpc.io/eth
+Request 107: https://1rpc.io/eth
+Error while waiting navigation https://yearn.finance/
+pages for sign: 3
+Waiting for 22500ms
 Trying to shutdown

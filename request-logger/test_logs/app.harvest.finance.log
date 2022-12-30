@@ -3,7 +3,7 @@ Executing with arguments:  {
   debugLevel: 'verbose',
   headless: false,
   profilePath: undefined,
-  secs: 30,
+  secs: 45,
   url: 'https://app.harvest.finance',
   metamaskPath: 'metamask-chrome-10.22.2',
   destination: 'test_crawls',
@@ -14,33 +14,33 @@ HTML: <html><head></head><body></body></html>
 Completed configuring new page.
 Will wait for navigation about:blank
 Completed configuring new page.
-Request 1: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/react-gallery/carousel.min.css
-Request 2: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Error while waiting navigation about:blank
 Visiting https://app.harvest.finance
-Request 3: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/_locales/en/messages.json
-Request 4: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/_locales/en/messages.json
+Request 1: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css
+Request 2: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
+Request 3: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
+Request 4: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
 Request 5: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 6: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 7: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf
-Request 8: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Medium.ttf
+Request 7: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf
+Request 8: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf
 Request 9: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 10: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 11: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/images/metrics-chart.svg
-Request 12: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/fontawesome/fa-solid-900.woff2
-Request 13: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf
+Request 11: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/metrics-chart.svg
+Request 12: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2
+Request 13: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf
 Request 14: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 15: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 16: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 17: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 18: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Roboto/Roboto-Regular.ttf
-Request 19: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/fontawesome/fa-regular-400.woff2
+Request 18: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Roboto/Roboto-Regular.ttf
+Request 19: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-regular-400.woff2
 Request 20: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 21: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 22: https://app.harvest.finance/
 Request 23: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 24: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 25: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/images/eth_logo.svg
+Request 25: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/eth_logo.svg
 Request 26: https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&family=Montserrat:wght@400;500;700;800&display=swap
 Request 27: https://cdn.usefathom.com/script.js
 Request 28: https://app.harvest.finance/static/css/vendors~main~93bce78f.38d96904.chunk.css
@@ -129,85 +129,89 @@ Request 110: https://api-ui.harvest.finance/vaults?key=41e90ced-d559-4433-b390-a
 Request 111: https://api-ui.harvest.finance/pools?key=41e90ced-d559-4433-b390-af424fdc76d6
 Request 112: https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh50XSwiPGQ.woff2
 Request 113: https://app.harvest.finance/favicon.ico
-Request 114: https://app.harvest.finance/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts=1670500800
-Request 115: https://app.harvest.finance/cdn-cgi/challenge-platform/h/b/scripts/pica.js
-Request 116: https://app.harvest.finance/icons/farm.png
-Request 117: https://api.harvest.finance/cmc?key=fc8ad696-7905-4daa-a552-129ede248e33
-Request 118: https://app.harvest.finance/icons/comp.png
-Request 119: https://app.harvest.finance/icons/idle.png
-Request 120: https://app.harvest.finance/icons/curve.png
-Request 121: https://app.harvest.finance/icons/cvx.png
-Request 122: https://app.harvest.finance/icons/3crv.png
-Request 123: https://app.harvest.finance/icons/weth.png
-Request 124: https://app.harvest.finance/icons/yel.png
-Request 125: https://app.harvest.finance/icons/note.png
-Request 126: https://app.harvest.finance/icons/univ3.png
-Request 127: https://app.harvest.finance/icons/orc.png
-Request 128: https://app.harvest.finance/icons/ecocng.png
-Request 129: https://app.harvest.finance/icons/reth2.png
-Request 130: https://app.harvest.finance/icons/swise.png
-Request 131: https://app.harvest.finance/icons/ldo.png
-Request 132: https://app.harvest.finance/icons/muse.png
-Request 133: https://api.harvest.finance/token-stats?key=fc8ad696-7905-4daa-a552-129ede248e33
-Request 134: https://api.harvest.finance/revenue/monthly?key=fc8ad696-7905-4daa-a552-129ede248e33
-Request 135: https://mainnet.infura.io/v3/f355a6763eb64433a945a0451d7fdfdc
-Request 136: https://mainnet.infura.io/v3/f355a6763eb64433a945a0451d7fdfdc
+Request 114: https://app.harvest.finance/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts=1672430400
 Will wait for navigation https://app.harvest.finance/
-Request 137: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 138: https://app.harvest.finance/manifest.json
-Request 139: https://app.harvest.finance/favicon.ico
-Request 140: https://app.harvest.finance/favicon-32x32.png
+Request 115: https://app.harvest.finance/icons/comp.png
+Request 116: https://app.harvest.finance/icons/idle.png
+Request 117: https://app.harvest.finance/icons/curve.png
+Request 118: https://app.harvest.finance/icons/cvx.png
+Request 119: https://app.harvest.finance/icons/3crv.png
+Request 120: https://app.harvest.finance/icons/weth.png
+Request 121: https://app.harvest.finance/icons/yel.png
+Request 122: https://app.harvest.finance/icons/note.png
+Request 123: https://app.harvest.finance/icons/farm.png
+Request 124: https://app.harvest.finance/icons/univ3.png
+Request 125: https://app.harvest.finance/icons/orc.png
+Request 126: https://app.harvest.finance/icons/ecocng.png
+Request 127: https://app.harvest.finance/icons/reth2.png
+Request 128: https://app.harvest.finance/icons/swise.png
+Request 129: https://app.harvest.finance/icons/ldo.png
+Request 130: https://app.harvest.finance/icons/muse.png
+Request 131: https://api.harvest.finance/cmc?key=fc8ad696-7905-4daa-a552-129ede248e33
+Request 132: https://app.harvest.finance/cdn-cgi/challenge-platform/h/g/scripts/pica.js
+Request 133: https://app.harvest.finance/manifest.json
+Request 134: https://api.harvest.finance/token-stats?key=fc8ad696-7905-4daa-a552-129ede248e33
+Request 135: https://app.harvest.finance/favicon.ico
+Request 136: https://app.harvest.finance/favicon-32x32.png
+Request 137: https://api.harvest.finance/revenue/monthly?key=fc8ad696-7905-4daa-a552-129ede248e33
+Request 138: https://mainnet.infura.io/v3/f355a6763eb64433a945a0451d7fdfdc
+Request 139: https://mainnet.infura.io/v3/f355a6763eb64433a945a0451d7fdfdc
 Error while waiting navigation https://app.harvest.finance/
-looking for wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-try next wallet button
-popup1: null
-pages: 3
-clicked checkbox
-find mm button now
-try next metamask button
-found mm button: MetaMask
+[
+  'Connect Wallet',
+  'Connect',
+  'CONNECT',
+  'Wallet',
+  'connect',
+  'wallet',
+  'account'
+]
+clicked wallet button: Connect Wallet
+Will wait for navigation https://app.harvest.finance/
+Error while waiting navigation https://app.harvest.finance/
+mm: MetaMask
+[ 'MetaMask' ]
+[ 'MetaMask', 'Connect', 'Connect Wallet' ]
+it: MetaMask
+Will wait for navigation https://app.harvest.finance/
+Error while waiting navigation https://app.harvest.finance/
+Will wait for navigation https://app.harvest.finance/
 Completed configuring new page.
-Request 141: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/react-gallery/carousel.min.css
-Request 142: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 143: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/_locales/en/messages.json
-Request 144: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/_locales/en/messages.json
-Request 145: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf
-Request 146: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf
-Request 147: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/fontawesome/fa-solid-900.woff2
-Request 148: chrome-extension://lkmkchhdddcgilcijjlgaphbgcedpnkn/fonts/Euclid/EuclidCircularB-Medium.ttf
-Request 149: https://app.harvest.finance/favicon.ico
- 
-nr of pages: 3
+Request 140: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css
+Request 141: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
+Error while waiting navigation https://app.harvest.finance/
+Will wait for navigation https://app.harvest.finance/
+Request 142: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
+Request 143: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
+Request 144: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf
+Request 145: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf
+Request 146: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2
+Request 147: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf
+Request 148: https://app.harvest.finance/favicon.ico
+Error while waiting navigation https://app.harvest.finance/
+it2: MetaMask
 Will wait for navigation https://app.harvest.finance/
 Error while waiting navigation https://app.harvest.finance/
-nr of pages:: 4
-popup:: [object Object]
+it2: Connect
+Will wait for navigation https://app.harvest.finance/
+Request 149: https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wXg.woff2
+Error while waiting navigation https://app.harvest.finance/
+try next mm button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="Connect"]` failed: Waiting failed: 200ms exceeded
+it2: Connect Wallet
+Will wait for navigation https://app.harvest.finance/
+Error while waiting navigation https://app.harvest.finance/
+try next mm button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="Connect Wallet"]` failed: Waiting failed: 200ms exceeded
+Will wait for navigation https://app.harvest.finance/
+Error while waiting navigation https://app.harvest.finance/
 Request 150: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 151: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 152: https://app.harvest.finance/favicon.ico
-no signature needed
-Waiting for 9000ms
+clicker connect
+clicker next
+Will wait for navigation https://app.harvest.finance/
 Request 153: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
 Request 154: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
+Error while waiting navigation https://app.harvest.finance/
+pages for sign: 3
+Waiting for 22500ms
 Trying to shutdown

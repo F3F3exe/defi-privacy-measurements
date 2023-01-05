@@ -1,0 +1,82 @@
+{
+    "url": "http://12hourrush.com",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 15,
+        "url": "http://12hourrush.com",
+        "metamaskPath": "metamask-chrome-10.22.2",
+        "destination": "test_crawls",
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1672933249736,
+        "end": 1672933274062
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "url": "http://12hourrush.com/",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://12hourrush.com/"
+            ],
+            "url": "http://cdn.shopify.com/shopifycloud/shopify/assets/external-assets-e311eed8ad2a6c577b1aa733d267726cf61be582515e9cd5c46f05b5559c861a.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "http://12hourrush.com",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://12hourrush.com/"
+            ],
+            "url": "http://cdn.shopify.com/shopifycloud/shopify/assets/vendor/jquery-2.0.3-eb347740d79a81c7fb7aae2df0c0f1a70afdcb5323a6d89dcabb246e2ce6cbcd.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "http://12hourrush.com",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://12hourrush.com/"
+            ],
+            "url": "http://cdn.shopify.com/shopifycloud/shopify/assets/favicon-bdd4952d510d9607e893c45e36bba6b0a8c9c59cb8344e7a75ebe7215112b7f5.png",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://12hourrush.com/"
+            ],
+            "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/favicon-bdd4952d510d9607e893c45e36bba6b0a8c9c59cb8344e7a75ebe7215112b7f5.png",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        }
+    ],
+    "success": true
+}

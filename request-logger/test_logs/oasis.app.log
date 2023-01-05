@@ -3,8 +3,8 @@ Executing with arguments:  {
   debugLevel: 'verbose',
   headless: false,
   profilePath: undefined,
-  secs: 45,
-  url: 'https://oasis.app/dashboard',
+  secs: 15,
+  url: 'https://oasis.app/trade',
   metamaskPath: 'metamask-chrome-10.22.2',
   destination: 'test_crawls',
   executablePath: '/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome'
@@ -13,192 +13,85 @@ NR pages: 1
 HTML: <html><head></head><body></body></html>
 Completed configuring new page.
 Will wait for navigation about:blank
-Completed configuring new page.
 Error while waiting navigation about:blank
-Visiting https://oasis.app/dashboard
-Request 1: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css
-Request 2: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 3: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
-Request 4: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
-Request 5: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 6: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 7: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf
-Request 8: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf
-Request 9: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 10: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 11: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/metrics-chart.svg
-Request 12: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2
-Request 13: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf
-Request 14: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 15: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 16: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 17: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 18: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Roboto/Roboto-Regular.ttf
-Request 19: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-regular-400.woff2
-Request 20: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 21: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 22: https://oasis.app/dashboard
-Request 23: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 24: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 25: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/eth_logo.svg
-Request 26: https://oasis.app/daiwallet/dashboard
-Request 27: https://rsms.me/inter/inter.css
-Request 28: https://oasis.app/daiwallet/_next/static/chunks/main-3aa5c259d27e476a9358.js
-Request 29: https://oasis.app/daiwallet/_next/static/chunks/webpack-fffef14a3a44deddbf14.js
-Request 30: https://oasis.app/daiwallet/_next/static/chunks/framework.6062ac6a2c1ba38b1dd1.js
-Request 31: https://oasis.app/daiwallet/_next/static/chunks/29107295.1d19b47c969eac51f6c2.js
-Request 32: https://oasis.app/daiwallet/_next/static/chunks/9382c5f8.02ee400cf0d5022559eb.js
-Request 33: https://oasis.app/daiwallet/_next/static/chunks/73ad3401.e259e4f6ec0d04ef214a.js
-Request 34: https://oasis.app/daiwallet/_next/static/chunks/75fc9c18.884f87783ee4294830d3.js
-Request 35: https://oasis.app/daiwallet/_next/static/chunks/commons.b629a376577dc7a87eec.js
-Request 36: https://oasis.app/daiwallet/_next/static/chunks/97b5746b1f02b87ba685a256976c65d800b6bf7f.66389225090d5c06905d.js
-Request 37: https://oasis.app/daiwallet/_next/static/chunks/b4a15b5e2014991e7bfe54116884a2245fc4f64e.476bfcabcdabfed6ef5b.js
-Request 38: https://oasis.app/daiwallet/_next/static/chunks/0207bc57eea23680b6dbf624b2c8d757aa8227c1.9265cc5aaee0c91b247b.js
-Request 39: https://oasis.app/daiwallet/_next/static/chunks/fcc6e1595f89713c1857eaa2f3df2f688a8598d2.8dfccf214af5f2bd55b3.js
-Request 40: https://oasis.app/daiwallet/_next/static/chunks/e397c55950408ea7901147c309472431478b411a.5f53ec705df5b957e46b.js
-Request 41: https://oasis.app/daiwallet/_next/static/chunks/c6329a8143104ee5835fc2d8454dbd42d088f276.2fe0a530af0de43b8b9b.js
-Request 42: https://oasis.app/daiwallet/_next/static/chunks/pages/_app-d39e57eff43a9e6c975b.js
-Request 43: https://oasis.app/daiwallet/_next/static/chunks/pages/%5Baddress%5D/%5B%5B...connect%5D%5D-e5c8e425cfe7844d231d.js
-Request 44: https://oasis.app/daiwallet/_next/static/MKQY9yJSebaRP4rTa6mp-/_buildManifest.js
-Request 45: https://oasis.app/daiwallet/_next/static/MKQY9yJSebaRP4rTa6mp-/_ssgManifest.js
-Request 46: https://oasis.app/daiwallet/static/icons/icon-512x512.png
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Request 47: https://oasis.app/daiwallet/static/icons/favicon-16.png
-Request 48: https://mpp.oasis.app/decide/?verbose=1&version=1&lib=web&token=5372a8300dc764fd08c9bd883eaf6b44&ip=0&_=1672433620766
-Request 49: https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRjdXJyZW50X3VybCI6ICJodHRwczovL29hc2lzLmFwcC9kYWl3YWxsZXQvZGFzaGJvYXJkIiwiJGJyb3dzZXJfdmVyc2lvbiI6IDEwOCwiJHNjcmVlbl9oZWlnaHQiOiA5NjAsIiRzY3JlZW5fd2lkdGgiOiAxMjgwLCJtcF9saWIiOiAid2ViIiwiJGxpYl92ZXJzaW9uIjogIjIuMjkuMSIsInRpbWUiOiAxNjcyNDMzNjIwLjc3MiwiZGlzdGluY3RfaWQiOiAiMTg1NjRjZmQ3MTYxYTMtMGU2Yzg1MzczMGQ5ZjctMjYwMjExNTEtMTJjMDAwLTE4NTY0Y2ZkNzE3MTJjMiIsIiRkZXZpY2VfaWQiOiAiMTg1NjRjZmQ3MTYxYTMtMGU2Yzg1MzczMGQ5ZjctMjYwMjExNTEtMTJjMDAwLTE4NTY0Y2ZkNzE3MTJjMiIsIiRpbml0aWFsX3JlZmVycmVyIjogIiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiRkaXJlY3QiLCJtcF9wYWdlIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC9kYXNoYm9hcmQiLCJtcF9icm93c2VyIjogIkNocm9tZSIsIm1wX3BsYXRmb3JtIjogIldpbmRvd3MiLCJ0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCJ9fQ%3D%3D&ip=0&_=1672433620773
-Request 50: https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJQYWdldmlldyIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC9kYXNoYm9hcmQiLCIkYnJvd3Nlcl92ZXJzaW9uIjogMTA4LCIkc2NyZWVuX2hlaWdodCI6IDk2MCwiJHNjcmVlbl93aWR0aCI6IDEyODAsIm1wX2xpYiI6ICJ3ZWIiLCIkbGliX3ZlcnNpb24iOiAiMi4yOS4xIiwidGltZSI6IDE2NzI0MzM2MjAuNzc1LCJkaXN0aW5jdF9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGRldmljZV9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsInByb2R1Y3QiOiAib2FjYXMiLCJ0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCJ9fQ%3D%3D&ip=0&_=1672433620776
-Request 51: https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJQYWdldmlldyIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC9kYXNoYm9hcmQiLCIkYnJvd3Nlcl92ZXJzaW9uIjogMTA4LCIkc2NyZWVuX2hlaWdodCI6IDk2MCwiJHNjcmVlbl93aWR0aCI6IDEyODAsIm1wX2xpYiI6ICJ3ZWIiLCIkbGliX3ZlcnNpb24iOiAiMi4yOS4xIiwidGltZSI6IDE2NzI0MzM2MjAuODg4LCJkaXN0aW5jdF9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGRldmljZV9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsInByb2R1Y3QiOiAib2FjYXMiLCJpZCI6ICIvZGFpd2FsbGV0L2Rhc2hib2FyZCIsInRva2VuIjogIjUzNzJhODMwMGRjNzY0ZmQwOGM5YmQ4ODNlYWY2YjQ0In19&ip=0&_=1672433620888
-Request 52: https://rsms.me/inter/font-files/Inter-Regular.woff2?v=3.19
-Request 53: https://rsms.me/inter/font-files/Inter-Medium.woff2?v=3.19
-Request 54: https://oasis.app/daiwallet/static/icons/favicon-32.png
-Request 55: https://oasis.app/daiwallet/_next/static/chunks/pages/index-b47aa68442469badc77d.js
-Request 56: https://oasis.app/daiwallet/_next/static/chunks/pages/privacy-f1a32c3c67b7f23be33a.js
-Request 57: https://oasis.app/daiwallet/static/icons/favicon-96.png
-Request 58: https://oasis.app/daiwallet/static/icons/android-icon-192x192.png
-Request 59: https://oasis.app/daiwallet/static/favicon.ico
-Page load after click took 1.591s
-Request 60: https://oasis.app/manifest.json
-Request 61: https://oasis.app/daiwallet/static/favicon.ico
-Request 62: https://oasis.app/static/icons/apple-touch-icon.png
-[
-  'Connect Wallet',
-  'Connect wallet',
-  'Connect',
-  'sign',
-  'Wallet',
-  'Connect a wallet',
-  'connect',
-  'wallet',
-  'account'
-]
-try next wallet button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="Connect Wallet"]` failed: Waiting failed: 200ms exceeded
-try next wallet button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="Connect wallet"]` failed: Waiting failed: 200ms exceeded
-try next wallet button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="Connect"]` failed: Waiting failed: 200ms exceeded
-try next wallet button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="sign"]` failed: Waiting failed: 200ms exceeded
-try next wallet button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="Wallet"]` failed: Waiting failed: 200ms exceeded
-clicked wallet button: Connect a wallet
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-mm: MetaMask
-mm: metamask
-mm: Connect MetaMask
-[ 'MetaMask', 'metamask', 'Connect MetaMask' ]
-[
-  'MetaMask',
-  'metamask',
-  'Connect MetaMask',
-  'Connect',
-  'Select',
-  'Connect Wallet'
-]
-it: MetaMask
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-try next mm button: TimeoutError: Waiting for selector `.//*[(text())="MetaMask"]` failed: Waiting failed: 200ms exceeded
-it: metamask
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-try next mm button: TimeoutError: Waiting for selector `.//*[(text())="metamask"]` failed: Waiting failed: 200ms exceeded
-it: Connect MetaMask
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Completed configuring new page.
-Request 63: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css
-Request 64: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-no checkbox found
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Request 65: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
-Request 66: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json
-Request 67: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf
-Request 68: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf
-Request 69: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2
-Request 70: chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf
-Request 71: https://oasis.app/daiwallet/static/favicon.ico
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-it2: MetaMask
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-try next mm button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="MetaMask"]` failed: Waiting failed: 200ms exceeded
-it2: metamask
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-try next mm button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="metamask"]` failed: Waiting failed: 200ms exceeded
-it2: Connect MetaMask
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-try next mm button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="Connect MetaMask"]` failed: Waiting failed: 200ms exceeded
-it2: Connect
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-try next mm button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="Connect"]` failed: Waiting failed: 200ms exceeded
-it2: Select
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-try next mm button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="Select"]` failed: Waiting failed: 200ms exceeded
-it2: Connect Wallet
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-try next mm button: TimeoutError: Waiting for selector `.//*[normalize-space(text())="Connect Wallet"]` failed: Waiting failed: 200ms exceeded
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Error while waiting navigation https://oasis.app/daiwallet/dashboard
-Request 72: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 73: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-clicker connect
-clicker next
-Will wait for navigation https://oasis.app/daiwallet/dashboard
-Request 74: https://mpp.oasis.app/decide/?verbose=1&version=3&lib=web&token=5372a8300dc764fd08c9bd883eaf6b44&distinct_id=0x7e4abd63a7c8314cc28d388303472353d884f292&ip=0&_=1672433652867
-Request 75: https://mpp.oasis.app/track/?data=eyJldmVudCI6ICIkaWRlbnRpZnkiLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRjdXJyZW50X3VybCI6ICJodHRwczovL29hc2lzLmFwcC9kYWl3YWxsZXQvZGFzaGJvYXJkIiwiJGJyb3dzZXJfdmVyc2lvbiI6IDEwOCwiJHNjcmVlbl9oZWlnaHQiOiA5NjAsIiRzY3JlZW5fd2lkdGgiOiAxMjgwLCJtcF9saWIiOiAid2ViIiwiJGxpYl92ZXJzaW9uIjogIjIuMjkuMSIsInRpbWUiOiAxNjcyNDMzNjUyLjg3LCJkaXN0aW5jdF9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCIkZGV2aWNlX2lkIjogIjE4NTY0Y2ZkNzE2MWEzLTBlNmM4NTM3MzBkOWY3LTI2MDIxMTUxLTEyYzAwMC0xODU2NGNmZDcxNzEyYzIiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6ICIkZGlyZWN0IiwiJHVzZXJfaWQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwiJGFub25fZGlzdGluY3RfaWQiOiAiMTg1NjRjZmQ3MTYxYTMtMGU2Yzg1MzczMGQ5ZjctMjYwMjExNTEtMTJjMDAwLTE4NTY0Y2ZkNzE3MTJjMiIsInRva2VuIjogIjUzNzJhODMwMGRjNzY0ZmQwOGM5YmQ4ODNlYWY2YjQ0In19&ip=0&_=1672433652871
-Request 76: https://mpp.oasis.app/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRicm93c2VyX3ZlcnNpb24iOiAxMDgsIiRpbml0aWFsX3JlZmVycmVyIjogIiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiRkaXJlY3QiLCJ3YWxsZXRUeXBlIjogImluamVjdGVkIn0sIiR0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCIsIiRkaXN0aW5jdF9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCIkZGV2aWNlX2lkIjogIjE4NTY0Y2ZkNzE2MWEzLTBlNmM4NTM3MzBkOWY3LTI2MDIxMTUxLTEyYzAwMC0xODU2NGNmZDcxNzEyYzIiLCIkdXNlcl9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIifQ%3D%3D&ip=0&_=1672433652872
-Request 77: https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJhY2NvdW50LWNoYW5nZSIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC9kYXNoYm9hcmQiLCIkYnJvd3Nlcl92ZXJzaW9uIjogMTA4LCIkc2NyZWVuX2hlaWdodCI6IDk2MCwiJHNjcmVlbl93aWR0aCI6IDEyODAsIm1wX2xpYiI6ICJ3ZWIiLCIkbGliX3ZlcnNpb24iOiAiMi4yOS4xIiwidGltZSI6IDE2NzI0MzM2NTIuODc0LCJkaXN0aW5jdF9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCIkZGV2aWNlX2lkIjogIjE4NTY0Y2ZkNzE2MWEzLTBlNmM4NTM3MzBkOWY3LTI2MDIxMTUxLTEyYzAwMC0xODU2NGNmZDcxNzEyYzIiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6ICIkZGlyZWN0IiwiJHVzZXJfaWQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwiYWNjb3VudCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCJuZXR3b3JrIjogIm1haW4iLCJwcm9kdWN0IjogIm9hY2FzIiwid2FsbGV0VHlwZSI6ICJpbmplY3RlZCIsInRva2VuIjogIjUzNzJhODMwMGRjNzY0ZmQwOGM5YmQ4ODNlYWY2YjQ0In19&ip=0&_=1672433652874
-Request 78: https://oasis.app/daiwallet/_next/static/chunks/pages/%5Baddress%5D/dashboard-6663cd6b3a54009e020f.js
-Page load after click took 0.096s
-Request 79: https://mpp.oasis.app/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRicm93c2VyX3ZlcnNpb24iOiAxMDgsIiRpbml0aWFsX3JlZmVycmVyIjogIiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiRkaXJlY3QiLCJ3YWxsZXRUeXBlIjogImluamVjdGVkIn0sIiR0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCIsIiRkaXN0aW5jdF9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCIkZGV2aWNlX2lkIjogIjE4NTY0Y2ZkNzE2MWEzLTBlNmM4NTM3MzBkOWY3LTI2MDIxMTUxLTEyYzAwMC0xODU2NGNmZDcxNzEyYzIiLCIkdXNlcl9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIifQ%3D%3D&ip=0&_=1672433652933
-Request 80: https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJhY2NvdW50LWNoYW5nZSIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC8weDdlNEFCZDYzQTdDODMxNENjMjhEMzg4MzAzNDcyMzUzRDg4NGYyOTIvZGFzaGJvYXJkIiwiJGJyb3dzZXJfdmVyc2lvbiI6IDEwOCwiJHNjcmVlbl9oZWlnaHQiOiA5NjAsIiRzY3JlZW5fd2lkdGgiOiAxMjgwLCJtcF9saWIiOiAid2ViIiwiJGxpYl92ZXJzaW9uIjogIjIuMjkuMSIsInRpbWUiOiAxNjcyNDMzNjUyLjkzOCwiZGlzdGluY3RfaWQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwiJGRldmljZV9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsIiR1c2VyX2lkIjogIjB4N2U0YWJkNjNhN2M4MzE0Y2MyOGQzODgzMDM0NzIzNTNkODg0ZjI5MiIsImFjY291bnQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwibmV0d29yayI6ICJtYWluIiwicHJvZHVjdCI6ICJvYWNhcyIsIndhbGxldFR5cGUiOiAiaW5qZWN0ZWQiLCJ0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCJ9fQ%3D%3D&ip=0&_=1672433652938
-Request 81: https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJQYWdldmlldyIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC8weDdlNEFCZDYzQTdDODMxNENjMjhEMzg4MzAzNDcyMzUzRDg4NGYyOTIvZGFzaGJvYXJkIiwiJGJyb3dzZXJfdmVyc2lvbiI6IDEwOCwiJHNjcmVlbl9oZWlnaHQiOiA5NjAsIiRzY3JlZW5fd2lkdGgiOiAxMjgwLCJtcF9saWIiOiAid2ViIiwiJGxpYl92ZXJzaW9uIjogIjIuMjkuMSIsInRpbWUiOiAxNjcyNDMzNjUyLjk0MiwiZGlzdGluY3RfaWQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwiJGRldmljZV9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsIiR1c2VyX2lkIjogIjB4N2U0YWJkNjNhN2M4MzE0Y2MyOGQzODgzMDM0NzIzNTNkODg0ZjI5MiIsInByb2R1Y3QiOiAib2FjYXMiLCJpZCI6ICIvZGFpd2FsbGV0LzB4N2U0QUJkNjNBN0M4MzE0Q2MyOEQzODgzMDM0NzIzNTNEODg0ZjI5Mi9kYXNoYm9hcmQiLCJ0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCJ9fQ%3D%3D&ip=0&_=1672433652943
-Request 82: https://api.thegraph.com/subgraphs/name/aave/protocol-multy-raw
-Request 83: https://mpp.oasis.app/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRicm93c2VyX3ZlcnNpb24iOiAxMDgsIiRpbml0aWFsX3JlZmVycmVyIjogIiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiRkaXJlY3QiLCJ3YWxsZXRUeXBlIjogImluamVjdGVkIn0sIiR0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCIsIiRkaXN0aW5jdF9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCIkZGV2aWNlX2lkIjogIjE4NTY0Y2ZkNzE2MWEzLTBlNmM4NTM3MzBkOWY3LTI2MDIxMTUxLTEyYzAwMC0xODU2NGNmZDcxNzEyYzIiLCIkdXNlcl9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIifQ%3D%3D&ip=0&_=1672433652953
-Request 84: https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJhY2NvdW50LWNoYW5nZSIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC8weDdlNEFCZDYzQTdDODMxNENjMjhEMzg4MzAzNDcyMzUzRDg4NGYyOTIvZGFzaGJvYXJkIiwiJGJyb3dzZXJfdmVyc2lvbiI6IDEwOCwiJHNjcmVlbl9oZWlnaHQiOiA5NjAsIiRzY3JlZW5fd2lkdGgiOiAxMjgwLCJtcF9saWIiOiAid2ViIiwiJGxpYl92ZXJzaW9uIjogIjIuMjkuMSIsInRpbWUiOiAxNjcyNDMzNjUyLjk1OCwiZGlzdGluY3RfaWQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwiJGRldmljZV9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsIiR1c2VyX2lkIjogIjB4N2U0YWJkNjNhN2M4MzE0Y2MyOGQzODgzMDM0NzIzNTNkODg0ZjI5MiIsImFjY291bnQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwibmV0d29yayI6ICJtYWluIiwicHJvZHVjdCI6ICJvYWNhcyIsIndhbGxldFR5cGUiOiAiaW5qZWN0ZWQiLCJ0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCJ9fQ%3D%3D&ip=0&_=1672433652958
-Request 85: https://api.pro.coinbase.com/products/dai-usdc/book
-Request 86: https://api.pro.coinbase.com/products/eth-usdc/book
-Request 87: https://api.compound.finance/api/v2/ctoken
-Request 88: https://api.thegraph.com/subgraphs/name/aave/protocol-multy-raw
-Request 89: https://oasis.app/daiwallet/static/img/logo.svg
-Request 90: https://oasis.app/daiwallet/api/order/0x7e4abd63a7c8314cc28d388303472353d884f292
-Request 91: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 92: https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7
-Request 93: https://oasis.app/daiwallet/_next/static/chunks/pages/%5Baddress%5D/onboarding-b5114d94606d14714a88.js
-Request 94: https://oasis.app/daiwallet/api/dai_purchased
-Request 95: https://oasis.app/daiwallet/static/img/hand_emoji.png
-Request 96: https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJQYWdldmlldyIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC8weDdlNEFCZDYzQTdDODMxNENjMjhEMzg4MzAzNDcyMzUzRDg4NGYyOTIvb25ib2FyZGluZyIsIiRicm93c2VyX3ZlcnNpb24iOiAxMDgsIiRzY3JlZW5faGVpZ2h0IjogOTYwLCIkc2NyZWVuX3dpZHRoIjogMTI4MCwibXBfbGliIjogIndlYiIsIiRsaWJfdmVyc2lvbiI6ICIyLjI5LjEiLCJ0aW1lIjogMTY3MjQzMzY1NC4yNTIsImRpc3RpbmN0X2lkIjogIjB4N2U0YWJkNjNhN2M4MzE0Y2MyOGQzODgzMDM0NzIzNTNkODg0ZjI5MiIsIiRkZXZpY2VfaWQiOiAiMTg1NjRjZmQ3MTYxYTMtMGU2Yzg1MzczMGQ5ZjctMjYwMjExNTEtMTJjMDAwLTE4NTY0Y2ZkNzE3MTJjMiIsIiRpbml0aWFsX3JlZmVycmVyIjogIiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiRkaXJlY3QiLCIkdXNlcl9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCJwcm9kdWN0IjogIm9hY2FzIiwiaWQiOiAiL2RhaXdhbGxldC8weDdlNEFCZDYzQTdDODMxNENjMjhEMzg4MzAzNDcyMzUzRDg4NGYyOTIvb25ib2FyZGluZyIsInRva2VuIjogIjUzNzJhODMwMGRjNzY0ZmQwOGM5YmQ4ODNlYWY2YjQ0In19&ip=0&_=1672433654253
-Request 97: https://rsms.me/inter/font-files/Inter-Bold.woff2?v=3.19
-pages for sign: 3
-Waiting for 22500ms
-Request 98: https://oasis.app/daiwallet/api/order/0x7e4abd63a7c8314cc28d388303472353d884f292
-Request 99: https://api.pro.coinbase.com/products/dai-usdc/book
-Request 100: https://api.pro.coinbase.com/products/eth-usdc/book
-Request 101: https://api.pro.coinbase.com/products/dai-usdc/book
-Request 102: https://api.pro.coinbase.com/products/eth-usdc/book
-Request 103: https://oasis.app/daiwallet/api/order/0x7e4abd63a7c8314cc28d388303472353d884f292
+Visiting https://oasis.app/trade
+Request 1: https://oasis.app/trade
+Request 2: https://rsms.me/inter/inter.css
+Request 3: https://oasis.app/_next/static/css/902f302cbe24c62f.css
+Request 4: https://oasis.app/_next/static/chunks/main-7b50f9cfcf0a10d8.js
+Request 5: https://oasis.app/_next/static/chunks/pages/_app-8f1c96a75a996620.js
+Request 6: https://oasis.app/_next/static/chunks/pages/%5Bvault%5D-9f03d2161e5a6b1d.js
+Request 7: https://oasis.app/_next/static/qGmC5pyLCc9pPOJM80yIr/_buildManifest.js
+Request 8: https://oasis.app/_next/static/qGmC5pyLCc9pPOJM80yIr/_ssgManifest.js
+Request 9: https://oasis.app/_next/static/qGmC5pyLCc9pPOJM80yIr/_middlewareManifest.js
+Request 10: https://oasis.app/api/sentry
+Request 11: https://oasis.app/_next/static/chunks/5096.82cccec3789915e9.js
+Request 12: https://oasis.app/_next/static/chunks/8287.a717893c424cae45.js
+Waiting for 20000ms
+Request 13: https://mpp.oasis.app/decide/?verbose=1&version=1&lib=web&token=5372a8300dc764fd08c9bd883eaf6b44&ip=0&_=1672956875644
+Request 14: https://oasis.app/api/t
+Request 15: https://oasis.app/static/img/logo_v2.svg
+Request 16: https://oasis.app/static/img/logo_footer_v2.svg
+Request 17: https://oasis.app/static/img/background/bottom_bg.png
+Request 18: https://oasis.app/_next/static/media/inter-latin-600-normal.f740b5d5.woff2
+Request 19: https://oasis.app/_next/static/media/inter-latin-400-normal.250b8f79.woff2
+Request 20: https://rsms.me/inter/font-files/Inter-SemiBold.woff2?v=3.19
+Request 21: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en.json
+Request 22: https://oasis.app/_next/static/chunks/pages/index-89175f649aeb568a.js
+Request 23: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/multiply.json
+Request 24: https://oasis.app/_next/static/chunks/pages/multiply-0d4019c3b91028a5.js
+Request 25: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/borrow.json
+Request 26: https://oasis.app/_next/static/chunks/pages/borrow-f3f0b2c8d3c8045b.js
+Request 27: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/earn.json
+Request 28: https://oasis.app/_next/static/chunks/pages/earn-037f7390410ed5d7.js
+Request 29: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/eth.json
+Request 30: https://oasis.app/_next/static/chunks/pages/asset/%5Basset%5D-22da1c503f4e2f6f.js
+Request 31: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/btc.json
+Request 32: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/dai.json
+Request 33: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/lp-token.json
+Request 34: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/yfi.json
+Request 35: https://oasis.app/_next/static/chunks/pages/discover-67a6cc315c60907f.js
+Request 36: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/connect.json
+Request 37: https://oasis.app/_next/static/chunks/pages/connect-36134f2dc22a157b.js
+Request 38: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/cookie.json
+Request 39: https://oasis.app/_next/static/chunks/pages/cookie-b16e44a58a642b58.js
+Request 40: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/about.json
+Request 41: https://oasis.app/_next/static/chunks/pages/about-8fa9646a85daea3e.js
+Request 42: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/careers.json
+Request 43: https://oasis.app/_next/static/chunks/pages/careers-97260c6593163171.js
+Request 44: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/privacy.json
+Request 45: https://oasis.app/_next/static/chunks/pages/privacy-b5e643bcc22f1508.js
+Request 46: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/terms.json
+Request 47: https://oasis.app/_next/static/chunks/pages/terms-0f05ade43e36b055.js
+Request 48: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/security.json
+Request 49: https://oasis.app/_next/static/chunks/pages/security-7ce83ccb1feab70c.js
+Request 50: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/oracles.json
+Request 51: https://oasis.app/_next/static/chunks/pages/oracles-32b7e68f663f3f26.js
+Request 52: https://oasis.app/_next/static/chunks/pages/referrals-517e20ebfbb2b0b1.js
+Request 53: https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/brand.json
+Request 54: https://oasis.app/_next/static/chunks/pages/brand-2fc9a087d58e8080.js
+Request 55: https://oasis.app/static/fonts/FTPolar/FTPolarTrial-Medium.woff2
+Request 56: https://oasis.app/_next/static/media/inter-all-400-normal.64fb9ce5.woff
+Request 57: https://oasis.app/_next/static/media/inter-all-600-normal.a3b8426b.woff
+Request 58: https://rsms.me/inter/font-files/Inter-Regular.woff2?v=3.19
+Request 59: https://oasis.app/manifest.json
+Request 60: https://oasis.app/static/favicon.ico
+Request 61: https://oasis.app/_next/static/chunks/pages/asset/%5Basset%5D-22da1c503f4e2f6f.js
+Request 62: https://oasis.app/_next/static/chunks/pages/brand-2fc9a087d58e8080.js
+Request 63: https://oasis.app/_next/static/chunks/pages/referrals-517e20ebfbb2b0b1.js
+Request 64: https://oasis.app/_next/static/chunks/pages/security-7ce83ccb1feab70c.js
+Request 65: https://oasis.app/_next/static/chunks/pages/oracles-32b7e68f663f3f26.js
+Request 66: https://oasis.app/_next/static/chunks/pages/cookie-b16e44a58a642b58.js
+Request 67: https://oasis.app/_next/static/chunks/pages/index-89175f649aeb568a.js
+Request 68: https://oasis.app/_next/static/chunks/pages/multiply-0d4019c3b91028a5.js
+Request 69: https://oasis.app/_next/static/chunks/pages/borrow-f3f0b2c8d3c8045b.js
+Request 70: https://oasis.app/_next/static/chunks/pages/earn-037f7390410ed5d7.js
+Request 71: https://oasis.app/_next/static/chunks/pages/discover-67a6cc315c60907f.js
+Request 72: https://oasis.app/_next/static/chunks/pages/connect-36134f2dc22a157b.js
+Request 73: https://oasis.app/_next/static/chunks/pages/about-8fa9646a85daea3e.js
+Request 74: https://oasis.app/_next/static/chunks/pages/careers-97260c6593163171.js
+Request 75: https://oasis.app/_next/static/chunks/pages/privacy-b5e643bcc22f1508.js
+Request 76: https://oasis.app/_next/static/chunks/pages/terms-0f05ade43e36b055.js
+Request 77: https://oasis.app/static/icons/apple-touch-icon.png
+Request 78: https://oasis.app/api/sentry
 Trying to shutdown

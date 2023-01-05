@@ -1,0 +1,539 @@
+{
+    "url": "https://surf.finance/",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 15,
+        "url": "https://surf.finance/",
+        "metamaskPath": "metamask-chrome-10.22.2",
+        "destination": "test_crawls",
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1672938025484,
+        "end": 1672938048815
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "url": "https://surf.finance/",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/cdn-cgi/styles/challenges.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/favicon.ico",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/?__cf_chl_rt_tk=1RjHLIH5EIp8NahVyBfkCeF_FsIgTvHP4HJ5ZzUUdi4-1672938028-0-gaNycGzNCH0"
+            ],
+            "url": "https://surf.finance/cdn-cgi/challenge-platform/h/b/orchestrate/jsch/v1?ray=784dc535db4d1541",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/?__cf_chl_rt_tk=1RjHLIH5EIp8NahVyBfkCeF_FsIgTvHP4HJ5ZzUUdi4-1672938028-0-gaNycGzNCH0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/?__cf_chl_rt_tk=1RjHLIH5EIp8NahVyBfkCeF_FsIgTvHP4HJ5ZzUUdi4-1672938028-0-gaNycGzNCH0"
+            ],
+            "url": "https://surf.finance/cdn-cgi/images/trace/jsch/js/transparent.gif?ray=784dc535db4d1541",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/?__cf_chl_rt_tk=1RjHLIH5EIp8NahVyBfkCeF_FsIgTvHP4HJ5ZzUUdi4-1672938028-0-gaNycGzNCH0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAMAAADypuvZAAAANlBMVEUAAAAxMTEwMDAxMTExMTEwMDAwMDAwMDAxMTExMTExMTEwMDAwMDAxMTExMTEwMDAwMDAxMTHB9N+uAAAAEXRSTlMA3zDvfyBAEJC/n3BQz69gX7VMkcMAAAGySURBVEjHnZZbFoMgDEQJiDzVuv/NtgbtFGuQ4/zUKpeMIQbUhXSKE5l1XSn4pFWHRm/WShT1HRLWC01LGxFEVkCc30eYkLJ1Sjk9pvkw690VY6k8DWP9OM9yMG0Koi+mi8XA36NXmW0UXra4eJ3iwHfrfXVlgL0NqqGBHdqfeQhMmyJ48WDuKP81h3+SMPeRKkJcSXiLUK4XTHCjESOnz1VUXQoc6lgi2x4cI5aTQ201Mt8wHysI5fc05M5c81uZEtHcMKhxZ7iYEty1GfhLvGKpm+EYkdGxm1F5axmcB93DoORIbXfdN7f+hlFuyxtDP+sxtBnF43cIYwaZAWRgzxIoiXEMESoPlMhwLRDXeK772CAzXEdBRV7cmnoVBp0OSlyGidEzJTFq5hhcsA5388oSGM6b5p+qjpZrBlMS9xj4AwXmz108ukU1IomM3ceiW0CDwHCqp1NjAqXlFrbga+xuloQJ+tuyfbIBPNpqnmxqT7dPaOnZqBfhSBCteJAxWj58zLk2xgg+SPGYM6dRO6WczSnIxxwEExRaO+UyCUhbOp7CGQ+kxSUfNtLQFC+Po29vvy7jj4y0yAAAAABJRU5ErkJggg==",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/cdn-cgi/challenge-platform/h/b/flow/ov1/0.9793556343426196:1672935438:OjJ7L6daz7T820cHRjNSGqVaf7yJ8ejseGDKNHoUmbk/784dc535db4d1541/a2c0781d99089e4",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "content-type": "application/x-www-form-urlencoded",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "cf-challenge": "a2c0781d99089e4",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "v_784dc535db4d1541=E3y4a424Z4b4XkYFrYz4JaQ$4Kevr3tDMY80-d4I3t4Y73Yg04A3bXFyrwY62tLtYldgDQrZYL%2bQ8JQ+YILqYDXb+Y44I52zEY9Sq-f5YZKQ8KbMyYKAYTY$Yl49eYw4LPBYxRLYEY2yDUKRPYxQY-YrwmY9L0YLHJY2SAyNKKYDSYzZ3-e6ZY9tD6IxSY9436Yrl5Y-wYWSkagxPvrXLYfXlnHyYUYLSnBHZ5KXlYLF+nh53Bb6b+6vDpLQlno6bfYIln6nPYyQDowyDaUZP4VKP6ekPJk6bSBHWABH3N$Q46ESkvMVqVnnMBvQ40vz8eRONrILFKlJTtyr3tTtM276M3YAKhY9+l63JtnQRll8pnNkGZrL9Y16$doBXoARpZ1qqH07PZLL0QO9lY9EykEor42EbB1EBSauj7oyNdw5iXledR7kEkjtQk8lyzEqL69S7Jdl-lwjt2cVoYD$cDvb8wQakwoWY9S28np60WA3YY59ONJ-DHk4RZ4S-iilSN02G2a38D$Orxcqz6e3-4BOjyd8r$vP9lYcN3ctH2QtwoP9HwxkiMrixvQELsJx2zaDIDn-TbxniMtnUqnE-aDNQK8Ex++wK4Le8MDprRgj+LLZN$QSU92LA--EtwujcU7DNs-c25KQ1yVgvSIKwEZbUN8EZelH41UgdLMevM0xLDQHUYgUuqhDvX0ckdMlyQ1k4VreB3cueDGWb3cwe8sIWqQSYvoAP90rhb23F46d3k+-nqek+cwc4M93mr+I4x4H8Y5N0vgUapwS9k-Y3pXB9laYiXBWK3-4VDpcLO3v93r8k2YPGbcwSLJ8QMeBE4TQ+BIcX2DG288Ikh4HY3eZtX3sN00W2XTMS9Xg8Gp4vLLsubYQPNM2tlXeTyEQSL3J+NIkfnbYGWrdYqtK8Ev-YhIvAY8KlfbgX3y8JILQuLwSprNcq1XVd4JDtgQyk-YvmDDEvSDs23WYMOwJDQDGWKqOqFN8Ml248E4BNvTqckb9YMULctJDpIYuYVAqQNJ-3MtMT5cN4-eW9T9LMfs-lJRectGtVYGJqhygFQXxqaQtDGe92r8p4JZw-9RrL-nj$WOh-vQh839SfvnMSK3kcwOD4IWyNh2YmYMAq1KzIv-9P9tfbt9SiQi4GWAdctsNQDYqQkcQerPIWeNtI4QuRxyFYMqpwRsvbwNvvgAk+rvgDDM3FD8-4KRWDQe9LDiTQvMSFYaDNqeOItpY8wQc4PIvMfnctSD4-WJYMDYzXRA7aDQ-40AeTqr48E+F4g9SaxyH3z8DYva+Pr3efwYpA9gjteriE+sNvILFZdrLQQBLL9bt2SQ83KyYtaM7iuTM30yXrvxXeOtr8o-eJ+XrvYrPQ8wl4cNhIkg9erwlXjKRlbQwQJtJ4vwuT2tRrbLVcogV4xRiMf8YnE41XLyQ-rb7ycGZ90LDgE4eXL-eFXa-XcQsMKK3MDt-Dn-lAzboQXJZ9SPui-YPancLwQMOqWX723JrN97-is-3wN5wOQXBDYq89BlTNsLtBN0qLPQ30YuXgTyaN3Yo-lwYeNrrdDnrlzt28wZP2cxyLQytSY$DGLLJ4cgGDwY1l4-tGt5YxF3Aa1yaQtXR94wE2vJSJ8QIVcQJ4yNF3M84MScYPNS24-gY3EYPaOKpDFkYrY$rQYu6ZIywyoyHY$-vL4RLLDkXLrgMJMr9vB4MXPr3IyKy-ZD942twW8tQ4n-kLEQ3WY73Y2V5hl-7rYUYoyq9g0yA0IYzDBuMole3mywYR2YY"
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/cdn-cgi/challenge-platform/h/b/img/784dc535db4d1541/1672938028820/cowUgVHu2LAHLCO",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/cdn-cgi/challenge-platform/h/b/pat/784dc535db4d1541/1672938028821/5020f22243e8fd12f4c0b5b30d36b39a004f0ec7365984ded2cf7de6b304285b/4LnuSaAL8ZQz6N4",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/cdn-cgi/challenge-platform/h/b/flow/ov1/0.9793556343426196:1672935438:OjJ7L6daz7T820cHRjNSGqVaf7yJ8ejseGDKNHoUmbk/784dc535db4d1541/a2c0781d99089e4",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "content-type": "application/x-www-form-urlencoded",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "cf-challenge": "a2c0781d99089e4",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "v_784dc535db4d1541=E3y4XrDgvKfZYjYK4St2y-qrMYMY0k4DyrAYOrY9Q4Y$PYl49e90zazY94EyDpYw4IyDjW4X%2bSQY27xaaLnIrvD9JIDtD0YItYGwYDeHYK4YwYuXpnQYF+vIvlJY2LYq4ILY6btD0YetYWrQQY2E+tYg5PYz8tYQ5K+AjbyL9gSYIzfWZufAY7nUHZ3WDDSkSSYKtq-JQ7y4awH-rw9z5wnY-dBDXU2KYY5WdTGaBWEyatnzqS02-hy9NwuxQD$-r$nrux2U6qjGaYI$zY+jrtY5RZKFb4Y$aQDBvW06r7H5BxZkdiBObBh+9YW4V8lVFkeP0HTdgeDyOX7TTzhqw6jbz98z2Nc9DB9DSdQYrKdU+6$hgI-1J2mYI9NhExZXge4u-eoIt63ymGYbI7seANqtwvjQAAxIFFGy06c9uE9-PtFr76NutZ2Dj5qSnDIAXgNQYEa4uLSL84-5GU6e1aYIYqHD534YhvbSOtSDKO9WqYYHIrAQulKDBAYUgiSDpbYD+hI3efQu9WNlEArQ4UAtfYoLX7zXPJ5ZLrfuX8xW9-4H2lygz7Qe+TApB5Jexokx7NHtvek4YN4tmbi2YaSk8tzaBr8OLWMqiBK3pkFU-dO-khrDbiYYEv4NulzXk2Mql5AxQuqnV8krSTAPZAxQySi9T2wSPKhgZxQeUk-7vwxdyDYvN7zKPOdtci-8Sci6c+kem6spaSDS$kDIpL8u0SHRNISUvYQ88TyzgeWAE39DvN8l-cj8Z2dr8I9brN536MgKQYAbs40x4pd3Y9$93ZAgGQYxbSIISDTOqgDS27gAmENGiWEwL83kGTfZfJljMAqhh-v02iW2kNG1jazRhXBpxgcJf3IZYgIEqMyi+9NmUgL4zDbAqSaocaXAVOpQ6ZukG01bbh06EigLtL0OI$-lWkxvSy9Pxv6D7YY$nwJrgyQ9Xa9QPYb2KS4+MlP40MkyDUbYQe9lSojxDyL8yDY5rGYeMbnxf+ZJAg99FEM595U5VS4yHR$d$3h$zzHyrVF53k9ZH34XNHFFkLlU8y24m5n24k43YY-6EvpxuHAHTJyIoJLeBHScEeHxSzGHeL4hUV5zkoBukoquq+7yD8QoYzQtY0AyKcHm5nk4yjQ38-daS6kYNUuVq02YV6p25zkfHnSKnZijcn$xkEQEFlAqqYYcQqGqbajK3$8wjloX05ktijYYGn2IwSIYRNe3RAnLr4svLiQLNxx+nuJc06GsKXL+BU3IrJK3mWp5XelZtte4S2XqRu-4PBA+G7O2MxAYvEtSBWHQnl0VtIlIDLhZ6E$TEyMR6MEYhHfPtxd6nxqyrv-nVMD9Yp7vYtrrIlWjrP07rd$GUYDrbtA+nzGSM5jOIGUOYvLn8OaVtONd2B2DpHQMArrMjwvr3-uAdddqf+Y3OtGqIY37t$AnS$rWy7o2I3Vt7uuAZx4w9aHUb+02SYcTJK3gmSYtwVyD7AYRilw-ympLR-Kk2oEi3y98QH7FtwQZrrxt4ZA7468nIQsctYe$9Nx3Wksx3erP9U44RpvrYwXiSq2YKe04j9tY7ruwY$8W8IYkIvEQylEY3I45vfvYyjXGr$reADYDWKeAyHY0YwYe53prtD4YkruUQn4vXIY7xv9QZtZWxr$-U-YLQE9Ly7DvZ8LNaYtL+IB5yzvhNw9tJaIJmDpaIrQLtDkRwhukDw9cQ4eeLYJ0fkODYhDT4IYuBULYeecD723Aq97fQFDxDlSlWydYnDnD494xY9LGYwu9LeDtuDpKwr$YBA4rYF9PIf46yteepkrYkE3QQzvI9Z2JTdKyN4wDwYVE3EtIYzNxLLctQyMb1YfZl9HwsZN69BLrD4M7REp+VLrruxYmD19FYYEN87QUt9Yo7lbKD+qYTyD5m4u--boU4GQqXVFerwvZvDdul8YyLcLmYYYLFvSDpjd2Q5Ynle9l9-ElKy4QAAjLhr4ffDykQq4qwlm422TkI6L2r$3bbRuXKFAYrQfvxQUk0uYUtqgM4qRVL1Zp+zVib-4wr3b-+O6t-T8yy2zVyf4b98rbySxxY6H0$9r7T2P+oI$eljfW+Ejj-LElP$BRV6trMNS9lFfR0L0KAUWid+SycAvLP0eF+oqtOEcY-i9YmqYB3ykq2aQS$8oIZ5K2H4sS$68$Ai2rdSFZva5kdwMx3D3v89Yeq8Aj0TK4MlRfml7kSTpgWYirRX67TMNgijbyUjoyiZYxjx+7FOwqxrby4T8FhA5Wrj5STy$+vvcAB2AYIGDvjgId2wnXGeTjfnsfzYm6ijZx-Wi98i26AKSWqHfAd60babWmP8RU$6wffgjjRTp$dFzu+0foTs$sloLAmiYWv5DOD$nlELWqkABhUIodvUL7WT0NWf0ADp+gI8wlVlbteD5Xt5kYHmD+Sjnb5W0jjWISMnBF$si9U14JdiZphihUm5$bXNuME1ULo8vOfIGEtGhpXONUAPAKPQYW2Ae4LtKELTeIvIIutQVwnKIZDrVe0QQ9fL4YerDZQtae4Y2WM4Y-Rl-iY05y2Y-Dj-RISZYn-BYezZE8o9+vFxA8U2pJXqgdYYDiIRF-eyhNw0IreZrKnug0jEkq4YLSSIArYu9dqSyLu4PP6DnrAQqUAw-KDteQh4i9vYX9J5GY3M4jZL9N2LyyG+fQOfwL2BFLRRdpUh2EqtIRplSD+RX4UI$MlVfA78j6c4Bz$v2+wWTyl9YYld7mDTEw$8h6UZxngE7N+NNPZvDY5gr+-YDrgyy-uefsX2l9k4eMvzt3YOK5vcLIYFDBygEj0JjuDDM2GL39Yeefi34++3KTee-YBD7tLmp$4-rP27H5ovwPtte9a2Sxf$4ouxnQY3xl5RW3oXqMi$tA$qDWIkx7FvrY6YKteXb7U3oKdVUAa5B4tpWle9ntHbTE$LDzegAHlwvNXGMMP8d6uO4NdXe0pV4WojBDWY96PjYuqBbjIGS9G4iQqYM0MxFU4NykM0t+Z5jtJydOND6vyxTdo0BmfMadlhjFnBH1n3HiTmYwrPLGgRKtxomdxYsmHhxV$PYRtJmtEx5$FYMrMoVV+1hHBl3Wh7968cmlkUFDdtyrD+lMLL-5jhwPIJfeQYaUTjMDz5-gX426h$GYFJnixnUKcXgX1KmX0JhFlON95mVqtxcRJFzEoHh4UNSYJOspYxuyBF15123L16qOoASMzs576yosYIzrDU6FcBHl+G7IEov$odJ8GZPxicY1x1FebozpoWJIzcf646wQnobzIpMAUyBKznm$tT33bcboymaGdVTbtJ6Dl$muozvyF$69P2gcVR8+$HadL3Gfm0i05dKWidiZ1ulpW7-gvK2x7NpR-wNalyxbTEm-wLcnUSaenrUPRJcfShzX$q82fFwf22a963pc8rQLgux0$kE3J0FfPSB6o7tLtwgYWwnyNlNqmk103cpISDLn4DYugrAOYgJjW43r6AML4ZA439nr+841lj8I3KK8a24u4$1dkw4ZWxPLAlMLmqNvvI3L6r6L$kYEL95LtzLAgL42-I18tgWYtf3cOXt$7-tZnyyKcB8r4xYfmvyuOjInHMtft$7-kyWwvEtQv1KypA4Itey1KrS2krAbySmvyQ3LXbh4yQvUt9kwnLRyeQvQeWvgWLAKlEg9eQ3JSI9-QDBr3$7c$cuAqYSrfwQWZ23eyIGy0DHy0Ayfucu-egteygRDNMa2p-yFLQqSquLJtzWr+OG8NEL-3ZncllDMtD72iEtfqUBKpXqu5DgrAvSgS5y$SSWDS$SxS$wBfY6c8x3O09JL4wGAGEQD3znEwLtJ7NaLYfc4ix7$G9sypISyXrYrwf7Jwu7ZG2wuIKeflEZjQM7$Sc$cFB71pcygW9yQoMyM75Sf94wWiwwU6DNr4-iYtc$MabSE4SL5lugggYaK7EPyLWHY6cnDMxP1PWZyt08KlE76PQvkArrUQJruYIg97ctwBd$9LQ627MpAg$kuPWg$7L$xs9Dcw1097cPkSAa2lwMA14Z$7-WEYZ3DBEawgLiKtuGDlxsEgx7KlDaAg$3wn96MXEQwQMgLBkfAJDluIE78XjXbFAM9BjQr3LTdLIQe4UASTvXbtQSJLJy-Aey9OOArnEJ2pKnZnJwz$AJI32pcnJf2nUgnZctc8r4DWeWUq6FLALqgnDGxpcNYGgneyAL27u8kf2GZY2nS3cgdwMGJcKWSTkISSWDDnzGftr4rEL31WFISIST40S0uknqyI5nN0FWDNKGDGfI51-QZnAkeZMa90STTtA$$Scb2gj$eyD3zWIcI9cFjngpzQDME4NSyGfpN3Q1DpeWc7FXEGfpf0ysIMgM1$L4x2nHLMzWyywZ-pgMJIJgrBNlr-xFMa0OAP$0Spe0EGypF8xgAqKwcuwJg+XXE3ArFQeG$I2JFP0Bg$SAEwypeLrnIJuf9YE4eGSg4ScllsFs10MWDSI3ypQ4-IKM1BNDJLNeZSyGZLUpw$eyMaMlv8$8FWLejnW8JlB2X8fPjpMv$pDluA1BWWJWW0QN$WZ4wyrUcMST8NZ4LDzGSBfBwgd05NSTB+5lAq98EBSSgM-B5nua$wX8ra1BWKQD$NZKfOAqy8w$fPzrDK5nfPfwYAy0rbSTBGuX-WXsctggLXlaS$fn189WAfWLWJDNAiAfztrpAqxZFldFy+zGrAW+uaf+UA5lcfek5$AWTZFfeGxGu791OMzieGLAMg1kQ21fusYiA6rfwgNyYexHnZzfYtLiISLwuL$jJZUGLABguju98+z$LvWSKnSABt2OT985Uld5Uw5kUAf515S4L3wnw3SH19r4yHSINr2gbnNrLSzKN79HQKgg-35W0i$9YE$wnSAZKLJyujFFr+jGYSMpwBjVDqfL0fIjzw-EkP1MN79nL$9pSd$7MawWTdzHQzQEJzgWjfggxzNzUNNyxgfgSwQEgd4AZ4LAWfAAStMAggA4xBxpKnS95qfi9n5kciZDU7MSxKI9$WAVeXFl07D0fnNcDrcEk4Yp$lZSK98XZS2XuzUAfXzgcbKFAHI58zqNvmjQEuQ3EdcuI$OkzuzIQdk+qnZYEugpuXY19ReW-R5DL4AsYtE7due3zYJyDx$7rAExN4-bTxWZwxWxJxQTQAu7cxFQEw5uQTuT1DUTzTufrTf7ITFQrAFJYU5TNUZfD31FduSFI8FtKezxgv5KQfWhWSMhZnIHuXfhevEh$Sxhzg2U1ugvZZbhJfMveEJEQSD72ENHzR$--QuL1K2prYe0DMMa9agB60Iqr+nWOK-j6Q-Ir4ZuS6gFWFZEQz5mXmkn2RSFW9kF1lXPfD$J2W8-MJcuZ4-jd1bRZoJFQJkQzRS+jgOtKlLtcH1uWcZ+8Z2Q5-ucWZEhOuNcuHFkI3-w6P4iu-giDN9LzX5cZYY1Z+4rZnr1jKweNve0yg$7Aa9JMaMyK1WefGA2r4x1zQc1emUuSt$YNN9H54UpxmumJFuPSdnZD1QzQd1uymQzF95jWiq1QoI1W95QY3rq-krDWDJywGyWEFLg8pd7lGKvUor3M9Z9NZUiJfKQG-U2wBOWUsKvz4oQ3y2YJHFkDDAMDNI3yQ2lL4YW5QKQ+t+S9XfQRtticthQHpLysH$yotHQPtGtRXgR9Xrgjpyy++zEQyovSA4Y23H237UrLckQZrIrojIczYZ9Qj46eEwnbYVF$j+uALpwpjp6MwZrp67+SplXpEoKjSnIaZscA-pwuHFxlc-9Z0mqrwoXZ6m8Sr89+4a-aMoruDR2KwvYbEKtHZaw4DbwbwV$iwVYPM$vo0Xk6rI877iEOHzrzbq$8D5ML4knHt2jGL7UkDHE24EE3-tRQkHcHwHwz9mqVwXF1HdMUDGk1xoGfbwI8DBYfnEXPbSrLDMrVfxE3kyh94acgYV$TMEoQMxcxwu4gfOhbc-xUMVD0A54wrHRsZUckrL96MPYAjB8m7gHh6owFc-rA9-HOwcwoo1MduOMPYKtcWOwYlcch-z$4doc4BJiB9mcQd0AfMO5UEQBxwcwa$MXtdvd0xFEzkoceBPD34IHel4rYdswqdqOA-LBvBqlcc+Zj9xbpw7dqOJ8zDwYSd7lgMO$Q3gd0xlwGkPBLBxH4d0ArlM9F9dkKkrByj8+FtBXZdHtAlvQh3ZRU7oMUI7d0KlTF9ZOK0Gl3nSprBLY4l3o9pYdPtVDIlwEo8IlZ9FYwrrd9iGOwlcw80BZMObkM+rBPDM9Jlz88RJlak0aReBd0y$-g9lZrdpHNOjD6Y0aNB-j1M8BPDMZmQKBj9bln8NBJGrl7G$IiOd8vepZidhAs0uhlYjldoKleYlHnd3lWBYlerMa-MrBM2urU9l9SrddBLGOKOD+jc-rdB9dVOi8Y-MZrlrjakQB0lmE0y8Ijn59KB5RHBrBrDzrxlRlkBPDQcuB-pYBs8UrTBL$hd0lcEtp6AM55BUlyBP96dz4BD8tMOKdolHa2krlOOOdG5S01B6KZjFdhd6l3HuyKXOB+2vZmXOBmrQgZDzXOlg0NOKlwuSOFlLB1-lQJip4vlvJWBPDJkvDdYSBMXSDFFUwwM1jowrarnR3S10fSgLtmkzR3ozALr$2gck9xwKtBrSauclz3kg1ggSZlR$4ZSgzsMZejL4YggJcgOzyggukvY-tggf6OhurPgKter2lpQcF0QggHB0aPz4u7ZdQgJIgFDnzZ$OiqSggJk1j$vq1jHMDMYyrsFy00-lz+c+QV9RoBzLFmGgEw2BBnzSrDgvDm2pBJ-DJ8081QXoxlDa$W2o8KFlzNJFO5RKJBNscb1u9NpwMNJBQJScHi1uY2g7EfolJJd+QVp4GMSz4U5IXAW-MM+hEoIuXXZE1c-97YqY80cjg0wIYV1DJq4aYt0VJ161qzYW1QLV0XgW$UMugn4V6IIIckYfqdSTJKqdSV$T1zrRLHjBDxipoTJf0orv-P-v2SYH6twq6x$qkXNr8+7FJA9NcSDdOFDZQH6c11FT0c1hJMRrYtDitmzxhmzA4lIU0xvWO8Bm8jrHH8RHohAuw5E19Vc36ys2g4DvmO$0b7Y-MtVs-kY3sdUTcXzUcjpLsMg5gLP-cdJ-zS9qVMNs-BdqP-EEBPWMaSsdWlV-M7P49qs7ndQPPB$AYH1TS2FIbZNrmEg1uXZZV5JsLLsKOmwo7hla2rsFpQihKZdqsAPXE7sKlfqwPBuuYV5rPf05tuFfM0sKjgQPZrmGm$sAMvu1hMQAVwqfqZsKl7ErVMZjDyDMEGVw61$QiJsKdDVB9LOWVw6uL26esKO0Vao3jrPhBBsB5k-7++wZEKPWMKHfs1MvuWLFYdE$nnVamfmAVbPZ2BgDsBFfP0sjViP2gbmwqEmtzHVwqK72zHEwRjEwIimBFtgsIhpVmMZBZi58tAswmImWsumiU-yLs6ntb7Pxm049JPsuhV40sM+e2qVUmhxRzj9uz7shPz7X426kY60KkZLPV3NG4f7VSomG8g7cP42pJS+I$5rqkQhp19ocPkvG2IkH4+AOm1fra+KvPdcsoZeY5WXRTkN-y$tA3B1HHrcVVqSjyfOk$YL5wwDfQx-q4L+3YaUsc1DkEL9t-IyFQsfwvMaIjhHv4D51eaAeNgG0bKrOd9eb4Ewy7wyqNvuLrXochL8K$uD9Y-SjyWK4yW2K9uq$oMG$42ePVIs4KZZKjH8GJlWQzy$$v6LnY-0URDk+qXnrWPoYuQ12tZbwYqnA5gQ9$tHfVHUPrcSp9aRS2kaj7kLcJTQA+Qn4TysEFS6EjH3xKPBgjEYuHZ2Y0eekQvctBQAQDr94WPerqb25xrVe8QU4AiELrQDyDeG34Iy5g61Yb4TqSq2yZ+kaiwLl8by-odQLVR1PV+JQ3i6ItQbSDZ8b6Nkwa2Yxj7n8WQQZ8KtmKStFSNjfyZnDt87tupZVI3I6LnIzrp8VwKU4uQIId9pSNj-3Or-GLxKD8Lts02PDw8tHS4pzcvZfYG-X9hqNj9t8Qyp2z9d8O3r0yVuI-h9vkZYjmdqaWI6rKritq5Ewc$L6r88AY11v1H0IU9B8xtTE8YKvfFr68VoFv5rYJ2O9T8tLrOOgAeDhr68jgYmkn-DIQXi8wtEeNrxI-I8MrwZ9Jd3D+LU9SN1+f0xn-w4drvQ2OU49U7+Ln4kNr1uyFP6bydzspEyotzZMT4u4GNHg50YirbxKrNqviDf2+A-4XzA8ZdWlx3MxXGN1D3H1B0NuRTpNpG-QflAp2n325BqSvkSN7IKh3l2q3vktFftGYUEVqgviz-WX2-i7dNnv6SZuR-8zSXN7vab0Wwpem9ENwvvrrM-ikO9jNKvb7JSEWk9PKnKqEyFMSj-i8wQOsfyWMHXbkXzSRQm29k-vUkrDGtVJlEdr5I6DMt1+9wnLKL-KrJymNJYNVSn2fkj+he-frRSRI34raNeO1T$oLYyDJ4x4DV8SYDhsbRyHeX-Mg+L9DduSReOLApAxX98k8TSulgvu-3SqDabQyguHShLtzS4SjIwOpKT2cHSYZYIsBcZHZDyiaK8DgF8R1TxXtekYMgN3MU2YEaaEebtcuYrngLmJFzFgZ3DcLRYiAw3nlu$ymyn4HNITflSsAlZpXVqE3tPJFu1L0tcaHqufdsEmLHkLYOIWekGyhI4uJwVsFxjJxY6lYbAVw-PjDxjAX8LKz3B1nBxjxMQTSM8rHAsKT2gNl+KRFld8yAhXkQnUQZQXQaSiEkd4aO1gQtRdQKaBZxHccknRoaw28WznDMj$Me0mdlsiJ9YwrRyhgZDKSXyZUT2L0JXsKcQFkz6oq4V4MvL4uk1i-L6+uDKJ1KZSV+T9r7MaBg2SAX0Gbwup$p7JO9sLQ4vuRDXva-BKAG8H4ptDD9vOaK62o8c83qpZeLXZYtYzIRttlQdtwq2YmK-qqez70YksumKSoLQb2c3j6qGk34QQDG2r9NYZ$ZSjAZfYqUbZ2ZrDSYXZp+0AjjQRz2YOjMZqiuX7d3okX89ZjjurbHVuAJfYA0iuLtrg-LjprprKuWbRSBUxV2Brq5l0uSknWH5KDDl0r47oBx+FltMyQY376wKEMdY7EfbjmF4WWk$jyY-+LT2SydAGj9ujNwyoyBW2-rz7Brw76WUoDHnzZwboS0plkEMjFZ8bhdMiEdcB0e2ZbvQ2tc+Yy4V9$vGSlJxlqkLHuob4HFgbg9qvI5sY7u1VlcFZjAZ0$p-IIJWqDjyRctB+910VMi+vj4p4wh6EgtvkP7Q3pwTTw9ALn4+nb$UzISuKoyY5Obj76ISzNMb4iDWDwk0Jtt54PQSY28$19Wafq384MVwAiEIaij-8ZQ6w40yuytekkegnPM7yuc3DzYgp2wkISXjZ0ARv0rg$$zLHrYW+qgKTQsBjMiRawJyDQxeAkSbkL+QB8wRAlUtbj$RAsnYZpNNLhezwYW8wXRcAtb6aeNfolQ0UGrT4q5NfYYVj8uEVDa4Yi8wn3xDtb0VDAekGEIwwcNjyj+fPwiA$+86RgYaDaUEG5TARjOHU48XQIg2S3ylvri-UW42OSDq$+obP7GWJjMT6cZvJ4wn-BSLx085YfJ0eg0ocADvS+46gjefowoy-a7bcOJZN0RJqUZsDj7PJ5dKzbSD7bYwdGf2$TDegVf+SRpuVEF0rX6bs9EtxIIF6Q+EiedJJv9xp6eL9badeTxcMZqNt0Z9Y2BgFxJqFuxivQ-$v9cZ0O+rKTPVpg6ErD$SApU70GgVAenO+hQ7yE7AmEk2U36poPovYJRojhj7bOQ$QXy5KrYRL29g5DUyF66Qxw2ou1fERM4FQ8yi7rlIFgqB0cZSyR7bZbgrUNc+IyWwhsZZXZjUYJ01qlWWL56xDXfihrXn9wc6U$aLbo0JjnpL78gAzDQkaj4yb7LpZBWPhAjEGA0eaLbZjwxGc4RsNBYOQcgMw1YT8hnkhKkSntFm$mvV5vNTx1NUbQJKeZfbroS-cLQvITuT2Vw$azoA8T$2fi9kjYL3THyIEsbsKZ0vjAjjSjyAge1aJSIOvtj8re73nv0LP5XZAsLZaAFLTDuu+A8w7P7rMIvYlEZQEvYv-e+wFjH1fGZRKfqN+FIA7jUvybzqbaYwNRkoQaAJo$PD7ZGjNqht0ZN5rAxB$Ej$JN7n6hQRBjXwtendwoKYk0ABa1y03Di3XAQAe+BpkUu2bHAWAz2DDqaS$St4fiw7iw5rYGhtxqaw-IBDTpNnR+y2NeNANkAaI-xUPp7yDByI$-lQtJMwr-jWX82SYUjWqR8ZYDB5i8XQAXEt-pMB$M8Myas2DBPdqxFxfrMFSHI4lniF7G+p1S2J4OFLQTfrP3qQTrBJ5yT+GqA6odJZqkQTIsWA8BY5+3h0Ng5P-yjuQaKSz2+5OtMkukl6RLNojzATd8klfFqT$sIAq8Z8936cAM5iENZU6270nZG3Wlr2z3A7$dNpZKlcLQtIh6FASttXKYyrHjSutykDLb51Adq5hyIyrYF4InbRYJb52WMUjgnTGD1y95U4Wu0apJ51yTj5YDkxGoxbWT1$-4T5unddFWT2ifVgQrGlTXjY3lcUAZYaLLYKtO5QW+lLOyur67neTX$HSIlN+e40Yjwx0vIl3G1XiDJifEgHa9Fn+-yNNDhkYIuSu8YGtL2Z50lXSV4V0sWvEzo9z9i4cgcLQd$9K5Dr4Myr9Ydf08TSzDHs9Wl0g7uZYjneHrgWdzQ2TFTV$J4zfd$85W8dTrQtGRdua9-$ETJH2wAl20vFSVTkHAGpHZAIGhPXPHyvSaTBve4k88BHXxzSEHUxletjbGmEzYZmaI4$tIT97EdkKFkDt+vSxGcb21$OHUG-uMlBJFwkUX2rbmMreDBN5w2YEp349zsOtAL2pyIdNS5svnDjwIYpoInjQrVDyUJtnIpeB7RRj1Peg-s-nnd$Q7qbha5YcL$8uNhkYAE-wklO14Y-XV+Esy3QDB9W$79b7k4zk9Rt3p5jg3HIoPKaYQUubptvQF4Ye-7L3aLnA4HnwKdLHonSK7O1XZKnDfKA0rl0o4LjNGTnUyEkGN4qbdLoH44r0XLYMbT9hGUJYL0ouNhFy7RbNEL0axdKOwprYp+U+VuZaT4jBWbfuWPKXkrduWdFSU0XLJfl85bgUE+0P8zgIzrK8eEi0bZX8INigHHEE6rv2IXwef+KDt0BzAbA5R3+930$GL-QIc3ugYbwyduuMjLydnfEwGWgfeBL7HWA41au4BLopZV4B5K0GTf8ynDswXEHtcLAgr0NNvpdz$RTfSYP-wtUQYUgB0+Mj6SWlQ7ldZ$oDhKMufdhyB7Ydng2jY6KBIj7c8ve6F58GwZGXWqZL7nw2KJ1WXWzn70lqzKAqHiWW0SUQ4RdHpmjZbyJputnYO4cjlAoLr1UJY8YQ0ESEWkmUmd3LBkDgr0-t7LItM4-$9bnItr1dgh5MxpLkjw21YYwsXISpiemWYfiqpM0NuNo9qEHQM4RLXqAIvGZzRRMlj9vQrduBkqLQ+efSPUmn1dQZQyYa-q8hyB+TFW4zqoPr7qsbmX1tEuQpHMucH-p8YDRBdDS9+rsK1tKDbf7lzx42ty6QTB8ryAZ4+1gFJH7H74DmYpBkOnORH75gzpc5yoSgaoeMSrEcZOgO39pG0bUzoloQ85Kf7DRGtqT261sFwXsYy3oZUoQRBwq-lAH1B4+4-Om$0GLYL0lFUTvXp3ts4cAj61-oa7DDgKHzeJO3L9HJGY4XO26W4Kcv5z2zGB3ilBBKpihZQhFYONgDHosYyG3BqjLpnGvlhZEjkmtMbTsyMQf8xJpReZoZfZhBzwBj6JbTdpvGT3zZ1wx3$l-T4L8caYpnU2EuyS+KG35GBkZvrz8DwAsHGO3osNI5ry8SORg058XzrIYu4MNTZSmYaWP4zKWB9PZq81u+4qWsXx9-WjjYAQZsNmQol-re4SylwuilnDri8zeB0GAsvGlYM02-5YjLIJZji0I4t2iz5-AYzpRkY39nYwYPuM-T0b$EkD8mNkD$xuZ0QgaAgLZrqk+QDA6IZswJoLr+Qs2s6DZDynvrSIz2IT-Lyk$arFkgQJLyIIG04cV2LpX+EvE45e0P-lrNggQwF2E4k-RQoYwuvG-wXn5stglkaBy2qwdz$vQHrQyU7GSjNKEA8m2-l6LDad4s9uD4Y3+q8adR4WW2BASD$-U43J78GmzeWGXe2bVj8$1St$MYRkU52q$-Ny-AqkbizlLxtP1OOU-8RV683AW2pGuX5ybt8RMITrPantD9wNvxELJAYB8hVQAb$rmOfG$ar8zvwKXfr3UVlf5pNnq6bp3rSErXbnFL2Z$goe2+X1+yvsPIxkQt4tYhNwDWMvKSYUtGD8fkYYpud4xnnqtmu31pNs-JXwGYeoopwHVIDX13iPW0B+Uu-vQ4M3eoObF2X-sXZaTt3ypR788aX0akmE4QZHII2ItXW3rGOdDhIKYDZd7w2S89jYxXIan3pSBvro-hqnvEfelWJw0a5kXeK4rtUyn1-TXy4Sm6PfPLJ9YuRaGcnrU2ScIDXiaTSEEk1oNDEthNFEMyrD++QRkHeA-9KDzY2wqYSq9LGqz0vWNOt+z-wwkWKXv6guL4M8Znr2hS0wwxeet6WX0KYi4rR86eO02JnE83qO9EiJ+WPcqPPJ8KTQwgLV2$PoY7X-IkAJbcpQqYrgFP2f9jwB8AunKvx828OYg68IFK8lL$YRG0v4gJvzlAA$bM1IG0dKGY4+W0tVDVnxAI1W3TGtVDk3L4Iy8d8suDlZl-b8+Aa20tjfmqujQz4zZq4UfmqatEm-dO-vQ4HimbbmUIUF8B6LuhsOTIa6SvvY8GbyQf8nH9EHaiQyfGU9mbQDoAeYLcg+AIgxc26ZReeQQcGgxwZq7P1hwkB$zm9A8d+8Vflt0YRcBwQ0tV9lojMtiV6ObHfpl+p1pHhjDRXEz4-XB+W96nRvy84APE6M020Dc1Lgt0-q5o4mNGvtg37n0RItLtqAawmBJ5YZnc2OeDvadq3K6qB9c59U-9R-T3veRSpJP++kzrc6DNK$-B8G$4bo6Q3o4Elht7mcUNvQLwRPYFrYOQ4$Natfqe+MM2Vev7q2tS5dyTyjffyAa3vn8WmjFK$KasRraBt+Ilu$+18rm681sWbD$KK2nUxK9yBlZ3WuYZkoH0vB4d+xU4Mka1p-ES$FQQZH7hQypR7-GpufTQ99qdpRfKrsf3ZhgqywjeU4w3awRb-+AA6qyffhZAqDBH54xsHikdNd8aYMD3Z9YMZGqIgpoDLRPlVkcHv7OmT49SpS+mHTRThtZl-BzjxvpSBk-PZIpAgsq7VEufV9c+OnTtafM6yikIp-+tDegX+zmPFsh+sgrmis$-ySJ3AV2zPdoI3Tm$0gZyTGt8FeT8frwk58POxdPXuDDA+nrjwwIgk63LTwg-WqUV4R256I6tfT8j+IYQ5lSo5ggw-S-ubn9UI3UUr6XITR5hnoW5VEEF9AK$u3t2Nm+4$uto0SWiggfv4$mv32nU-WDSUAFjT7ywMEl-g4x4EPyoz+wB9FYl2zSsQN7THtbKvDDYu$Y6lMF30JDGpZ0oyOpYjfRAxVvNImUMboLLNQn7BT0k3EaAttgZRHUudmnNTXNr9THFdbBa9c1WnYl8fD8ZSP9MdlMrETw8QUNAV8J4fgnZKXfqhIe2MkecXBy9Ur1zDZiqWbnHTG$LoM0f2w0mlqqawLZQ+es3G9YyLWddQxEkb00UoA45T8k8RP872hD7pOwhvgyqtS$O534lzEnZcpYe9kbstay8G8vWmA2AEGaZdGKU9cYPNDUGd0kdWgqDdZdUJdsOLI-j56baYJvr0xprU7xhYu1ZauZI907gkLu6HnnXdRfcufiXsKy-wU9rIldNu7t9bdtyNEj+oU$yz-q9XQvL2FUHKGbBa22EU9FyUdp3L+N2iHzaJHKbMVGIWiap3sAJRpi20FhAe4gv2rq5Wj2EuKu4v+wBtGAibY3aetdn4TzETdyGAZuz4mXevZAI0dYeYXQ79qHOS6pfwcrKXFW7Y9o83xAL4SW1i9gQlEIoAMtkezrSWSxPV+3+7K+5$LTX2EiJ3PgQShjE4qMD$anWDt4x5dGpbUFJQNcUNrT$4ZRv3fbUB6Zz2L1w3A8z9i0dPmv17oHULl1oflyHnUA4ISj54WV1$5J9$8Q5opdYMEZ54ZfARP2gIatwHuYVjrnZsTk94Sc8ffN9F0TS3gDXYhBui6qUqVgJH+aQqjeUQ0dAUY4$09i0fxvxx08dXUYqqS-Hja7M4V-8wMsl5D$M+58bBrF+hjzqTM$cRMDeSfYNgD+SY$SuWKYsfv7xgIPhBQcv$yxGMVL6rAccqmpz4ViY71BNd31teZ27YN800f7kQjr51zI8V8bTSpwatFYrd18Z-vSeIk54PBISLBQyXUAI-efkaegG5daigg0O$cdQ450W3Pfe3Kra9ZH+3GbL0dSIox$4UWcWt1YMNJtWP1hM5IP4dtmrHsSfEoYSbRLA35gD-yiOWDaaOwLZ0eQc2INXoN33P-SVZgUDo5BnYupatkeGDQVnutAMOuowW1JM5xx3hbR8jWwtF$XEX4AK7JP4VH8GzMbqrwiYDKyKPYu+a1RW5Yn4bRJWm0hOdoKRLH6BSnHMdfPSk-dQGRqqtOOiBU4zy-3Kb7BIHr6Y0W-Wz-87LjfA$lQNR1ftPVBK6cXtSitWnH-B1OLgWFDjihPi$zhq16Zj0Pc9OW9gDF6atZsVxfl4Oca3uD9v2ObmRhMdVt-UbLkGp9vOTQFNgRAkGdo0QqFdRH2mvPKg0LNbbygp+$UniBY6BTHAIMqTppUc+FPA1NVPifJ+LIUnxGuJE$iUb$qFitE7-dOpgcQIY6HR+bgiDRP+nGsK9v2Ah1v3t5NlTsA6j4-8ABMt2suXrA36TWOFy9qF5+c-JpZBKGhS+KlWG09HFLF9qrJkD-fJKr0XLxpgX3n2g1iV6Q-JTl+mUIJBcD-QY4Ra-pg3QxamX9v202RSXu7yjsBra7ILOSYFFIbXvLPG+MFMlQVISAcl3XOZRjFLzX+mXt8gNosdsRdlrf9AUuY3ofxP2igV4IK44o8Uh3y09RqXR4oFa-vxWVTgjYtoHeYwRZcpJ6qXJfxodGiD594LyFFSz0f0ih1TVTeNTXvAMV813kKohw8tmpP6JOGNoAhH3uMP6g2BHohwB7DEvbAznbD7E1fa7IP3QO-wtzlj3ikncAKRouoru87-N1hc7FfuVwL8eX1Uh6ohhPzsJm1g27TF-UjSAWGO1OBjoFhqSrn2FJFcYcse9zps34s7LhQm$kPZD3QmUOvcagDjHs33+zdFGp-mTuJs1J8kFJLx7S0$mp1-Dea5nYXFypf1kXpFqNO+1lsLg-O$kOnGWFS$Na1QkkD9cSKvTybHLSYW2fjmprLsOOeFL4Bv4KWNgLO0c9DHdarmqba8+ck6Pim+V0T$53oe+9fzrIePPQK9Rx0NRV5n2qOFn4DrNqAd3bv9qFXI+i+mXINvrOxz6755W8o9hchctHyis+iOY7JOtj-q6OlhD11DV6aHgJxgDSsFM-QcuyLN7LscwAfzu6pxig1kPkbz6FEKx3PfZmhy2cqF+3aiPgmGByFJhqpYJ3qMzo53-YO2SG1Adh0osxA95WHLOML8cqcNXU2esPtqlElt3DBL18uIBMdY-B5YDKQpRPpdPrsqUtgspgUMZl$R0F$jsREWDfOyn-xaEGJ3ocGXwo+2hPm0UzyKOSxnByHP$VU1-6jcAUrrVBx-bG5Jot2+tigO-1Ukwx84idVFHFowF6hlh7Xka1xWcOWxb+ukP6a3B1Ol66hPZiDmK0KO5qzJHZV2i1QGFPww+I$sWdyObEUxRUi9PiJ0t4vco6jag2BKysurhYFU7zGKrwOFFcobEaEV21kO7Jjc65aVPZ2GOP19ctHiHWMmwm4c0oi6iWPiPpBc48oB5+DSisKTVqLFkUsGsEu3sOF0ovzaSt0VsOPROTBi9$3sPypueu-jFtdJP+ksXOhF6QuxVJP0Q3tw-TdG2TGtKOuOfO3+A0maPfBnZwuXvE0GZL11PoVJrUa$hzVHBL8mOZoH$GQYEOj1cOh3rdGMVlOX1qUBhhMPuDpmEOq1mVR-P6ggscOq1l976iFgSsXOq1h6G6mf6vJKOq13Thf30suD8I0o+eMRExm11x1xhmT3sm1gpJAZN1hVV-3sPtJ3mx1VV36GTPzsA+pOpOt8iXOGmZmv-sn7c3QVQ1Imemag7zi4sUYqcK671sIVRmumk3m$+V7citsLJ$matfateEhmb8kcBU+opNsDV-sIIT9Dw-OmvsU1IczoPWl+qpPlJ-m7cAh7zmhDgJ$ONeENFaGlqR6FmKleu7mikJE1n7No$-o8K3ksKm8Eh4Dt1lSuTlJmTbYFMSYubhPsp6jsZ2JjOqfhyJciqzi0JuYDytuJsFkxG-G0ovQ2$vu64QLBJ-QIi31JbYgSNPs0od937BJmn2hwvJmj2GD+0o62G-MiYSzigDSoktUtP4j8j39I$FnFU7D-obPWGsHlItIFIS4Z3U9BjObPW7DQjcX32s91vdGegAv2pWMMvZ0Y390$4KReP$gD2EXVMEyvwh7k39XDivP6F4e--Y1-XarVJ9z85e3qT9vzhtv+rvziX$zFXWNmQ7uXeI1I1X8Hh4Mgu4GRTkwt8d48D+$46RmecI-a8qtNtdur7thQkjXjMJwMiYj7MX-exAYA$L94mydgA4Yq$WsrmeD0BX824my8QuHDWYN4wl4YY2EEbSqnQwlXfe++xh85DYYERxyUyvt4zDp7yt4YYjwlkS0FecjvyverDLYOYI4xS2bQ9RDQ9xyQnI8uxyzuDaDdYYtunkoY7rIwD5D$tzS-MWce9XYqtetNwIY3HVbBDNDMGMir0tJryIT-DNU40vpS2tztDFD44DQDkIMQ5vroDKU8rXBQUyve9-Dt-MND1GhqLl-lQsH82k1MliM4ubDUQKqI14k4Yg25DdQ1S-SquQU7YdDN4M7IzD$yE7-xyOQUvY9DQtN3vRv$$4g2nY3tfvDuD4xxw-RDf+wrLTD++IlLvYItgP9v8xyglkhDiQ9YYq8fyz6kW0dGvWhmevQ9kN3Df+DM9JY$4wgLOLnPIZXBQ-eLOkQY6e2lYc7yBcrUYMtTwYUBQxMwGWWPfD8yh7Sk$9QrLtawcLIStkQFvNISKwrRXkgAY2ffVeJPLMGp4hqYzXPYJrcT4k3QTk5QkLr9AIU2S60DQ35gP3069BQraYKQcyUveEZI4Kz-YuBQknYu9plxMMXix7lA-deAtxMElX-3qe$ir4v5w9uD0879rxkTtV+Iq2SYN4IYYqtN4rtXIYfrr7L3YqYLeDIYkILh4k3990vWJ39edw3YYarYGMvg4rxk9JEt4k9BQnfqqZjDF501G1nhqE93IqyBytIAkP5jvr1InHEZGR8fqw1YNQ5YAG-pYZQwQYfeu4yLrDYvI-M4AecZ9EKvY3046YIY4QwRrLYo4L$a7YhLy6NiQY+rYkQYerLvrKYG0MB9AygtxlDSYXefB2-7T4M-tG4MYDtfQe1ZxDXYyceWk9yehtx4+bYwPxvYj8Q0xhXmvaY-49wt0YDv9YeNY-4rQeZ0xjrne4+IQ4w4pQSgDVn5eIPXT4m+Dv9JY6rDL9tybyWkYIYheDLYyyqTDLrJYnYxvY0YSQL49gN34K3rGYB4yvYIYSvE3YNYZYE3rs3I4yvYsYLQMpYpyo4reYvYkLWQkGY64949G3Z4ENI7NTLQaLNYuLZa2lNAYDa2gNcLu4DPNuBDkDrNyq$KLZNSqSeY+NgqQb2xYZqZb2EYD4MbIWNAuqkKQYfrDLDT83YwjXm8aYI7rsYheyLYWYzvK3Y$Lu4-8I-y94DHDjeW4ELD3yL4D4rDYhLyj9JYmZcD8LNUtK3rjQFnySDyecZxvYDNuGySDGYk0KYDyy+WySrOYESgerevigMwks3owySYT45rDRDnY-wLeYmv6wcsXkeISN4rgYK4Y6YWWN3$D-AeX3Fj-c8OyL5L1yPYckQaQUEl4KoY+W9pL$Q4kcYrgMGKk$rI8mIYqLi8DROuYqto4L4rcDo4Ko9qtahAq96NwMciY13nQEEk-soY2Dkj4l4Mw8HYN4w5r2k1qWwrGY071YDwLwS9grEpD7Ua8I8Y0E02KDf7uprDt-QEbrE4GK8V2j4q4MwXLyrrrOneaEQIv9YaZQA9-tYieOd2KYlQz9--Ngwe+LFN57uz2rBu7zwD3ymtu8YqtHYru9d4KwDNrO$xswnYqtWI-FeqtMvIYYYYmIrZqYSQxvrZNerLlYcQql$YDeymSMVLR4F7FiIIYs49X2sNzQcvYLap7JF9tY3wWuLI8SwSzL08K7z7x6Nj7F4XFN6yfQibYKwrm86Nmw$GDPaV7NiGIDwqY9+kazDMx2v4SlS4k+azSYTIva+lJlreaXSDTIQYXS9T-H3wSKmvjYuw1AD+Y7gud2KYggNyD$aEoL8YzQrgFxQGaNwSqDa4EvLtu$viwZUItaBee+Lya1+LX-5atg$u-vaSX8nYNaPlua2iaAguwhpllQJAfIg8lWF-I8igWz-SajlzULcNIqDm8wakLrR2la-wUzfSq6wSx2j8$49a-HYEkEtXGYXS-tk3y-yEZDey9QKYYeYWII4YNYOYDvDsPMXDLrVYMYwe9JYaTI8X50vQ249Bq64DLDBYWY94YvYmwZ4r8YJyKtD848YI7YwQLTMaYqtLlFhL+ahe-xLAaKwrK26QSQIYDyYrtIw9ANB4-FL7YSSA-LiYOryHL4Ym7Fw9gyTtIo2GaZQYU2W4qwFLLtabvecL$adwf+-7aWwyR-waz+AR-laKwM9L4KOlz39ZaYg1xIGYbe5ZDY4ut212IYi75ZQwQWZyQr6YD4yP+LYI084rvKHYM4qeaSYKvrP4BrFtkLKyYx-L3IOgez-VajrJUL7a5lFuIcNVrZ4YuapLLt6uaQAyW9lKqlft6saLre-IPK7rK+YZ45PW$2xYuQLerJYbrKi2nYAY94rgN6wyK26QrqJprOYZYKv98KK4yvDH8GqSeYX4rrwt40YOle0YIYPPDKLvYI4ML0mNRQLlYgaB49mr6YR0dLrPYMYyj9LYMXDvD84Ar5nY1NkkeoIHNKegoLGakzEWXJYhY-4kcDeYYlrJN54YE2NQv0cY9PYK4x3DsPVlzLYHtBLSmDKYuZESkKQWIyjYMYK4r3rDY04949uZl7Q8kP4pQJYrYeD4M4XGYSvre9tyRrrYqv4s4-vYIY0rrt4tyEQy8-wyvqSl9Sywr9e8cKZrLlDZ4KwYgqxY0qf3jnYQqgyjnYZP$eYdYs4L48vyTt2LrPya4970xaKrrlDptD4KPjQy8rrg03yLQAv9RYHrwr0EQN4APrnYBrD$2xakAUVIyyiSZuD3yGygQ4pyurAvrSyErrkrlN0AQrDX3Kwwrqpy6wrerJKMYAvDvyOAFk0WNDqW$-WYSQIkDFaiSWe9lbKAz+0ebTLQ+6SbH+fk6GYgreyXryMuAJ2wY$YDyY8qeeI4D3Y9LxvYwYe70v9SY8YIYDa3UQImYWYG-wRYiNiInLD84kSyYQOg4QAgrgYwyx3DIpbQDvrsYOYwRD3yWYIIYG4649nrFNp9YX2MY4W8G9gYp72PavYZt9n9kYbt-WYeYWQxtYRtJYI8XlY6+SlrgYkzD4DdYB4-4rVYflD49PYMv-tYwQoPLmXSY6DwQ9-aMXEQDGy6YDvYBYwPMyYWYWID4YRtvQE3rgYJrAgYBYrg-v4+aFn62RlQRwAgYJ49LIw-lQU4Df44YWIIYrsYaY-44yYD4YiZM4EUYqUreOYx3Dd4gP-kDveZSddYGwHSMyDvYqV9nDIYrGeLD3YokQTZ8YgaMgaMYJnAsYNYnBAsDXNEfqj4J4p7rw6mbHtISYNYMvwWt3q77yj9BqHtMGN3YfQALYtYx4EdD7Y7Q2Gv3YMXwRr8YZMYe9hgoLzt96$UuDG9NYTqUSXBwW4-48wYMXKtYJ4mpr-YnYAWNGY8rRwEqkapHtIYDPtBMyLrrYp7I8XPY$Yyy9ybW4YaYeYKw9vRtfnQLlYdyEfDv9Sf31y0Dp4W4L3rKbZt-4rbYheIm27Yo4xMjveMYr3DwYN4-r2wYB4xL9qYJt-vD9NK4DWaYvzYK3YBYzYc2LRM4Q-a2vebt94Y0Ysj0SDxY9YxvAiNrIA5IhKx+FZD4ybyZl9cKHrYg63bylM$Lrb4$f44j8nt-UroKM4rOInNH+eDXWYB4MtkMNby$vD4YW4I48FKVLJ5-wy1GMF9nbWI9c9UQN4Kc8eY0G1mL3YSbTJ34YxkKQ4G4VBL$tyQwPri6va7Qr3rma44MtknfzvyQ9rfMXyvjyYwPwRYGwu4-4DnYWYyQ91aMvMpD3YTSyP+AYrgxkYKt6YAqD3Y44x3Day2KAgrDYMX-j6SY9L9wtXe$YK3Dp4d4yq4nYu6EL4MYMXY6DxYtZKtY2y8YI7XFfb0Fq9Y0$YwdLzYnGMI3opiqE3YNy7uDWYVKKrxS6EtMvx8fKYGw$GYBYP4w5Dyi7Q9$UKyy8XNj9yRgY49mfNQr0YrvaTLeYoazYDvrPYU4reYGwZYx3DvYyzEgrKQ55K2n6YJYYeYwQZWUDrhKOQwRr3yk4wR9UQMpeyrPbOYI8X9t6YctDyYuMQ4D8bW4-QDwYOQYt9LYxYI6k6YzY-krbYWZYe9XteeI84Ebu4yQDwYD4IIYBYOkwQrsYrg-WYkW-vx3rKQILu$ZTbMvEj87YW4rxj7YD4A39SYph9-Xfex4My4kWanejDDn8YxUj84fQMpDBYbBQe9SYDDEgqwYOY9vtMYnWZ3rGYzvrx6lLzYwM6k3RwyjraBHtMarMiiRrhjveUBzB9MLZQY4DIYwGJZXctE01tD34MXEtr5iRPJHYpiedreDjY-vKtXj364wRD34U0fIYtYvQx3kKQOYKtYMY2H-W9giK+St9d4iGfSr6Ybt-XjyYZtDGYdy8YENqNY++eLrMbxPM8axYQ3EgDNYJyMpD84K4YaYAK7JeQ9q$zYEnjV4kKD6064rgcU-FY6YKwjeyUnZe9UQ$YEdYwYFUI4YwQGIejr7SaYwRYwY+IenrbZ9LLe9F4HtY4rsYx4Mp9R4hY24D7Y8YK3rRwQsr3DG4MYMtr8Y9ZL4DvezvK3XFYKw94YhenQwQDveMv-492KOQDG9d42HniL$i64Y3YvyxZ-4raKgGIYYJ4MJuYYMYKwI4DnYhLMtYg2SeD4YGwaY9YrDYqeDyYZNHtLlY5bokQeYqtQswRr1t2DuuqNYu4IQ$VYyQ8LDvYI4I4rGYdgIWuSYHY-3XOZmN94YWYvQDvYJ4RpFr2L29495D84hkEtF3fgkY4DD7OQDL9k2sZruDBYwYIvrzias$mIDY8YMpDcfTWJp9LYD4I4YZfZtyQ9lQWIDvrJY4Q9I0KQnQwR9A4Z-rl6je1$unrPYzvER8xYOQr78dY84YarDiheDGD4Yrgyy9b4OkMt87YWYL398NkS2dYtYmYAqD6IN4KDWuYu4ALrmNSIQ49FYO4I7YdyLQImXD3pJ1KuVI8Y98kFAp7I4ryA7rUvDnINywQrVYkSw74KtxZw-XLY0yBzN3YKwEgDkywYxvDtWxZApqKtvQYtD34p7MmIDYdLQvSJ4hpFkDSyhY-xX+2oDQ4rbYfQ9vtZY6Y-eXPap3USrgKhY-WYyYurx7DHiK3-vYxYZt24rgYWIruYdy94Yr6fqHYwc884o4wk6d4$YI7rKQLQr3Y0YxZ9v+KQbtII9vgYNF4YMYASk39NY$YyjYGwL0Dy9$i-v9n9myhp$v9qeK4-4rI2bsJh6yZqtI4YxY44rurrYB4Y4YFNHSDv9VLrryvD4ZIYD4D5fhYK3D1t6YY6rVYB4Aqr1WkSLer8Y-v98q3Y1$4Y$u4K4E39UQklI7rz4W4MtrKQU4yjYdy$YxzKUNzYMxk+iWIMaYGw3pELrfy+JJLX6wzvIT0aYX+M1Y++$Y9YDTwIIKtrgyLg-WrDYN4-49lQK4KcXlqMXMq0PjwYMhqTrWI99tyLfQIYD8jigwj44YTwZer8Qk4-QrsY9LyZFLYWYI4DIY2DFt84YlZ-LrryWprYrgYzrj4YNY44YaD3YxZyff84O4M3avNewEgD3YuYDp5SYuW1Y9L4hLIv9FYHRqlrKQ0Bxv9JYOYxfq3YrA24Dp4o4rWfnY6YyUqGw8YD4YIYjDzJK34oYrQrKQeer$S4Ybt2D8vYd+BaD3YnyDvrbYMYra26YaYII0AYu4wQYyYXn$IYN4Ai$78vedKOJFJY5Z$7YNYaN1f63tSI-k9lYRwYVrJY44MvkojIYEQY3Yk4xt9S278Z74wYxZEgDBYKWSM$PYHt24Y0YMaWL9lY7QYaDL44vuV0WKjyMFD-tqY9v3e4kl2YYP5RgLi+RYA3yM2-31a4A8ZMwYDL9kidMY6DGwZY9vae57pWLD3yAdO0NTKzYD39ai64wjA6ivQARjp4WYA9ULg+MSq9JYwPL8RwtuZIIDwYu4ISrsYU$S2r$YQYY"
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/?__cf_chl_tk=1RjHLIH5EIp8NahVyBfkCeF_FsIgTvHP4HJ5ZzUUdi4-1672938028-0-gaNycGzNCH0"
+            ],
+            "url": "https://surf.finance/",
+            "type": "document",
+            "method": "POST",
+            "headers": {
+                "content-type": "application/x-www-form-urlencoded",
+                "origin": "https://surf.finance",
+                "referer": "https://surf.finance/?__cf_chl_tk=1RjHLIH5EIp8NahVyBfkCeF_FsIgTvHP4HJ5ZzUUdi4-1672938028-0-gaNycGzNCH0",
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "md=hIS59HJhcoNeIrew5eoTPCBzuB9xFQOBVrvCdc7VENk-1672938028-0-AT5w5Rlsr-1PZf1V2HmZZXbnjf3LvDL4GJMSjvXANB7Cu2FjloqetZk8qSCynKJYh_CxRtL-VaafG_qqb5f5w7cQmtJ652HcGXPbbKDt9Hdx6Y4MYWSwV0g1TKdI1Y6qMAeo7gHgkEPihnLhtWJ-WOgaUc2EK9lxqruBN0SUfmW3qskCzPkz_TDLkBIJ1ptPw5_NXTpxsx-yAxRgsO71u2EgsQKkR8X22FMQnVCTZhM8SSK-9R83roGQ0hi0enscjL7ZJhG2HfsHknABi5oej_Npit50RLmg76C9JxHIXJxQp1oM6eyDQbkGSlUqf-ZknQCqeXUowHu7n0QCtLx6fOaYqJZmM46hK1xE_5Qg-rPGkp0yJtiGieBTDgIBI9nfCR1O18C82g8A-G8-tYM-mnR8_0zrJGAjINN3LoqD1Sm2C_PBtMLtYk3u1Vz2LUpWQg&r=.g_riQFhgFvSFUsyhsQAvOrTi5KvHJy4tf.LibknDL0-1672938028-0-AQvJ0zJt0GfS%2Fy662RPRcR5f7tQ9keKWRS0IRp%2By0L0%2BjcO2cazEs%2B9CDPvj15wAHnDlDK0TdTdIoDk1%2Fqa5hXhb32S3FGfCLxWPn9NWPLkangZKodzepaijWzmHP%2FjfUoMF0LQwOWCEfvxm8iCQNAtuYE0ftO2xp3CcHraOu%2Bc8%2B20LYb9FaWnHlJxy1H7uIwQXPufhECcg99NKnKyvMfaQErrrFHYvgHxnNe1bRdJasXtE8X4y76JIhcdo9mpJnCC2XjbSkUCEf1tIl2HDucp5WA3paO0OWAEV0%2Bl6Zor%2BCml%2FYfmzNxPdfGWQpDAnkIYwZeO%2By3e7N2NRZL9GWHL63EsZ497M8beOJJKHAIt6kqvAWQ92FlZeCMBY5jxLuHKa4Zf2%2Fv2oKTHfjtBoqDIdwgywJmkdrlrCYHe6%2Bj%2BEYIGp9xyVLMcO4urGE7XN%2FPa64fMMukN1nIhBMy7%2B%2Fr0oje0NHSDjLJWMnYJyehKwEdrz2E89TI%2BAnlUul%2FXcSUDaM9D%2Fm98QvyWGso869ELGk2a4S1cOdchmuYo8iJHOLusNBonx39FGuTGpFNCn3h4vO5qP6BUILhMR9hwztMNI%2B9YHUo4oz3uZDIxUQWBpNMCsp0RHxMpgfWywnnXXVdv8k%2B7%2B2iqxhsrSlRopyKV%2BmREEQd6aOCWlA38Pg7T%2B7V9JNMOY4tO%2FSHv5RiPpFu1BxTJUsqE2B%2Bd51U4X5OJJyAsS4GBtjJMYLEFq1TiVgbVNl%2FgaTr0WZHAmwahvwlQElVEBFr2TLBIDpjLA7BS7x3okwxZIGmV%2Blva3wPtZgxofNPxAMc2gQs4rsVKKdrb4BhhZmiO%2FBvo2pI9l4aVapIfN%2FzllZza4qDlc8hc6cKfhyV%2BsJNlA%2Fcn3C6g1wCb1PblwIp8%2B5wC3NcHDlXnJ2MdOb7jKJKe0aBB%2F%2BYOFHZccqfcj3Q18rJq5V46tv3zfCmdRmF8CXSYCxYz41OhAz0MM9xAKtAXvn3yUJAvfcBo3Wpw%2BRSIJ%2Bc%2BmbJtVO0uFcblKccj2MMVlHeB477zJOOXd%2B3rSNvuJNrvOyLp4J%2Fvur68Zvej864fcj0SuPc2fceyXvL8QDOcc%2BRP9sWefnbWIaLBYeno%2BjYQFB5f%2BV93RADF2YA34%2FGODuYC%2F1yP5lxX6RZUCp5DfD8eY88KqPuWu%2B2F2sPQwhHZjCnPF9fQ8WK%2B2pyCEUeBQYhWmq4kvnpG3iGonPjec7i5raB0ModLR0c6eBkuWVLEeaw3Vc23pH9rvnr1AEtL1gRIidLFQwCW8dtI7iD8IGH2C6Z7k9cI3Ta6MkrDizHtxAQD4Lb%2BHi4%2BZ3ne44u3WTda5QdwT%2F64tC9udrWifTC603spkp%2BtwJ3lVPHFl6wzERMdS56MI5P5JGkpQLhNrGar218shNzNPPGoVFwe%2F%2Bu%2FTEQiaILJTT82YLl2Sncd4WNoqu%2FOir8x%2BNRJviVhpt3QYb8vVxV87BTGBHN74FH8KdNR4j5yzBR%2B4ok7WOqNTRh5k%2BTi4FPmDbgSTxEMrWLT%2FN%2FYWXtWXH1qMNPtCSqc8nHAHVJ47623Xa2XxD3IfUsTbDlb7XQzaULbiz77x9A0W0usiyqfaSPbF3jy4iB1ax8qddiDfd%2FMsJeI8NTPkbUTYG4ZXTCabAyX2f0LCbNzBeo53TRWyf8zxe8Xxpeawe0xFJbTTCt98KLUJd5eKuNCz6USeXpBFkUSSteVoY4sDh%2Fh5cyBiGQ197xRVV%2FkRaljVJyzAccxQNrhu3derTppNiUqArZpPt8MICg4a3oxsXIZGV0bx2m%2F0ecJjLfYyMoLx58BkJALGru2MECXruvT91RDkv2JppqGaoFpcvAWpt%2FPdpkF6FzndQxwiUam2X9DtOEAgeTdJDv2iUuEctWGxdD4ySKgXwdr0LOInk9AzyafVGjFzu2euauHNiovXCXjdOGhN0pFq6mHIcmo90RCo%2Bf%2B%2Flu5QmIibl8FzYSG9f2Xr2VaKWSx3d4GTWDDLzIFOmqUCKaD530r%2FZeyTid94586NvEVuWNZWo37WJqZ2cNUHXsWP1mATVSvCbuSYpPquLladxXL3BUHcU1GCZ%2FX6jqUwKOfGodUNL%2F8rYI%2Br%2Bw%3D%3D&sh=744ccebbfb081249111bc8bd1f53dad8&aw=caJTVKoXMKWZ-14-784dc535db4d1541"
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/?__cf_chl_tk=1RjHLIH5EIp8NahVyBfkCeF_FsIgTvHP4HJ5ZzUUdi4-1672938028-0-gaNycGzNCH0"
+            ],
+            "url": "https://surf.finance/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/?__cf_chl_tk=1RjHLIH5EIp8NahVyBfkCeF_FsIgTvHP4HJ5ZzUUdi4-1672938028-0-gaNycGzNCH0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500;700&display=swap",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-1WCEJ7EDVN",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/js/footerWaves.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/static/css/main.06c70b7f.chunk.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/favicon.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/static/js/2.56c8fb04.chunk.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/static/js/main.fc51ced7.chunk.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-1WCEJ7EDVN&gtm=2oebu0&_p=429136218&cid=61883302.1672938031&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_s=1&sid=1672938031&sct=1&seg=0&dl=https%3A%2F%2Fsurf.finance%2F&dr=https%3A%2F%2Fsurf.finance%2F%3F__cf_chl_tk%3D1RjHLIH5EIp8NahVyBfkCeF_FsIgTvHP4HJ5ZzUUdi4-1672938028-0-gaNycGzNCH0&dt=SURF.Finance&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
+            "type": "ping",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxyYWRpYWxHcmFkaWVudCBpZD0iYSIgY3g9IjAlIiBjeT0iNTAlIiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM1ZDlkZjYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMDZmZmYiLz48L3JhZGlhbEdyYWRpZW50PjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0ibTI1NiAwYzE0MS4zODQ4OTYgMCAyNTYgMTE0LjYxNTEwNCAyNTYgMjU2cy0xMTQuNjE1MTA0IDI1Ni0yNTYgMjU2LTI1Ni0xMTQuNjE1MTA0LTI1Ni0yNTYgMTE0LjYxNTEwNC0yNTYgMjU2LTI1NnoiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJtNjQuNjkxNzU1OCAzNy43MDg4Mjk4YzUxLjUzMjgwNzItNTAuMjc4NDM5NyAxMzUuMDgzOTk0Mi01MC4yNzg0Mzk3IDE4Ni42MTY3OTkyIDBsNi4yMDIwNTcgNi4wNTEwOTA2YzIuNTc2NjQgMi41MTM5MjE4IDIuNTc2NjQgNi41ODk3OTQ4IDAgOS4xMDM3MTc3bC0yMS4yMTU5OTggMjAuNjk5NTc1OWMtMS4yODgzMjEgMS4yNTY5NjE5LTMuMzc3MSAxLjI1Njk2MTktNC42NjU0MjEgMGwtOC41MzQ3NjYtOC4zMjcwMjA1Yy0zNS45NTA1NzMtMzUuMDc1NDk2Mi05NC4yMzc5NjktMzUuMDc1NDk2Mi0xMzAuMTg4NTQ0IDBsLTkuMTQwMDI4MiA4LjkxNzU1MTljLTEuMjg4MzIxNyAxLjI1Njk2MDktMy4zNzcxMDE2IDEuMjU2OTYwOS00LjY2NTQyMDggMGwtMjEuMjE1OTk3My0yMC42OTk1NzU5Yy0yLjU3NjY0MDMtMi41MTM5MjI5LTIuNTc2NjQwMy02LjU4OTc5NTggMC05LjEwMzcxNzd6bTIzMC40OTM0ODUyIDQyLjgwODkxMTcgMTguODgyMjc5IDE4LjQyMjcyNjJjMi41NzY2MjcgMi41MTM5MTAzIDIuNTc2NjQyIDYuNTg5NzU5My4wMDAwMzIgOS4xMDM2ODYzbC04NS4xNDE0OTggODMuMDcwMzU4Yy0yLjU3NjYyMyAyLjUxMzk0MS02Ljc1NDE4MiAyLjUxMzk2OS05LjMzMDg0LjAwMDA2Ni0uMDAwMDEtLjAwMDAxLS4wMDAwMjMtLjAwMDAyMy0uMDAwMDMzLS4wMDAwMzRsLTYwLjQyODI1Ni01OC45NTc0NTFjLS42NDQxNi0uNjI4NDgxLTEuNjg4NTUtLjYyODQ4MS0yLjMzMjcxIDAtLjAwMDAwNC4wMDAwMDQtLjAwMDAwOC4wMDAwMDctLjAwMDAxMi4wMDAwMTFsLTYwLjQyNjk2ODMgNTguOTU3NDA4Yy0yLjU3NjYxNDEgMi41MTM5NDctNi43NTQxNzQ2IDIuNTEzOTktOS4zMzA4NDA4LjAwMDA5Mi0uMDAwMDE1MS0uMDAwMDE0LS4wMDAwMzA5LS4wMDAwMjktLjAwMDA0NjctLjAwMDA0NmwtODUuMTQzODY3NzQtODMuMDcxNDYzYy0yLjU3NjYzOTI4LTIuNTEzOTIxLTIuNTc2NjM5MjgtNi41ODk3OTUgMC05LjEwMzcxNjNsMTguODgyMzEyNjQtMTguNDIyNjk1NWMyLjU3NjYzOTMtMi41MTM5MjIyIDYuNzU0MTk5My0yLjUxMzkyMjIgOS4zMzA4Mzk3IDBsNjAuNDI5MTM0NyA1OC45NTgyNzU4Yy42NDQxNjA4LjYyODQ4IDEuNjg4NTQ5NS42Mjg0OCAyLjMzMjcxMDMgMCAuMDAwMDA5NS0uMDAwMDA5LjAwMDAxODItLjAwMDAxOC4wMDAwMjc3LS4wMDAwMjVsNjAuNDI2MTA2NS01OC45NTgyNTA4YzIuNTc2NTgxLTIuNTEzOTggNi43NTQxNDItMi41MTQwNzQzIDkuMzMwODQtLjAwMDIxMDMuMDAwMDM3LjAwMDAzNTQuMDAwMDcyLjAwMDA3MDkuMDAwMTA3LjAwMDEwNjNsNjAuNDI5MDU2IDU4Ljk1ODM1NDhjLjY0NDE1OS42Mjg0NzkgMS42ODg1NDkuNjI4NDc5IDIuMzMyNzA5IDBsNjAuNDI4MDc5LTU4Ljk1NzE5MjVjMi41NzY2NC0yLjUxMzkyMzEgNi43NTQxOTktMi41MTM5MjMxIDkuMzMwODM5IDB6IiBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk4IDE2MCkiLz48L2c+PC9zdmc+",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://surf.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://surf.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/favicon.png",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"query\":\"\\n\\t\\t\\t{\\n\\t\\t\\t\\tsurf: pair(id: \\\"0x32d588fd4d0993378995306563a04af5fa162dec\\\") {\\n\\t\\t\\t\\t\\ttoken0 {\\n\\t\\t\\t\\t\\t\\tsymbol\\n\\t\\t\\t\\t\\t},\\n\\t\\t\\t\\t\\ttoken1 {\\n\\t\\t\\t\\t\\t\\tsymbol\\n\\t\\t\\t\\t\\t},\\n\\t\\t\\t\\t\\treserve0,\\n\\t\\t\\t\\t\\treserve1,\\n\\t\\t\\t\\t\\ttotalSupply\\n\\t\\t\\t\\t},\\n\\t\\t\\t\\tuni: pair(id: \\\"0xd3d2e2692501a5c9ca623199d38826e513033a17\\\") {\\n\\t\\t\\t\\t\\treserve0,\\n\\t\\t\\t\\t\\treserve1,\\n\\t\\t\\t\\t\\treserveETH,\\n\\t\\t\\t\\t\\treserveUSD\\n\\t\\t\\t\\t}\\n\\t\\t\\t}\\n\\t\\t\\t\"}"
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://fonts.gstatic.com/s/pacifico/v22/FwZY7-Qmy14u9lezJ-6H6Mk.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://surf.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://surf.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/static/media/surf.64873d91.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://surf.finance/static/media/eth.87347c33.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-1WCEJ7EDVN&gtm=2oebu0&_p=429136218&cid=61883302.1672938031&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_s=2&sid=1672938031&sct=1&seg=0&dl=https%3A%2F%2Fsurf.finance%2F&dr=https%3A%2F%2Fsurf.finance%2F%3F__cf_chl_tk%3D1RjHLIH5EIp8NahVyBfkCeF_FsIgTvHP4HJ5ZzUUdi4-1672938028-0-gaNycGzNCH0&dt=SURF.Finance&en=scroll&epn.percent_scrolled=90&_et=29",
+            "type": "ping",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://surf.finance/"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://surf.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"query\":\"\\n\\t\\t\\t{\\n\\t\\t\\t\\tsurf: pair(id: \\\"0x32d588fd4d0993378995306563a04af5fa162dec\\\") {\\n\\t\\t\\t\\t\\ttoken0 {\\n\\t\\t\\t\\t\\t\\tsymbol\\n\\t\\t\\t\\t\\t},\\n\\t\\t\\t\\t\\ttoken1 {\\n\\t\\t\\t\\t\\t\\tsymbol\\n\\t\\t\\t\\t\\t},\\n\\t\\t\\t\\t\\treserve0,\\n\\t\\t\\t\\t\\treserve1,\\n\\t\\t\\t\\t\\ttotalSupply\\n\\t\\t\\t\\t},\\n\\t\\t\\t\\tuni: pair(id: \\\"0xd3d2e2692501a5c9ca623199d38826e513033a17\\\") {\\n\\t\\t\\t\\t\\treserve0,\\n\\t\\t\\t\\t\\treserve1,\\n\\t\\t\\t\\t\\treserveETH,\\n\\t\\t\\t\\t\\treserveUSD\\n\\t\\t\\t\\t}\\n\\t\\t\\t}\\n\\t\\t\\t\"}"
+        }
+    ],
+    "success": true
+}

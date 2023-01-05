@@ -1,338 +1,25 @@
 {
-    "url": "https://oasis.app/dashboard",
+    "url": "https://oasis.app/trade",
     "arguments": {
         "printFrameHierarchy": true,
         "debugLevel": "verbose",
         "headless": false,
-        "secs": 45,
-        "url": "https://oasis.app/dashboard",
+        "secs": 15,
+        "url": "https://oasis.app/trade",
         "metamaskPath": "metamask-chrome-10.22.2",
         "destination": "test_crawls",
         "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
     },
     "timestamps": {
-        "start": 1672433610016,
-        "end": 1672433679791
+        "start": 1672956870207,
+        "end": 1672956895892
     },
     "requests": [
         {
             "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css",
-            "type": "stylesheet",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:33.295Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"27a4b63ecc824a81916c3aa0f1c3228a\",\"init\":true,\"started\":\"2022-12-30T20:53:33.295Z\",\"timestamp\":\"2022-12-30T20:53:33.295Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:35.473Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"27a4b63ecc824a81916c3aa0f1c3228a\",\"init\":false,\"started\":\"2022-12-30T20:53:33.295Z\",\"timestamp\":\"2022-12-30T20:53:35.472Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:35.475Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"3ccf65358f494b5b89960fa25b190a2c\",\"init\":true,\"started\":\"2022-12-30T20:53:35.471Z\",\"timestamp\":\"2022-12-30T20:53:35.472Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:35.595Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"3ccf65358f494b5b89960fa25b190a2c\",\"init\":false,\"started\":\"2022-12-30T20:53:35.471Z\",\"timestamp\":\"2022-12-30T20:53:35.594Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:35.597Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"83e57bf5ced24221a037d97795a31bb6\",\"init\":true,\"started\":\"2022-12-30T20:53:35.594Z\",\"timestamp\":\"2022-12-30T20:53:35.594Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/metrics-chart.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/select-action"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:35.740Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"83e57bf5ced24221a037d97795a31bb6\",\"init\":false,\"started\":\"2022-12-30T20:53:35.594Z\",\"timestamp\":\"2022-12-30T20:53:35.740Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/select-action"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:35.742Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"59030ac879b04be8a84a08943b98705e\",\"init\":true,\"started\":\"2022-12-30T20:53:35.740Z\",\"timestamp\":\"2022-12-30T20:53:35.740Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:35.794Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"59030ac879b04be8a84a08943b98705e\",\"init\":false,\"started\":\"2022-12-30T20:53:35.740Z\",\"timestamp\":\"2022-12-30T20:53:35.793Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:35.795Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ccf21bf74d464d77a80f9d17110a7874\",\"init\":true,\"started\":\"2022-12-30T20:53:35.793Z\",\"timestamp\":\"2022-12-30T20:53:35.793Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Roboto/Roboto-Regular.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-regular-400.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/end-of-flow"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:39.156Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ccf21bf74d464d77a80f9d17110a7874\",\"init\":false,\"started\":\"2022-12-30T20:53:35.793Z\",\"timestamp\":\"2022-12-30T20:53:39.155Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/end-of-flow"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:39.157Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8fbfbbeb22d042d19f8f6d119165df9e\",\"init\":true,\"started\":\"2022-12-30T20:53:39.155Z\",\"timestamp\":\"2022-12-30T20:53:39.155Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
                 "about:blank"
             ],
-            "url": "https://oasis.app/dashboard",
+            "url": "https://oasis.app/trade",
             "type": "document",
             "method": "GET",
             "headers": {
@@ -345,90 +32,151 @@
         },
         {
             "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:39.250Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8fbfbbeb22d042d19f8f6d119165df9e\",\"init\":false,\"started\":\"2022-12-30T20:53:39.155Z\",\"timestamp\":\"2022-12-30T20:53:39.250Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:39.251Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"0df6ebd73f174dd0a8f221f66f6b1e21\",\"init\":true,\"started\":\"2022-12-30T20:53:39.250Z\",\"timestamp\":\"2022-12-30T20:53:39.250Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/eth_logo.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "about:blank"
-            ],
-            "url": "https://oasis.app/daiwallet/dashboard",
-            "type": "document",
-            "method": "GET",
-            "headers": {
-                "upgrade-insecure-requests": "1",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-mobile": "?0",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
             "url": "https://rsms.me/inter/inter.css",
             "type": "stylesheet",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/css/902f302cbe24c62f.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/main-7b50f9cfcf0a10d8.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/_app-8f1c96a75a996620.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/%5Bvault%5D-9f03d2161e5a6b1d.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/qGmC5pyLCc9pPOJM80yIr/_buildManifest.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/qGmC5pyLCc9pPOJM80yIr/_ssgManifest.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/qGmC5pyLCc9pPOJM80yIr/_middlewareManifest.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/api/sentry",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
                 "referer": "https://oasis.app/",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-05T22:14:34.645Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"6.17.7\"},\"dsn\":\"https://2fdf00b007464e2784ef445e16a6039f@o1143494.ingest.sentry.io/6204127\"}\n{\"type\":\"session\"}\n{\"sid\":\"f6657df0e1df4c988a89c0b100bf40d9\",\"init\":true,\"started\":\"2023-01-05T22:14:34.645Z\",\"timestamp\":\"2023-01-05T22:14:34.645Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"9291597\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/main-3aa5c259d27e476a9358.js",
+            "url": "https://oasis.app/_next/static/chunks/5096.82cccec3789915e9.js",
             "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
+                "referer": "https://oasis.app/trade",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -436,14 +184,14 @@
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/webpack-fffef14a3a44deddbf14.js",
+            "url": "https://oasis.app/_next/static/chunks/8287.a717893c424cae45.js",
             "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
+                "referer": "https://oasis.app/trade",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -451,14 +199,14 @@
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/framework.6062ac6a2c1ba38b1dd1.js",
-            "type": "script",
+            "url": "https://mpp.oasis.app/decide/?verbose=1&version=1&lib=web&token=5372a8300dc764fd08c9bd883eaf6b44&ip=0&_=1672956875644",
+            "type": "xhr",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
+                "referer": "",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -466,239 +214,33 @@
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/29107295.1d19b47c969eac51f6c2.js",
-            "type": "script",
-            "method": "GET",
+            "url": "https://oasis.app/api/t",
+            "type": "fetch",
+            "method": "POST",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "accept": "application/json",
+                "referer": "https://oasis.app/trade",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-91a1900b3a92a7fd-1",
                 "sec-ch-ua-platform": "\"Windows\""
-            }
+            },
+            "postData": "{\"eventName\":\"Pageview\",\"eventBody\":{\"product\":\"borrow\"},\"distinctId\":\"18584001378bd0-082da1f20b5167-26021151-12c000-185840013791402\",\"currentUrl\":\"https://oasis.app/trade\",\"initialReferrerHost\":\"\"}"
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/9382c5f8.02ee400cf0d5022559eb.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/73ad3401.e259e4f6ec0d04ef214a.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/75fc9c18.884f87783ee4294830d3.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/commons.b629a376577dc7a87eec.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/97b5746b1f02b87ba685a256976c65d800b6bf7f.66389225090d5c06905d.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/b4a15b5e2014991e7bfe54116884a2245fc4f64e.476bfcabcdabfed6ef5b.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/0207bc57eea23680b6dbf624b2c8d757aa8227c1.9265cc5aaee0c91b247b.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/fcc6e1595f89713c1857eaa2f3df2f688a8598d2.8dfccf214af5f2bd55b3.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/e397c55950408ea7901147c309472431478b411a.5f53ec705df5b957e46b.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/c6329a8143104ee5835fc2d8454dbd42d088f276.2fe0a530af0de43b8b9b.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/pages/_app-d39e57eff43a9e6c975b.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/pages/%5Baddress%5D/%5B%5B...connect%5D%5D-e5c8e425cfe7844d231d.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/MKQY9yJSebaRP4rTa6mp-/_buildManifest.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/MKQY9yJSebaRP4rTa6mp-/_ssgManifest.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/static/icons/icon-512x512.png",
+            "url": "https://oasis.app/static/img/logo_v2.svg",
             "type": "image",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
+                "referer": "https://oasis.app/trade",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -706,14 +248,14 @@
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
-            "url": "https://oasis.app/daiwallet/static/icons/favicon-16.png",
+            "url": "https://oasis.app/static/img/logo_footer_v2.svg",
             "type": "image",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
+                "referer": "https://oasis.app/trade",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -721,14 +263,14 @@
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
-            "url": "https://mpp.oasis.app/decide/?verbose=1&version=1&lib=web&token=5372a8300dc764fd08c9bd883eaf6b44&ip=0&_=1672433620766",
-            "type": "xhr",
+            "url": "https://oasis.app/static/img/background/bottom_bg.png",
+            "type": "image",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
+                "referer": "https://oasis.app/trade",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -736,14 +278,15 @@
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
-            "url": "https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRjdXJyZW50X3VybCI6ICJodHRwczovL29hc2lzLmFwcC9kYWl3YWxsZXQvZGFzaGJvYXJkIiwiJGJyb3dzZXJfdmVyc2lvbiI6IDEwOCwiJHNjcmVlbl9oZWlnaHQiOiA5NjAsIiRzY3JlZW5fd2lkdGgiOiAxMjgwLCJtcF9saWIiOiAid2ViIiwiJGxpYl92ZXJzaW9uIjogIjIuMjkuMSIsInRpbWUiOiAxNjcyNDMzNjIwLjc3MiwiZGlzdGluY3RfaWQiOiAiMTg1NjRjZmQ3MTYxYTMtMGU2Yzg1MzczMGQ5ZjctMjYwMjExNTEtMTJjMDAwLTE4NTY0Y2ZkNzE3MTJjMiIsIiRkZXZpY2VfaWQiOiAiMTg1NjRjZmQ3MTYxYTMtMGU2Yzg1MzczMGQ5ZjctMjYwMjExNTEtMTJjMDAwLTE4NTY0Y2ZkNzE3MTJjMiIsIiRpbml0aWFsX3JlZmVycmVyIjogIiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiRkaXJlY3QiLCJtcF9wYWdlIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC9kYXNoYm9hcmQiLCJtcF9icm93c2VyIjogIkNocm9tZSIsIm1wX3BsYXRmb3JtIjogIldpbmRvd3MiLCJ0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCJ9fQ%3D%3D&ip=0&_=1672433620773",
-            "type": "xhr",
+            "url": "https://oasis.app/_next/static/media/inter-latin-600-normal.f740b5d5.woff2",
+            "type": "font",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
+                "referer": "https://oasis.app/_next/static/css/902f302cbe24c62f.css",
+                "origin": "https://oasis.app",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -751,14 +294,15 @@
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
-            "url": "https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJQYWdldmlldyIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC9kYXNoYm9hcmQiLCIkYnJvd3Nlcl92ZXJzaW9uIjogMTA4LCIkc2NyZWVuX2hlaWdodCI6IDk2MCwiJHNjcmVlbl93aWR0aCI6IDEyODAsIm1wX2xpYiI6ICJ3ZWIiLCIkbGliX3ZlcnNpb24iOiAiMi4yOS4xIiwidGltZSI6IDE2NzI0MzM2MjAuNzc1LCJkaXN0aW5jdF9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGRldmljZV9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsInByb2R1Y3QiOiAib2FjYXMiLCJ0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCJ9fQ%3D%3D&ip=0&_=1672433620776",
-            "type": "xhr",
+            "url": "https://oasis.app/_next/static/media/inter-latin-400-normal.250b8f79.woff2",
+            "type": "font",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
+                "referer": "https://oasis.app/_next/static/css/902f302cbe24c62f.css",
+                "origin": "https://oasis.app",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -766,14 +310,15 @@
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
-            "url": "https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJQYWdldmlldyIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC9kYXNoYm9hcmQiLCIkYnJvd3Nlcl92ZXJzaW9uIjogMTA4LCIkc2NyZWVuX2hlaWdodCI6IDk2MCwiJHNjcmVlbl93aWR0aCI6IDEyODAsIm1wX2xpYiI6ICJ3ZWIiLCIkbGliX3ZlcnNpb24iOiAiMi4yOS4xIiwidGltZSI6IDE2NzI0MzM2MjAuODg4LCJkaXN0aW5jdF9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGRldmljZV9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsInByb2R1Y3QiOiAib2FjYXMiLCJpZCI6ICIvZGFpd2FsbGV0L2Rhc2hib2FyZCIsInRva2VuIjogIjUzNzJhODMwMGRjNzY0ZmQwOGM5YmQ4ODNlYWY2YjQ0In19&ip=0&_=1672433620888",
-            "type": "xhr",
+            "url": "https://rsms.me/inter/font-files/Inter-SemiBold.woff2?v=3.19",
+            "type": "font",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
+                "referer": "https://rsms.me/inter/inter.css",
+                "origin": "https://oasis.app",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -781,7 +326,583 @@
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-a5f50a6586cb7e2e-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/index-89175f649aeb568a.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/multiply.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-9fa35d4bff057a47-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/multiply-0d4019c3b91028a5.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/borrow.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-b9941386cb20a801-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/borrow-f3f0b2c8d3c8045b.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/earn.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-8b819abb5c84e858-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/earn-037f7390410ed5d7.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/eth.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-b3255541661b2d82-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/asset/%5Basset%5D-22da1c503f4e2f6f.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/btc.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-81ebd1f6c36b6d84-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/dai.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-aadc1fc9e9ae69b5-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/lp-token.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-a2025abd7747baa3-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/yfi.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-91789de45b591d73-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/discover-67a6cc315c60907f.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/connect.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-a22c1011f15bca1a-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/connect-36134f2dc22a157b.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/cookie.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-95d664a01826666b-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/cookie-b16e44a58a642b58.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/about.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-8c54197ef51ab971-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/about-8fa9646a85daea3e.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/careers.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-9c5ffec6f1126ec7-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/careers-97260c6593163171.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/privacy.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-89285ac4f70772f5-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/privacy-b5e643bcc22f1508.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/terms.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-b33e5127b0b836cc-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/terms-0f05ade43e36b055.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/security.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-a2964a2f30d11cc3-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/security-7ce83ccb1feab70c.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/oracles.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-848f35b29be6aef9-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/oracles-32b7e68f663f3f26.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/referrals-517e20ebfbb2b0b1.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/data/qGmC5pyLCc9pPOJM80yIr/en/brand.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sentry-trace": "07f74ed05c7948e89ad536177402c74f-b939da4c9a22406f-1",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/brand-2fc9a087d58e8080.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/static/fonts/FTPolar/FTPolarTrial-Medium.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "origin": "https://oasis.app",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/media/inter-all-400-normal.64fb9ce5.woff",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/_next/static/css/902f302cbe24c62f.css",
+                "origin": "https://oasis.app",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/media/inter-all-600-normal.a3b8426b.woff",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/_next/static/css/902f302cbe24c62f.css",
+                "origin": "https://oasis.app",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
             ],
             "url": "https://rsms.me/inter/font-files/Inter-Regular.woff2?v=3.19",
             "type": "font",
@@ -797,120 +918,14 @@
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://rsms.me/inter/font-files/Inter-Medium.woff2?v=3.19",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://rsms.me/inter/inter.css",
-                "origin": "https://oasis.app",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/static/icons/favicon-32.png",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/pages/index-b47aa68442469badc77d.js",
-            "type": "other",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/pages/privacy-f1a32c3c67b7f23be33a.js",
-            "type": "other",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/static/icons/favicon-96.png",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/static/icons/android-icon-192x192.png",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/static/favicon.ico",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
             "url": "https://oasis.app/manifest.json",
             "type": "manifest",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
+                "referer": "https://oasis.app/trade",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -918,14 +933,14 @@
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
             ],
-            "url": "https://oasis.app/daiwallet/static/favicon.ico",
+            "url": "https://oasis.app/static/favicon.ico",
             "type": "other",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
+                "referer": "https://oasis.app/trade",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -933,14 +948,254 @@
         },
         {
             "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/asset/%5Basset%5D-22da1c503f4e2f6f.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/brand-2fc9a087d58e8080.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/referrals-517e20ebfbb2b0b1.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/security-7ce83ccb1feab70c.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/oracles-32b7e68f663f3f26.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/cookie-b16e44a58a642b58.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/index-89175f649aeb568a.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/multiply-0d4019c3b91028a5.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/borrow-f3f0b2c8d3c8045b.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/earn-037f7390410ed5d7.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/discover-67a6cc315c60907f.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/connect-36134f2dc22a157b.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/about-8fa9646a85daea3e.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/careers-97260c6593163171.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/privacy-b5e643bcc22f1508.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
+            ],
+            "url": "https://oasis.app/_next/static/chunks/pages/terms-0f05ade43e36b055.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://oasis.app/trade",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://oasis.app/trade"
             ],
             "url": "https://oasis.app/static/icons/apple-touch-icon.png",
             "type": "other",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
+                "referer": "https://oasis.app/trade",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -948,629 +1203,20 @@
         },
         {
             "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
+                "https://oasis.app/trade"
             ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css",
-            "type": "stylesheet",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"lU+Iva0L/M9elz6CIYIWabdK+b8=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "url": "https://oasis.app/api/sentry",
             "type": "fetch",
             "method": "POST",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
                 "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
+                "referer": "https://oasis.app/",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain;charset=UTF-8"
             },
-            "postData": "{\"sent_at\":\"2022-12-30T20:53:59.163Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"e9aa934fec9049d4a1b9c1521ad1c1ae\",\"init\":true,\"started\":\"2022-12-30T20:53:59.162Z\",\"timestamp\":\"2022-12-30T20:53:59.162Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/pJCctQ5k0V3HxBkN-a_Pw"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"22x+BPhFJooAnbWq29O/q8fWiA0=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/pJCctQ5k0V3HxBkN-a_Pw"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"ne1DMtZSzKWK2ogtgudctA37YhQ=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/pJCctQ5k0V3HxBkN-a_Pw"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"kRq+F78w0UQqcTRjfhLUjiv/+Ow=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/pJCctQ5k0V3HxBkN-a_Pw"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"22x+BPhFJooAnbWq29O/q8fWiA0=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/pJCctQ5k0V3HxBkN-a_Pw"
-            ],
-            "url": "https://oasis.app/daiwallet/static/favicon.ico",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/pJCctQ5k0V3HxBkN-a_Pw/confirm-permissions"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:54:12.783Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"e9aa934fec9049d4a1b9c1521ad1c1ae\",\"init\":false,\"started\":\"2022-12-30T20:53:59.162Z\",\"timestamp\":\"2022-12-30T20:54:12.782Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/pJCctQ5k0V3HxBkN-a_Pw/confirm-permissions"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:54:12.786Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"130eb209f62c47a3803a6b3c71b91f83\",\"init\":true,\"started\":\"2022-12-30T20:54:12.782Z\",\"timestamp\":\"2022-12-30T20:54:12.782Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://mpp.oasis.app/decide/?verbose=1&version=3&lib=web&token=5372a8300dc764fd08c9bd883eaf6b44&distinct_id=0x7e4abd63a7c8314cc28d388303472353d884f292&ip=0&_=1672433652867",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://mpp.oasis.app/track/?data=eyJldmVudCI6ICIkaWRlbnRpZnkiLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRjdXJyZW50X3VybCI6ICJodHRwczovL29hc2lzLmFwcC9kYWl3YWxsZXQvZGFzaGJvYXJkIiwiJGJyb3dzZXJfdmVyc2lvbiI6IDEwOCwiJHNjcmVlbl9oZWlnaHQiOiA5NjAsIiRzY3JlZW5fd2lkdGgiOiAxMjgwLCJtcF9saWIiOiAid2ViIiwiJGxpYl92ZXJzaW9uIjogIjIuMjkuMSIsInRpbWUiOiAxNjcyNDMzNjUyLjg3LCJkaXN0aW5jdF9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCIkZGV2aWNlX2lkIjogIjE4NTY0Y2ZkNzE2MWEzLTBlNmM4NTM3MzBkOWY3LTI2MDIxMTUxLTEyYzAwMC0xODU2NGNmZDcxNzEyYzIiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6ICIkZGlyZWN0IiwiJHVzZXJfaWQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwiJGFub25fZGlzdGluY3RfaWQiOiAiMTg1NjRjZmQ3MTYxYTMtMGU2Yzg1MzczMGQ5ZjctMjYwMjExNTEtMTJjMDAwLTE4NTY0Y2ZkNzE3MTJjMiIsInRva2VuIjogIjUzNzJhODMwMGRjNzY0ZmQwOGM5YmQ4ODNlYWY2YjQ0In19&ip=0&_=1672433652871",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://mpp.oasis.app/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRicm93c2VyX3ZlcnNpb24iOiAxMDgsIiRpbml0aWFsX3JlZmVycmVyIjogIiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiRkaXJlY3QiLCJ3YWxsZXRUeXBlIjogImluamVjdGVkIn0sIiR0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCIsIiRkaXN0aW5jdF9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCIkZGV2aWNlX2lkIjogIjE4NTY0Y2ZkNzE2MWEzLTBlNmM4NTM3MzBkOWY3LTI2MDIxMTUxLTEyYzAwMC0xODU2NGNmZDcxNzEyYzIiLCIkdXNlcl9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIifQ%3D%3D&ip=0&_=1672433652872",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJhY2NvdW50LWNoYW5nZSIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC9kYXNoYm9hcmQiLCIkYnJvd3Nlcl92ZXJzaW9uIjogMTA4LCIkc2NyZWVuX2hlaWdodCI6IDk2MCwiJHNjcmVlbl93aWR0aCI6IDEyODAsIm1wX2xpYiI6ICJ3ZWIiLCIkbGliX3ZlcnNpb24iOiAiMi4yOS4xIiwidGltZSI6IDE2NzI0MzM2NTIuODc0LCJkaXN0aW5jdF9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCIkZGV2aWNlX2lkIjogIjE4NTY0Y2ZkNzE2MWEzLTBlNmM4NTM3MzBkOWY3LTI2MDIxMTUxLTEyYzAwMC0xODU2NGNmZDcxNzEyYzIiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6ICIkZGlyZWN0IiwiJHVzZXJfaWQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwiYWNjb3VudCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCJuZXR3b3JrIjogIm1haW4iLCJwcm9kdWN0IjogIm9hY2FzIiwid2FsbGV0VHlwZSI6ICJpbmplY3RlZCIsInRva2VuIjogIjUzNzJhODMwMGRjNzY0ZmQwOGM5YmQ4ODNlYWY2YjQ0In19&ip=0&_=1672433652874",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/pages/%5Baddress%5D/dashboard-6663cd6b3a54009e020f.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard"
-            ],
-            "url": "https://mpp.oasis.app/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRicm93c2VyX3ZlcnNpb24iOiAxMDgsIiRpbml0aWFsX3JlZmVycmVyIjogIiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiRkaXJlY3QiLCJ3YWxsZXRUeXBlIjogImluamVjdGVkIn0sIiR0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCIsIiRkaXN0aW5jdF9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCIkZGV2aWNlX2lkIjogIjE4NTY0Y2ZkNzE2MWEzLTBlNmM4NTM3MzBkOWY3LTI2MDIxMTUxLTEyYzAwMC0xODU2NGNmZDcxNzEyYzIiLCIkdXNlcl9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIifQ%3D%3D&ip=0&_=1672433652933",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard"
-            ],
-            "url": "https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJhY2NvdW50LWNoYW5nZSIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC8weDdlNEFCZDYzQTdDODMxNENjMjhEMzg4MzAzNDcyMzUzRDg4NGYyOTIvZGFzaGJvYXJkIiwiJGJyb3dzZXJfdmVyc2lvbiI6IDEwOCwiJHNjcmVlbl9oZWlnaHQiOiA5NjAsIiRzY3JlZW5fd2lkdGgiOiAxMjgwLCJtcF9saWIiOiAid2ViIiwiJGxpYl92ZXJzaW9uIjogIjIuMjkuMSIsInRpbWUiOiAxNjcyNDMzNjUyLjkzOCwiZGlzdGluY3RfaWQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwiJGRldmljZV9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsIiR1c2VyX2lkIjogIjB4N2U0YWJkNjNhN2M4MzE0Y2MyOGQzODgzMDM0NzIzNTNkODg0ZjI5MiIsImFjY291bnQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwibmV0d29yayI6ICJtYWluIiwicHJvZHVjdCI6ICJvYWNhcyIsIndhbGxldFR5cGUiOiAiaW5qZWN0ZWQiLCJ0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCJ9fQ%3D%3D&ip=0&_=1672433652938",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard"
-            ],
-            "url": "https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJQYWdldmlldyIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC8weDdlNEFCZDYzQTdDODMxNENjMjhEMzg4MzAzNDcyMzUzRDg4NGYyOTIvZGFzaGJvYXJkIiwiJGJyb3dzZXJfdmVyc2lvbiI6IDEwOCwiJHNjcmVlbl9oZWlnaHQiOiA5NjAsIiRzY3JlZW5fd2lkdGgiOiAxMjgwLCJtcF9saWIiOiAid2ViIiwiJGxpYl92ZXJzaW9uIjogIjIuMjkuMSIsInRpbWUiOiAxNjcyNDMzNjUyLjk0MiwiZGlzdGluY3RfaWQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwiJGRldmljZV9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsIiR1c2VyX2lkIjogIjB4N2U0YWJkNjNhN2M4MzE0Y2MyOGQzODgzMDM0NzIzNTNkODg0ZjI5MiIsInByb2R1Y3QiOiAib2FjYXMiLCJpZCI6ICIvZGFpd2FsbGV0LzB4N2U0QUJkNjNBN0M4MzE0Q2MyOEQzODgzMDM0NzIzNTNEODg0ZjI5Mi9kYXNoYm9hcmQiLCJ0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCJ9fQ%3D%3D&ip=0&_=1672433652943",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/aave/protocol-multy-raw",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://oasis.app",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard"
-            ],
-            "url": "https://mpp.oasis.app/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkNocm9tZSIsIiRicm93c2VyX3ZlcnNpb24iOiAxMDgsIiRpbml0aWFsX3JlZmVycmVyIjogIiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiRkaXJlY3QiLCJ3YWxsZXRUeXBlIjogImluamVjdGVkIn0sIiR0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCIsIiRkaXN0aW5jdF9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCIkZGV2aWNlX2lkIjogIjE4NTY0Y2ZkNzE2MWEzLTBlNmM4NTM3MzBkOWY3LTI2MDIxMTUxLTEyYzAwMC0xODU2NGNmZDcxNzEyYzIiLCIkdXNlcl9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIifQ%3D%3D&ip=0&_=1672433652953",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard"
-            ],
-            "url": "https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJhY2NvdW50LWNoYW5nZSIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC8weDdlNEFCZDYzQTdDODMxNENjMjhEMzg4MzAzNDcyMzUzRDg4NGYyOTIvZGFzaGJvYXJkIiwiJGJyb3dzZXJfdmVyc2lvbiI6IDEwOCwiJHNjcmVlbl9oZWlnaHQiOiA5NjAsIiRzY3JlZW5fd2lkdGgiOiAxMjgwLCJtcF9saWIiOiAid2ViIiwiJGxpYl92ZXJzaW9uIjogIjIuMjkuMSIsInRpbWUiOiAxNjcyNDMzNjUyLjk1OCwiZGlzdGluY3RfaWQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwiJGRldmljZV9pZCI6ICIxODU2NGNmZDcxNjFhMy0wZTZjODUzNzMwZDlmNy0yNjAyMTE1MS0xMmMwMDAtMTg1NjRjZmQ3MTcxMmMyIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsIiR1c2VyX2lkIjogIjB4N2U0YWJkNjNhN2M4MzE0Y2MyOGQzODgzMDM0NzIzNTNkODg0ZjI5MiIsImFjY291bnQiOiAiMHg3ZTRhYmQ2M2E3YzgzMTRjYzI4ZDM4ODMwMzQ3MjM1M2Q4ODRmMjkyIiwibmV0d29yayI6ICJtYWluIiwicHJvZHVjdCI6ICJvYWNhcyIsIndhbGxldFR5cGUiOiAiaW5qZWN0ZWQiLCJ0b2tlbiI6ICI1MzcyYTgzMDBkYzc2NGZkMDhjOWJkODgzZWFmNmI0NCJ9fQ%3D%3D&ip=0&_=1672433652958",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard"
-            ],
-            "url": "https://api.pro.coinbase.com/products/dai-usdc/book",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard"
-            ],
-            "url": "https://api.pro.coinbase.com/products/eth-usdc/book",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard"
-            ],
-            "url": "https://api.compound.finance/api/v2/ctoken",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/aave/protocol-multy-raw",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{ reserves (where: {name: \\\"Dai Stablecoin\\\"})  { id name price {id} liquidityRate}}\\n\",\"variables\":{}}"
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/static/img/logo.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/api/order/0x7e4abd63a7c8314cc28d388303472353d884f292",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:54:14.034Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"130eb209f62c47a3803a6b3c71b91f83\",\"init\":false,\"started\":\"2022-12-30T20:54:12.782Z\",\"timestamp\":\"2022-12-30T20:54:14.033Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:54:14.035Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"99950af585624795ad8bccb6aa0c40a0\",\"init\":true,\"started\":\"2022-12-30T20:54:14.033Z\",\"timestamp\":\"2022-12-30T20:54:14.033Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard"
-            ],
-            "url": "https://oasis.app/daiwallet/_next/static/chunks/pages/%5Baddress%5D/onboarding-b5114d94606d14714a88.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/dashboard",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding"
-            ],
-            "url": "https://oasis.app/daiwallet/api/dai_purchased",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding"
-            ],
-            "url": "https://oasis.app/daiwallet/static/img/hand_emoji.png",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding"
-            ],
-            "url": "https://mpp.oasis.app/track/?data=eyJldmVudCI6ICJQYWdldmlldyIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vb2FzaXMuYXBwL2RhaXdhbGxldC8weDdlNEFCZDYzQTdDODMxNENjMjhEMzg4MzAzNDcyMzUzRDg4NGYyOTIvb25ib2FyZGluZyIsIiRicm93c2VyX3ZlcnNpb24iOiAxMDgsIiRzY3JlZW5faGVpZ2h0IjogOTYwLCIkc2NyZWVuX3dpZHRoIjogMTI4MCwibXBfbGliIjogIndlYiIsIiRsaWJfdmVyc2lvbiI6ICIyLjI5LjEiLCJ0aW1lIjogMTY3MjQzMzY1NC4yNTIsImRpc3RpbmN0X2lkIjogIjB4N2U0YWJkNjNhN2M4MzE0Y2MyOGQzODgzMDM0NzIzNTNkODg0ZjI5MiIsIiRkZXZpY2VfaWQiOiAiMTg1NjRjZmQ3MTYxYTMtMGU2Yzg1MzczMGQ5ZjctMjYwMjExNTEtMTJjMDAwLTE4NTY0Y2ZkNzE3MTJjMiIsIiRpbml0aWFsX3JlZmVycmVyIjogIiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiRkaXJlY3QiLCIkdXNlcl9pZCI6ICIweDdlNGFiZDYzYTdjODMxNGNjMjhkMzg4MzAzNDcyMzUzZDg4NGYyOTIiLCJwcm9kdWN0IjogIm9hY2FzIiwiaWQiOiAiL2RhaXdhbGxldC8weDdlNEFCZDYzQTdDODMxNENjMjhEMzg4MzAzNDcyMzUzRDg4NGYyOTIvb25ib2FyZGluZyIsInRva2VuIjogIjUzNzJhODMwMGRjNzY0ZmQwOGM5YmQ4ODNlYWY2YjQ0In19&ip=0&_=1672433654253",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding"
-            ],
-            "url": "https://rsms.me/inter/font-files/Inter-Bold.woff2?v=3.19",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://rsms.me/inter/inter.css",
-                "origin": "https://oasis.app",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding"
-            ],
-            "url": "https://oasis.app/daiwallet/api/order/0x7e4abd63a7c8314cc28d388303472353d884f292",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding"
-            ],
-            "url": "https://api.pro.coinbase.com/products/dai-usdc/book",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding"
-            ],
-            "url": "https://api.pro.coinbase.com/products/eth-usdc/book",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding"
-            ],
-            "url": "https://api.pro.coinbase.com/products/dai-usdc/book",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding"
-            ],
-            "url": "https://api.pro.coinbase.com/products/eth-usdc/book",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json",
-                "referer": "https://oasis.app/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding"
-            ],
-            "url": "https://oasis.app/daiwallet/api/order/0x7e4abd63a7c8314cc28d388303472353d884f292",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://oasis.app/daiwallet/0x7e4ABd63A7C8314Cc28D388303472353D884f292/onboarding",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
+            "postData": "{\"event_id\":\"c4caf11724584c9f91040f2b6d93663e\",\"sent_at\":\"2023-01-05T22:14:37.976Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"6.17.7\"},\"dsn\":\"https://2fdf00b007464e2784ef445e16a6039f@o1143494.ingest.sentry.io/6204127\"}\n{\"type\":\"transaction\",\"sample_rates\":[{}]}\n{\"contexts\":{\"trace\":{\"op\":\"pageload\",\"span_id\":\"a8ccb0ecaac116bd\",\"tags\":{\"routing.instrumentation\":\"next-router\",\"finishReason\":\"idleTimeout\",\"effectiveConnectionType\":\"4g\",\"deviceMemory\":\"4\",\"hardwareConcurrency\":\"4\",\"sentry_reportAllChanges\":false},\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"}},\"spans\":[{\"data\":{\"method\":\"POST\",\"url\":\"/api/t\",\"type\":\"fetch\"},\"description\":\"POST /api/t\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"91a1900b3a92a7fd\",\"start_timestamp\":1672956875.6473,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.3527,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a5f50a6586cb7e2e\",\"start_timestamp\":1672956876.1955998,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.3692,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/multiply.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/multiply.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9fa35d4bff057a47\",\"start_timestamp\":1672956876.1993,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.727,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/borrow.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/borrow.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"b9941386cb20a801\",\"start_timestamp\":1672956876.204,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.7252,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/earn.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/earn.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"8b819abb5c84e858\",\"start_timestamp\":1672956876.2073,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.7055,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/eth.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/eth.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"b3255541661b2d82\",\"start_timestamp\":1672956876.2123,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.7041,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/btc.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/btc.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"81ebd1f6c36b6d84\",\"start_timestamp\":1672956876.2138,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.7277,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/dai.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/dai.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"aadc1fc9e9ae69b5\",\"start_timestamp\":1672956876.2145,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.7905,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/lp-token.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/lp-token.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a2025abd7747baa3\",\"start_timestamp\":1672956876.2157,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.7468998,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/yfi.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/yfi.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"91789de45b591d73\",\"start_timestamp\":1672956876.2173998,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.7621999,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/connect.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/connect.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a22c1011f15bca1a\",\"start_timestamp\":1672956876.2222,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.7923,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/cookie.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/cookie.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"95d664a01826666b\",\"start_timestamp\":1672956876.2255,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.8019,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/about.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/about.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"8c54197ef51ab971\",\"start_timestamp\":1672956876.2267,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.9360998,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/careers.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/careers.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9c5ffec6f1126ec7\",\"start_timestamp\":1672956876.2278001,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.9411,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/privacy.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/privacy.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"89285ac4f70772f5\",\"start_timestamp\":1672956876.2290998,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.9392,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/terms.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/terms.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"b33e5127b0b836cc\",\"start_timestamp\":1672956876.2350998,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.9343998,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/security.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/security.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a2964a2f30d11cc3\",\"start_timestamp\":1672956876.2428,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.9496999,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/oracles.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/oracles.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"848f35b29be6aef9\",\"start_timestamp\":1672956876.2555997,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.9424,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/brand.json\",\"type\":\"fetch\"},\"description\":\"GET /_next/data/qGmC5pyLCc9pPOJM80yIr/en/brand.json\",\"op\":\"http.client\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"b939da4c9a22406f\",\"start_timestamp\":1672956876.2595,\"status\":\"ok\",\"tags\":{\"http.status_code\":\"200\"},\"timestamp\":1672956876.9515998,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"Next.js-before-hydration\",\"op\":\"measure\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"92fcb9bd1a532dcf\",\"start_timestamp\":1672956873.23,\"timestamp\":1672956875.5451,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"domContentLoadedEvent\",\"op\":\"browser\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a0aacd59d66934c1\",\"start_timestamp\":1672956875.6003,\"timestamp\":1672956875.6005,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"loadEvent\",\"op\":\"browser\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a0c3926ee745232f\",\"start_timestamp\":1672956877.1487,\"timestamp\":1672956877.1517,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"connect\",\"op\":\"browser\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a8179a3d8ee7bd5d\",\"start_timestamp\":1672956873.2645,\"timestamp\":1672956873.3246,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"TLS/SSL\",\"op\":\"browser\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a286de5496280f71\",\"start_timestamp\":1672956873.2919,\"timestamp\":1672956873.3246,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"cache\",\"op\":\"browser\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a22faa1a27e4787b\",\"start_timestamp\":1672956873.2369,\"timestamp\":1672956873.2645,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"DNS\",\"op\":\"browser\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9488b36c3d235b23\",\"start_timestamp\":1672956873.2645,\"timestamp\":1672956873.2645,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"request\",\"op\":\"browser\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"8783e654e8593a11\",\"start_timestamp\":1672956873.3248,\"timestamp\":1672956873.6981,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"response\",\"op\":\"browser\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"82b7001424bf81e6\",\"start_timestamp\":1672956873.6714,\"timestamp\":1672956873.6981,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":0,\"Decoded Body Size\":0},\"description\":\"https://rsms.me/inter/inter.css\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"99a2631bc38a1fe6\",\"start_timestamp\":1672956873.7132,\"timestamp\":1672956873.9154,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":1462,\"Encoded Body Size\":1162,\"Decoded Body Size\":11985},\"description\":\"/_next/static/css/902f302cbe24c62f.css\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"93e66c671c85ada3\",\"start_timestamp\":1672956873.7134001,\"timestamp\":1672956873.7595,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":107596,\"Encoded Body Size\":107296,\"Decoded Body Size\":408880},\"description\":\"/_next/static/chunks/main-7b50f9cfcf0a10d8.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9134cabe9e2c42e9\",\"start_timestamp\":1672956873.7136,\"timestamp\":1672956873.8472998,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":12038,\"Encoded Body Size\":11738,\"Decoded Body Size\":52471},\"description\":\"/_next/static/chunks/pages/%5Bvault%5D-9f03d2161e5a6b1d.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9e8bdd267cfc86af\",\"start_timestamp\":1672956873.7137,\"timestamp\":1672956873.9898,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":3519439,\"Encoded Body Size\":3519139,\"Decoded Body Size\":15738477},\"description\":\"/_next/static/chunks/pages/_app-8f1c96a75a996620.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"afa86e9e62b06158\",\"start_timestamp\":1672956873.7137,\"timestamp\":1672956874.5962,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":1233,\"Encoded Body Size\":933,\"Decoded Body Size\":2907},\"description\":\"/_next/static/qGmC5pyLCc9pPOJM80yIr/_buildManifest.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9c2eee4d0913345b\",\"start_timestamp\":1672956873.7144,\"timestamp\":1672956873.9978,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":814,\"Encoded Body Size\":514,\"Decoded Body Size\":514},\"description\":\"/_next/static/qGmC5pyLCc9pPOJM80yIr/_ssgManifest.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"970a23a97d6f3b0a\",\"start_timestamp\":1672956873.7146,\"timestamp\":1672956873.9048002,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":392,\"Encoded Body Size\":92,\"Decoded Body Size\":92},\"description\":\"/_next/static/qGmC5pyLCc9pPOJM80yIr/_middlewareManifest.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"b7095c8ec2b98e3c\",\"start_timestamp\":1672956873.7147,\"timestamp\":1672956874.0285,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"sentry-tracing-init\",\"op\":\"mark\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"8ed4ea1cf77663af\",\"start_timestamp\":1672956874.6408,\"timestamp\":1672956874.6408,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":33452,\"Encoded Body Size\":33152,\"Decoded Body Size\":172733},\"description\":\"/_next/static/chunks/5096.82cccec3789915e9.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"acd98138f6d7f7da\",\"start_timestamp\":1672956875.5309,\"timestamp\":1672956875.5608,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":2396,\"Encoded Body Size\":2096,\"Decoded Body Size\":6658},\"description\":\"/_next/static/chunks/8287.a717893c424cae45.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"bf7c4d0852530075\",\"start_timestamp\":1672956875.5322,\"timestamp\":1672956875.5631,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"Next.js-hydration\",\"op\":\"measure\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"b56f679336983661\",\"start_timestamp\":1672956875.5451,\"timestamp\":1672956875.5952,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":2447,\"Encoded Body Size\":2147,\"Decoded Body Size\":5141},\"description\":\"/static/img/logo_v2.svg\",\"op\":\"resource.img\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"bdd1810d26e893e3\",\"start_timestamp\":1672956875.8152,\"timestamp\":1672956876.0624,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":2166,\"Encoded Body Size\":1866,\"Decoded Body Size\":4765},\"description\":\"/static/img/logo_footer_v2.svg\",\"op\":\"resource.img\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9aef619d9b27591d\",\"start_timestamp\":1672956875.8174,\"timestamp\":1672956876.0636,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":105149,\"Encoded Body Size\":104849,\"Decoded Body Size\":104849},\"description\":\"/static/img/background/bottom_bg.png\",\"op\":\"resource.img\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"94fcc2fb3e13aa62\",\"start_timestamp\":1672956875.8181,\"timestamp\":1672956876.0602999,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":23680,\"Encoded Body Size\":23380,\"Decoded Body Size\":23380},\"description\":\"/_next/static/media/inter-latin-600-normal.f740b5d5.woff2\",\"op\":\"resource.css\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"ba9f26cb52763cc3\",\"start_timestamp\":1672956875.8295,\"timestamp\":1672956876.1462,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":22544,\"Encoded Body Size\":22244,\"Decoded Body Size\":22244},\"description\":\"/_next/static/media/inter-latin-400-normal.250b8f79.woff2\",\"op\":\"resource.css\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"84199835339b9ba4\",\"start_timestamp\":1672956875.8306,\"timestamp\":1672956876.1421,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"first-paint\",\"op\":\"paint\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"aac5ad9c75b7c2fc\",\"start_timestamp\":1672956876.0970001,\"timestamp\":1672956876.0970001,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"description\":\"first-contentful-paint\",\"op\":\"paint\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a820b1e1c83b4202\",\"start_timestamp\":1672956876.0970001,\"timestamp\":1672956876.0970001,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":26086,\"Encoded Body Size\":25786,\"Decoded Body Size\":135938},\"description\":\"/_next/static/chunks/pages/index-89175f649aeb568a.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"b2d2fa58648d660f\",\"start_timestamp\":1672956876.1978,\"timestamp\":1672956876.2294,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":5657,\"Encoded Body Size\":5357,\"Decoded Body Size\":22105},\"description\":\"/_next/static/chunks/pages/multiply-0d4019c3b91028a5.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"b1e5c240ca7e68bc\",\"start_timestamp\":1672956876.2012,\"timestamp\":1672956876.2435,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":5564,\"Encoded Body Size\":5264,\"Decoded Body Size\":20939},\"description\":\"/_next/static/chunks/pages/borrow-f3f0b2c8d3c8045b.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"bccce02cbff4b4a5\",\"start_timestamp\":1672956876.2068,\"timestamp\":1672956876.2386,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":18098,\"Encoded Body Size\":17798,\"Decoded Body Size\":85081},\"description\":\"/_next/static/chunks/pages/earn-037f7390410ed5d7.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a003b20038f152dd\",\"start_timestamp\":1672956876.2084,\"timestamp\":1672956876.2479,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":10377,\"Encoded Body Size\":10077,\"Decoded Body Size\":58168},\"description\":\"/_next/static/chunks/pages/asset/%5Basset%5D-22da1c503f4e2f6f.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"8a8b68a3ae2f4d1b\",\"start_timestamp\":1672956876.2136,\"timestamp\":1672956876.2575,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":742,\"Encoded Body Size\":442,\"Decoded Body Size\":1067},\"description\":\"/_next/static/chunks/pages/discover-67a6cc315c60907f.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"be9105fb44152f85\",\"start_timestamp\":1672956876.2216,\"timestamp\":1672956876.2607,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":801,\"Encoded Body Size\":501,\"Decoded Body Size\":1322},\"description\":\"/_next/static/chunks/pages/connect-36134f2dc22a157b.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"90e9bf0d864341e4\",\"start_timestamp\":1672956876.2251,\"timestamp\":1672956876.2593,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":907,\"Encoded Body Size\":607,\"Decoded Body Size\":1766},\"description\":\"/_next/static/chunks/pages/cookie-b16e44a58a642b58.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"afda744ab658e43f\",\"start_timestamp\":1672956876.2266,\"timestamp\":1672956876.3251998,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":1552,\"Encoded Body Size\":1252,\"Decoded Body Size\":4687},\"description\":\"/_next/static/chunks/pages/about-8fa9646a85daea3e.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9cc4ad609c179b49\",\"start_timestamp\":1672956876.2277,\"timestamp\":1672956876.2868,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":2756,\"Encoded Body Size\":2456,\"Decoded Body Size\":8559},\"description\":\"/_next/static/chunks/pages/careers-97260c6593163171.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"80fdc0149b317c86\",\"start_timestamp\":1672956876.2289,\"timestamp\":1672956876.2886,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":925,\"Encoded Body Size\":625,\"Decoded Body Size\":1787},\"description\":\"/_next/static/chunks/pages/privacy-b5e643bcc22f1508.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"ad9097ee67ff3161\",\"start_timestamp\":1672956876.2339,\"timestamp\":1672956876.2893,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":947,\"Encoded Body Size\":647,\"Decoded Body Size\":1821},\"description\":\"/_next/static/chunks/pages/terms-0f05ade43e36b055.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"816915c4bfc2b9c8\",\"start_timestamp\":1672956876.2379,\"timestamp\":1672956876.2907,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":1978,\"Encoded Body Size\":1678,\"Decoded Body Size\":6297},\"description\":\"/_next/static/chunks/pages/security-7ce83ccb1feab70c.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"806090f8a7d7b15c\",\"start_timestamp\":1672956876.2555,\"timestamp\":1672956876.3088,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":4164,\"Encoded Body Size\":3864,\"Decoded Body Size\":14714},\"description\":\"/_next/static/chunks/pages/oracles-32b7e68f663f3f26.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"b27b055384e98289\",\"start_timestamp\":1672956876.2585,\"timestamp\":1672956876.3106,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":6798,\"Encoded Body Size\":6498,\"Decoded Body Size\":34968},\"description\":\"/_next/static/chunks/pages/referrals-517e20ebfbb2b0b1.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"85a4cb3587bb87ea\",\"start_timestamp\":1672956876.2595,\"timestamp\":1672956876.2971,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":2762,\"Encoded Body Size\":2462,\"Decoded Body Size\":10572},\"description\":\"/_next/static/chunks/pages/brand-2fc9a087d58e8080.js\",\"op\":\"resource.link\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9f10e8d096079449\",\"start_timestamp\":1672956876.2623,\"timestamp\":1672956876.296,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":4476,\"Encoded Body Size\":4176,\"Decoded Body Size\":4176},\"description\":\"/static/fonts/FTPolar/FTPolarTrial-Medium.woff2\",\"op\":\"resource.css\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a1fc1290262bb07f\",\"start_timestamp\":1672956876.2673001,\"timestamp\":1672956876.4649,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":369,\"Encoded Body Size\":69,\"Decoded Body Size\":69},\"description\":\"/_next/static/media/inter-all-400-normal.64fb9ce5.woff\",\"op\":\"resource.css\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"8fa3f150836ed9ce\",\"start_timestamp\":1672956876.3239,\"timestamp\":1672956876.4498,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":369,\"Encoded Body Size\":69,\"Decoded Body Size\":69},\"description\":\"/_next/static/media/inter-all-600-normal.a3b8426b.woff\",\"op\":\"resource.css\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9989154424728faf\",\"start_timestamp\":1672956876.3256,\"timestamp\":1672956876.4536998,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":1197,\"Encoded Body Size\":897,\"Decoded Body Size\":897},\"description\":\"/manifest.json\",\"op\":\"resource.other\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"855d09d059e66c62\",\"start_timestamp\":1672956877.2742,\"timestamp\":1672956877.5706,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":8348,\"Encoded Body Size\":8048,\"Decoded Body Size\":15406},\"description\":\"/static/favicon.ico\",\"op\":\"resource.other\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"aed59ee7704c82e8\",\"start_timestamp\":1672956877.2851,\"timestamp\":1672956877.5031,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":10077,\"Decoded Body Size\":58168},\"description\":\"/_next/static/chunks/pages/asset/%5Basset%5D-22da1c503f4e2f6f.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"bef4c29a1c784c56\",\"start_timestamp\":1672956877.3609,\"timestamp\":1672956877.3625998,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":2462,\"Decoded Body Size\":10572},\"description\":\"/_next/static/chunks/pages/brand-2fc9a087d58e8080.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"b02cf540696eff73\",\"start_timestamp\":1672956877.3658,\"timestamp\":1672956877.3669999,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":6498,\"Decoded Body Size\":34968},\"description\":\"/_next/static/chunks/pages/referrals-517e20ebfbb2b0b1.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"b53ea6b6c110267e\",\"start_timestamp\":1672956877.3684,\"timestamp\":1672956877.3736,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":1678,\"Decoded Body Size\":6297},\"description\":\"/_next/static/chunks/pages/security-7ce83ccb1feab70c.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9c519f595dc617b7\",\"start_timestamp\":1672956877.3916001,\"timestamp\":1672956877.3926,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":3864,\"Decoded Body Size\":14714},\"description\":\"/_next/static/chunks/pages/oracles-32b7e68f663f3f26.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"897dcf675289b33d\",\"start_timestamp\":1672956877.3934,\"timestamp\":1672956877.3948,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":607,\"Decoded Body Size\":1766},\"description\":\"/_next/static/chunks/pages/cookie-b16e44a58a642b58.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9d0a9f06d763002d\",\"start_timestamp\":1672956877.3954,\"timestamp\":1672956877.3967001,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":25786,\"Decoded Body Size\":135938},\"description\":\"/_next/static/chunks/pages/index-89175f649aeb568a.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9029f72faada7a00\",\"start_timestamp\":1672956877.4041,\"timestamp\":1672956877.4057999,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":5357,\"Decoded Body Size\":22105},\"description\":\"/_next/static/chunks/pages/multiply-0d4019c3b91028a5.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9f2794e283ab9f29\",\"start_timestamp\":1672956877.4066,\"timestamp\":1672956877.4074,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":5264,\"Decoded Body Size\":20939},\"description\":\"/_next/static/chunks/pages/borrow-f3f0b2c8d3c8045b.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"97185bb0d528f7ca\",\"start_timestamp\":1672956877.4114,\"timestamp\":1672956877.4129,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":17798,\"Decoded Body Size\":85081},\"description\":\"/_next/static/chunks/pages/earn-037f7390410ed5d7.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a6eb7d60f3e2b656\",\"start_timestamp\":1672956877.4121,\"timestamp\":1672956877.4137,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":442,\"Decoded Body Size\":1067},\"description\":\"/_next/static/chunks/pages/discover-67a6cc315c60907f.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a9a3374a25b49ae0\",\"start_timestamp\":1672956877.4176,\"timestamp\":1672956877.4197,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":501,\"Decoded Body Size\":1322},\"description\":\"/_next/static/chunks/pages/connect-36134f2dc22a157b.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"95a73163fb1ec2e0\",\"start_timestamp\":1672956877.4192,\"timestamp\":1672956877.4204,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":1252,\"Decoded Body Size\":4687},\"description\":\"/_next/static/chunks/pages/about-8fa9646a85daea3e.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a2fa5676c18e020c\",\"start_timestamp\":1672956877.433,\"timestamp\":1672956877.4342,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":2456,\"Decoded Body Size\":8559},\"description\":\"/_next/static/chunks/pages/careers-97260c6593163171.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"806f5986eed108eb\",\"start_timestamp\":1672956877.4341,\"timestamp\":1672956877.4352,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":625,\"Decoded Body Size\":1787},\"description\":\"/_next/static/chunks/pages/privacy-b5e643bcc22f1508.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"a1a901cc1d5cb781\",\"start_timestamp\":1672956877.4345,\"timestamp\":1672956877.4362,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":647,\"Decoded Body Size\":1821},\"description\":\"/_next/static/chunks/pages/terms-0f05ade43e36b055.js\",\"op\":\"resource.script\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"ab970f70fb649d16\",\"start_timestamp\":1672956877.4409,\"timestamp\":1672956877.4418,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"},{\"data\":{\"Transfer Size\":22928,\"Encoded Body Size\":22628,\"Decoded Body Size\":22628},\"description\":\"/static/icons/apple-touch-icon.png\",\"op\":\"resource.other\",\"parent_span_id\":\"a8ccb0ecaac116bd\",\"span_id\":\"9ccbf4eea74d1d2e\",\"start_timestamp\":1672956877.5734,\"timestamp\":1672956877.7047,\"trace_id\":\"07f74ed05c7948e89ad536177402c74f\"}],\"start_timestamp\":1672956873.23,\"tags\":{\"runtime\":\"browser\",\"routing.instrumentation\":\"next-router\",\"finishReason\":\"idleTimeout\",\"effectiveConnectionType\":\"4g\",\"deviceMemory\":\"4\",\"hardwareConcurrency\":\"4\",\"sentry_reportAllChanges\":false,\"skippedNormalization\":true},\"timestamp\":1672956877.7047,\"transaction\":\"/[vault]\",\"type\":\"transaction\",\"measurements\":{\"fp\":{\"value\":2867},\"mark.fp\":{\"value\":1672956876.0970001},\"fcp\":{\"value\":2867},\"mark.fcp\":{\"value\":1672956876.0970001},\"connection.rtt\":{\"value\":50},\"connection.downlink\":{\"value\":10},\"ttfb\":{\"value\":441.40005111694336},\"ttfb.requestTime\":{\"value\":346.6000556945801}},\"platform\":\"javascript\",\"event_id\":\"c4caf11724584c9f91040f2b6d93663e\",\"environment\":\"production\",\"release\":\"9291597\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"GlobalHandlers\",\"LinkedErrors\",\"Dedupe\",\"UserAgent\",\"BrowserTracing\"],\"name\":\"sentry.javascript.nextjs\",\"version\":\"6.17.7\",\"packages\":[{\"name\":\"npm:@sentry/nextjs\",\"version\":\"6.17.7\"},{\"name\":\"npm:@sentry/react\",\"version\":\"6.17.7\"}]},\"breadcrumbs\":[{\"timestamp\":1672956875.543,\"category\":\"navigation\",\"data\":{\"from\":\"/trade\",\"to\":\"/trade\"}},{\"timestamp\":1672956875.619,\"category\":\"console\",\"data\":{\"arguments\":[\"dev helpers initialized!\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"dev helpers initialized!\"},{\"timestamp\":1672956875.807,\"category\":\"console\",\"data\":{\"arguments\":[\"Build commit: 9291597 Build date: 05.01.2023 13:01\"],\"logger\":\"console\"},\"level\":\"debug\",\"message\":\"Build commit: 9291597 Build date: 05.01.2023 13:01\"},{\"timestamp\":1672956876.329,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://mpp.oasis.app/decide/?verbose=1&version=1&lib=web&token=5372a8300dc764fd08c9bd883eaf6b44&ip=0&_=1672956875644\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.352,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"/api/t\",\"__span\":\"91a1900b3a92a7fd\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.369,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en.json\",\"__span\":\"a5f50a6586cb7e2e\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.704,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/eth.json\",\"__span\":\"b3255541661b2d82\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.705,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/earn.json\",\"__span\":\"8b819abb5c84e858\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.725,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/borrow.json\",\"__span\":\"b9941386cb20a801\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.727,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/multiply.json\",\"__span\":\"9fa35d4bff057a47\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.728,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/btc.json\",\"__span\":\"81ebd1f6c36b6d84\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.747,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/lp-token.json\",\"__span\":\"a2025abd7747baa3\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.762,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/yfi.json\",\"__span\":\"91789de45b591d73\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.79,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/asset/dai.json\",\"__span\":\"aadc1fc9e9ae69b5\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.792,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/connect.json\",\"__span\":\"a22c1011f15bca1a\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.802,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/cookie.json\",\"__span\":\"95d664a01826666b\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.932,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/terms.json\",\"__span\":\"b33e5127b0b836cc\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.936,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/about.json\",\"__span\":\"8c54197ef51ab971\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.939,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/privacy.json\",\"__span\":\"89285ac4f70772f5\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.941,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/careers.json\",\"__span\":\"9c5ffec6f1126ec7\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.942,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/oracles.json\",\"__span\":\"848f35b29be6aef9\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.95,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/security.json\",\"__span\":\"a2964a2f30d11cc3\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1672956876.951,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/_next/data/qGmC5pyLCc9pPOJM80yIr/en/brand.json\",\"__span\":\"b939da4c9a22406f\",\"status_code\":200},\"type\":\"http\"}],\"request\":{\"url\":\"https://oasis.app/trade\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}},\"extra\":{}}"
         }
     ],
     "success": true

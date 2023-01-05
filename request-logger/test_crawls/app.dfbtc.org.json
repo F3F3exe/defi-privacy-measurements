@@ -1,0 +1,790 @@
+{
+    "url": "https://app.dfbtc.org",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 15,
+        "url": "https://app.dfbtc.org",
+        "metamaskPath": "metamask-chrome-10.22.2",
+        "destination": "test_crawls",
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1672941517873,
+        "end": 1672941543849
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "url": "https://app.dfbtc.org/",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://app.dfbtc.org/static/css/app.5b2c1e3c.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://app.dfbtc.org/static/css/chunk-elementUI.68c70ad5.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://app.dfbtc.org/static/css/chunk-libs.3dfb7769.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://app.dfbtc.org/static/js/app.3fe191c6.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://app.dfbtc.org/static/js/chunk-elementUI.c172d53f.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://app.dfbtc.org/static/js/chunk-libs.91c1d4dc.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://unpkg.com/web3@latest/dist/web3.min.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://unpkg.com/web3modal",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://unpkg.com/@walletconnect/web3-provider",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://unpkg.com/fortmatic@2.0.6/dist/fortmatic.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://unpkg.com/web3modal@1.9.11",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "referer": "https://app.dfbtc.org/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://unpkg.com/web3@1.8.1/dist/web3.min.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "referer": "https://app.dfbtc.org/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://unpkg.com/@walletconnect/web3-provider@1.8.0",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "referer": "https://app.dfbtc.org/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://unpkg.com/web3modal@1.9.11/dist/index.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "referer": "https://app.dfbtc.org/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/"
+            ],
+            "url": "https://unpkg.com/@walletconnect/web3-provider@1.8.0/dist/umd/index.min.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "referer": "https://app.dfbtc.org/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/"
+            ],
+            "url": "https://app.dfbtc.org/static/css/chunk-a0aaa09e.4a712c27.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/"
+            ],
+            "url": "https://app.dfbtc.org/static/js/chunk-a0aaa09e.81118065.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://mainnet.infura.io/v3/353c5f04a5e74366aee2db53ed05bc7c",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.dfbtc.org",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://mainnet.infura.io/v3/353c5f04a5e74366aee2db53ed05bc7c",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.dfbtc.org",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/353c5f04a5e74366aee2db53ed05bc7c",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"eth_call\",\"params\":[{\"data\":\"0x53173ef6\",\"to\":\"0x6935e7affd8c018770d6af83263b3c92b4b497cd\"},\"latest\"]}"
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/353c5f04a5e74366aee2db53ed05bc7c",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"eth_call\",\"params\":[{\"data\":\"0xab756d57000000000000000000000000060924fb947e37eee230d0b1a71d9618aec269fc000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7\",\"to\":\"0xb7de2ec1bfd49f5d5f2d11c6e9e3fa15f875f140\"},\"latest\"]}"
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/fonts/element-icons.535877f5.woff",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/static/css/chunk-elementUI.68c70ad5.css",
+                "origin": "https://app.dfbtc.org",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/DFBTC.31827751.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/us.eadfb4ed.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/cn.c40591ea.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/jp.e2d838a2.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/fr.55df0a2e.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/it.27fe7edc.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/pt.352ff4b0.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/es.c3853709.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/vn.44c0954e.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/tr.cf31c9d6.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/kr.94941e04.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/message.5b7d45ca.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/tele.c8a8f10a.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/contant.febc01df.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/w1.1ef7b708.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/B1.fbad4d56.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/static/img/uniswaplp.0d6322a3.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/353c5f04a5e74366aee2db53ed05bc7c",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":3,\"method\":\"eth_call\",\"params\":[{\"data\":\"0x6dd2769d000000000000000000000000060924fb947e37eee230d0b1a71d9618aec269fc000000000000000000000000000000000000000000000000000000000000001e\",\"to\":\"0xb7de2ec1bfd49f5d5f2d11c6e9e3fa15f875f140\"},\"latest\"]}"
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/353c5f04a5e74366aee2db53ed05bc7c",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":4,\"method\":\"eth_call\",\"params\":[{\"data\":\"0x6dd2769d000000000000000000000000060924fb947e37eee230d0b1a71d9618aec269fc000000000000000000000000000000000000000000000000000000000000005a\",\"to\":\"0xb7de2ec1bfd49f5d5f2d11c6e9e3fa15f875f140\"},\"latest\"]}"
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/353c5f04a5e74366aee2db53ed05bc7c",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":5,\"method\":\"eth_call\",\"params\":[{\"data\":\"0x6dd2769d000000000000000000000000060924fb947e37eee230d0b1a71d9618aec269fc00000000000000000000000000000000000000000000000000000000000000b4\",\"to\":\"0xb7de2ec1bfd49f5d5f2d11c6e9e3fa15f875f140\"},\"latest\"]}"
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/353c5f04a5e74366aee2db53ed05bc7c",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":6,\"method\":\"eth_call\",\"params\":[{\"data\":\"0x6dd2769d000000000000000000000000060924fb947e37eee230d0b1a71d9618aec269fc0000000000000000000000000000000000000000000000000000000000000168\",\"to\":\"0xb7de2ec1bfd49f5d5f2d11c6e9e3fa15f875f140\"},\"latest\"]}"
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/353c5f04a5e74366aee2db53ed05bc7c",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":7,\"method\":\"eth_call\",\"params\":[{\"data\":\"0x6dd2769d000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7000000000000000000000000000000000000000000000000000000000000001e\",\"to\":\"0xb7de2ec1bfd49f5d5f2d11c6e9e3fa15f875f140\"},\"latest\"]}"
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/353c5f04a5e74366aee2db53ed05bc7c",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":8,\"method\":\"eth_call\",\"params\":[{\"data\":\"0x6dd2769d000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7000000000000000000000000000000000000000000000000000000000000005a\",\"to\":\"0xb7de2ec1bfd49f5d5f2d11c6e9e3fa15f875f140\"},\"latest\"]}"
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/353c5f04a5e74366aee2db53ed05bc7c",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":9,\"method\":\"eth_call\",\"params\":[{\"data\":\"0x6dd2769d000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec700000000000000000000000000000000000000000000000000000000000000b4\",\"to\":\"0xb7de2ec1bfd49f5d5f2d11c6e9e3fa15f875f140\"},\"latest\"]}"
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://mainnet.infura.io/v3/353c5f04a5e74366aee2db53ed05bc7c",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":10,\"method\":\"eth_call\",\"params\":[{\"data\":\"0x6dd2769d000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec70000000000000000000000000000000000000000000000000000000000000168\",\"to\":\"0xb7de2ec1bfd49f5d5f2d11c6e9e3fa15f875f140\"},\"latest\"]}"
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/apis/getDualPlegeTotal/",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.dfbtc.org/#/dashboard"
+            ],
+            "url": "https://app.dfbtc.org/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.dfbtc.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        }
+    ],
+    "success": true
+}

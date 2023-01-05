@@ -1,345 +1,20 @@
 {
-    "url": "https://wasabix.finance/#/app",
+    "url": "https://wasabix.finance/#/",
     "arguments": {
         "printFrameHierarchy": true,
         "debugLevel": "verbose",
         "headless": false,
-        "secs": 45,
-        "url": "https://wasabix.finance/#/app",
+        "secs": 15,
+        "url": "https://wasabix.finance/#/",
         "metamaskPath": "metamask-chrome-10.22.2",
         "destination": "test_crawls",
         "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
     },
     "timestamps": {
-        "start": 1672434448604,
-        "end": 1672434533924
+        "start": 1672946723231,
+        "end": 1672946753018
     },
     "requests": [
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css",
-            "type": "stylesheet",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:31.808Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"15c09737ef6b4d138fcd26b7e5b20c1e\",\"init\":true,\"started\":\"2022-12-30T21:07:31.807Z\",\"timestamp\":\"2022-12-30T21:07:31.807Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:34.142Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"15c09737ef6b4d138fcd26b7e5b20c1e\",\"init\":false,\"started\":\"2022-12-30T21:07:31.807Z\",\"timestamp\":\"2022-12-30T21:07:34.141Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:34.144Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"365ae52b15a94ac0bd1602e82d8bd7cc\",\"init\":true,\"started\":\"2022-12-30T21:07:34.141Z\",\"timestamp\":\"2022-12-30T21:07:34.141Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/logo/metamask-fox.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:34.276Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"365ae52b15a94ac0bd1602e82d8bd7cc\",\"init\":false,\"started\":\"2022-12-30T21:07:34.141Z\",\"timestamp\":\"2022-12-30T21:07:34.276Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:34.278Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1143fccccf694aaa90a10d66a734b8c0\",\"init\":true,\"started\":\"2022-12-30T21:07:34.276Z\",\"timestamp\":\"2022-12-30T21:07:34.276Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/metrics-chart.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/select-action"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:34.521Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1143fccccf694aaa90a10d66a734b8c0\",\"init\":false,\"started\":\"2022-12-30T21:07:34.276Z\",\"timestamp\":\"2022-12-30T21:07:34.520Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/select-action"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:34.523Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a6c8d01ba16f41ceaa96486740c3f104\",\"init\":true,\"started\":\"2022-12-30T21:07:34.520Z\",\"timestamp\":\"2022-12-30T21:07:34.520Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:34.592Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a6c8d01ba16f41ceaa96486740c3f104\",\"init\":false,\"started\":\"2022-12-30T21:07:34.520Z\",\"timestamp\":\"2022-12-30T21:07:34.592Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:34.594Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"55dbb15bcb8f4f01b34174bf0c3e1aa7\",\"init\":true,\"started\":\"2022-12-30T21:07:34.592Z\",\"timestamp\":\"2022-12-30T21:07:34.592Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Roboto/Roboto-Regular.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-regular-400.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/end-of-flow"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:37.860Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"55dbb15bcb8f4f01b34174bf0c3e1aa7\",\"init\":false,\"started\":\"2022-12-30T21:07:34.592Z\",\"timestamp\":\"2022-12-30T21:07:37.859Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/end-of-flow"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:37.862Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"e181ba73e65e490eb016d6bd61061991\",\"init\":true,\"started\":\"2022-12-30T21:07:37.859Z\",\"timestamp\":\"2022-12-30T21:07:37.859Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
         {
             "requestContext": [
                 "about:blank"
@@ -357,53 +32,7 @@
         },
         {
             "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:37.928Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"e181ba73e65e490eb016d6bd61061991\",\"init\":false,\"started\":\"2022-12-30T21:07:37.859Z\",\"timestamp\":\"2022-12-30T21:07:37.928Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:07:37.929Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"e1b480a2236c498393d3e6f1b428df3b\",\"init\":true,\"started\":\"2022-12-30T21:07:37.928Z\",\"timestamp\":\"2022-12-30T21:07:37.928Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/eth_logo.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
+                "https://wasabix.finance/#/"
             ],
             "url": "https://fonts.googleapis.com/css2?family=Roboto&display=swap",
             "type": "stylesheet",
@@ -418,7 +47,7 @@
         },
         {
             "requestContext": [
-                "https://wasabix.finance/#/app"
+                "https://wasabix.finance/#/"
             ],
             "url": "https://kit.fontawesome.com/67b38b6e65.js",
             "type": "script",
@@ -434,7 +63,7 @@
         },
         {
             "requestContext": [
-                "https://wasabix.finance/#/app"
+                "https://wasabix.finance/#/"
             ],
             "url": "https://wasabix.finance/static/css/main.93aaace2.chunk.css",
             "type": "stylesheet",
@@ -449,7 +78,7 @@
         },
         {
             "requestContext": [
-                "https://wasabix.finance/#/app"
+                "https://wasabix.finance/#/"
             ],
             "url": "https://wasabix.finance/static/js/2.75fd472c.chunk.js",
             "type": "script",
@@ -464,7 +93,7 @@
         },
         {
             "requestContext": [
-                "https://wasabix.finance/#/app"
+                "https://wasabix.finance/#/"
             ],
             "url": "https://wasabix.finance/static/js/main.f067b378.chunk.js",
             "type": "script",
@@ -479,7 +108,7 @@
         },
         {
             "requestContext": [
-                "https://wasabix.finance/#/app"
+                "https://wasabix.finance/#/"
             ],
             "url": "https://use.typekit.net/avo8ruz.css",
             "type": "stylesheet",
@@ -494,7 +123,7 @@
         },
         {
             "requestContext": [
-                "https://wasabix.finance/#/app"
+                "https://wasabix.finance/#/"
             ],
             "url": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=67b38b6e65",
             "type": "fetch",
@@ -509,7 +138,7 @@
         },
         {
             "requestContext": [
-                "https://wasabix.finance/#/app"
+                "https://wasabix.finance/#/"
             ],
             "url": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=67b38b6e65",
             "type": "fetch",
@@ -524,7 +153,7 @@
         },
         {
             "requestContext": [
-                "https://wasabix.finance/#/app"
+                "https://wasabix.finance/#/"
             ],
             "url": "https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=67b38b6e65",
             "type": "fetch",
@@ -539,7 +168,7 @@
         },
         {
             "requestContext": [
-                "https://wasabix.finance/#/app"
+                "https://wasabix.finance/#/"
             ],
             "url": "https://p.typekit.net/p.css?s=1&k=avo8ruz&ht=tk&f=139.140.175.176.143.144.147.148.156.157.161.162&a=25164430&app=typekit&e=css",
             "type": "stylesheet",
@@ -554,7 +183,259 @@
         },
         {
             "requestContext": [
-                "https://wasabix.finance/#/app"
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/neon_top.e1679136.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/arrow.217dccb8.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/lending1.7853cb7e.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "data:image/png;base64,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L2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChNYWNpbnRvc2gpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMS0wNi0wMVQxNDo1ODoxMCswODowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMS0wNi0wMVQxNToxODo0NyswODowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjEtMDYtMDFUMTU6MTg6NDcrMDg6MDAiIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJEaXNwbGF5IiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpmMTBkYjBmNi0zMzY1LTRiZDUtYTIxYi1mMTBhYmQxN2FlYzMiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDo0MzNhMmJjMC1iMWM5LTZjNGUtYjY3ZC00Y2JjMWEwNDY5YTAiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpkNGM5NjhkMi1hNTY3LTQ3YjctYWM2Ni1kNGQ2Y2ZmMjk0YzEiIHRpZmY6T3JpZW50YXRpb249IjEiIHRpZmY6WFJlc29sdXRpb249IjcyMDAwMC8xMDAwMCIgdGlmZjpZUmVzb2x1dGlvbj0iNzIwMDAwLzEwMDAwIiB0aWZmOlJlc29sdXRpb25Vbml0PSIyIiBleGlmOkNvbG9yU3BhY2U9IjY1NTM1IiBleGlmOlBpeGVsWERpbWVuc2lvbj0iNDAwIiBleGlmOlBpeGVsWURpbWVuc2lvbj0iMTYwIj4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+RkVBNTExOEFGNDBGNDQ0OTNGNjg3ODZDRjU1MTNFRjE8L3JkZjpsaT4gPHJkZjpsaT5hZG9iZTpkb2NpZDpwaG90b3Nob3A6MzEwYmQ1NWMtNzViOC1kNjQ3LWI0ZjEtOWYwZjM0NWMwYWIyPC9yZGY6bGk+IDxyZGY6bGk+YWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjg4ODIxOTU2LTU2OTAtNmY0NC1iMTNlLTIyMTc0MjYxYjVkYzwvcmRmOmxpPiA8L3JkZjpCYWc+IDwvcGhvdG9zaG9wOkRvY3VtZW50QW5jZXN0b3JzPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmQ0Yzk2OGQyLWE1NjctNDdiNy1hYzY2LWQ0ZDZjZmYyOTRjMSIgc3RFdnQ6d2hlbj0iMjAyMS0wNi0wMVQxNDo1ODoxMCswODowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKE1hY2ludG9zaCkiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjFlODM3ZTFiLTUxZDEtNGQyNi04NDY0LTc5NWFhNTk0NWIzZSIgc3RFdnQ6d2hlbj0iMjAyMS0wNi0wMVQxNToxODo0NyswODowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKE1hY2ludG9zaCkiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNvbnZlcnRlZCIgc3RFdnQ6cGFyYW1ldGVycz0iZnJvbSBhcHBsaWNhdGlvbi92bmQuYWRvYmUucGhvdG9zaG9wIHRvIGltYWdlL3BuZyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iZGVyaXZlZCIgc3RFdnQ6cGFyYW1ldGVycz0iY29udmVydGVkIGZyb20gYXBwbGljYXRpb24vdm5kLmFkb2JlLnBob3Rvc2hvcCB0byBpbWFnZS9wbmciLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmYxMGRiMGY2LTMzNjUtNGJkNS1hMjFiLWYxMGFiZDE3YWVjMyIgc3RFdnQ6d2hlbj0iMjAyMS0wNi0wMVQxNToxODo0NyswODowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKE1hY2ludG9zaCkiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjFlODM3ZTFiLTUxZDEtNGQyNi04NDY0LTc5NWFhNTk0NWIzZSIgc3RSZWY6ZG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjFlNDAxNDhjLTcyNzAtOWY0My04MGVjLTM2OTRiNDg3MmMyYSIgc3RSZWY6b3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOmQ0Yzk2OGQyLWE1NjctNDdiNy1hYzY2LWQ0ZDZjZmYyOTRjMSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjABIxgAAAEuSURBVHic7dohTgNRFEbhM4QEyQ6oQbMXNoAlGFxdRQ01bADHDlpHNbuAhBVUNDggFYMYM655nYHX/DmfapOZm4qTm9fMNG3bIqU4qf0DpDEZtKIYtKIYtKIYtKIYtKIYtKIYtKIYtKIYtKIYtKIYtKIYtKIYtKIYtGpaAhdjDjRo1XQNvAEz4GyMgY0v+KuifnwfwD2wHjLQDa2avnufL4EXYAVMDh1YsqFd5fovX8ACeAR+Sm40aB2zJ+Cu5AaPHDpGG+CGwpgBTguubUqHS3t8Aue97y3wDEyB7SEDS4KW/tI7cAu8DhnikUM17ej+9M2BKwbGDG5o1bUGHui28yh8sKIoHjkUxaAVxaAVxaAVxaAVxaAVxaAVxaAVxaAVxaAVxaAVxaAVxaAV5Rc9IyqGf39EEgAAAABJRU5ErkJggg==",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/lending2.e79a0037.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/lending3.b86e10f0.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/HIW.4e64be51.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/cerik.547fad1b.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/rdauditors.16f7895b.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/wasabi.2eb79648.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/twitter.7432710a.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/telegram.bb1bb928.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/github.fa1c90e6.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/gitbook.b035d2a9.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/discord.ce7522d4.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/defipulse.d1032010.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
+            ],
+            "url": "https://wasabix.finance/static/media/logo.299ec8f7.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://wasabix.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://wasabix.finance/#/"
             ],
             "url": "https://wasabix.finance/static/media/Menlo-Regular.9f94dc20.ttf",
             "type": "font",
@@ -570,15 +451,14 @@
         },
         {
             "requestContext": [
-                "https://wasabix.finance/#/app"
+                "https://wasabix.finance/#/"
             ],
-            "url": "https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2",
-            "type": "font",
+            "url": "https://wasabix.finance/favicon.ico",
+            "type": "other",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://fonts.googleapis.com/",
-                "origin": "https://wasabix.finance",
+                "referer": "https://wasabix.finance/",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -1000,18 +880,6 @@
             "requestContext": [
                 "https://wasabix.finance/#/app"
             ],
-            "url": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM1NSIgdmlld0JveD0iMCAwIDM5NyAzNTUiIHdpZHRoPSIzOTciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiPjxwYXRoIGQ9Im0xMTQuNjIyNjQ0IDMyNy4xOTU0NzIgNTIuMDA0NzE3IDEzLjgxMDE5OHYtMTguMDU5NDlsNC4yNDUyODMtNC4yNDkyOTJoMjkuNzE2OTgydjIxLjI0NjQ1OSAxNC44NzI1MjNoLTMxLjgzOTYyNGwtMzkuMjY4ODY4LTE2Ljk5NzE2OXoiIGZpbGw9IiNjZGJkYjIiLz48cGF0aCBkPSJtMTk5LjUyODMwNSAzMjcuMTk1NDcyIDUwLjk0MzM5NyAxMy44MTAxOTh2LTE4LjA1OTQ5bDQuMjQ1MjgzLTQuMjQ5MjkyaDI5LjcxNjk4MXYyMS4yNDY0NTkgMTQuODcyNTIzaC0zMS44Mzk2MjNsLTM5LjI2ODg2OC0xNi45OTcxNjl6IiBmaWxsPSIjY2RiZGIyIiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSA0ODMuOTYyMjcgMCkiLz48cGF0aCBkPSJtMTcwLjg3MjY0NCAyODcuODg5NTIzLTQuMjQ1MjgzIDM1LjA1NjY1NyA1LjMwNjYwNC00LjI0OTI5Mmg1NS4xODg2OGw2LjM2NzkyNSA0LjI0OTI5Mi00LjI0NTI4NC0zNS4wNTY2NTctOC40OTA1NjUtNS4zMTE2MTUtNDIuNDUyODMyIDEuMDYyMzIzeiIgZmlsbD0iIzM5MzkzOSIvPjxwYXRoIGQ9Im0xNDIuMjE2OTg0IDUwLjk5MTUwMjIgMjUuNDcxNjk4IDU5LjQ5MDA4NTggMTEuNjc0NTI4IDE3My4xNTg2NDNoNDEuMzkxNTExbDEyLjczNTg0OS0xNzMuMTU4NjQzIDIzLjM0OTA1Ni01OS40OTAwODU4eiIgZmlsbD0iI2Y4OWMzNSIvPjxwYXRoIGQ9Im0zMC43NzgzMDIzIDE4MS42NTcyMjYtMjkuNzE2OTgxNTMgODYuMDQ4MTYxIDc0LjI5MjQ1MzkzLTQuMjQ5MjkzaDQ3Ljc1OTQzNDN2LTM3LjE4MTMwM2wtMi4xMjI2NDEtNzYuNDg3MjUzLTEwLjYxMzIwOCA4LjQ5ODU4M3oiIGZpbGw9IiNmODlkMzUiLz48cGF0aCBkPSJtODcuMDI4MzAzMiAxOTEuMjE4MTM0IDg3LjAyODMwMjggMi4xMjQ2NDYtOS41NTE4ODYgNDQuNjE3NTYzLTQxLjM5MTUxMS0xMC42MjMyMjl6IiBmaWxsPSIjZDg3YzMwIi8+PHBhdGggZD0ibTg3LjAyODMwMzIgMTkyLjI4MDQ1NyAzNi4wODQ5MDU4IDMzLjk5NDMzNHYzMy45OTQzMzR6IiBmaWxsPSIjZWE4ZDNhIi8+PHBhdGggZD0ibTEyMy4xMTMyMDkgMjI3LjMzNzExNCA0Mi40NTI4MzEgMTAuNjIzMjI5IDEzLjc5NzE3IDQ1LjY3OTg4OC05LjU1MTg4NiA1LjMxMTYxNS00Ni42OTgxMTUtMjcuNjIwMzk4eiIgZmlsbD0iI2Y4OWQzNSIvPjxwYXRoIGQ9Im0xMjMuMTEzMjA5IDI2MS4zMzE0NDgtOC40OTA1NjUgNjUuODY0MDI0IDU2LjI1LTM5LjMwNTk0OXoiIGZpbGw9IiNlYjhmMzUiLz48cGF0aCBkPSJtMTc0LjA1NjYwNiAxOTMuMzQyNzggNS4zMDY2MDQgOTAuMjk3NDUxLTE1LjkxOTgxMi00Ni4yMTEwNDl6IiBmaWxsPSIjZWE4ZTNhIi8+PHBhdGggZD0ibTc0LjI5MjQ1MzkgMjYyLjM5Mzc3MSA0OC44MjA3NTUxLTEuMDYyMzIzLTguNDkwNTY1IDY1Ljg2NDAyNHoiIGZpbGw9IiNkODdjMzAiLz48cGF0aCBkPSJtMjQuNDEwMzc3NyAzNTUuODc4MTkzIDkwLjIxMjI2NjMtMjguNjgyNzIxLTQwLjMzMDE5MDEtNjQuODAxNzAxLTczLjIzMTEzMzEzIDUuMzExNjE2eiIgZmlsbD0iI2ViOGYzNSIvPjxwYXRoIGQ9Im0xNjcuNjg4NjgyIDExMC40ODE1ODgtNDUuNjM2NzkzIDM4LjI0MzYyNy0zNS4wMjM1ODU4IDQyLjQ5MjkxOSA4Ny4wMjgzMDI4IDMuMTg2OTY5eiIgZmlsbD0iI2U4ODIxZSIvPjxwYXRoIGQ9Im0xMTQuNjIyNjQ0IDMyNy4xOTU0NzIgNTYuMjUtMzkuMzA1OTQ5LTQuMjQ1MjgzIDMzLjk5NDMzNHYxOS4xMjE4MTNsLTM4LjIwNzU0OC03LjQzNjI2eiIgZmlsbD0iI2RmY2VjMyIvPjxwYXRoIGQ9Im0yMjkuMjQ1Mjg2IDMyNy4xOTU0NzIgNTUuMTg4NjgtMzkuMzA1OTQ5LTQuMjQ1MjgzIDMzLjk5NDMzNHYxOS4xMjE4MTNsLTM4LjIwNzU0OC03LjQzNjI2eiIgZmlsbD0iI2RmY2VjMyIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgNTEzLjY3OTI1MiAwKSIvPjxwYXRoIGQ9Im0xMzIuNjY1MDk2IDIxMi40NjQ1OTMtMTEuNjc0NTI4IDI0LjQzMzQyNyA0MS4zOTE1MS0xMC42MjMyMjl6IiBmaWxsPSIjMzkzOTM5IiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAyODMuMzcyNjQ2IDApIi8+PHBhdGggZD0ibTIzLjM0OTA1NyAxLjA2MjMyMjk2IDE0NC4zMzk2MjUgMTA5LjQxOTI2NTA0LTI0LjQxMDM3OC01OS40OTAwODU4eiIgZmlsbD0iI2U4OGYzNSIvPjxwYXRoIGQ9Im0yMy4zNDkwNTcgMS4wNjIzMjI5Ni0xOS4xMDM3NzM5MiA1OC40Mjc3NjI5NCAxMC42MTMyMDc3MiA2My43MzkzNzgxLTcuNDI5MjQ1NDEgNC4yNDkyOTIgMTAuNjEzMjA3NzEgOS41NjA5MDYtOC40OTA1NjYxNyA3LjQzNjI2MSAxMS42NzQ1Mjg0NyAxMC42MjMyMjktNy40MjkyNDU0IDYuMzczOTM4IDE2Ljk4MTEzMjMgMjEuMjQ2NDU5IDc5LjU5OTA1NzctMjQuNDMzNDI4YzM4LjkxNTA5Ni0zMS4xNjE0NzMgNTguMDE4ODY5LTQ3LjA5NjMxOCA1Ny4zMTEzMjItNDcuODA0NTMzLS43MDc1NDgtLjcwODIxNS00OC44MjA3NTYtMzcuMTgxMzAzNi0xNDQuMzM5NjI1LTEwOS40MTkyNjUwNHoiIGZpbGw9IiM4ZTVhMzAiLz48ZyB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAzOTkuMDU2NjExIDApIj48cGF0aCBkPSJtMzAuNzc4MzAyMyAxODEuNjU3MjI2LTI5LjcxNjk4MTUzIDg2LjA0ODE2MSA3NC4yOTI0NTM5My00LjI0OTI5M2g0Ny43NTk0MzQzdi0zNy4xODEzMDNsLTIuMTIyNjQxLTc2LjQ4NzI1My0xMC42MTMyMDggOC40OTg1ODN6IiBmaWxsPSIjZjg5ZDM1Ii8+PHBhdGggZD0ibTg3LjAyODMwMzIgMTkxLjIxODEzNCA4Ny4wMjgzMDI4IDIuMTI0NjQ2LTkuNTUxODg2IDQ0LjYxNzU2My00MS4zOTE1MTEtMTAuNjIzMjI5eiIgZmlsbD0iI2Q4N2MzMCIvPjxwYXRoIGQ9Im04Ny4wMjgzMDMyIDE5Mi4yODA0NTcgMzYuMDg0OTA1OCAzMy45OTQzMzR2MzMuOTk0MzM0eiIgZmlsbD0iI2VhOGQzYSIvPjxwYXRoIGQ9Im0xMjMuMTEzMjA5IDIyNy4zMzcxMTQgNDIuNDUyODMxIDEwLjYyMzIyOSAxMy43OTcxNyA0NS42Nzk4ODgtOS41NTE4ODYgNS4zMTE2MTUtNDYuNjk4MTE1LTI3LjYyMDM5OHoiIGZpbGw9IiNmODlkMzUiLz48cGF0aCBkPSJtMTIzLjExMzIwOSAyNjEuMzMxNDQ4LTguNDkwNTY1IDY1Ljg2NDAyNCA1NS4xODg2OC0zOC4yNDM2MjZ6IiBmaWxsPSIjZWI4ZjM1Ii8+PHBhdGggZD0ibTE3NC4wNTY2MDYgMTkzLjM0Mjc4IDUuMzA2NjA0IDkwLjI5NzQ1MS0xNS45MTk4MTItNDYuMjExMDQ5eiIgZmlsbD0iI2VhOGUzYSIvPjxwYXRoIGQ9Im03NC4yOTI0NTM5IDI2Mi4zOTM3NzEgNDguODIwNzU1MS0xLjA2MjMyMy04LjQ5MDU2NSA2NS44NjQwMjR6IiBmaWxsPSIjZDg3YzMwIi8+PHBhdGggZD0ibTI0LjQxMDM3NzcgMzU1Ljg3ODE5MyA5MC4yMTIyNjYzLTI4LjY4MjcyMS00MC4zMzAxOTAxLTY0LjgwMTcwMS03My4yMzExMzMxMyA1LjMxMTYxNnoiIGZpbGw9IiNlYjhmMzUiLz48cGF0aCBkPSJtMTY3LjY4ODY4MiAxMTAuNDgxNTg4LTQ1LjYzNjc5MyAzOC4yNDM2MjctMzUuMDIzNTg1OCA0Mi40OTI5MTkgODcuMDI4MzAyOCAzLjE4Njk2OXoiIGZpbGw9IiNlODgyMWUiLz48cGF0aCBkPSJtMTMyLjY2NTA5NiAyMTIuNDY0NTkzLTExLjY3NDUyOCAyNC40MzM0MjcgNDEuMzkxNTEtMTAuNjIzMjI5eiIgZmlsbD0iIzM5MzkzOSIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMjgzLjM3MjY0NiAwKSIvPjxwYXRoIGQ9Im0yMy4zNDkwNTcgMS4wNjIzMjI5NiAxNDQuMzM5NjI1IDEwOS40MTkyNjUwNC0yNC40MTAzNzgtNTkuNDkwMDg1OHoiIGZpbGw9IiNlODhmMzUiLz48cGF0aCBkPSJtMjMuMzQ5MDU3IDEuMDYyMzIyOTYtMTkuMTAzNzczOTIgNTguNDI3NzYyOTQgMTAuNjEzMjA3NzIgNjMuNzM5Mzc4MS03LjQyOTI0NTQxIDQuMjQ5MjkyIDEwLjYxMzIwNzcxIDkuNTYwOTA2LTguNDkwNTY2MTcgNy40MzYyNjEgMTEuNjc0NTI4NDcgMTAuNjIzMjI5LTcuNDI5MjQ1NCA2LjM3MzkzOCAxNi45ODExMzIzIDIxLjI0NjQ1OSA3OS41OTkwNTc3LTI0LjQzMzQyOGMzOC45MTUwOTYtMzEuMTYxNDczIDU4LjAxODg2OS00Ny4wOTYzMTggNTcuMzExMzIyLTQ3LjgwNDUzMy0uNzA3NTQ4LS43MDgyMTUtNDguODIwNzU2LTM3LjE4MTMwMzYtMTQ0LjMzOTYyNS0xMDkuNDE5MjY1MDR6IiBmaWxsPSIjOGU1YTMwIi8+PC9nPjwvZz48L3N2Zz4=",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
             "url": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxyYWRpYWxHcmFkaWVudCBpZD0iYSIgY3g9IjAlIiBjeT0iNTAlIiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM1ZDlkZjYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMDZmZmYiLz48L3JhZGlhbEdyYWRpZW50PjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0ibTI1NiAwYzE0MS4zODQ4OTYgMCAyNTYgMTE0LjYxNTEwNCAyNTYgMjU2cy0xMTQuNjE1MTA0IDI1Ni0yNTYgMjU2LTI1Ni0xMTQuNjE1MTA0LTI1Ni0yNTYgMTE0LjYxNTEwNC0yNTYgMjU2LTI1NnoiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJtNjQuNjkxNzU1OCAzNy43MDg4Mjk4YzUxLjUzMjgwNzItNTAuMjc4NDM5NyAxMzUuMDgzOTk0Mi01MC4yNzg0Mzk3IDE4Ni42MTY3OTkyIDBsNi4yMDIwNTcgNi4wNTEwOTA2YzIuNTc2NjQgMi41MTM5MjE4IDIuNTc2NjQgNi41ODk3OTQ4IDAgOS4xMDM3MTc3bC0yMS4yMTU5OTggMjAuNjk5NTc1OWMtMS4yODgzMjEgMS4yNTY5NjE5LTMuMzc3MSAxLjI1Njk2MTktNC42NjU0MjEgMGwtOC41MzQ3NjYtOC4zMjcwMjA1Yy0zNS45NTA1NzMtMzUuMDc1NDk2Mi05NC4yMzc5NjktMzUuMDc1NDk2Mi0xMzAuMTg4NTQ0IDBsLTkuMTQwMDI4MiA4LjkxNzU1MTljLTEuMjg4MzIxNyAxLjI1Njk2MDktMy4zNzcxMDE2IDEuMjU2OTYwOS00LjY2NTQyMDggMGwtMjEuMjE1OTk3My0yMC42OTk1NzU5Yy0yLjU3NjY0MDMtMi41MTM5MjI5LTIuNTc2NjQwMy02LjU4OTc5NTggMC05LjEwMzcxNzd6bTIzMC40OTM0ODUyIDQyLjgwODkxMTcgMTguODgyMjc5IDE4LjQyMjcyNjJjMi41NzY2MjcgMi41MTM5MTAzIDIuNTc2NjQyIDYuNTg5NzU5My4wMDAwMzIgOS4xMDM2ODYzbC04NS4xNDE0OTggODMuMDcwMzU4Yy0yLjU3NjYyMyAyLjUxMzk0MS02Ljc1NDE4MiAyLjUxMzk2OS05LjMzMDg0LjAwMDA2Ni0uMDAwMDEtLjAwMDAxLS4wMDAwMjMtLjAwMDAyMy0uMDAwMDMzLS4wMDAwMzRsLTYwLjQyODI1Ni01OC45NTc0NTFjLS42NDQxNi0uNjI4NDgxLTEuNjg4NTUtLjYyODQ4MS0yLjMzMjcxIDAtLjAwMDAwNC4wMDAwMDQtLjAwMDAwOC4wMDAwMDctLjAwMDAxMi4wMDAwMTFsLTYwLjQyNjk2ODMgNTguOTU3NDA4Yy0yLjU3NjYxNDEgMi41MTM5NDctNi43NTQxNzQ2IDIuNTEzOTktOS4zMzA4NDA4LjAwMDA5Mi0uMDAwMDE1MS0uMDAwMDE0LS4wMDAwMzA5LS4wMDAwMjktLjAwMDA0NjctLjAwMDA0NmwtODUuMTQzODY3NzQtODMuMDcxNDYzYy0yLjU3NjYzOTI4LTIuNTEzOTIxLTIuNTc2NjM5MjgtNi41ODk3OTUgMC05LjEwMzcxNjNsMTguODgyMzEyNjQtMTguNDIyNjk1NWMyLjU3NjYzOTMtMi41MTM5MjIyIDYuNzU0MTk5My0yLjUxMzkyMjIgOS4zMzA4Mzk3IDBsNjAuNDI5MTM0NyA1OC45NTgyNzU4Yy42NDQxNjA4LjYyODQ4IDEuNjg4NTQ5NS42Mjg0OCAyLjMzMjcxMDMgMCAuMDAwMDA5NS0uMDAwMDA5LjAwMDAxODItLjAwMDAxOC4wMDAwMjc3LS4wMDAwMjVsNjAuNDI2MTA2NS01OC45NTgyNTA4YzIuNTc2NTgxLTIuNTEzOTggNi43NTQxNDItMi41MTQwNzQzIDkuMzMwODQtLjAwMDIxMDMuMDAwMDM3LjAwMDAzNTQuMDAwMDcyLjAwMDA3MDkuMDAwMTA3LjAwMDEwNjNsNjAuNDI5MDU2IDU4Ljk1ODM1NDhjLjY0NDE1OS42Mjg0NzkgMS42ODg1NDkuNjI4NDc5IDIuMzMyNzA5IDBsNjAuNDI4MDc5LTU4Ljk1NzE5MjVjMi41NzY2NC0yLjUxMzkyMzEgNi43NTQxOTktMi41MTM5MjMxIDkuMzMwODM5IDB6IiBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk4IDE2MCkiLz48L2c+PC9zdmc+",
             "type": "image",
             "method": "GET",
@@ -1024,1152 +892,16 @@
             "requestContext": [
                 "https://wasabix.finance/#/app"
             ],
-            "url": "https://wasabix.finance/favicon.ico",
-            "type": "other",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAYAAACI7Fo9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAGhWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgMTE2LjE2NDc2NiwgMjAyMS8wMi8xOS0yMzoxMDowNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKE1hY2ludG9zaCkiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA2LTE3VDE2OjM0OjIyKzA4OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIxLTA2LTE3VDE2OjM0OjIyKzA4OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0wNi0xN1QxNjozNDoyMiswODowMCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5Y2JmMDY1Yi04OWIxLTRlMGYtOWQ3ZC1lN2MwYjY1ZTk2NDAiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDo0MzlkNzVmYi02YWRlLTUyNGYtOWNjMi04NWQ3MGI3Nzc5ZDYiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozMjhhODUxZi0zYmZmLTQxMTctOWZlMi0xNjEwNzBlZDI4Y2YiIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDozMjhhODUxZi0zYmZmLTQxMTctOWZlMi0xNjEwNzBlZDI4Y2YiIHN0RXZ0OndoZW49IjIwMjEtMDYtMTdUMTY6MzQ6MjIrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChNYWNpbnRvc2gpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo5Y2JmMDY1Yi04OWIxLTRlMGYtOWQ3ZC1lN2MwYjY1ZTk2NDAiIHN0RXZ0OndoZW49IjIwMjEtMDYtMTdUMTY6MzQ6MjIrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChNYWNpbnRvc2gpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8cGhvdG9zaG9wOkRvY3VtZW50QW5jZXN0b3JzPiA8cmRmOkJhZz4gPHJkZjpsaT4yQkU0MERBNjBCRTYxMEQxMjlBQkJCMERDNTY0MTY2QTwvcmRmOmxpPiA8cmRmOmxpPjQ4MjcyREJGQ0VCN0MyODlEQTBCN0RBNTJERjEzOUFGPC9yZGY6bGk+IDwvcmRmOkJhZz4gPC9waG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+K8CB0gAACZxJREFUeJzt3c2P3HYZB/DZbDbvTVsQilDEoVIFbQ9VJA4cqooT1x4QUv8i/heExAlx5fUAAvUCbQUCUSikFKpQSt432V0OfZ7G/OrZzGxm7NjP53N5vDPO7G8cP/7aY3t25+joaAHM26mxBwBs3+nvLn4w9hj41E5Tp+xCZ/pu1IMxBsKnJDoUcHrsAfDZxvZ08/OUk7079ktRPxljIHxKokMBEn18h1HzGHYOp0G6AeLY/Ckg0aEAiT6+3NiebeqUdd/DrdFGwWckOhQg0cfzbNSXo74S9StRd4cdzkZ1P2F/P+pbUf888FhYSHQoQaNDAXbdt6vv4pc83XQ16reififqq9se1ABudqZ/GDVPI34QdT/quah3tj2oyiQ6FCDRtys/UOu7gORK1NejziHJ0zOd6W9HfSfqT5t5L0Z9GHV/wcZJdChAom/XqaZ2XY764kBjGUseg385aq5ze83PQmeLLFwoQKKPJxPt0rFzzcf5qO1eznF7PWyIhQsFSPTx5HnlKp8yP3z8LGyLRIcCJPp4HkS9PeoohnM/6mHz+OGSx9kgiQ4FSPTxVUmyKu/zqSTRoQCNDgVodChAo0MBGh0K0OhQgEaHAjQ6FKDRoQCNDgVodChAo0MBGh0K0OhQgEaHAjQ6FKDRoQCNDgVodCjAd8YxlKOxB1CZRIcCNDoUoNGhAMfoDMUx+ogkOhQg0RnKztgDqEyiQwEaHQrQ6FCAY3SG4lP3EUl0KECjQwF23RmK02sjkuhQgEaHAjQ6FKDRoQCNDgVodChAo0MBGh0K0OhQgEaHAjQ6FKDRoQCNDgVodCjAbarM3Zmocwi1h01d2RzePPAYEp05utCZvhh1Duv6vag3o66c7BIdCpjDVg5a9zrTh1H3xhjIhhxEdYwOLCfRmaNznenzUeewrueeSu6lOEYHHpnDVg7SV6O+2nnsa1G/OPBYNimT+72obzf148e9gESHAiQ6U5TnyfOYNc+VX4v6ZmfeN6LOYV3/fdTvRb0RtZvouWxyL2B/sZDoUMIctnLUkdetZ4Lnp8+ZYi9HfWPxyJzW8Zeivhb151Hf7cyTy2a/WyU6FKDRoYA57dYwfxlM7a2n+fOVqHNfr1+IernnuTM9j0l0qGDuWz7mpQ2m3ebxswOOZUz5gdvusXN1SHQoQKIzB2vf5DFxeers4Ni5OiQ6FCDRmZLDpraP3x9wLGO6HbVvD6Z3GUl0KECiMydt0s/V2u9TokMBGh0K0OhQgEaHAjQ6FKDRoQCNDgVodCjABTMwL71/n02iQwESHeblVlQ3tUA1Gh0K0OhQgEaHAjQ6FKDRoQCNDgWc5Dx699/kn3/Z28BYxpLnGx9EvbdsRpgqiQ4FaHQo4CS77t2/1ph/A2oOl9LmLnvuyu8vmxGmRqJDASdJ4js901PeYFT5LnAKm3KDAitaJ9HPRX2+89jzzXNTlImet/fdiPrxCGOBrZDoUEBfou9EPYqaG4OXor7Wmfda1CubHdag8kKZP0T9ZdRfR/1n1J3FI0cLmBCJDgV0E32neSy/XC7PlV+L+mbn37y+nWGNIs8gXIp6PWomendZ5XH9wbYHBZsg0aGAvkTfjZqplZ+ovxh1TinedSHqN6L+qHl+tzOdy0qijyM/I7H8VyTRoYC+RM96qpnnC4OMaHxXo15sHt9ZMs1wMsnzvgT3I6xIokMB61wZN+Uvl1hH3p1nI/j0yTNB90cdxQRZmaEAjQ4FrLPrXmV3KS+ccfsqsyHRoYBVEr3aVyvdjfrg2LnYlIOmsgUSHQqYw5c6Mk15qiz3FH0mskUSHQqQ6Iwlk9w6OACJDgVodChAo0MBGh0K0OhQgEaHAjQ6FKDRoQCNDgVodChAo0MBGh0K0OhQgEaHAjQ6FKDRoQCNDgVodChAo0MBGh0K0OhQgEaHAjQ6FKDRoQCNDgVodChAo0MBGh0K0OhQgEaHAjQ6FOBvUw9vZ+wBUI9EhwIk+vD2ouayl/BsnUSHAiT6MJ7rTN+Lehj1aNihUJFEhwI0OhRg1307dqM+G3Wv81zuqh8uYCASHQqQ6NvRLtcHnWmn0xicRIcCJPqTyXRuT5HtR83j8N0FjEiiQwES/cmciXq/efyoqTAqiQ4FSPSTyWNz58KZBIkOBUj01XU/Ob8U9cMxBgLrkuhQgERf3eXO9P7SueApJNGhAI0OBdh1PxkXwjApEh0KkOjLtctGijNZEh0KkOiflxfGPBx1FLBBEh0KkOifN3SS+2optk6iQwES/fOGSthlX0MFGyfRoQCJPh7H5gxGokMBEn08NrIMxsoGBWh0KMCu+/AOorrElsFIdChAog+jeyrN980xOIkOBUj0YXQT/e5oo6AsiQ4FSPTt6rtxxTE6g5PoUIBE365M9Fudx9yWyuAkOhQg0bcrl++tY+eCLZPoUIBE3y7nzHkqSHQoQKNDAXbdtyP/2kvuutugMiorIBSwTqJXSf+zUZ9kI7gX9biLY/L1zx4zz5wMsf5UWUfPRF15HZXoUMDpxaNmb5v+ctQLUc8NMqLx5fvdax4/tWS6T9640r5GVz534Zh55mQTe0rLVNs7Oh/1uPXr/0h0KOD0YrE4jOnnol6Mmpdtuq1yfW5cGUeV4Fr7fVZZMFBa91PKPOebxzkPm/rfQUY0vhtR7zePHy6Z7rNKoufr5++7ssK/mbKbUc82Nb/+Oq896C67xy3ndr5PTja0yVm2ji4l0aGAbqI/iHovam4tcmPw16jvdf7NC1sa15h+G/XfzeP3OtOr/vGFTKu+hM/Xz9/3yoqvOTW5vrwf9T9RM4WfiXrcZ0L5BR75KfNB83z+31RZR9+OeqPnuXbZ7C0WEh1K6CZ6ptTtqO2WNbci3+889s2oVzc8riHl+34r6k+iftDMd7szvW6i9x1r5uvn78v/i683P0/R9c70z6L+LuqdqLl+PWx+7nPUzJNnhu43z899Hf1N1Fxn+j6TyOtdcg/97mIh0aEEjQ4F9O0etrtQ+XPuFnV3F34R9ZnFdOVu9UdR/xb1ejPfSS4cOmpqV77+j6P+MeqXok55I3yzM/2PqLlcl61fq8j/q5vN4/nB5js9z/8q6pTX0TwE/FfUv0T9e8+8vafBp7wyASta5wOfj5rKk8kk+1NTObkPm0qQ6FDASU7hdG+rzNvlpnwqKOVFF3kabdVTaE8ql12eMprD7cDdZZeXVt/pm3FLrKMNiQ4FnGQr13dzx6o3HzyN2vcw9Htpf29upae8EV7nBqChfn/pdXTKKxOwop2jI9+RAHMn0aGA/wGsHEEVFWtr/QAAAABJRU5ErkJggg==",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css",
-            "type": "stylesheet",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"lU+Iva0L/M9elz6CIYIWabdK+b8=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:08:23.446Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"b1100a6fc49449c998e990b8fe921af0\",\"init\":true,\"started\":\"2022-12-30T21:08:23.445Z\",\"timestamp\":\"2022-12-30T21:08:23.445Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/_89Jrc1EZKoZUuwwfRBye"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "url": "https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2",
             "type": "font",
             "method": "GET",
             "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"22x+BPhFJooAnbWq29O/q8fWiA0=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/_89Jrc1EZKoZUuwwfRBye"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"ne1DMtZSzKWK2ogtgudctA37YhQ=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/_89Jrc1EZKoZUuwwfRBye"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"kRq+F78w0UQqcTRjfhLUjiv/+Ow=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/_89Jrc1EZKoZUuwwfRBye"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"22x+BPhFJooAnbWq29O/q8fWiA0=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/_89Jrc1EZKoZUuwwfRBye/confirm-permissions"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:08:27.134Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"b1100a6fc49449c998e990b8fe921af0\",\"init\":false,\"started\":\"2022-12-30T21:08:23.445Z\",\"timestamp\":\"2022-12-30T21:08:27.134Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/_89Jrc1EZKoZUuwwfRBye/confirm-permissions"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:08:27.136Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"66d03a19de3c4c94997ab9b75d7c3222\",\"init\":true,\"started\":\"2022-12-30T21:08:27.134Z\",\"timestamp\":\"2022-12-30T21:08:27.134Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
+                "referer": "https://fonts.googleapis.com/",
                 "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    bundle(id: 1, ) {\\n                        ethPrice\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x896e145568624a498c5a909187363ae947631503\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    pair(id: \\\"0x8f9ef75cd6e610dd8acf8611c344573032fb9c3d\\\", ) {\\n                        id,token0 { id, name, symbol, totalSupply, derivedETH },token1 { id, name, symbol, totalSupply, derivedETH },reserve0,reserve1,totalSupply,reserveETH,reserveUSD,trackedReserveETH,token0Price,token1Price,volumeToken0,volumeToken1,volumeUSD,untrackedVolumeUSD,txCount\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x2260fac5e5542a773aa44fbcfedf7c193bc2c599\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x514910771af9ca656af840dff83e8264ecf986ca\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://liquity.wasabix.finance/api/stats/dashboard",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json, text/plain, */*",
-                "referer": "https://wasabix.finance/",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://liquity.wasabix.finance/api/stats/strategies?chainId=1",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json, text/plain, */*",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://liquity.wasabix.finance/api/stats/strategies/0x7e4ABd63A7C8314Cc28D388303472353D884f292?chainId=1",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json, text/plain, */*",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    bundle(id: 1, ) {\\n                        ethPrice\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x896e145568624a498c5a909187363ae947631503\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    pair(id: \\\"0x8f9ef75cd6e610dd8acf8611c344573032fb9c3d\\\", ) {\\n                        id,token0 { id, name, symbol, totalSupply, derivedETH },token1 { id, name, symbol, totalSupply, derivedETH },reserve0,reserve1,totalSupply,reserveETH,reserveUSD,trackedReserveETH,token0Price,token1Price,volumeToken0,volumeToken1,volumeUSD,untrackedVolumeUSD,txCount\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x2260fac5e5542a773aa44fbcfedf7c193bc2c599\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x514910771af9ca656af840dff83e8264ecf986ca\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    bundle(id: 1, ) {\\n                        ethPrice\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x896e145568624a498c5a909187363ae947631503\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    pair(id: \\\"0x8f9ef75cd6e610dd8acf8611c344573032fb9c3d\\\", ) {\\n                        id,token0 { id, name, symbol, totalSupply, derivedETH },token1 { id, name, symbol, totalSupply, derivedETH },reserve0,reserve1,totalSupply,reserveETH,reserveUSD,trackedReserveETH,token0Price,token1Price,volumeToken0,volumeToken1,volumeUSD,untrackedVolumeUSD,txCount\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x2260fac5e5542a773aa44fbcfedf7c193bc2c599\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x514910771af9ca656af840dff83e8264ecf986ca\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAYAAACI7Fo9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAGhWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgMTE2LjE2NDc2NiwgMjAyMS8wMi8xOS0yMzoxMDowNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKE1hY2ludG9zaCkiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA2LTE3VDE2OjMyOjA0KzA4OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIxLTA2LTE3VDE2OjMyOjA0KzA4OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0wNi0xN1QxNjozMjowNCswODowMCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDplODIyMDg5Ny0yNzhmLTQ4NzgtYjhiNi02NWJiZTUyNDE1NjEiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDo0ZTViZjY3MC01ZTk5LTUzNGUtYWJhOS05ZThmZjEyOTQ0NmYiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4ZjdkYTY2YS0wYzUyLTRmMDgtYmQ5MS00MjQ3NmJmMWEwYTIiIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo4ZjdkYTY2YS0wYzUyLTRmMDgtYmQ5MS00MjQ3NmJmMWEwYTIiIHN0RXZ0OndoZW49IjIwMjEtMDYtMTdUMTY6MzI6MDQrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChNYWNpbnRvc2gpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDplODIyMDg5Ny0yNzhmLTQ4NzgtYjhiNi02NWJiZTUyNDE1NjEiIHN0RXZ0OndoZW49IjIwMjEtMDYtMTdUMTY6MzI6MDQrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChNYWNpbnRvc2gpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8cGhvdG9zaG9wOkRvY3VtZW50QW5jZXN0b3JzPiA8cmRmOkJhZz4gPHJkZjpsaT4yQkU0MERBNjBCRTYxMEQxMjlBQkJCMERDNTY0MTY2QTwvcmRmOmxpPiA8cmRmOmxpPjQ4MjcyREJGQ0VCN0MyODlEQTBCN0RBNTJERjEzOUFGPC9yZGY6bGk+IDwvcmRmOkJhZz4gPC9waG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+1FW/YQAAFrFJREFUeJzt3XeYXNV9xvGvFokuRESvj+glEIocDET0jklQDBhkegAhkAlFgOkgmunFAYSAUIzoAgwYkA2Y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",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAYAAACI7Fo9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAGU2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgMTE2LjE2NDc2NiwgMjAyMS8wMi8xOS0yMzoxMDowNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKE1hY2ludG9zaCkiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA2LTE3VDE2OjMwOjU3KzA4OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIxLTA2LTE3VDE2OjMwOjU3KzA4OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0wNi0xN1QxNjozMDo1NyswODowMCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3ZTJiNjQ5YS05NGY3LTQzMjUtYTUyNS0yYTNhOTdkMGRiNDIiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDo1NDRjNTZlYS1kMzk0LTE3NDMtYjYxYi00MjVlNmI1NjYyZmQiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpjNzlmZDA3Zi0xZmE0LTRlNmQtOTRjNi1kNjllZmFjNzU5NjIiIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpjNzlmZDA3Zi0xZmE0LTRlNmQtOTRjNi1kNjllZmFjNzU5NjIiIHN0RXZ0OndoZW49IjIwMjEtMDYtMTdUMTY6MzA6NTcrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChNYWNpbnRvc2gpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo3ZTJiNjQ5YS05NGY3LTQzMjUtYTUyNS0yYTNhOTdkMGRiNDIiIHN0RXZ0OndoZW49IjIwMjEtMDYtMTdUMTY6MzA6NTcrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChNYWNpbnRvc2gpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8cGhvdG9zaG9wOkRvY3VtZW50QW5jZXN0b3JzPiA8cmRmOkJhZz4gPHJkZjpsaT40ODI3MkRCRkNFQjdDMjg5REEwQjdEQTUyREYxMzlBRjwvcmRmOmxpPiA8L3JkZjpCYWc+IDwvcGhvdG9zaG9wOkRvY3VtZW50QW5jZXN0b3JzPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnXwcLoAABpbSURBVHic7Z15tFxVlYe/l7wEkggmISQICQooIJiAIGGeZ1EQkUlAkKkZHCCg2ARsEAMqo9qiQis0ijMahAYBkUFAjKjITCAuBm3FViCGQBKS9/qPXeWrVGquu885t+7vW6vWq3ffrX12varfHc7Z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",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:08:28.362Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"66d03a19de3c4c94997ab9b75d7c3222\",\"init\":false,\"started\":\"2022-12-30T21:08:27.134Z\",\"timestamp\":\"2022-12-30T21:08:28.362Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:08:28.363Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8430600b618f4e628471a402ee563924\",\"init\":true,\"started\":\"2022-12-30T21:08:28.362Z\",\"timestamp\":\"2022-12-30T21:08:28.362Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAYAAACI7Fo9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAGhWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgMTE2LjE2NDc2NiwgMjAyMS8wMi8xOS0yMzoxMDowNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKE1hY2ludG9zaCkiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA2LTE3VDE2OjM0OjIyKzA4OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIxLTA2LTE3VDE2OjM0OjIyKzA4OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0wNi0xN1QxNjozNDoyMiswODowMCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5Y2JmMDY1Yi04OWIxLTRlMGYtOWQ3ZC1lN2MwYjY1ZTk2NDAiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDo0MzlkNzVmYi02YWRlLTUyNGYtOWNjMi04NWQ3MGI3Nzc5ZDYiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozMjhhODUxZi0zYmZmLTQxMTctOWZlMi0xNjEwNzBlZDI4Y2YiIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDozMjhhODUxZi0zYmZmLTQxMTctOWZlMi0xNjEwNzBlZDI4Y2YiIHN0RXZ0OndoZW49IjIwMjEtMDYtMTdUMTY6MzQ6MjIrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChNYWNpbnRvc2gpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo5Y2JmMDY1Yi04OWIxLTRlMGYtOWQ3ZC1lN2MwYjY1ZTk2NDAiIHN0RXZ0OndoZW49IjIwMjEtMDYtMTdUMTY6MzQ6MjIrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChNYWNpbnRvc2gpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8cGhvdG9zaG9wOkRvY3VtZW50QW5jZXN0b3JzPiA8cmRmOkJhZz4gPHJkZjpsaT4yQkU0MERBNjBCRTYxMEQxMjlBQkJCMERDNTY0MTY2QTwvcmRmOmxpPiA8cmRmOmxpPjQ4MjcyREJGQ0VCN0MyODlEQTBCN0RBNTJERjEzOUFGPC9yZGY6bGk+IDwvcmRmOkJhZz4gPC9waG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+K8CB0gAACZxJREFUeJzt3c2P3HYZB/DZbDbvTVsQilDEoVIFbQ9VJA4cqooT1x4QUv8i/heExAlx5fUAAvUCbQUCUSik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",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://liquity.wasabix.finance/api/stats/dashboard",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json, text/plain, */*",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://liquity.wasabix.finance/api/stats/strategies?chainId=1",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json, text/plain, */*",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://liquity.wasabix.finance/api/stats/strategies/0x7e4ABd63A7C8314Cc28D388303472353D884f292?chainId=1",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json, text/plain, */*",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    bundle(id: 1, ) {\\n                        ethPrice\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x896e145568624a498c5a909187363ae947631503\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    pair(id: \\\"0x8f9ef75cd6e610dd8acf8611c344573032fb9c3d\\\", ) {\\n                        id,token0 { id, name, symbol, totalSupply, derivedETH },token1 { id, name, symbol, totalSupply, derivedETH },reserve0,reserve1,totalSupply,reserveETH,reserveUSD,trackedReserveETH,token0Price,token1Price,volumeToken0,volumeToken1,volumeUSD,untrackedVolumeUSD,txCount\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x2260fac5e5542a773aa44fbcfedf7c193bc2c599\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x514910771af9ca656af840dff83e8264ecf986ca\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://liquity.wasabix.finance/api/stats/dashboard",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json, text/plain, */*",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://liquity.wasabix.finance/api/stats/strategies?chainId=1",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json, text/plain, */*",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://liquity.wasabix.finance/api/stats/strategies/0x7e4ABd63A7C8314Cc28D388303472353D884f292?chainId=1",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "application/json, text/plain, */*",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    bundle(id: 1, ) {\\n                        ethPrice\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x896e145568624a498c5a909187363ae947631503\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    pair(id: \\\"0x8f9ef75cd6e610dd8acf8611c344573032fb9c3d\\\", ) {\\n                        id,token0 { id, name, symbol, totalSupply, derivedETH },token1 { id, name, symbol, totalSupply, derivedETH },reserve0,reserve1,totalSupply,reserveETH,reserveUSD,trackedReserveETH,token0Price,token1Price,volumeToken0,volumeToken1,volumeUSD,untrackedVolumeUSD,txCount\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x2260fac5e5542a773aa44fbcfedf7c193bc2c599\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [
-                "https://wasabix.finance/#/app"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "xhr",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://wasabix.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"query\":\"{\\n                    token(id: \\\"0x514910771af9ca656af840dff83e8264ecf986ca\\\", ) {\\n                        id,symbol,name,decimals,totalSupply,volume,volumeUSD,untrackedVolumeUSD,txCount,liquidity,derivedETH\\n                    }\\n                }\"}"
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/name/sushiswap/exchange",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://wasabix.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
             }
         }
     ],

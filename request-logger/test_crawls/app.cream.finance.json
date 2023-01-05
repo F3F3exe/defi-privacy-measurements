@@ -1,333 +1,20 @@
 {
-    "url": "https://app.cream.finance",
+    "url": "https://app.cream.finance/",
     "arguments": {
         "printFrameHierarchy": true,
         "debugLevel": "verbose",
         "headless": false,
-        "secs": 45,
-        "url": "https://app.cream.finance",
+        "secs": 15,
+        "url": "https://app.cream.finance/",
         "metamaskPath": "metamask-chrome-10.22.2",
         "destination": "test_crawls",
         "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
     },
     "timestamps": {
-        "start": 1672430803199,
-        "end": 1672430864840
+        "start": 1672937294896,
+        "end": 1672937319734
     },
     "requests": [
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css",
-            "type": "stylesheet",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:46.516Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"3c4f5db5839c4fadabbff0152dbba3d5\",\"init\":true,\"started\":\"2022-12-30T20:06:46.515Z\",\"timestamp\":\"2022-12-30T20:06:46.515Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:48.773Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"3c4f5db5839c4fadabbff0152dbba3d5\",\"init\":false,\"started\":\"2022-12-30T20:06:46.515Z\",\"timestamp\":\"2022-12-30T20:06:48.772Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:48.775Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"bcca656d3a8548288bd9c68906d88715\",\"init\":true,\"started\":\"2022-12-30T20:06:48.772Z\",\"timestamp\":\"2022-12-30T20:06:48.772Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:48.906Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"bcca656d3a8548288bd9c68906d88715\",\"init\":false,\"started\":\"2022-12-30T20:06:48.772Z\",\"timestamp\":\"2022-12-30T20:06:48.905Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:48.907Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"054ca73255bd476b9e0222e918cb359c\",\"init\":true,\"started\":\"2022-12-30T20:06:48.905Z\",\"timestamp\":\"2022-12-30T20:06:48.905Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/metrics-chart.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/select-action"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:49.143Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"054ca73255bd476b9e0222e918cb359c\",\"init\":false,\"started\":\"2022-12-30T20:06:48.905Z\",\"timestamp\":\"2022-12-30T20:06:49.142Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/select-action"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:49.144Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"67150b67950a45cb8818db93efb99e7d\",\"init\":true,\"started\":\"2022-12-30T20:06:49.142Z\",\"timestamp\":\"2022-12-30T20:06:49.142Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:49.228Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"67150b67950a45cb8818db93efb99e7d\",\"init\":false,\"started\":\"2022-12-30T20:06:49.142Z\",\"timestamp\":\"2022-12-30T20:06:49.227Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:49.229Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1403190151a74a5ea8a4bca1ab5c802d\",\"init\":true,\"started\":\"2022-12-30T20:06:49.227Z\",\"timestamp\":\"2022-12-30T20:06:49.227Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Roboto/Roboto-Regular.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-regular-400.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/end-of-flow"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:52.941Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1403190151a74a5ea8a4bca1ab5c802d\",\"init\":false,\"started\":\"2022-12-30T20:06:49.227Z\",\"timestamp\":\"2022-12-30T20:06:52.940Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/end-of-flow"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:52.942Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f1df578c2efa40c8bfebcb4b96096177\",\"init\":true,\"started\":\"2022-12-30T20:06:52.940Z\",\"timestamp\":\"2022-12-30T20:06:52.940Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
         {
             "requestContext": [
                 "about:blank"
@@ -341,52 +28,6 @@
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
                 "sec-ch-ua-mobile": "?0",
                 "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:53.151Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f1df578c2efa40c8bfebcb4b96096177\",\"init\":false,\"started\":\"2022-12-30T20:06:52.940Z\",\"timestamp\":\"2022-12-30T20:06:53.150Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:06:53.152Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a369c31282b547f7b5f645327b814d16\",\"init\":true,\"started\":\"2022-12-30T20:06:53.150Z\",\"timestamp\":\"2022-12-30T20:06:53.150Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/eth_logo.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
             }
         },
         {
@@ -676,7 +317,7 @@
             "requestContext": [
                 "https://app.cream.finance/"
             ],
-            "url": "https://app.cream.finance/static/js/63.9f85daff.chunk.js",
+            "url": "https://app.cream.finance/static/js/56.464bfde8.chunk.js",
             "type": "script",
             "method": "GET",
             "headers": {
@@ -691,7 +332,7 @@
             "requestContext": [
                 "https://app.cream.finance/"
             ],
-            "url": "https://app.cream.finance/static/js/56.464bfde8.chunk.js",
+            "url": "https://app.cream.finance/static/js/63.9f85daff.chunk.js",
             "type": "script",
             "method": "GET",
             "headers": {
@@ -838,20 +479,6 @@
             }
         },
         {
-            "requestContext": [],
-            "url": "https://cloudflare-eth.com/",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://app.cream.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
             "requestContext": [
                 "https://app.cream.finance/"
             ],
@@ -886,34 +513,6 @@
             "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
         },
         {
-            "requestContext": [],
-            "url": "https://rpc.goerli.mudit.blog/",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://app.cream.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://cloudflare-eth.com/",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://app.cream.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
             "requestContext": [
                 "https://app.cream.finance/"
             ],
@@ -929,20 +528,6 @@
                 "content-type": "application/json"
             },
             "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
-        },
-        {
-            "requestContext": [],
-            "url": "https://bsc-dataseed1.binance.org/",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://app.cream.finance",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
         },
         {
             "requestContext": [
@@ -996,6 +581,113 @@
             "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
         },
         {
+            "requestContext": [
+                "https://app.cream.finance/"
+            ],
+            "url": "https://arb1.arbitrum.io/rpc",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.cream.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.cream.finance/"
+            ],
+            "url": "https://api.avax.network/ext/bc/C/rpc",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.cream.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.cream.finance/"
+            ],
+            "url": "https://api.avax-test.network/ext/bc/C/rpc",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.cream.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://cloudflare-eth.com/",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.cream.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://rpc.goerli.mudit.blog/",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.cream.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://cloudflare-eth.com/",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.cream.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://bsc-dataseed1.binance.org/",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.cream.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
             "requestContext": [],
             "url": "https://rpc-mainnet.matic.quiknode.pro/",
             "type": "other",
@@ -1024,23 +716,6 @@
             }
         },
         {
-            "requestContext": [
-                "https://app.cream.finance/"
-            ],
-            "url": "https://arb1.arbitrum.io/rpc",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://app.cream.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
-        },
-        {
             "requestContext": [],
             "url": "https://arb1.arbitrum.io/rpc",
             "type": "other",
@@ -1053,40 +728,6 @@
                 "sec-fetch-mode": "cors",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
             }
-        },
-        {
-            "requestContext": [
-                "https://app.cream.finance/"
-            ],
-            "url": "https://api.avax.network/ext/bc/C/rpc",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://app.cream.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
-        },
-        {
-            "requestContext": [
-                "https://app.cream.finance/"
-            ],
-            "url": "https://api.avax-test.network/ext/bc/C/rpc",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://app.cream.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
         },
         {
             "requestContext": [],
@@ -1115,38 +756,6 @@
                 "sec-fetch-mode": "cors",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
             }
-        },
-        {
-            "requestContext": [
-                "https://app.cream.finance/"
-            ],
-            "url": "https://app.cream.finance/favicon.ico",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://app.cream.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "ping",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{}\n{\"type\":\"client_report\"}\n{\"timestamp\":1672430814.191,\"discarded_events\":[{\"reason\":\"network_error\",\"category\":\"session\",\"quantity\":3}]}"
         },
         {
             "requestContext": [
@@ -1167,7 +776,7 @@
             "requestContext": [
                 "https://app.cream.finance/"
             ],
-            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MPBTENM7W4&gtm=2oebu0&_p=733102021&cid=1130410432.1672430814&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_s=1&sid=1672430814&sct=1&seg=0&dl=https%3A%2F%2Fapp.cream.finance%2F&dt=C.R.E.A.M.&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&epn.siteSpeedSampleRate=100",
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MPBTENM7W4&gtm=2oebu0&_p=61325544&cid=418120356.1672937300&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_s=1&sid=1672937299&sct=1&seg=0&dl=https%3A%2F%2Fapp.cream.finance%2F&dt=C.R.E.A.M.&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&epn.siteSpeedSampleRate=100",
             "type": "ping",
             "method": "POST",
             "headers": {
@@ -1240,23 +849,6 @@
             }
         },
         {
-            "requestContext": [
-                "https://app.cream.finance/"
-            ],
-            "url": "https://cloudflare-eth.com/",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://app.cream.finance/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            },
-            "postData": "{\"method\":\"eth_call\",\"params\":[{\"to\":\"0x04c762a5df2fa02fe868f25359e0c259fb811cfe\",\"data\":\"0x4b70d84b0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000005b000000000000000000000000d06527d5e56a3495252a528c4987003b712860ee000000000000000000000000797aab1ce7c01eb727ab980762ba88e7133d215700000000000000000000000044fbebd2f576670a6c33f6fc0b00aa8c5753b32200000000000000000000000019d1666f543d42ef17f66e376944a22aea1a8e46000000000000000000000000ce4fe9b4b8ff61949dcfeb7e03bc9faca59d2eb3000000000000000000000000cbae0a83f4f9926997c8339545fb8ee32edc6b760000000000000000000000009baf8a5236d44ac410c0186fe39178d5aad0bb87000000000000000000000000697256caa3ccafd62bb6d3aa1c7c5671786a5fd90000000000000000000000008b86e0598616a8d4f1fdae8b59e55fb5bc33d0d6000000000000000000000000c7fd8dcee4697ceef5a2fd4608a7bd6a94c7748000000000000000000000000017107f40d70f4470d20cb3f138a052cae8ebd4be0000000000000000000000001ff8cdb51219a8838b52e9cac09b71e591bc998e0000000000000000000000003623387773010d9214b10c551d6e7fc375d31f580000000000000000000000004ee15f44c6f0d8d1136c83efd2e8e4ac768954c6000000000000000000000000338286c0bc081891a4bda39c7667ae150bf5d20600000000000000000000000010fdbd1e48ee2fd9336a482d746138ae19e649db00000000000000000000000001da76dea59703578040012357b81ffe62015c2d000000000000000000000000ef58b2d5a1b8d3cde67b8ab054dc5c831e9bc025000000000000000000000000e89a6d0509faf730bd707bf868d9a2a744a363c7000000000000000000000000eff039c3c1d668f408d09dd7b63008622a77532c00000000000000000000000022b243b96495c547598d9042b6f94b01c22b2e9e0000000000000000000000008b3ff1ed4f36c2c2be675afb13cc3aa5d73685a50000000000000000000000002a537fa9ffaea8c1a41d3c2b68a9cb791529366d0000000000000000000000007ea9c63e216d5565c3940a2b3d150e59c2907db30000000000000000000000003225e3c669b39c7c8b3e204a8614bb218c5e31bc000000000000000000000000f55bbe0255f7f4e70f63837ff72a577fbddbe924000000000000000000000000903560b1cce601794c584f58898da8a8b789fc5d000000000000000000000000054b7ed3f45714d3091e82aad64a1588dc4096ed000000000000000000000000d5103afcd0b3fa865997ef2984c66742c51b2a8b000000000000000000000000fd609a03b393f1a1cfcacedabf068cad09a924e2000000000000000000000000d692ac3245bb82319a31068d6b8412796ee85d2c00000000000000000000000092b767185fb3b04f881e3ac8e5b0662a027a1d9f00000000000000000000000010a3da2bb0fae4d591476fd97d6636fd172923a80000000000000000000000003c6c553a95910f9fc81c98784736bd628636d29600000000000000000000000021011bc93d9e515b9511a817a1ed1d6d468f49fc00000000000000000000000085759961b116f1d36fd697855c57a6ae40793d9b0000000000000000000000007aaa323d7e398be4128c7042d197a2545f0f1fea000000000000000000000000011a014d5e8eb4771e575bb1000318d509230afa000000000000000000000000e6c3120f38f56deb38b69b65cc7dcaf9163739630000000000000000000000004fe11bc316b6d7a345493127fbe298b95adaad85000000000000000000000000cd22c4110c12ac41acefa0091c432ef44efaafa0000000000000000000000000228619cca194fbe3ebeb2f835ec1ea5080dafbb200000000000000000000000073f6cba38922960b7092175c0add22ab8d0e81fc00000000000000000000000038f27c03d6609a86ff7716ad03038881320be4ad0000000000000000000000005ecad8a75216cea7dff978525b2d523a251eea920000000000000000000000005c291bc83d15f71fb37805878161718ea4b6aee90000000000000000000000006ba0c66c48641e220cf78177c144323b3838d375000000000000000000000000d532944df6dfd5dd629e8772f03d4fc861873abf000000000000000000000000197070723ce0d3810a0e47f06e935c30a480d4fc000000000000000000000000c25eae724f189ba9030b2556a1533e7c8a732e1400000000000000000000000025555933a8246ab67cbf907ce3d1949884e82b55000000000000000000000000c68251421edda00a10815e273fa4b1191fac651b00000000000000000000000065883978ada0e707c3b2be2a6825b1c4bdf76a900000000000000000000000008b950f43fcac4931d408f1fcda55c6cb6cbf309600000000000000000000000059089279987dd76fc65bf94cb40e186b96e03cb30000000000000000000000002db6c82ce72c8d7d770ba1b5f5ed0b6e075066d6000000000000000000000000b092b4601850e23903a42eacbc9d8a0eec26a4d50000000000000000000000001d0986fb43985c88ffa9ad959cc24e6a087c7e3500000000000000000000000051f48b638f82e8765f7a26373a2cb4ccb10c07af000000000000000000000000c36080892c64821fa8e396bc1bd8678fa3b82b170000000000000000000000008379baa817c5c5ab929b03ee8e3c48e45018ae41000000000000000000000000299e254a8a165bbeb76d9d69305013329eea3a3b000000000000000000000000f8445c529d363ce114148662387eba5e62016e200000000000000000000000007c3297cfb4c4bbd5f44b450c0872e0ada5203112000000000000000000000000081fe64df6dc6fc70043aedf3713a3ce6f190a2100000000000000000000000028526bb33d7230e65e735db64296413731c5402e00000000000000000000000045406ba53bb84cd32a58e7098a2d4d1b11b107f60000000000000000000000006d1b9e01af17dd08d6dec08e210dfd5984ff1c200000000000000000000000001f9b4756b008106c806c7e64322d7ed3b72cb284000000000000000000000000ab10586c918612ba440482db77549d26b7abf8f7000000000000000000000000dfff11dfe6436e42a17b86e7f419ac8292990393000000000000000000000000dbb5e3081def4b6cdd8864ac2aeda4cbf778fecf00000000000000000000000071cefcd324b732d4e058afacba040d908c4418470000000000000000000000001a122348b73b58ea39f822a89e6ec67950c2bbd0000000000000000000000000523effc8bfefc2948211a05a905f761cba5e8e9e0000000000000000000000004202d97e00b9189936edf37f8d01cff88bdd81d40000000000000000000000004baa77013ccd6705ab0522853cb0e9d453579dd400000000000000000000000098e329eb5aae2125af273102f3440de19094b77c0000000000000000000000008c3b7a4320ba70f8239f83770c4015b5bc4e6f91000000000000000000000000e585c76573d7593abf21537b607091f76c996e7300000000000000000000000081e346729723c4d15d0fb1c5679b9f2926ff13c6000000000000000000000000766175eac1a99c969ddd1ebdbe7e270d508d8fff000000000000000000000000d7394428536f63d5659cc869ef69d10f9e66314b0000000000000000000000001241b10e7ea55b22f5b2d007e8fecdf73dcff9990000000000000000000000002a867fd776b83e1bd4e13c6611afd2f6af07ea6d000000000000000000000000250fb308199fe8c5220509c1bf83d21d60b7f74a00000000000000000000000058da9c9fc3eb30abbcbbab5ddabb1e6e2ef3d2ef00000000000000000000000089e42987c39f72e2ead95a8a5bc92114323d5828000000000000000000000000f04ce2e71d32d789a259428ddcd02d3c9f97fb4e0000000000000000000000004112a717edd051f77d834a6703a1ef5e3d73387f000000000000000000000000d37295796c8b885783bd0a4a6c890e3ddeae6705\"},\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}"
-        },
-        {
             "requestContext": [],
             "url": "https://cloudflare-eth.com/",
             "type": "other",
@@ -1274,7 +866,24 @@
             "requestContext": [
                 "https://app.cream.finance/"
             ],
-            "url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&a=733102021&t=pageview&_s=1&dl=https%3A%2F%2Fapp.cream.finance%2F&ul=en-us&de=UTF-8&dt=C.R.E.A.M.&sd=24-bit&sr=1280x960&vp=1199x813&je=0&_u=YADAAUABAAAAACAAI~&jid=464875056&gjid=1694486199&cid=1130410432.1672430814&tid=UA-206598240-1&_gid=708727130.1672430815&_r=1&gtm=2oubu0&z=1254099379",
+            "url": "https://cloudflare-eth.com/",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.cream.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_call\",\"params\":[{\"to\":\"0x04c762a5df2fa02fe868f25359e0c259fb811cfe\",\"data\":\"0x4b70d84b0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000005b000000000000000000000000d06527d5e56a3495252a528c4987003b712860ee000000000000000000000000797aab1ce7c01eb727ab980762ba88e7133d215700000000000000000000000044fbebd2f576670a6c33f6fc0b00aa8c5753b32200000000000000000000000019d1666f543d42ef17f66e376944a22aea1a8e46000000000000000000000000ce4fe9b4b8ff61949dcfeb7e03bc9faca59d2eb3000000000000000000000000cbae0a83f4f9926997c8339545fb8ee32edc6b760000000000000000000000009baf8a5236d44ac410c0186fe39178d5aad0bb87000000000000000000000000697256caa3ccafd62bb6d3aa1c7c5671786a5fd90000000000000000000000008b86e0598616a8d4f1fdae8b59e55fb5bc33d0d6000000000000000000000000c7fd8dcee4697ceef5a2fd4608a7bd6a94c7748000000000000000000000000017107f40d70f4470d20cb3f138a052cae8ebd4be0000000000000000000000001ff8cdb51219a8838b52e9cac09b71e591bc998e0000000000000000000000003623387773010d9214b10c551d6e7fc375d31f580000000000000000000000004ee15f44c6f0d8d1136c83efd2e8e4ac768954c6000000000000000000000000338286c0bc081891a4bda39c7667ae150bf5d20600000000000000000000000010fdbd1e48ee2fd9336a482d746138ae19e649db00000000000000000000000001da76dea59703578040012357b81ffe62015c2d000000000000000000000000ef58b2d5a1b8d3cde67b8ab054dc5c831e9bc025000000000000000000000000e89a6d0509faf730bd707bf868d9a2a744a363c7000000000000000000000000eff039c3c1d668f408d09dd7b63008622a77532c00000000000000000000000022b243b96495c547598d9042b6f94b01c22b2e9e0000000000000000000000008b3ff1ed4f36c2c2be675afb13cc3aa5d73685a50000000000000000000000002a537fa9ffaea8c1a41d3c2b68a9cb791529366d0000000000000000000000007ea9c63e216d5565c3940a2b3d150e59c2907db30000000000000000000000003225e3c669b39c7c8b3e204a8614bb218c5e31bc000000000000000000000000f55bbe0255f7f4e70f63837ff72a577fbddbe924000000000000000000000000903560b1cce601794c584f58898da8a8b789fc5d000000000000000000000000054b7ed3f45714d3091e82aad64a1588dc4096ed000000000000000000000000d5103afcd0b3fa865997ef2984c66742c51b2a8b000000000000000000000000fd609a03b393f1a1cfcacedabf068cad09a924e2000000000000000000000000d692ac3245bb82319a31068d6b8412796ee85d2c00000000000000000000000092b767185fb3b04f881e3ac8e5b0662a027a1d9f00000000000000000000000010a3da2bb0fae4d591476fd97d6636fd172923a80000000000000000000000003c6c553a95910f9fc81c98784736bd628636d29600000000000000000000000021011bc93d9e515b9511a817a1ed1d6d468f49fc00000000000000000000000085759961b116f1d36fd697855c57a6ae40793d9b0000000000000000000000007aaa323d7e398be4128c7042d197a2545f0f1fea000000000000000000000000011a014d5e8eb4771e575bb1000318d509230afa000000000000000000000000e6c3120f38f56deb38b69b65cc7dcaf9163739630000000000000000000000004fe11bc316b6d7a345493127fbe298b95adaad85000000000000000000000000cd22c4110c12ac41acefa0091c432ef44efaafa0000000000000000000000000228619cca194fbe3ebeb2f835ec1ea5080dafbb200000000000000000000000073f6cba38922960b7092175c0add22ab8d0e81fc00000000000000000000000038f27c03d6609a86ff7716ad03038881320be4ad0000000000000000000000005ecad8a75216cea7dff978525b2d523a251eea920000000000000000000000005c291bc83d15f71fb37805878161718ea4b6aee90000000000000000000000006ba0c66c48641e220cf78177c144323b3838d375000000000000000000000000d532944df6dfd5dd629e8772f03d4fc861873abf000000000000000000000000197070723ce0d3810a0e47f06e935c30a480d4fc000000000000000000000000c25eae724f189ba9030b2556a1533e7c8a732e1400000000000000000000000025555933a8246ab67cbf907ce3d1949884e82b55000000000000000000000000c68251421edda00a10815e273fa4b1191fac651b00000000000000000000000065883978ada0e707c3b2be2a6825b1c4bdf76a900000000000000000000000008b950f43fcac4931d408f1fcda55c6cb6cbf309600000000000000000000000059089279987dd76fc65bf94cb40e186b96e03cb30000000000000000000000002db6c82ce72c8d7d770ba1b5f5ed0b6e075066d6000000000000000000000000b092b4601850e23903a42eacbc9d8a0eec26a4d50000000000000000000000001d0986fb43985c88ffa9ad959cc24e6a087c7e3500000000000000000000000051f48b638f82e8765f7a26373a2cb4ccb10c07af000000000000000000000000c36080892c64821fa8e396bc1bd8678fa3b82b170000000000000000000000008379baa817c5c5ab929b03ee8e3c48e45018ae41000000000000000000000000299e254a8a165bbeb76d9d69305013329eea3a3b000000000000000000000000f8445c529d363ce114148662387eba5e62016e200000000000000000000000007c3297cfb4c4bbd5f44b450c0872e0ada5203112000000000000000000000000081fe64df6dc6fc70043aedf3713a3ce6f190a2100000000000000000000000028526bb33d7230e65e735db64296413731c5402e00000000000000000000000045406ba53bb84cd32a58e7098a2d4d1b11b107f60000000000000000000000006d1b9e01af17dd08d6dec08e210dfd5984ff1c200000000000000000000000001f9b4756b008106c806c7e64322d7ed3b72cb284000000000000000000000000ab10586c918612ba440482db77549d26b7abf8f7000000000000000000000000dfff11dfe6436e42a17b86e7f419ac8292990393000000000000000000000000dbb5e3081def4b6cdd8864ac2aeda4cbf778fecf00000000000000000000000071cefcd324b732d4e058afacba040d908c4418470000000000000000000000001a122348b73b58ea39f822a89e6ec67950c2bbd0000000000000000000000000523effc8bfefc2948211a05a905f761cba5e8e9e0000000000000000000000004202d97e00b9189936edf37f8d01cff88bdd81d40000000000000000000000004baa77013ccd6705ab0522853cb0e9d453579dd400000000000000000000000098e329eb5aae2125af273102f3440de19094b77c0000000000000000000000008c3b7a4320ba70f8239f83770c4015b5bc4e6f91000000000000000000000000e585c76573d7593abf21537b607091f76c996e7300000000000000000000000081e346729723c4d15d0fb1c5679b9f2926ff13c6000000000000000000000000766175eac1a99c969ddd1ebdbe7e270d508d8fff000000000000000000000000d7394428536f63d5659cc869ef69d10f9e66314b0000000000000000000000001241b10e7ea55b22f5b2d007e8fecdf73dcff9990000000000000000000000002a867fd776b83e1bd4e13c6611afd2f6af07ea6d000000000000000000000000250fb308199fe8c5220509c1bf83d21d60b7f74a00000000000000000000000058da9c9fc3eb30abbcbbab5ddabb1e6e2ef3d2ef00000000000000000000000089e42987c39f72e2ead95a8a5bc92114323d5828000000000000000000000000f04ce2e71d32d789a259428ddcd02d3c9f97fb4e0000000000000000000000004112a717edd051f77d834a6703a1ef5e3d73387f000000000000000000000000d37295796c8b885783bd0a4a6c890e3ddeae6705\"},\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.cream.finance/"
+            ],
+            "url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&a=61325544&t=pageview&_s=1&dl=https%3A%2F%2Fapp.cream.finance%2F&ul=en-us&de=UTF-8&dt=C.R.E.A.M.&sd=24-bit&sr=1280x960&vp=1265x751&je=0&_u=YADAAUABAAAAACAAI~&jid=890546774&gjid=1945906935&cid=418120356.1672937300&tid=UA-206598240-1&_gid=868758253.1672937300&_r=1&gtm=2oubu0&z=567240142",
             "type": "xhr",
             "method": "POST",
             "headers": {
@@ -1290,7 +899,7 @@
             "requestContext": [
                 "https://app.cream.finance/"
             ],
-            "url": "https://www.google-analytics.com/collect?v=1&_v=j98&a=733102021&t=pageview&_s=2&dl=https%3A%2F%2Fapp.cream.finance%2F&ul=en-us&de=UTF-8&dt=C.R.E.A.M.&sd=24-bit&sr=1280x960&vp=1199x813&je=0&_u=YADAAUABAAAAACAAI~&jid=&gjid=&cid=1130410432.1672430814&tid=UA-206598240-1&_gid=708727130.1672430815&gtm=2oubu0&z=72424319",
+            "url": "https://www.google-analytics.com/collect?v=1&_v=j98&a=61325544&t=pageview&_s=2&dl=https%3A%2F%2Fapp.cream.finance%2F&ul=en-us&de=UTF-8&dt=C.R.E.A.M.&sd=24-bit&sr=1280x960&vp=1265x751&je=0&_u=YADAAUABAAAAACAAI~&jid=&gjid=&cid=418120356.1672937300&tid=UA-206598240-1&_gid=868758253.1672937300&gtm=2oubu0&z=948481352",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1350,7 +959,7 @@
             "requestContext": [
                 "https://app.cream.finance/"
             ],
-            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MPBTENM7W4&gtm=2oebu0&_p=733102021&cid=1130410432.1672430814&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_s=2&sid=1672430814&sct=1&seg=0&dl=https%3A%2F%2Fapp.cream.finance%2F&dt=C.R.E.A.M.&en=scroll&epn.siteSpeedSampleRate=100&epn.percent_scrolled=90&_et=65",
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-MPBTENM7W4&gtm=2oebu0&_p=61325544&cid=418120356.1672937300&ul=en-us&sr=1280x960&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_s=2&sid=1672937299&sct=1&seg=0&dl=https%3A%2F%2Fapp.cream.finance%2F&dt=C.R.E.A.M.&en=scroll&epn.siteSpeedSampleRate=100&epn.percent_scrolled=90&_et=37",
             "type": "ping",
             "method": "POST",
             "headers": {
@@ -1360,61 +969,6 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
             }
-        },
-        {
-            "requestContext": [
-                "https://app.cream.finance/"
-            ],
-            "url": "data:image/png;base64,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",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://app.cream.finance/"
-            ],
-            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAABGdBTUEAALGPC/xhBQAAQABJREFUeAHtfQl8G8X1/8xKtuNY2lWuQilnSxIgXIXQI5wmtgyl9KClFHoALUeBktsBwhUIEAhJSCil0JYftP+WAj1ogZZadmLuUgg3gRy0FAhQSkiklRQnlrTz/46IgmMsW8fualZ6+nzslXZn3rz5vt3vzryZecMZfQgBGxGIdwX2sTJsCeOsh9VpM41m8zUbxZOoGkeA13j9qfo2IRB7Qh/J4tZcxsU5QjC/FIubq1dwtsTQG67mX9hg2lQUialhBLQarjtV3QYEhDjRF+sInAuyWiuYOD9HVlK0YKwe/2abZu8aszP4AyHm0v1mA+a1LIJaWLVs/TLrHu1qauEZvgRENaFAUc9qmjZVb40/VmB6SkYIbIcAEdZ2cNCPQhCILjM+w9KZhWhDfa2Q9P3TcM7vqud1FzS2bnyz/zX6TQgMhgAR1mDo0LXtEBCPjQ7GNvVczAWbnu3ubXe1yB9wynPBF+ij9AV84jubisxNyWsUASKsGjV8MdUWQvB4l36asKxrQFQ7FpO3gLRvccZnG22JuwpIS0lqHAEirBq/AYaqvhkJHmoJaynSHTxU2nKuo5v4uBC+qaG22DPlyKG81Y0AEVZ127fk2m16eOQuqS2916F1dXLJQorMyDlDcex2f/3wiwPN7/+3yOyUvAYQIMKqASMXU0XxxM6NZiLaDua4APmGF5PXvrQ8rnF+VfBTuy7hE1b22ieXJHkdASIsr1vQRv2jXYGTmCUWYO7UrjaKLVkUfFv/Qldxhh6O31eyEMpYVQgQYVWVOUurTHKZcVA6k1mKVtVhpUlwOhfv8tWxacGjEyudLonkq40AEZba9nFUu0RX0w5pi12NaQqnY/RP6VnouFEzjPOfsYB2uTHJ3OAoMCRcWQSIsJQ1jXOKiZUT6uPvvDnFssSlmPypO1eS/ZLRTdwAar1c90+8hTc/lLa/BJKoMgJEWCpbxwHdzI7g8VhKsxh/ezog3jWR8G29IjQxLdSS7HStUCqo4ggQYVXcBO4okAv7AqJqdadEd0oBcd1HYWzcwVqFUoiwVLCCgzoMFPbFweIqIho3ca/Q2FIj2HAVhbGpiAlcK1RpR6trKFRhQdmwL5HAeQOFfam26mbXNVqsncLYVJtlP14famF9HBPPnykh7Ivn69yvAhTGph8g1fKTCKtaLIl6yLAvPJ1ZBD/VV6uoWiVXBf4tCmNTMnpqZiTCUtMuRWlla9iXokr2QGIKY+MBIxWuIhFW4VgplxIz050M+6JcfctUiMLYlAmgCtmJsFSwQgk6uBX2pQTVlM6CbiKFsVHaQoMrR4Q1OD7KXa1E2BflQChTIQpjUyaAFcxOhFVB8IspWo2wL8Vo7IW0FMbGC1bqqyMRVl80FP2uWtgXRWEqWa1sGBuNz8RuPn8pWQhldAUBIixXYC6tEPXDvpRWL3VzURgbdW3zoWZEWApayEthXxSEryyV8EBQGJuyEHQ2MxGWs/gWJT0b9mXdm1MtJi7xWtiXoirqgcQUxkZNIxFhKWKXagn7ogictqlBYWxsg9IWQURYtsBYupBqDftSOiJq5qQwNmrYhQirQnaohbAvFYLWsWLxsFAYG8fQLUwwhZcpDCfbUtVS2BfbQFNEEIWxqbwhqIXlog1k2Bdm8RuwXei+LhZLRTmHAIWxcQ7bASUTYQ0Ii70naynsC0bXVjOuzdC41ZgR4nrscbiHvWiqJ02GsalrqJ89/MgNb6mnXXVpRITloD1rKuwL51EuxJX6qL1u4hOfSUlYxdo9G2KvvzcT3y5CqzLgINSVF01hbFyxARGWAzDXUtgX3EAZtDB+yer4JXpzfP1AcCYfGf3J9Oae+bj2fSFYtd9zFMZmoJvApnPVfvPYBFPhYmTYF8GsJXgwJxaey6MpOV/u52JaoDX5UiE1iEaMiVxgh2kmJhWS3stpQOIUxsYBAxJh2QRqTYV94fzfPs7ag62JP5UCX6yz6RRhsWuRd5dS8nslz7YwNj42J9CSfM8requsJxFWmdaprbAvPM40fo2x+w438LGvbSkHOrFip+HmBvMCtLba4ZhvLEeW+nkpjI1dNiLCKgPJWgn7IlsKgOlXvrrhFwWa3/9vGZB9LOvWlukC+P2+/bGLVXaCwtiUb1AirBIwrKWwL275YsxlwUkiYy2tCd8fozA2JTx22SxEWEUgV1NhXzh7kwt+gdGWuKsIiMpKWmujq4zzW1hAu8yYZG4oC7gaykyEVYCxayzsyyau8QV6U2gBn7SupwB4bE8iuscE4r2bLkY/dDr+GmwvQCGBFMamOGMQYQ2BV62Efcn6qQT/XV19/QXDmzesGwIWVy73dBh7bOGZRZh0+nVXCqxgISCulcInpodakp0VVEP5oomw8piolsK+gKye5po2VW+J/yMPHBU9DVs0ZzJsCWbM719RRVwoHD7D+1idNtNoNl9zoTjPFUHRGvKYTFh8BIbcR+W5XBWn8bZ6V2PaaXpr4vOqkpUEOtiS6DbCsz4Ln885aIm8XxXg56uEYGNEiofyXa7189TCGuQOEGKuFu9a9EM4g6/C3ycGSeqpS2hRbYbhbwjWDb+GN7+f8JLyonOEYbL05UxYP8aIYp2XdB9UV87ehk0uxMvjt2hlyWkk9BkAASKsAUDpfyr7kIj0ZYxZ53v/IeF/bKj3z2psjv6nfz299NvsCo4TlnUD7PElL+ndX9cPXx58cVA0XcPb3kv2v06/t0eACGt7PAb9ZS4Pjhfp7ENy7KAJVbzI2fM+xqcFw4mHVVSvVJ1inXobWlsgLrF3qTIqlo/zexuEb2ZjW+z1iungsYKJsEowWCyi462efUjGlZDd1SzS54MACZcY4Zm/5Hyu5WrhLhUmuo/ym70rzkU/ai4c8yNcKrb0Yjh/ySfYtGBbYnnpQmozJxFWiXYXKw6ui29YNcUSHF1FoZcoxrFs6GqkBNNuNLh/Hm/dGHOsIIUEo5s4Ci2tK5klzgZ5+RRSLatKds4VZ5fprcfewvnvM6rp5wV9iLDKtFK8I/CJDBfXwE16Oh4SJUZdYdQHGPfNMMLm2jKr58ns8eWBCZlUdhpEiwoVgD3k5qw0q90GYxBh2QCiFLF1feGNeMMfapPIosVgdOkVwXzTQ+FYpOjMVZjB7Ax+VVhiIaan7Fmx6nG+zOdnU4NHJ1ZWTIcqKpgIy2ZjxiJNJ2PkagHE7myz6Lzisl0Njc3V/RN/xpsfSudNWIMXKrasCjHDNMZn6eH4vTUIu2NVJsJyANqtsZ4uhG+rHeQ1zIEisiLhpwI5Zbsal9MC2sFRdq3rznmCCcQM+/QOi8uNGTZ4jWrzKhGWg3bvWRbabUsmvRBr4b5pdzEgq4im8emYBf6K3bKrWV6yM/TZlEgvgU2OsLOesAdcmOw3ftZ4YVN4/Tt2yiZZHyFAhPURFo59i0cCR2LLq6Uo4IByC4Gfai3CvszU2+L3lyurlvNHI4ET0QKW25DtVi4OeIieYppvqtFqPlmuLMo/OAKeJqytUwsw+5x/08fFpYFwctng1a3c1eyOz50PngnA58ExP7poTTiPaUzMC47c68bcNlpFy3AhQ0/niF17Rep6kEGPf1jjRU1HrH/XhWJLKkJ07z7M7F0/S3BxIYirqVghsOW7nGkXBcPmr1VeTvPhvMHMZYLzXxktx/7cy1MqPEtYsQ4ds80xeZOJ8dtuNM7/hJnDs1SeOSy6QyEzlb4CD/S58G/5t+me5wsMZGHi522YVHQJJhr+L0+yip/OxrZPRmeDjC/Aw/9hjHbpz2H8KmOPHZao7M9JRkbvlGY91wLE78ImQz4TSNArOLvBGN54NT9sfbzi4OdRILsyI4UdnBg7ZlsSOWlVw6glFpRvO+ehL0MaR7W6DLWGDBXagrfdItXXZsU7A3tbQsjtwMJ5Meb8YT/zTwuEo8/nTaPAhWxs+wy6V3l2wcEo5r9gkxkYMbtPAXXzqoCX4OcZxzZkgn0+XyLU4z7h880ITY79K1+aSp8vbO2rN9eUeoawxJMj9ZiZuowzawpuqCFX6cMJKh2fF6i++h37GH4FrZJF/eYK/Qfr/trRovpDpW/+wcqXDuy0lZb7DB4+WLrcNRBXp+bDkhSFBwpgC252Br6DVsm1aCl+apvuco6bJqapHGBvW3QRS1wNm4zJ6Z7viGdkMya0LtStpmu9svBaecLKGiGy6HT4Ga7BzVR0iBe8EZ9kmjbFaDGfzme4Sp/PzhV6+81pQljTBNduMupGLebN/9lcab3ylR9/JDAm08OuxsDYD/FgFzW7Hw+JnIpxs2j0zQ0dHtuYr4xKnxcdOzSZWhK+LfEDTFO4Tq+feLPKc9zQ8zjcsqylINnPFo2dDG2j4eU+OXEnnheYVN2P0oQld1G2hHUj4DuoHAi3Djk7sk1VOXr1zyvf7irfMHKQw/xg1Y+h5eV4kI3++hfzG/X8AE/GJUbrsb9Q2Qmsuk3s3CYNLeB/CO6bgpUSK4qxpZtplSSsTd0jd06leuVedSfbCwZtaFkqnrEu/RiWkQ7cPoMcpQrbLh9/MesEbk08tN1p+jEoAgMOcgyao7CL8uUOl8vtfkV3q1aKsLbuojwLiGGWOBteGMTFp8Kb5DX8zaC5TENjt3WQYzFu4uOGTl1GCs7/0FDnb/d6YMEyECg4a7Qz8C3QipxDtmvBmYpOiJc74/OCO++6lE9Y2Vt0docyKENYWDrxTUQ9wKzw8ifyFYoV3iYRjSOoXWvi1ULz1Eq67CBHbMulwGhqIYMcduCCsuC349frI/Vr+cR3Ntkhs5pkJCKhA9MsDT+VvbP0B8MIXfe12PZtBmL+PzBYOreuVZywEstDB6TTWSMc6Val+5aDh0Q6gX+q1/nn8uZotO+1Wvy+daTpNLRy5SDHDhXCYJ10AhutyTsrVL5SxW4d5LgKvbUzih3ksKsieE46eJ02TW+Or7JLZilyKkZYZndwtEiJeXhbnFUpI/QFDG+S9VudwIjMWZvB1bYOcsglRAf3xaZS39FtfwLhcqaE2mLPVEqHSpabHeTYuOo8jMXIQY6K76STfbkLfpNe77+iUi931wkrG8429fR5mFA8VwUjDHBDvuDjfGq1xT4foJ7bTmUHOXp7r4ND/ZRtJxX5ghsUM/3ZHao6gZ2CKRur3soOcuzlVBmlysWLpGJht10lrGjECHOWwexuD2wYgGZWgw9O4MnRN0o1rOr5tq2lY+Ii6OrYIIc9OHAT0SnmBXfa9UaVnMD21O0jKVj3N5aJzGKQ9Jc/OqvoN7mxicDLvS3xiFsaukJYsW59T5ayFoGovuJWxewop5qdwNlBDhmtgLHd7cDKLRnSCcy4Nh2REf7qVplulJMd5IhvuYRbGORgrN6NMu0qAza5p57XtTe2bnzTLpn55DhKWOKx0cHYpp5LMHd2mteM0A+wdSCv2UY4+bt+5z33M9HVtH/a4nKk6SjPKd9HYdy4f+f12vRKO4H7qFTSV7zEebxLPw3H+fir1CBHSbpvl4mzHoQ9WqCP0hc4OcLrCGFljdCpn4qlJvNBVDtuVzEP/8Cb5HG/zzelaXLsWa9VI7ujTAaDHCw7yKHcjjKl4ImXSAqtrZt0BiewB3cGMpcFJ4mMJRdbTyyl/ormeYv5eHuoJXG3E/rZTlhwFn4BfXBsxsAOcULhSssEYNjZi92OvvsclcO95HDy3J59OcWLOEonMOYKXRxsmXmbF/Ze3LRs1KdS6S1ykOM7RVTTU0lhk0f9mn9qU2v0OTsVL2rhakEFi8wT1UpWsv5oMQIzPpZrHmm+p19oQoSncZjDo9zeiQXdTwUlEgYW/o5jkZ99GIeroDyVS9SbSX+S8Qru5ONC1UHGhyMUdbfdRdnewop2NOGZrtIPZ28iHEd7qDVxj9dqmN2rL82k72qy13QfTF90C+F890332h6MWbdJRP++YFm3yScHq6N3r3Ez1JYoa5F8/7oTYfVHZODfm9DlWKA3hRbwSet6Bk7ijbOYHPp1i8klUOLT3tB4YC3R5VjFfBgtbDH/PnAKb5wV3WMC8d5NF+MtPx1/Dd7QulAtibAKRcq2dHgw7q4bVt8+/MgNb9kmtMKCxNo9G2KvvzcTHdyLQFyBCqtTXPGIbc+FuEIftddNKse2L65SjEW7jE/zjJx/Jb5abF510xNhuWcbzp7TuDZFb40/5l6h7pZUbCxzd7XbvrTsYIeMbd/ILg4ekXh/+6vV8yva1dTCM1yG8Zng/VrZT1j2O909jjKmLvxP07SzjNb2idVMVtJMcv88zC37PuO+SSCEp1Q1nRxx8vG6g+EPOauayUrijxDMXYhueiBcEFMwuLNRVZtUSi/yYW1F3utzesq9gfrMnbsGvhQ1nMBykEPjs52a01MuZk7n9/7cOftbWERYuOtAVg9yP2ZNHx1f7fRNqLr8rasTLsbqBOkErswSkdys6WDoOq8Pcthh70Rn037Z1QlMNNshzz0ZRFi2Yo3u3xrMlJ5RbevS7AApusz4TNYJ7PL6TzfXpdmBk5sysDXcNzIWRng9s/7TfsKqUR8WVv5zNksfOX5fIquBHzm5754RTnyV+VgYJPLKwKlsPCsHOXzaESjzJDcW0dqouWuiEBn3j0b9mL3h07sUk4GTrhWsUEE1RVjo/1owtNxFeaweTi6qpmFxp+4puQ+fXjfxADwkU51wAkMuRvy0s7ODHC3xR52qR7XIldu/GW2Jq+p9w8YDu5qLyFozPiy0Ejy7cFmVhy3rBLbEVZi7dSb8W+D90j+1PshROnLb51R7AbX9XcJaICxPhIYBGXxNZMQMNHlvVH3H53JD1OCmUz40jBw1/XAHaH4m17T5Ks+oz47wdumn41jJOPzbM2n2FxHWAKAMfApvcE/swIJAevtmOFuy3Ro/zh+p4/5pdq90Hxip0s8WGwQQrVyldmDJV/OtEUcQGZd9PpcGJPsA92kzsXvMmtw51Y7bdjpibErFRni3A4UIazs48v6Qe9z5/LNUDm8ce0IfyRLWFSCqcwbqXuEBQSxzzOzG7sgqh7HJhllOrW/H2/1C2CNPmGVvhDfOhn3JbJ6PenwXZPWx3ofsxuL8UsNomMe/sMHMe/9V+II6YZaJsIa6FZTfQEKIE31m5MGzUZF5WH4xcqgKwdGNEU1xZfBTu/9E5VjmA+3WjQccPKbuLsI57LMb+MajMwUH6QrWlDuf74iW4nv4m4P4W3eoHH9r627dN+A+q9BGFkRYA95DuHnkFl2XGq3H/kLlLbrQhToa3T8Z4mXfASsyyEmMCHlit+rcVmHQd4sXtuiKRgInYhG43EV5t0Hgz3fpGaw3naqH44/nS1Dp85XdKowIa0D74+E4GUO9dw14UYGTPR3GHlt4ZhGI6uvlq8O7fHVsWvDoxMryZTkjQTqB8cE7RN1PcplxUDqTQXhicVi5WsrpBXX19RcMb96wrlxZTuWPdgTPgpfhVqfkDyzXfsKqinlYQsP8KgU/omOHJjMSuLqXpV+1h6xkJUWLlRIvxCKBn8hpBgpWG0ud1CUrjHDuEI00/RK7jT9tB1llLYL9HHt7t6yOdQQukT49FW2iaTJYrvc/VUFYqplBtjBikabvmjyxxhJiDu4UWwOzQZ4PZfzYyoi1sc7A+TJuu2oYqKaPWDmh3uwItqcz2CZMsB8CQ7vv/eHwFc2L9b7/qlxCo1r9q0Ufu41WLbiUXA84Og8xO4Myrv3/w99OJQsqKKMYISxxo5la8WJ2p+CC8tReItjjq+a6N16xmLUALdSgwwjsjvV+f4BvrFvOV3O4rJoTT4Rlk8kT3WN2RKvqdmZl/onWzxdsEluQGJS3t7Ayf491NN2PbuK4gjLVQCI5xw3E0YUNKv6M1s9nXK0y9n3MZNiz6CberGrX3VU8bCqMCKtMILNdjUhwdrq3Zw1aVKfh72Pzd8osouDs6OZ8WVjWy9FIcKHoHGFr8P+ClVAgoSQIdJV/itj1z8N3OLlSKmW77kycQ113+yxAhFUGlvCJHI+uxkpLWNe50NUoSFMQZh0T1kzTSq2VI0NCzK0ZG0tfHlo0UyRBoKt8riSMgkBzPNG2rvsLCIHc6nhxVVxAzdzMdtoQTtW90f3rgE/kPnQ19rRTtl2yoNcYOYwdi1z/LPQ9yi65qsqRkyTN3hUvod5L8fIYoaKe6LrvwzIsAlL9s4w3pqKOqutEhFWEhUR3KITpBEsw8vciWjLhIrJWMukBcAJ3RzsCf5DzwSqpiBNlm8uD4/Hy+KvIZB4EWVVoRndxNYOeX+Xp9EpMr7hWbvNVXO7aTk2EVYD9ZbcKztuzzVR6Ld6SU0FWHpxGIL4h54OZkaZrquEhyb48OoOLRdp6Cfb4UgFmVCoJuqsNmF5xgdm7aQ1cC6fivqqY71MpYIZQhghrCIDikcCRslsF5+0tuKlGD5Fc6cvyIcGK6ou8/JDItZh4efwo+/KwrOlZn53SqA+uHGzySbgW7sAE4ydjHfq26BCD56rdq0RYeWzfsyy0Gx6MezJCPIQkB+RJ5snT2x6SzsBTMgCcVyoh12LGOh98Di+Pn3n95dEfc9jkc4xn/oHu7a/lfpH9r9PvDxEgwspzJ2zJpO/Hg4GFsdX7QetkopW2Hodf7s5ND4/cRdWayl2R8fL4U4aJZbDJfqrqWa5esAc2tWbfS7PNd5crq1rzE2HlsSxWw9UMNmitnNy7ecsqzF26XIZayQOJ66fllmNmR9N8nkm/AqKyYeG461UorcAauveKBahmHspiganB9MMxd2luLL5RLuL9diXrLx3QWE5zupnsWYNV7RdK31sl9aGy1UGACEsdW6iiyS4Ydv8dSOvxaMSY6LZSMp4WuqhPYznN/4GodnS7fCpPbQSIsNS2T8W0A2lN4iz9lFwfmXxktONb1/d0jtgVRPU7rBp4DJU+uGIVp4KVRsB2wtI07QeIh/Se0rUm5QpCYKsT+LTU5s1rop3BC8XaPW3vmokVOw0HUV2xRfSuQlewol3RgkChRIUisA4Ty2QocFs/thOW3hq/XR8+bCy0XAiFe23VloRVBgEhAsyy5sdef1fGejrBLiVinU2nxD6IrQZRXYZJlMo4++2qX03K4awHDZZ5xihjvBNRgG0nLGkkftj6eKgt2c64b1+Q1gM1abhqrLRge2CZzx+xzGd5ObGeZMww+MieEBb7LWDauRqhqsk6ZXerqtvbCCcu4xPf2eQEBo4QVk5RI2yuNdqSx3PNdwziXq/Knaej1xEQzTLWE2Zn3xJ/JIBF1oV9pC8MPrE7sjHDmPhiYbkolQcQkLtVHRUKJ050ems9RwkrB7TRanbo9RP34xqbjoDf0dx5OnoXAYzg+bAI/OzMZrYWgQOny91Z8tVGxjlHjK450hcGv9ip0jeWLy2d9w4C6Pqtx/N8jhFuPygYTjzshuauEJasCG9+KG20Jpf4hjFExOQ/xx2r5MYRboBeVWUIYYC8FpsbVr+MMM3H9a+bjG8u45wjRtfVmPxJkQn6A+TB39hvMg2yulGv849Fq+oWN/dmdD3qQPCIxPuw0dmJSOhnaZaWe/Qd4UGbkcr9EIDjfBwTmQfQ5evQOJ/Ohb8B9l0Cn9eR/ZLSTw8jALKKwL7Tgq2JVytRDdcJK1fJQDj6PL4fGe0MfAukJTey3DV3jY7eRQDdvTaEJn6RiZRsvbvWgvcuYt7QHD7oDzfyDcfvr6TGFb+hQq2Je4zAiL24xucCCEdGFioJcC2WDdLyo5tY8XurFrG3v848zrh2ob7zbhP0tsqSlaybEjcVn7Sux2hNXFE/rGEvMDmtVLf/riOJhEBRCKDrh+272R3++sZxoXD8Oj5hpRJzKpUgrBySw4/c8BYmm31b82lHYBzpudx5OhIChIB7CMCh/iTTfJ83wsnTA83v/9e9kocuSSnCyqmrt8QfNVrbJ2KZz1locUknPX0IAULAYQTQonoHf9/DapVJRov5tMPFlSReScKSNZFDpQDuF7pWN5Zr2g0AMlVSDSkTIUAIDIoAphhtwcjfNboIjEOr6jdoYcEFqeZHWcLKwcVbN8aM1vgM7tf2A2k9mDtPR0KAELABAc7vrWf+vfVw4mLe9l7SBomOilCesHK114+Orwb7fwnLfL6MN8Ca3Hk6EgKEQAkIcP6yj/HJmPh5QmNb7PUSJFQki2cIK4cOlvn8VR85fl/4t9rRcTRz5+lICBACQyMAn/AGvPB/bLQee2CwLbF86BxqpfAcYUn4+MRnUvBvLcQ+5GMxmnibD/skqQUraUMIKIeAXE7zUxbUxiKawk85/31GOQ0LUKgqFqHKjU7tXs+E8CcvI+rmhAIwpCSEgK0IoBX0BKb3HGqnUCeeETv1K1SWJ1tY/StnN1n1l0+/CQGvI1Atz0hVEJbXbybSnxAgBApDgAirMJwoFSFACCiAABGWAkYgFQgBQqAwBIiwCsOJUhEChIACCBBhKWAEUoEQIAQKQ8B2wsJ0gBujjxojCiueUhEChEA1IhDvCHwi1hlcbHfdbCcszF06n/dk1iKS6DlCnIi5nfQhBAiBWkFAbkYiNyXJcLZGWOKHdtfbdsKSCiK+9yhmiZtjnQ8+F+8KNNutNMkjBAgB9RCIdejHmh+sfgmhHhaDBAwnNHSEsLYpKsR+mYxYjo03/9DTHdp923n6QggQAlWDgNkVHIfNRx4QLPM39LDGO1kxZwlrm+biG72p1KuxzsA80bFD07bT9IUQIAQ8i4B4cqQe7Wi6XljWy4jjf5wbFXGJsGQ3kQ1Dn/aSGE+sjnU2neJG5copg/v4hVjT9a9yZFBeQqBYBLBA+VXhE5cXm8/N9HJdotkR/KFp9q5FubPwbOfdRNduvWxf/AzGLShaoVzgKbhvaigcW2F3peySJ1ZOqI+9/eZ0sO3FoNygXXJJDiHwcQT4RgT6vEKvO+SnctPhj19X44wZCR5qCetGaHPQ0BpxM9SWsNWXVTHCkpVFBFH459ntfh+bE2hJvjc0AJVJkehq2iFtsfkIHHsq2Ni1VmllakuluokAHsAM0/itaFldhr0MPnCz7GLK2tQ9cudUqncBHtiTC89XZYT1UcW5qWl8XnCnXW9UZTuhj3T76FtymXFQOpNZCqMd9tFZ+kYIlIoA7/LVsWnBoxMrS5XgdD7RvfswM7W+Hff8hShreHHlVS1hfQgD3jJrsaHqDLxpHigOGHdTR7sCJ2HaxgLardpd3KulNLhDXsN9PgtBKP+icp0w+fObGS4W4j7frTQ97Scspbo3YPGxVsa6HxPPHjS7g3uVBpLzuUItibuzu1VzLp2jtFu185BXSQnoSTBtdnYXZYXJKrE8dEA0Engow8TvSycrZ0xWUR/WYFXKbuvFtZt0v+9K3hyNDpa2ktc2LRv1qVR6y3WMi1Pgj7Mdz0rWjcq2BwHcFJbg7Haf4HMQR/1/9ki1XwoaCaNFSsyDZ/lM+GptWKVS5S2sviaQQ6WY3zHd7E2viXYEz5JDqX2vq/J9+OQP3kY42+8y7puEG/MpVfQiPRRBgPNH/FrdxFA4eYaqZCW6j/JjDfAUKyXWopfzI3vIyhn8bW8RFDqtoejqcPY83lBTYfRHis7rUgYYm5tdxveYyMwH4e7kUrFUjIoIcPYGhsFnh1oT96ioXk6naMQIc5a5AffuPrlz9h1rqIX1MdAEOxB96odjkcDdPZ0jdv3YdQVOYNBAYBuyX8sddOVOuujWblZALVLBTQQ4S8KpfqlRN2Yvlckq1q3viWfpL0ykO5whK2dA904Lq2/9Oevhgi/Qg6Hr+KR1PX0vqfRdrp/ckkpfD5/AN1XSi3SxHwE5pxBT9H7rZw0XNIXXv2N/CfZIFI+NDsY29VyMOYXToXC9PVLzSbG/heVNwvoIn7eYj7fLUbuPTqn3DcPDR2B4eClu6QPV0440KhcBtKyfZEKbZrSZ/yxXllP5pbsi3qmfKoQ1H0S1o1PlbC/XfsJS0pG9faUH/bULy4i74p2BEwZNVeGL0u9mtLYfrHHtTNzcyo4SVRgm7xXP2dtoWX0P86kmqUxWElhJVlhSc7t7ZOWMOb1OWFlUsIWt3xl47JMq94XTw/Ff6nr9WEhdiKZtr33SSZKrCEiXhMavMkRgvBFO/kb6Ll0tv5TCuHsLlEtRr9A8VUFYhVZWhXT8CxuwIDTZzup9E/B2vl8FnUiHwhEAOd3T4Kvb22hNXMrb3ksWnpNS2oEAEZYdKJYgw2g2X8Pb+SuYnodhZa7sWrISqlatWZ7VfNoRRjhxUuPk6BvVWknV60WEVWELhVqSnXr42APQxTgfxLWhwupQ8f0QQIvqPSynOcMItx+CNa6P9rtMP11GgAjLZcAHKo7z32fQxbhJDPftCdL6CbqKysZDGkj/ajyX9TFq7Hp9+LCxelv8NumDrMZ6eq1ORFgKWSx0eGwjlvlMwaTT/UFaHQqpVlOq4KXxF+H37xNqTc7mh62P11TlFa8sEZaCBgq2Jl6Ff+sY+EyOR5dkjYIqVqdKnL/s56wFL42vhSbHKDy2glYmwlLQKDmVZFwwfeT4fTXOZmJdWix3no72IoCXwgdoVZ1ntB57YCCcXGavdJJmJwJEWHai6YAsPvGZlB5OLvYNY5i/xX8O3wr5UmzCWfoKQVZLRaNvLFpVN0tfok2iSYxDCBBhOQSs3WKDRyTeR0D/s311dQehtfWQ3fJrTR6I/++8TtsP0xSmSd9hrdXfq/UlwvKY5QJHR18IhRPNPo1/E+ECX/eY+hVXF12/1Zz7jjPaksfqzfFVFVeIFCgKASKsPHAh9MalychoZWNawTH/R2OPT+6NCAFz0OJK5KkGnc4hwHmUa2y6Pmo8WlXm33KnVTvKCB/RzqDc8IE+AyBAhDUAKNlTgp2UYj1ropHgHLF2z4Z8ySp5no99bUuoLT6/btiwcfDH/Ap/6q9pcxkwdP0y8FPdotXxsUZrcon0CbqsQkHFyR3R8ZK8Uu6Qzi1xfEGZajAREdZgRhesiQnr6tjr776KDSS/PljSSl5rOmL9u5gGcRrTfJ9Hl+eJSuqiVNmcL/f52EHwU52D7t96pXTro4zcCV3uiI4QMJciUu2wPpfoaz8EiLD6ATLgT8H2QGiOP2EnkWWIbbXvgGkUOGm0mE9jtOtQtLROgTpvKaBSZVTg/N8I5XMCfH2TsUHvi5VRYuhSox3GwYil/riw2G/RNv7U0DkoBRFWMfeAEEdbTDyPpvtNsSf0kcVkdTMtWlu/M0YZe6G1dQUc88pGZLUfEx5nXLvQ2GPHfRDK51775dsjUe4kjr0PsNwn/bRgYpI9UmtDChFWkXaGk8iHpvt5LG6tBXGdJ8SJNmyHVKQSBSTnE9/ZhNbWXE1o5xeQvCqSwBA/CIXj10nfnooVEisn1JudwVnpTHb1wg/Q/YOLjT7FIECEVQxafdLizTgSxHVTrPPB5xORpsl9Lin1VWhcSSezEyCpXNdYp36c+fYbL1uWdT1jQnei/rUgkwirXCsLsW9asC74t/4U7TI+Xa44yl9dCMgdzOVO5sLKPIAXnIw2S58yECDCKgO87bIK8XWeSb9iRgJXi+4xge2u0Y+aQ0B0jjBincHFImW9CDfCMTUHgEMVJsKyEVjcmA2WEHPM1KbVsYj+PbxRyUdhI75eECV3KIef6kzTSq2VO5fDT1XnBb29oiMRlgOWwk26kxCZX+PGfSK2TP+cA0WQSAURMLuCh8c6r18BP9XP4eMco6CKnleJCMtBE6KF9QWWyTwZizTdnuge49JecA5WiEQPiIDciRzzqe6yMtYjmE/12QET0UlbECDCsgXG/ELk0DX+Tkv3Zpf5XCCHtvOnpiteQkA8sXNjrDNw+RbRuwotqpO8pLtXdSXCcs1yIohlPtea696AYz74FdeKpYIcQSDaFTgplti4SlhiLlpVjY4UQkI/hgAR1scgcfYE3sSfwTKfv6ALEYl3BfZxtjSSbjcCiUjoQNjuEbnjOIhqV7vlk7zBESDCGhwfx66CuFotS7yA2fJLo48aIxwriATbgkD8kcCYaEfg1oxIPQPbHW6LUBJSNAJEWEVDZl8G+Lb8cMxP4T0ZhLEJ/EjVZT721dh7ksSKg+sw8XN6ZjNbixnqZ2HqCj0zFTQjgV9B8HNFg7RGMyF+Fut6kAK35UBR5BjbuOpqkNRi2MdQRKWaVoMISyHzc8GUDBSoEESuq8IFp1Fd11HPXyARVn5s6AohQAgohgARlmIGIXUIAUIgPwJEWPmxoSuEACGgGAJEWIoZhNQhBAiB/AgQYeXHhq4QAoSAYggQYSlmEFKHECAE8iNAhJUfG7pCCBACiiFAhKWYQUgdQoAQyI8AEVZ+bOgKIUAIKIYAEZZiBiF1CAFCID8CRFj5saErhAAhoBgCRFiKGYTUIQQIgfwIEGHlx4auEAKEgGIIEGEpZhBShxAgBPIjQISVHxu6QggQAoohQISVzyCauAa7oP4332U6XzMIuL0Z7luc84U1g26RFSXCygOY0Zq8U29qHIeAuNfjju3Nk4xOVz8CCDjqwoezHhDVlcYoYy89HL/XhRI9WQQR1iBm44etj4dak7NZvW8CSOuBQZLSJUKgdAQ4/30Dr9/LCCcu5xPf2VS6oOrPSYRVgI2NZvM1oy15POP+NrwFXy0gCyUhBIZGgLPnfYwfGQonvtXYuvHNoTNQCiKsIu6BUDgW0esm7s81Np1xHi0iKyUlBLYhgJfeetw/PzJa2w8OtiUe2XaBvgyJABHWkBBtn4A3P5SGf2uJVsfHapzfiq6itX0K+kUIDIwA5ywNslqq1/nHolV1K+dz6d4ZGKq8Z4mw8kIz+AW9Ob5eDyd+5KurOwhvy4cHT01Xax0BkFUHXnD7w081jTdHqXVe4g1BhFUicLlsgaOjL+BteRTT+EmMszdy5+lICEgEOOOvaUz7ihFOHhNsTZD/s8zbggirTABz2UOtiXuMwIi90eS/HOdopCcHTM0eeVzj2gX6zrtN0Nvi99csDDZXnAjLRkD5pHU9aPJfWT+sYS8Q1102iiZRHkEAXT+Bvzv89Y3jMJ9qAZ+wkubw2Wg7IiwbwcyJGn7khrdAXCdrmnY4zj2bO0/H6kYA3b9/COb/HLp/pwea36dVEg6YmwjLAVBzIvXW+GNGuP0QdA3ORIvrf7nzdKwyBDh7G62q76FFdSimvqyostopVZ3qICzBzsIMqbFKIbtVGTl0jRv5lzqvG8e5thg3dkpFPUmnvAhg5srAH9hyM1pVVxsiMB6tqt/gpeTOMp6B1cl7Nr48MEEIcWreBB66UCWEJSYzkXk52tF0vXhypK4i/rx1Y8wIx2dyv7YfbvQHVdSRdBoQgYFJiPM/1Qv/PkZb4hLe9l5ywJwVPml2BUfFIoGfWCnxAgjr0AqrY0vx1UFYgAJ3VT0Os0yzd60ZCZ4hxFwl66YfHV+Nt/GXOPcdhzfyGlusSELcQ4Dzl7CcZjKmsnyjsS32unsFF16S6D7KH+sMnG9lxFoQ1Y/xbPgKz612SiUf6nIgg4E+YQnrF7HO65+JRwJHliPLybxG2PybPnL8vhpnszBbx3SyLJJdPgJ4uXyA7t95Ruuxn8VymuXlS3RGQqxTbzNTK14UlrgRr/ERzpRSOalVR1jboBTswIwQD0UjgXt6ukO7bzuv0Bc+8ZmUHk4uwutvLGYY3oZmIi3VUMg+UhXBuFxOcxMLaOPQ/bsZgRUyiqmYVQfdv3Gxjqb7hZX5O17ae6uoox06+e0QorQMIU7sTaWONyOBxcG6xvm8+f2EavrijS1HEM8Q3bsPY0w59VSDy1V9jLpRl/Dm/2x2tdAiChOdIwxTpC8TlnU+un51RWT1ZNLqbWH1MYcQbJglxBwztWk1RhO/hzdQ3pGfPtlc/6ryg+E6GIoUqKpNpI822hE8y7RS8FNZM3CPVz1ZyVuiJggrd+/DqDsJkfk1WltPogn9xdx5OhICXkIg3hk4Kha5HhOSrVsFE2O8pHu5utYUYeXAQtP5c2hCPx7rCPxmU/fInXPn6UgIqIxAT4exR7Qj8IeMJbqh5wEq6+qUbjVJWBJMtLYwy098p7d3C7qJgUvFEzs3OgUyySUEykFAdI8JmJGma3pZGtEexDfKkeX1vDVLWH0MNxw+rStjiY2rol2Bk/qcp6+EQEURkL5WsyN4qtm7aY0l2EXoGTRUVCEFCifCyhlBsF1ZRtyF1taj0Q7j4NxpOhIClUDAXBacZHYGnrKYdQeI6pOV0EHFMomw+lkFb7XDEMn2KSzzuS3RPWbHfpfpJyHgKAKbHh65C3yrv7XS1uNwW0x0tDAPCifCGsBoeKNJXH6Q7u1Zg2U+s8XaPWu+KT4ATHTKRgSkDxXLaS7v3bxlFXyrp9gouqpEEWENak4RxDKf68x//3clpkF8bdCkdJEQKBEBtKi+HYtvXI3lNHMhYniJYmoiGxFWAWbGG+8zVsa6F8t8liU6m/YrIAslIQSGRCAaMSaCrB7H/fU7JN5lyAyUoLYmjpZtbyGOzljsOdxkN5vdwdFlyyMBNYlA8pHRn4xFmm6XvlKQ1aSaBKHEStvewsJC0SuxkLenRH2Uzwb/lg832TmIMbQ21tk0Taw4WOklEfXM9xDib3UoD2yZCuK+u0/zD/tnmWIczS59odHO4IWpzZvXwKF+mpwL6GiBlRTOeUJj/Cq7VXAEsJ7OEbv2itT1GHH7lt0KqyYPIUdWw0c/3WgzlQ7Kh/k8x4NoF+NvT9UwLEcf4L9S+MS0UEuyqxw5TufFcpoTED1kIcI/7OF0WZWUj5cj3uns1/5hjRc1HbH+Xbt1cYSwckqancHDLMtait8H5c5V61FGEeV12gxssLpK1TqKlRPq42+/OQ0LwS/BjOmgqnoWphffiJt3rl4/8Wa5G3dhedxPlehq2j+d4UuAd7P7pbtbIl4e/2A+barRYj7tVMmOEpZUWq4qj3cu+gHe7FehxbWDUxVRQS5IK41Nnm7S6/1XqLy7r5xflkltmg/MTvVatwQ3LOJR8Z9zH79Ub4l/oILdB9Ih/khgjNjM5uGeP0O6EQZKU0Xn1nEfu1CfnLgTXXPZwnLs4zhh5TSXsdZjsS2XosApqJEMZ1y1HxhtPQLYXGa0HPtzVQO+SfDlKBUXmRvxMvFI5Are7Uf3L9CSfFHVm0f6NM0PVv0YmxNejre1oaqetugFXzXu9UX6CH0+n/iOK5sHu0ZYOYBi3fqerDdzA0jry7lzVXtE/G8/E9MD4eQyVeuIFgDHEpDvwB7XwvvwKUX1/A/iqLcj0OEfFNUvqxbCEx/HhLUYmI5TWU9bdMObuMHnb2+cHH3DFnkFCnGdsHJ64e0e5gzEJcQ+uXPVe+R/Zn7frNDk2L9UraPo2KEpzpNz0NqSweAQ+VSBD2dJLvi1ev3ohaoG0pMowaG+N/yCuJdZmwKoOasCZ8/5BJ+Gl8cjzhY0sPSKEZZUR+7uYfauOBdv97n4VXUB8/tCDqB70U1cYgxvvIoftj7e95pK32XMpS08g9EscUIl9YID9846f8Ps4ZM/eLuSegxWdvRRYwTvyczFvXsuyKqqw42j6/c//F0SbJl5m9xrczBcnLxWUcLKVUzun4aW1pXMEmeDvKraQQmjv4e/OTD8HZU0fA77fMd4R+DoDAgWxOXqzH4MXKzgGGnSJ8efyKdbpc9jmwCf2fngj6DHFbhvR1VaHyfLhz2w8a/2E12vu4J/YYPpZFmFyFaCsHKK4iHZd+tDMjl3roqPz2oaHkxsZ69qHbc9mIJdia7iSCf1/IjIzdvxHe8tNT/RrqYWjmkKwGOCmhrapxXI6q9oP0zHlnRr7ZNaniSlCCtXFbnQWGTEQtwUn8mdq9Yjuj5312t1sxtbN76pah1jT+gjWcK6Aq2tc+xuAWe7yozdaBgN81R4g+ezQXawKGUtQovqK/nSVMt5vDBeZRyToVtN5VZIKElY0vByGUPs9fem4SG5GL88PslxiFtZDg8zvlAfqV/r1vDwEBoNeDm+PDAhk2ZLYRNbWsAqvsH7Vzw7HSe+5RJusakg66qejoP5bRvRuL1Crzvkp6pOxlWWsHI3jpcnOebqUPCR84exBfpRBaevUELZArYssQjE9elSVAA5r8KM6OmYEf33UvK7mScaaXoO0z0OdLNMt8sCCXhiMq7ExfbFz3aDHWh+/79GOHk6BmE+hxtdWUesLfUW3mhJYob5n409dsR0FG0OwyLXguvOeQwPxwx91Pj9vUBWsl6YVhEouH5eTMj5cp/GPotdrc9VeeVADlrlW1g5RXNHREg4RVjsOvyuxu25ng21JT0VTz4ZGb1TmvVcC3t8N98yH9xk2EOB3+ZrZBcHj0i8n7OlF44IJbQWvtSqWjCexZ3zfyOawiw9HL/XC3bI6ah8CyunaO5otCbvNEYZ4+EYrOowNrn6qn5sCq9/By3g7zPh+yKI6an++qJV/KiP1x0cakuc5TWy6l+XqvidbRFrc2QL2WtkJfH3XAur701ThWFsPNfC6msPjKDxeET/vmDWfEySTTGNzw61JO7um8Zr36ulhYUBDjlVxLGwL27Z1dOElQOpisLYeJqwcvaQG3+yhoYMn7TO84EcQViveX16DVq5jod9ydne6aPnuoQDASInXxrh9kM0rp2JruL/BkpD59xDgDe/n6gGstqKmLKTWIe0KGdvI+zLd9H1O9TJGFVD6mFjgqogLImHXOYCw/xS1+vH4udCNB17bcSJRBECnkEA3b/NXONXGSONcUZL8rcqrxwoFtSqIaxcxeVsaYy0tTPu2xeGuz93no6EQE0ggLAv9b66vYzWxKUqT0Iu1RZVR1g5IOT6J4xefYVxfxveMK/kztOREKhKBGTYF8aPxMTjb7kdo8pNPKuWsHIghsKxiF438QA4HqfKpQe583QkBKoBAemzxSL6s4zW9omVilHlJo5VT1gSTLkuCjN5b9R8fCz69jfDv4WlCPQhBLyLANwdKSxQXqTzunEYdPqFyqGK7ES5JggrB5hceoC+/XmY4XsgvPTKhi3O6WvHsWdZaDcZTdQOWSrLEJ0jjE3LRjkR4lm5qT9Q6AGuafuGwvFZvHVjTGW72K1bTRFWDjw0nV9GX79F82lfR1dR2bDFOX3LOfZa1pExnlgd62r6jpzYWY4sFfPKXZmw5+IPTZFak7Z6JzqgozLTGtD9e5VrvmOMtuTxePmucaCuyousScLKWUUu4tU/veMENK0vRMdR2bDFOX1LPmJzCZFhvzEjwcdjXfohJctRLKOcMByLXP+0xaxfgow/oZh6Nqojw76wafDF7q9ijCobKzqkqJomLIkOH/vaFjStr/PXN47DTYGwxdklDEMC58UEmLH9RWZl/omQKf8nw/Z4sQ5S500Pj9wlFgnciU16H8XPg7xaj6H0lr5W9AB+Jn2vGPFeqmqMqqHqYef1miesHJi1EsYmG1FBsNPTvT1r0JVql7tB5zBQ/Sie2LkRRHVZ7+Ytq9CiOll1fcvSz2NhX8qqaxGZibD6gYVpECswongo19h3cGldv8tV9FME0ZVaYK57YyUC8im/R2Q0Ejgxltj4KojqChhheBUZYvuqyLAvXDsBPtbJgdbkS9tfpF9EWHnugVoJYyNjPVkZ6/5YpOnvcn+9PHBU7HRieegAkNVDiG56Dzrru1VMEacL9njYF6fhycknwsohMcBRLm0wwonLG3j9XhihuWeAJFVzSm4Cis1AX0R0ghtEdyhU6YqZ3cHRZiRwSyaVehZkdWSl9XGqfOkzxd+v6oYNGxdqi8+XPlWnyqoGuURYBVhR7mgD4joJ0yCOQPJnC8jiySRyM1C0uKaZqfTaaEfwLDllwO2KyM110dqbaqXEWhCo3KfSdR3cqnM27Ivm+zwc6qc1HbH+XbfK9XI5VXszOGEUTIN4tBbC2MBPNBpRjW/FlIFnsVekJGlXPtEIVoCmVrwI4pQbuFa8ledYpasw7ItjWPUTTITVD5ChftZYGJsDMkw8jJG5u2V016GwKfW63PMPrar7mEh3gCyV86OVWq/++dD12wzXwrxqDPvSv65O/SbCKhHZWgpjAxL51hbRuwrEdYVYsZNtI3TisdFBzAm7jvVmVqJVdXyJpvBGtlzYl3DismoM++KWEYiwykS6ZsLYCNYI4ros9kFsFRzz3y4HNsjhmHV/mpnsWYORv9nwU3lmLljR9ebs+VoI+1I0LiVmIMIqEbj+2baFsdH4lCoPY7MLHPO/Q2vr0eQyo+hZ5pjz9UWzM/BPS1i3g6g8O9u+v/37/+4T9uXgWgj70r/+Tv0mwrIR2WwYm9bET2ohjA1aSYel0+mnMUfqF3DMD7mOT0ZSiEWC/09Y1uPo/lXNesb+tw/8VDUZ9qU/Dk79JsJyANlaCWOTnXIgxBlY8LbGjDTNECsOrusPp+jefVg0EpzTm9m8Wggr72ar/fN58TfI6q+1GvbFLXsRYTmIdM2EsRHCwNbOi8wPVr8U69CPzUGKmfMnxFLvv8KEdTV8VVUbk2tb2Jdw8su1GvYlZ3Onj0RYTiMM+bUSxga+rfGCZf6GKQp/RVdxWcYSfwRR7eECxE4WMUgMMQr74iTwA8kmwhoIFQfO1VQYG8G+hImfRzsAYyVEoue7/YfCvmyPh5u/iLDcRBtl1UoYG5dhda84CvviHtYDlESENQAobpyqnTA2bqDpQhkU9sUFkIcugghraIwcTdE3jA2ct5scLYyEF42A4CKB9ddzjD123Ac7i99btADKYCsCflulkbCSENi6VONy8eTIRSUJoEyOIWDoDUfKZViMVW/If8fAc0AwtbAcALVUkR8+GKXmpnxOIEA2cQLV0mUSYZWOHeUkBAgBlxEgwnIZcCqOECAESkeACKt07CgnIUAIuIwAEZbLgFNxhAAhUDoCRFilY0c5CQFCwGUEiLBcBpyKIwQIgdIRIMIqHTvKSQgQAi4jQITlMuBUHCFACJSOABFW6dhRTkKAEHAZASIslwGn4ggBQqB0BIiwSsfOEzk1Zr3JOOvxhLJlKcnjltDeLksEZVYeASIs5U1UnoLB1sRD9Q0N47Et+t3lSVIzN+KoC/z9yl/fOE6G7FFTS9LKLgQGCf9qVxEkRxUEsMXW4ZZlLUXY4s+qolM5eiAcz5NM06YYLebT5cihvN5BgAjLO7ayRVMh5mqxyKIz0DC5CjHYx9gi1GUhaFG9w5jvQr019huQ1sdCGLusDhXnIgJEWC6CrVJRonOEYbL05djR5sfYJ/Bj23OppGtOF9ysW0BWi4MicDVvey+ZO0/H2kGACKt2bD1gTc3lwfEiZS1BM+WYARMoc5L/mfl8M0MtsX8roxIp4joCRFiuQ65mgbFO/Ti0thZjR+dxSmnI+ct+JqYFwsllSulFylQEARolrAjs6hVqtJp/1UeO31fTtHbGOEICV/aDUc0NXOPnG63HHkhkVVlbqFQ6tbBUsoYiuiS6mnZIZ9g1uDlOy25H76JeKDPDNH4ra9IuNSaZG1wsmoryAAJEWB4wUqVUjHYYB3OeWYpu4qGu6CD3/BNsarAt8bIr5VEhnkOACMtzJnNf4Vhn0ynCYteh5J0dKZ2z132cz8Ik1z85Ip+EVg0CRFhVY0pnKyJW7DTc3GhehC3oZ2EaxDBbSuMMUxO0a4w9dljEx762xRaZJKSqESDCqmrz2l+5nu7Q7lt60wsZE98oVbpcTgOi+q2fNVzQFF6PSaD0IQQKQ4AIqzCcKFU/BOKdgaMyFlsK4tq/36VBf4KsnmbcNwWjkk8OmpAuEgIDIECENQAodKowBIQ40RfrevAsLI6ZB8f8qMFy4Ub7L+faRcFW81e0nGYwpOjaYAgQYQ2GDl0rCIHoo8YI3pOZi9bWufBv+ftmwg3WKzhbYgxvvIoftp72e+8LDn0vGgEirKIhowz5EIh3BfaxMgzLfESrTIPu3/2szjfDaDZfy5eHzhMCxSZs1a8AAAAISURBVCDw/wECLJVpCeJX2AAAAABJRU5ErkJggg==",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css",
-            "type": "stylesheet",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"lU+Iva0L/M9elz6CIYIWabdK+b8=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:07:07.460Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"5827f38662464c5db40e3df49b65057b\",\"init\":true,\"started\":\"2022-12-30T20:07:07.459Z\",\"timestamp\":\"2022-12-30T20:07:07.459Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         },
         {
             "requestContext": [],
@@ -1477,173 +1031,6 @@
                 "content-type": "application/json"
             },
             "postData": "{\"method\":\"eth_call\",\"params\":[{\"to\":\"0x04c762a5df2fa02fe868f25359e0c259fb811cfe\",\"data\":\"0x4b70d84b0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000005b000000000000000000000000d06527d5e56a3495252a528c4987003b712860ee000000000000000000000000797aab1ce7c01eb727ab980762ba88e7133d215700000000000000000000000044fbebd2f576670a6c33f6fc0b00aa8c5753b32200000000000000000000000019d1666f543d42ef17f66e376944a22aea1a8e46000000000000000000000000ce4fe9b4b8ff61949dcfeb7e03bc9faca59d2eb3000000000000000000000000cbae0a83f4f9926997c8339545fb8ee32edc6b760000000000000000000000009baf8a5236d44ac410c0186fe39178d5aad0bb87000000000000000000000000697256caa3ccafd62bb6d3aa1c7c5671786a5fd90000000000000000000000008b86e0598616a8d4f1fdae8b59e55fb5bc33d0d6000000000000000000000000c7fd8dcee4697ceef5a2fd4608a7bd6a94c7748000000000000000000000000017107f40d70f4470d20cb3f138a052cae8ebd4be0000000000000000000000001ff8cdb51219a8838b52e9cac09b71e591bc998e0000000000000000000000003623387773010d9214b10c551d6e7fc375d31f580000000000000000000000004ee15f44c6f0d8d1136c83efd2e8e4ac768954c6000000000000000000000000338286c0bc081891a4bda39c7667ae150bf5d20600000000000000000000000010fdbd1e48ee2fd9336a482d746138ae19e649db00000000000000000000000001da76dea59703578040012357b81ffe62015c2d000000000000000000000000ef58b2d5a1b8d3cde67b8ab054dc5c831e9bc025000000000000000000000000e89a6d0509faf730bd707bf868d9a2a744a363c7000000000000000000000000eff039c3c1d668f408d09dd7b63008622a77532c00000000000000000000000022b243b96495c547598d9042b6f94b01c22b2e9e0000000000000000000000008b3ff1ed4f36c2c2be675afb13cc3aa5d73685a50000000000000000000000002a537fa9ffaea8c1a41d3c2b68a9cb791529366d0000000000000000000000007ea9c63e216d5565c3940a2b3d150e59c2907db30000000000000000000000003225e3c669b39c7c8b3e204a8614bb218c5e31bc000000000000000000000000f55bbe0255f7f4e70f63837ff72a577fbddbe924000000000000000000000000903560b1cce601794c584f58898da8a8b789fc5d000000000000000000000000054b7ed3f45714d3091e82aad64a1588dc4096ed000000000000000000000000d5103afcd0b3fa865997ef2984c66742c51b2a8b000000000000000000000000fd609a03b393f1a1cfcacedabf068cad09a924e2000000000000000000000000d692ac3245bb82319a31068d6b8412796ee85d2c00000000000000000000000092b767185fb3b04f881e3ac8e5b0662a027a1d9f00000000000000000000000010a3da2bb0fae4d591476fd97d6636fd172923a80000000000000000000000003c6c553a95910f9fc81c98784736bd628636d29600000000000000000000000021011bc93d9e515b9511a817a1ed1d6d468f49fc00000000000000000000000085759961b116f1d36fd697855c57a6ae40793d9b0000000000000000000000007aaa323d7e398be4128c7042d197a2545f0f1fea000000000000000000000000011a014d5e8eb4771e575bb1000318d509230afa000000000000000000000000e6c3120f38f56deb38b69b65cc7dcaf9163739630000000000000000000000004fe11bc316b6d7a345493127fbe298b95adaad85000000000000000000000000cd22c4110c12ac41acefa0091c432ef44efaafa0000000000000000000000000228619cca194fbe3ebeb2f835ec1ea5080dafbb200000000000000000000000073f6cba38922960b7092175c0add22ab8d0e81fc00000000000000000000000038f27c03d6609a86ff7716ad03038881320be4ad0000000000000000000000005ecad8a75216cea7dff978525b2d523a251eea920000000000000000000000005c291bc83d15f71fb37805878161718ea4b6aee90000000000000000000000006ba0c66c48641e220cf78177c144323b3838d375000000000000000000000000d532944df6dfd5dd629e8772f03d4fc861873abf000000000000000000000000197070723ce0d3810a0e47f06e935c30a480d4fc000000000000000000000000c25eae724f189ba9030b2556a1533e7c8a732e1400000000000000000000000025555933a8246ab67cbf907ce3d1949884e82b55000000000000000000000000c68251421edda00a10815e273fa4b1191fac651b00000000000000000000000065883978ada0e707c3b2be2a6825b1c4bdf76a900000000000000000000000008b950f43fcac4931d408f1fcda55c6cb6cbf309600000000000000000000000059089279987dd76fc65bf94cb40e186b96e03cb30000000000000000000000002db6c82ce72c8d7d770ba1b5f5ed0b6e075066d6000000000000000000000000b092b4601850e23903a42eacbc9d8a0eec26a4d50000000000000000000000001d0986fb43985c88ffa9ad959cc24e6a087c7e3500000000000000000000000051f48b638f82e8765f7a26373a2cb4ccb10c07af000000000000000000000000c36080892c64821fa8e396bc1bd8678fa3b82b170000000000000000000000008379baa817c5c5ab929b03ee8e3c48e45018ae41000000000000000000000000299e254a8a165bbeb76d9d69305013329eea3a3b000000000000000000000000f8445c529d363ce114148662387eba5e62016e200000000000000000000000007c3297cfb4c4bbd5f44b450c0872e0ada5203112000000000000000000000000081fe64df6dc6fc70043aedf3713a3ce6f190a2100000000000000000000000028526bb33d7230e65e735db64296413731c5402e00000000000000000000000045406ba53bb84cd32a58e7098a2d4d1b11b107f60000000000000000000000006d1b9e01af17dd08d6dec08e210dfd5984ff1c200000000000000000000000001f9b4756b008106c806c7e64322d7ed3b72cb284000000000000000000000000ab10586c918612ba440482db77549d26b7abf8f7000000000000000000000000dfff11dfe6436e42a17b86e7f419ac8292990393000000000000000000000000dbb5e3081def4b6cdd8864ac2aeda4cbf778fecf00000000000000000000000071cefcd324b732d4e058afacba040d908c4418470000000000000000000000001a122348b73b58ea39f822a89e6ec67950c2bbd0000000000000000000000000523effc8bfefc2948211a05a905f761cba5e8e9e0000000000000000000000004202d97e00b9189936edf37f8d01cff88bdd81d40000000000000000000000004baa77013ccd6705ab0522853cb0e9d453579dd400000000000000000000000098e329eb5aae2125af273102f3440de19094b77c0000000000000000000000008c3b7a4320ba70f8239f83770c4015b5bc4e6f91000000000000000000000000e585c76573d7593abf21537b607091f76c996e7300000000000000000000000081e346729723c4d15d0fb1c5679b9f2926ff13c6000000000000000000000000766175eac1a99c969ddd1ebdbe7e270d508d8fff000000000000000000000000d7394428536f63d5659cc869ef69d10f9e66314b0000000000000000000000001241b10e7ea55b22f5b2d007e8fecdf73dcff9990000000000000000000000002a867fd776b83e1bd4e13c6611afd2f6af07ea6d000000000000000000000000250fb308199fe8c5220509c1bf83d21d60b7f74a00000000000000000000000058da9c9fc3eb30abbcbbab5ddabb1e6e2ef3d2ef00000000000000000000000089e42987c39f72e2ead95a8a5bc92114323d5828000000000000000000000000f04ce2e71d32d789a259428ddcd02d3c9f97fb4e0000000000000000000000004112a717edd051f77d834a6703a1ef5e3d73387f000000000000000000000000d37295796c8b885783bd0a4a6c890e3ddeae6705\"},\"latest\"],\"id\":46,\"jsonrpc\":\"2.0\"}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/YGvrYtWQXLfp6jg3Dm9iD"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"22x+BPhFJooAnbWq29O/q8fWiA0=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/YGvrYtWQXLfp6jg3Dm9iD"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"ne1DMtZSzKWK2ogtgudctA37YhQ=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/YGvrYtWQXLfp6jg3Dm9iD"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"kRq+F78w0UQqcTRjfhLUjiv/+Ow=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/YGvrYtWQXLfp6jg3Dm9iD"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"22x+BPhFJooAnbWq29O/q8fWiA0=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/YGvrYtWQXLfp6jg3Dm9iD"
-            ],
-            "url": "https://app.cream.finance/favicon.ico",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/YGvrYtWQXLfp6jg3Dm9iD/confirm-permissions"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:07:17.957Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"5827f38662464c5db40e3df49b65057b\",\"init\":false,\"started\":\"2022-12-30T20:07:07.459Z\",\"timestamp\":\"2022-12-30T20:07:17.956Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/YGvrYtWQXLfp6jg3Dm9iD/confirm-permissions"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:07:17.962Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"3da5313f21fa4eb8bf56a197a71ae10a\",\"init\":true,\"started\":\"2022-12-30T20:07:17.956Z\",\"timestamp\":\"2022-12-30T20:07:17.956Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:07:19.193Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"3da5313f21fa4eb8bf56a197a71ae10a\",\"init\":false,\"started\":\"2022-12-30T20:07:17.956Z\",\"timestamp\":\"2022-12-30T20:07:19.192Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T20:07:19.194Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"6c1df7ec78d44b21af413d29fc8025b3\",\"init\":true,\"started\":\"2022-12-30T20:07:19.192Z\",\"timestamp\":\"2022-12-30T20:07:19.192Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         }
     ],
     "success": true

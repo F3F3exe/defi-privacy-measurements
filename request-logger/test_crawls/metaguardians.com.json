@@ -1,0 +1,412 @@
+{
+    "url": "https://metaguardians.com/",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 15,
+        "url": "https://metaguardians.com/",
+        "metamaskPath": "metamask-chrome-10.22.2",
+        "destination": "test_crawls",
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1672930209659,
+        "end": 1672930234632
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "url": "https://metaguardians.com/",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/js/main.b1c97b89.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/css/main.9c9c2a79.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "data:image/png;base64,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",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/Close_Icon.b37f634c26630bafb5b5ebfdc4b3a5c3.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/opensea_logo.b370cef4df663ce9433e477fd20cfccf.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/twitter_logo.75ad686a5d40d68b4a24b28a3b453293.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/discord_logo.976f0e6b186cc0d9d562b2e11c3f8c06.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/BurguerMenu_Icon.0da79931a606e662bcef0d9b960f54fb.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/Villain_Male_C_noBG_1.7e0a270964f74b9c47a5.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/C_noBG_1.21b35e81ba7f53dd6995.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/PlatinumMember.1f7157e89d46723491f6b4057fd749c3.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/GoldMember.2a4b873eae54470f4ee569e2fd3102a4.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/SilverMember.ce0b2feb8e4766978db19ecd7a3bde99.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/Alvaro.0327be636410d9ee1cca.jpg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/twitter_gray.42c0a664f5a3510f05fc5068d055ce3f.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/Antubel.5f90c2c308a6f0467be8.jpg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/Bernal.33b08cbedf7325a38a35.jpg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/David.627c5eac52cab3f983c8.jpg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/Kiefer.b428705a60954da150d3.jpg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://metaguardians.com/static/media/Luan.2b75347dac2ba2a5d7a3.jpg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://metaguardians.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://fonts.gstatic.com/s/robotocondensed/v25/ieVi2ZhZI2eCN5jzbjEETS9weq8-33mZGCQYbw.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://metaguardians.com",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://fonts.gstatic.com/s/robotocondensed/v25/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCQYbw.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://metaguardians.com",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://metaguardians.com/"
+            ],
+            "url": "https://fonts.gstatic.com/s/robotocondensed/v25/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://metaguardians.com",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "",
+                "https://metaguardians.com/"
+            ],
+            "url": "https://www.youtube.com/embed/KHtsunxrK1c",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "referer": "https://metaguardians.com/",
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        }
+    ],
+    "success": true
+}

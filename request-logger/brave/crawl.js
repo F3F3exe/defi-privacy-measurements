@@ -1,7 +1,7 @@
 const braveLoggerLib = require('./logging.js')
 const bravePuppeteerLib = require('./puppeteer.js')
 const { createTimer } = require('./timer');
-const {importWallet, connectWallet, connectMetamask} = require('./helper');
+const {importWallet, connectWallet, launchApp} = require('./helper');
 const NATIVE_CLICK = 'native';
 const fs = require('fs');
 
@@ -112,6 +112,15 @@ const crawl = async args => {
 
     const pages = await browser.pages()
 
+    await page.goto(url, {waitUntil: "domcontentloaded"});
+    await (pages[pages.length - 1]).bringToFront();
+
+    
+    
+
+    
+    /*
+
     //logger.debug(`nr of pages:: ${pages.length}`)
     const mm_login = await pages[pages.length - 1]
     await mm_login.bringToFront();
@@ -125,6 +134,15 @@ const crawl = async args => {
 
     await page.goto(url, {waitUntil: "domcontentloaded"});
     await (pages[pages.length - 2]).bringToFront();
+
+    try {
+      let new_url = await launchApp(page, logger, browser);
+      console.log('app found:');
+      console.log(new_url);
+    } catch (error) {
+      console.log(`already on app or not found: ${error}`);
+      console.log(url);
+    }
    
     try {
       page.setDefaultNavigationTimeout(0);
@@ -134,16 +152,32 @@ const crawl = async args => {
       logger.debug('connecting to metamask failed');
     }
 
+*/
 
-
-    const waitTimeMs = args.secs * 500
+    const waitTimeMs = 20000;
     logger.debug(`Waiting for ${waitTimeMs}ms`)
+
     await page.waitForTimeout(waitTimeMs)
-    await page.close()
+    
   } catch (error) {
     log.success = false
     log.msg = error.toString()
     logger.debug(`Caught error when crawling: for ${log.msg}`)
+  }
+
+
+  try {
+    let pages = await browser.pages();
+    let page1 = await (pages[pages.length - 1]);
+    let content = await page1.url() + '\n'
+    fs.appendFile('/home/fefe/new/defi-privacy-measurements/new_urls_dapps_exchanges.txt', content, err => {
+      if (err) {
+        console.log('no login found');
+      }
+    });
+    //await page.close()
+  } catch (error) {
+    
   }
 
   try {

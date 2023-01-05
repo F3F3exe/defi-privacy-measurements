@@ -8,7 +8,7 @@ const braveLoggerLib = require('./brave/logging.js')
 const braveValidateLib = require('./brave/validate.js')
 
 const defaultDebugSetting = 'none'
-const defaultCrawlSecs = 45
+const defaultCrawlSecs = 15
 
 const parser = new argparseLib.ArgumentParser({
   add_help: true,

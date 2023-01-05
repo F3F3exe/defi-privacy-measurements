@@ -1,0 +1,1416 @@
+{
+    "url": "https://app.aura.finance/",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 25,
+        "url": "https://app.aura.finance/",
+        "metamaskPath": "metamask-chrome-10.22.2",
+        "destination": "test_crawls",
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1672924207227,
+        "end": 1672924235922
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "url": "https://app.aura.finance/",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&display=swap",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://app.aura.finance/static/css/2.c53404ae.chunk.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://app.aura.finance/static/js/2.0ae05780.chunk.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://app.aura.finance/static/js/main.81aa0e7d.chunk.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://graph.aura.finance/subgraphs/name/aura/aura-mainnet-v2",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://graph.aura.finance/subgraphs/name/aura/aura-mainnet-v1",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://graph.aura.finance/subgraphs/name/aura/aura-mainnet-v2",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://aura-balancer-apr.onrender.com/aprs",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://ipwhois.pro/json/?key=zjBtVzbZ5LiE6Oyg",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://amaranth-fashionable-wildfowl-358.mypinata.cloud/ipfs/QmU2U5izgedUEe3cpddMS5iUJy5uoeQK78qLSkACchM41u/epoch-0.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://amaranth-fashionable-wildfowl-358.mypinata.cloud/ipfs/QmU2U5izgedUEe3cpddMS5iUJy5uoeQK78qLSkACchM41u/epoch-1.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://amaranth-fashionable-wildfowl-358.mypinata.cloud/ipfs/QmU2U5izgedUEe3cpddMS5iUJy5uoeQK78qLSkACchM41u/epoch-2.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://amaranth-fashionable-wildfowl-358.mypinata.cloud/ipfs/QmU2U5izgedUEe3cpddMS5iUJy5uoeQK78qLSkACchM41u/epoch-3.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://amaranth-fashionable-wildfowl-358.mypinata.cloud/ipfs/QmU2U5izgedUEe3cpddMS5iUJy5uoeQK78qLSkACchM41u/epoch-4.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://amaranth-fashionable-wildfowl-358.mypinata.cloud/ipfs/QmU2U5izgedUEe3cpddMS5iUJy5uoeQK78qLSkACchM41u/epoch-5.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://amaranth-fashionable-wildfowl-358.mypinata.cloud/ipfs/QmU2U5izgedUEe3cpddMS5iUJy5uoeQK78qLSkACchM41u/epoch-6.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://amaranth-fashionable-wildfowl-358.mypinata.cloud/ipfs/QmU2U5izgedUEe3cpddMS5iUJy5uoeQK78qLSkACchM41u/epoch-7.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://amaranth-fashionable-wildfowl-358.mypinata.cloud/ipfs/QmU2U5izgedUEe3cpddMS5iUJy5uoeQK78qLSkACchM41u/epoch-8.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://amaranth-fashionable-wildfowl-358.mypinata.cloud/ipfs/QmU2U5izgedUEe3cpddMS5iUJy5uoeQK78qLSkACchM41u/epoch-9.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://amaranth-fashionable-wildfowl-358.mypinata.cloud/ipfs/QmU2U5izgedUEe3cpddMS5iUJy5uoeQK78qLSkACchM41u/epoch-10.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://amaranth-fashionable-wildfowl-358.mypinata.cloud/ipfs/QmU2U5izgedUEe3cpddMS5iUJy5uoeQK78qLSkACchM41u/epoch-11.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://app.aura.finance/static/media/orbz.76ea91d6.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://fonts.gstatic.com/s/ibmplexsans/v14/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIFsdA.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://app.aura.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://fonts.gstatic.com/s/ibmplexsans/v14/zYXgKVElMYYaJe8bpLHnCwDKhdHeFQ.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://app.aura.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://fonts.gstatic.com/s/ibmplexsans/v14/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIFsdA.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://app.aura.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://fonts.gstatic.com/s/ibmplexsans/v14/zYX-KVElMYYaJe8bpLHnCwDKhdTuF6ZJ.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://app.aura.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://app.aura.finance/static/media/MaisonNeue-Book.5f31f126.woff",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "origin": "https://app.aura.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://graph.aura.finance/subgraphs/name/aura/aura-mainnet-v2",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"operationName\":\"Aura\",\"variables\":{\"accountId\":\"\",\"hasAccount\":false},\"query\":\"query Aura($accountId: String!, $hasAccount: Boolean!) {\\n  ...Block\\n  auraLocker(id: \\\"auraLocker\\\") {\\n    ...AllAuraLocker\\n    accounts(where: {account: $accountId}) @include(if: $hasAccount) {\\n      id\\n      balance\\n      balanceLocked\\n      balanceNextUnlockIndex\\n      delegate {\\n        id\\n        __typename\\n      }\\n      userLocks {\\n        id\\n        amount\\n        unlockTime\\n        __typename\\n      }\\n      userData {\\n        id\\n        token {\\n          ...AllToken\\n          __typename\\n        }\\n        rewards\\n        rewardPerTokenPaid\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n  auraBal: pool(id: \\\"auraBal\\\") {\\n    ...AllPool\\n    accounts(where: {account: $accountId}) @include(if: $hasAccount) {\\n      ...AllPoolAccount\\n      __typename\\n    }\\n    __typename\\n  }\\n  initialAuraBal: pool(id: \\\"initialAuraBalRewards\\\") {\\n    ...AllPool\\n    accounts(where: {account: $accountId}) @include(if: $hasAccount) {\\n      ...AllPoolAccount\\n      __typename\\n    }\\n    __typename\\n  }\\n  factoryPools: pools(where: {isFactoryPool: true}) {\\n    ...AllPool\\n    accounts(where: {account: $accountId}) @include(if: $hasAccount) {\\n      ...AllPoolAccount\\n      __typename\\n    }\\n    __typename\\n  }\\n  masterChefPoolInfos {\\n    id\\n    accCvxPerShare\\n    allocPoint\\n    lastRewardBlock\\n    rewarder\\n    lpToken {\\n      ...AllToken\\n      __typename\\n    }\\n    lpSupply\\n    userInfos(where: {account: $accountId}) @include(if: $hasAccount) {\\n      id\\n      amount\\n      rewardDebt\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\\nfragment Block on Query {\\n  _meta {\\n    block {\\n      number\\n      __typename\\n    }\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AllAuraLocker on AuraLocker {\\n  id\\n  address\\n  lockedSupply\\n  totalLocked: totalSupply\\n  rewardData {\\n    id\\n    token {\\n      ...AllToken\\n      __typename\\n    }\\n    periodFinish\\n    lastUpdateTime\\n    rewardPerTokenStored\\n    rewardRate\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AllToken on Token {\\n  id\\n  decimals\\n  symbol\\n  name\\n  __typename\\n}\\n\\nfragment AllPool on Pool {\\n  id\\n  depositToken {\\n    ...AllToken\\n    __typename\\n  }\\n  lpToken {\\n    ...AllToken\\n    __typename\\n  }\\n  isFactoryPool\\n  factoryPoolData {\\n    id\\n    addedAt\\n    isShutdown\\n    stash\\n    gauge\\n    __typename\\n  }\\n  gauge {\\n    id\\n    balance\\n    totalSupply\\n    workingSupply\\n    __typename\\n  }\\n  rewardPool\\n  rewardData {\\n    id\\n    token {\\n      ...AllToken\\n      __typename\\n    }\\n    periodFinish\\n    lastUpdateTime\\n    rewardPerTokenStored\\n    rewardRate\\n    __typename\\n  }\\n  totalSupply\\n  totalStaked\\n  __typename\\n}\\n\\nfragment AllPoolAccount on PoolAccount {\\n  id\\n  balance\\n  staked\\n  rewards {\\n    ...AllPoolAccountRewards\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AllPoolAccountRewards on PoolAccountRewards {\\n  id\\n  rewards\\n  rewardPerTokenPaid\\n  rewardToken {\\n    ...AllToken\\n    __typename\\n  }\\n  __typename\\n}\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://graph.aura.finance/subgraphs/name/aura/aura-mainnet-v1",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"operationName\":\"AuraV1\",\"variables\":{\"accountId\":\"\",\"hasAccount\":false},\"query\":\"query AuraV1($accountId: String!, $hasAccount: Boolean!) {\\n  ...Block\\n  poolAccounts(where: {staked_gt: 0, account: $accountId}) @include(if: $hasAccount) {\\n    id\\n    __typename\\n  }\\n}\\n\\nfragment Block on Query {\\n  _meta {\\n    block {\\n      number\\n      __typename\\n    }\\n    __typename\\n  }\\n  __typename\\n}\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://graph.aura.finance/subgraphs/name/aura/aura-mainnet-v2",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"operationName\":\"AuraStatic\",\"variables\":{},\"query\":\"query AuraStatic {\\n  global(id: \\\"global\\\") {\\n    id\\n    aura\\n    auraTotalSupply\\n    auraMaxSupply\\n    auraReductionPerCliff\\n    auraTotalCliffs\\n    __typename\\n  }\\n  masterChefs {\\n    id\\n    endBlock\\n    startBlock\\n    totalAllocPoint\\n    rewardPerBlock\\n    __typename\\n  }\\n  tokens {\\n    ...AllToken\\n    __typename\\n  }\\n}\\n\\nfragment AllToken on Token {\\n  id\\n  decimals\\n  symbol\\n  name\\n  __typename\\n}\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://api.coingecko.com/api/v3/simple/token_price/ethereum?contract_addresses=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2,0xc0c293ce456ff0ed870add98a0828dd4d2903dbf,0xba100000625a3754423978a60c9317c58a424e3d&vs_currencies=usd",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxyYWRpYWxHcmFkaWVudCBpZD0iYSIgY3g9IjAlIiBjeT0iNTAlIiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM1ZDlkZjYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMDZmZmYiLz48L3JhZGlhbEdyYWRpZW50PjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0ibTI1NiAwYzE0MS4zODQ4OTYgMCAyNTYgMTE0LjYxNTEwNCAyNTYgMjU2cy0xMTQuNjE1MTA0IDI1Ni0yNTYgMjU2LTI1Ni0xMTQuNjE1MTA0LTI1Ni0yNTYgMTE0LjYxNTEwNC0yNTYgMjU2LTI1NnoiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJtNjQuNjkxNzU1OCAzNy43MDg4Mjk4YzUxLjUzMjgwNzItNTAuMjc4NDM5NyAxMzUuMDgzOTk0Mi01MC4yNzg0Mzk3IDE4Ni42MTY3OTkyIDBsNi4yMDIwNTcgNi4wNTEwOTA2YzIuNTc2NjQgMi41MTM5MjE4IDIuNTc2NjQgNi41ODk3OTQ4IDAgOS4xMDM3MTc3bC0yMS4yMTU5OTggMjAuNjk5NTc1OWMtMS4yODgzMjEgMS4yNTY5NjE5LTMuMzc3MSAxLjI1Njk2MTktNC42NjU0MjEgMGwtOC41MzQ3NjYtOC4zMjcwMjA1Yy0zNS45NTA1NzMtMzUuMDc1NDk2Mi05NC4yMzc5NjktMzUuMDc1NDk2Mi0xMzAuMTg4NTQ0IDBsLTkuMTQwMDI4MiA4LjkxNzU1MTljLTEuMjg4MzIxNyAxLjI1Njk2MDktMy4zNzcxMDE2IDEuMjU2OTYwOS00LjY2NTQyMDggMGwtMjEuMjE1OTk3My0yMC42OTk1NzU5Yy0yLjU3NjY0MDMtMi41MTM5MjI5LTIuNTc2NjQwMy02LjU4OTc5NTggMC05LjEwMzcxNzd6bTIzMC40OTM0ODUyIDQyLjgwODkxMTcgMTguODgyMjc5IDE4LjQyMjcyNjJjMi41NzY2MjcgMi41MTM5MTAzIDIuNTc2NjQyIDYuNTg5NzU5My4wMDAwMzIgOS4xMDM2ODYzbC04NS4xNDE0OTggODMuMDcwMzU4Yy0yLjU3NjYyMyAyLjUxMzk0MS02Ljc1NDE4MiAyLjUxMzk2OS05LjMzMDg0LjAwMDA2Ni0uMDAwMDEtLjAwMDAxLS4wMDAwMjMtLjAwMDAyMy0uMDAwMDMzLS4wMDAwMzRsLTYwLjQyODI1Ni01OC45NTc0NTFjLS42NDQxNi0uNjI4NDgxLTEuNjg4NTUtLjYyODQ4MS0yLjMzMjcxIDAtLjAwMDAwNC4wMDAwMDQtLjAwMDAwOC4wMDAwMDctLjAwMDAxMi4wMDAwMTFsLTYwLjQyNjk2ODMgNTguOTU3NDA4Yy0yLjU3NjYxNDEgMi41MTM5NDctNi43NTQxNzQ2IDIuNTEzOTktOS4zMzA4NDA4LjAwMDA5Mi0uMDAwMDE1MS0uMDAwMDE0LS4wMDAwMzA5LS4wMDAwMjktLjAwMDA0NjctLjAwMDA0NmwtODUuMTQzODY3NzQtODMuMDcxNDYzYy0yLjU3NjYzOTI4LTIuNTEzOTIxLTIuNTc2NjM5MjgtNi41ODk3OTUgMC05LjEwMzcxNjNsMTguODgyMzEyNjQtMTguNDIyNjk1NWMyLjU3NjYzOTMtMi41MTM5MjIyIDYuNzU0MTk5My0yLjUxMzkyMjIgOS4zMzA4Mzk3IDBsNjAuNDI5MTM0NyA1OC45NTgyNzU4Yy42NDQxNjA4LjYyODQ4IDEuNjg4NTQ5NS42Mjg0OCAyLjMzMjcxMDMgMCAuMDAwMDA5NS0uMDAwMDA5LjAwMDAxODItLjAwMDAxOC4wMDAwMjc3LS4wMDAwMjVsNjAuNDI2MTA2NS01OC45NTgyNTA4YzIuNTc2NTgxLTIuNTEzOTggNi43NTQxNDItMi41MTQwNzQzIDkuMzMwODQtLjAwMDIxMDMuMDAwMDM3LjAwMDAzNTQuMDAwMDcyLjAwMDA3MDkuMDAwMTA3LjAwMDEwNjNsNjAuNDI5MDU2IDU4Ljk1ODM1NDhjLjY0NDE1OS42Mjg0NzkgMS42ODg1NDkuNjI4NDc5IDIuMzMyNzA5IDBsNjAuNDI4MDc5LTU4Ljk1NzE5MjVjMi41NzY2NC0yLjUxMzkyMzEgNi43NTQxOTktMi41MTM5MjMxIDkuMzMwODM5IDB6IiBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk4IDE2MCkiLz48L2c+PC9zdmc+",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzgzcHgiIGhlaWdodD0iMzgzcHgiIHZpZXdCb3g9IjAgMCAzODMgMzgzIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA1NC4xICg3NjQ5MCkgLSBodHRwczovL3NrZXRjaGFwcC5jb20gLS0+CiAgICA8dGl0bGU+Q29pbmJhc2UgV2FsbGV0IFNESzwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPgogICAgICAgIDxyZWN0IGlkPSJwYXRoLTEiIHg9IjAiIHk9IjAiIHdpZHRoPSIzODMiIGhlaWdodD0iMzgzIiByeD0iNjQiPjwvcmVjdD4KICAgICAgICA8bGluZWFyR3JhZGllbnQgeDE9IjQ5Ljk5OTk5MzglIiB5MT0iMCUiIHgyPSI0OS45OTk5OTM4JSIgeTI9IjEwMCUiIGlkPSJsaW5lYXJHcmFkaWVudC0zIj4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzJFNjZGOCIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjMTI0QURCIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9ImNvaW5iYXNld2FsbGV0Ij4KICAgICAgICAgICAgPGcgaWQ9IlBhdGgiPgogICAgICAgICAgICAgICAgPG1hc2sgaWQ9Im1hc2stMiIgZmlsbD0id2hpdGUiPgogICAgICAgICAgICAgICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI3BhdGgtMSI+PC91c2U+CiAgICAgICAgICAgICAgICA8L21hc2s+CiAgICAgICAgICAgICAgICA8cmVjdCBzdHJva2U9IiM5Nzk3OTciIHg9IjAuNSIgeT0iMC41IiB3aWR0aD0iMzgyIiBoZWlnaHQ9IjM4MiIgcng9IjY0Ij48L3JlY3Q+CiAgICAgICAgICAgICAgICA8cG9seWdvbiBmaWxsPSJ1cmwoI2xpbmVhckdyYWRpZW50LTMpIiBmaWxsLXJ1bGU9Im5vbnplcm8iIG1hc2s9InVybCgjbWFzay0yKSIgcG9pbnRzPSIwIDAgMzgzIDAgMzgzIDM4NCAwIDM4NCI+PC9wb2x5Z29uPgogICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik02MC4xMDc0LDE5MS41NzIgQzYwLjEwNzQsMjY0Ljk2NiAxMTkuNjA1LDMyNC40NjMgMTkyLjk5OCwzMjQuNDYzIEMyNjYuMzkyLDMyNC40NjMgMzI1Ljg4OSwyNjQuOTY2IDMyNS44ODksMTkxLjU3MiBDMzI1Ljg4OSwxMTguMTc5IDI2Ni4zOTIsNTguNjgxNiAxOTIuOTk4LDU4LjY4MTYgQzExOS42MDUsNTguNjgxNiA2MC4xMDc0LDExOC4xNzkgNjAuMTA3NCwxOTEuNTcyIFogTTE1OS4wMzcsMTQ4Ljc1MiBDMTU0LjE0NCwxNDguNzUyIDE1MC4xNzgsMTUyLjcxOCAxNTAuMTc4LDE1Ny42MTEgTDE1MC4xNzgsMjI1LjUzMyBDMTUwLjE3OCwyMzAuNDI2IDE1NC4xNDQsMjM0LjM5MyAxNTkuMDM3LDIzNC4zOTMgTDIyNi45NTksMjM0LjM5MyBDMjMxLjg1MiwyMzQuMzkzIDIzNS44MTgsMjMwLjQyNiAyMzUuODE4LDIyNS41MzMgTDIzNS44MTgsMTU3LjYxMSBDMjM1LjgxOCwxNTIuNzE4IDIzMS44NTIsMTQ4Ljc1MiAyMjYuOTU5LDE0OC43NTIgTDE1OS4wMzcsMTQ4Ljc1MiBaIiBpZD0iU2hhcGUiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://app.aura.finance/static/media/aurabal.f294b2e5.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/balancer-labs/assets/master/generated/listed.tokenlist.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x5c6ee304399dbdb9c8ef030ab642b10820db8f56.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://app.aura.finance/manifest.json",
+            "type": "manifest",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://app.aura.finance/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://api.coingecko.com/api/v3/simple/token_price/ethereum?contract_addresses=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2,0xc0c293ce456ff0ed870add98a0828dd4d2903dbf,0xba100000625a3754423978a60c9317c58a424e3d,0x04e576f7f41fbc0623ef700d1198a047214c293e,0x0578292cb20a443ba1cde459c985ce14ca2bdee5,0x06df3b2bbb68adc8b0e302443692037ed9f91b42,0x072f14b85add63488ddad88f855fda4a99d6ac9b,0x0b09dea16768f0799065c475be02919503cb2a35,0x0e297f1e557b5dc5e9b2d01fc278d0ab5600c7c4,0x0fd5663d4893ae0d579d580584806aadd2dd0b8b,0x12e9da849f12d47707a94e29f781f1cd20a7f49a,0x173063a30e095313eee39411f07e95a8a806014e,0x178e029173417b1f9c8bc16dcec6f697bc323746,0x186084ff790c65088ba694df11758fae4943ee9e,0x1a971bfef0fa1efc991655af55f46e8f66f18500,0x1ae6133b2ccf55b2b8c6609f73e224177f2f0ae7,0x1b65fe4881800b91d4277ba738b567cbb200a60d,0x1bc2805c0550bb34f7d5caaeeae89709d92cfec3,0x1e19cf2d73a72ef1332c882f20534b6519be0276,0x207893b97246481839d97e9dbfee6672071f1697,0x25accb7943fd73dda5e23ba6329085a3c24bfb6a,0x27c9f71cc31464b906e0006d4fcbc8900f48f15f,0x2baf22a557b1971c83bd19b5d7f00955e11c8cda,0x32296969ef14eb0c6d29669c550d4a0449130230,0x334c96d792e4b26b841d28f53235281cec1be1f2,0x350196326aeaa9b98f1903fb5e8fc2686f85318c,0x3dd0843a028c86e0b760b1a76929d1c5ef93a2dd,0x3de314703acf68b8a3d03e8147b60732258f5ef2,0x3f7c10701b14197e2695dec6428a2ca4cf7fc3b8,0x42e2084758a73e8313bc2ca4f3ff3308b717fce8,0x441b8a1980f2f2e43a9397099d15cc2fe6d36250,0x46e7a3c244310590bdfd666692f6cd0566b18b91,0x46fcc16ff800d2b8d2927c292fcc86e7255e8217,0x48607651416a943bf5ac71c41be1420538e78f87,0x4b3e704c0942619350e7da5e88b0685e03464963,0x4ce0bd7debf13434d3ae127430e9bd4291bfb61f,0x4d7cab3ffd6b9a3c07de59b2d6afe70dd8856e36,0x4edcb2b46377530bc18bb4d2c7fe46a992c73e10,0x5512a4bbe7b3051f92324bacf25c02b9000c4a50,0x57f8ff5db97161d944ed6f97c91c097908c008ae,0x5a98fcbea516cf06857215779fd812ca3bef1b32,0x5b0f0c707632dab4d15ac1e2ff3d7245863845a0,0x5b3240b6be3e7487d61cd1afdfc7fe4fa1d81e64,0x5f7cf99dc513e283227b8aa11738a4620a36cacd,0x616e8bfa43f920657b3497dbf40d6b1a02d4608d,0x6230b148afeba47e89a4a960c4efaf2e66b51755,0x6952a25e5e43e13714d5953e93ad9976b7b50f66,0x6a5ead5433a50472642cd268e584dafa5a394490,0x6c4afa47860aad1ba39dfa778fef4efa5e5ba3b7,0x70751c02db1a5e48ed333c919a7b94e34a4e07e2,0x798b112420ad6391a4129ac25ef59663a44c88bb,0x7deca3ff1d7d31a8d2126278809d539798b0f035,0x7dff4cd6fbc9fa8dceb134a1a52864633c79c534,0x7ee30c6bd4d5e911fbeb0daf6a8b4597c9a65b2a,0x8167a1117691f39e05e9131cfa88f0e3a620e967,0x8404db778bc3c396d699b08ee82745df26d44dd6,0x8e85e97ed19c0fa13b2549309965291fbbc0048b,0x8eb6c82c3081bbbd45dcac5afa631aac53478b7c,0x92762b42a06dcdddc5b7362cfb01e631c4d44b40,0x95742fe0470212143f53ab51cc49e7c29d9cd6f0,0x96646936b91d6b9d7d0c47c496afbf3d6ec7b6f8,0x99a14324cfd525a34bbc93ac7e348929909d57fd,0xa137fabc4cc775df6e4b6f9e3877f0a6574c1175,0xa13a9247ea42d743238089903570127dda72fe44,0xa348a39a98418dd78b242e2fd7b14e18ac080e75,0xa6f548df93de924d73be7d25dc02554c6bd66db5,0xa7ff759dbef9f3efdd1d59beee44b966acafe214,0xac10009ed7845897e205faf7ce25552df3f928c4,0xadf1cf028e29ca91d5b86166d8283284e284bef4,0xae7bfd6fa54259fc477879712eebe34164d3a84f,0xb460daa847c45f1c4a41cb05bfb3b51c92e41b36,0xb65acde9e942e7b522815af621cc7ec7c137c0d1,0xb68cfd62de70b38fdb46fd00dc84440ef383954e,0xb6ab5cba5445b582420a01125d33f9640d1696ee,0xbacb8889894e03166a4bc893bfd3427d407c4f84,0xbaeec99c90e3420ec6c1e7a769d2a856d2898e4d,0xbb7a6ec509d42177c100273b4cd785816daf8e4f,0xbddd36656b8220af4dea3165031b2f1233f652fc,0xbf96189eee9357a95c7719f4f5047f76bde804e5,0xc7eb4013047e36b80e5511be7a280edaaddfe792,0xc9307d63b3709f537d2158f43199a69682ff0967,0xcfca23ca9ca720b6e98e3eb9b6aa0ffc4a5c08b9,0xdacb6b8138db32a39970ba8382a75467889a615b,0xde8c195aa41c11a0c4787372defbbddaa31306d2,0xe340ebfcaa544da8bb1ee9005f1a346d50ec422e,0xe8cc7e765647625b95f59c15848379d10b9ab4af,0xec655ae9b8477e164e8c0c4a9c2f290b85695ecd,0xedcb19a41e6d3b68c96f4dd77b39852384aa4d18,0xf040f41be7b9c4468ca02844bf3ef7e39682182b,0xf0b6c52c8d1df405b5195674ee639533c77d0681,0xf3aeb3abba741f0eece8a1b1d2f11b85899951cb,0xf4c0dd9b82da36c07605df83c8a416f11724d88b,0xf7e74b21dd82b686f1be81e91609b595a551b784,0xf8e3ec1e5e476ac7a4d6659549b5f04727e714be,0xf9a63ccfe1156f2bd4d2eb2f37c5e61139278fb8,0xf9ad7c6bab11d9f483fd40ee4170bf27f21d4c78&vs_currencies=usd",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-v2",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-v2",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"operationName\":\"PoolsByAddresses\",\"variables\":{\"addresses\":[\"0xcfca23ca9ca720b6e98e3eb9b6aa0ffc4a5c08b9\",\"0x3dd0843a028c86e0b760b1a76929d1c5ef93a2dd\",\"0x334c96d792e4b26b841d28f53235281cec1be1f2\",\"0xe340ebfcaa544da8bb1ee9005f1a346d50ec422e\",\"0x4ce0bd7debf13434d3ae127430e9bd4291bfb61f\",\"0x8e85e97ed19c0fa13b2549309965291fbbc0048b\",\"0xae7bfd6fa54259fc477879712eebe34164d3a84f\",\"0x1e19cf2d73a72ef1332c882f20534b6519be0276\",\"0x99a14324cfd525a34bbc93ac7e348929909d57fd\",\"0xe8cc7e765647625b95f59c15848379d10b9ab4af\",\"0xb460daa847c45f1c4a41cb05bfb3b51c92e41b36\",\"0x8eb6c82c3081bbbd45dcac5afa631aac53478b7c\",\"0xa13a9247ea42d743238089903570127dda72fe44\",\"0x6a5ead5433a50472642cd268e584dafa5a394490\",\"0x0fd5663d4893ae0d579d580584806aadd2dd0b8b\",\"0x441b8a1980f2f2e43a9397099d15cc2fe6d36250\",\"0x1b65fe4881800b91d4277ba738b567cbb200a60d\",\"0xf3aeb3abba741f0eece8a1b1d2f11b85899951cb\",\"0x48607651416a943bf5ac71c41be1420538e78f87\",\"0x06df3b2bbb68adc8b0e302443692037ed9f91b42\",\"0x072f14b85add63488ddad88f855fda4a99d6ac9b\",\"0x0b09dea16768f0799065c475be02919503cb2a35\",\"0x32296969ef14eb0c6d29669c550d4a0449130230\",\"0x92762b42a06dcdddc5b7362cfb01e631c4d44b40\",\"0x96646936b91d6b9d7d0c47c496afbf3d6ec7b6f8\",\"0xa6f548df93de924d73be7d25dc02554c6bd66db5\",\"0xbf96189eee9357a95c7719f4f5047f76bde804e5\",\"0xf4c0dd9b82da36c07605df83c8a416f11724d88b\",\"0x186084ff790c65088ba694df11758fae4943ee9e\",\"0x0578292cb20a443ba1cde459c985ce14ca2bdee5\",\"0x178e029173417b1f9c8bc16dcec6f697bc323746\",\"0x4edcb2b46377530bc18bb4d2c7fe46a992c73e10\",\"0x173063a30e095313eee39411f07e95a8a806014e\",\"0x798b112420ad6391a4129ac25ef59663a44c88bb\",\"0xde8c195aa41c11a0c4787372defbbddaa31306d2\",\"0x5512a4bbe7b3051f92324bacf25c02b9000c4a50\",\"0x8167a1117691f39e05e9131cfa88f0e3a620e967\",\"0xbaeec99c90e3420ec6c1e7a769d2a856d2898e4d\",\"0x350196326aeaa9b98f1903fb5e8fc2686f85318c\",\"0x3f7c10701b14197e2695dec6428a2ca4cf7fc3b8\",\"0xa7ff759dbef9f3efdd1d59beee44b966acafe214\",\"0x27c9f71cc31464b906e0006d4fcbc8900f48f15f\",\"0x5b3240b6be3e7487d61cd1afdfc7fe4fa1d81e64\",\"0x25accb7943fd73dda5e23ba6329085a3c24bfb6a\",\"0xc9307d63b3709f537d2158f43199a69682ff0967\",\"0xbb7a6ec509d42177c100273b4cd785816daf8e4f\",\"0xa348a39a98418dd78b242e2fd7b14e18ac080e75\",\"0x5c6ee304399dbdb9c8ef030ab642b10820db8f56\",\"0xc29562b045d80fd77c69bec09541f5c16fe20d9d\"]},\"query\":\"query PoolsByAddresses($addresses: [Bytes!]!) {\\n  ...Block\\n  poolsByAddresses: pools(where: {address_in: $addresses}) {\\n    ...Bal_AllPool\\n    __typename\\n  }\\n}\\n\\nfragment Block on Query {\\n  _meta {\\n    block {\\n      number\\n      __typename\\n    }\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment Bal_AllPool on Pool {\\n  id\\n  address\\n  name\\n  totalShares\\n  totalWeight\\n  totalLiquidity\\n  poolType\\n  tokens {\\n    ...Bal_AllPoolToken\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment Bal_AllPoolToken on PoolToken {\\n  id\\n  address\\n  symbol\\n  decimals\\n  name\\n  balance\\n  weight\\n  __typename\\n}\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://app.aura.finance/logo192.png",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_blockNumber\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_blockNumber\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_blockNumber\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_blockNumber\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://graph.aura.finance/subgraphs/name/aura/aura-mainnet-v2",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"operationName\":\"Aura\",\"variables\":{\"accountId\":\"\",\"hasAccount\":false},\"query\":\"query Aura($accountId: String!, $hasAccount: Boolean!) {\\n  ...Block\\n  auraLocker(id: \\\"auraLocker\\\") {\\n    ...AllAuraLocker\\n    accounts(where: {account: $accountId}) @include(if: $hasAccount) {\\n      id\\n      balance\\n      balanceLocked\\n      balanceNextUnlockIndex\\n      delegate {\\n        id\\n        __typename\\n      }\\n      userLocks {\\n        id\\n        amount\\n        unlockTime\\n        __typename\\n      }\\n      userData {\\n        id\\n        token {\\n          ...AllToken\\n          __typename\\n        }\\n        rewards\\n        rewardPerTokenPaid\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n  auraBal: pool(id: \\\"auraBal\\\") {\\n    ...AllPool\\n    accounts(where: {account: $accountId}) @include(if: $hasAccount) {\\n      ...AllPoolAccount\\n      __typename\\n    }\\n    __typename\\n  }\\n  initialAuraBal: pool(id: \\\"initialAuraBalRewards\\\") {\\n    ...AllPool\\n    accounts(where: {account: $accountId}) @include(if: $hasAccount) {\\n      ...AllPoolAccount\\n      __typename\\n    }\\n    __typename\\n  }\\n  factoryPools: pools(where: {isFactoryPool: true}) {\\n    ...AllPool\\n    accounts(where: {account: $accountId}) @include(if: $hasAccount) {\\n      ...AllPoolAccount\\n      __typename\\n    }\\n    __typename\\n  }\\n  masterChefPoolInfos {\\n    id\\n    accCvxPerShare\\n    allocPoint\\n    lastRewardBlock\\n    rewarder\\n    lpToken {\\n      ...AllToken\\n      __typename\\n    }\\n    lpSupply\\n    userInfos(where: {account: $accountId}) @include(if: $hasAccount) {\\n      id\\n      amount\\n      rewardDebt\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\\nfragment Block on Query {\\n  _meta {\\n    block {\\n      number\\n      __typename\\n    }\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AllAuraLocker on AuraLocker {\\n  id\\n  address\\n  lockedSupply\\n  totalLocked: totalSupply\\n  rewardData {\\n    id\\n    token {\\n      ...AllToken\\n      __typename\\n    }\\n    periodFinish\\n    lastUpdateTime\\n    rewardPerTokenStored\\n    rewardRate\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AllToken on Token {\\n  id\\n  decimals\\n  symbol\\n  name\\n  __typename\\n}\\n\\nfragment AllPool on Pool {\\n  id\\n  depositToken {\\n    ...AllToken\\n    __typename\\n  }\\n  lpToken {\\n    ...AllToken\\n    __typename\\n  }\\n  isFactoryPool\\n  factoryPoolData {\\n    id\\n    addedAt\\n    isShutdown\\n    stash\\n    gauge\\n    __typename\\n  }\\n  gauge {\\n    id\\n    balance\\n    totalSupply\\n    workingSupply\\n    __typename\\n  }\\n  rewardPool\\n  rewardData {\\n    id\\n    token {\\n      ...AllToken\\n      __typename\\n    }\\n    periodFinish\\n    lastUpdateTime\\n    rewardPerTokenStored\\n    rewardRate\\n    __typename\\n  }\\n  totalSupply\\n  totalStaked\\n  __typename\\n}\\n\\nfragment AllPoolAccount on PoolAccount {\\n  id\\n  balance\\n  staked\\n  rewards {\\n    ...AllPoolAccountRewards\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AllPoolAccountRewards on PoolAccountRewards {\\n  id\\n  rewards\\n  rewardPerTokenPaid\\n  rewardToken {\\n    ...AllToken\\n    __typename\\n  }\\n  __typename\\n}\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://graph.aura.finance/subgraphs/name/aura/aura-mainnet-v1",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"operationName\":\"AuraV1\",\"variables\":{\"accountId\":\"\",\"hasAccount\":false},\"query\":\"query AuraV1($accountId: String!, $hasAccount: Boolean!) {\\n  ...Block\\n  poolAccounts(where: {staked_gt: 0, account: $accountId}) @include(if: $hasAccount) {\\n    id\\n    __typename\\n  }\\n}\\n\\nfragment Block on Query {\\n  _meta {\\n    block {\\n      number\\n      __typename\\n    }\\n    __typename\\n  }\\n  __typename\\n}\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_call\",\"params\":[{\"to\":\"0xeefba1e63905ef1d7acba5a8513c70307c1ce441\",\"data\":\"0x252dba420000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000003600000000000000000000000000000000000000000000000000000000000006c0000000000000000000000000000000000000000000000000000000000000074000000000000000000000000000000000000000000000000000000000000007c0000000000000000000000000000000000000000000000000000000000000084000000000000000000000000000000000000000000000000000000000000008e000000000000000000000000000000000000000000000000000000000000009600000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000aa00000000000000000000000000000000000000000000000000000000000000b400000000000000000000000000000000000000000000000000000000000000be00000000000000000000000000000000000000000000000000000000000000c800000000000000000000000000000000000000000000000000000000000000d000000000000000000000000000000000000000000000000000000000000000d800000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000000e800000000000000000000000000000000000000000000000000000000000000f000000000000000000000000000000000000000000000000000000000000000f80000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010800000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000118000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000001280000000000000000000000000000000000000000000000000000000000000130000000000000000000000000000000000000000000000000000000000000013800000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000148000000000000000000000000000000000000000000000000000000000000015000000000000000000000000000000000000000000000000000000000000001580000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000016800000000000000000000000000000000000000000000000000000000000001700000000000000000000000000000000000000000000000000000000000000178000000000000000000000000000000000000000000000000000000000000018000000000000000000000000000000000000000000000000000000000000001880000000000000000000000000000000000000000000000000000000000000190000000000000000000000000000000000000000000000000000000000000019800000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001a800000000000000000000000000000000000000000000000000000000000001b000000000000000000000000000000000000000000000000000000000000001b800000000000000000000000000000000000000000000000000000000000001c000000000000000000000000000000000000000000000000000000000000001c800000000000000000000000000000000000000000000000000000000000001d000000000000000000000000000000000000000000000000000000000000001d800000000000000000000000000000000000000000000000000000000000001e000000000000000000000000000000000000000000000000000000000000001e800000000000000000000000000000000000000000000000000000000000001f000000000000000000000000000000000000000000000000000000000000001f80000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000020800000000000000000000000000000000000000000000000000000000000002100000000000000000000000000000000000000000000000000000000000000218000000000000000000000000000000000000000000000000000000000000022000000000000000000000000003fa73f1e5d8a792c80f426fc8f84fbf7ce9bbcac00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000004ca5c7b9100000000000000000000000000000000000000000000000000000000000000000000000000000000616e8bfa43f920657b3497dbf40d6b1a02d4608d0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000418160ddd00000000000000000000000000000000000000000000000000000000000000000000000000000000c128a9954e6c874ea3d62ce62b468ba073093f250000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000418160ddd00000000000000000000000000000000000000000000000000000000000000000000000000000000c128a9954e6c874ea3d62ce62b468ba073093f250000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000002470a08231000000000000000000000000af52695e1bb01a16d33d7194c28c42b10e0dbec200000000000000000000000000000000000000000000000000000000000000000000000000000000a57b8d98dae62b26ec3bcc4a365338157060b23400000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000004bf86d69000000000000000000000000000000000000000000000000000000000000000000000000000000000fbd41e0c4517a684c121aa7dda2fc462d9592e6300000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000024bd85b039000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fbd41e0c4517a684c121aa7dda2fc462d9592e6300000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000024bd85b039000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000fbd41e0c4517a684c121aa7dda2fc462d9592e6300000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000024bd85b039000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000fbd41e0c4517a684c121aa7dda2fc462d9592e6300000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000024bd85b039000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000000000000000000000fbd41e0c4517a684c121aa7dda2fc462d9592e6300000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000024bd85b039000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000712cc5bed99aa06fc4d5fb50aea3750fa5161d0f0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000acada51c320947e7ed1a0d0f6b939b0ff465e4c20000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000b0a2fec539aed6cf01fdfe38f318c1b20742ca920000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000004e867c6c76173539538b7a9335e89b00434aec100000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000aa8d332531b5b953938aa412730e7536178b47830000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b0000000000000000000000000000000000000000000000000000000000000000000000000000000060cf485394e83d3879998281faac6a1c3cf218c70000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000de6226bda2f6c516486936d9b19ec4b0d88bf0250000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000001b78cec62dcfdc660e06a91eb1bc966541d7580000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000002c5b78610d69447ded2a0b60a565c947f17a16680000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000330f5e309b0f925e7594e8c9e2e24879e9146de40000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000004efc8ded860bc472fa8d938dc3fd4946bc1a0a180000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000d7c9c6922db15f47ef3131f2830d8e87f76372100000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000fb6b1c1a1ea5618b3cfc20f81a11a97e930fa46b0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000006c3f6c327de4ae51a2dfaaf3431b3c508ec8d3eb0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b0000000000000000000000000000000000000000000000000000000000000000000000000000000021e2df86658c8ad41a05453fa5815a0d91273ee90000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000a5d7a7690b72a89b7b720e43fc9cbda5419d0c710000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b0000000000000000000000000000000000000000000000000000000000000000000000000000000033e2aed4d2eb6f85495908260554fdbf4ff145830000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000000c57a7cb838c215fad7ade13062db956e91f19410000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000201d5e6e9b760ae5b2bc1874b5906da42f1253400000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000d73638829aef73ba55f040858cd5e5b9af66cf2b0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000c7c2af26b1a8a350d2a53cc05604702ec27e228b0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000ed1527fd069465711490bcb3bafa49ac3f3af1970000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000e4683fe8f53da14ca5dac4251eadfb3aa614d5280000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000006256518ae9a97c408a03aaf1a244989ce6b937f60000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000009a004491d82894e8d52698d5924bde960530da370000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000007663ec8ee5073cda94a8e1d72b017e22904fd44a0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000208a62c257550b2ea1e57e4fa7148e2d2c4ba6330000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000d3780729035c5b302f76ced0e7f74cf0fb7c739a0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b0000000000000000000000000000000000000000000000000000000000000000000000000000000087afd58d8dd4def356189e0930ba8611b0546bd90000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000002f74088d365a66bfbd0c2c55af3b4977bf637fdd0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000004286c1239bc2705f4a1fd90edb3582f7af6723560000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000007d67beb5cf289b015fca7b3fc408860731d826e10000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b0000000000000000000000000000000000000000000000000000000000000000000000000000000007a38a3aea0b25364b1f9c66c8ddfa1fbd1c8fe00000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000009accd370c03a3cc4bf717a81ad5a46e6c88fa1090000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000228054e9c056f024fc724f515a2a8764ae175ed60000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b0000000000000000000000000000000000000000000000000000000000000000000000000000000032380a7b485f75cce3b3dced6a273f11846406fd0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000006f6e1ed8e6807c000248c45693c0aba50cdf0f660000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000002a577dc2f09b6bacc075c44912cfeb8065ded3b60000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000cff0ce58a624f116faf936c4f8b84affeffe93990000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000008c83370552e6418242594f997306584eabedef790000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000569676f425c1231f8591bbb215dd53a3ee3c8d120000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b0000000000000000000000000000000000000000000000000000000000000000000000000000000007bd9b4a3e364cd4b3bb49035972af70b2e8961f0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000000000000000000000000000a0e1d9619979f06ff375251afe90de2801b009d80000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b000000000000000000000000000000000000000000000000000000000000000000000000000000008c9e4a04adb0d543b33cab644135bfca523c40c80000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000463d38c3b00000000000000000000000000000000000000000000000000000000\"},\"0xf9573e\"],\"id\":45,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://api.coingecko.com/api/v3/simple/token_price/ethereum?contract_addresses=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2,0xc0c293ce456ff0ed870add98a0828dd4d2903dbf,0xba100000625a3754423978a60c9317c58a424e3d,0x04e576f7f41fbc0623ef700d1198a047214c293e,0x0578292cb20a443ba1cde459c985ce14ca2bdee5,0x06df3b2bbb68adc8b0e302443692037ed9f91b42,0x072f14b85add63488ddad88f855fda4a99d6ac9b,0x0b09dea16768f0799065c475be02919503cb2a35,0x0e297f1e557b5dc5e9b2d01fc278d0ab5600c7c4,0x0fd5663d4893ae0d579d580584806aadd2dd0b8b,0x12e9da849f12d47707a94e29f781f1cd20a7f49a,0x173063a30e095313eee39411f07e95a8a806014e,0x178e029173417b1f9c8bc16dcec6f697bc323746,0x186084ff790c65088ba694df11758fae4943ee9e,0x1a971bfef0fa1efc991655af55f46e8f66f18500,0x1ae6133b2ccf55b2b8c6609f73e224177f2f0ae7,0x1b65fe4881800b91d4277ba738b567cbb200a60d,0x1bc2805c0550bb34f7d5caaeeae89709d92cfec3,0x1e19cf2d73a72ef1332c882f20534b6519be0276,0x207893b97246481839d97e9dbfee6672071f1697,0x25accb7943fd73dda5e23ba6329085a3c24bfb6a,0x27c9f71cc31464b906e0006d4fcbc8900f48f15f,0x2baf22a557b1971c83bd19b5d7f00955e11c8cda,0x32296969ef14eb0c6d29669c550d4a0449130230,0x334c96d792e4b26b841d28f53235281cec1be1f2,0x350196326aeaa9b98f1903fb5e8fc2686f85318c,0x3dd0843a028c86e0b760b1a76929d1c5ef93a2dd,0x3de314703acf68b8a3d03e8147b60732258f5ef2,0x3f7c10701b14197e2695dec6428a2ca4cf7fc3b8,0x42e2084758a73e8313bc2ca4f3ff3308b717fce8,0x441b8a1980f2f2e43a9397099d15cc2fe6d36250,0x46e7a3c244310590bdfd666692f6cd0566b18b91,0x46fcc16ff800d2b8d2927c292fcc86e7255e8217,0x48607651416a943bf5ac71c41be1420538e78f87,0x4b3e704c0942619350e7da5e88b0685e03464963,0x4ce0bd7debf13434d3ae127430e9bd4291bfb61f,0x4d7cab3ffd6b9a3c07de59b2d6afe70dd8856e36,0x4edcb2b46377530bc18bb4d2c7fe46a992c73e10,0x5512a4bbe7b3051f92324bacf25c02b9000c4a50,0x57f8ff5db97161d944ed6f97c91c097908c008ae,0x5a98fcbea516cf06857215779fd812ca3bef1b32,0x5b0f0c707632dab4d15ac1e2ff3d7245863845a0,0x5b3240b6be3e7487d61cd1afdfc7fe4fa1d81e64,0x5f7cf99dc513e283227b8aa11738a4620a36cacd,0x616e8bfa43f920657b3497dbf40d6b1a02d4608d,0x6230b148afeba47e89a4a960c4efaf2e66b51755,0x6952a25e5e43e13714d5953e93ad9976b7b50f66,0x6a5ead5433a50472642cd268e584dafa5a394490,0x6c4afa47860aad1ba39dfa778fef4efa5e5ba3b7,0x70751c02db1a5e48ed333c919a7b94e34a4e07e2,0x798b112420ad6391a4129ac25ef59663a44c88bb,0x7deca3ff1d7d31a8d2126278809d539798b0f035,0x7dff4cd6fbc9fa8dceb134a1a52864633c79c534,0x7ee30c6bd4d5e911fbeb0daf6a8b4597c9a65b2a,0x8167a1117691f39e05e9131cfa88f0e3a620e967,0x8404db778bc3c396d699b08ee82745df26d44dd6,0x8e85e97ed19c0fa13b2549309965291fbbc0048b,0x8eb6c82c3081bbbd45dcac5afa631aac53478b7c,0x92762b42a06dcdddc5b7362cfb01e631c4d44b40,0x95742fe0470212143f53ab51cc49e7c29d9cd6f0,0x96646936b91d6b9d7d0c47c496afbf3d6ec7b6f8,0x99a14324cfd525a34bbc93ac7e348929909d57fd,0xa137fabc4cc775df6e4b6f9e3877f0a6574c1175,0xa13a9247ea42d743238089903570127dda72fe44,0xa348a39a98418dd78b242e2fd7b14e18ac080e75,0xa6f548df93de924d73be7d25dc02554c6bd66db5,0xa7ff759dbef9f3efdd1d59beee44b966acafe214,0xac10009ed7845897e205faf7ce25552df3f928c4,0xadf1cf028e29ca91d5b86166d8283284e284bef4,0xae7bfd6fa54259fc477879712eebe34164d3a84f,0xb460daa847c45f1c4a41cb05bfb3b51c92e41b36,0xb65acde9e942e7b522815af621cc7ec7c137c0d1,0xb68cfd62de70b38fdb46fd00dc84440ef383954e,0xb6ab5cba5445b582420a01125d33f9640d1696ee,0xbacb8889894e03166a4bc893bfd3427d407c4f84,0xbaeec99c90e3420ec6c1e7a769d2a856d2898e4d,0xbb7a6ec509d42177c100273b4cd785816daf8e4f,0xbddd36656b8220af4dea3165031b2f1233f652fc,0xbf96189eee9357a95c7719f4f5047f76bde804e5,0xc7eb4013047e36b80e5511be7a280edaaddfe792,0xc9307d63b3709f537d2158f43199a69682ff0967,0xcfca23ca9ca720b6e98e3eb9b6aa0ffc4a5c08b9,0xdacb6b8138db32a39970ba8382a75467889a615b,0xde8c195aa41c11a0c4787372defbbddaa31306d2,0xe340ebfcaa544da8bb1ee9005f1a346d50ec422e,0xe8cc7e765647625b95f59c15848379d10b9ab4af,0xec655ae9b8477e164e8c0c4a9c2f290b85695ecd,0xedcb19a41e6d3b68c96f4dd77b39852384aa4d18,0xf040f41be7b9c4468ca02844bf3ef7e39682182b,0xf0b6c52c8d1df405b5195674ee639533c77d0681,0xf3aeb3abba741f0eece8a1b1d2f11b85899951cb,0xf4c0dd9b82da36c07605df83c8a416f11724d88b,0xf7e74b21dd82b686f1be81e91609b595a551b784,0xf8e3ec1e5e476ac7a4d6659549b5f04727e714be,0xf9a63ccfe1156f2bd4d2eb2f37c5e61139278fb8,0xf9ad7c6bab11d9f483fd40ee4170bf27f21d4c78,0xba485b556399123261a5f9c95d413b4f93107407,0x6b175474e89094c44da98b954eedeac495271d0f,0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48,0xdac17f958d2ee523a2206206994597c13d831ec7,0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f,0xae78736cd615f374d3085123a210448e74fc6393,0xd33526068d116ce69f19a9ee46f0bd304f21a51f,0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7,0x586aa273f262909eef8fa02d90ab65f5015e0516,0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e,0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0,0x43d4a3cd90ddd2f8f4f693170c9c8098163502ad,0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321,0x5c6ee304399dbdb9c8ef030ab642b10820db8f56,0x888888435fde8e7d4c54cab67f206e4199454c60,0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68,0x865377367054516e17014ccded1e7d814edc9ce4,0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8,0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6,0xbe9895146f7af43049ca1c1ae358b0541ea49704,0x5f98805a4e8be255a32880fdec7f6728c6568ba0,0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d,0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f,0xcdf7028ceab81fa0c6971208e83fa7872994bee5,0xac3e018457b222d93114458476f3e3416abbe38f,0x2260fac5e5542a773aa44fbcfedf7c193bc2c599,0x798d1be841a82a273720ce31c822c61a67a601c3,0x6810e776880c02933d47db1b9fc05908e5386b96,0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab,0xd084944d3c05cd115c09d072b9f44ba3e0e45921,0x2f4eb100552ef93840d5adc30560e5513dfffacb,0x82698aecc9e28e9bb27608bd52cf57f704bd1b83,0xae37d54ae477268b9997d4161b96b8200755935c,0xab846fb6c81370327e784ae7cbb6d6a6af6ff4bf,0x24e79e946dea5482212c38aab2d0782f04cdb0e0,0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9,0x3472a5a71965499acd81997a54bba8d852c6e53d,0xf203ca1769ca8e9e8fe1da9d147db68b6c919817,0x8d6cebd76f18e1558d4db88138e2defb3909fad6&vs_currencies=usd",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://app.aura.finance/static/media/aura.734161fc.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae78736cd615f374d3085123a210448e74fc6393.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x2f4eb100552ef93840d5adc30560e5513dfffacb.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0x82698aecc9e28e9bb27608bd52cf57f704bd1b83.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xae37d54ae477268b9997d4161b96b8200755935c.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xa13a9247ea42d743238089903570127dda72fe44.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/balancer-labs/assets/master/assets/0xbe9895146f7af43049ca1c1ae358b0541ea49704.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://raw.githubusercontent.com/balancer-labs/assets/master/generated/listed.tokenlist.json",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_blockNumber\",\"params\":[],\"id\":45,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_blockNumber\",\"params\":[],\"id\":44,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_blockNumber\",\"params\":[],\"id\":46,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_blockNumber\",\"params\":[],\"id\":44,\"jsonrpc\":\"2.0\"}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://graph.aura.finance/subgraphs/name/aura/aura-mainnet-v2",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://graph.aura.finance/subgraphs/name/aura/aura-mainnet-v1",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-v2",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.aura.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://graph.aura.finance/subgraphs/name/aura/aura-mainnet-v2",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"operationName\":\"Aura\",\"variables\":{\"accountId\":\"\",\"hasAccount\":false},\"query\":\"query Aura($accountId: String!, $hasAccount: Boolean!) {\\n  ...Block\\n  auraLocker(id: \\\"auraLocker\\\") {\\n    ...AllAuraLocker\\n    accounts(where: {account: $accountId}) @include(if: $hasAccount) {\\n      id\\n      balance\\n      balanceLocked\\n      balanceNextUnlockIndex\\n      delegate {\\n        id\\n        __typename\\n      }\\n      userLocks {\\n        id\\n        amount\\n        unlockTime\\n        __typename\\n      }\\n      userData {\\n        id\\n        token {\\n          ...AllToken\\n          __typename\\n        }\\n        rewards\\n        rewardPerTokenPaid\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n  auraBal: pool(id: \\\"auraBal\\\") {\\n    ...AllPool\\n    accounts(where: {account: $accountId}) @include(if: $hasAccount) {\\n      ...AllPoolAccount\\n      __typename\\n    }\\n    __typename\\n  }\\n  initialAuraBal: pool(id: \\\"initialAuraBalRewards\\\") {\\n    ...AllPool\\n    accounts(where: {account: $accountId}) @include(if: $hasAccount) {\\n      ...AllPoolAccount\\n      __typename\\n    }\\n    __typename\\n  }\\n  factoryPools: pools(where: {isFactoryPool: true}) {\\n    ...AllPool\\n    accounts(where: {account: $accountId}) @include(if: $hasAccount) {\\n      ...AllPoolAccount\\n      __typename\\n    }\\n    __typename\\n  }\\n  masterChefPoolInfos {\\n    id\\n    accCvxPerShare\\n    allocPoint\\n    lastRewardBlock\\n    rewarder\\n    lpToken {\\n      ...AllToken\\n      __typename\\n    }\\n    lpSupply\\n    userInfos(where: {account: $accountId}) @include(if: $hasAccount) {\\n      id\\n      amount\\n      rewardDebt\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\\nfragment Block on Query {\\n  _meta {\\n    block {\\n      number\\n      __typename\\n    }\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AllAuraLocker on AuraLocker {\\n  id\\n  address\\n  lockedSupply\\n  totalLocked: totalSupply\\n  rewardData {\\n    id\\n    token {\\n      ...AllToken\\n      __typename\\n    }\\n    periodFinish\\n    lastUpdateTime\\n    rewardPerTokenStored\\n    rewardRate\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AllToken on Token {\\n  id\\n  decimals\\n  symbol\\n  name\\n  __typename\\n}\\n\\nfragment AllPool on Pool {\\n  id\\n  depositToken {\\n    ...AllToken\\n    __typename\\n  }\\n  lpToken {\\n    ...AllToken\\n    __typename\\n  }\\n  isFactoryPool\\n  factoryPoolData {\\n    id\\n    addedAt\\n    isShutdown\\n    stash\\n    gauge\\n    __typename\\n  }\\n  gauge {\\n    id\\n    balance\\n    totalSupply\\n    workingSupply\\n    __typename\\n  }\\n  rewardPool\\n  rewardData {\\n    id\\n    token {\\n      ...AllToken\\n      __typename\\n    }\\n    periodFinish\\n    lastUpdateTime\\n    rewardPerTokenStored\\n    rewardRate\\n    __typename\\n  }\\n  totalSupply\\n  totalStaked\\n  __typename\\n}\\n\\nfragment AllPoolAccount on PoolAccount {\\n  id\\n  balance\\n  staked\\n  rewards {\\n    ...AllPoolAccountRewards\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AllPoolAccountRewards on PoolAccountRewards {\\n  id\\n  rewards\\n  rewardPerTokenPaid\\n  rewardToken {\\n    ...AllToken\\n    __typename\\n  }\\n  __typename\\n}\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://graph.aura.finance/subgraphs/name/aura/aura-mainnet-v1",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"operationName\":\"AuraV1\",\"variables\":{\"accountId\":\"\",\"hasAccount\":false},\"query\":\"query AuraV1($accountId: String!, $hasAccount: Boolean!) {\\n  ...Block\\n  poolAccounts(where: {staked_gt: 0, account: $accountId}) @include(if: $hasAccount) {\\n    id\\n    __typename\\n  }\\n}\\n\\nfragment Block on Query {\\n  _meta {\\n    block {\\n      number\\n      __typename\\n    }\\n    __typename\\n  }\\n  __typename\\n}\"}"
+        },
+        {
+            "requestContext": [
+                "https://app.aura.finance/"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-v2",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://app.aura.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"operationName\":\"PoolsByAddresses\",\"variables\":{\"addresses\":[\"0xcfca23ca9ca720b6e98e3eb9b6aa0ffc4a5c08b9\",\"0x3dd0843a028c86e0b760b1a76929d1c5ef93a2dd\",\"0x334c96d792e4b26b841d28f53235281cec1be1f2\",\"0xe340ebfcaa544da8bb1ee9005f1a346d50ec422e\",\"0x4ce0bd7debf13434d3ae127430e9bd4291bfb61f\",\"0x8e85e97ed19c0fa13b2549309965291fbbc0048b\",\"0xae7bfd6fa54259fc477879712eebe34164d3a84f\",\"0x1e19cf2d73a72ef1332c882f20534b6519be0276\",\"0x99a14324cfd525a34bbc93ac7e348929909d57fd\",\"0xe8cc7e765647625b95f59c15848379d10b9ab4af\",\"0xb460daa847c45f1c4a41cb05bfb3b51c92e41b36\",\"0x8eb6c82c3081bbbd45dcac5afa631aac53478b7c\",\"0xa13a9247ea42d743238089903570127dda72fe44\",\"0x6a5ead5433a50472642cd268e584dafa5a394490\",\"0x0fd5663d4893ae0d579d580584806aadd2dd0b8b\",\"0x441b8a1980f2f2e43a9397099d15cc2fe6d36250\",\"0x1b65fe4881800b91d4277ba738b567cbb200a60d\",\"0xf3aeb3abba741f0eece8a1b1d2f11b85899951cb\",\"0x48607651416a943bf5ac71c41be1420538e78f87\",\"0x06df3b2bbb68adc8b0e302443692037ed9f91b42\",\"0x072f14b85add63488ddad88f855fda4a99d6ac9b\",\"0x0b09dea16768f0799065c475be02919503cb2a35\",\"0x32296969ef14eb0c6d29669c550d4a0449130230\",\"0x92762b42a06dcdddc5b7362cfb01e631c4d44b40\",\"0x96646936b91d6b9d7d0c47c496afbf3d6ec7b6f8\",\"0xa6f548df93de924d73be7d25dc02554c6bd66db5\",\"0xbf96189eee9357a95c7719f4f5047f76bde804e5\",\"0xf4c0dd9b82da36c07605df83c8a416f11724d88b\",\"0x186084ff790c65088ba694df11758fae4943ee9e\",\"0x0578292cb20a443ba1cde459c985ce14ca2bdee5\",\"0x178e029173417b1f9c8bc16dcec6f697bc323746\",\"0x4edcb2b46377530bc18bb4d2c7fe46a992c73e10\",\"0x173063a30e095313eee39411f07e95a8a806014e\",\"0x798b112420ad6391a4129ac25ef59663a44c88bb\",\"0xde8c195aa41c11a0c4787372defbbddaa31306d2\",\"0x5512a4bbe7b3051f92324bacf25c02b9000c4a50\",\"0x8167a1117691f39e05e9131cfa88f0e3a620e967\",\"0xbaeec99c90e3420ec6c1e7a769d2a856d2898e4d\",\"0x350196326aeaa9b98f1903fb5e8fc2686f85318c\",\"0x3f7c10701b14197e2695dec6428a2ca4cf7fc3b8\",\"0xa7ff759dbef9f3efdd1d59beee44b966acafe214\",\"0x27c9f71cc31464b906e0006d4fcbc8900f48f15f\",\"0x5b3240b6be3e7487d61cd1afdfc7fe4fa1d81e64\",\"0x25accb7943fd73dda5e23ba6329085a3c24bfb6a\",\"0xc9307d63b3709f537d2158f43199a69682ff0967\",\"0xbb7a6ec509d42177c100273b4cd785816daf8e4f\",\"0xa348a39a98418dd78b242e2fd7b14e18ac080e75\",\"0x5c6ee304399dbdb9c8ef030ab642b10820db8f56\",\"0xc29562b045d80fd77c69bec09541f5c16fe20d9d\"]},\"query\":\"query PoolsByAddresses($addresses: [Bytes!]!) {\\n  ...Block\\n  poolsByAddresses: pools(where: {address_in: $addresses}) {\\n    ...Bal_AllPool\\n    __typename\\n  }\\n}\\n\\nfragment Block on Query {\\n  _meta {\\n    block {\\n      number\\n      __typename\\n    }\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment Bal_AllPool on Pool {\\n  id\\n  address\\n  name\\n  totalShares\\n  totalWeight\\n  totalLiquidity\\n  poolType\\n  tokens {\\n    ...Bal_AllPoolToken\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment Bal_AllPoolToken on PoolToken {\\n  id\\n  address\\n  symbol\\n  decimals\\n  name\\n  balance\\n  weight\\n  __typename\\n}\"}"
+        }
+    ],
+    "success": true
+}

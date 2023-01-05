@@ -1,0 +1,891 @@
+{
+    "url": "https://strike.org",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 15,
+        "url": "https://strike.org",
+        "metamaskPath": "metamask-chrome-10.22.2",
+        "destination": "test_crawls",
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1672937998126,
+        "end": 1672938025276
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "url": "https://strike.org/",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/css/2.b6e3a137.chunk.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/css/main.7cec184c.chunk.css",
+            "type": "stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/js/2.9421e895.chunk.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/js/main.ce8463a3.chunk.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/logo.052a772b.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "data:image/png;base64,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",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/AvenirNextLTPro-Regular.b5ed9330.otf",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/static/css/main.7cec184c.chunk.css",
+                "origin": "https://strike.org",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank",
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts=1672934400",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank",
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/cdn-cgi/challenge-platform/h/b/scripts/pica.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank",
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/cdn-cgi/challenge-platform/h/b/cv/result/784dc48cde7b22b1",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"m\":\"VDskKX.v96SGLnatk8B4SmTfFNSc7pfiGfeLXFt_baA-1672938001-0-ARYkgWB6ha1g8onO8t+Tw0mvsl8hZYYxp9+2mQ053QqbDC5MeFtA7vmmh7OcgslRyljNC4YdmsGzf3oEJL0hgBIWi07cEVd5Yp0nApXIrBAakEdqxQnTM6Cwv8XjZE7hPQ==\",\"wp\":\"HBp2yIAdyepIj-sIzQ-QV2EZppbEj2AjZAOQMop-YQFQIZGpKYQOQ-0E4MjK95Qr-cGmQD-i2mKhQy2sYt-QAcjQxwjyM-HwPRLdzUPSe$QqRZ$5QY8J+eZq0347trQlz-yKPM33KB5cQKZQUUpQKFyMQCatrIuMxIz$pQI3PQIYiOQjIA2Qz2IJMb2QdFyhSAZQNhPt-IuspPPItHphqYaRg2Q5eQyIQCcpIIiQvGuadKRjPdMXArorPZ2T5E0XIMNpZ6yyP+5XIA6PqsCVIICAj5mTwePhCJQQrAw2S4abdKQblZAIWb2flmMP-l6n32qtbLzsz7jmmJmZhzCQK-wwZQYL493plrNnNf9s2QQhLmIaJ$HJZ-sIL5jQsTDQs7Hp$OmQMfY5uni8tIEiiLdvFQgmTrkSOyyKEOeKr4-QRaXnjyOeuHyuJNrQA5eKYauZnyzzpEQ-xYWBURydYYBPkhwYl22QWuf2QDi67GI+Dis2yhccZt-3IAzv+PmmH8ZmW++3hXA6GQQarWYwMydbIM$IRPy99IbgYJR8mmJQEz7LMcDYXiuMdcm+7JI2sopZtyzVSCuoxJS69Oc9h2qi9unbEs9k0TcfTgzfMySt4uUCG$WUfH$7KaDdt8KyNfBlB4nDUGq7iu8JPMlzw4WjzlmQX2a+Z398oQN9HL7saOpT4peSpTQRBDT4Ubs5-8$yjP8+INAaBqNiIpFQ$2lKBZPf5CxBhQQpqcCaF-GC8StjX8hHmFEt-peZ8Apky9-dPICyZC85sG-jDRpKEPyj$2eHi-2$twpm+teYPtzpOQuA$sPIpGEIJpbA8rQb-jCQZ4wePpz58-cXZ$ICthqEQOAJtpbE+FmLrrObgIsAiI28YhhLDpZIcOwd3LJAZpPc-cOyApQeqdULqEYcLVO2iLtupZzhyaKLS25Mzl4sR8vEp5ElyeXOYGdACwGzUjV$ie2dw5C2eF0VjIGdORmEItmhQzUcM8eeP$h3lzyMJjz7Gdy$vOpyLCc56$staOk$SYb2vHsbuqH3BN$cZxRcsIEe9hIEAcK4ledcZZ5eRi9ZzQbpON7$FEj2jn2p8sn8JUaI$yM$k2enVwZtU3o3$KluP-S72PO7$-jeJmpf$KY02YQj9PEKmTP0hADa2xbiKic8R24M8DKBxtcK+5Yst$tqGKJQPj8S2IqJNRByiHt5ONCOwNkCeYWL$b5i8eWcc8jeYtRlKb9FDdpLFGxbeEjbbeNvpVjn7nDamXcQJFoseFOejjlkaWPGRtXwMe9ehtwCyzYFYNdPnQww-2LchNauXY4cJIsxqc-M9LLjcq2LWUF6N7XZRbjsmi9db4cBwyBMWC-B2QsdpFXu9u5Zg39XXkI8bLGD8ld9mCtwi28dpT6INBFj7iBe5CdpoRXE3Ne+-aI8Ciz3ZdFB2SQu2QJDe-DRmYhYZAQQPZ5I2p8MuGA4Q88Za-Y9MCsTuDA3bHuChzK9vyORYh8uANhYUldR$3PjGEmgUa47BwpfDwPQ4wZkBoWI+QoZJCsWjg2qWDaRjvVIQQoC5BT9AWzSw5i+w2rk2CpYW4pmZayQCsM4CvIIBxitscWMAmbQyJ-AePCQs8d+ApAufBYpdZ7tcyzssHxQOxA$IdsaKYyae26qnxhqjdt98UpJ$b6Q8d+B6Id8NZsy0Nzohka5CbtN9z7ycsUIb-Usp55AApyptjc2PZCyCnQRjq+H0KOYEwrwIpe0r-CYbXgiPOP7p8tGHNWImizKARNhZeZp555kP8uptjnuLKit$HKllmb55AMbwbeq9TRczAsJ2e2hHfCU-dusamqopNPMbbkAh7yeZ5pmYBQPH5I7Kz7FqCvR0$pDEz4aI2kECRoHxAB9qmb77v-enWsZKiuylPF5Sx8nr4fbY3Jmlv-Qd8YyYybbvZzh7Xp5EpyAIZPsT0O$jEZHEQ5MHE5BBvezzeNCjpslxvzAEwDp-Sx8AL9yln0dmaDRLrFA7XupC238ly4EzYQa502hp4zhHZiZHPr7IJ7eSY-sLibIrwAI02-PcI$QNuNxGfuD3Xo+7hSGdyIBpUiYFpZdwdnmhPxQTDOsSxwHqb5aeGh5fskqXyO7ZJqIe6$2V9bdyC3iIsEJC2LY0B90OuzFpw28InHrhTORC08OiAecu9lBkEQB+xpOMAJ$9ih8LG$B2z$6bhuzppq93r9Clq7dBZpZuL9MpzdaYo$VO+J-YsXX50VGBMSHjn-2yozjis-egJB2ycksImhdJaUEt$jmf5cp9jw4xf4m8i9mVugnMKV5q+Hd8U9wOLG7$-EhK9ccb86sDvU7bMha5mYlsVc3zoFS4imaPwxi9njDjt9sw+SL4cZN$4PICJy2YzMZYz3ZD6eKQ0X$YCtkm5KqIoxm$JnIRuOMwY3aDAtLr0+X$HQuPSQcqtm6PAu$+3wl8QpZe2DmtJQpT3yL5hJGrlUQCbfKoKbslhPTujNGLZIfiMPfRkSYH2AGpRCZ4qtgNmnTDR664kKGf+yJQveKGWd8VcCtw4EY2TAgTLfcBFnZB8gyb2UkCz4lsMccAIHsKRXptaq9rDUnjTZZo9E6oYWMPhRu2u$Y6UewtvcfKfw6h3UNxoqoVEGU+Gvqj4w0BXPsKj33xUgEkMM4UttRq2M9t$I6pcX$nsXnEKcztXhEEJ+jKOtuM7Cr3xh7emcQuDOHts0x6rrsC9MWhBxam4pknSUVBsDBtjbnvxjB-$osiOu5hjQ-SLRm3mHFWrIfHFPeJiiIHirUb7bNdrr2GhOpQIGn-TUZOJ5Z5AunaGin23hD290aSaX29+yCWOBAZt$rAtSHx4rom59Ah0GJj7cWkLnf+9NHXdJU-+5U7cTriYNI+80ts$g9YkONCUVY34D6EfQ3bUtNksd9P8Za06Cy4e3WNkkUGk5QQR8RfGVWGaAmDTDd23isx0b2c28p0RcyZZGSQFasylqT$wTDQXdDA6XBBszmlAs80y8fh46hLiI-mx57Hgwiylq55qYMUOsQQ-abo0JG0fkh+8j2lIsSNRM+APL5$XmO$8hDgqbOPSNkT6BOxATLuvAfLAG6uxJRvqLMXVg-3oHFjnO8Wxvzw8fFHRB+Jps5NUeXodnAwt$wQ+GCQ3BJ$R9nlGWs3vLWkFnQMkotQww6p7fQwZXdB9xSnLSWYl+GQOZeBsxUMTdAfzthPNi7gTzfj43rOFM93Dk2J9Zq7drE8cHnUEIOtI9jxt2lPMi2ILa0OwRQ9lwtLnFULS4dgxfHcpPI0HRwRf2s2dm+Q6ynydYw3THQtTHvasmtwqnC+XVNf-QGglNIy3N3HlTQvGgWy8-4hWYgs+$nFvmdW6mez0RK3S7W5-iN-an0ZdWydJ+hB4fFkSklPA-v6B6Lj3tUvK3ffP8gagNvUnSDWVWK9YNK-4BG3WUvK5khc0Fvrv6DzJWDOvnvqQ-ZiArvs+O5BvdAulIQ2Z+so0zAa2zduZT0t27AfMvA+zUi8sZ2FeNlovuvulbGt3jA9A9IvA9IA37AHQdvgvIvulXQfhLAAd7ib2LAOQ2ZZ27ASBTAUAa2IIAhm8cQolUhb8B87AkI3AZ8d8G5j2cmd8xQ2ib8ct7A+09QIdx2G8o0K5P8cQsZP87Y-8oQG8Hb7ADjYhX8+sQQ9hwFbrNEQcsEptBex7p+2-lSyEWG65NG472p8ypx2bAkpQEEpsmAsPUAsXis6CbAsdw+pbkpcORc2+4sihS7mrWGbEXYqyNE2xq-WkpnwxZZiefMib9G4SHkwNi96$CjnIi+Y5pE2bMUuh5uBPiegGbE0Jpy0p0YjN0l42YxzCBA0nVG0+plYbi$z-YXuwSy0b0b6FQ-JtC5cA09kImY4UpA0x-QdJmyYeY96R5Rjedb6F0AgcdlbYf4aH+Cz4SkditGiYB-Qb5wmE7$ej2rmbw$SRAMChmt4jI9AYEtrFqCGjWuOKTGmHFUV-GGVhF5Q4Ib5XqymQp4YSINPFaMrI5x0HVyLUI$K4I+NMiCjwZ4IPZ5EOIcJZJ+2YBdw5+$bKIWJZDCZQJXyQbPiFJN48ZHzrb4IrdjEpvSIbQjwGqHVX7FwKwA2QJcCR9EJiu8oMfy-jxKwY$PjAQXoApNJJ5b28ZHVEdhsYkO$bedeXUszGX5XtzjCZeX0d6KIZePOS$ZNy08HEJZeldi3ZNMdNq5cFIXpb8tnczHUKV7t$0yyptrpJt+NEhUtb8HCNdCwY3OrcJNdHr77J5Nd4t-7e9wAwn2zNc4pjti8Mjp+NPHZ4p7H4qCKAZc$kkS+W$5OubsDe$km7ACPGmAZwZuBkxY9Yb5QCmSz8uEkOdsjOXYU4sMmCmhkusAUyHkMr6U+wmwMratAEYhZHbyMlGb8EGXb-2CRYq-8p8HlRHEZYzMxj0ExcypFUqyMbK7lNawowZsO7Lt+jNs2EnRliXMm-vNYQnwsdnGH5Q4vrCitrbtA9nj8-DiZtAxJsXEpJA+AesJmypnvxn$8rpNAeAxnksQjFAXUKvdbXpY5GtlCctrH75kteZ4tnAJPJt9PJPe4F9hB4i+Ft5R9cM82d8dqrK$AJPPZ28ejs8JB758ZcqI35NGEZZFGkMu8rENJCujpuviq+6AZ7cPBkq75cJEuOmCoYP+6H+FJHcJPdxNJ4Wkq+6KLQOEvJPxEPESJ2E+64ibxPBSibuUy75RESuUanu$qWoC0EPEyAqWxWaNoMq9ChalanuU7FaebE5k6IvX-l52RX6sRn-+-+RldifuD2fSPJanuGdbkpX4lWPb8npOtuzhPP9rVxJhEZN48xAx-pRjxAj8dCo97i2EsMjK-b8AaKo9a$Zs+9+xvWoWSEoIzMmHB8dOmYHy8XBRiscU7jUbmCf$UnjcCNz4zONQPOJ-CJAPUPap-rfUlwXxyyZyInJy+9IJQMXlqAccrkmAvXo4Xl-EqRK5NGXd5XT9ZAvNmI3NTn0-2pyPj4ZuTKt9hGU9-dH4CbNYHCqu4yTZxOqScC0sjIutXlbG2Xot2KQI2-XwD$0AU5QQzJBbMnjt$eqrh8TQxcJcrX-HrZtUksZKjYlCpYWF5GmtLJbIlELb5ReJz2mOePzULWBiaPa2v$3RqY5+2YbYdKduJtFt24pSLMNQEH-Cd4qNs8ZydcTdAJBhUEmKc--dUsXMyNmprrXGmOJwmCOiZYUOJ-eR2OmOmMEuNra-e7NEIi-2wAfifxdITWf9ekcN6cNxn-75Abf9eRzeQubHKiGSznKn0Ep4clAH72FdpkBkuyNXZsdhsHzpxQwRZ4FbnyiC4R-5XOFJn9ybnrXeKYnennn+ecn+pHni6risO7ppM$jCc$x-nZfnFNnPJYzYRb6d4J6QnCjp3b4rndd7nn3UpsUefG4W4bn+Tel46+6N4P6bqE+9ZI+rSP4JHZWXbnUNq$SZnri-MNdC6ZmM6P4Xut9yiKWZg+SriEqCW9ZCgiWlgNk9SWWN4+0ERsbMTUzsKiQL+Hi-msSinXZERREPqQpkMUnZ2BarHFisEY6tNE20wn9WKbwX2aapZ3bym-LYBQ02fJ2UOsa9aAsyZo7Ns4sHb9KikKGS2LNd3ROJN8cGjOdAa-2Q5hdMPltcmacSmaypAPZJQOmTm3Z-payppDWHaHu8F9mqpaCW8pncp3fOo9Klj0HZjvqAWZb3ruiyQbNOpqjg8OKPuEmfakR5XHfWq-spvjkAuXE4bqwiXtjqeUHsnrE4BTyMrexSjVBIsQ6Ps4VUiAZRNdDkX52OMhjjnQNHopw3jsmtbkPIbO$7B0wow6bOwvqKBxyyH82KQy0sYx2RGJupxMizCQ68$pFGXGm4ia0p0vsEZQXJB703o-9b0C0qifPS00pJA+0VdejydhhjYgeMHy9$qJ-uBuYzou9$VPojhqdYhgqWizHF67Yqi6wyiYWcRtFnimdzgxqUY0Z4imwUZsbzNudDb-Z4d3Zpd3cIlU7jV6doj0A+VaVqiq2t8nL4ZpWJQ4iBIapY0BNMID8rdGb3IgiaXOIadf8yYmalq4oywvO+5mp7Q2N$5TdqivdxVvJhBYHOquJniBn-7UhLmXYbeZ4-I7RdZiPHoEASJLae06J0hnukGt2KzlfHITzzpyanz6zZC9zvfAz6u8osjHpOXK8QPCzaCgcrzDRNCgCBJ5T7zBISzMnNJ3XIsYkHyKd8baOXbqqyOr$TJMA-ayaKaH57Ig5TiDpIWZ50FnbTdLyYrFSd+iCVXsrk33HZHFU9zmt0toglPptDt3rK5XVw5-2IgStVxQmHyh73--h+WG7aSIxha-7BQ27q7vA4PRhw7m+qStxHXI7D7v+0+TXMSSFpnMmH7a+3dtbPd405N5DzcOmC9G+wZHDvAOms4MpppQMf+L7VM3pCMfqjMTXMs72bNKM6HXuXZOMqM3Dfp3W+yQDsEIaRRMMB+aMV8hDqGLDVPjQzQYGz+VdGG0lD-YVb9StL0HTk020JBhv0$kN++05yhhBkWxq2q8$Yk5hPvm+fC6gwvvALysbyv6ADBO$koW705yeAm7jrvLeC6uJEvSiA80hp3SvzmYq2Hh8a8mPqwGvaJStDPgIh756Cv5sK8oT5jOM8Z-HYIJXsqTHEhriIKXU-q6q-3Gq3msqgDcYGfAZ68q$CfObePm2YATzp76Emc0bHV-EVkw5McTzCm9Az8m2MkkMhXpnAmkzK8Den86zR7FEax632xAxLJysZKF4K8DLn2nE0mfdYELi+A6c3CSxOXYz-aaq6E3CwiRa68q-IdNcLeKQOzIlJpKnePzFHbePzNAPtreBd8acoRqokEHX9RmEEREdyvDJus9RuvvxV8zMqpplT90mKlvlxPLb4tBoVztJw9fdyv32sjRo34JRf0WtoUO6Nogqtvjlfc9Cabd8mGLuel05yHDGLOKHTvV8fJw8pvLaqaVom+oU6l0XkJQmyxCU3B4WH-yvoG3ayGo8UxKHV0t6spMoaauvzlBlV8uvgtvTo5TaoPm+0md8z+RBWT3HDpKl0YGT3zEdUsMT0fr8IYNc6QY0PULT05MhW9tMXTTUzuLhrv3uzmIUmHm+fuVKSkd-mrzuadR-LaLlguStTr6lBVwPg+-tbl60s8DrmE2h97Bn-KjtToEX-YuXEBmMoXpOm49lfLepYDqOqzPjYjTX-OalHghjLHjiJlMe0HZkfwz9NRwk9-iSOzMtwXUiOJst$BQHJAeiiAdDoeTN0F2H8VqN0s5rxgiQioXNmWNcUTKiFLo+xfDTHVgmvWMfVxRfTZYGcIef2lhD0zOmAZBiwiUKqzOmCK6LVgbebRQqhDDF09pULz9lmD4xEwvRjyYXCL2fqvmnTstQznTHH7FaBnTnoY$n60OkQSdD0awbEJv60IhBsNrD7FYzZNM6LJCE9PTI2NAQolVyal0Yuw8yOJy8N4gDS43PU8FvG6vYcYUY8SzCoY8jOMosaRkNANosVdxzEMGMRlLy3BYDvRwbE4Tn3sOhToy6WapleHzlxyygWQp5SaIzD65gogffZD27MWe8KZBxsAnvasA2-cKbIBVBAMqX05002tpyMjaDrR524$2kHybG4NQ9ZQmKmAhlp-nKkci5ZLxdl6crQiPzJcNcyp-Q72l4-BL0IQjrQzCEJ6ptPAj2dQL2Ns+psVI7At9b2bAzDZsy$l4Ry92$6gaITBQKoiE5B8f87QbtZ2N6FQCjyNckjBv9Zlj4G8WdUAY0KZiiPbATQYQa24ZiMoectVrhx233AbHdytV5JhEJQiLDWfhQv2lZNHYb4dKV9uAc2j2yBO+aRxnAE2L5Yzt5IP-Q2YD4jywtvIGyj8LlXN5cKLEzUzViZ8sS8QqjYAlZkG9pJVmVKPIZzhZUrRLy8urwgA0ZhDYPDq2CUI8JZuvyiOjuPAIpob+XAiYQfiARjNY-NIQ-J-aQt8rQEjro9eKkptY9ZmR4iHVLTyVp499IhPm3-opNQ4ZSjZYHFZLID8qYttHiOCKWA98mmh48hOt-vyB2CxOY8KQLp0B7dk2vpO7ZGtKIdzs59eQD-$m6yG8GwM6yQ9XzQp42UQT2Y2uBy8cDt4mTky9QyLBIgs8wHxFoyZttmpPlQms+VZDN252PXknzQ-K2mi9ZBZerApFIsAUwc$PQrsWN8qssptzgG4O7QMcbZIZQZeelRPQaanYZQYyMctv+J$Y5DMLaP4s-ZtxsQbtkwdrkwur8dQIBgwKIjCMwyvPjbJ2X2CC4V8PTGP-QOIs5KYQ4AAeLs9RYLPhII5-PrlxlCas8cJuaP5jF4UosotCuNJDes092JjZFRVjdjkilw+pr35UPaRP0b$E9K+uYvUjo0+jJ-$DwnPAPABXppUK5XwAyp20ZiPufUIWhmeWIHZPeAv5mtP240NuqF$85UPo4M7HXQXbh5mquzWM7v9Xm+uqJ7IO+Is2z3yRHPGIJaYWAmBiRiqRbR2s2Ktk-HT3jOrie9s3seuaPiLQR$7MftbpuJ7iAnMqIj2syHPWbuFCosi5kPM25zsZIs-K-X5i+7I-mXzO63uYnsxy+4cZmx-wQUqgg9ZIk+jylPZB7B58SGY4-iAuqcpuZKJt3eijivijU3ATIRtbac+e9-VxduW-XmEA8CCZbNQqzW5o+6B$mE$qbQQJ5ipQlZOW2ZCijjEa2t2CRswIDYVvds8IiImTxVZfb23sdub-Z7prwEP2h9YOFbAmJnl9sKoUoKwyWhsiCIWCcAMgxtUqYo3C5ijRttBrhQ4lxsSpQBFPQeZhjzIP2Knq5qkjsjj-pn+eORaGE4Z-QK0Q32DqxsU-Ctjv5wwvpApEsuQsl2SKK5QPPQN5nEpsIZoa3zwGiRZFi7ni5MtYH5+xYGrksvpkRnJ9VQ2kDJAE0-NotFzLOdrnETPNHEaCdRcVwiBQFzJbObJiJrAbEAQQHskN$JSM5hXQGcMyztPGELZiMsRHoNQjEwbpTJeEOobxJ4BZiRircpswbAtQWQeFGc4Pb7aGE-i2DkAHzIxJKEzRHuQaOojRbpCawDzlI+FjKIAEOiDBCa4ewbqFE6suFGcpafUIrij0R5CzKcKdJOPPcO7tOo7R8uTEIw0GhxpUtVEybV2-84uZM23TGjfh-hG8R72KrcpH2stEFIpygElZfQOICuye8sAIb8XpZA+mV2puDQr0$JA$itEiZ8Q+bu3b6tN8DmxhNfxw47PjwWJPQLpCOAowZ5ZzEcu0TpXTFqzVos8Acp02pJpkQ2jPF2hjyuCvAgUCQRCrCOyAeAZVZCmCQzOuCpIiLz2F2m7JB82fNPypRZs7h9QR8uhZQtHO7MmsDZV2xhm3KxQqKG8U-ypm39n$pI93gaDQBh3VUpD7uEmrpm7eeHB2m8sQLpyYs5GmtcIGPS2jdK+NkiSBxBFCqhFswS5wyY8oQ0FHDybylr$AWbi2XEQDHzqyVUQ$jDDrEAUuhQyIERy6spKxmLbyIBVyPIBsq5ToDQc2Ctnj0GQLxrQAhGDYXEfZPLF+UhW5$bQ-CSrpbf0j2MFOukWrZzN2W3rFMTeAhTxzdVHGsQSylQ$aN2YGxBAdAGACaF2yZMyEEk$Q5MwiYIpb-fzh8adDc+wE2qitlQlaW8iZ4XwK7tmY7-yKpOQ6KF9Q8aU29tYkATcbHt0s5xqMmsa8YzwhPQ9w4C4rPnQ-3O0jUGqtLw2QTa+sQvW-nXJfLTaRzOahVqvNJYOaAV25xFH477rNaRVvvP8OW2jaBdfQ-vrgOj8IAnpvbgDWgOPmvyQ-XVfoEnzbAwcOiLptAXgO297Aj25IBp-Z-BqQC0-8WtzuQ4ojjCyaTWJ+Eosp+7xvCGI08NLKp9Cz3eH2nAXQkVyvAZx9QOQshwc5VQTJQZbXEr-o58ql-t2J6MfA7qIC+QLun3JEHwqyhM-w2YPWBtKJhT$QeCAw4BIdEOoT5RsNKOk2IACZxbwbjcOaRdIl9ybl56v+A9ic$OdatYPJjoYIA+C+-Wyn2Qfss27BQ2fdGP9mcBnvAMbv57e-Zs95jqvbZ2iqXoQIA9Qhp-DHPN2$XqtyXp$5jipXprwtCwaJJD4uNyr5SAUjfEnnHw$+P$sCBqm4EemhAFEsLiYD9Bpr-YyIZCPp+Io-U0MAZLGj9JoDEZIz+hOXt8wCcb32aIXQbEl4J4pv83+AVzb8mACGAKWfKwtpBz2GEY$4p8jtpPZKpOYcuJ58xmzqeT-ij7ir-OiO5NxnYjjyTOBhm++nYrHbifCnVAzLH7m+++kO03p-ealFib7MYrdrzSoywIW$2Oybfz8tw8yjFSOUlO$YZYBLiKJH6RnWpiCuMObfsMR0C6+SbIisOLn2EY7ZALMLJSAkz9$lcbsse9I2h9YdF-n5SRIhLeEm7r-Z0IYIMpI3EJk+Ed7QaGADerRIRxdRmxsYD9OEW-Js-x+2bwpLpujYMFWFmmA9NFH2Fkpop5$Yl$24+WdCM2L9GR55099e7R+08a9w$0WI$hKZYQo9ZjbXA$koReka9Xz69PjKuBhQMRhhhjRhSVAY2QcqJBeEicU+pjnBgYujCxt+ZXCzQGw-2QfIMZCkcj4BVorBREFRan2UWAM-PsT+$Qxa-mycrE6V5OEa9pe52Hr4Ryqk-wt7ytk+Hly98a3B$eHwCtHwXQFiAGHZ80ATFfiOiHChe4JqCi9k$92MYwR$+MrRkqBUB$UbywC7SA3oKek7tb5+JBPalZjKUi2$auLEGoNecJFOM8JUk$Qi3hj$yydQXApaiTWAj3kuFMAnpPJwBYG$cINkVt5dFaWB-YQVXMZrQbcNGU4nN$6ewSpiO2G4qJZt9Z2I+dzSVIBOL0TCD3CZ+RBXA+Z7MA9nvhGJHQ5BTm9bCD-cL6AD2BtFX-R5S5RRNhQQCPzArQgzJ5ORwjyCCM5mb32HQuAwl7ZjZxwmLxjT4-JUJoco3H+5QhYuVm50verRJQAYyo8ibK0fX4MFFz9CARfQKbGURGzTwO2Ov4udLqQIcUFQWwpZKQK4iLxEHqEX2OGCounZIJm2l9hGnK5kwndL3VWF$nyLncUHvs4zHoIsPPHw-W2El7UiWJiPR3Y3kZAzscJaEX3i2PE48Iju3eFQQSZvHoIxiozgcRhmmp0sRKHLst2g4iww2Nf-V7v00ZmY2oiQGN4QjhqEJQ-P5GQbUI+c+MmAdN3y+$YDCjyJCsA05lqoILreNsi7QOXq-yHPN0RoZHRzUrVVLPdGGLqY--d2Q4pr-$6FkX-g2rZ7jk$JvP7ze5L84aQii-0ybf+De8Bup$8jCCOsZNZqPhqIeQ2jDTGCV$dkLe+$r4APNwuZNhPoUoyOo+jcO9VYHlr5wnkXy-BlCFlUDYfPfq$Q45F-8+UPNMwGw2QQ2kKX8r$HXL4Nn8d2+BI3Z5nWxIPGpTklzIxK4wbRhIBG$n6Q56Q2U8wQpO2S+EMpApXpeKrsUCDh8LqV5bV+jcIQUOgQpcIqRdUqDdr6wKZKEPTsXiBPlQjdCcllcMQMky2HM7TevSCAzh-+p0jiOKqMibVM29pXQkmsXn-Zyhc2Jm9rSVQbo6w9mAFP0y-DbraVo3$negKaoNEvXxzuFMQPosC$cwItpi-xywIMk69Vv96CVtVuRqEXZjb6PuLRo7fHIu$6revk-r0HXUZjZcuNsX9lQsMWAYgCVyB5NVTvWUpiC0t5LPZIZdxY2CpoNQ83RxTpXIHpQm5U89xApM9$ZiNIU8lwE$nnIBIM2lbetSZh6wM6bQ02JccQOQ-T$GQjpQRjMkItfZhbB3EzuCFTiCyeoHc5oc2WwHe+6kz8DZ$2OfYb-9Py$MThIz3$f9SnTfi-SZcTJvj3Q8AAI0eO7-PQ6F6Qp2LmJjIB7sFdLalTm-qhFU2yrPTlc2n0iZtdQ$Q79Pj0femULZhZeoM5UPW8seafNlQJ2YeJtok9J3SorCzgnXyX+XcMQh$scXQRnR-eM9$wNPPgkS+mCFoNvBQvS$pI$E+mr7FIQPPQAMNkQoQEoCiYZMiZragfnnsahmHCzNzo3KQaSIDDbmsyr7cx-3jU22K0yVkITYX7Jc3NKbTQIISFUpyjsg9-A63i3wXZDQtyW$u+xLHBY7qiyRCZZ3bsa84i+yNAwDHuSiIbeyTkARAHoKm5WJGP3Ac3xh9yuCKIBt82ZCOtbQhKj2-p2m6ZlYYpzoyQe+BHRcyZPReZVk9tpE6Q5ttB0A8TiNjqB4uPN2MqZLJBdV4oPFi0C4SdjWK8MtTJvsn24V2$DMhmuhD7o2ZlxrtbITdu-2DJ-0zEtO+WzsArYSwHGoxQzP7-t+Gz4aK4yJ8k7yI587cEIuh2WXJixzYYAAMcA0j3RGzHxypbpPmzYB7U5PRhyPY7kImljIuxayWYRAjYeDPc0Kc3Amf789aniAIbCCluW8-U9YQDuOAh2M8nwHwQeEWQ-2To$6s7LJQ6+gNrHFmuXN-wOAfztpsr8zARuV85ZLdl-LnZquxqvBfm-w5rXquvsE3SiWdHGtJ8qPDb62qbYnAe$2ERDnpK34pRVpop9ukhdAYTirmsszs6IWC4UKJQiEFyWGU8MhdGaV8UsqoRAepF+McqFs6IXxAk5+y8vuyiKSwYWt$r3AfZAZye0jF3riVfdW8AwIhd+yt8LwVlO-ahFcuaipvxzWaYmFaySqcI-c8CH57uqAdIj6JWaYtz8rLyi+MBeRMsPVr08WwmE-xIOEr75cBj0JNR4zO5wZc3St909CtF-wOELwBPtVxKKJQ-DeBv2XYQ8HDpRdEKH0eBNGKFi4k-2DfUGzBqZ8Q8h74aoQ-mquhUpCjOFk54$QCQXJNjLtWrrUfdbd8TQfpeQ$MFwLzJOBf3l$pxF4iNllY6XSw4r0hpPgn0fMRzihtQTsV9M5cIk4MQ-p0M9vOp4b2$KgrAsXx4kZC4jKxb-zJttjODMT7ZVF$AjaLyXH6PFr9SlZvplpFztw0CIIBK7WxAPBwLcQnAXLmWNXFVp3a6Q0AhfxftXLPAvtIZWdMBC8LnxF7WpXEH7AgrfEYqWB-uajoCAVjn3bdtD$nAI5GryjALktZfLaZUlfTxlQEDiA3jaseEG6cLitPqog2MQLDHlIsKHLRaviQ8bV8fFyXY-uQ0lxKYDABORsIpOZWFwXAPyFiJZIOGphV2dOt-$Z3b-+HmLIokAq2gmephY+g9Y2teYqljUem2YCx6ITXEqoeKFcL-TZauSjSI+WpG8zp4jXsS2I8OE80Jo0$sh+t+Q985NltuhHMz9pNPwcdjXdHML-OS82Z$psnD5noPg8wDHcWt5w+8OmP7J3ENjSp+GbsPGJmaX$4Yneu6x6IvalCHG+zuYc89+sx8r9tWOh2NYgPNXcHtnOOPohfxbdhNsGuL-f0PxWA4Vn-Ek$v5gFil4cnfQAe8zmAex+MFdOl93nhRlbGrK9rgqRYN8XjGinVptqV5PxxDYiHnoqq28pdlbhFKRbG-DBmaelj4tyCT-6$zVXR3x+lkmGiC3HNBuR+zRgRos6Ix-YMndrsca5f5lP4O+BrIcv5f5lqYO+BrZ9Le6IbHMBndroaoZf8NbSw$YOfESs7XxshM+HybSY3gzNN4Yn9rVoq30$e+S0n9r$ok3gzW30-nOkWoaV59XvUC7HkXogwTUWlS-tTksHcio$xoHoFZNvcL$ByXHMY7nkJhJ0L6ElhUfSP$j82QyNxYDF6eT-80L-XmhE9CXy8mSwbNEGebekTcwGrHlXJAE7OWcT7mnKC5dLdOaxQ6kvNhsFxpLckHaP8brHTflNx2PYal0RhV+qN033C6rbdUc78pBo67f7bcU56CysUh+BW0GrhDCLKRuIT+dPhnnnByxoHuHW4MUKArT-3DvqIHSHFMLgxL7YqWUSKF7ZuHRJLbeEG0d-LUH0JYqlnHAixNt-mVB8bhS86iOgzBx+KX2iN74peUGM32$CGn8WNGIoMzlAAhM+LLOxkQ0KNEM-$F5d$ruiCylr-X4Xg2dGfdQ39g3VtMys8woDOnVF7PAMwUxtXFP2+bhjXm5si2EooP-+wMz5glSW4AbSoO32FN2SQ4JVIXivjZFYmlSvQafPbqz2J-bAj99QwQQQ4PN6pJqQMcyAWar4QITHyQwHoJEmC0DjkbQpywGGyRQo93syZy6$JLn6dXJzAv0ZIHyvQmQQQQ2QQicBGGygxCQg67m6T2QHmgDzt2dJAzssy2QACKv6pcsQ9uOw+Tj0t5tTyvQ0ZLjWvf2FKmsQWfB$McygeXqhqFQ5y5GyEQjAN67mVbNvmmTghLza+LsXAa2vmXO8bQHTcxISxnu6APQQQ+55sw8gQaqLpi46BlwQ8KMZQ2EOoWU54OuixlBtZDcm54H5OQWM2JypWvZjHny$GBPIYP6QBCL2IvDBtwyj4SfgTmA3jtQXmAZKbQIAoQfpQmMWfdymwp2vZdiAiKOQH8o2amXBMIKPyglqZ-pWDZXKRyjurZfjlY4OKLyawYZ-VddMPKODBS+aKGAp2VBRUFvDNIYyvQPKFh+4uqKGAgpmpwQWapnIeqr87-VjyFNf9r+SArQyt-SZJ-HQJdNbo0px-SzWUk6sE7TFl6Sb4h02tQ+T00O5Pr9WQIZWmyiQpVrAr8yySd+v-0McD+zRFK+5I5hzkk6A8bMzMYnYT3iHuFjtvFbRSXbII-rZeUpl3oZEQiFrZaZb3yQM3c9Pf2QL52pWWScr8bvmZrP4dyQIcQUfbQp0-SblA2QK2epiAgts2A2QmQwOw0-MKHD4Me7iAwQQQtEeFg7CdH+KSUOHf2gYeDATI66z2$NJRb0gdAiU4mcm6UTs9DkW+mO$Po8$RzJBQIvZQQ\",\"fp\":{\"results\":[\"895fe6818741a0ca2d5486ab7c026536\",\"7ee2cd1aeffb8069d57a58c99223a15f\"],\"timing\":137},\"s\":\"0.9620011452871939:1672935453:XVjB54UEF9XjXd0fwAHqwmpgbO6s9UjCoxsMsP7xWVg\",\"t\":369.5,\"src\":\"worker\"}"
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/manifest.json",
+            "type": "manifest",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.strike.org/api/governance/strike",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "GET",
+                "origin": "https://strike.org",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://api.strike.org/api/governance/strike",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.strike.org/api/governance/strike?offset=0&limit=5",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "GET",
+                "origin": "https://strike.org",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.strike.org/api/proposals?limit=undefined&offset=undefined&filter=undefined",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "GET",
+                "origin": "https://strike.org",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://api.strike.org/api/governance/strike?offset=0&limit=5",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://api.strike.org/api/proposals?limit=undefined&offset=undefined&filter=undefined",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/arrow-down-fill.2ba22737.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/rectangle-opacity-1.e8d52416.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/banner-full.9d4a6a99.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/banner-blur.539ba058.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/mouse.ad140191.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/arrow-down.cdd31861.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/Vector3-b.70ccc454.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/Vector2-b.88b1ba54.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/Vector4-b.b6967922.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/Vector14-b.06a69d2c.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/Vector15-b.98d09f66.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/arrow-cross-above-opacity.3580d51e.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/arrow-black-down-opacity.a02b0992.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/arrow-cross-fill.ad848034.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/arrow-cross-black-opacity.e7b9b961.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/arrow-cross-black.651b6cbc.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/img-vector.838588f3.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/Macbook.4542212a.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/img-whitepaper.4f96eb84.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/usdc.1284513e.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/usdt.66c31d25.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/eth.c1ae6327.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/busd.364bfa2c.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/wbtc.8f57be1f.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://strike.org/static/media/success.749593f2.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEZSURBVHgB7ZWtjsJAFIXPnXTN7op9gg1BoXiGSnBYHBgcCagqMBhQCBQYJBbeAF4EwTPwl9Aw3JkEQemFDmkN4aj+nJ7vTu/tlA6lWo6AKQg+0tQZc01oe0QY8qmPtKVQ4cL/FB9WkJ18hYz1xgD6+cZXPwDl/8WHzT3rYa8zwOs0oYoFEWLDB4H1eN0mnAHhZAa924N+71dyDTeVG084nsEZoNcbnILBHSQabj3slUTHck3jgW4Ct3u+gMThD1cgrcQlPBEgnprc+hQQfedS418CxDU0rvEvAaRpkabLGeA1qmJDoxDjFQuVxtSEm6/ZfnDCtJjKTXjYG1mYEyAtff4HiQBLZKSzxkJpjTpvYAukLJ6cFe+LrQsyEZ+SqrkWewAAAABJRU5ErkJggg==",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://api.strike.org/api/governance/strike",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://api.strike.org/api/governance/strike",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.strike.org/api/governance/strike",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "GET",
+                "origin": "https://strike.org",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://api.strike.org/api/governance/strike",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank",
+                "https://app.strike.org/"
+            ],
+            "url": "https://app.strike.org/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts=1672934400",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.strike.org/"
+            ],
+            "url": "https://app.strike.org/manifest.json",
+            "type": "manifest",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.strike.org/"
+            ],
+            "url": "https://app.strike.org/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank",
+                "https://app.strike.org/"
+            ],
+            "url": "https://app.strike.org/cdn-cgi/challenge-platform/h/b/scripts/pica.js",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank",
+                "https://app.strike.org/"
+            ],
+            "url": "https://app.strike.org/cdn-cgi/challenge-platform/h/b/cv/result/784dc4b23b9a22b1",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"m\":\"fvHBiJ1PsBm2mLCrxceczPJh5zur.K73OY_JHAVoSdo-1672938007-0-AaenMmJZuqwiQnHmsAKYV4YyxMaQ6vgkd0BM1Xn8OM3lj4JFd5+kvm+bzIL4aX91tbFOkbP9eZgdzztOdPAG0TrntfKHZpsaact1DF0YYD2qcdxRuXV07/uU5L2ONUt+gA==\",\"wp\":\"Yz-7iuHvig-uBjRuqVjVt7TM--KTB7HBMH6VGI-jXVfVuMn-cXV6VjLTmGBc14V$jDnEVsjN7EcrVi7RXWjVHDBVeJBiGjYJpOdvqQpSghVZOMh4VX38agMZLAm+W$VUqjicpGAAcz4DVcMVQQ-VcfiGVxbW$uFGeuqh-VuApVuXN6VBuH7Vq7u8GK7VvfirSHMV2rpWjuFR-ppuWY-rZXbOw7V4gViuVxD-uuNV0nFbvcOBpvGCH$I$pM794TLCuG2-Moiipa4CuHopZRxtuuxHB4E9Jgprx8VV$HJ7SmbKvcVKUMHuPK7yUEGpjUolA7ZWKdqRq+BEE8EMrqxVcjJJMVXdm1A-U$2l2y1R7VVrdEub8hY8MjRud4BVR9sVR+Y-h6EVGyX4FlN3WuTNNdv0fVwE9$kS6iicT6gc$mjVObClBi6gFYiF82$VH4gcXbFMliqq-TVjeXPzQOivXXzpkrJXU77VPFy7VsNo+nuasNR7irDDMWjAuHq0apEEY3MEPaaArCHonVVb$PXJGivKuGhuOpi11uKwX8O3EE8VTq+dGDsXCNFGvDEa+8u7RI-MWiqtSxFIe8So16D1r7ZN1FlKTR1kL9Dy9wqyGiSWmFQxnhPQyYh+cbsvW3ci2yzUzmlsQnZ+NF38pGUqJmPBqUEVC7baMA13IV21Yd+Rb6-9m-gS-9VOzs9mQKR4j3hiBp3au2HbzZ2Nu-fVh7UczMpy4xezrVV-ZDxbfjnx3SWBC3rYEfTWj-gM3H-ki1jvpuxiMx34RnjBsO-cTpiBh7gYNj7hWJ-EaWgXpWq-6VFHhRpu-nTu8-KH3$VKjBxVMmJgp-q43jDCMhuxWrZTV6H8W-KTafEd$$6KwuRHNu73Xrrds-MuD6JvAd8HM-pDjD6iH-VgZvQdZTXDdt67NdWF-MqribcdS74GqUmRO30T-4TUigC6XnvHxJnqQBthNg7vJ4x7gfLtBunv6OETuWErVqQDG3ggphrAUqiG8Bq+nvih06-idxD4ohRWb6khSXK70YRKFZYAz2hDMeODRuTg1ruTHDcmUgvDMM4gON1MqVK-62+hfTB7Bl7-3Rl38QbuhiGhk7gltJMWQAIAhcUFpjS+7p6+hjBg8E-yhcXL7XVB1pTcE9pLrHsb7eKNcND3O7mG3sczeWDca4XRWhWZnc8VpB3S7uZ82OziNYW462x6J2kxgXPdhK4N3gPDD3BgXWOUcK1fsv-dfneKgTBKKg20-tBl+lsbECDV8fIRgf6gBBUkbPpnOWCJGg1grWJxiqXfX2vplVJJj7dDr2bFCXmD8uReZDjG1ddBDZ7dPQfo2+CMOKBREN1vKmDzJizGPxjz7VRv-fCF1F4MwA1CCku3Kdns3Uv1ExWJN73v-9ou2zfB+Nzg4xv-IOCTA2gajbu3xNqAMvfz7SVF7V8sgjsOEXrXMHVVpM4u7-3GFnHmV33MbjX1GxR9FsHAKYFxrqc10i6OXr3FH2rXQUvOhApBnTEwQbm+zJ-ysJpVmJMkzIPuaVIM8xRPBw7ZPsbOB0tuVVIx4z91HPqSJ4NaJ7$k7x-XPm-EMbiVxRGmx0uuzeNWRDPGHEKVi8jHgpxVR3vaH-HFyzX-vM+WDiqRRYeV6eHhuvRbcXibg7oZlerZBvW13Q-8hKoV3vazouv32MRiL2qIrkb4xKW21q+iDRQuKjQR-44HH-i-WBD7pMxixlVOBZaYLc6XTJ$Ju-gL$jxXKCwNp6p+-3WnY2PuENqcHO2rMgM-444kp3F-WBlFdcNWhYcUUEK44HGKJKgZ19ODqHR87g7rYyxQjvFRbEZI-2pGKKkHr+igM4-EXzVpY4u+cq+fZx0OLh-sTqmbu7kTxOIYeHz1ZEK++0jglPRMcNFiUpf4Se3l$myKXA8EU0jVv3XiXiKK0Mqr+C-4T-iHuMpR9L6hBTMYTV4GYT4zz0gqqg2xB-RUe0qHTJs-jSe3Hd1iUlLvEbsOd$fH+CF-x7A3UimTqXVb4L7r-mqrYMNMYp$+u8+gSXjRdNKu$JHuL7jpDuhV2F2enyFsACIa+rSnviuz-QNXf-MvJvlErpeV9s6RSeJYZK4bgnr4yRkZCi6+M8Zugoh7t1KvixANuRT8x7dXLz1L6Fqf-J73ulY$r96OxL36NHgDF1UzkTVzae-6GH8h1Nr3dnhz7qhoKrFq--Z1A$1xUZ+vzM-MFd1G-qvbXIht6a8jXRCC4LtnzGSYBlj7iIqBNRjgw8z7iDkRuErv8bQTWhBEy4D-1BJmeymE3N1EtFwlGct4ZaYv3Q1J6dn+hjTrc1DDK3oRs0Q+KGrb4EXURtDAqIfSmNEbpJeN1lBsBW1RJaSdmDM2hmpux8i7XqGMXqAMsogcVLChXxWkE4cZuIeEh8luOF6GJXAbsHWd$LaChYVFpSVDZWEopHFhaAJU3V-Mg7sEW8V-9Aid4r8n$UQVxKycIcKRUrp9FB2ndMuyNGpyOkSXY7Hn-OxMmZWw2El9sOoomkcnyai8V0gcnPv3tDxWJmTX79Hw9dyDzflMz3wiK7QkxqmURGDDHuYRcOC-WbZ1$sQlB9MMI1ToIXPGprOF7FhXoQgJW0DycyJorAQ2eIZItTnQan0ZBmJLzCpRcBAAeQwTkGGmQWWOZ7G1Whuo-DChlRClTcDqWCrTT8aBc6WFG+x$Aer+gEDVFs6YWRLeo$$Rx1GPrzebEm-klSQtzRszWBKl0eBzjhIRN6F4rBVjSdOEAEYfP$uyYfpg8NNuYN$QK+K2v$$7nr6-Vunlj9QM684M4HFlbnNl7Ars71LbSbC71aixP6zHMWh$HWSYem$IE41HrLn8B+DPkdlya12YCv8Qja4Q+D9$NX2ua3LWRhw1Xk62xQtXAmsoTyVAKQW2kRv1p3MbLoximgAP2kkQnk4VVO3OyntPnbHEs9sv7ANReLK7D73-LODiMMnSVfbRiUZ9hJ9sVCvsHoCzzRqEUHR3Li3yrmordNujEe4+YwJNiUZ44ZXGQ6RVVjbKIL8nLykra3B7UuRS2OGaHpd4hCE6h3rswZK6pS2k9oz6eH9dF0HydHnoFe8O0ZdGCtwjAIYfBl63Pe0qJ3yfYOza8-R42QgCIvlHJWhJVanxVAz8hO1lUnPRA0dPkflVGkIWVJJo-+yVJMCvz1eSldSPXUanV6MgzReQG9vHyqWrp2N+w9qyBmA$6fG1Ask781MZ+v$T3DYlQTu6Wu1BeW7UpGN7udbL6JOV1UJWdlfQdSmvweyYD-puLYOJOy7R7vEaVoilivXJA9YVW9Y0bREWJZlxaCt2yjVnwU2uiA2AYU9V0nwPi3jmrPXwRahlf0EvPoEgqLOcAS+P4jN2jblLMvPiv8arzmyfkSkUpHj0ozodBAWQ0cAyyp3wbw20QlSsPtPc1X2cjmznAPQ0c4krDLf0$0osq8Ps60l0ZVjMNH$0Ra64z0vHFUuV7MaRILqHb7qvFM9LW7+HyG0HaqQN3RM7fg2UI0F0FUKnWABH1H1u0H1uHA+HYVv0w0u0FUCVyrdHHv+NK7dH6V7MM7+HSz9HQHb7uuHrE3DVIUQrK3z3+HkuAHM3v3n4B7DEv3eV7NK3DW+HaL1Vuve7n3ILc4p3DVRMp3+Xj3IVn3YK+HsBXrC3aRVV1rJfK$2TVDRT-Wzge+-a7jUSiTPno42nm+7-3i-e7KHk-VTT-REHRpQHRCNRoxKHRvJa-Kk-D6OD7amRNrS+E$PnKTCXZi2T7eZjPk-lJeMMNgyGNK1nmSYkJ2N1ohxBluNaX4-T7KGQFr4FzpNgwnKTL8-iL-LXB2LUm7XeqxzHLltnLa-UXKNhqjXCFJSiLKLKofVj8Wx4DHL1kuEXmQ-HLejVv8EiXgX1oO4OBgvKofLHwDvUKXymbYaxqmSkvNWnNXzjVK4JET+hgB7$EKJhSOHGxrEWmBu1HXTW$fZxnBPF6c9nEYfQtjnntrf4VmuK4CZiEV-mXSu2pfbG$u4eLYtidQuhcmua2GNxBJMmupM4T6uD8M8a7XzvJ4ahKcuP8MsxMV8CiVKpNf82m3MYq$Kmu$vBT-0SuKVBJnZYtC+fJcJH7V8DxO1T8NF3IGyijBecJXhpBHVCIH-2884K73MYtTvrRXk6hKgvgCQRqnC4CWqBxMgCLvocuMgp6ShM2iL3YT8MgUvNAM2Gv2Z4DfuC-K3WlDqYQct+WhLii-W$-8Wa2TrQWK3Yx2vxJXA6$D82vY$++842vmWj+g1JHJl7q2Dm-BWN3GB-a2pYMm-+YmZxcHMDhkkSaPh46FKRsghkE+HxpnEHMJMFzkeX1XK4VxESq3FTk6vRB6CXQmRGExErkFRHQiYkG$oQaJEJG$bWHTXrMYKiGUnK3TnCKj7xOXZj3-3YUOYTMXqGeBLTeDi-fQZiGKc+U2bJIJMR6+dWaB2R7TlOUNCGEj02XVlJRvlnY4Vm0$xNW$KWH1lB3jsNMWHe8RCT-8HaHgR8Ei-l0elh3$-2HgHelkRVBfHCQc0vKC-X4nWUxDW$Y+4kWgMmWlH8p8W1p8pgmf1rzmNafW4O1DG37v3vZ$chH8ppM73gBR38z+43MDZuA42nTMMfnkGF3$T28xFB-F0NZaoHM+DpzkZ+4D8TF6ExIXpaoYaf8YD8pve28mPkZaocdV6T08peTpTS87TaomNKepzSNKFQi+4OTSFQblFhZPIxLTpTiHZPePb2IGZ1xrbUblFQ+fbgKT4kou0CjU47OCoROljajaOUvNyFs7ySp8blFnvKk-CmUPpK3l-6WFqrpp1$te8rTM2m3eHej-OBeHB3vxI1+N7TRGBcjK3HbcI1bhMRa1ae0PIPSTIuqGEYz3v6EXYi3CzONRDQ+BQKExyhQlBDx2qmq62Vp68jx8HpQpb-j$yQUJCeiiMiul8ia1u8VGCUZHDD$kEH0CImCUjTZOc42nCv4C91MH02EuA29lLj7-ipBmMF9cW1rnQ1jvYmxK2XYxZFmi9Me6ZSDxLRBuFWCUKn7CIW7cVu7jCJshLHQ4VVq8zKGlBWhgZ$r39VeD8D$CjY$MWQkRMcBXUx-XPf4nEWd8KuUTdK4Og8q7E6gpqQdPzNbpb70hAOZX4a7XKXvcvF8WfW7m-SdG2VTYjxvmZ2R3MivD9vH8zrQTEcDjjvQRCGi2E-$$CnE68JEx6NMXQ68jgO76E6EGTF2$bjg+2TuNj7JHyNyevu9Py1gkD2oD2elj+4HKy1gOqgVFKYcNnSqlclLT-mDUHY+7fv-kzkFi2CMRvrRYq-eVJOMmfKliNxmOj4C6f8l1iKl$CgcXlglllagDla-YlNo$NR6+--GhBxDhejlMylf2lp8XqXOKovm8oVlxB-AKm$lvv+llAQ-RQgynmPmKla9gUmoao2mpoKZTa1Mua$Spm8YMPCKlQ2ZhSMl$NjG2vxoMEGopmCFW1iNcPMwaS$NTZxP1MxwNPUw2k1SPP2maLTORKG9QqRcNVdaYNjERSNlCMTOOTpZV-kGQlM7zb$YfNRTXoW2T7LJl1PcKJC7bb-MAKiEjdXzVL7y87Q6Rb1bHRiMI+2RmRYK1cNkcnS7d2vAO6823DnB6vHbj7V4rvGpUWDEbDSEbi-HpM8V6E9EAMj-bi--sPYbYF3f1EZ-bxP3-lD-Ay6I1cUBLYMB0ZHPMKA$FNiVK26-ZBw36cpFTEybkO4CYyPZjR-0BkHFCTmKZJNCWBZgQYRl$Tmz9iG$geSBtzuRVopRmtQNHMO2vskC476GrBBlV2YI-JABREWKkpuK6h+zLJIJoK6J0ZczeiiY37cViLRXe7On8F-eGNqxVo3h-fnCnEmNbL-L0RTMVC8z+LAIj1KLxLZNypSLL-8HaLtvgBivrrBXwgGYi1hZ8jFzFXqIF1htpIBrZvXrwZPNqYfo+XZNoJiNXPDOWflNEvqweZQXLMmNEJQMRKq2FvsKjMmvAM-vADuUQ+BtovIBLHatbtZNZ7W3ldmM-P8VmNzub-XLz2Gus3$vnKAuwNbC6ubvy3iXEbUZmIiJ06a4E-+V72h49vZN0vet08rzXY6ZF8lNzlj+QrdECXKgMmju+OvMNpYITHS8dbgLo8LrlFknW7cqUyYu9qq-iblqoqMx1q0yHqoF3IRBY-6Cc3VpxqbxwD$qsO2xwxz849+qzuSqGl28ACuRXkYicv3Kb6CKZZi6$h98GHjbibcbY4+uw49Ns-uPM4LflK9vdiX$fSvaNxtCR$kAAYMYfQ1qEWLWIwUp-WsWA$c4CtJ4j7uwSWteVEYir+AjjraPn+bSuerbj+zV7+Z+0HmpOrJ+EaZSWeYCu+s+0aLa9CGSSf-lGEY+baAvWKpvmL424sqD6Ex1naJMYs0H6ERmG---VGyad+tGA-xGyZBG9CGR+7K2cGoYCFCM6GZGAsy-APaiVsRTubOOGGzabGt3rsZndstpBVqVXnqatvnnLUsjXtK1SWdLY9kL7L8zr0Lhk2aaL4irrzkPeZ7Z3hXk4rp0EayxowJ00HdiRKi0oHsz6hkIP+L4igHE+B$0dgxoF8T0SNH3Lr-AS0qEXZ7Yr3b3EpZJn0b8SWspwur+4ox04Rc3I94B6G3MjYXu8CRZ9YTr$NucCQjZoZjAnZAERZwsDXnyHMo3Zhxy6KgpE7XH9q-+oTEDLKYtjTtkJ4GD9qxE1Hq3E7GkkGrC-lHEkqc3sgl3oqO+fTbeoA7eHed8iRMcfmc3sdl7lTLEyvXTdNaHoDAxSe6CXqjbbZoTAxJNObo3Zjuv2DdgcV6quU8-clgpqfYKgpq2HpW$gzv3bDIOZIkTYC1OETTOTvi0s8FR1OF00et3qGZ--U91LEcU0UepdKmWzItqW8J1yvi0A7RBOIAm8OyLPWIQ6o2IwZW0BUyD1xbKv3EndFgUL4iYsnd6cY90t3y8J3-0dbZbtIEaIQoULCk8VEiexQAzmPYji0InAbinI3QecYtLWoR-GIbbF0qUzUt3F0wW09I49bIpEaLEv3qaOzP9AYs-cULXn9AqTvQRG9Ly$3uX2DoVXLpQd9L4GrP1WGC99QqFdr$0AFqEuQEYEayFtcSkvjE$qFbvOjdbdUwFSW9$oUztJpwajWKUoLR3s$ET7r1+zljcBW9ITCjXFCTzEGIC-6Em1Uydg-XsZ6ZqpBXB9Cj6bUYwrBdYBN8UGgLYMkyJq12OJk1jNS6qGWJCQN68RWhzVY8HgNNHvsIg92Lf7Y3tZ2LR4$ewNVNIC2EP2DQ9cNfdIaeys9YtwE0PGyteOy9MXnDugy7UrsLq6EHMzNJNQcZq6ExcodtwKgKOVZrssfL1-Qdq1UEsmeTJ0OBiXCxd7yZ0El9RWVql9YY+fbzl9lIXhloL6kVSvsLbJKT80oLurzR2$s+fXqM2God8xT1p9u72HVIUtibULXFJ3i68i32mwsSmApQ3f0no0XDXQX3SqxIX3B6GIRbOk2H2IRtveqTGnGOUdiAzXs0OJKTm9lAR6r9IioPb-UgYqUeiiwPV-4Sbuqso4wIwyyMs7+GPg3cMzeRHl0bRH7jDcKuztzHGZCL4LL7W-iGBbs$O47mh7kYiKnm2V1MVEcEHrU-jlckDN4MdevUoD$VNpq8D2Di-jV+7UmjzdLuVB$VqxT8o-WpHB7vVd72Ra-Rtu+HW1K7KHqsMRihUmOi17howbu9zVcINT4z3y3+VKWM72ofVxBi2DkBz01MUBmn3PvQHXLcMNNpKH9VXVb7mMNGIgDWt$re7AAHKYviWt48rT8VNdsPyrV07UM2YXKmvct1FHD7B7iz6abOelHT7d4XqW4upjV7XsmBiJW0uniB3dUC24DcdTqQqtNM3RS3VZBXHUMkn1-8tEtcpuMqrMQ$Odi3F$JwHLMrsXpsZ7xQu38MF0iN6BFpHu-IKaCHNXVyNHOB2Xj2uVj8jbVW3$VTB$I1gck-WX1MEOmNYtd9it-m11urpEAjI-2VmMSBMXYfMdus3ZXWWYN6xcPH13EErm3r6Wj0iz7xe6X3cVd-Lz+vk70-6+MnWcuvqR41gVsjhEoin3nJGoiV1CqV-m7QV97X7Fzi3DsWmE9ki1VidzuwR3JYefIiMWWE-pUVERatMs2747pCklqVjc7EN1MzMg$H-fuRHQJDhpV$RP23ZRR-Wqwnm6+VGDKMuMVMggUOpVbblXMVXiGDW0a8hX4sGdbpmRjMWeRVKWkJv$kJF$3vVuzwJcuBxGJi0pBK87C7xxmt3p9npjV6uR4cXVmHHgdR1OXdpruu4jp$UeUxbR3D8Fbp4BfmQIRIWxF28sgRL178BMfOtBvBkNUJa-$A4QpbOpLKhT1caFX0QBILaB8jhsJlpHpHzC--Qc4CJHi-7LMNpFyQuPrEgPuYMpgH04EWp7mL2FZfh34QpImG+YCVCKr4EZFqPG+01CEaFZ8+u6auR7qAiOYpnu8bXPHEzNONZOKO7R7cWkjY9AB6$Ng1RARgFbpNdVOh+GyWK-F8+NHlGZuB7RiYpPKFfxIRN4kpG74qRMuRjcjC4Na+ujECq6oAFXlReiamDMEejJVQZww1MukaBiUpMz+z43SnXmjNHFZD-FMc8WAgNBN0NBQAH9uOWKbDag1jtevFPjCETH3xxMK2VZqP4IaozhEThZKVV84N-VUM6P7MxNBBTb7W7xORJusXt0vR3uNuE9etMyK7ARvFKjM+-$JTp7r1X6fKHE8lU1RcIQIcJiPrRNxuPxDHGweWQZXIAx4NBOWWz$rVmUeRS-VzfpVgMrBqup7clZ4ZkBRBBj-lag6ObnTmMjVcLVA7sZeRQjxWB04JJ0-H-TRFVRU7Scc4VppV24lT-RuMIbAqJnNOMfN+lN4GWXY4aeXn$kR0-kOl81tV7ks8HTLj2IWfqd6v$lT9p2YTbxvODtJNzVfq8K6K8N8$HKTHVVYRk2h8SG4rCVnDGiqWpnTdMNGROYI2VBTJK-98gT6IKe8mzMNON$D-RJKHWVPVgfnDmpK+bnTjN7skHYque8cTqOYFVb6IBOK-xbJsqUuafBcuHT6NszxbmgJKZfToRFfnD-byQu$NBLO4xqcDcv86ppD6+W6I+O3F9TuJLnre-QWtTiKt7j3mFMG7A9nByrjrn3O+7c$D-Y7RWTfu-iwTUMyV6uxFig3RHuK3C-MHaEt7-FsV$Lh8HhNWTNM3VaKFAKoW23sEer2yeJm+pBJP8pVd-x6HIJM4MqTDFL9-C9fZqtIR3HD-L7-8-kV7Bpf7rBiFx0HwQxVOx$x6iHgHMtMxExVq6Fx-uNdq7f7E+8z37y2pi-OMR+r1VO3FrMVWY6+GERsMt7erEAceVZcn3Qji-EA1lh-u1AwbsVzrAtQ-s+FTE$-E+ggYz7E3RVd-iXR4nEWDunpS7Bvca2kNSzezfxZrfRJS4JiX3IVLfYsiKiU$hHPKN7CTVsYqZitQVhBss$THQFrViuTOioR-ceEdKiuztipuzRZ49IsVD7xWlBLnVde$VHrnsXCTyMpdfaQrP4hKVjxS$-KyLB7Gf6FkP$Mq27PA$fG9gHr9eqvtYnRVSiUVhb27XnezHvHnHxbf7iMGiTTkhV4GJNXu-Kjyqr3bvsDaJT7ZNWUVUbP3NMmCJc+WEX+jic-6Vocf1V3bQ71WXkH9DKYWLR4eZGERb3XqJrpV1Jmxm$plVjA6LBQnZWdJ7V9baRV0PjlC8yd9bOq6brtZ028X6bHt74efYm++$2bOt00p36P7BbzvyVj0$w6B3uHl-0KwsPw6pE0iVjCtyITlqKHJD6Nd-WHCw671+HB74uz-jMjzZVxLj3PWqFVmIBBxib9P8aTIR-a+e0xnuL32dc-1xqAgY7lHCVkti0HMe1V6VRrJD4tV98VMKCT$jI43ZUjW78oGyH+ZuxaVdFlA8TYJZirGjJ7XpPzWc8r9hVgxHJmzuvT6I94OR2c6k7uHxMeKJKBD6bOvuU1iKU4o0aH1NDh6vbWXp8BIXuHaxajPil7VyRR7+zV7yvnp1EDzl0HGK04+gjMR14BZ0KM7NZCIVuH1Vr-jsYp27hCZWiC-h4BN-C-$JWxJb88smF2i$4SHQByTllYJhaphRxzZEmTgErHfTRdNXs1z-$jXiuMxp-auIjQLGHMdnB18IsTMuqar6CW3JxDKA7buCVKTUm8m-03AaHtqK3EHxnHcPycJW-zq7nTXhm-3BW-pMc-6XDF843eEqZg9jNB+N$j6N642elXBBi96zrEaalX$YKNyxltHqdY+Eaaak6LA-jgbUfNK+GX$v$qSIiJuPh76iKyq3WJ3iBfS6QU6hXMXzdNc8YoOlP-NxFG6KyRGOLxoaSKuNR6dl7TX+MHdGd8SHkq1hUDKRRg1u7r1Xvfjl4SOurdgTE+$jMLuXuG-uAT8kaTv+VbnHsg$OuOevOEeRXs16TPj8Rjea7KJ-d-FBXGfPfEEH12fY7fk-I-4hXUh7maPvxG7d1nO44L11g+OaL3b1JhLPuhrcMXVI1MBKCHhkIOgkb1Cqo1pBcFzrVGOrrrBOrStHX7VDZ8zgTNDQa-BlzwXFBxeWaMCxqVnJj7VyuGMxkDBmztI$zOTfObl7QPHGjpR9ahVebjEiD$Tot46Tb1-g47Y$mOiZkjJW+iWkaYUi13bAzhgYJxWYJCVfNHnYM3LH9fyN6NYxrgm8ZxN1kh17GXJOhaG$OkZzQzhQKiJx+SHAIcgk+WK4a8zpbUMBcQN7hbFdTnI2gD8f6G38QkhVNArBhiivVCH-bN9PHBAkFfGHl-p8JzXnhDu2ktW4vfbPzjXVtCGM$VKD2nQml2hogJS-N67nmZ8MW1M7uavqStuz6dL9xsAxMaOzCHaM+GH1l0rn8YV4z9E1KxsjDdoHs7zWfCjO4S4OO2rVVxpqH$Vwq846OJBixxG4EKA7YVFHJU+MBMeJEdeB9mj8Q8IDIAYa4VrXFtE4L0g$O8VHXiI3NKcLyCmGffq1xHOyVcKnQOnq9J6760mFvdZVuDQfVPJ-McVcmNdeTYZTC76nxIFlMu8E7U1rnlc4kJlvdAtPfhlidlDQY0RmqYIuRppYJjP7TU+QNP8NpOAXAkMHqRD8bTCAN7pTm3uBFAgfVVSM0YIueNIqwDOrEE-LROcYdRW7wmNJJ72yjt+0LLMEX7INVn2mVBrZT8Vjp4nVKQuaDaGEHv2AiahXsxBi8xRHL4UZIud$g2RN+V6CZjiYp2LOIMYOqQ$ttdpvnndZXjjv7Vm-$jhofkCjw7$M+Bkh80p+qg4d3mbVNNjLiKyasg3zF-h3Bxx6RM2MZprZugV7Bs9nxthvkdgah$mHp2JFM2rpIQIi6IaBD61tXYU$4JlkCijzUxfUQsXypyZhVm4fj3aQp2GJnJ7VV7kcC3$hYCdm2l3v7azuAM4lPeupn-9kUquecmJKOruznhloV4oV7Q3JV-67SaTG-H-C-gc$RQxsr3dZt4KtaBDuVQ6wV-DuZOvQZsv$oJcMcTp9RCNzpUVBvxDUUDGVGki7YG+9g0SxHqrja-LBN6cZGNKtG71-CVkERCljMirD78E1$StVKIoJ1EHfpLijsK$btIAhlgwcbI2T0CeqFfGVpIRxhDJuW-NjeiJuGko1t01oxtWtFOZTCMBKopFdOI+yYuFho$g0kj$LYCQMBMDF2RC1UVRGPHXwxtiz42t90PQ-NxLW4dpMuMveX7x-I2V3AOe9-CuY-VE4Q31eH-G1hMN2uQ3UJThlluzuG7UKgWSMroJGoKVL78DDV6Vj9hnVB-VOBGkuWyMrKzATqFxf9NxigIYD4ID7PJYgaokq3sMh76yXKj1pihG9ruqAhy1Sl9yNjSMD980BAV3HHuLg6+jpVofoV-7dE8Buz+RfvdbU9EjZrfQ7i$p9UD7lLNMWvVhV+1pBLygEQdMrMgIG4QpP3Rgby2UV87Xg8WIk18ASI$xqwlCiCaCDGVrhRDCVOlOjgG1hJ2ppwkSaExfI20zV0Sh-uhTaE$+fuVppVHG2kVIVTIxNXMGNM$bwyllRbrEYxq2qIAcVbSussKERi$+DejABQ77cLitku9XC+8DA2cK9VuuSfQ-iBRw1jHoANAJCMsVWiPhFaedYzX+ZNiOxMMAKRb3mNai2HJsYFSNuKgi9kHOHYIcE4P8npAHDAer1iFxcuzW37Mx6WKVrcB7j-7EoMUXX-qIiVgazYODiMpOgMtk1W-ToV4WWzLH39N2BZzmFp27GZMd8zvtmIpfNLxmSvBPc3GW980Rl7mt7hsGrEFrs+I7MUe$WKu9vFj7s8jLqTW6aPqRH$XSJYnIeVqp+jWanqmbcmi83k+iu43+DTuFr7PC8NeqXXHHGDHLBAOnqYei-K-pEqXz+Q4pOripX+kuEUBuFebiPXOHBXgspDLcDAHEy+31blNHuKxxUFP3jQ1XVsF6Hr7G3lJYJVgTPVj79IhoR+d8Voaw2$YfEFC2jJ6HyqW-R$3qHOFt34MdvUjdlMZFeZ0zyEjJ4$CZF0RTASNPvYnW83ZpsKo7ZKXlHgh7TOsl-cAm-Ot-I-1FkrvHX9N$ERRqRouPxmQc8VNTfiPnQ3Grvnbt3QRZIOHg-faGDZfRouCeHk4ai30FiNcSJXPWh$AHyMHMigLBfA$NtyvP3HJurvaiW3dJtU6jbrfDFbN-0eqPbXEfbiSZDujD3xY4+FZHvuBo8PbXWq3$diNaGzgOGRpt$L3PJETjeu6T$+4DzBL82Omq64JMDASW1L1xWfjJ6TdJzpWtecc8Vjsgz07CXV3Ys-OvTcYLgz2ncfNmkj7syQnqzZM3V3r+mbIVjEZFrQ-xB6fk4mhVxVC82BdWP$$QyvKv39Vy-gVhGfJdq86zyAUh-efmN2UUXoCSJm$Lr-pwlLyGOqNrWV9Rt1G4DukmGVj-LG106-mK7hcw$HRCemkMxmBceKjq8WWB6sG9+MtfhHBbdiCYopf$1SUM0-U-fqWJLxuuzc+PeHpzJdDVlHCdEP2Cft-AboVLHryeyWCdpH0WuMPvGzx3dlef+P-CTY+Hw$yTXZPzjFbBIxHtBlAKvWshlHu4n$iBHdkWMydbMQUy9eUVTsNHABbRgTnoDdNWpZIw7GVdsYUuRcYdOb0NV3Kt3yfiCXjFVLUecXsHz6ORu-6MPfJCHpifN8Mu6n-rt7v6WjhMAKjaYEduIkHZ7wEg-rXaw1X7WgXZUBQgE7Xxeou9CTZIgcfDdj9MbFSBSuaP-n3q-mBCRS7u36T3L8ILhRraWaV1342UWFrYGq1-2pJDvBCvYGdj6S37Mh-Rls4lIpw3JsYDPW4Ja36Ep+8AT2BS-anKRpn8EbChmXlgFoeou0bUxYnaqFXD31aRe3$1WP6r72Xwp2CDYWl66pIryeKvr2RnFdjyLpePHmtljTkh04wfNUmDlyVHg3qEHgeaGfv6U1AlrOUKn$c1$wZOX23CBnNlt-WZt4peesXNYlIZZ73-vUKrfcOKnjszEbgUBmWix9johqtCOAeaUkEnNxAY2zFOaqOwOIRouejXGlv$RDb4y4Upm6az$uD04y4UZX6az$M1dgouKYGzlv$IbIMy32KSJhX6yTSR+CeRrGaYiKSXAwq22mXl1$tIZALhgaSLl1$hIkAwqPALjl6kPIbt41C0Qx+YkCIwJ9QPUSjW9kRYDNIheIYIfM20DdhziCYGX+lk8r8LdoTUrQySphB37Vi2eXsfog9j3LdjCErT1xCi3ESJK2TngKgk9DJn$YUC8HT+6PD9+Elcx4vdv6beVok02rRfe-dDkYbp3K$Y9yU2e7pXbULOrtaZ2LAAxo$KvQD+3-zIo+y+KDQ4oxiRQrazPLn$rsxdcOFu9avprlllzieIYFYPmGQcH$9jAs0ZuYSYfGdwed+XZPQScf+MFYO8dKgTnLvjdQYL8XZUlYHNe2WjEtz3KrS3oN6wqzeacC7N2+m-gQnGA7hxnl3P2nuIGqUHHrGadd6ekVLc2TGjhf4vh$FNxiU$jCmCw7vnyvVA1wAtWGiR3JIs6ltf+pHGJQeWCfp7aKrBCE4RN7TIIpjaJGq4wUSPmHKSI6A7f27SVm8tuCN0BMfXEUS0VbypKZq78jKHB11VJVVVmp2svOw78RrMihMEl0NdEVS$METiCN4vuQYhxsVuVb6k7bMY1U3VLV9AJrQ9ocNr4PQRVFMw7XVVVV-VVjxU6k3ws87P9br6wKVivP9r3BcW7v3HVzVV8FwQqxpVjKqbjSgYHB3SMw7YRXARVUzTZtHVm00xFhpwsfv2XeEX7zk7qMxVa9brmWjwQXmwyXtn1rZREPKmvc8zaVcPgaMks1z9ENMVVjBB3T-PEGvvqji9HcDVRpdJV-u89oyRFqzIWlnHJYhvKFdK4EcdBR7xcwJxi$EAknRMFRCEGurzuSQnHDV+io0zV0VUhHMcvVvHsVu7vEGqVviS0E7tTi-mNcjVCHqEVzvzGtcHiB3qMtmrNHqc9Jmp9MA-ILGWcdiAZAE0eiRHwclirpq9n6Inpy78-mGT22wQ+EFVw7XpbyjFztpy7PqXuTVc08jE+rNze3PxVbs0INIkENEVZ32LR3$MRfWsYCuWp2tlyg9ZueSeoQysiyp9+JVEuon+3v8xgkzV8i0Vg73c4Kxv-KCy4oEn3IGqsgrzALMN1+1CUzX6HspZFjfS83rv9VoLyRQykVMMhgi1DioahH-uJAgcxicMKHo1xhxNAa$yopn-dJ0IGjFyHHYR9EXVxJuoQ7VFMa93zWVVUHB3EctK8VWViVuMHN7DKxvG2DUvIXBi-VVVX$ImwXNzgr-wga2oH0KIriAjSSOHNsOxZD0zuDgP3$3S2A-kQa0Q7lNFki96qOEVjt7VV\",\"fp\":{\"results\":[\"1dda622a3f822e3add7c14cd1505b88c\",\"eb836fcb6a483c0817e2830999910208\"],\"timing\":105},\"s\":\"0.02674580678738579:1672935459:AkHwu2cTc4CGRyfpb7GkUvy2DOrnHh6cJ6ZwrMzUgDQ\",\"t\":308.8999999985099,\"src\":\"worker\"}"
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://api.strike.org/api/governance/strike",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.strike.org/api/governance/strike",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "GET",
+                "origin": "https://strike.org",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://strike.org/"
+            ],
+            "url": "https://api.strike.org/api/governance/strike",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "https://strike.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        }
+    ],
+    "success": true
+}

@@ -60,16 +60,61 @@ async function importWallet(mm_login) {
  } 
 
 
+ async function launchApp(page, logger, browser){
+    await waitForNavigation(page, 4000);
+    
+    let poss_launch_buttons = [];
+    let launch_strings = ["Launch App", "Play", "Touch", "Start"];
+
+    let html = await page.content();
+    for (const x of launch_strings){
+      if(html.includes(x)){
+        poss_launch_buttons.push(x);
+
+      }
+    }
+    let url = "";
+    console.log(`poss launch buttons: ${poss_launch_buttons}`);
+
+    for (const wallet_button_string of poss_launch_buttons) {
+      try {
+        let mm_button = await page.$x(`//*[contains(text(), ${wallet_button_string})]`);     
+        await mm_button[0].click();
+      
+      console.log(`clicked wallet button: ${wallet_button_string}`);
+      await waitForNavigation(page, 1000);
+        url = await page.url();
+        console.log(`clicked wallet url: ${url}`);
+      } catch (error) {
+          logger.debug(`try next wallet button: ${error}`)
+    
+        }
+      }
+    
+
+    //record that we were able to login
+    let content = url + ': ' + '\n'
+    fs.appendFile('/home/fefe/new/defi-privacy-measurements/new_urls.txt', content, err => {
+      if (err) {
+        console.log('no login found');
+      }
+    });
+
+    return url;
+
+ }
+
+
  async function connectWallet(page, logger, browser, args){
 
-    await waitForNavigation(page, 10000);
+    await waitForNavigation(page, 4000);
     let url = page.url();
 
     
     let poss_wallet_buttons = []
 
     let html = await page.content();
-    let wallet_strings = [ "Connect Wallet", "Connect wallet", "connect wallet", "Connect to a wallet",  "Connect to wallet", "Connect your wallet", "Sign In", "Connect", "CONNECT WALLET", "CONNECT", "SIGN IN", "WALLET", "SIGN", "sign", "SIGNIN", "Sign Up", "Connect Your Wallet", "Wallet", "Connect a Wallet", "Connect a wallet", "Sign in", "sign in", "connect", "Log in via web3 wallet", "wallet", "account"]
+    let wallet_strings = [ "Connect Wallet", "Connect wallet", "connect wallet", "Connect to a wallet",  "Connect to wallet", "Connect your wallet", "Sign In", "Connect", "CONNECT WALLET", "CONNECT", "SIGN IN", "WALLET", "SIGN", "sign", "SIGNIN", "Sign Up", "Connect Your Wallet", "Wallet", "Connect a Wallet", "Connect a wallet", "Sign in", "sign in", "connect", "Log in via web3 wallet", "wallet", "account", "Sign Up", "sign up", "Sign", "Play"]
 
     //search for possible wallet buttons in the html
     for (const x of wallet_strings){
@@ -421,5 +466,6 @@ async function importWallet(mm_login) {
 
 module.exports = {
     importWallet, 
-    connectWallet
+    connectWallet,
+    launchApp
 };

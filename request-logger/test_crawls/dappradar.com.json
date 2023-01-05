@@ -1,0 +1,162 @@
+{
+    "url": "https://dappradar.com/deeplink/dexbrokerage.com",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 15,
+        "url": "https://dappradar.com/deeplink/dexbrokerage.com",
+        "metamaskPath": "metamask-chrome-10.22.2",
+        "destination": "test_crawls",
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1672956171110,
+        "end": 1672956195099
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "url": "https://dappradar.com/deeplink/dexbrokerage.com",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://dappradar.com/deeplink/dexbrokerage.com"
+            ],
+            "url": "https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dappradar.com/",
+                "origin": "https://dappradar.com",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://dappradar.com/deeplink/dexbrokerage.com"
+            ],
+            "url": "https://dappradar.com/cdn-cgi/rum?",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://dappradar.com/deeplink/dexbrokerage.com",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"memory\":{\"totalJSHeapSize\":5952972,\"usedJSHeapSize\":3398024,\"jsHeapSizeLimit\":2082471936},\"resources\":[{\"n\":\"https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993\",\"s\":286.1,\"d\":128.6,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":286.1,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":414.7,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0}],\"referrer\":\"\",\"documentWriteIntervention\":false,\"errorCount\":0,\"eventType\":1,\"firstPaint\":369.6000000014901,\"firstContentfulPaint\":369.6000000014901,\"si\":100,\"startTime\":1672956174117.9,\"versions\":{\"fl\":\"2022.11.3\",\"js\":\"2022.10.1\",\"timings\":2},\"pageloadId\":\"39b8cd46-2cad-4361-88e9-9c594b9fa437\",\"location\":\"https://dappradar.com/deeplink/dexbrokerage.com\",\"wd\":false,\"timingsV2\":{\"unloadEventStart\":0,\"unloadEventEnd\":0,\"domInteractive\":361.8999999985099,\"domContentLoadedEventStart\":421.20000000298023,\"domContentLoadedEventEnd\":421.20000000298023,\"domComplete\":421.5,\"loadEventStart\":421.5,\"loadEventEnd\":421.8999999985099,\"type\":\"navigate\",\"redirectCount\":0,\"activationStart\":0,\"initiatorType\":\"navigation\",\"nextHopProtocol\":\"h2\",\"workerStart\":0,\"redirectStart\":0,\"redirectEnd\":0,\"fetchStart\":6.399999998509884,\"domainLookupStart\":32.899999998509884,\"domainLookupEnd\":32.899999998509884,\"connectStart\":32.899999998509884,\"connectEnd\":76.79999999701977,\"secureConnectionStart\":50.600000001490116,\"requestStart\":77.10000000149012,\"responseStart\":237.5,\"responseEnd\":240.60000000149012,\"transferSize\":1111,\"encodedBodySize\":811,\"decodedBodySize\":1188,\"serverTiming\":[],\"renderBlockingStatus\":\"blocking\",\"name\":\"https://dappradar.com/deeplink/dexbrokerage.com\",\"entryType\":\"navigation\",\"startTime\":0,\"duration\":421.8999999985099},\"siteToken\":\"63428c9194c94d3abc7fb049876380f6\",\"st\":2}"
+        },
+        {
+            "requestContext": [
+                "https://dappradar.com/deeplink/dexbrokerage.com"
+            ],
+            "url": "https://dappradar.com/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dappradar.com/deeplink/dexbrokerage.com",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://dappradar.com/deeplink/dexbrokerage.com"
+            ],
+            "url": "https://dappradar.com/deeplink/dexbrokerage.com",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://dappradar.com/deeplink/dexbrokerage.com"
+            ],
+            "url": "https://dappradar.com/cdn-cgi/rum?",
+            "type": "ping",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://dappradar.com/deeplink/dexbrokerage.com",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dappradar.com/deeplink/dexbrokerage.com"
+            ],
+            "url": "https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dappradar.com/",
+                "origin": "https://dappradar.com",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://dappradar.com/deeplink/dexbrokerage.com"
+            ],
+            "url": "https://dappradar.com/cdn-cgi/rum?",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://dappradar.com/deeplink/dexbrokerage.com",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"memory\":{\"totalJSHeapSize\":6038740,\"usedJSHeapSize\":4476832,\"jsHeapSizeLimit\":2082471936},\"resources\":[{\"n\":\"https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993\",\"s\":157.4,\"d\":0,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":157.4,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":157.4,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0}],\"referrer\":\"\",\"documentWriteIntervention\":false,\"errorCount\":0,\"eventType\":1,\"firstPaint\":0,\"firstContentfulPaint\":0,\"si\":100,\"startTime\":1672956184401.3,\"versions\":{\"fl\":\"2022.11.3\",\"js\":\"2022.10.1\",\"timings\":2},\"pageloadId\":\"67f23434-24d1-4140-b2a7-8742999ff769\",\"location\":\"https://dappradar.com/deeplink/dexbrokerage.com\",\"wd\":false,\"timingsV2\":{\"unloadEventStart\":139.89999999850988,\"unloadEventEnd\":139.89999999850988,\"domInteractive\":161.30000000447035,\"domContentLoadedEventStart\":163.10000000149012,\"domContentLoadedEventEnd\":163.10000000149012,\"domComplete\":163.20000000298023,\"loadEventStart\":163.39999999850988,\"loadEventEnd\":163.5,\"type\":\"reload\",\"redirectCount\":0,\"activationStart\":0,\"initiatorType\":\"navigation\",\"nextHopProtocol\":\"h2\",\"workerStart\":0,\"redirectStart\":0,\"redirectEnd\":0,\"fetchStart\":17,\"domainLookupStart\":17,\"domainLookupEnd\":17,\"connectStart\":17,\"connectEnd\":17,\"secureConnectionStart\":17,\"requestStart\":19.399999998509884,\"responseStart\":128.5,\"responseEnd\":129.80000000447035,\"transferSize\":1111,\"encodedBodySize\":811,\"decodedBodySize\":1188,\"serverTiming\":[],\"renderBlockingStatus\":\"blocking\",\"name\":\"https://dappradar.com/deeplink/dexbrokerage.com\",\"entryType\":\"navigation\",\"startTime\":0,\"duration\":163.5},\"siteToken\":\"63428c9194c94d3abc7fb049876380f6\",\"st\":2}"
+        },
+        {
+            "requestContext": [
+                "https://dappradar.com/deeplink/dexbrokerage.com"
+            ],
+            "url": "https://dappradar.com/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dappradar.com/deeplink/dexbrokerage.com",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        }
+    ],
+    "success": true
+}

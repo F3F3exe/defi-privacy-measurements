@@ -1,0 +1,200 @@
+{
+    "url": "http://www.aiwallet.io",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 15,
+        "url": "http://www.aiwallet.io",
+        "metamaskPath": "metamask-chrome-10.22.2",
+        "destination": "test_crawls",
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1672955766448,
+        "end": 1672955790495
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "url": "http://www.aiwallet.io/",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://www.aiwallet.io/"
+            ],
+            "url": "https://www.google.com/adsense/domains/caf.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "http://www.aiwallet.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "http://www.aiwallet.io/"
+            ],
+            "url": "https://img1.wsimg.com/parking-lander/static/js/2.5940ae1c.chunk.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "http://www.aiwallet.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "http://www.aiwallet.io/"
+            ],
+            "url": "https://img1.wsimg.com/parking-lander/static/js/main.4e219663.chunk.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "http://www.aiwallet.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.aws.parking.godaddy.com/v1/parking/landers/www.aiwallet.io?trafficTarget=gd",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "x-request-id",
+                "access-control-request-method": "GET",
+                "origin": "http://www.aiwallet.io",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://www.aiwallet.io/"
+            ],
+            "url": "https://api.aws.parking.godaddy.com/v1/parking/landers/www.aiwallet.io?trafficTarget=gd",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "http://www.aiwallet.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "x-request-id": "892050ed-e0ef-4686-8775-65f120967100",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "http://www.aiwallet.io/"
+            ],
+            "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=www.aiwallet.io&client=dp-godaddy1_xml&product=SAS&callback=__sasCookie",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "http://www.aiwallet.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "",
+                "http://www.aiwallet.io/"
+            ],
+            "url": "https://www.google.com/afs/ads?adsafe=low&adtest=off&psid=7949183650&pcsa=false&channel=non-expiry&domain_name=aiwallet.io&client=dp-godaddy1_xml&r=m&type=3&uiopt=true&swp=as-drid-oo-1885714186540894&oe=UTF-8&ie=UTF-8&fexp=21404%2C17300002&format=r3&nocache=9011672955771527&num=0&output=afd_ads&v=3&bsl=8&pac=2&u_his=2&u_tz=60&dt=1672955771528&u_w=1280&u_h=960&biw=1280&bih=751&psw=1280&psh=398&frm=0&cl=493016327&uio=-&cont=relatedLinks&jsid=caf&jsv=493016327&rurl=http%3A%2F%2Fwww.aiwallet.io%2F&adbw=master-1%3A854",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "referer": "http://www.aiwallet.io/",
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "http://www.aiwallet.io/"
+            ],
+            "url": "https://api.aws.parking.godaddy.com/v1/parkingEvents",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "http://www.aiwallet.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"eventType\":\"VISIT\",\"createdAt\":\"2023-01-05T21:56:11.791Z\",\"domain\":\"aiwallet.io\",\"domainStatus\":\"ACTIVE\",\"system\":\"PW\",\"dataSource\":\"INVENTORY\",\"isTurnKeyReseller\":false,\"isCname\":false,\"drid\":\"as-drid-oo-1885714186540894\",\"pubId\":\"dp-godaddy1_xml\",\"channel\":\"non-expiry\",\"feedProvider\":\"GOOGLE_AD_SENSE\",\"template\":\"PARK_WEB\",\"trafficTarget\":\"gd\",\"keywordOrigin\":\"FEED_PROVIDER\",\"isAdult\":false,\"bannerType\":\"DBS\",\"ip\":\"31.10.148.19\",\"country\":\"CH\",\"city\":\"Zurich\",\"visitorId\":\"537babc7-fb1d-417b-aff6-14a35bfaa28f\",\"protocol\":\"HTTP\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"domLoadTime\":0,\"pageLoadTime\":0,\"isMobile\":false}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.aws.parking.godaddy.com/v1/parkingEvents",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "http://www.aiwallet.io",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://www.aiwallet.io/"
+            ],
+            "url": "https://www.google.com/afs/gen_204?client=dp-godaddy1_xml&output=uds_ads_only&zx=sgz9h7y4nkfj&aqid=e0e3Y6nvIZXH3wOBlp64Dw&psid=7949183650&pbt=bs&adbx=246&adby=279&adbh=298&adbw=788&adbah=92%2C92%2C92&adbn=master-1&eawp=partner-dp-godaddy1_xml&errv=493016327&csala=6%7C0%7C153%7C84%7C137&lle=0&llm=1000&ifv=1&usr=1",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "http://www.aiwallet.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "http://www.aiwallet.io/"
+            ],
+            "url": "https://www.google.com/afs/gen_204?client=dp-godaddy1_xml&output=uds_ads_only&zx=y6mdyt9w96qj&aqid=e0e3Y6nvIZXH3wOBlp64Dw&psid=7949183650&pbt=bv&adbx=246&adby=279&adbh=298&adbw=788&adbah=92%2C92%2C92&adbn=master-1&eawp=partner-dp-godaddy1_xml&errv=493016327&csala=6%7C0%7C153%7C84%7C137&lle=0&llm=1000&ifv=1&usr=1",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "http://www.aiwallet.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        }
+    ],
+    "success": true
+}

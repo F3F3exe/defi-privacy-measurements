@@ -1,0 +1,168 @@
+{
+    "url": "http://ww1.amphorium.io/",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 15,
+        "url": "http://ww1.amphorium.io/",
+        "metamaskPath": "metamask-chrome-10.22.2",
+        "destination": "test_crawls",
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1672934390493,
+        "end": 1672934415235
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "url": "http://ww1.amphorium.io/",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://ww1.amphorium.io/"
+            ],
+            "url": "http://www.google.com/adsense/domains/caf.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "referer": "http://ww1.amphorium.io/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://ww1.amphorium.io/"
+            ],
+            "url": "http://ww1.amphorium.io/track.php?domain=amphorium.io&toggle=browserjs&uid=MTY3MjkzNDM5NC40MjA3OjlmNDYwYTJlNWM3N2U2ZDgwYjhlMjhmMzg3NmU4MjU0NDYxZTI1YzE2NWJlZjM4NmM1NTdlYzRjZWU0ZWI5ODc6NjNiNmYzZmE2NmI0MA%3D%3D",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "referer": "http://ww1.amphorium.io/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://ww1.amphorium.io/"
+            ],
+            "url": "http://d38psrni17bvxu.cloudfront.net/themes/cleanPeppermintBlack_657d9013/img/arrows.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "http://ww1.amphorium.io/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://ww1.amphorium.io/"
+            ],
+            "url": "http://ww1.amphorium.io/ls.php",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "referer": "http://ww1.amphorium.io/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+            },
+            "postData": "_=2217|||63b6f3fa687d4eyJvd25lcilsb979f00098I6NDA3OSwiZG9tYWluIjoiYW1waG9yaXVtLmlvIiwidW5pcUlEIjoiTVRZM01qa3pORE01TkM0ME1qQTNPamxtTkRZd1lUSmxOV00zTjJVMlpEZ3dZamhsTWpobU16ZzNObVU0TWpVME5EWXhaVEkxWXpFMk5XSmxaak00Tm1NMU5UZGxZelJqWldVMFpXSTVPRGM2TmpOaU5tWXpabUUyTm1JME1BPT0iLCJiYXNlVW5pcXVlSUQiOiIxNzllNzE4YWU3MmI1MjY1ZWYyOWYzODI0YTE5ZDk4OTczYWU4YTQ1IiwidW5pcXVlSUQiOiIxNzllNzE4YWU3MmI1MjY1ZWYyOWYzODI0YTE5ZDk4OTczYWU4YTQ1Iiwic2hhcmRLZXkiOiIxNzllNzE4YWU3MmI1MjY1ZWYyOWYzODI0YTE5ZDk4OTczYWU4YTQ1IiwiYnJvd3NlcmpzIjpmYWxzZSwic3BlY2lhbCI6Imdvb2dsZSIsInJlZGlyIjpmYWxzZSwiZmVlZCI6Imdvb2dsZSIsImZlZWRSZWFzb24iOiJnOmd8Iiwic3RhbXAiOjE2NzI5MzQzOTQsImRhdGUiOiIyMDIzLTAxLTA1IiwidGltZSI6IjA3OjU5OjU0IiwicmVmZXJlciI6bnVsbCwiY291bnRyeSI6ImNoIiwiZGV2aWNlIjowLCJ0ZW1wbGF0ZW5hbWUiOiJ0cGxfQ2xlYW5QZXBwZXJtaW50QmxhY2tfdHdvY2xpY2siLCJ4RkYiOiIwLjAuMC4wIiwiaXAiOiI3OS4xMjUuOTkuMCIsImNsaWVudElQIjoiMzEuMTAuMTQ4LjAiLCJpcF9jaXR5IjoiWnVyaWNoIiwiaXBfb3JnYSI6IlVQQyBTY2h3ZWl6IiwiaXBIYXNoIjoiZDIwZDVhODgwMzE1ZTk3YzM4NmJiOWZiNDdiN2MyYmUyNzdkMzI2MiIsInVhIjoiTW96aWxsYVwvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0XC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWVcLzEwOC4wLjAuMCBTYWZhcmlcLzUzNy4zNiIsImJfbGFuZyI6ImVuLVVTLGVuXC8wLjkiLCJpc3VuaXF1ZSI6dHJ1ZSwiYWR0ZXN0Ijoib2ZmIiwiY2xpZW50SUQiOiJkcC10ZWFtaW50ZXJuZXQwOV8zcGgiLCJ0cyI6bnVsbCwic2VydmVyIjoid3MtMDEubXVjLnBjcmV3LmlvIiwicnQiOiIwLjAxMDkzMDc3NjU5NiIsImV4dElwIjoiMTg1LjUzLjE3Ny4yMjEiLCJxdWlja1RpZXIyIjpmYWxzZSwic3NsIjpmYWxzZSwic3NsSGFzQ2VydCI6bnVsbCwiNTFkZWdyZWVzIjp7IkhhcmR3YXJlRmFtaWx5IjoiRW11bGF0b3IiLCJIYXJkd2FyZU1vZGVsIjoiVW5rbm93biIsIkhhcmR3YXJlTmFtZSI6IkRlc2t0b3AiLCJIYXJkd2FyZVZlbmRvciI6IlVua25vd24iLCJQbGF0Zm9ybU5hbWUiOiJXaW5kb3dzIiwiUGxhdGZvcm1WZW5kb3IiOiJNaWNyb3NvZnQiLCJQbGF0Zm9ybVZlcnNpb24iOiIxMC4wIiwiQnJvd3Nlck5hbWUiOiJDaHJvbWUiLCJCcm93c2VyVmVuZG9yIjoiR29vZ2xlIiwiQnJvd3NlclZlcnNpb24iOiIxMDgiLCJDcmF3bGVyTmFtZSI6Ik5vdENyYXdsZXIiLCJJc0NyYXdsZXIiOiJGYWxzZSJ9LCJsb3dSZXZlbnVlVHJhY2tpbmciOjAsImZhbGxiYWNrIjoibWlzc2luZyB0ZW1wbGF0ZSIsImZiX21vZGUiOm51bGwsImZiX3ZpZXciOm51bGwsImV4dGVybmFsS2V5d29yZHMiOltdLCJpc1RvbmljVXNlciI6ZmFsc2UsImJ1Y2tldCI6ImJ1Y2tldDEwMyIsImRhdGFjZW50ZXIiOiJtdWMiLCJzdWJkb21haW4iOiJ3dzEiLCJjaGFubmVscyI6WyIwMDAwMDEiLCJidWNrZXQxMDMiXSwidWt3IjpudWxsLCJhc3luYyI6dHJ1ZX0="
+        },
+        {
+            "requestContext": [
+                "http://ww1.amphorium.io/"
+            ],
+            "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=ww1.amphorium.io&client=dp-teaminternet09_3ph&product=SAS&callback=__sasCookie",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "http://ww1.amphorium.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "",
+                "http://ww1.amphorium.io/"
+            ],
+            "url": "https://www.google.com/afs/ads?adtest=off&psid=6016880802&pcsa=false&channel=000001%2Cbucket103&client=dp-teaminternet09_3ph&r=m&hl=en&max_radlink_len=40&type=3&uiopt=true&swp=as-drid-2719855883814808&oe=UTF-8&ie=UTF-8&fexp=21404&format=r3%7Cs&nocache=3851672934394959&num=0&output=afd_ads&domain_name=ww1.amphorium.io&v=3&bsl=8&pac=0&u_his=2&u_tz=60&dt=1672934394960&u_w=1280&u_h=960&biw=1280&bih=798&psw=1280&psh=754&frm=0&cl=493016327&uio=--&cont=tc&jsid=caf&jsv=493016327&rurl=http%3A%2F%2Fww1.amphorium.io%2F&adbw=master-1%3A530",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "referer": "http://ww1.amphorium.io/",
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "http://ww1.amphorium.io/"
+            ],
+            "url": "http://ww1.amphorium.io/track.php?domain=amphorium.io&caf=1&toggle=answercheck&answer=yes&uid=MTY3MjkzNDM5NC40MjA3OjlmNDYwYTJlNWM3N2U2ZDgwYjhlMjhmMzg3NmU4MjU0NDYxZTI1YzE2NWJlZjM4NmM1NTdlYzRjZWU0ZWI5ODc6NjNiNmYzZmE2NmI0MA%3D%3D",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "referer": "http://ww1.amphorium.io/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://ww1.amphorium.io/"
+            ],
+            "url": "http://ww1.amphorium.io/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "referer": "http://ww1.amphorium.io/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://ww1.amphorium.io/"
+            ],
+            "url": "https://www.google.com/afs/gen_204?client=dp-teaminternet09_3ph&output=uds_ads_only&zx=xtq3l9650k3f&aqid=-_O2Y_bBB8bwxwLL_KboBQ&psid=6016880802&pbt=bs&adbx=367.5&adby=93&adbh=497&adbw=530&adbah=160%2C160%2C160&adbn=master-1&eawp=partner-dp-teaminternet09_3ph&errv=493016327&csala=9%7C0%7C231%7C68%7C161&lle=0&llm=1000&ifv=1&usr=1",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "http://ww1.amphorium.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "http://ww1.amphorium.io/"
+            ],
+            "url": "https://www.google.com/afs/gen_204?client=dp-teaminternet09_3ph&output=uds_ads_only&zx=pvx76n349fgn&aqid=-_O2Y_bBB8bwxwLL_KboBQ&psid=6016880802&pbt=bv&adbx=367.5&adby=93&adbh=497&adbw=530&adbah=160%2C160%2C160&adbn=master-1&eawp=partner-dp-teaminternet09_3ph&errv=493016327&csala=9%7C0%7C231%7C68%7C161&lle=0&llm=1000&ifv=1&usr=1",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "http://ww1.amphorium.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        }
+    ],
+    "success": true
+}

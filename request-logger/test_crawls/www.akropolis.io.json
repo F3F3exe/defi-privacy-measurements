@@ -1,350 +1,25 @@
 {
-    "url": "https://www.akropolis.io/app/home",
+    "url": "https://www.akropolis.io/sparta",
     "arguments": {
         "printFrameHierarchy": true,
         "debugLevel": "verbose",
         "headless": false,
-        "secs": 45,
-        "url": "https://www.akropolis.io/app/home",
+        "secs": 15,
+        "url": "https://www.akropolis.io/sparta",
         "metamaskPath": "metamask-chrome-10.22.2",
         "destination": "test_crawls",
         "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
     },
     "timestamps": {
-        "start": 1672434534110,
-        "end": 1672434660932
+        "start": 1672945920579,
+        "end": 1672945944694
     },
     "requests": [
         {
             "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css",
-            "type": "stylesheet",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:08:57.401Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7729a29fb0d94a2ab161f82880721ada\",\"init\":true,\"started\":\"2022-12-30T21:08:57.400Z\",\"timestamp\":\"2022-12-30T21:08:57.400Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:08:59.675Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7729a29fb0d94a2ab161f82880721ada\",\"init\":false,\"started\":\"2022-12-30T21:08:57.400Z\",\"timestamp\":\"2022-12-30T21:08:59.674Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:08:59.677Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"5cbdc567798f4b859329555cd69b0189\",\"init\":true,\"started\":\"2022-12-30T21:08:59.674Z\",\"timestamp\":\"2022-12-30T21:08:59.674Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/welcome"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/logo/metamask-fox.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:08:59.863Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"5cbdc567798f4b859329555cd69b0189\",\"init\":false,\"started\":\"2022-12-30T21:08:59.674Z\",\"timestamp\":\"2022-12-30T21:08:59.862Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:08:59.865Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7cac5dccd3db49d6a4134f8723dc50d1\",\"init\":true,\"started\":\"2022-12-30T21:08:59.862Z\",\"timestamp\":\"2022-12-30T21:08:59.862Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/metrics-chart.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/metametrics-opt-in"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/select-action"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:09:00.059Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7cac5dccd3db49d6a4134f8723dc50d1\",\"init\":false,\"started\":\"2022-12-30T21:08:59.862Z\",\"timestamp\":\"2022-12-30T21:09:00.058Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/select-action"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:09:00.060Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"658f3fbcdb1e44e58995afbfe3266cf3\",\"init\":true,\"started\":\"2022-12-30T21:09:00.058Z\",\"timestamp\":\"2022-12-30T21:09:00.058Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:09:00.103Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"658f3fbcdb1e44e58995afbfe3266cf3\",\"init\":false,\"started\":\"2022-12-30T21:09:00.058Z\",\"timestamp\":\"2022-12-30T21:09:00.102Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:09:00.104Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"cc8c2832f2b74d61a2a42572d9c358a8\",\"init\":true,\"started\":\"2022-12-30T21:09:00.102Z\",\"timestamp\":\"2022-12-30T21:09:00.102Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Roboto/Roboto-Regular.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/create-password/import-with-seed-phrase"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-regular-400.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/end-of-flow"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:09:03.470Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"cc8c2832f2b74d61a2a42572d9c358a8\",\"init\":false,\"started\":\"2022-12-30T21:09:00.102Z\",\"timestamp\":\"2022-12-30T21:09:03.469Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#initialize/end-of-flow"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:09:03.471Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"3eb1d8577b894a27a75d0818a62c1a13\",\"init\":true,\"started\":\"2022-12-30T21:09:03.469Z\",\"timestamp\":\"2022-12-30T21:09:03.469Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
                 "about:blank"
             ],
-            "url": "https://www.akropolis.io/app/home",
+            "url": "https://www.akropolis.io/sparta",
             "type": "document",
             "method": "GET",
             "headers": {
@@ -357,60 +32,14 @@
         },
         {
             "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:09:03.552Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"3eb1d8577b894a27a75d0818a62c1a13\",\"init\":false,\"started\":\"2022-12-30T21:09:03.469Z\",\"timestamp\":\"2022-12-30T21:09:03.551Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:09:03.553Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"dafa1c340b20462d80fe737cdd344279\",\"init\":true,\"started\":\"2022-12-30T21:09:03.551Z\",\"timestamp\":\"2022-12-30T21:09:03.551Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/home.html#"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/eth_logo.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
+                "https://www.akropolis.io/sparta"
             ],
             "url": "https://www.akropolis.io/_next/static/chunks/webpack-cc142cd7250c2019.js",
             "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
+                "referer": "https://www.akropolis.io/sparta",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -418,14 +47,14 @@
         },
         {
             "requestContext": [
-                "https://www.akropolis.io/app/home"
+                "https://www.akropolis.io/sparta"
             ],
             "url": "https://www.akropolis.io/_next/static/chunks/framework-4a9e9d5071d676b1.js",
             "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
+                "referer": "https://www.akropolis.io/sparta",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -433,14 +62,14 @@
         },
         {
             "requestContext": [
-                "https://www.akropolis.io/app/home"
+                "https://www.akropolis.io/sparta"
             ],
             "url": "https://www.akropolis.io/_next/static/chunks/main-6850a16cdab52a2b.js",
             "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
+                "referer": "https://www.akropolis.io/sparta",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -448,14 +77,14 @@
         },
         {
             "requestContext": [
-                "https://www.akropolis.io/app/home"
+                "https://www.akropolis.io/sparta"
             ],
             "url": "https://www.akropolis.io/_next/static/chunks/pages/_app-7ee0fd4d5717ff2f.js",
             "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
+                "referer": "https://www.akropolis.io/sparta",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -463,14 +92,14 @@
         },
         {
             "requestContext": [
-                "https://www.akropolis.io/app/home"
+                "https://www.akropolis.io/sparta"
             ],
-            "url": "https://www.akropolis.io/_next/static/chunks/6443-f24bcda7d2e6b30e.js",
+            "url": "https://www.akropolis.io/_next/static/chunks/pages/404-25e870d8fb2d2a53.js",
             "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
+                "referer": "https://www.akropolis.io/sparta",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -478,119 +107,14 @@
         },
         {
             "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/chunks/7749-5042bdddb7816d9f.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/chunks/2945-ad389de1cc2a44cc.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/chunks/2918-14ac463d5d43be52.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/chunks/2112-6b094a32a5fcf9fa.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/chunks/3901-288548e923948c57.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/chunks/7751-9fe7e4ec0544e92e.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/chunks/pages/app/home-773ef4d419ea0dbd.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
+                "https://www.akropolis.io/sparta"
             ],
             "url": "https://www.akropolis.io/_next/static/PTq5D1XCcEtobkSJQFQ1p/_buildManifest.js",
             "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
+                "referer": "https://www.akropolis.io/sparta",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -598,14 +122,14 @@
         },
         {
             "requestContext": [
-                "https://www.akropolis.io/app/home"
+                "https://www.akropolis.io/sparta"
             ],
             "url": "https://www.akropolis.io/_next/static/PTq5D1XCcEtobkSJQFQ1p/_ssgManifest.js",
             "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
+                "referer": "https://www.akropolis.io/sparta",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -613,98 +137,263 @@
         },
         {
             "requestContext": [
-                "https://www.akropolis.io/app/home"
+                "https://www.akropolis.io/sparta"
             ],
             "url": "https://www.akropolis.io/_next/static/PTq5D1XCcEtobkSJQFQ1p/_middlewareManifest.js",
             "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
+                "referer": "https://www.akropolis.io/sparta",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
             }
         },
         {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/id/QmUwSshC9vaEVpkV5k1AMJkbyxk4fRuWop77zG2uXNwdZP",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://www.akropolis.io",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/id/Qmc4Lsej4KknmwYJMwhFGnkRBfhrY9ZjXxqBvtDjxE1BbP",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://www.akropolis.io",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
             "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/id/QmUwSshC9vaEVpkV5k1AMJkbyxk4fRuWop77zG2uXNwdZP",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "*/*",
-                "content-type": "application/json",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            },
-            "postData": "{\"operationName\":\"BasisVaults\",\"variables\":{},\"query\":\"query BasisVaults {\\n  basisVaults(first: 1000, where: {isActive: true}) {\\n    id\\n    lpToken {\\n      id\\n      name\\n      symbol\\n      decimals\\n      __typename\\n    }\\n    depositToken {\\n      id\\n      symbol\\n      decimals\\n      __typename\\n    }\\n    createdAt\\n    createdBlock\\n    __typename\\n  }\\n}\"}"
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/id/Qmc4Lsej4KknmwYJMwhFGnkRBfhrY9ZjXxqBvtDjxE1BbP",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "*/*",
-                "content-type": "application/json",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            },
-            "postData": "{\"operationName\":\"BasisVaults\",\"variables\":{},\"query\":\"query BasisVaults {\\n  basisVaults(first: 1000, where: {isActive: true}) {\\n    id\\n    lpToken {\\n      id\\n      name\\n      symbol\\n      decimals\\n      __typename\\n    }\\n    depositToken {\\n      id\\n      symbol\\n      decimals\\n      __typename\\n    }\\n    createdAt\\n    createdBlock\\n    __typename\\n  }\\n}\"}"
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
+                "https://www.akropolis.io/sparta"
             ],
             "url": "https://www.akropolis.io/_next/static/fonts/AvenirNextLTPro-Regular.woff2",
             "type": "font",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
+                "referer": "https://www.akropolis.io/sparta",
                 "origin": "https://www.akropolis.io",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
             }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/sparta"
+            ],
+            "url": "https://www.akropolis.io/_next/static/chunks/6443-f24bcda7d2e6b30e.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/sparta",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/sparta"
+            ],
+            "url": "https://www.akropolis.io/_next/static/chunks/7749-5042bdddb7816d9f.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/sparta",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/sparta"
+            ],
+            "url": "https://www.akropolis.io/_next/static/chunks/2945-ad389de1cc2a44cc.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/sparta",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/sparta"
+            ],
+            "url": "https://www.akropolis.io/_next/static/chunks/2918-14ac463d5d43be52.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/sparta",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/sparta"
+            ],
+            "url": "https://www.akropolis.io/_next/static/chunks/2112-6b094a32a5fcf9fa.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/sparta",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/sparta"
+            ],
+            "url": "https://www.akropolis.io/_next/static/chunks/3901-288548e923948c57.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/sparta",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/sparta"
+            ],
+            "url": "https://www.akropolis.io/_next/static/chunks/7751-9fe7e4ec0544e92e.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/sparta",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/sparta"
+            ],
+            "url": "https://www.akropolis.io/_next/static/chunks/pages/app/home-773ef4d419ea0dbd.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/sparta",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/sparta"
+            ],
+            "url": "https://www.akropolis.io/api/private/appVersion",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/sparta",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/sparta"
+            ],
+            "url": "https://www.akropolis.io/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/sparta",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/sparta"
+            ],
+            "url": "https://www.akropolis.io/_next/data/PTq5D1XCcEtobkSJQFQ1p/en/app/home.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/sparta",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/id/QmUwSshC9vaEVpkV5k1AMJkbyxk4fRuWop77zG2uXNwdZP",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://www.akropolis.io",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/id/Qmc4Lsej4KknmwYJMwhFGnkRBfhrY9ZjXxqBvtDjxE1BbP",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://www.akropolis.io",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/id/QmUwSshC9vaEVpkV5k1AMJkbyxk4fRuWop77zG2uXNwdZP",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://www.akropolis.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"operationName\":\"BasisVaults\",\"variables\":{},\"query\":\"query BasisVaults {\\n  basisVaults(first: 1000, where: {isActive: true}) {\\n    id\\n    lpToken {\\n      id\\n      name\\n      symbol\\n      decimals\\n      __typename\\n    }\\n    depositToken {\\n      id\\n      symbol\\n      decimals\\n      __typename\\n    }\\n    createdAt\\n    createdBlock\\n    __typename\\n  }\\n}\"}"
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "https://api.thegraph.com/subgraphs/id/Qmc4Lsej4KknmwYJMwhFGnkRBfhrY9ZjXxqBvtDjxE1BbP",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "https://www.akropolis.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"operationName\":\"BasisVaults\",\"variables\":{},\"query\":\"query BasisVaults {\\n  basisVaults(first: 1000, where: {isActive: true}) {\\n    id\\n    lpToken {\\n      id\\n      name\\n      symbol\\n      decimals\\n      __typename\\n    }\\n    depositToken {\\n      id\\n      symbol\\n      decimals\\n      __typename\\n    }\\n    createdAt\\n    createdBlock\\n    __typename\\n  }\\n}\"}"
         },
         {
             "requestContext": [
@@ -770,52 +459,7 @@
             "requestContext": [
                 "https://www.akropolis.io/app/home"
             ],
-            "url": "https://www.akropolis.io/api/private/appVersion",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
             "url": "https://gas-oracle.akropolis.io/1",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/favicon.ico",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://sheets.googleapis.com/v4/spreadsheets/1Exr9Hj_07t_QMWp3DrDhUWZG5H-KMn2-lACsf9Havog?fields=sheets(properties(sheetId%2Ctitle))&key=AIzaSyD3XbKGbtKnjGPM6iOMfqGEe5GM_jYtpg8",
             "type": "fetch",
             "method": "GET",
             "headers": {
@@ -952,21 +596,6 @@
             ],
             "url": "https://www.akropolis.io/_next/static/chunks/pages/app/releases-81a965347c304600.js",
             "type": "other",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/data/PTq5D1XCcEtobkSJQFQ1p/en/app/home.json",
-            "type": "fetch",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
@@ -1265,6 +894,21 @@
             "requestContext": [
                 "https://www.akropolis.io/app/home"
             ],
+            "url": "https://sheets.googleapis.com/v4/spreadsheets/1Exr9Hj_07t_QMWp3DrDhUWZG5H-KMn2-lACsf9Havog?fields=sheets(properties(sheetId%2Ctitle))&key=AIzaSyD3XbKGbtKnjGPM6iOMfqGEe5GM_jYtpg8",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
             "url": "https://www.akropolis.io/_next/data/PTq5D1XCcEtobkSJQFQ1p/en/app/profit/calculate.json",
             "type": "fetch",
             "method": "GET",
@@ -1310,8 +954,8 @@
             "requestContext": [
                 "https://www.akropolis.io/app/home"
             ],
-            "url": "https://www.akropolis.io/favicon.ico",
-            "type": "other",
+            "url": "https://www.akropolis.io/_next/static/chunks/pages/app/governance-24ac594bdea5383c.js",
+            "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
@@ -1340,12 +984,117 @@
             "requestContext": [
                 "https://www.akropolis.io/app/home"
             ],
+            "url": "https://www.akropolis.io/_next/static/chunks/4115-c0c6abb5be81c1ca.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/app/home",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "https://www.akropolis.io/_next/static/chunks/4731-1fd05545b2119e5e.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/app/home",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
             "url": "https://www.akropolis.io/_next/static/chunks/6462-f946e4999b63bd07.js",
             "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
                 "referer": "https://www.akropolis.io/app/home",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "https://www.akropolis.io/_next/static/chunks/1932-88c009fd41903c0c.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/app/home",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "https://www.akropolis.io/_next/static/chunks/pages/app/stats-f8bc3b1403a660ff.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/app/home",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "https://cache.akropolis.workers.dev/?url=https%3A%2F%2Fsheets.googleapis.com%2Fv4%2Fspreadsheets%2F1SRm06OAtIa6DtSKRZVFeL8XvQ2TISbX3cOxvQdBe3jA%2Fvalues%2FConfig!B1%3A5%3FvalueRenderOption%3DUNFORMATTED_VALUE%26",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "https://cache.akropolis.workers.dev/?url=https%3A%2F%2Fsheets.googleapis.com%2Fv4%2Fspreadsheets%2F1_IOxuOKfprcB66Y8AGhYv0y1JWdVo_ZiRf2goFJc1so%2Fvalues%2FConfig!B1%3A5%3FvalueRenderOption%3DUNFORMATTED_VALUE%26",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "https://cache.akropolis.workers.dev/?url=https%3A%2F%2Fsheets.googleapis.com%2Fv4%2Fspreadsheets%2F1U7NdKjcJSIt_vrBdaClWYRzOGBwclFEJKddYBDn9fWA%2Fvalues%2FConfig!B1%3A5%3FvalueRenderOption%3DUNFORMATTED_VALUE%26",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
@@ -1401,21 +1150,6 @@
                 "https://www.akropolis.io/app/home"
             ],
             "url": "https://www.akropolis.io/_next/static/chunks/3728-55b8f976d8ed1db6.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/chunks/4731-1fd05545b2119e5e.js",
             "type": "script",
             "method": "GET",
             "headers": {
@@ -1490,21 +1224,6 @@
             "requestContext": [
                 "https://www.akropolis.io/app/home"
             ],
-            "url": "https://www.akropolis.io/_next/static/chunks/pages/app/governance-24ac594bdea5383c.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
             "url": "https://www.akropolis.io/_next/static/chunks/9674-9e4f6abaf569b3fb.js",
             "type": "script",
             "method": "GET",
@@ -1550,51 +1269,6 @@
             "requestContext": [
                 "https://www.akropolis.io/app/home"
             ],
-            "url": "https://cache.akropolis.workers.dev/?url=https%3A%2F%2Fsheets.googleapis.com%2Fv4%2Fspreadsheets%2F1_IOxuOKfprcB66Y8AGhYv0y1JWdVo_ZiRf2goFJc1so%2Fvalues%2FConfig!B1%3A5%3FvalueRenderOption%3DUNFORMATTED_VALUE%26",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://cache.akropolis.workers.dev/?url=https%3A%2F%2Fsheets.googleapis.com%2Fv4%2Fspreadsheets%2F1SRm06OAtIa6DtSKRZVFeL8XvQ2TISbX3cOxvQdBe3jA%2Fvalues%2FConfig!B1%3A5%3FvalueRenderOption%3DUNFORMATTED_VALUE%26",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://cache.akropolis.workers.dev/?url=https%3A%2F%2Fsheets.googleapis.com%2Fv4%2Fspreadsheets%2F1U7NdKjcJSIt_vrBdaClWYRzOGBwclFEJKddYBDn9fWA%2Fvalues%2FConfig!B1%3A5%3FvalueRenderOption%3DUNFORMATTED_VALUE%26",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
             "url": "https://www.akropolis.io/_next/static/chunks/5344-1331b578e5c0dae7.js",
             "type": "script",
             "method": "GET",
@@ -1612,93 +1286,6 @@
             ],
             "url": "https://www.akropolis.io/_next/static/chunks/pages/app/staking-2ded605ccf1788a1.js",
             "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/chunks/4115-c0c6abb5be81c1ca.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/chunks/1932-88c009fd41903c0c.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/chunks/pages/app/stats-f8bc3b1403a660ff.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://sheets.googleapis.com/v4/spreadsheets/1Exr9Hj_07t_QMWp3DrDhUWZG5H-KMn2-lACsf9Havog/values/Global%20message!A2?valueRenderOption=UNFORMATTED_VALUE&key=AIzaSyD3XbKGbtKnjGPM6iOMfqGEe5GM_jYtpg8",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/media/eth.18e3fb4e.svg",
-            "type": "image",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
@@ -1772,6 +1359,121 @@
             "requestContext": [
                 "https://www.akropolis.io/app/home"
             ],
+            "url": "https://sheets.googleapis.com/v4/spreadsheets/1SRm06OAtIa6DtSKRZVFeL8XvQ2TISbX3cOxvQdBe3jA/values/Config!B1:5?valueRenderOption=UNFORMATTED_VALUE&key=AIzaSyD3XbKGbtKnjGPM6iOMfqGEe5GM_jYtpg8",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "https://www.akropolis.io/_next/static/media/eth.18e3fb4e.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/app/home",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "https://sheets.googleapis.com/v4/spreadsheets/1Exr9Hj_07t_QMWp3DrDhUWZG5H-KMn2-lACsf9Havog/values/Global%20message!A2?valueRenderOption=UNFORMATTED_VALUE&key=AIzaSyD3XbKGbtKnjGPM6iOMfqGEe5GM_jYtpg8",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "https://gas-oracle.akropolis.io/1",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
+            "url": "https://gas-oracle.akropolis.io/1",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://www.akropolis.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/id/QmUwSshC9vaEVpkV5k1AMJkbyxk4fRuWop77zG2uXNwdZP",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://www.akropolis.io",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/id/Qmc4Lsej4KknmwYJMwhFGnkRBfhrY9ZjXxqBvtDjxE1BbP",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://www.akropolis.io",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://www.akropolis.io/app/home"
+            ],
             "url": "https://api.thegraph.com/subgraphs/id/QmUwSshC9vaEVpkV5k1AMJkbyxk4fRuWop77zG2uXNwdZP",
             "type": "fetch",
             "method": "POST",
@@ -1838,6 +1540,20 @@
             "postData": "{\"operationName\":\"BasisVaultSharePrice\",\"variables\":{\"vaultAddress\":\"0x1a49323f961a34aa3ed3b7ccea85148d5f7b7f06\"},\"query\":\"query BasisVaultSharePrice($vaultAddress: ID!) {\\n  basisVault(id: $vaultAddress) {\\n    depositToken {\\n      decimals\\n      __typename\\n    }\\n    firstSharePrice {\\n      price\\n      updatedAt\\n      __typename\\n    }\\n    currentSharePrice {\\n      price\\n      updatedAt\\n      weekAgo {\\n        price\\n        updatedAt\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}"
         },
         {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/id/QmUwSshC9vaEVpkV5k1AMJkbyxk4fRuWop77zG2uXNwdZP",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://www.akropolis.io",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
             "requestContext": [
                 "https://www.akropolis.io/app/home"
             ],
@@ -1856,6 +1572,20 @@
             "postData": "{\"operationName\":\"BasisVaultSharePrice\",\"variables\":{\"vaultAddress\":\"0x4cf403a379d3353eef4fb665a86eb25306e4ccc5\"},\"query\":\"query BasisVaultSharePrice($vaultAddress: ID!) {\\n  basisVault(id: $vaultAddress) {\\n    depositToken {\\n      decimals\\n      __typename\\n    }\\n    firstSharePrice {\\n      price\\n      updatedAt\\n      __typename\\n    }\\n    currentSharePrice {\\n      price\\n      updatedAt\\n      weekAgo {\\n        price\\n        updatedAt\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}"
         },
         {
+            "requestContext": [],
+            "url": "https://api.thegraph.com/subgraphs/id/Qmc4Lsej4KknmwYJMwhFGnkRBfhrY9ZjXxqBvtDjxE1BbP",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://www.akropolis.io",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
             "requestContext": [
                 "https://www.akropolis.io/app/home"
             ],
@@ -1884,1303 +1614,6 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
             }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/media/empty-state.7330b123.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/image?url=https%3A%2F%2Frawcdn.githack.com%2Fyearn%2Fyearn-assets%2F0d0ee008a207585227e18399abe12ca5d7005cc2%2Ficons%2Fmultichain-tokens%2F1%2F0x80CAcCdBD3f07BbdB558DB4a9e146D099933D677%2Flogo-128.png&w=1920&q=75",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/image?url=https%3A%2F%2Frawcdn.githack.com%2Fyearn%2Fyearn-assets%2F0d0ee008a207585227e18399abe12ca5d7005cc2%2Ficons%2Fmultichain-tokens%2F1%2F0xFCc5c47bE19d06BF83eB04298b026F81069ff65b%2Flogo-128.png&w=1920&q=75",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/image?url=https%3A%2F%2Frawcdn.githack.com%2Fyearn%2Fyearn-assets%2F0d0ee008a207585227e18399abe12ca5d7005cc2%2Ficons%2Fmultichain-tokens%2F1%2F0x453D92C7d4263201C69aACfaf589Ed14202d83a4%2Flogo-128.png&w=1920&q=75",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/image?url=https%3A%2F%2Frawcdn.githack.com%2Fyearn%2Fyearn-assets%2F0d0ee008a207585227e18399abe12ca5d7005cc2%2Ficons%2Fmultichain-tokens%2F1%2F0x08ceA8E5B4551722dEB97113C139Dd83C26c5398%2Flogo-128.png&w=1920&q=75",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/image?url=https%3A%2F%2Frawcdn.githack.com%2Fyearn%2Fyearn-assets%2F0d0ee008a207585227e18399abe12ca5d7005cc2%2Ficons%2Fmultichain-tokens%2F1%2F0x4647B6D835f3B393C7A955df51EEfcf0db961606%2Flogo-128.png&w=1920&q=75",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/image?url=https%3A%2F%2Frawcdn.githack.com%2Fyearn%2Fyearn-assets%2F0d0ee008a207585227e18399abe12ca5d7005cc2%2Ficons%2Fmultichain-tokens%2F1%2F0x9D0464996170c6B9e75eED71c68B99dDEDf279e8%2Flogo-128.png&w=1920&q=75",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/image?url=https%3A%2F%2Frawcdn.githack.com%2Fyearn%2Fyearn-assets%2F0d0ee008a207585227e18399abe12ca5d7005cc2%2Ficons%2Fmultichain-tokens%2F1%2F0x3A283D9c08E8b55966afb64C515f5143cf907611%2Flogo-128.png&w=1920&q=75",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/image?url=https%3A%2F%2Frawcdn.githack.com%2Fyearn%2Fyearn-assets%2F0d0ee008a207585227e18399abe12ca5d7005cc2%2Ficons%2Fmultichain-tokens%2F1%2F0xEd4064f376cB8d68F770FB1Ff088a3d0F3FF5c4d%2Flogo-128.png&w=1920&q=75",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/image?url=https%3A%2F%2Frawcdn.githack.com%2Fyearn%2Fyearn-assets%2F0d0ee008a207585227e18399abe12ca5d7005cc2%2Ficons%2Fmultichain-tokens%2F1%2F0xA3D87FffcE63B53E0d54fAa1cc983B7eB0b74A9c%2Flogo-128.png&w=1920&q=75",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/media/akro.0a07b3c2.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://gas-oracle.akropolis.io/1",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGN5fIAKQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAMKADAAQAAAABAAAAMAAAAAD4/042AAAC8ElEQVRoBe1aS2sTURT+zjhJbFo0i2JFUMRuFFTalY+NuKoLadOVoFAQLG4rgtCtqAVB1J0gVfQPmO4qPhBE7cbHSkVQ1F0q2CqmaePMXO+ZymQmnU6T68zEgTkQcu5j7vm+c757cyFDkFY8Ut1uCNyGEH0gKnDf/21U0kmcKU13fCYbvCVeJwO4O600L0n064ZFV0FIQNbd4NkXBVaNBhLFxqHktKlPSw5YP6SikHACQErAr7Bx9qUViDPbfrHSCvhlJc6+tAJxZtsvVlsqsHuvhrGzGQ+exV1qUHTPKhE3NvWQDXyPJDBbFk60uRM6fg3o2Dqy6PQ168RG4NRpHUPD3nBGN+H7aAZLitlnkt4Vm6WtMK8RvJUHyheysPKksFr9kdgI1EMuewzcqjb2tt5W2zkBcXiDstbjstAIMPBLl7OYkJ+eGAmEIqFRuUEHGzaouwI/A8bc81T8UAjsO7jON3YzpwwtCGy4b6JLflQsFAJ+gfmHaU4ekUzCzzQJvPu6gdw7C+yrWiQEfkjJfOsN3l7aAtDxUi3rbrLBUdwzW/CXdnqX5SxHZZFUgMGytrueWnaWc+8lgUPrI+EQCYHNz0xsuWX8k7abZeutdbNP/Z3HG3R2PIu3G70b9dg28oAfHF55SpVdl7kWw3qmK1eAT5n54xnkX5n48MXC4ZH6UnzbnLyTw8MHJnb0EvYfWEngkRwLw+joQLXlM6wmMyzkXcbWtkTR2QlM3s3Jb28lVgPIV+nxczXPlXq1uWv1K0ko+1U44DlApQJcu/J7rVjO+M0bRijgeUElAg4SlzPz3MLF8zUEabtSETbRmRfhyIfD14XrAqPqMolPH2sYKurgyx3rn41JPZaan7pnymq1rNhAOEp7IHDFmAdDk1DMuJ1wKQEnFW1y0gq0KfFO2LQCTira5KQVaFPinbCafD9i3mkl0JH/1NObBOK2IQuIKc0gnExkFaRyTKIxbVq+smJo1E+gUiIqsSz5J4yZsf8BuUTUJejLfssAAAAASUVORK5CYII=",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/media/bsc.5e62f735.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/media/arbitrum.bf4103df.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://gas-oracle.akropolis.io/1",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://gas-oracle.akropolis.io/1",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://gas-oracle.akropolis.io/1",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://gas-oracle.akropolis.io/1",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://gas-oracle.akropolis.io/1",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://gas-oracle.akropolis.io/1",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "about:blank"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html",
-            "type": "document",
-            "method": "GET",
-            "headers": {
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-mobile": "?0",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css",
-            "type": "stylesheet",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"lU+Iva0L/M9elz6CIYIWabdK+b8=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:09:54.858Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"5844ea9d5cb447b9bb0efe7a2d375e72\",\"init\":true,\"started\":\"2022-12-30T21:09:54.858Z\",\"timestamp\":\"2022-12-30T21:09:54.858Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/index.css",
-            "type": "stylesheet",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"3Gh1moOGIzq/QrNd4z+6yqYf2p4=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/index-rtl.css",
-            "type": "stylesheet",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/logo/metamask-fox.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"9njlOUbouQwHcDhYtX7M8zRCV8o=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/spinner.gif",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"+ZBHWnu03zexDIvv1QybyPrL8do=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/globalthis.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"kRq+F78w0UQqcTRjfhLUjiv/+Ow=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/sentry-install.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"lU+Iva0L/M9elz6CIYIWabdK+b8=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/runtime-lavamoat.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"lU+Iva0L/M9elz6CIYIWabdK+b8=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/lockdown-more.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/policy-load.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/common-0.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/common-1.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/common-2.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/common-3.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/common-4.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/common-5.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/common-6.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/common-7.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/common-8.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/common-9.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/ui-0.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/ui-1.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/ui-2.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/ui-3.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/ui-4.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/ui-5.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/ui-6.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/ui-7.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/ui-8.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/ui-9.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/react-gallery/carousel.min.css",
-            "type": "stylesheet",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"lU+Iva0L/M9elz6CIYIWabdK+b8=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/WUgEBBqvXaDapTpOh4Xo8"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"22x+BPhFJooAnbWq29O/q8fWiA0=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/WUgEBBqvXaDapTpOh4Xo8"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"ne1DMtZSzKWK2ogtgudctA37YhQ=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/WUgEBBqvXaDapTpOh4Xo8"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"kRq+F78w0UQqcTRjfhLUjiv/+Ow=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/WUgEBBqvXaDapTpOh4Xo8"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"22x+BPhFJooAnbWq29O/q8fWiA0=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/WUgEBBqvXaDapTpOh4Xo8"
-            ],
-            "url": "https://www.akropolis.io/favicon.ico",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:09:57.665Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"001eae5bd293424bb378aba88ef8806d\",\"init\":true,\"started\":\"2022-12-30T21:09:57.664Z\",\"timestamp\":\"2022-12-30T21:09:57.664Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/_locales/en/messages.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/WUgEBBqvXaDapTpOh4Xo8"
-            ],
-            "url": "https://www.akropolis.io/favicon.ico",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "",
-                "if-none-match": "W/\"85d8bf937c6197fd345d262cf9a2e8a9\"",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/WUgEBBqvXaDapTpOh4Xo8"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"22x+BPhFJooAnbWq29O/q8fWiA0=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/WUgEBBqvXaDapTpOh4Xo8"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"ne1DMtZSzKWK2ogtgudctA37YhQ=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/WUgEBBqvXaDapTpOh4Xo8"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/fontawesome/fa-solid-900.woff2",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"kRq+F78w0UQqcTRjfhLUjiv/+Ow=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/WUgEBBqvXaDapTpOh4Xo8"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/fonts/Euclid/EuclidCircularB-Medium.ttf",
-            "type": "font",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "origin": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg",
-                "if-none-match": "\"22x+BPhFJooAnbWq29O/q8fWiA0=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/WUgEBBqvXaDapTpOh4Xo8/confirm-permissions"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:10:03.594Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"001eae5bd293424bb378aba88ef8806d\",\"init\":false,\"started\":\"2022-12-30T21:09:57.664Z\",\"timestamp\":\"2022-12-30T21:10:03.594Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#connect/WUgEBBqvXaDapTpOh4Xo8/confirm-permissions"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:10:03.596Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"fb725cc3117f43929d0acfcfa15bd619\",\"init\":true,\"started\":\"2022-12-30T21:10:03.594Z\",\"timestamp\":\"2022-12-30T21:10:03.594Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/id/QmUwSshC9vaEVpkV5k1AMJkbyxk4fRuWop77zG2uXNwdZP",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://www.akropolis.io",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [],
-            "url": "https://api.thegraph.com/subgraphs/id/Qmc4Lsej4KknmwYJMwhFGnkRBfhrY9ZjXxqBvtDjxE1BbP",
-            "type": "other",
-            "method": "OPTIONS",
-            "headers": {
-                "accept": "*/*",
-                "access-control-request-headers": "content-type",
-                "access-control-request-method": "POST",
-                "origin": "https://www.akropolis.io",
-                "sec-fetch-mode": "cors",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://akropolisio.github.io/delphi-compensation-merkle-proofs/mainnet/2021-06-10/merkleIndexes.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/id/QmUwSshC9vaEVpkV5k1AMJkbyxk4fRuWop77zG2uXNwdZP",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "*/*",
-                "content-type": "application/json",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            },
-            "postData": "{\"operationName\":\"BasisVaults\",\"variables\":{},\"query\":\"query BasisVaults {\\n  basisVaults(first: 1000, where: {isActive: true}) {\\n    id\\n    lpToken {\\n      id\\n      name\\n      symbol\\n      decimals\\n      __typename\\n    }\\n    depositToken {\\n      id\\n      symbol\\n      decimals\\n      __typename\\n    }\\n    createdAt\\n    createdBlock\\n    __typename\\n  }\\n}\"}"
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://api.thegraph.com/subgraphs/id/Qmc4Lsej4KknmwYJMwhFGnkRBfhrY9ZjXxqBvtDjxE1BbP",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "accept": "*/*",
-                "content-type": "application/json",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            },
-            "postData": "{\"operationName\":\"BasisVaults\",\"variables\":{},\"query\":\"query BasisVaults {\\n  basisVaults(first: 1000, where: {isActive: true}) {\\n    id\\n    lpToken {\\n      id\\n      name\\n      symbol\\n      decimals\\n      __typename\\n    }\\n    depositToken {\\n      id\\n      symbol\\n      decimals\\n      __typename\\n    }\\n    createdAt\\n    createdBlock\\n    __typename\\n  }\\n}\"}"
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://akropolisio.github.io/rewards-claiming-merkle-proofs/mainnet/akroLastProofsDate.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://www.akropolis.io/_next/static/media/yearn-vaults.ec543115.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/app/home",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://www.akropolis.io/app/home"
-            ],
-            "url": "https://akropolisio.github.io/rewards-claiming-merkle-proofs/mainnet/2022-12-28/akro/merkleIndexes.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://www.akropolis.io/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:10:04.832Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"fb725cc3117f43929d0acfcfa15bd619\",\"init\":false,\"started\":\"2022-12-30T21:10:03.594Z\",\"timestamp\":\"2022-12-30T21:10:04.832Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:10:04.833Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ad1f8608ee744fb4aca0256a040b5e5f\",\"init\":true,\"started\":\"2022-12-30T21:10:04.832Z\",\"timestamp\":\"2022-12-30T21:10:04.832Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/eth_logo.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"9njlOUbouQwHcDhYtX7M8zRCV8o=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#confirmation"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:10:04.858Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ad1f8608ee744fb4aca0256a040b5e5f\",\"init\":false,\"started\":\"2022-12-30T21:10:04.832Z\",\"timestamp\":\"2022-12-30T21:10:04.858Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#confirmation"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:10:04.865Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"58494ddf6afd47cdac6e45f55367cf66\",\"init\":true,\"started\":\"2022-12-30T21:10:04.858Z\",\"timestamp\":\"2022-12-30T21:10:04.858Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#confirmation"
-            ],
-            "url": "https://chainid.network/chains.json",
-            "type": "fetch",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "application/json"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:10:05.090Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"5844ea9d5cb447b9bb0efe7a2d375e72\",\"init\":false,\"started\":\"2022-12-30T21:09:54.858Z\",\"timestamp\":\"2022-12-30T21:10:05.090Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:10:05.092Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"76e9e05337ba4cf49de3c8d88b663603\",\"init\":true,\"started\":\"2022-12-30T21:10:05.090Z\",\"timestamp\":\"2022-12-30T21:10:05.090Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#"
-            ],
-            "url": "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/images/eth_logo.svg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "referer": "",
-                "if-none-match": "\"9njlOUbouQwHcDhYtX7M8zRCV8o=\"",
-                "if-modified-since": "Thu, 08 Dec 2022 18:40:58 GMT",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-            }
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#confirmation"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:10:05.111Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"76e9e05337ba4cf49de3c8d88b663603\",\"init\":false,\"started\":\"2022-12-30T21:10:05.090Z\",\"timestamp\":\"2022-12-30T21:10:05.111Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
-        },
-        {
-            "requestContext": [
-                "chrome-extension://ideknfmpapgmgohlgpglnlelhkfaelfg/notification.html#confirmation"
-            ],
-            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain;charset=UTF-8"
-            },
-            "postData": "{\"sent_at\":\"2022-12-30T21:10:05.113Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"960a6615c7c744459c447a64577ce477\",\"init\":true,\"started\":\"2022-12-30T21:10:05.111Z\",\"timestamp\":\"2022-12-30T21:10:05.111Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}"
         }
     ],
     "success": true

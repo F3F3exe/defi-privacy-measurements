@@ -1,0 +1,125 @@
+{
+    "url": "https://consent.youtube.com/ml",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 15,
+        "url": "https://consent.youtube.com/ml",
+        "metamaskPath": "metamask-chrome-10.22.2",
+        "destination": "test_crawls",
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1672935278668,
+        "end": 1672935302315
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "url": "https://consent.youtube.com/ml",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://consent.youtube.com/ml"
+            ],
+            "url": "https://consent.youtube.com/_/ConsentHttp/cspreport",
+            "type": "other",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-arch": "\"x86\"",
+                "sec-ch-ua-full-version": "\"108.0.0.0\"",
+                "content-type": "application/csp-report",
+                "sec-ch-ua-platform-version": "\"10.0\"",
+                "referer": "https://consent.youtube.com/ml",
+                "sec-ch-ua-full-version-list": "\"Not?A_Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"108.0.5351.0\"",
+                "sec-ch-ua-bitness": "\"64\"",
+                "sec-ch-ua-model": "",
+                "sec-ch-ua-wow64": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"csp-report\":{\"document-uri\":\"https://consent.youtube.com/ml\",\"referrer\":\"\",\"violated-directive\":\"require-trusted-types-for\",\"effective-directive\":\"require-trusted-types-for\",\"original-policy\":\"require-trusted-types-for 'script';report-uri /_/ConsentHttp/cspreport\",\"disposition\":\"enforce\",\"blocked-uri\":\"trusted-types-sink\",\"line-number\":4,\"column-number\":70,\"status-code\":400,\"script-sample\":\"eval|() =\\u003E {\\n  utils.preloadCache()\\n}\"}}"
+        },
+        {
+            "requestContext": [
+                "https://consent.youtube.com/ml"
+            ],
+            "url": "https://www.google.com/images/errors/robot.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-arch": "\"x86\"",
+                "sec-ch-ua-full-version": "\"108.0.0.0\"",
+                "sec-ch-ua-platform-version": "\"10.0\"",
+                "referer": "https://consent.youtube.com/",
+                "sec-ch-ua-full-version-list": "\"Not?A_Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"108.0.5351.0\"",
+                "sec-ch-ua-bitness": "\"64\"",
+                "sec-ch-ua-model": "",
+                "sec-ch-ua-wow64": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://consent.youtube.com/ml"
+            ],
+            "url": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-arch": "\"x86\"",
+                "sec-ch-ua-full-version": "\"108.0.0.0\"",
+                "sec-ch-ua-platform-version": "\"10.0\"",
+                "referer": "https://consent.youtube.com/",
+                "sec-ch-ua-full-version-list": "\"Not?A_Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"108.0.5351.0\"",
+                "sec-ch-ua-bitness": "\"64\"",
+                "sec-ch-ua-model": "",
+                "sec-ch-ua-wow64": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://consent.youtube.com/ml"
+            ],
+            "url": "https://consent.youtube.com/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-arch": "\"x86\"",
+                "sec-ch-ua-full-version": "\"108.0.0.0\"",
+                "sec-ch-ua-platform-version": "\"10.0\"",
+                "referer": "https://consent.youtube.com/ml",
+                "sec-ch-ua-full-version-list": "\"Not?A_Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"108.0.5351.0\"",
+                "sec-ch-ua-bitness": "\"64\"",
+                "sec-ch-ua-model": "",
+                "sec-ch-ua-wow64": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        }
+    ],
+    "success": true
+}

@@ -1,0 +1,44 @@
+{
+    "url": "http://ww25.50shades.ethercolors.co/",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 15,
+        "url": "http://ww25.50shades.ethercolors.co/",
+        "metamaskPath": "metamask-chrome-10.22.2",
+        "destination": "test_crawls",
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1672933454286,
+        "end": 1672933478662
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "url": "http://ww25.50shades.ethercolors.co/",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "http://ww25.50shades.ethercolors.co/"
+            ],
+            "url": "http://ww25.50shades.ethercolors.co/favicon.ico",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "referer": "http://ww25.50shades.ethercolors.co/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        }
+    ],
+    "success": true
+}

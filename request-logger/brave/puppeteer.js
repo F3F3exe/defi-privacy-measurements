@@ -15,10 +15,10 @@ const launch = async args => {
   puppeteerArgs.args.push(`--allow-popups-during-upload`)
 
 
-  if (args.metamaskPath) {
+ /* if (args.metamaskPath) {
     puppeteerArgs.args.push(`--disable-extensions-except=${args.metamaskPath}`)
     puppeteerArgs.args.push(`--load-extension=${args.metamaskPath}`)
-  }
+  }*/
 
   if (args.profilePath) {
     puppeteerArgs.args.push(`--user-data-dir=${args.profilePath}`)

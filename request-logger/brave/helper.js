@@ -112,6 +112,7 @@ async function importWallet(mm_login) {
 
     
     let poss_wallet_buttons = []
+    'Login wallet', "Sign in" , "sign in with metamask"
 
     let html = await page.content();
     let wallet_strings = [ "Connect Wallet", "Connect wallet", "connect wallet", "Connect to a wallet",  "Connect to wallet", "Connect your wallet", "Sign In", "Connect", "CONNECT WALLET", "CONNECT", "SIGN IN", "WALLET", "SIGN", "sign", "SIGNIN", "Sign Up", "Connect Your Wallet", "Wallet", "Connect a Wallet", "Connect a wallet", "Sign in", "sign in", "connect", "Log in via web3 wallet", "wallet", "account", "Sign Up", "sign up", "Sign", "Play"]

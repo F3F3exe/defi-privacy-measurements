@@ -4,7 +4,7 @@ const bravePuppeteerLib = require('./puppeteer.js')
 const fs = require('fs');
 const { resolve } = require('path');
 
-
+let first_round = true;
 let wallet = "";
 let mm = "";
 const waitForNavigation = async (page, maxWaitTimeInMillisecs) => {
@@ -69,7 +69,7 @@ async function importWallet(mm_login) {
     let poss_wallet_buttons = []
 
     let html = await page.content();
-    let wallet_strings = [ "Connect Wallet", "Connect wallet", "connect wallet", "Connect to a wallet",  "Connect to wallet", "Connect your wallet", "Sign In", "Connect", "CONNECT WALLET", "CONNECT", "SIGN IN", "WALLET", "SIGN", "sign", "SIGNIN", "Sign Up", "Connect Your Wallet", "Wallet", "Connect a Wallet", "Connect a wallet", "Sign in", "sign in", "connect", "Log in via web3 wallet", "wallet", "account"]
+    let wallet_strings = [ "Connect Wallet", "Connect wallet", "connect wallet", "Connect to a wallet",  "Connect to wallet", "Connect your wallet", "Sign In", "Connect", "CONNECT WALLET", "CONNECT", "SIGN IN", "WALLET", "SIGN", "sign", "SIGNIN", "Sign Up", "Connect Your Wallet", "Wallet", "Connect a Wallet", "Connect a wallet", "Sign in", "sign in", "Sign up", "Sign Up","Sign","SIGN IN","connect", "Log in via web3 wallet", "wallet", "account", "Account", "Add wallet"]
 
     //search for possible wallet buttons in the html
     for (const x of wallet_strings){
@@ -78,7 +78,17 @@ async function importWallet(mm_login) {
 
       }
     }
+
     
+    /*const wallet_button = await page.waitForXPath(`/html/body/app-root/div/div[1]/div/app-landing-page/div/div[1]/div/div`, {timeout: 500});
+
+          const rect = await page.evaluate(el => {
+            const {x,y} = el.getBoundingClientRect();
+            return {x,y};
+    
+        }, wallet_button);
+   console.log(`top right: x: ${rect.x}, y: ${rect.y}`);*/
+
   let connected = false;
   console.log(poss_wallet_buttons);
   //try to click one of the possible wallet buttons
@@ -160,7 +170,7 @@ async function importWallet(mm_login) {
     let poss_mm_buttons = [];
 
     //first we check for 'metamask connect' strings in the html
-    let metamask_strings = ["MetaMask", "metamask",  "Connect Metamask","Connect MetaMask","Metamask", "Connect to MetaMask", "browser wallet", "Browser Wallet", "Browser wallet", "Metamask & Web3", "Metamask\n& Web3", "Metamask \n& Web3"];
+    let metamask_strings = ["MetaMask", "metamask", "METAMASK", "Connect Metamask","Connect MetaMask","Metamask", "Connect to MetaMask", "browser wallet", "Browser Wallet", "Browser wallet", "Metamask & Web3", "Metamask\n& Web3", "Metamask \n& Web3", "CONNECT VIA METAMASK"];
     for (const x of metamask_strings){
       if(html_mm.includes(x)){
         logger.debug(`mm: ${x}`);
@@ -172,7 +182,7 @@ async function importWallet(mm_login) {
 
     console.log(poss_mm_buttons);
     //we also check for other strings that are related to connecting to mm in case we require some extra steps
-    let other_strings = ["Connect", "Select", "Connect Wallet", "CONNECT WALLET", "Get started", "Web3" ];
+    let other_strings = ["Connect", "Select", "Connect Wallet", "CONNECT WALLET", "Get started", "Web3", "Select a wallet", "Connect wallet extension", "Connect with your wallet" ];
     for (const x of other_strings){
       if(html_mm.includes(x)){
         poss_other_buttons.push(x);
@@ -303,11 +313,17 @@ async function importWallet(mm_login) {
     //semi-good workaround for the non-visible mm buttons
     if(pages.length <= 3){
       try {
+        console.log('try coordinate click');
         //TODO: this probably only works for my screen, need to adjust it based on screen size
-        await page.mouse.click(600, 300);
+        await page.mouse.click(580, 290);
+        console.log('a');
         const mm_button = await page.waitForXPath(`//*[text()="${wallet}"]`, {timeout: 200});
+        console.log('a');
+
         await page.evaluate($submit => $submit.click(), mm_button);
-        await page.mouse.click(600, 300);
+        console.log('a');
+
+        await page.mouse.click(580, 290);
       } catch {
         logger.debug('failed coordinate click ');
       }
@@ -352,10 +368,11 @@ async function importWallet(mm_login) {
         if(found_mm_button) break;
         try {
 
-        const mm_button = await page.waitForXPath(`//*[normalize-space(text())="${metamask_button_string}"]`, {timeout: 200});
-
+        //const mm_button = await page.waitForXPath(`//*[normalize-space(text())="${metamask_button_string}"]`, {timeout: 200});
+        let mm_button = await page.$x(`//button[contains(text(), ${metamask_button_string})]`);     
+        await mm_button[0].click();
       
-      await page.evaluate($submit => $submit.click(), mm_button);
+      //await page.evaluate($submit => $submit.click(), mm_button);
 
       found_mm_button = true
         logger.debug(`found mm button: ${metamask_button_string}`);
@@ -366,6 +383,27 @@ async function importWallet(mm_login) {
       }
       
     }
+
+    pages = await browser.pages();
+    //most metamask popups are opened as a new page
+    if(pages.length > 3){
+      popup = pages[pages.length - 1];
+    } else if(first_round == true) { 
+      first_round = false;
+      //try to click "top right"
+      //x:1208, y:25
+      try {
+        //TODO: this probably only works for my screen, need to adjust it based on screen size
+        await page.mouse.click(1210, 25);
+        await connectWallet(page, logger, browser, args);
+      } catch {
+        logger.debug('failed coordinate click ');
+      }
+
+    }
+
+
+
     pages = await browser.pages();
     //most metamask popups are opened as a new page
     if(pages.length > 3){

@@ -69,7 +69,7 @@ async function importWallet(mm_login) {
     let poss_wallet_buttons = []
 
     let html = await page.content();
-    let wallet_strings = [ "Connect Wallet", "Connect wallet", "connect wallet", "Connect to a wallet",  "Connect to wallet", "Connect your wallet", "Sign In", "Connect", "CONNECT WALLET", "CONNECT", "SIGN IN", "WALLET", "SIGN", "sign", "SIGNIN", "Sign Up", "Connect Your Wallet", "Wallet", "Connect a Wallet", "Connect a wallet", "Sign in", "sign in", "Sign up", "Sign Up","Sign","SIGN IN","connect", "Log in via web3 wallet", "wallet", "account", "Account", "Add wallet"]
+    let wallet_strings = [ "Connect Wallet", "Connect wallet", "Connect Wallets", "connect wallet", "Connect to a wallet", "Connect to a Wallet", "Connect to wallet", "Connect your wallet", "Sign In", "Connect", "CONNECT WALLET", "CONNECT", "SIGN IN", "WALLET", "SIGN", "sign", "SIGNIN", "Sign Up", "Connect Your Wallet", "Wallet", "Connect a Wallet", "Connect a wallet", "Sign in", "sign in", "Sign up", "Sign Up","Sign","SIGN IN","connect", "Log in via web3 wallet", "wallet", "account", "Account", "Add wallet"]
 
     //search for possible wallet buttons in the html
     for (const x of wallet_strings){
@@ -110,7 +110,7 @@ async function importWallet(mm_login) {
             return {x,y};
     
         }, wallet_button);
-        await page.mouse.click(rect.x+3, rect.y+3);
+        await page.mouse.click(rect.x, rect.y);
         wallet = wallet_button_string;
         break;
       } catch (error) {
@@ -136,8 +136,7 @@ async function importWallet(mm_login) {
     }
     }
     
-    
-    
+   
     
     let checkbox_clicked = false;
     let d = new Date();
@@ -168,9 +167,9 @@ async function importWallet(mm_login) {
     let html_mm = await page.content();
     let poss_other_buttons = [];
     let poss_mm_buttons = [];
-
+//Use MetaMask Wallet
     //first we check for 'metamask connect' strings in the html
-    let metamask_strings = ["MetaMask", "metamask", "METAMASK", "Connect Metamask","Connect MetaMask","Metamask", "Connect to MetaMask", "browser wallet", "Browser Wallet", "Browser wallet", "Metamask & Web3", "Metamask\n& Web3", "Metamask \n& Web3", "CONNECT VIA METAMASK"];
+    let metamask_strings = ["Metamask","MetaMask", "metamask", "METAMASK", "Connect Metamask","Connect MetaMask","Metamask", "Connect to MetaMask", "browser wallet", "Browser Wallet", "Browser wallet", "Metamask & Web3", "Metamask\n& Web3", "Metamask \n& Web3", "CONNECT VIA METAMASK", "Injected wallets", "Injected wallet", "Use MetaMask Wallet"];
     for (const x of metamask_strings){
       if(html_mm.includes(x)){
         logger.debug(`mm: ${x}`);
@@ -182,7 +181,7 @@ async function importWallet(mm_login) {
 
     console.log(poss_mm_buttons);
     //we also check for other strings that are related to connecting to mm in case we require some extra steps
-    let other_strings = ["Connect", "Select", "Connect Wallet", "CONNECT WALLET", "Get started", "Web3", "Select a wallet", "Connect wallet extension", "Connect with your wallet" ];
+    let other_strings = ["Connect", "Select", "CONNECT","Connect Wallet", "connect wallet", "Connect wallet", "CONNECT WALLET", "Get started", "Web3", "Select a wallet", "Connect wallet extension", "Connect with your wallet", "GOT IT", "Got it", "Confirm", "Proceed", "Ethereum" ];
     for (const x of other_strings){
       if(html_mm.includes(x)){
         poss_other_buttons.push(x);
@@ -192,28 +191,45 @@ async function importWallet(mm_login) {
     poss_other_buttons = poss_mm_buttons.concat(poss_other_buttons);
     
     console.log(poss_other_buttons);
-    //we check for if we can click any of the mm strings
+    //we check  if we can click any of the mm strings
     for (const mm_button_string of poss_mm_buttons) {
       console.log(`it: ${mm_button_string}`);
       //first we try to find an explicit button with the mm string
       await waitForNavigation(page,400);
 
       try {
-        const mm_button = await page.waitForXPath(`//button[(text())="${mm_button_string}"]`, {timeout: 200});
+        console.log(`button mm click: ${mm_button_string}`);
+        const mm_button = await page.waitForXPath(`//button[(text())="${mm_button_string}"]`, {timeout: 400});
         //await page.evaluate($submit => $submit.click(), mm_button);
         const rect = await page.evaluate(el => { const {x,y} = el.getBoundingClientRect(); return {x,y}; }, mm_button);
+        await page.evaluate($submit => $submit.click(), mm_button);
 
-          await page.mouse.click(rect.x+1, rect.y+1);
+          await page.mouse.click(rect.x, rect.y);
+          
+          console.log(`top right: x: ${rect.x}, y: ${rect.y}`);
           //mm = mm_button_string;
         mm = mm_button_string;
       } catch (error) {
        try {
+        console.log(`mm 2: ${mm_button_string}`);
         //otherwise we try to find any other element with the mm string
-        const mm_button = await page.waitForXPath(`//*[(text())="${mm_button_string}"]`, {timeout: 200});
         //await page.evaluate($submit => $submit.click(), mm_button);
-        const rect = await page.evaluate(el => { const {x,y} = el.getBoundingClientRect(); return {x,y}; }, mm_button);
+        const mm_button = await page.waitForXPath(`//*[(text())="${mm_button_string}"]`, {timeout: 500});
 
-          await page.mouse.click(rect.x+1, rect.y+1);
+          const rect = await page.evaluate(el => {
+            const {x,y} = el.getBoundingClientRect();
+            return {x,y};
+    
+        }, mm_button);
+
+        if(rect.x == '0.0' && rect.y == '0.0'){
+          console.log(`rect is zero`);
+
+        }
+        await page.evaluate($submit => $submit.click(), mm_button);
+
+          await page.mouse.click(rect.x, rect.y);
+          console.log(`top right: x: ${rect.x}, y: ${rect.y}`);
           //mm = mm_button_string;
         mm = mm_button_string;
        }/* catch (error){
@@ -226,8 +242,18 @@ async function importWallet(mm_login) {
           await page.mouse.click(rect.x+1, rect.y+1);
           mm = mm_button_string;
       } */ catch (error) {
-          //else try the next mm string we found
-          logger.debug(`try next mm button: ${error}`)
+        try {
+          console.log(`with contains: ${mm_button_string}`);
+          let mm_button = await page.$x(`//*[contains(text(), ${mm_button_string})]`);     
+          await mm_button[0].click();
+          console.log(`wallet clicked: ${mm_button_string}`);
+          
+        } catch (error) {
+           //else try the next mm string we found
+           logger.debug(`try next mm button: ${error}`)
+        }
+      
+         
     
         
       }
@@ -242,17 +268,20 @@ async function importWallet(mm_login) {
     //since we might click some other unrelated checkbox
     //we only click this box once, otherwise we would unclick it for the loop iteration
     try {
-      let new_checkbox = await page.waitForXPath('//input[@type="checkbox"]', {timeout: 500});
+      //let mm_button = await page.$x(`//button[contains(text(), ${wallet})]`);     
+
+      let new_checkbox = await page.$x('//input[@type="checkbox"]', {timeout: 500});
       if (checkbox_clicked == true) {
         const rect = await page.evaluate(el => {
           const {x,y} = el.getBoundingClientRect();
-          return {x,y};     }, new_checkbox);
+          return {x,y};     }, new_checkbox[0]);
 
-        await page.mouse.click(rect.x+1, rect.y+1);
+        await page.mouse.click(rect.x, rect.y);
       }
       if (checkbox_clicked == false) {
-        
-      await page.evaluate($submit => $submit.click(), new_checkbox);
+        for(let box of new_checkbox){
+          await page.evaluate($submit => $submit.click(), box);
+        }
       checkbox_clicked = true;
       }
       
@@ -275,7 +304,7 @@ async function importWallet(mm_login) {
               const {x,y} = el.getBoundingClientRect();
               return {x,y};     }, mm_button);
     
-            await page.mouse.click(rect.x+1, rect.y+1);
+            await page.mouse.click(rect.x, rect.y);
           } else 
           await page.evaluate($submit => $submit.click(), mm_button);
           
@@ -290,7 +319,7 @@ async function importWallet(mm_login) {
             const {x,y} = el.getBoundingClientRect();
             return {x,y};     }, mm_button);
   
-          await page.mouse.click(rect.x+1, rect.y+1);
+          await page.mouse.click(rect.x, rect.y);
         } else 
        await page.evaluate($submit => $submit.click(), mm_button);
        
@@ -448,7 +477,15 @@ async function importWallet(mm_login) {
           const Sign_button = await popup.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[3]/button[2]');
         await popup.evaluate($submit => $submit.click(), Sign_button);
         console.log('signed');
-          } catch (error) {}
+          } catch (error) {
+            let popup = pages[pages.length - 1];
+            const approve_button = await popup.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[2]/div[4]/button[2]');
+            await popup.evaluate($submit => $submit.click(), approve_button);
+            
+            const switch_network_button = await popup.waitForXPath('//*[@id="app-content"]/div/div[2]/div/div[2]/div[2]/button[2]');
+            await popup.evaluate($submit => $submit.click(), switch_network_button);
+            console.log('approved');
+          }
         }
 
     }

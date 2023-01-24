@@ -4,15 +4,15 @@
         "printFrameHierarchy": true,
         "debugLevel": "verbose",
         "headless": false,
-        "secs": 25,
+        "secs": 15,
         "url": "https://decentraland.org/",
         "metamaskPath": "metamask-chrome-10.22.2",
         "destination": "test_crawls",
         "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
     },
     "timestamps": {
-        "start": 1672923328366,
-        "end": 1672923354939
+        "start": 1674594953473,
+        "end": 1674594985617
     },
     "requests": [
         {
@@ -379,21 +379,6 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://cdn.segment.com/v1/projects/f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG/settings",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
             "url": "https://decentraland.org/page-data/app-data.json",
             "type": "xhr",
             "method": "GET",
@@ -411,51 +396,6 @@
             ],
             "url": "https://decentraland.org/page-data/index/page-data.json",
             "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://cdn.segment.com/analytics-next/bundles/ajs-destination.bundle.1466bb14223e695495e6.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://cdn.segment.com/analytics-next/bundles/schemaFilter.bundle.debb169c1abb431faaa6.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://cdn.segment.com/next-integrations/integrations/facebook-pixel/2.11.5/facebook-pixel.dynamic.js.gz",
-            "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
@@ -559,85 +499,68 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
+            "url": "https://cdn.segment.com/v1/projects/f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG/settings",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://decentraland.org/"
+            ],
+            "url": "https://cdn.segment.com/analytics-next/bundles/ajs-destination.bundle.1466bb14223e695495e6.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://decentraland.org/"
+            ],
+            "url": "https://cdn.segment.com/analytics-next/bundles/schemaFilter.bundle.debb169c1abb431faaa6.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://decentraland.org/"
+            ],
+            "url": "https://cdn.segment.com/next-integrations/integrations/facebook-pixel/2.11.5/facebook-pixel.dynamic.js.gz",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://decentraland.org/"
+            ],
             "url": "https://cdn.segment.com/next-integrations/integrations/vendor/commons.c42222c4cb2f8913500f.js.gz",
             "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://connect.facebook.net/en_US/fbevents.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://api.segment.io/v1/p",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain"
-            },
-            "postData": "{\"timestamp\":\"2023-01-05T12:55:38.891Z\",\"integrations\":{},\"anonymousId\":\"4d2c6901-27b2-4570-a053-5fe7bf784a21\",\"type\":\"page\",\"properties\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-a0bcf883aeca625ba1cea1f0f5c61413\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-05T12:55:38.909Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://connect.facebook.net/signals/config/2206051452791400?v=2.9.90&r=stable",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=PageView&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923340178&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=0&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-a0bcf883aeca625ba1cea1f0f5c61413&rqm=GET",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Microdata&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923340713&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22Welcome%20to%20Decentraland%22%2C%22meta%3Adescription%22%3A%22Explore%20the%20first%20decentralized%20metaverse%20that%20is%20built%2C%20governed%2C%20and%20owned%20by%20its%20users.%20Discover%20different%20districts%2C%20meet%20people%2C%20party%20at%20events%2C%20and%20more!%22%7D&cd[OpenGraph]=%7B%22og%3Atitle%22%3A%22Welcome%20to%20Decentraland%22%2C%22og%3Adescription%22%3A%22Explore%20the%20first%20decentralized%20metaverse%20that%20is%20built%2C%20governed%2C%20and%20owned%20by%20its%20users.%20Discover%20different%20districts%2C%20meet%20people%2C%20party%20at%20events%2C%20and%20more!%22%2C%22og%3Aimage%22%3A%22%2Fstatic%2Fscenes4-8b249f635fd135f449ea526930d984ce.jpg%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=1&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&es=automatic&tm=3&rqm=GET",
-            "type": "image",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
@@ -825,72 +748,8 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Share%20Fallback&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923345026&cd[mobile]=false&cd[wallet]=none&cd[social]=facebook&cd[featureFlags]=%5B%5D&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=2&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-508ec1ad45b42a0477ac410f314ce82e&tm=2&rqm=GET",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://api.segment.io/v1/t",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain"
-            },
-            "postData": "{\"timestamp\":\"2023-01-05T12:55:41.731Z\",\"integrations\":{},\"anonymousId\":\"4d2c6901-27b2-4570-a053-5fe7bf784a21\",\"event\":\"Share Fallback\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"data\":null,\"social\":\"facebook\",\"ethAddress\":null,\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-508ec1ad45b42a0477ac410f314ce82e\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-05T12:55:45.037Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Share%20Fallback&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923345046&cd[mobile]=false&cd[wallet]=none&cd[social]=twitter&cd[featureFlags]=%5B%5D&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=3&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-ffa0948a89f59f95ff3aba534ff3d42c&tm=2&rqm=GET",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://api.segment.io/v1/t",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain"
-            },
-            "postData": "{\"timestamp\":\"2023-01-05T12:55:41.754Z\",\"integrations\":{},\"anonymousId\":\"4d2c6901-27b2-4570-a053-5fe7bf784a21\",\"event\":\"Share Fallback\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"data\":null,\"social\":\"twitter\",\"ethAddress\":null,\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-ffa0948a89f59f95ff3aba534ff3d42c\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-05T12:55:45.059Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=PageView&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923345069&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=4&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-09602f3d404f98e8bbb874ac5cd8033a&rqm=GET",
-            "type": "image",
+            "url": "https://connect.facebook.net/en_US/fbevents.js",
+            "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
@@ -915,22 +774,24 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain"
             },
-            "postData": "{\"timestamp\":\"2023-01-05T12:55:41.794Z\",\"integrations\":{},\"anonymousId\":\"4d2c6901-27b2-4570-a053-5fe7bf784a21\",\"type\":\"page\",\"properties\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-09602f3d404f98e8bbb874ac5cd8033a\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-05T12:55:45.082Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:14.562Z\",\"integrations\":{},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"type\":\"page\",\"properties\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-1e639a41cfb9ed95a248f9bb3d3f3da1\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:17.661Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
         },
         {
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Share%20Fallback&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923345597&cd[mobile]=false&cd[wallet]=none&cd[social]=facebook&cd[featureFlags]=%5B%5D&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=5&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-1f83cc63ca084787d04f5f85e7074e30&tm=2&rqm=GET",
-            "type": "image",
-            "method": "GET",
+            "url": "https://api.segment.io/v1/p",
+            "type": "fetch",
+            "method": "POST",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
                 "referer": "https://decentraland.org/",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:14.585Z\",\"integrations\":{},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"type\":\"page\",\"properties\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-04df61a8f44493acfbf3a14541e69f50\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:18.945Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
         },
         {
             "requestContext": [
@@ -947,22 +808,7 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain"
             },
-            "postData": "{\"timestamp\":\"2023-01-05T12:55:43.358Z\",\"integrations\":{},\"anonymousId\":\"4d2c6901-27b2-4570-a053-5fe7bf784a21\",\"event\":\"Share Fallback\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"data\":null,\"social\":\"facebook\",\"ethAddress\":null,\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-1f83cc63ca084787d04f5f85e7074e30\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-05T12:55:45.614Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Share%20Fallback&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923345619&cd[mobile]=false&cd[wallet]=none&cd[social]=twitter&cd[featureFlags]=%5B%5D&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=6&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-1ed5ff1c83263f290657e736135a1884&tm=2&rqm=GET",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:14.602Z\",\"integrations\":{},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"Share Fallback\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"data\":null,\"social\":\"facebook\",\"ethAddress\":null,\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-86d34fd5aac6b3f32c3838ce76e4e922\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:18.966Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
         },
         {
             "requestContext": [
@@ -979,13 +825,242 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain"
             },
-            "postData": "{\"timestamp\":\"2023-01-05T12:55:43.418Z\",\"integrations\":{},\"anonymousId\":\"4d2c6901-27b2-4570-a053-5fe7bf784a21\",\"event\":\"Share Fallback\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"data\":null,\"social\":\"twitter\",\"ethAddress\":null,\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-1ed5ff1c83263f290657e736135a1884\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-05T12:55:45.625Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:15.710Z\",\"integrations\":{},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"Explore on web\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"event\":\"Explore on web\",\"place\":\"hero\",\"location\":\"https://decentraland.org/\",\"text\":\"OPEN IN BROWSER\",\"rel\":\"noopener noreferrer\",\"target\":\"_blank\",\"href\":\"https://play.decentraland.org\"},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-00414b917abfcbbd335601278c002903\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:19.006Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
         },
         {
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://events.decentraland.org/poster/fce7f465639652b2.jpg",
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:17.533Z\",\"integrations\":{},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"Share Fallback\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"data\":null,\"social\":\"twitter\",\"ethAddress\":null,\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-d86952cadacde6fe7f22afae5f1d243e\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:19.048Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
+        },
+        {
+            "requestContext": [
+                "https://decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:17.549Z\",\"integrations\":{},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"Share Fallback\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"data\":null,\"social\":\"facebook\",\"ethAddress\":null,\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-5ac4e615e59bf59d273b3bd01e6c8e21\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:19.081Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
+        },
+        {
+            "requestContext": [
+                "https://decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:17.564Z\",\"integrations\":{},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"Share Fallback\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"data\":null,\"social\":\"twitter\",\"ethAddress\":null,\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-03123d8a460360d8df95c1c4ed67de35\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:19.100Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.segment.com/analytics.js/v1/1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU/analytics.min.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "",
+                "https://play.decentraland.org/"
+            ],
+            "url": "dcl://",
+            "type": "document",
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://feature-flags.decentraland.org/explorer.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/media/logo-white.9dea1762.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/media/wallet-img.e224d7ea.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/media/guest.6eb48000.jpg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzYnIGhlaWdodD0nMzYnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGRlZnM+PGxpbmVhckdyYWRpZW50IHgxPSc4NS4zNTUlJyB5MT0nMTQuNjQ1JScgeDI9JzE0LjY0NSUnIHkyPSc4NS4zNTUlJyBpZD0nYSc+PHN0b3Agc3RvcC1jb2xvcj0nI0ZGMkQ1NScgb2Zmc2V0PScwJScvPjxzdG9wIHN0b3AtY29sb3I9JyNGRkJDNUInIG9mZnNldD0nMTAwJScvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IHgxPSc0OS45NjYlJyB5MT0nMCUnIHgyPSc0OS45NjYlJyB5Mj0nMTAwJScgaWQ9J2InPjxzdG9wIHN0b3AtY29sb3I9JyNBNTI0QjMnIG9mZnNldD0nMCUnLz48c3RvcCBzdG9wLWNvbG9yPScjRkYyRDU1JyBvZmZzZXQ9JzEwMCUnLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCB4MT0nNDkuOTY2JScgeTE9JzAlJyB4Mj0nNDkuOTY2JScgeTI9JzEwMCUnIGlkPSdjJz48c3RvcCBzdG9wLWNvbG9yPScjQTUyNEIzJyBvZmZzZXQ9JzAlJy8+PHN0b3Agc3RvcC1jb2xvcj0nI0ZGMkQ1NScgb2Zmc2V0PScxMDAlJy8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PGcgZmlsbD0nbm9uZScgZmlsbC1ydWxlPSdldmVub2RkJz48Y2lyY2xlIGZpbGw9J3VybCgjYSknIGN4PScxOCcgY3k9JzE4JyByPScxOCcvPjxwYXRoIGZpbGw9J3VybCgjYiknIGQ9J00xMS4zMTMgMHYxMy41aDExLjI1eicgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMS40NCAxMS43KScvPjxwYXRoIGZpbGw9JyNGRkYnIGQ9J00xLjUwMyAyNS4yaDExLjI1VjExLjd6Jy8+PHBhdGggZD0nTTcuMiAzMi40QTE3LjkyNSAxNy45MjUgMCAwMDE4IDM2YzQuMDUgMCA3Ljc5NC0xLjM0MSAxMC44LTMuNkg3LjJ6JyBmaWxsPScjRkYyRDU1Jy8+PHBhdGggZD0nTTMuNiAyOC44YTE4LjQzNSAxOC40MzUgMCAwMDMuNiAzLjZoMjEuNmExOC40MzUgMTguNDM1IDAgMDAzLjYtMy42SDMuNnonIGZpbGw9JyNGQzk5NjUnLz48cGF0aCBkPSdNMjQuMTQ3IDI1LjJIMS41MDNBMTcuOTIzIDE3LjkyMyAwIDAwMy42IDI4LjhoMjAuNTU2di0zLjZoLS4wMDl6JyBmaWxsPScjRkZCQzVCJy8+PHBhdGggZmlsbD0ndXJsKCNjKScgZD0nTTguMzA3IDB2OS45aDguMjUzeicgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTUuODQgMTguOSknLz48cGF0aCBmaWxsPScjRkZGJyBkPSdNMTUuOTAzIDI4LjhoOC4yNDR2LTkuOXonLz48Y2lyY2xlIGZpbGw9JyNGRkM5NUInIGN4PScyNC4xNDcnIGN5PScxMS43JyByPSc0LjUnLz48Y2lyY2xlIGZpbGw9JyNGRkM5NUInIGN4PScxMi43NTMnIGN5PSc2Ljc1JyByPScyLjI1Jy8+PC9nPjwvc3ZnPg==",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/media/background-v3@1x.f3aaf66f.jpg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/css/main.82161b86.chunk.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/media/warning.c3a263c1.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/css/main.82161b86.chunk.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/media/pattern.3ad271a1.svg",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/css/main.82161b86.chunk.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wXg.woff2",
+            "type": "font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://play.decentraland.org",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Linux\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/tone4.mp3",
+            "type": "media",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "accept-encoding": "identity;q=1, *;q=0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "range": "bytes=0-",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://decentraland.org/"
+            ],
+            "url": "https://events.decentraland.org/poster/7ade75df63c285fe.jpg",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1000,7 +1075,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://events.decentraland.org/poster/03d2038663923929.png",
+            "url": "https://events.decentraland.org/poster/53e3473b63d02738.jpg",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1015,7 +1090,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://events.decentraland.org/poster/d66f130963ab5f75.jpg",
+            "url": "https://events.decentraland.org/poster/d1eef53663cad15e.png",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1030,7 +1105,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://events.decentraland.org/poster/591f7d7f63b5bc4c.png",
+            "url": "https://events.decentraland.org/poster/14d35b9e63c8a35c.png",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1045,7 +1120,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://events.decentraland.org/poster/03d203866373bb0e.png",
+            "url": "https://events.decentraland.org/poster/583493c563c7bd4b.jpg",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1060,7 +1135,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://events.decentraland.org/poster/cf7695bc63a24fd7.png",
+            "url": "https://events.decentraland.org/poster/23b5317463b64e4f.jpg",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1075,7 +1150,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://events.decentraland.org/poster/4af9cf4363b1dd88.png",
+            "url": "https://events.decentraland.org/poster/3a90c1e463cf0987.png",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1090,7 +1165,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://events.decentraland.org/poster/23ae09df63b33102.png",
+            "url": "https://events.decentraland.org/poster/e659840663c5f848.png",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1117,7 +1192,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=SubscribedButtonClick&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923348523&cd[buttonFeatures]=%7B%22classList%22%3A%22dg%20Link%20Link--pointer%20ui%20tiny%20primary%20button%22%2C%22destination%22%3A%22https%3A%2F%2Fdecentraland.org%2Fdownload%22%2C%22id%22%3A%22%22%2C%22imageUrl%22%3A%22%22%2C%22innerText%22%3A%22START%20EXPLORING%22%2C%22numChildButtons%22%3A0%2C%22tag%22%3A%22a%22%2C%22type%22%3Anull%2C%22name%22%3A%22%22%7D&cd[buttonText]=START%20EXPLORING&cd[formFeatures]=%5B%5D&cd[pageFeatures]=%7B%22title%22%3A%22Welcome%20to%20Decentraland%22%7D&cd[parameters]=%5B%5D&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=7&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&es=automatic&tm=3&rqm=GET",
+            "url": "https://decentraland.org/blog/images/banners/manifiesto-2023.jpg",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1132,37 +1207,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://decentraland.org/page-data/app-data.json",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://decentraland.org/page-data/download/page-data.json",
-            "type": "xhr",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://decentraland.org/blog/images/banners/decentraland-2022-recap.png",
+            "url": "https://decentraland.org/blog/images/banners/DCLFilmFestival.png",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1177,22 +1222,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://decentraland.org/blog/images/banners/dcl-editor.jpg",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://decentraland.org/blog/images/banners/worlds.jpg",
+            "url": "https://decentraland.org/blog/images/banners/Genesis.city_heather.png",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1217,10 +1247,40 @@
         },
         {
             "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://feature-flags.decentraland.org/explorer.json",
+            "type": "fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.segment.com/v1/projects/1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU/settings",
+            "type": "xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=SubscribedButtonClick&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923350570&cd[buttonFeatures]=%7B%22classList%22%3A%22dg%20Link%20Link--pointer%20ui%20tiny%20primary%20button%22%2C%22destination%22%3A%22https%3A%2F%2Fdecentraland.org%2Fdownload%22%2C%22id%22%3A%22%22%2C%22imageUrl%22%3A%22%22%2C%22innerText%22%3A%22START%20EXPLORING%22%2C%22numChildButtons%22%3A0%2C%22tag%22%3A%22a%22%2C%22type%22%3Anull%2C%22name%22%3A%22%22%7D&cd[buttonText]=START%20EXPLORING&cd[formFeatures]=%5B%5D&cd[pageFeatures]=%7B%22title%22%3A%22Welcome%20to%20Decentraland%22%7D&cd[parameters]=%5B%5D&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=8&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&es=automatic&tm=3&rqm=GET",
-            "type": "image",
+            "url": "https://connect.facebook.net/signals/config/2206051452791400?v=2.9.94&r=stable",
+            "type": "script",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
@@ -1232,9 +1292,76 @@
         },
         {
             "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.decentraland.org/@dcl/kernel/2.0.0-3997980740.commit-7d55b68/index.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "origin": "https://play.decentraland.org",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://decentraland.org/static/mvmf-create-f0c1f289e26236ca62ab0589ef00db54.mp4",
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:22.069Z\",\"integrations\":{},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"Share Fallback\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"data\":null,\"social\":\"facebook\",\"ethAddress\":null,\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-c973242e1c91248d93c22608d9b15296\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:22.338Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
+        },
+        {
+            "requestContext": [
+                "https://decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:22.095Z\",\"integrations\":{},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"Share Fallback\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"data\":null,\"social\":\"twitter\",\"ethAddress\":null,\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-9af9ef16be0a146a7f5b8f71369f5f58\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:22.372Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
+        },
+        {
+            "requestContext": [
+                "https://decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:22.126Z\",\"integrations\":{},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"feature_flags\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-9e36ca6a1b6bb43f4ac97bbffd66bdaf\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:22.548Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
+        },
+        {
+            "requestContext": [
+                "https://decentraland.org/"
+            ],
+            "url": "https://decentraland.org/static/mvmf-explore-5991206de23d83ac5c2649d6155ff084.webm",
             "type": "media",
             "method": "GET",
             "headers": {
@@ -1243,7 +1370,7 @@
                 "accept-encoding": "identity;q=1, *;q=0",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "range": "bytes=589824-",
+                "range": "bytes=0-",
                 "sec-ch-ua-platform": "\"Windows\""
             }
         },
@@ -1251,7 +1378,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://decentraland.org/static/mvmf-trade-3b602ce04c27245bdf08e0c0775ff4c8.mp4",
+            "url": "https://decentraland.org/static/mvmf-create-1184fbeb2583d098b6b90097cc0aaf1e.webm",
             "type": "media",
             "method": "GET",
             "headers": {
@@ -1260,7 +1387,7 @@
                 "accept-encoding": "identity;q=1, *;q=0",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "range": "bytes=917504-",
+                "range": "bytes=0-",
                 "sec-ch-ua-platform": "\"Windows\""
             }
         },
@@ -1268,7 +1395,139 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Explore%20on%20web&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923351440&cd[mobile]=false&cd[wallet]=none&cd[event]=Explore%20on%20web&cd[place]=menu&cd[location]=https%3A%2F%2Fdecentraland.org%2F&cd[text]=START%20EXPLORING&cd[href]=%2Fdownload&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=9&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-67b708a8088b63eaa13d2630d61057dc&tm=2&rqm=GET",
+            "url": "https://decentraland.org/static/mvmf-trade-93ffa72f9e0b6ee0f6d154cfe789442c.webm",
+            "type": "media",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://decentraland.org/",
+                "accept-encoding": "identity;q=1, *;q=0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "range": "bytes=0-",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.segment.com/analytics-next/bundles/ajs-destination.bundle.1466bb14223e695495e6.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.segment.com/analytics-next/bundles/schemaFilter.bundle.debb169c1abb431faaa6.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/p",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:22.846Z\",\"integrations\":{},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"type\":\"page\",\"properties\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-b4ee974ab4b0e5398994092ea608b1b8\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:22.971Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:22.875Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"initialize_versions\",\"type\":\"track\",\"properties\":{\"wallet\":\"none\",\"walletProps\":\"\",\"recommendedBrowser\":true,\"_site\":\"0.1.0-3999812467.commit-51cd82c\",\"@dcl/kernel\":\"2.0.0-3997980740.commit-7d55b68\",\"@dcl/unity-renderer\":\"1.0.71809-20230112133213.commit-14d33f9\",\"@dcl/explorer-desktop\":\"1.0.1097-20230112142442.commit-cc60c57\",\"rendererType\":\"web\",\"kernelPlatform\":\"Windows\",\"@dcl/explorer-website\":\"0.1.0-3999812467.commit-51cd82c\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-855e984515a256f866abbddc7ea4be28\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:23.057Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:22.891Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"feature_flags\",\"type\":\"track\",\"properties\":{\"wallet\":\"none\",\"walletProps\":\"\",\"recommendedBrowser\":true,\"featureFlags\":[],\"rendererType\":\"web\",\"kernelPlatform\":\"Windows\",\"@dcl/explorer-website\":\"0.1.0-3999812467.commit-51cd82c\",\"@dcl/kernel\":\"2.0.0-3997980740.commit-7d55b68\",\"@dcl/unity-renderer\":\"1.0.71809-20230112133213.commit-14d33f9\",\"@dcl/explorer-desktop\":\"1.0.1097-20230112142442.commit-cc60c57\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-e4607ba58673e558444a66b5c1ffa70b\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:23.114Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:22.898Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"desktop_launched\",\"type\":\"track\",\"properties\":{\"wallet\":\"none\",\"walletProps\":\"\",\"recommendedBrowser\":true,\"rendererType\":\"web\",\"kernelPlatform\":\"Windows\",\"@dcl/explorer-website\":\"0.1.0-3999812467.commit-51cd82c\",\"@dcl/kernel\":\"2.0.0-3997980740.commit-7d55b68\",\"@dcl/unity-renderer\":\"1.0.71809-20230112133213.commit-14d33f9\",\"@dcl/explorer-desktop\":\"1.0.1097-20230112142442.commit-cc60c57\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-06fee48781dc3e619ee178cfd2334c6d\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:23.199Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:22.941Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"feature_flags\",\"type\":\"track\",\"properties\":{\"wallet\":\"none\",\"walletProps\":\"\",\"recommendedBrowser\":true,\"featureFlags\":[\"explorer-asset_bundles\",\"explorer-avatar_outliner\",\"explorer-banned_users\",\"explorer-banned_users:bannedUsers\",\"explorer-ecs7\",\"explorer-friend_request_anti_spam_config\",\"explorer-friend_request_anti_spam_config:antiSpamConfig\",\"explorer-friends_by_online_status\",\"explorer-initial_portable_experiences\",\"explorer-initial_portable_experiences:calendarpx\",\"explorer-matrix_channels_enabled\",\"explorer-max_joined_channels\",\"explorer-max_joined_channels:maxNumber\",\"explorer-max_visible_peers\",\"explorer-max_visible_peers:max_visible_peers\",\"explorer-nerf_sbc\",\"explorer-new_avatar_flow\",\"explorer-new_friend_requests\",\"explorer-parcel-denylist\",\"explorer-parcel-denylist:all\",\"explorer-pick_realm_algorithm_config\",\"explorer-pick_realm_algorithm_config:default\",\"explorer-ping_enabled\",\"explorer-procedural_skybox\",\"explorer-profiler_metrics\",\"explorer-realms_blockers_in_worlds\",\"explorer-realms_modifier_plugin\",\"explorer-rollout-unity-renderer-version\",\"explorer-rollout-unity-renderer-version:1.0.7792\",\"explorer-tex_compression\",\"explorer-third_party_collections\",\"explorer-tutorial\",\"explorer-use_avpro_player\",\"explorer-use_gpu_only_meshes_variant\",\"explorer-use_gpu_only_meshes_variant:disabled\",\"explorer-use_material_transition_controller\",\"explorer-users_allowed_to_create_channels\",\"explorer-users_allowed_to_create_channels:allowedUsers\",\"explorer-use-synapse-server\",\"explorer-voice_chat\",\"explorer-wearable_asset_bundles\",\"explorer-with-collections\"],\"rendererType\":\"web\",\"kernelPlatform\":\"Windows\",\"@dcl/explorer-website\":\"0.1.0-3999812467.commit-51cd82c\",\"@dcl/kernel\":\"2.0.0-3997980740.commit-7d55b68\",\"@dcl/unity-renderer\":\"1.0.71809-20230112133213.commit-14d33f9\",\"@dcl/explorer-desktop\":\"1.0.1097-20230112142442.commit-cc60c57\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-a86c441f61570540dbe3079f80374c98\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:23.303Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://decentraland.org/"
+            ],
+            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=PageView&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1674594983344&sw=1280&sh=960&v=2.9.94&r=stable&a=seg&ec=0&o=30&fbp=fb.1.1674594983339.66205172&it=1674594982289&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-1e639a41cfb9ed95a248f9bb3d3f3da1&exp=b2&rqm=GET",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1283,24 +1542,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://api.segment.io/v1/t",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain"
-            },
-            "postData": "{\"timestamp\":\"2023-01-05T12:55:48.607Z\",\"integrations\":{},\"anonymousId\":\"4d2c6901-27b2-4570-a053-5fe7bf784a21\",\"event\":\"Explore on web\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"event\":\"Explore on web\",\"place\":\"menu\",\"location\":\"https://decentraland.org/\",\"text\":\"START EXPLORING\",\"href\":\"/download\"},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-67b708a8088b63eaa13d2630d61057dc\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-05T12:55:51.468Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Share%20Fallback&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923352006&cd[mobile]=false&cd[wallet]=none&cd[social]=facebook&cd[featureFlags]=%5B%5D&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=10&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-0c36c8fd082f3aab90320da91a567991&tm=2&rqm=GET",
+            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=PageView&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1674594983348&sw=1280&sh=960&v=2.9.94&r=stable&a=seg&ec=1&o=30&fbp=fb.1.1674594983339.66205172&it=1674594982289&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-04df61a8f44493acfbf3a14541e69f50&exp=b2&rqm=GET",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1315,24 +1557,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://api.segment.io/v1/t",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain"
-            },
-            "postData": "{\"timestamp\":\"2023-01-05T12:55:49.632Z\",\"integrations\":{},\"anonymousId\":\"4d2c6901-27b2-4570-a053-5fe7bf784a21\",\"event\":\"Share Fallback\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"data\":null,\"social\":\"facebook\",\"ethAddress\":null,\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-0c36c8fd082f3aab90320da91a567991\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-05T12:55:52.016Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Share%20Fallback&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923352024&cd[mobile]=false&cd[wallet]=none&cd[social]=twitter&cd[featureFlags]=%5B%5D&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=11&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-5a5d40b284e35e5f00b3ffc458d95d8d&tm=2&rqm=GET",
+            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Share%20Fallback&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1674594983365&cd[mobile]=false&cd[wallet]=none&cd[social]=facebook&cd[featureFlags]=%5B%5D&sw=1280&sh=960&v=2.9.94&r=stable&a=seg&ec=2&o=30&fbp=fb.1.1674594983339.66205172&it=1674594982289&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-c973242e1c91248d93c22608d9b15296&tm=2&exp=b2&rqm=GET",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1347,24 +1572,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://api.segment.io/v1/t",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain"
-            },
-            "postData": "{\"timestamp\":\"2023-01-05T12:55:49.657Z\",\"integrations\":{},\"anonymousId\":\"4d2c6901-27b2-4570-a053-5fe7bf784a21\",\"event\":\"Share Fallback\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"data\":null,\"social\":\"twitter\",\"ethAddress\":null,\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-5a5d40b284e35e5f00b3ffc458d95d8d\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-05T12:55:52.031Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=feature_flags&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923352041&cd[mobile]=false&cd[wallet]=none&cd[featureFlags]=%5B%5D&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=12&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-32888b72e75d7cd708becbdc290c28ad&tm=2&rqm=GET",
+            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Share%20Fallback&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1674594983382&cd[mobile]=false&cd[wallet]=none&cd[social]=twitter&cd[featureFlags]=%5B%5D&sw=1280&sh=960&v=2.9.94&r=stable&a=seg&ec=3&o=30&fbp=fb.1.1674594983339.66205172&it=1674594982289&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-9af9ef16be0a146a7f5b8f71369f5f58&tm=2&exp=b2&rqm=GET",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1379,24 +1587,7 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://api.segment.io/v1/t",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain"
-            },
-            "postData": "{\"timestamp\":\"2023-01-05T12:55:50.538Z\",\"integrations\":{},\"anonymousId\":\"4d2c6901-27b2-4570-a053-5fe7bf784a21\",\"event\":\"feature_flags\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"featureFlags\":[]},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-32888b72e75d7cd708becbdc290c28ad\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-05T12:55:52.054Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Explore%20on%20web&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923352063&cd[mobile]=false&cd[wallet]=none&cd[event]=Explore%20on%20web&cd[place]=menu&cd[location]=https%3A%2F%2Fdecentraland.org%2F&cd[text]=START%20EXPLORING&cd[href]=%2Fdownload&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=13&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-743d541840dab5d07f21e2abcc36e643&tm=2&rqm=GET",
+            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=feature_flags&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1674594983392&cd[mobile]=false&cd[wallet]=none&cd[featureFlags]=%5B%5D&sw=1280&sh=960&v=2.9.94&r=stable&a=seg&ec=4&o=30&fbp=fb.1.1674594983339.66205172&it=1674594982289&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-9e36ca6a1b6bb43f4ac97bbffd66bdaf&tm=2&exp=b2&rqm=GET",
             "type": "image",
             "method": "GET",
             "headers": {
@@ -1406,23 +1597,6 @@
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "sec-ch-ua-platform": "\"Windows\""
             }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://api.segment.io/v1/t",
-            "type": "fetch",
-            "method": "POST",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "content-type": "text/plain"
-            },
-            "postData": "{\"timestamp\":\"2023-01-05T12:55:50.603Z\",\"integrations\":{},\"anonymousId\":\"4d2c6901-27b2-4570-a053-5fe7bf784a21\",\"event\":\"Explore on web\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"event\":\"Explore on web\",\"place\":\"menu\",\"location\":\"https://decentraland.org/\",\"text\":\"START EXPLORING\",\"href\":\"/download\"},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-743d541840dab5d07f21e2abcc36e643\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-05T12:55:52.067Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
         },
         {
             "requestContext": [
@@ -1458,53 +1632,6 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://decentraland.org/component---src-pages-download-tsx-02c377af0f0f3feb4853.js",
-            "type": "script",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=SubscribedButtonClick&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923353327&cd[buttonFeatures]=%7B%22classList%22%3A%22dg%20Link%20Link--pointer%20ui%20tiny%20primary%20button%22%2C%22destination%22%3A%22https%3A%2F%2Fdecentraland.org%2Fdownload%22%2C%22id%22%3A%22%22%2C%22imageUrl%22%3A%22%22%2C%22innerText%22%3A%22START%20EXPLORING%22%2C%22numChildButtons%22%3A0%2C%22tag%22%3A%22a%22%2C%22type%22%3Anull%2C%22name%22%3A%22%22%7D&cd[buttonText]=START%20EXPLORING&cd[formFeatures]=%5B%5D&cd[pageFeatures]=%7B%22title%22%3A%22Welcome%20to%20Decentraland%22%7D&cd[parameters]=%5B%5D&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=14&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&es=automatic&tm=3&exp=b2&rqm=GET",
-            "type": "image",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
-            "url": "https://decentraland.org/static/mvmf-explore-5991206de23d83ac5c2649d6155ff084.webm",
-            "type": "media",
-            "method": "GET",
-            "headers": {
-                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-                "referer": "https://decentraland.org/",
-                "accept-encoding": "identity;q=1, *;q=0",
-                "sec-ch-ua-mobile": "?0",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                "range": "bytes=0-",
-                "sec-ch-ua-platform": "\"Windows\""
-            }
-        },
-        {
-            "requestContext": [
-                "https://decentraland.org/"
-            ],
             "url": "https://decentraland.org/icons/icon-144x144.png?v=b57be10317666edc399e2bdf863f26bf",
             "type": "other",
             "method": "GET",
@@ -1520,8 +1647,8 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
-            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Explore%20on%20web&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1672923354054&cd[mobile]=false&cd[wallet]=none&cd[event]=Explore%20on%20web&cd[place]=menu&cd[location]=https%3A%2F%2Fdecentraland.org%2F&cd[text]=START%20EXPLORING&cd[href]=%2Fdownload&sw=1280&sh=960&v=2.9.90&r=stable&a=seg&ec=15&o=30&fbp=fb.1.1672923340144.1049000334&it=1672923339413&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=ajs-next-be6e435e716052d982a9d72b3d2b6ccd&tm=2&rqm=GET",
-            "type": "image",
+            "url": "https://decentraland.org/favicon-32x32.png?v=b57be10317666edc399e2bdf863f26bf",
+            "type": "other",
             "method": "GET",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
@@ -1535,18 +1662,327 @@
             "requestContext": [
                 "https://decentraland.org/"
             ],
+            "url": "https://www.facebook.com/tr/?id=2206051452791400&ev=Microdata&dl=https%3A%2F%2Fdecentraland.org%2F&rl=&if=false&ts=1674594983850&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22Welcome%20to%20Decentraland%22%2C%22meta%3Adescription%22%3A%22Explore%20the%20first%20decentralized%20metaverse%20that%20is%20built%2C%20governed%2C%20and%20owned%20by%20its%20users.%20Discover%20different%20districts%2C%20meet%20people%2C%20party%20at%20events%2C%20and%20more!%22%7D&cd[OpenGraph]=%7B%22og%3Atitle%22%3A%22Welcome%20to%20Decentraland%22%2C%22og%3Adescription%22%3A%22Explore%20the%20first%20decentralized%20metaverse%20that%20is%20built%2C%20governed%2C%20and%20owned%20by%20its%20users.%20Discover%20different%20districts%2C%20meet%20people%2C%20party%20at%20events%2C%20and%20more!%22%2C%22og%3Aimage%22%3A%22%2Fstatic%2Fscenes4-8b249f635fd135f449ea526930d984ce.jpg%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=1280&sh=960&v=2.9.94&r=stable&a=seg&ec=5&o=30&fbp=fb.1.1674594983339.66205172&it=1674594982289&coo=false&dpo=LDU&dpoco=0&dpost=0&es=automatic&tm=3&exp=b2&rqm=GET",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.decentraland.org/@dcl/unity-renderer/1.0.71809-20230112133213.commit-14d33f9/index.js",
+            "type": "script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "origin": "https://play.decentraland.org",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
             "url": "https://api.segment.io/v1/t",
             "type": "fetch",
             "method": "POST",
             "headers": {
                 "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
                 "sec-ch-ua-platform": "\"Windows\"",
-                "referer": "https://decentraland.org/",
+                "referer": "https://play.decentraland.org/",
                 "sec-ch-ua-mobile": "?0",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
                 "content-type": "text/plain"
             },
-            "postData": "{\"timestamp\":\"2023-01-05T12:55:53.336Z\",\"integrations\":{},\"anonymousId\":\"4d2c6901-27b2-4570-a053-5fe7bf784a21\",\"event\":\"Explore on web\",\"type\":\"track\",\"properties\":{\"mobile\":false,\"wallet\":\"none\",\"event\":\"Explore on web\",\"place\":\"menu\",\"location\":\"https://decentraland.org/\",\"text\":\"START EXPLORING\",\"href\":\"/download\"},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Welcome to Decentraland\",\"url\":\"https://decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-be6e435e716052d982a9d72b3d2b6ccd\",\"writeKey\":\"f0S2L1sWumT8BPjBmIBDTN5gIWjhrRHG\",\"userId\":null,\"sentAt\":\"2023-01-05T12:55:54.071Z\",\"_metadata\":{\"bundled\":[\"Facebook Pixel\",\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[\"624ef2365395b742ca3d7c14\"]}}"
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:24.442Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"lifecycle event\",\"type\":\"track\",\"properties\":{\"stage\":\"loading_1_start\",\"context\":\"kernel\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-631e232490ad2e3509df6946b225d9a9\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:24.566Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:24.468Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"feature_flags\",\"type\":\"track\",\"properties\":{\"wallet\":\"none\",\"walletProps\":\"\",\"recommendedBrowser\":true,\"featureFlags\":[\"explorer-asset_bundles\",\"explorer-avatar_outliner\",\"explorer-banned_users\",\"explorer-banned_users:bannedUsers\",\"explorer-ecs7\",\"explorer-friend_request_anti_spam_config\",\"explorer-friend_request_anti_spam_config:antiSpamConfig\",\"explorer-friends_by_online_status\",\"explorer-initial_portable_experiences\",\"explorer-initial_portable_experiences:calendarpx\",\"explorer-matrix_channels_enabled\",\"explorer-max_joined_channels\",\"explorer-max_joined_channels:maxNumber\",\"explorer-max_visible_peers\",\"explorer-max_visible_peers:max_visible_peers\",\"explorer-nerf_sbc\",\"explorer-new_avatar_flow\",\"explorer-new_friend_requests\",\"explorer-parcel-denylist\",\"explorer-parcel-denylist:all\",\"explorer-pick_realm_algorithm_config\",\"explorer-pick_realm_algorithm_config:default\",\"explorer-ping_enabled\",\"explorer-procedural_skybox\",\"explorer-profiler_metrics\",\"explorer-realms_blockers_in_worlds\",\"explorer-realms_modifier_plugin\",\"explorer-rollout-unity-renderer-version\",\"explorer-rollout-unity-renderer-version:1.0.7792\",\"explorer-tex_compression\",\"explorer-third_party_collections\",\"explorer-tutorial\",\"explorer-use_avpro_player\",\"explorer-use_gpu_only_meshes_variant\",\"explorer-use_gpu_only_meshes_variant:disabled\",\"explorer-use_material_transition_controller\",\"explorer-users_allowed_to_create_channels\",\"explorer-users_allowed_to_create_channels:allowedUsers\",\"explorer-use-synapse-server\",\"explorer-voice_chat\",\"explorer-wearable_asset_bundles\",\"explorer-with-collections\"],\"rendererType\":\"web\",\"kernelPlatform\":\"Windows\",\"@dcl/explorer-website\":\"0.1.0-3999812467.commit-51cd82c\",\"@dcl/kernel\":\"2.0.0-3997980740.commit-7d55b68\",\"@dcl/unity-renderer\":\"1.0.71809-20230112133213.commit-14d33f9\",\"@dcl/explorer-desktop\":\"1.0.1097-20230112142442.commit-cc60c57\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-adfc1fd06d5760e0e1e3c6733249e6e7\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:24.584Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:24.518Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"lifecycle event\",\"type\":\"track\",\"properties\":{\"stage\":\"loading_5_wait_renderer\",\"context\":\"kernel\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-5aab3d9263b9b74c69b9b52f19916bfa\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:24.602Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:24.541Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"unity_loader_downloading_start\",\"type\":\"track\",\"properties\":{\"renderer_version\":\"1.0.71809-20230112133213.commit-14d33f9\",\"context\":\"kernel\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-a84a60f64737986739fff294a31ed4b2\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:24.622Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:24.553Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"feature_flags\",\"type\":\"track\",\"properties\":{\"wallet\":\"none\",\"walletProps\":\"\",\"recommendedBrowser\":true,\"featureFlags\":[\"explorer-asset_bundles\",\"explorer-avatar_outliner\",\"explorer-banned_users\",\"explorer-banned_users:bannedUsers\",\"explorer-ecs7\",\"explorer-friend_request_anti_spam_config\",\"explorer-friend_request_anti_spam_config:antiSpamConfig\",\"explorer-friends_by_online_status\",\"explorer-initial_portable_experiences\",\"explorer-initial_portable_experiences:calendarpx\",\"explorer-matrix_channels_enabled\",\"explorer-max_joined_channels\",\"explorer-max_joined_channels:maxNumber\",\"explorer-max_visible_peers\",\"explorer-max_visible_peers:max_visible_peers\",\"explorer-nerf_sbc\",\"explorer-new_avatar_flow\",\"explorer-new_friend_requests\",\"explorer-parcel-denylist\",\"explorer-parcel-denylist:all\",\"explorer-pick_realm_algorithm_config\",\"explorer-pick_realm_algorithm_config:default\",\"explorer-ping_enabled\",\"explorer-procedural_skybox\",\"explorer-profiler_metrics\",\"explorer-realms_blockers_in_worlds\",\"explorer-realms_modifier_plugin\",\"explorer-rollout-unity-renderer-version\",\"explorer-rollout-unity-renderer-version:1.0.7792\",\"explorer-tex_compression\",\"explorer-third_party_collections\",\"explorer-tutorial\",\"explorer-use_avpro_player\",\"explorer-use_gpu_only_meshes_variant\",\"explorer-use_gpu_only_meshes_variant:disabled\",\"explorer-use_material_transition_controller\",\"explorer-users_allowed_to_create_channels\",\"explorer-users_allowed_to_create_channels:allowedUsers\",\"explorer-use-synapse-server\",\"explorer-voice_chat\",\"explorer-wearable_asset_bundles\",\"explorer-with-collections\"],\"rendererType\":\"web\",\"kernelPlatform\":\"Windows\",\"@dcl/explorer-website\":\"0.1.0-3999812467.commit-51cd82c\",\"@dcl/kernel\":\"2.0.0-3997980740.commit-7d55b68\",\"@dcl/unity-renderer\":\"1.0.71809-20230112133213.commit-14d33f9\",\"@dcl/explorer-desktop\":\"1.0.1097-20230112142442.commit-cc60c57\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-6407b753456466086f1710960a28e5a6\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:24.650Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://api.rollbar.com/api/1/item/",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type,x-rollbar-access-token",
+                "access-control-request-method": "POST",
+                "origin": "https://play.decentraland.org",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.rollbar.com/api/1/item/",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "x-rollbar-access-token": "44963d3f89db4e5cbf552faba06c6ec0",
+                "referer": "https://play.decentraland.org/",
+                "content-type": "application/json",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "{\"access_token\":\"44963d3f89db4e5cbf552faba06c6ec0\",\"data\":{\"environment\":\"production\",\"level\":\"critical\",\"endpoint\":\"api.rollbar.com/api/1/item/\",\"platform\":\"browser\",\"framework\":\"browser-js\",\"language\":\"javascript\",\"server\":{},\"uuid\":\"9daf19be-6843-4230-a91b-9849bc6cf1ad\",\"notifier\":{\"name\":\"rollbar-browser-js\",\"version\":\"2.25.0\",\"configured_options\":{\"captureUncaught\":true,\"captureUnhandledRejections\":true,\"payload\":{\"environment\":\"production\",\"website_version\":\"0.1.0-3999812467.commit-51cd82c\",\"_site\":\"0.1.0-3999812467.commit-51cd82c\",\"@dcl/explorer-website\":\"0.1.0-3999812467.commit-51cd82c\",\"@dcl/kernel\":\"2.0.0-3997980740.commit-7d55b68\",\"@dcl/unity-renderer\":\"1.0.71809-20230112133213.commit-14d33f9\",\"@dcl/explorer-desktop\":\"1.0.1097-20230112142442.commit-cc60c57\"},\"codeVersion\":\"0.1.0-3999812467.commit-51cd82c\",\"rollbarJsUrl\":\"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.25.0/rollbar.min.js\",\"async\":true,\"transform\":\"function(e){v(e)}\"},\"diagnostic\":{\"original_arg_types\":[\"string\",\"error\"],\"raw_error\":{\"message\":\"HTTP Live Streaming is not supported in your browser\",\"name\":\"Error\",\"constructor_name\":\"Error\",\"stack\":\"Error: HTTP Live Streaming is not supported in your browser\\n    at Object.initializeWebRenderer (https://cdn.decentraland.org/@dcl/unity-renderer/1.0.71809-20230112133213.commit-14d33f9/index.js:26969:16)\\n    at createWebRenderer (https://cdn.decentraland.org/@dcl/kernel/2.0.0-3997980740.commit-7d55b68/index.js:186:7893)\\n    at Tsn (https://cdn.decentraland.org/@dcl/kernel/2.0.0-3997980740.commit-7d55b68/index.js:189:2814)\"}}},\"request\":{\"url\":\"https://play.decentraland.org/\",\"query_string\":\"\",\"user_ip\":\"$remote_ip\"},\"client\":{\"runtime_ms\":7510,\"timestamp\":1674594985,\"javascript\":{\"browser\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"language\":\"en-US\",\"cookie_enabled\":true,\"screen\":{\"width\":1280,\"height\":960},\"plugins\":[{\"name\":\"PDF Viewer\",\"description\":\"Portable Document Format\"},{\"name\":\"Chrome PDF Viewer\",\"description\":\"Portable Document Format\"},{\"name\":\"Chromium PDF Viewer\",\"description\":\"Portable Document Format\"},{\"name\":\"Microsoft Edge PDF Viewer\",\"description\":\"Portable Document Format\"},{\"name\":\"WebKit built-in PDF\",\"description\":\"Portable Document Format\"}]}},\"body\":{\"trace\":{\"exception\":{\"class\":\"Error\",\"message\":\"HTTP Live Streaming is not supported in your browser\",\"description\":\"HTTP Live Streaming is not supported in your browser\"},\"frames\":[{\"filename\":\"https://cdn.decentraland.org/@dcl/kernel/2.0.0-3997980740.commit-7d55b68/index.js\",\"lineno\":189,\"method\":\"Tsn\",\"colno\":2814},{\"filename\":\"https://cdn.decentraland.org/@dcl/kernel/2.0.0-3997980740.commit-7d55b68/index.js\",\"lineno\":186,\"method\":\"createWebRenderer\",\"colno\":7893},{\"filename\":\"https://cdn.decentraland.org/@dcl/unity-renderer/1.0.71809-20230112133213.commit-14d33f9/index.js\",\"lineno\":26969,\"method\":\"Object.initializeWebRenderer\",\"colno\":16}]},\"telemetry\":[{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594979582,\"body\":{\"method\":\"get\",\"url\":\"https://feature-flags.decentraland.org/explorer.json\",\"status_code\":200,\"start_time_ms\":1674594979582,\"end_time_ms\":1674594980069,\"request_content_type\":null,\"subtype\":\"fetch\",\"response_content_type\":\"application/json\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"navigation\",\"timestamp_ms\":1674594980334,\"body\":{\"subtype\":\"DOMContentLoaded\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594981458,\"body\":{\"method\":\"get\",\"url\":\"https://feature-flags.decentraland.org/explorer.json\",\"status_code\":200,\"start_time_ms\":1674594981458,\"end_time_ms\":1674594982104,\"request_content_type\":null,\"subtype\":\"fetch\",\"response_content_type\":\"application/json\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594982334,\"body\":{\"method\":\"get\",\"url\":\"https://cdn.segment.com/v1/projects/1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU/settings\",\"status_code\":200,\"start_time_ms\":1674594982186,\"end_time_ms\":1674594982335,\"subtype\":\"xhr\",\"response_content_type\":\"application/json; charset=utf-8\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594982972,\"body\":{\"method\":\"post\",\"url\":\"https://api.segment.io/v1/p\",\"status_code\":200,\"start_time_ms\":1674594982972,\"end_time_ms\":1674594983310,\"request_content_type\":\"text/plain\",\"subtype\":\"fetch\",\"response_content_type\":\"application/json\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594983060,\"body\":{\"method\":\"post\",\"url\":\"https://api.segment.io/v1/t\",\"status_code\":200,\"start_time_ms\":1674594983060,\"end_time_ms\":1674594984409,\"request_content_type\":\"text/plain\",\"subtype\":\"fetch\",\"response_content_type\":\"application/json\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594983127,\"body\":{\"method\":\"post\",\"url\":\"https://api.segment.io/v1/t\",\"status_code\":200,\"start_time_ms\":1674594983127,\"end_time_ms\":1674594984410,\"request_content_type\":\"text/plain\",\"subtype\":\"fetch\",\"response_content_type\":\"application/json\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594983217,\"body\":{\"method\":\"post\",\"url\":\"https://api.segment.io/v1/t\",\"status_code\":200,\"start_time_ms\":1674594983217,\"end_time_ms\":1674594984411,\"request_content_type\":\"text/plain\",\"subtype\":\"fetch\",\"response_content_type\":\"application/json\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594983305,\"body\":{\"method\":\"post\",\"url\":\"https://api.segment.io/v1/t\",\"status_code\":200,\"start_time_ms\":1674594983305,\"end_time_ms\":1674594984411,\"request_content_type\":\"text/plain\",\"subtype\":\"fetch\",\"response_content_type\":\"application/json\"},\"source\":\"client\"},{\"level\":\"log\",\"type\":\"log\",\"timestamp_ms\":1674594984380,\"body\":{\"message\":\"Kernel:  https://cdn.decentraland.org/@dcl/kernel/2.0.0-3997980740.commit-7d55b68/index.js\"},\"source\":\"client\"},{\"level\":\"log\",\"type\":\"log\",\"timestamp_ms\":1674594984519,\"body\":{\"message\":\"Renderer: https://cdn.decentraland.org/@dcl/unity-renderer/1.0.71809-20230112133213.commit-14d33f9/index.js\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594984570,\"body\":{\"method\":\"post\",\"url\":\"https://api.segment.io/v1/t\",\"status_code\":null,\"start_time_ms\":1674594984570,\"end_time_ms\":null,\"request_content_type\":\"text/plain\",\"subtype\":\"fetch\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594984586,\"body\":{\"method\":\"post\",\"url\":\"https://api.segment.io/v1/t\",\"status_code\":null,\"start_time_ms\":1674594984586,\"end_time_ms\":null,\"request_content_type\":\"text/plain\",\"subtype\":\"fetch\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594984606,\"body\":{\"method\":\"post\",\"url\":\"https://api.segment.io/v1/t\",\"status_code\":null,\"start_time_ms\":1674594984606,\"end_time_ms\":null,\"request_content_type\":\"text/plain\",\"subtype\":\"fetch\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594984623,\"body\":{\"method\":\"post\",\"url\":\"https://api.segment.io/v1/t\",\"status_code\":null,\"start_time_ms\":1674594984623,\"end_time_ms\":null,\"request_content_type\":\"text/plain\",\"subtype\":\"fetch\"},\"source\":\"client\"},{\"level\":\"info\",\"type\":\"network\",\"timestamp_ms\":1674594984651,\"body\":{\"method\":\"post\",\"url\":\"https://api.segment.io/v1/t\",\"status_code\":null,\"start_time_ms\":1674594984651,\"end_time_ms\":null,\"request_content_type\":\"text/plain\",\"subtype\":\"fetch\"},\"source\":\"client\"},{\"level\":\"log\",\"type\":\"log\",\"timestamp_ms\":1674594984834,\"body\":{\"message\":\"kernel:   SAGA-ERROR:  Error: HTTP Live Streaming is not supported in your browser\"},\"source\":\"client\"},{\"level\":\"critical\",\"type\":\"error\",\"timestamp_ms\":1674594984856,\"body\":{\"message\":\"HTTP Live Streaming is not supported in your browser\",\"stack\":\"Error: HTTP Live Streaming is not supported in your browser\\n    at Object.initializeWebRenderer (https://cdn.decentraland.org/@dcl/unity-renderer/1.0.71809-20230112133213.commit-14d33f9/index.js:26969:16)\\n    at createWebRenderer (https://cdn.decentraland.org/@dcl/kernel/2.0.0-3997980740.commit-7d55b68/index.js:186:7893)\\n    at Tsn (https://cdn.decentraland.org/@dcl/kernel/2.0.0-3997980740.commit-7d55b68/index.js:189:2814)\"},\"source\":\"client\",\"uuid\":\"9daf19be-6843-4230-a91b-9849bc6cf1ad\"}]},\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null,\"website_version\":\"0.1.0-3999812467.commit-51cd82c\",\"_site\":\"0.1.0-3999812467.commit-51cd82c\",\"@dcl/explorer-website\":\"0.1.0-3999812467.commit-51cd82c\",\"@dcl/kernel\":\"2.0.0-3997980740.commit-7d55b68\",\"@dcl/unity-renderer\":\"1.0.71809-20230112133213.commit-14d33f9\",\"@dcl/explorer-desktop\":\"1.0.1097-20230112142442.commit-cc60c57\",\"context\":\"\"}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/media/error-robotdown.ee4685c4.png",
+            "type": "image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:24.779Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"unity_loader_downloading_end\",\"type\":\"track\",\"properties\":{\"renderer_version\":\"1.0.71809-20230112133213.commit-14d33f9\",\"loading_time\":236.19999999998254,\"context\":\"kernel\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-4729e43e9fff52359b04d4bab1ce0503\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:25.029Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:24.790Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"unity_downloading_start\",\"type\":\"track\",\"properties\":{\"renderer_version\":\"1.0.71809-20230112133213.commit-14d33f9\",\"context\":\"kernel\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-1d55c5f0dbdf630b7f7e410b7a6d4623\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:25.044Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:24.832Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"renderer_initialization_error\",\"type\":\"track\",\"properties\":{\"message\":\"Error: HTTP Live Streaming is not supported in your browser\",\"context\":\"kernel\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-cf36f101d7677077f9d3825f54dc3c37\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:25.064Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:24.850Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"error_fatal\",\"type\":\"track\",\"properties\":{\"context\":\"kernel#saga\",\"message\":\"HTTP Live Streaming is not supported in your browser\",\"stack\":\"Error: HTTP Live Streaming is not supported in your browser\\n    at Object.initializeWebRenderer (https://cdn.decentraland.org/@dcl/unity-renderer/1.0.71809-20230112133213.commit-14d33f9/index.js:26969:16)\\n    at createWebRenderer (https://cdn.decentraland.org/@dcl/kernel/2.0.0-3997980740.commit-7d55b68/index.js:186:7893)\\n    at Tsn (https://cdn.decentraland.org/@dcl/kernel/2.0.0-3997980740.commit-7d55b68/index.js:189:2814)\",\"saga_stack\":\"The above error occurred in task Han\\n    created by Gkt\\n    created by anonymous\\nTasks cancelled due to error:\\ntakeEvery(SEND_PROFILE_TO_RENDERER, Jan)\\ntakeLatest([SESSION] mark session as new user, Yan)\\ntakeEvery([VC] voicePlayingUpdate, Oan)\\ntakeEvery([VC] voiceRecordingUpdate, Uan)\\ntakeEvery([VC] setVoiceChatError, Lan)\\ntakeEvery(REGISTER_RPC_PORT, Nan)\\nV2t\\neMt\\nvQt\\nROt\\nmUt\\nPMt\\nWOt\\nIQt\\nJkt\\nJTt\\niDt\\nHkt\\nXTt\\n$Tt\\n_Ot\\nAUt\\nlUt\\ndUt\\nnTt\\nxRt\\ngUt\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-fa401a94ccda6e6baee9c15651e9a188\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:25.084Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:24.898Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"explorer_kernel_error\",\"type\":\"track\",\"properties\":{\"wallet\":\"none\",\"walletProps\":\"\",\"recommendedBrowser\":true,\"error\":\"{\\\"error\\\":{\\\"context\\\":\\\"kernel#saga\\\",\\\"sagaStack\\\":\\\"The above error occurred in task Han\\\\n    created by Gkt\\\\n    created by anonymous\\\\nTasks cancelled due to error:\\\\ntakeEvery(SEND_PROFILE_TO_RENDERER, Jan)\\\\ntakeLatest([SESSION] mark session as new user, Yan)\\\\ntakeEvery([VC] voicePlayingUpdate, Oan)\\\\ntakeEvery([VC] voiceRecordingUpdate, Uan)\\\\ntakeEvery([VC] setVoiceChatError, Lan)\\\\ntakeEvery(REGISTER_RPC_PORT, Nan)\\\\nV2t\\\\neMt\\\\nvQt\\\\nROt\\\\nmUt\\\\nPMt\\\\nWOt\\\\nIQt\\\\nJkt\\\\nJTt\\\\niDt\\\\nHkt\\\\nXTt\\\\n$Tt\\\\n_Ot\\\\nAUt\\\\nlUt\\\\ndUt\\\\nnTt\\\\nxRt\\\\ngUt\\\",\\\"fullErrorStack\\\":\\\"Error: HTTP Live Streaming is not supported in your browser\\\"},\\\"level\\\":\\\"fatal\\\",\\\"extra\\\":{\\\"context\\\":\\\"kernel#saga\\\",\\\"sagaStack\\\":\\\"The above error occurred in task Han\\\\n    created by Gkt\\\\n    created by anonymous\\\\nTasks cancelled due to error:\\\\ntakeEvery(SEND_PROFILE_TO_RENDERER, Jan)\\\\ntakeLatest([SESSION] mark session as new user, Yan)\\\\ntakeEvery([VC] voicePlayingUpdate, Oan)\\\\ntakeEvery([VC] voiceRecordingUpdate, Uan)\\\\ntakeEvery([VC] setVoiceChatError, Lan)\\\\ntakeEvery(REGISTER_RPC_PORT, Nan)\\\\nV2t\\\\neMt\\\\nvQt\\\\nROt\\\\nmUt\\\\nPMt\\\\nWOt\\\\nIQt\\\\nJkt\\\\nJTt\\\\niDt\\\\nHkt\\\\nXTt\\\\n$Tt\\\\n_Ot\\\\nAUt\\\\nlUt\\\\ndUt\\\\nnTt\\\\nxRt\\\\ngUt\\\"}}\",\"rendererType\":\"web\",\"kernelPlatform\":\"Windows\",\"@dcl/explorer-website\":\"0.1.0-3999812467.commit-51cd82c\",\"@dcl/kernel\":\"2.0.0-3997980740.commit-7d55b68\",\"@dcl/unity-renderer\":\"1.0.71809-20230112133213.commit-14d33f9\",\"@dcl/explorer-desktop\":\"1.0.1097-20230112142442.commit-cc60c57\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-e4a400aed7511b830b1cd4671240b7fa\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:25.094Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://api.segment.io/v1/t",
+            "type": "fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"timestamp\":\"2023-01-24T21:16:24.906Z\",\"integrations\":{\"All\":true,\"Google AdWords New\":false},\"anonymousId\":\"7b469a93-e915-4bfb-8730-49a9f2b18c50\",\"event\":\"disable_analytics\",\"type\":\"track\",\"properties\":{\"wallet\":\"none\",\"walletProps\":\"\",\"recommendedBrowser\":true,\"rendererType\":\"web\",\"kernelPlatform\":\"Windows\",\"@dcl/explorer-website\":\"0.1.0-3999812467.commit-51cd82c\",\"@dcl/kernel\":\"2.0.0-3997980740.commit-7d55b68\",\"@dcl/unity-renderer\":\"1.0.71809-20230112133213.commit-14d33f9\",\"@dcl/explorer-desktop\":\"1.0.1097-20230112142442.commit-cc60c57\",\"sessionId\":\"b0a68fa8-0ff0-40c7-8742-d0c8a725cfaa\",\"dcl_is_authenticated\":false,\"dcl_is_guest\":false,\"dcl_disabled_analytics\":false,\"dcl_renderer_type\":\"web\",\"dcl_kernel_platform\":\"Windows\",\"dcl_eth_address\":null},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Decentraland\",\"url\":\"https://play.decentraland.org/\"},\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"locale\":\"en-US\",\"library\":{\"name\":\"analytics.js\",\"version\":\"next-1.47.1\"}},\"messageId\":\"ajs-next-82a1c1d283c3cd6eacb16c18f9a3a81b\",\"writeKey\":\"1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU\",\"userId\":null,\"sentAt\":\"2023-01-24T21:16:25.111Z\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Google Analytics\"],\"bundledIds\":[]}}"
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://cloudflareinsights.com/cdn-cgi/rum",
+            "type": "xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"memory\":{\"totalJSHeapSize\":60390421,\"usedJSHeapSize\":38266765,\"jsHeapSizeLimit\":2082471936},\"resources\":[{\"n\":\"https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/images/background-v3@blur.jpg\",\"s\":807.1,\"d\":68.4,\"i\":\"link\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":807.1,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":875.5,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/css/2.3599b616.chunk.css\",\"s\":807.4,\"d\":144.5,\"i\":\"link\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":807.4,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":951.9,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/css/main.82161b86.chunk.css\",\"s\":808.1,\"d\":70.9,\"i\":\"link\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":808.1,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":879,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://static.cloudflareinsights.com/beacon.min.js\",\"s\":808.3,\"d\":280,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":808.3,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":1088.3,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/js/2.6d001986.chunk.js\",\"s\":820.6,\"d\":565.6,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":820.6,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":1386.2,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/js/main.708152e5.chunk.js\",\"s\":823.2,\"d\":59,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":823.2,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":882.2,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://d2yyd1h5u9mauk.cloudfront.net/integrations/web/v1/library/Ons2S3KrvMzaFyS7/delighted.js\",\"s\":1036,\"d\":258.8,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":1036,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":1294.8,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.25.0/rollbar.min.js\",\"s\":1038.2,\"d\":313,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":1038.2,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":1351.2,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.segment.com/analytics.js/v1/1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU/analytics.min.js\",\"s\":3610.9,\"d\":794.3,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":3610.9,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":4405.2,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://feature-flags.decentraland.org/explorer.json\",\"s\":3688,\"d\":129.2,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":3688,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":3817.2,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/media/logo-white.9dea1762.svg\",\"s\":3688.7,\"d\":132,\"i\":\"img\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":3688.7,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":3820.7,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/media/wallet-img.e224d7ea.png\",\"s\":3688.9,\"d\":106.9,\"i\":\"img\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":3688.9,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":3795.8,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/media/guest.6eb48000.jpg\",\"s\":3689.1,\"d\":103.5,\"i\":\"img\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":3689.1,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":3792.6,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/tone4.mp3\",\"s\":4153.9,\"d\":48.5,\"i\":\"audio\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":4153.9,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":4202.4,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://feature-flags.decentraland.org/explorer.json\",\"s\":5568.5,\"d\":113.3,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":5568.5,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":5681.8,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.segment.com/v1/projects/1plAT9a2wOOgbPCrTaU8rgGUMzgUTJtU/settings\",\"s\":6293.6,\"d\":114.2,\"i\":\"xmlhttprequest\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":6293.6,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":6407.8,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.decentraland.org/@dcl/kernel/2.0.0-3997980740.commit-7d55b68/index.js\",\"s\":6425.7,\"d\":618.6,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":6425.7,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":7044.3,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.segment.com/analytics-next/bundles/ajs-destination.bundle.1466bb14223e695495e6.js\",\"s\":6729,\"d\":2.1,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":6729,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":6731.1,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.segment.com/analytics-next/bundles/schemaFilter.bundle.debb169c1abb431faaa6.js\",\"s\":6776.1,\"d\":21.3,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":6776.1,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":6797.4,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://api.segment.io/v1/p\",\"s\":7077.3,\"d\":223.2,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":7077.3,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":7300.5,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://api.segment.io/v1/t\",\"s\":7165.2,\"d\":201.4,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":7165.2,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":7366.6,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://api.segment.io/v1/t\",\"s\":7233.1,\"d\":191,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":7233.1,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":7424.1,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://api.segment.io/v1/t\",\"s\":7330.9,\"d\":178.8,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":7330.9,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":7509.7,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://api.segment.io/v1/t\",\"s\":7409.8,\"d\":202.7,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":7409.8,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":7612.5,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.decentraland.org/@dcl/unity-renderer/1.0.71809-20230112133213.commit-14d33f9/index.js\",\"s\":8647.7,\"d\":69.3,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":8647.7,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":8717,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://api.segment.io/v1/t\",\"s\":8675.3,\"d\":181.1,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":8675.3,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":8856.4,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://api.segment.io/v1/t\",\"s\":8691.9,\"d\":177.2,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":8691.9,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":8869.1,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://api.segment.io/v1/t\",\"s\":8711.2,\"d\":175.7,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":8711.2,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":8886.9,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://api.segment.io/v1/t\",\"s\":8727.9,\"d\":172.4,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":8727.9,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":8900.3,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://api.segment.io/v1/t\",\"s\":8755.6,\"d\":177.5,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":8755.6,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":8933.1,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://cdn.decentraland.org/@dcl/explorer-website/0.1.0-3999812467.commit-51cd82c/static/media/error-robotdown.ee4685c4.png\",\"s\":9012.8,\"d\":29.8,\"i\":\"img\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":9012.8,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":9042.6,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0}],\"referrer\":\"\",\"documentWriteIntervention\":false,\"errorCount\":0,\"eventType\":1,\"firstPaint\":1279.2999999999884,\"firstContentfulPaint\":1279.2999999999884,\"startTime\":1674594975896.2,\"versions\":{\"js\":\"2022.10.1\",\"timings\":2},\"pageloadId\":\"95b93331-d177-4c56-8617-2c0009a813f5\",\"location\":\"https://play.decentraland.org/\",\"wd\":false,\"timingsV2\":{\"unloadEventStart\":0,\"unloadEventEnd\":0,\"domInteractive\":4377.5,\"domContentLoadedEventStart\":4437.899999999994,\"domContentLoadedEventEnd\":4438.1999999999825,\"domComplete\":9236.5,\"loadEventStart\":9236.5,\"loadEventEnd\":9237.299999999988,\"type\":\"navigate\",\"redirectCount\":0,\"activationStart\":0,\"initiatorType\":\"navigation\",\"nextHopProtocol\":\"h2\",\"workerStart\":0,\"redirectStart\":0,\"redirectEnd\":0,\"fetchStart\":100.5,\"domainLookupStart\":100.5,\"domainLookupEnd\":100.5,\"connectStart\":100.5,\"connectEnd\":100.5,\"secureConnectionStart\":100.5,\"requestStart\":118,\"responseStart\":632.8999999999942,\"responseEnd\":642.1999999999825,\"transferSize\":6526,\"encodedBodySize\":6226,\"decodedBodySize\":17488,\"serverTiming\":[],\"renderBlockingStatus\":\"blocking\",\"name\":\"https://play.decentraland.org/\",\"entryType\":\"navigation\",\"startTime\":0,\"duration\":9237.299999999988},\"siteToken\":\"529363954dff44d8b036b8fb8879bcc5\",\"st\":2}"
+        },
+        {
+            "requestContext": [],
+            "url": "https://cloudflareinsights.com/cdn-cgi/rum",
+            "type": "other",
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://play.decentraland.org",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://decentraland.org/images/icons/favicon-32x32.png",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
+        },
+        {
+            "requestContext": [
+                "https://play.decentraland.org/"
+            ],
+            "url": "https://decentraland.org/images/icons/favicon-32x32.png",
+            "type": "other",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://play.decentraland.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            }
         }
     ],
     "success": true

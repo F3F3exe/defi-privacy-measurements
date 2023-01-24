@@ -170,7 +170,7 @@ const crawl = async args => {
     let pages = await browser.pages();
     let page1 = await (pages[pages.length - 1]);
     let content = await page1.url() + '\n'
-    fs.appendFile('/home/fefe/new/defi-privacy-measurements/dapp_other.txt', content, err => {
+    fs.appendFile('/home/fefe/new/defi-privacy-measurements/dapp_social.txt', content, err => {
       if (err) {
         console.log('no login found');
       }

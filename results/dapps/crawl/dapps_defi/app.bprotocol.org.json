@@ -1,0 +1,2119 @@
+{
+    "url": "https://app.bprotocol.org/liquity-app-v2/",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://app.bprotocol.org/liquity-app-v2/",
+        "walletPath": "metamask-chrome-10.22.2",
+        "destination": "../results/dapps/crawl",
+        "force": false,
+        "executablePath": "/Users/christof/.cache/puppeteer/chrome/mac-1056772/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    },
+    "timestamps": {
+        "start": 1674474358909,
+        "end": 1674474460174
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "21928.82",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "21928.255",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:04.614Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"c8a1c8587662476c997fa72f171e3fe3\",\"init\":true,\"started\":\"2023-01-23T11:46:04.613Z\",\"timestamp\":\"2023-01-23T11:46:04.613Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:05 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "2",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "21928.283",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "21928.284",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "21928.285",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:07.288Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"c8a1c8587662476c997fa72f171e3fe3\",\"init\":false,\"started\":\"2023-01-23T11:46:04.613Z\",\"timestamp\":\"2023-01-23T11:46:07.288Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:07 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "21928.286",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:07.290Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"aaf8123d1d384cecb146732bfba34d8d\",\"init\":true,\"started\":\"2023-01-23T11:46:07.288Z\",\"timestamp\":\"2023-01-23T11:46:07.288Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:07 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "21928.98",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "21928.100",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "21928.287",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "21928.289",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:07.389Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"aaf8123d1d384cecb146732bfba34d8d\",\"init\":false,\"started\":\"2023-01-23T11:46:07.288Z\",\"timestamp\":\"2023-01-23T11:46:07.388Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:07 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "21928.290",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:07.390Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"572fd67fefa843a2915332c4050340fe\",\"init\":true,\"started\":\"2023-01-23T11:46:07.388Z\",\"timestamp\":\"2023-01-23T11:46:07.388Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:07 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "21928.292",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/metrics-chart.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "21928.86",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "21928.101",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "21928.293",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:07.449Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"572fd67fefa843a2915332c4050340fe\",\"init\":false,\"started\":\"2023-01-23T11:46:07.388Z\",\"timestamp\":\"2023-01-23T11:46:07.448Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:07 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "21928.294",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:07.450Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"c0c19ae238c54a709a034e3a8c9707e8\",\"init\":true,\"started\":\"2023-01-23T11:46:07.448Z\",\"timestamp\":\"2023-01-23T11:46:07.448Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:07 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "21928.296",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:07.486Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"c0c19ae238c54a709a034e3a8c9707e8\",\"init\":false,\"started\":\"2023-01-23T11:46:07.448Z\",\"timestamp\":\"2023-01-23T11:46:07.485Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:07 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "21928.297",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:07.487Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d0bb741169164c18b9c0476cf49b7cba\",\"init\":true,\"started\":\"2023-01-23T11:46:07.485Z\",\"timestamp\":\"2023-01-23T11:46:07.485Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:07 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "3",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "21928.94",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Roboto/Roboto-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "21928.89",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-regular-400.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "21928.304",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:10.572Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d0bb741169164c18b9c0476cf49b7cba\",\"init\":false,\"started\":\"2023-01-23T11:46:07.485Z\",\"timestamp\":\"2023-01-23T11:46:10.571Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:10 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "21928.305",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:10.573Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"4b5cf5233f834c31bb4c8e3f2dab1483\",\"init\":true,\"started\":\"2023-01-23T11:46:10.571Z\",\"timestamp\":\"2023-01-23T11:46:10.571Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:10 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "85D9861D8FB484E1561546910C46F690",
+            "url": "https://app.bprotocol.org/liquity-app-v2/",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "cf-apo-via": "origin,host",
+                "cf-cache-status": "MISS",
+                "cf-ray": "78e04992de2c0208-ZRH",
+                "content-encoding": "br",
+                "content-type": "text/html; charset=utf-8",
+                "date": "Mon, 23 Jan 2023 11:46:11 GMT",
+                "etag": "W/\"liquity-app-v2/index.dea3a1dd23.html\"",
+                "feature-policy": "none",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "referrer-policy": "unsafe-url",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=7RnOqZ0jCC5MwbupPLJdK4tn1hU4jZ6xE%2BcIMrqJbsK6zgFIdbbj3PaHLixERITHu7wzycD0D2vwCSGn0lXQJ4H9q9HhRboY6k67EWGQNoACpGtRTWftWpOHYher1R6osn3A\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "x-content-type-options": "nosniff",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "21928.308",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:10.658Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"4b5cf5233f834c31bb4c8e3f2dab1483\",\"init\":false,\"started\":\"2023-01-23T11:46:10.571Z\",\"timestamp\":\"2023-01-23T11:46:10.657Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:10 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "21928.309",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:10.659Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f726a99ebab445e58cad5164f6cbd216\",\"init\":true,\"started\":\"2023-01-23T11:46:10.657Z\",\"timestamp\":\"2023-01-23T11:46:10.657Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:10 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "21928.311",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/eth_logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.2",
+            "url": "https://use.typekit.net/kdu6aax.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "strict-transport-security": "max-age=31536000; includeSubDomains;",
+                "content-encoding": "gzip",
+                "date": "Mon, 23 Jan 2023 11:46:12 GMT",
+                "server": "nginx",
+                "vary": "Accept-Encoding",
+                "content-type": "text/css;charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "private, max-age=600, stale-while-revalidate=604800",
+                "cross-origin-resource-policy": "cross-origin",
+                "timing-allow-origin": "*",
+                "content-length": "994"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.3",
+            "url": "https://app.bprotocol.org/liquity-app-v2/static/css/4.bf1df848.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:12 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "MISS",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "etag": "W/\"liquity-app-v2/static/css/4.bf1df848.chunk.5da5757d5f.css\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=7%2BoGJ9CYmBiWfhA%2F0Z5bZhX1p7Xes1d%2FkqDRjAzt4fnysWkcCTgJhJXEEohDLuaedCWROIIpZjuhN3eDtqTLER3cSLGIpK0dlx73Zk1xA4Jl8f%2F%2ByCC%2BXTpWqR084d%2FgbEMM\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css; charset=utf-8",
+                "feature-policy": "none",
+                "cf-ray": "78e049966c280208-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.4",
+            "url": "https://app.bprotocol.org/liquity-app-v2/static/css/main.ff3627ce.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:11 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "MISS",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "etag": "W/\"liquity-app-v2/static/css/main.ff3627ce.chunk.dc6464b0fb.css\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ZwQ8SLT7NhXlpFhRgqaI6C6YeM9ETVIgAVA%2F0HPaYDzp3P6rU1ZvZl9QqO51jQ9XF3WwEMcNcM1X2NXNa%2FAAEqeJQ03VhxKSCoxAcL4Rr2GbtItMCUpt1sZEsNvHzdGeqvKv\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css; charset=utf-8",
+                "feature-policy": "none",
+                "cf-ray": "78e049966c2a0208-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.5",
+            "url": "https://app.bprotocol.org/liquity-app-v2/static/js/4.4405bf21.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:12 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "MISS",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "etag": "W/\"liquity-app-v2/static/js/4.4405bf21.chunk.6012ee4e98.js\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=B7VnqMP%2BpPF%2BlnglpIBKorWt%2FVXold0Bm6%2Fqqhg0b9ML2IZUO%2FqkEj0jNxTsjfAyd0fY99806jO46dnn8lqSyijhfkqVxh8W0znX4Qo%2Bv2DNaM8J1mMY%2F4l1T0JBEIvcq8Ou\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript; charset=utf-8",
+                "feature-policy": "none",
+                "cf-ray": "78e04998f8550208-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.6",
+            "url": "https://app.bprotocol.org/liquity-app-v2/static/js/main.8abb8f41.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:12 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "MISS",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "etag": "W/\"liquity-app-v2/static/js/main.8abb8f41.chunk.5c75617b19.js\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=hMYoZhJCWLkUXHFH2Kds7j4tJxjOFRLAOYu%2Fx9s15Jp8ocYYWgVsucOyAUKq9706udJFWEXuNxmJHrBWMOB964xVeXh3XlUAtirXvBsWuAQHGbRW7lsdOQQf5EO7ipF%2FfGSH\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript; charset=utf-8",
+                "feature-policy": "none",
+                "cf-ray": "78e0499999580208-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.10",
+            "url": "https://p.typekit.net/p.css?s=1&k=kdu6aax&ht=tk&f=39494.39495.39500.39501.39504.39505.39506.39507.39508.39509&a=11597085&app=typekit&e=css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://use.typekit.net/kdu6aax.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "unused62": "8096267",
+                "date": "Mon, 23 Jan 2023 11:46:12 GMT",
+                "last-modified": "Sat, 16 Oct 2021 05:50:56 GMT",
+                "server": "nginx",
+                "etag": "\"616a6840-5\"",
+                "content-type": "text/css",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=604800",
+                "cross-origin-resource-policy": "cross-origin",
+                "accept-ranges": "bytes",
+                "content-length": "5"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.13",
+            "url": "https://app.bprotocol.org/liquity-app-v2/config.json",
+            "type": "Fetch",
+            "status": 500,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:13 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=oaGLelOnif1MkHyuEVXcjpzZQGYaLwOdT06P6whxfksvmoonGs69HLJWamfjZNDFajWElwnjaoDoS%2BkEzl6p6p19dgzTMcJ%2F5Zms1eo9dS9wtcAF7%2BJVMPdRGSwEUUHBT7Wv\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/plain;charset=UTF-8",
+                "cf-apo-via": "origin,host",
+                "cf-ray": "78e0499dd9300208-ZRH",
+                "content-length": "67"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.14",
+            "url": "https://app.bprotocol.org/liquity-app-v2/bprotocol/icon-a-1.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:13 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "MISS",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "etag": "W/\"liquity-app-v2/bprotocol/icon-a-1.4ad43e97e8.svg\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=xCqQ05FI7pe63ieq6LWmFsQIGsXq3gbXplGUjF69G%2F4jit8mkRlh31Kswzxmjh7jVaist5Wz8yy6bcr3Z5lThKyWXpYmlv0%2FLQWfgzLzuja6IdP%2B5Q2BdcyvEYtaUTsrp16C\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "feature-policy": "none",
+                "cf-ray": "78e0499e29b70208-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.15",
+            "url": "https://app.bprotocol.org/liquity-app-v2/bprotocol/icon-a-2.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:13 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "MISS",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "etag": "W/\"liquity-app-v2/bprotocol/icon-a-2.320dbc5cca.svg\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=8GdefoU5OW6gqAzvFJrpsxmxbGQbf732rGVedQOCADFaBYqi1iKFotsKaMoOliQthS8CkjwBA5Kg3gIieC%2F7P2c3rt7vPxaeKKkMImXCKspqfmdM2002UJd6iH49m0c4U1XK\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "feature-policy": "none",
+                "cf-ray": "78e0499e29ba0208-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.16",
+            "url": "https://app.bprotocol.org/liquity-app-v2/bprotocol/icon-a-3.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:12 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "MISS",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "etag": "W/\"liquity-app-v2/bprotocol/icon-a-3.90a474371b.svg\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=9U4JV760EbAh8e4UQ7XV3wLKzbTb9n3HPN7H2%2BN4cLaPfuddOBVAyhHaExRAevglftAlnoQQ3z%2FR6NJDcET7akN3oGvghP%2FRB7FlIHRkjc%2FAARAlgBXgdl9lRF3TDUi%2FYKGq\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "feature-policy": "none",
+                "cf-ray": "78e0499e29bb0208-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.17",
+            "url": "https://app.bprotocol.org/liquity-app-v2/favicon.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:13 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "MISS",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "etag": "W/\"liquity-app-v2/favicon.4348fbe6bd.svg\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=20Meb1XDpZPU3MWU8HguDEnb5M5HRmojRDlZ%2BR6pWkj1iNt1nigdNxAUJf9qG%2F7G6oK7Zg6X9GpPI3xbR%2BiwG%2BxwW2AiNtKRny2dwyyUOpDEGikFRdJNrS3HDZdDqt553TyE\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "feature-policy": "none",
+                "cf-ray": "78e0499e6a3d0208-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.48",
+            "url": "https://app.bprotocol.org/liquity-app-v2/bprotocol/group.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:13 GMT",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "MISS",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "etag": "\"liquity-app-v2/bprotocol/group.2af6042b49.png\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=i93BLAiq%2BQFYwZ7Gi44uDxQv7t0y3E0HIIg6dVeBR1Vd4o%2F7OWO4PcDSv%2Fb9%2BzsO5FRIum3RrpoXtU%2F%2B81i9Z%2BcVjFt0LCQTl8Gb9y8xyntO2TAk0onFCvKPUkKcwYZ7Ypg%2B\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "feature-policy": "none",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e0499e6a430208-ZRH",
+                "content-length": "1240656",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.49",
+            "url": "https://app.bprotocol.org/liquity-app-v2/manifest.json",
+            "type": "Manifest",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:14 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "MISS",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "etag": "W/\"liquity-app-v2/manifest.d7fc29125d.json\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=zTgHYkaLWPCb%2BoEnLGxCozOxxYoXygAfFJNFtxg8ULzq38U3rA%2FRcLbT%2FSV0YHpGPJnl2VVt1GP4K1BrswUNLm%2B7HxDufbrCuNp2i6Z4XN7e87hjF9j0BFPelklYraeIyEgx\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/json",
+                "feature-policy": "none",
+                "cf-apo-via": "origin,host",
+                "cf-ray": "78e049a49a09020d-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/"
+            ],
+            "id": "21929.50",
+            "url": "https://app.bprotocol.org/liquity-app-v2/favicon.svg",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:13 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "age": "0",
+                "x-content-type-options": "nosniff",
+                "etag": "W/\"liquity-app-v2/favicon.4348fbe6bd.svg\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=acdgdqZU7h7pqqRwJUc6ecmQZixXO1q8S3rEUqLry76RtgaKatRfZ8r9Lr16kf1V1wq0TLv9WgnZfTLS8farJq3ycnvrMdxX82y1w1SqirzlB%2Fza%2B1AWszZyNZ6JvoFirww3\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "feature-policy": "none",
+                "cf-ray": "78e049a2da8d0208-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "21928.349",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "21928.522",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:26.573Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"e198d114a1d94a2283ea76102d50d037\",\"init\":true,\"started\":\"2023-01-23T11:46:26.572Z\",\"timestamp\":\"2023-01-23T11:46:26.572Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:26 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "21928.551",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "21928.552",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lirbdzmEGwSdswbZ-5LAh"
+            ],
+            "id": "21928.368",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lirbdzmEGwSdswbZ-5LAh"
+            ],
+            "id": "21928.365",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lirbdzmEGwSdswbZ-5LAh"
+            ],
+            "id": "21928.353",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lirbdzmEGwSdswbZ-5LAh"
+            ],
+            "id": "21928.367",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lirbdzmEGwSdswbZ-5LAh"
+            ],
+            "id": "21928.553",
+            "url": "https://app.bprotocol.org/liquity-app-v2/favicon.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:28 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "HIT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "age": "15",
+                "etag": "W/\"liquity-app-v2/favicon.4348fbe6bd.svg\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=JJ5WwG8TK66VDPJtPh3arvrk6TPqWzcpbI1hhje1oNjzJk5uMB0h7UlaF6pkqihlZV2e5r01ofOS8WTF47mBs1jyKsYUXcqEGNYjxOpVKmDsJ71Ew37s7Wy43RBuEvscHDTr\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "feature-policy": "none",
+                "cf-ray": "78e04a015e8c23c7-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lirbdzmEGwSdswbZ-5LAh/confirm-permissions"
+            ],
+            "id": "21928.554",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:34.785Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"e198d114a1d94a2283ea76102d50d037\",\"init\":false,\"started\":\"2023-01-23T11:46:26.572Z\",\"timestamp\":\"2023-01-23T11:46:34.785Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:35 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lirbdzmEGwSdswbZ-5LAh/confirm-permissions"
+            ],
+            "id": "21928.555",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:34.787Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"dd4a4c8a2d074398a0fb21dec4095f7e\",\"init\":true,\"started\":\"2023-01-23T11:46:34.784Z\",\"timestamp\":\"2023-01-23T11:46:34.785Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:35 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.51",
+            "url": "https://api.coingecko.com/api/v3/simple/price?ids=liquity&vs_currencies=usd",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:36 GMT",
+                "access-control-request-method": "*",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "MISS",
+                "content-encoding": "br",
+                "x-permitted-cross-domain-policies": "none",
+                "alternate-protocol": "443:npn-spdy/2",
+                "x-xss-protection": "0",
+                "x-request-id": "349ce420-9118-4fdb-a68c-a5e9ba91c0e0",
+                "x-runtime": "0.009020",
+                "referrer-policy": "strict-origin-when-cross-origin",
+                "server": "cloudflare",
+                "etag": "W/\"cd8278f75c4fe40fd376e14b8056dbf7\"",
+                "x-download-options": "noopen",
+                "x-frame-options": "SAMEORIGIN",
+                "access-control-max-age": "7200",
+                "access-control-allow-methods": "POST, PUT, DELETE, GET, OPTIONS",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "link, per-page, total",
+                "cache-control": "public, max-age=120",
+                "content-type": "application/json; charset=utf-8",
+                "vary": "Accept-Encoding, Origin",
+                "cf-ray": "78e04a2f9c8bcc46-ZRH",
+                "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+                "expires": "Mon, 23 Jan 2023 11:48:36 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.52",
+            "url": "https://app.bprotocol.org/liquity-app-v2/lusd-icon.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:46:36 GMT",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "MISS",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "etag": "\"liquity-app-v2/lusd-icon.16713f8c45.png\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=WocG3%2BoNqlNhhM3mYVoFM9oEKtbfJKPmd%2F4AN8cBNEMF%2FJLOvwdTJwPoOv1f65vF1hznvgl1dsDbAEoapdhGTP7cXt5cVnDYvZOx37zCDObjRspr0EvELqJD6%2B8bcAtd4HLP\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "feature-policy": "none",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e04a2f9982cc42-ZRH",
+                "content-length": "6062",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#"
+            ],
+            "id": "21928.566",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:36.019Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"dd4a4c8a2d074398a0fb21dec4095f7e\",\"init\":false,\"started\":\"2023-01-23T11:46:34.784Z\",\"timestamp\":\"2023-01-23T11:46:36.018Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#"
+            ],
+            "id": "21928.567",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:46:36.020Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ea7b29d8bfc14fa99aa5d303f14d9359\",\"init\":true,\"started\":\"2023-01-23T11:46:36.018Z\",\"timestamp\":\"2023-01-23T11:46:36.018Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "8828D582CF1E7BAD8E7F3F327F8ABA3E",
+            "url": "https://app.bprotocol.org/liquity-app-v2/",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "age": "58",
+                "cf-apo-via": "origin,host",
+                "cf-cache-status": "REVALIDATED",
+                "cf-ray": "78e04b01c9bdcc42-ZRH",
+                "content-encoding": "br",
+                "content-type": "text/html; charset=utf-8",
+                "date": "Mon, 23 Jan 2023 11:47:09 GMT",
+                "etag": "W/\"liquity-app-v2/index.dea3a1dd23.html\"",
+                "feature-policy": "none",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "referrer-policy": "unsafe-url",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=IwBLKuLwOmcZBMzt%2FEN2yDk5TOUTe29SslaLJMNtmw18lHAXhPnLIsddIT74WP6%2FngKr6aAHQ8Td4Cij8J3fEcctnBbQb%2F2HUQ3PyYcVpuxxT6yyVhmFlponnL85tE2Q%2FQoL\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "x-content-type-options": "nosniff",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.54",
+            "url": "https://use.typekit.net/kdu6aax.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "strict-transport-security": "max-age=31536000; includeSubDomains;",
+                "content-encoding": "gzip",
+                "date": "Mon, 23 Jan 2023 11:46:12 GMT",
+                "server": "nginx",
+                "vary": "Accept-Encoding",
+                "content-type": "text/css;charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "private, max-age=600, stale-while-revalidate=604800",
+                "cross-origin-resource-policy": "cross-origin",
+                "timing-allow-origin": "*",
+                "content-length": "994"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.55",
+            "url": "https://app.bprotocol.org/liquity-app-v2/static/css/4.bf1df848.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:47:09 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "age": "57",
+                "x-content-type-options": "nosniff",
+                "etag": "W/\"liquity-app-v2/static/css/4.bf1df848.chunk.5da5757d5f.css\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ype6Kk0y8JUP2y51z1uHzwEhSf2rx6oWQfXQEi635aHkMuVL2IAFC6kKIA6BPWA5iMZ14l9zX9dH37EH6fTn%2Bw8iXsMlh%2FVFE3DnTF5Bc0Fk%2FgX%2F9%2B695WnXoMmY57QgyLD1\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css; charset=utf-8",
+                "feature-policy": "none",
+                "cf-ray": "78e04b023a4ccc42-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.56",
+            "url": "https://app.bprotocol.org/liquity-app-v2/static/css/main.ff3627ce.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:47:09 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "age": "58",
+                "x-content-type-options": "nosniff",
+                "etag": "W/\"liquity-app-v2/static/css/main.ff3627ce.chunk.dc6464b0fb.css\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=E6xBwYa0wQ9ryfFPqoEeVdizNbe0oJvZSOtNsLLerhkeVF6qfyiirXh7MPcbegsX0S57aDiWzKJwH7Jxz6HsSW3v7uCswsPICY96GgGgXybszjAhSHAgRDvNL5UQd333HXPY\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css; charset=utf-8",
+                "feature-policy": "none",
+                "cf-ray": "78e04b023a4fcc42-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.57",
+            "url": "https://app.bprotocol.org/liquity-app-v2/static/js/4.4405bf21.chunk.js",
+            "type": "Script",
+            "status": 304,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "if-none-match": "W/\"liquity-app-v2/static/js/4.4405bf21.chunk.6012ee4e98.js\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:47:09 GMT",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "age": "57",
+                "etag": "W/\"liquity-app-v2/static/js/4.4405bf21.chunk.6012ee4e98.js\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=VmGrII7b4cFUVCyfdQy4xPieSCscL0g9KOX%2FvBeoVS6EdtiDqIqSLpzvQvYxO6rBHMf19fwWJo7t%2Fd7sMmE1YGA9P4c8wNLzyVqrU%2FtGhpyanHl%2FmTzU1wLNqq%2Bk%2FSqJNV4X\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript; charset=utf-8",
+                "feature-policy": "none",
+                "cf-ray": "78e04b023a51cc42-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.58",
+            "url": "https://app.bprotocol.org/liquity-app-v2/static/js/main.8abb8f41.chunk.js",
+            "type": "Script",
+            "status": 304,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "if-none-match": "W/\"liquity-app-v2/static/js/main.8abb8f41.chunk.5c75617b19.js\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:47:09 GMT",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "age": "57",
+                "etag": "W/\"liquity-app-v2/static/js/main.8abb8f41.chunk.5c75617b19.js\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=4py1y2AQURvrxEbaPeBZ%2FX4GDrUmtLx4sIqkdc%2Bv4DXs%2FdtRQimblI70W%2B18DWcGn2kvVgdTMRj0RO1nHCtb8tX77lGjOdM1j%2FnKUcP39mMqHAbxxRpcV3jKRVcprLKLm1Bg\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript; charset=utf-8",
+                "feature-policy": "none",
+                "cf-ray": "78e04b023a55cc42-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.62",
+            "url": "https://p.typekit.net/p.css?s=1&k=kdu6aax&ht=tk&f=39494.39495.39500.39501.39504.39505.39506.39507.39508.39509&a=11597085&app=typekit&e=css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://use.typekit.net/kdu6aax.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.95",
+            "url": "https://app.bprotocol.org/liquity-app-v2/config.json",
+            "type": "Fetch",
+            "status": 500,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:47:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2B41UVsV%2FQwRe8otg9K%2BgbX6t6hlCIhRRFltkpUS%2FAvSY243baievwk3zOyLVDGc6rKzkgh8bEcc7z2evXpx%2BT0ogZp6ewHjTU6zP3I1LM6WSa5Z9GynRmhpTHxeeeL1X1cZm\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/plain;charset=UTF-8",
+                "cf-apo-via": "origin,host",
+                "cf-ray": "78e04b02aafdcc42-ZRH",
+                "content-length": "67"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.96",
+            "url": "https://app.bprotocol.org/liquity-app-v2/bprotocol/icon-a-1.svg",
+            "type": "Image",
+            "status": 304,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "if-none-match": "W/\"liquity-app-v2/bprotocol/icon-a-1.4ad43e97e8.svg\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:47:09 GMT",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "age": "56",
+                "etag": "W/\"liquity-app-v2/bprotocol/icon-a-1.4ad43e97e8.svg\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=bAqY0AfJAlpWWIDOKRpnRVlLk8rdJqw2NNkwirJD5gkBpT7HjMmm7PNwHmbbm1PmV4FXkGnIGieWRAbh9a8xE%2F93q9KZOaVY4%2BiqUPIeCDqWMe4P1zt3q0VkyAh7mHTc9MzR\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "feature-policy": "none",
+                "cf-ray": "78e04b02cb24cc42-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.97",
+            "url": "https://app.bprotocol.org/liquity-app-v2/bprotocol/icon-a-2.svg",
+            "type": "Image",
+            "status": 304,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "if-none-match": "W/\"liquity-app-v2/bprotocol/icon-a-2.320dbc5cca.svg\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:47:09 GMT",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "age": "56",
+                "etag": "W/\"liquity-app-v2/bprotocol/icon-a-2.320dbc5cca.svg\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=Q7S7r2R7vDaYuEfUUfTcb7KMmydktkifpEiZZfTt4g8RzvefPtU01U1LJfUf3EuHFLezz5a8NuD8qbNuG7Ngen0pTQlC9aqi9%2F2kos2Hee5inkjGo0c5m7Xn01NoCUoYcvMq\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "feature-policy": "none",
+                "cf-ray": "78e04b02cb27cc42-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.98",
+            "url": "https://app.bprotocol.org/liquity-app-v2/bprotocol/icon-a-3.svg",
+            "type": "Image",
+            "status": 304,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "if-none-match": "W/\"liquity-app-v2/bprotocol/icon-a-3.90a474371b.svg\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:47:09 GMT",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "age": "57",
+                "etag": "W/\"liquity-app-v2/bprotocol/icon-a-3.90a474371b.svg\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=V3ifw8HqVQu8dUhEKspFXKix06do%2FXCtBL7g5OiSKmxn91Xh%2BF8yz%2BGqxgMSQibbV9tChd5zvi7xy0Iwkv%2FwagInF9GRSdQazqJFNu3QqCoD3WdkHl7qlpzImv8Hk9%2FK5Drg\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "feature-policy": "none",
+                "cf-ray": "78e04b02cb29cc42-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.99",
+            "url": "https://app.bprotocol.org/liquity-app-v2/bprotocol/group.png",
+            "type": "Image",
+            "status": 304,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "if-none-match": "\"liquity-app-v2/bprotocol/group.2af6042b49.png\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:47:09 GMT",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "age": "56",
+                "etag": "W/\"liquity-app-v2/bprotocol/group.2af6042b49.png\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=llwY7aVv3msqdPyoNaxCpt43c5scSuB5ydhMZo2mKLWoNagMYeqvwFimpm48ZSyKuZndAGPDKlX8QjF3ZJs0hJ5DZCzzF5id0KyESm%2BrE%2BR%2BIzolvS3aZ4saiOZ6G0WHbwXO\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "feature-policy": "none",
+                "cf-ray": "78e04b02eb56cc42-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.100",
+            "url": "https://app.bprotocol.org/liquity-app-v2/favicon.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:47:09 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "age": "56",
+                "x-content-type-options": "nosniff",
+                "etag": "W/\"liquity-app-v2/favicon.4348fbe6bd.svg\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=uHomaiiiQNly1QF%2BV3g22G%2B%2BZMtX9GPTo1BLu8AypsojM%2B%2F06sZ7CB6%2Bg3ecG0JinOZwNCG0dJKHATewUrO19AUIysyYrO1awXPuVkHaoOJpg6V1uRolPMmcZGvn7%2FsVjLkt\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "feature-policy": "none",
+                "cf-ray": "78e04b02eb58cc42-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.101",
+            "url": "https://app.bprotocol.org/liquity-app-v2/manifest.json",
+            "type": "Manifest",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:47:10 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "age": "56",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "unsafe-url",
+                "server": "cloudflare",
+                "etag": "W/\"liquity-app-v2/manifest.d7fc29125d.json\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ifABYEX8Rvub4QPI1jBAdfMTexU9sw2%2FmGRvwKvDAqzf21JAgaIUk1Q0GQDBgUG40ia%2Fwh%2BvU1T1M3imc%2BRAIs5TyxEk2GG2c%2Fw7wIJzI3lMlcHsDu0GmZIRd3gd8U3QfwLk\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/json",
+                "feature-policy": "none",
+                "cf-apo-via": "origin,host",
+                "cf-ray": "78e04b053b4701f4-ZRH"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.bprotocol.org/liquity-app-v2/#/"
+            ],
+            "id": "21929.102",
+            "url": "https://app.bprotocol.org/liquity-app-v2/favicon.svg",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.bprotocol.org/liquity-app-v2/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:47:10 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "unsafe-url",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "age": "57",
+                "x-content-type-options": "nosniff",
+                "etag": "W/\"liquity-app-v2/favicon.4348fbe6bd.svg\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=4j6ochLfIK3eLrprme4patkCPJdB3qPvIDzcl%2Ffyta%2FEjidfMHTg4Ob%2FsdVL2OBAaDdpUPO3aDonZ6bNv%2FuHdVXVIiHKM7R3VozB346%2FIgAikbgo4aWqqodkFuJxKUoTICw3\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "feature-policy": "none",
+                "cf-ray": "78e04b034bc1cc42-ZRH",
+                "x-xss-protection": "1; mode=block"
+            }
+        }
+    ],
+    "cookies": [],
+    "success": true,
+    "connected": true,
+    "connect_label": "CONNECT",
+    "metamask_label": "MetaMask",
+    "checkbox_clicked": false,
+    "signature_request": false,
+    "switch_network": false
+}

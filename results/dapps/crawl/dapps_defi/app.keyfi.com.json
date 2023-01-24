@@ -1,0 +1,542 @@
+{
+    "url": "https://app.keyfi.com/dashboard",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://app.keyfi.com/dashboard",
+        "walletPath": "metamask-chrome-10.22.2",
+        "destination": "../results/dapps/crawl",
+        "force": false,
+        "executablePath": "/Users/christof/.cache/puppeteer/chrome/mac-1056772/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    },
+    "timestamps": {
+        "start": 1674492599881,
+        "end": 1674492611857
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "50980.82",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "50980.255",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T16:50:06.034Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7a21669d6ec04d9090f0e08704a9bc29\",\"init\":true,\"started\":\"2023-01-23T16:50:06.034Z\",\"timestamp\":\"2023-01-23T16:50:06.034Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 16:50:07 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "50980.283",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "50980.284",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "50980.285",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T16:50:08.724Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7a21669d6ec04d9090f0e08704a9bc29\",\"init\":false,\"started\":\"2023-01-23T16:50:06.034Z\",\"timestamp\":\"2023-01-23T16:50:08.724Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 16:50:08 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "50980.286",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T16:50:08.725Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a22f9e435e4c490a811242a6241927fd\",\"init\":true,\"started\":\"2023-01-23T16:50:08.723Z\",\"timestamp\":\"2023-01-23T16:50:08.723Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 16:50:08 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "50980.98",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "50980.100",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "50980.287",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "50980.289",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T16:50:08.845Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a22f9e435e4c490a811242a6241927fd\",\"init\":false,\"started\":\"2023-01-23T16:50:08.723Z\",\"timestamp\":\"2023-01-23T16:50:08.845Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 16:50:08 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "50980.290",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T16:50:08.846Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d6542a8bead84f70a37b75f60b5f8fb3\",\"init\":true,\"started\":\"2023-01-23T16:50:08.845Z\",\"timestamp\":\"2023-01-23T16:50:08.845Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 16:50:08 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "50980.292",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/metrics-chart.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "50980.86",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "50980.101",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "50980.293",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 429,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T16:50:08.900Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d6542a8bead84f70a37b75f60b5f8fb3\",\"init\":false,\"started\":\"2023-01-23T16:50:08.845Z\",\"timestamp\":\"2023-01-23T16:50:08.899Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Mon, 23 Jan 2023 16:50:09 GMT",
+                "server": "nginx",
+                "connection": "keep-alive",
+                "etag": "\"60e4059e-3\"",
+                "content-length": "3",
+                "content-type": "text/plain"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "50980.294",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T16:50:08.901Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a00126a325b34dc49a808785855d92e4\",\"init\":true,\"started\":\"2023-01-23T16:50:08.899Z\",\"timestamp\":\"2023-01-23T16:50:08.899Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 16:50:09 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "50980.296",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 429,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T16:50:08.923Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a00126a325b34dc49a808785855d92e4\",\"init\":false,\"started\":\"2023-01-23T16:50:08.899Z\",\"timestamp\":\"2023-01-23T16:50:08.923Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Mon, 23 Jan 2023 16:50:09 GMT",
+                "server": "nginx",
+                "connection": "keep-alive",
+                "etag": "\"60e4059e-3\"",
+                "content-length": "3",
+                "content-type": "text/plain"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "50980.297",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 429,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T16:50:08.924Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"93a230d5d80449c3919dd0131fb1c9f2\",\"init\":true,\"started\":\"2023-01-23T16:50:08.923Z\",\"timestamp\":\"2023-01-23T16:50:08.923Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Mon, 23 Jan 2023 16:50:09 GMT",
+                "server": "nginx",
+                "connection": "keep-alive",
+                "etag": "\"60e4059e-3\"",
+                "content-length": "3",
+                "content-type": "text/plain"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "50980.94",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Roboto/Roboto-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "50980.89",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-regular-400.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        }
+    ],
+    "cookies": [],
+    "success": false,
+    "connected": false,
+    "msg": "Error: Navigation failed because browser has disconnected!"
+}

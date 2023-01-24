@@ -1,0 +1,3528 @@
+{
+    "url": "https://app.behodler.io/apps",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://app.behodler.io/apps",
+        "walletPath": "metamask-chrome-10.22.2",
+        "destination": "../results/dapps/crawl",
+        "force": false,
+        "executablePath": "/Users/christof/.cache/puppeteer/chrome/mac-1056772/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    },
+    "timestamps": {
+        "start": 1674478725294,
+        "end": 1674478827641
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "26164.82",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "26164.255",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:51.084Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1e97a763206b4306a30b4f707266f226\",\"init\":true,\"started\":\"2023-01-23T12:58:51.084Z\",\"timestamp\":\"2023-01-23T12:58:51.084Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:52 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "26164.283",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "26164.284",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "26164.285",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:53.808Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1e97a763206b4306a30b4f707266f226\",\"init\":false,\"started\":\"2023-01-23T12:58:51.084Z\",\"timestamp\":\"2023-01-23T12:58:53.808Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:53 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "26164.286",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:53.809Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"0caa38ad9e204d39bf033a72d99ec88a\",\"init\":true,\"started\":\"2023-01-23T12:58:53.808Z\",\"timestamp\":\"2023-01-23T12:58:53.808Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:53 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "26164.98",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "26164.100",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "26164.287",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "26164.289",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:53.919Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"0caa38ad9e204d39bf033a72d99ec88a\",\"init\":false,\"started\":\"2023-01-23T12:58:53.808Z\",\"timestamp\":\"2023-01-23T12:58:53.919Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:54 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "26164.290",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:53.920Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"dcc630aee2aa45918f46650cceec0c1c\",\"init\":true,\"started\":\"2023-01-23T12:58:53.919Z\",\"timestamp\":\"2023-01-23T12:58:53.919Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:54 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "26164.292",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/metrics-chart.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "26164.86",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "26164.101",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "26164.293",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:53.966Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"dcc630aee2aa45918f46650cceec0c1c\",\"init\":false,\"started\":\"2023-01-23T12:58:53.919Z\",\"timestamp\":\"2023-01-23T12:58:53.966Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:54 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "26164.294",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:53.967Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"c6eb81e4c97b4ad79b6c91b32bbecdc2\",\"init\":true,\"started\":\"2023-01-23T12:58:53.966Z\",\"timestamp\":\"2023-01-23T12:58:53.966Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:54 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "26164.296",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:53.984Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"c6eb81e4c97b4ad79b6c91b32bbecdc2\",\"init\":false,\"started\":\"2023-01-23T12:58:53.966Z\",\"timestamp\":\"2023-01-23T12:58:53.984Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:54 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "26164.297",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:53.985Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8d729d9276984d7491aefbdc511f9257\",\"init\":true,\"started\":\"2023-01-23T12:58:53.984Z\",\"timestamp\":\"2023-01-23T12:58:53.984Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:54 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "26164.94",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Roboto/Roboto-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "26164.89",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-regular-400.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "26164.304",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:56.921Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8d729d9276984d7491aefbdc511f9257\",\"init\":false,\"started\":\"2023-01-23T12:58:53.984Z\",\"timestamp\":\"2023-01-23T12:58:56.921Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:57 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "26164.305",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:56.922Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8c8ddd548ef145b2bf7035c351ce6513\",\"init\":true,\"started\":\"2023-01-23T12:58:56.921Z\",\"timestamp\":\"2023-01-23T12:58:56.921Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:57 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "BF42BE61FD36C3CE8BEED0F32FECB91A",
+            "url": "https://app.behodler.io/apps",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "age": "60937",
+                "content-encoding": "br",
+                "content-type": "text/html",
+                "date": "Sun, 22 Jan 2023 20:03:21 GMT",
+                "etag": "W/\"8873a8f3479633bc13c59b731fa30b49\"",
+                "last-modified": "Sun, 17 Oct 2021 09:42:15 GMT",
+                "server": "AmazonS3",
+                "vary": "Accept-Encoding",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "x-amz-cf-id": "9foqF3Uk-78CrxhhsGcZOKaFSgoSBmDDc00F1Aeak6b5FKBR4oDrBQ==",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-cache": "Error from cloudfront"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "26164.307",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:56.970Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8c8ddd548ef145b2bf7035c351ce6513\",\"init\":false,\"started\":\"2023-01-23T12:58:56.921Z\",\"timestamp\":\"2023-01-23T12:58:56.969Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:57 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "26164.308",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:58:56.971Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d9ae9f6cbc5a4f3c920e0171c41dadc3\",\"init\":true,\"started\":\"2023-01-23T12:58:56.969Z\",\"timestamp\":\"2023-01-23T12:58:56.969Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:57 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "5",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "26164.310",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/eth_logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.2",
+            "url": "https://app.behodler.io/static/css/4.a292c540.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:38:55 GMT",
+                "content-encoding": "br",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:15 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "4803",
+                "etag": "W/\"588c588cb4210ca60b0dbcf1e21d6f84\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "text/css",
+                "x-amz-cf-id": "m5d92IWYKCdapqPrvVtGaGwxxuLV-AKGV1IfmrhaoeAyr4DktvHkqw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.3",
+            "url": "https://app.behodler.io/static/css/main.f74235e8.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sun, 22 Jan 2023 20:36:59 GMT",
+                "content-encoding": "br",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:15 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "58919",
+                "etag": "W/\"2a933d406dfa5dcc326fb3f808991a52\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "text/css",
+                "x-amz-cf-id": "gXRblABh81-FNOC42i9yD5DMYoUEAi1ohB4itQ7U8GU8v6OrIrQ_ag=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.4",
+            "url": "https://app.behodler.io/static/js/4.fa854fff.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sun, 22 Jan 2023 23:44:19 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:16 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "47679",
+                "etag": "W/\"af8467c18e2384e9f4e007bbefdfa07e-2\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "application/javascript",
+                "x-amz-cf-id": "aZGrtv0aVrpdSzUL0OpZyEUIKmz-8ZGfLjUixOKsOtQspqoIpwSSqw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.5",
+            "url": "https://app.behodler.io/static/js/main.87029cae.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:58 GMT",
+                "content-encoding": "br",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:17 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "W/\"e4c628f85666ced38ac7dbe28c27cd05\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/javascript",
+                "x-amz-cf-id": "GlUCBkNCH1aVcvlgSAcVAml5TgAHNajjoh1s89tU5X0beAyj17sYSQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.10",
+            "url": "https://yearn.science/static/tokenlist.json",
+            "type": "Fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.11",
+            "url": "https://raw.githubusercontent.com/compound-finance/token-list/master/compound.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "962de5f949322e9c6ccbb0ab2fe274e01961d250",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache": "MISS",
+                "x-cache-hits": "0",
+                "content-length": "3844",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220064-HHN",
+                "x-github-request-id": "A4C2:191D:7D59FA:A759A2:63CE8493",
+                "x-timer": "S1674478740.837853,VS0,VE90",
+                "etag": "W/\"e0f4798cabc5703161b931b5d659e3f78169d6818f71ec1ffb7b58d0ff42feec\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Mon, 23 Jan 2023 13:03:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.12",
+            "url": "https://umaproject.org/uma.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=63072000",
+                "age": "78513",
+                "content-disposition": "inline; filename=\"uma.tokenlist.json\"",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "strict-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::m2gjv-1674478739564-df36159c4e01",
+                "x-matched-path": "/uma.tokenlist.json",
+                "etag": "W/\"93838acf6cd342ec80a4d07ad780753e\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "DENY",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "permissions-policy": "geolocation=(self), microphone=()"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.13",
+            "url": "https://nftx.ethereumdb.com/v1/tokenlist/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sun, 22 Jan 2023 21:43:14 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 google",
+                "server": "NFTX API",
+                "age": "54945",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=60,public",
+                "access-control-allow-headers": "Authorization, Content-Type",
+                "content-length": "2296",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.14",
+            "url": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/set.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "3c9736aa57d364cc9766518fd58c738a5081cc46",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache": "MISS",
+                "x-cache-hits": "0",
+                "content-length": "4810",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220064-HHN",
+                "x-github-request-id": "0C2E:47E3:E7BA5:2E6D65:63CE8493",
+                "x-timer": "S1674478740.837833,VS0,VE101",
+                "etag": "W/\"faf3c13f45ce4bf051d669bb3ebbc3a6689b44226d3111f028058fe47bab4a66\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Mon, 23 Jan 2023 13:03:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.15",
+            "url": "https://raw.githubusercontent.com/opynfinance/opyn-tokenlist/master/opyn-v1.tokenlist.json",
+            "type": "Fetch",
+            "status": 404,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "964182b5371891468513a2c1efc48083300b8d45",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "x-cache": "MISS",
+                "content-length": "14",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220064-HHN",
+                "x-github-request-id": "3130:3E8A:3089FC:537783:63CE8493",
+                "x-timer": "S1674478740.837819,VS0,VE93",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "accept-ranges": "bytes",
+                "expires": "Mon, 23 Jan 2023 13:03:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.16",
+            "url": "https://app.tryroll.com/tokens.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "gzip",
+                "cf-cache-status": "HIT",
+                "server": "cloudflare",
+                "age": "4804",
+                "etag": "W/\"3ebf-Z7wm5a51+80jZPu03IujC6jLID4\"",
+                "x-powered-by": "Express",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Authorization",
+                "cache-control": "public, max-age=14400",
+                "cf-ray": "78e0b43bfe55bb61-FRA",
+                "expires": "Mon, 23 Jan 2023 16:58:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.17",
+            "url": "https://www.gemini.com/uniswap/manifest.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQFBBRFF1EV0B5ZK16VPB764",
+                "date": "Mon, 23 Jan 2023 04:54:32 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "via": "1.1 e1532b3ffd3d84bfecb9972a863a75ee.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "29068",
+                "x-cache": "Miss from cloudfront",
+                "content-length": "4064",
+                "x-xss-protection": "1; mode=block",
+                "server": "Netlify",
+                "etag": "\"e6702264272ea85d23df038f01604fed-ssl\"",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "RmyhMzW29wSphdq6-i5xtsjkWBmFCE6D6VOzKcclHByHto3aRSzNbQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.18",
+            "url": "https://unpkg.com/quickswap-default-token-list@1.0.39/build/quickswap-default.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "via": "1.1 fly.io",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "age": "1667062",
+                "last-modified": "Sat, 26 Oct 1985 08:15:00 GMT",
+                "fly-request-id": "01GNXNH0SSPZGQ39QMZM4XATMY-fra",
+                "server": "cloudflare",
+                "etag": "W/\"3c09-rBI9fl4Yo6bVOqz2lmqShYEuES8\"",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "cf-ray": "78e0b43bdc400221-ZRH"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.19",
+            "url": "https://app.behodler.io/static/js/12.8f90e38f.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:38:56 GMT",
+                "content-encoding": "br",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:15 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "4804",
+                "etag": "W/\"fcdc3c3422103a60aa4e2aafed6904ef\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "application/javascript",
+                "x-amz-cf-id": "C3mdwPVvxOXmW7RDGoUwnl1315c8SKL1sGwaM6EjlkkJOOuANrfA5g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.20",
+            "url": "https://app.behodler.io/images/favicon-32x32.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:00 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:04 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"3ecbce8de6e8a95c485d70f5f851f861\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "2795",
+                "x-amz-cf-id": "_0pCFNyQyiJBMsCjrsIEvCd2wnz4njGCnRD7of-3YNbqeKBlBA1tcg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.23",
+            "url": "https://app.behodler.io/static/media/dm-sans-latin-400-normal.9566aaac.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/static/css/4.a292c540.chunk.css",
+                "origin": "https://app.behodler.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:00 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"ad513518b8de790106aefb37f7304835\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "binary/octet-stream",
+                "accept-ranges": "bytes",
+                "content-length": "18076",
+                "x-amz-cf-id": "yFEna4Fj_wHOuLDWbPZ-7PAqXiiQpPf1sz5-rr-ACSHjLoBwKbTehg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.28",
+            "url": "https://app.behodler.io/static/media/scx-logo.5af50162.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:00 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:27 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"67cd4c9d4e07f7f7d75b47cc55a50a82\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "71063",
+                "x-amz-cf-id": "oDVOSy6Cy7wEEKdgUqWtf3zLg_FxqPHgN8RGWVcXdwpPA3R5ya023A=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.29",
+            "url": "https://app.behodler.io/manifest.json",
+            "type": "Manifest",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:01 GMT",
+                "via": "1.1 25d46f0dbca17b9a78cca036e17d8ad2.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:15 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"29b34914ad8236265cda0dcb8170ff26\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "accept-ranges": "bytes",
+                "content-length": "493",
+                "x-amz-cf-id": "yJvS-NgKhU6PAkbwLlqBfpF58I7sq_LJUApoa41NX5oqh-9IIhyABQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.30",
+            "url": "https://app.behodler.io/images/favicon-32x32.png",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:00 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:04 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"3ecbce8de6e8a95c485d70f5f851f861\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "2795",
+                "x-amz-cf-id": "_0pCFNyQyiJBMsCjrsIEvCd2wnz4njGCnRD7of-3YNbqeKBlBA1tcg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.31",
+            "url": "https://app.behodler.io/images/logo-192x192.png",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:01 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:04 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"20b2222dd0357fd88cb0876343ec3325\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "16239",
+                "x-amz-cf-id": "vkvlbFTmH9J5-vLiOXMwoNfzYcHc53GuRgQa48P1gShXhFfc2yvpZg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.32",
+            "url": "https://app.behodler.io/static/media/metamask.02e3ec27.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:00 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:26 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "4811",
+                "etag": "\"023762b6aec2a2249b8fdfb638f00ef3\"",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "114217",
+                "x-amz-cf-id": "yiaz80EsxmwLf6mqc65OnCKfPNuiNmEn7BhNXUlFal7hY9cM5Ba8Qw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.33",
+            "url": "https://app.behodler.io/static/media/walletConnectIcon.304e3277.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:00 GMT",
+                "content-encoding": "br",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:28 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "4811",
+                "etag": "W/\"8215855c185176eb79446ce8cc1f3998\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "image/svg+xml",
+                "x-amz-cf-id": "yT1y_i1-PrI-SX2YWwDU_j26ttL-8O5uj6KF2bO68PchLNgJ9zdRMg=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "26164.351",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "26164.524",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:59:13.097Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"74e0c96f33e1401fbccbe04a7ca91c63\",\"init\":true,\"started\":\"2023-01-23T12:59:13.097Z\",\"timestamp\":\"2023-01-23T12:59:13.097Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:13 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "26164.551",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "26164.552",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/ZLy9F2vIRkB5EyaxtBF0B"
+            ],
+            "id": "26164.370",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/ZLy9F2vIRkB5EyaxtBF0B"
+            ],
+            "id": "26164.367",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/ZLy9F2vIRkB5EyaxtBF0B"
+            ],
+            "id": "26164.355",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/ZLy9F2vIRkB5EyaxtBF0B"
+            ],
+            "id": "26164.369",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/ZLy9F2vIRkB5EyaxtBF0B"
+            ],
+            "id": "26164.553",
+            "url": "https://app.behodler.io/images/favicon-32x32.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:16 GMT",
+                "via": "1.1 25d46f0dbca17b9a78cca036e17d8ad2.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:04 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"3ecbce8de6e8a95c485d70f5f851f861\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "2795",
+                "x-amz-cf-id": "8APY6k36hGmOSRp2-nxEyils9T4qBPn7GPmvM-OxRXKy2FvTU5QVKg=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/ZLy9F2vIRkB5EyaxtBF0B/confirm-permissions"
+            ],
+            "id": "26164.554",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:59:21.336Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"74e0c96f33e1401fbccbe04a7ca91c63\",\"init\":false,\"started\":\"2023-01-23T12:59:13.097Z\",\"timestamp\":\"2023-01-23T12:59:21.336Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:21 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/ZLy9F2vIRkB5EyaxtBF0B/confirm-permissions"
+            ],
+            "id": "26164.555",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:59:21.339Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"326c59348a354834aea8272c11c6cc72\",\"init\":true,\"started\":\"2023-01-23T12:59:21.335Z\",\"timestamp\":\"2023-01-23T12:59:21.336Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:21 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "2",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.37",
+            "url": "https://app.behodler.io/static/media/bonfire.9d976e70.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:21 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"01b022954c0ab145611a521676d94225\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "RefreshHit from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "38543",
+                "x-amz-cf-id": "oT6uBXXhQWrcHkDVN-k2uGnqB6VfedFBpEtGJPuJu5eIrR3_JOYDmg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.38",
+            "url": "https://app.behodler.io/static/media/limbo.5d3c627e.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:24 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"af07b6f0349ddb3b7e71f2719d87ef3a\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "RefreshHit from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "40859",
+                "x-amz-cf-id": "_2CQMr4eehQ1kcLDXOnofPPkLSSLpYgAbAO6D_k3klCGE-rSwZ6ZTg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.39",
+            "url": "https://app.behodler.io/static/media/pyrotokens.0ecb40ef.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:27 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"c03fd6bee4194730f71ba419a06969fc\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "RefreshHit from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "40464",
+                "x-amz-cf-id": "BSu1l12zXrJXPQ6C8NPdF_CkDnkYNG3LxIw4BlxxMtL-qTzSJdDICw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.40",
+            "url": "https://yearn.science/static/tokenlist.json",
+            "type": "Fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.41",
+            "url": "https://raw.githubusercontent.com/compound-finance/token-list/master/compound.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "962de5f949322e9c6ccbb0ab2fe274e01961d250",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "x-cache": "MISS",
+                "content-length": "3844",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220064-HHN",
+                "x-github-request-id": "A4C2:191D:7D59FA:A759A2:63CE8493",
+                "x-timer": "S1674478740.837853,VS0,VE90",
+                "etag": "W/\"e0f4798cabc5703161b931b5d659e3f78169d6818f71ec1ffb7b58d0ff42feec\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Mon, 23 Jan 2023 13:03:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.42",
+            "url": "https://umaproject.org/uma.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:21 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "age": "78513",
+                "content-disposition": "inline; filename=\"uma.tokenlist.json\"",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "strict-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1::dd64t-1674478761535-5be505c55474",
+                "x-matched-path": "/uma.tokenlist.json",
+                "x-vercel-cache": "MISS",
+                "etag": "W/\"93838acf6cd342ec80a4d07ad780753e\"",
+                "x-frame-options": "DENY",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "permissions-policy": "geolocation=(self), microphone=()"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.43",
+            "url": "https://nftx.ethereumdb.com/v1/tokenlist/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 google",
+                "server": "NFTX API",
+                "age": "22",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=60,public",
+                "access-control-allow-headers": "Authorization, Content-Type",
+                "content-length": "2296",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.44",
+            "url": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/set.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "3c9736aa57d364cc9766518fd58c738a5081cc46",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "x-cache": "MISS",
+                "content-length": "4810",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220064-HHN",
+                "x-github-request-id": "0C2E:47E3:E7BA5:2E6D65:63CE8493",
+                "x-timer": "S1674478740.837833,VS0,VE101",
+                "etag": "W/\"faf3c13f45ce4bf051d669bb3ebbc3a6689b44226d3111f028058fe47bab4a66\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Mon, 23 Jan 2023 13:03:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.45",
+            "url": "https://raw.githubusercontent.com/opynfinance/opyn-tokenlist/master/opyn-v1.tokenlist.json",
+            "type": "Fetch",
+            "status": 404,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "964182b5371891468513a2c1efc48083300b8d45",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "x-content-type-options": "nosniff",
+                "x-cache-hits": "0",
+                "via": "1.1 varnish",
+                "x-cache": "MISS",
+                "content-length": "14",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220064-HHN",
+                "x-github-request-id": "3130:3E8A:3089FC:537783:63CE8493",
+                "x-timer": "S1674478740.837819,VS0,VE93",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "accept-ranges": "bytes",
+                "expires": "Mon, 23 Jan 2023 13:03:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.46",
+            "url": "https://app.tryroll.com/tokens.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "gzip",
+                "cf-cache-status": "HIT",
+                "server": "cloudflare",
+                "age": "4804",
+                "etag": "W/\"3ebf-Z7wm5a51+80jZPu03IujC6jLID4\"",
+                "x-powered-by": "Express",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Authorization",
+                "cache-control": "public, max-age=14400",
+                "cf-ray": "78e0b43bfe55bb61-FRA",
+                "expires": "Mon, 23 Jan 2023 16:58:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.47",
+            "url": "https://www.gemini.com/uniswap/manifest.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQFBCDKWPDNGN5MEWJQ8Q2BZ",
+                "date": "Mon, 23 Jan 2023 06:59:16 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "via": "1.1 e1532b3ffd3d84bfecb9972a863a75ee.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "21606",
+                "x-cache": "Miss from cloudfront",
+                "content-length": "4064",
+                "x-xss-protection": "1; mode=block",
+                "server": "Netlify",
+                "etag": "\"e6702264272ea85d23df038f01604fed-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "1ZFFHBlhZ_EZB1XKd2C0J7p1cGO5spYsAvMKgVkC-HN7E8kBEgBmmA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.48",
+            "url": "https://unpkg.com/quickswap-default-token-list@1.0.39/build/quickswap-default.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "via": "1.1 fly.io",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "age": "1667062",
+                "last-modified": "Sat, 26 Oct 1985 08:15:00 GMT",
+                "fly-request-id": "01GNXNH0SSPZGQ39QMZM4XATMY-fra",
+                "server": "cloudflare",
+                "etag": "W/\"3c09-rBI9fl4Yo6bVOqz2lmqShYEuES8\"",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "cf-ray": "78e0b43bdc400221-ZRH"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.49",
+            "url": "https://app.behodler.io/static/media/tentacles.a5047b64.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:28 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"8447bb2c0c2dcb537cc2dfc2d1e374d8\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "697179",
+                "x-amz-cf-id": "Mrgz8bxkdYCiBw6k_2GRZIGQOjbtBmYrFLtpSrm0qhtzYQHXvsLq2A=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.26",
+            "url": "https://app.behodler.io/static/media/SVN-Gilroy-Medium.bc38048a.otf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/static/css/main.f74235e8.chunk.css",
+                "origin": "https://app.behodler.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:20 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"1ae06bc5340fe8ecc9689f7435f4d57e\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "binary/octet-stream",
+                "accept-ranges": "bytes",
+                "content-length": "100732",
+                "x-amz-cf-id": "Rbg2wGZVq_kp9fqXHG3q-E-8b_akHSQN0cPuA-VfHXUw_KZRw6i1-A=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.25",
+            "url": "https://app.behodler.io/static/media/SVN-Gilroy-Regular.6b1bcdc2.otf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/static/css/main.f74235e8.chunk.css",
+                "origin": "https://app.behodler.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:05 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:20 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "4817",
+                "etag": "\"6655e711b71fad445f2fc2e071ea6f5b\"",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "binary/octet-stream",
+                "accept-ranges": "bytes",
+                "content-length": "97732",
+                "x-amz-cf-id": "iIv3g_xkm65mPjN51TOjsCUXU7PuwMY-Z75yP_CYrU3PygiiNJLslg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.51",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmTP6pKCE6HQGohYJCjMmHLqLUfScHKWic3L3Cg5yah6J9/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "age": "84070",
+                "x-ipfs-root": "QmTP6pKCE6HQGohYJCjMmHLqLUfScHKWic3L3Cg5yah6J9",
+                "x-cf-ipfs-cache-status": "hit",
+                "server": "cloudflare",
+                "x-ipfs-roots": "QmTP6pKCE6HQGohYJCjMmHLqLUfScHKWic3L3Cg5yah6J9",
+                "etag": "W/\"QmTP6pKCE6HQGohYJCjMmHLqLUfScHKWic3L3Cg5yah6J9\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Content-Length, Content-Range, X-Chunked-Output, X-Ipfs-Path, X-Ipfs-Roots, X-Stream-Output",
+                "cache-control": "public, max-age=29030400, immutable",
+                "x-ipfs-path": "/ipfs/QmTP6pKCE6HQGohYJCjMmHLqLUfScHKWic3L3Cg5yah6J9/",
+                "cf-ray": "78e0b4c83d2023f7-ZRH",
+                "access-control-allow-headers": "Content-Type, Range, User-Agent, X-Requested-With"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.52",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmPe1JqDyNy7Jd9wFmqBEkgMW6BQHwJgeX1RAErnKfVfh7/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "age": "54236",
+                "x-ipfs-root": "QmPe1JqDyNy7Jd9wFmqBEkgMW6BQHwJgeX1RAErnKfVfh7",
+                "x-cf-ipfs-cache-status": "hit",
+                "server": "cloudflare",
+                "x-ipfs-roots": "QmPe1JqDyNy7Jd9wFmqBEkgMW6BQHwJgeX1RAErnKfVfh7",
+                "etag": "W/\"QmPe1JqDyNy7Jd9wFmqBEkgMW6BQHwJgeX1RAErnKfVfh7\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Content-Length, Content-Range, X-Chunked-Output, X-Ipfs-Path, X-Ipfs-Roots, X-Stream-Output",
+                "cache-control": "public, max-age=29030400, immutable",
+                "x-ipfs-path": "/ipfs/QmPe1JqDyNy7Jd9wFmqBEkgMW6BQHwJgeX1RAErnKfVfh7/",
+                "cf-ray": "78e0b4c83d1d23f7-ZRH",
+                "access-control-allow-headers": "Content-Type, Range, User-Agent, X-Requested-With"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.53",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmZcSgNpUR55HpAVJcYnn382aUgfYsuEvgVCZFqCc9sWCa/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "age": "82846",
+                "x-ipfs-root": "QmZcSgNpUR55HpAVJcYnn382aUgfYsuEvgVCZFqCc9sWCa",
+                "x-cf-ipfs-cache-status": "hit",
+                "server": "cloudflare",
+                "x-ipfs-roots": "QmZcSgNpUR55HpAVJcYnn382aUgfYsuEvgVCZFqCc9sWCa",
+                "etag": "W/\"QmZcSgNpUR55HpAVJcYnn382aUgfYsuEvgVCZFqCc9sWCa\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Content-Length, Content-Range, X-Chunked-Output, X-Ipfs-Path, X-Ipfs-Roots, X-Stream-Output",
+                "cache-control": "public, max-age=29030400, immutable",
+                "x-ipfs-path": "/ipfs/QmZcSgNpUR55HpAVJcYnn382aUgfYsuEvgVCZFqCc9sWCa/",
+                "cf-ray": "78e0b4c83d1c23f7-ZRH",
+                "access-control-allow-headers": "Content-Type, Range, User-Agent, X-Requested-With"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.54",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmSqZwqrdh51sTs6SX2QsbGg4Ahdyfa5cthsV414sp4Bzp/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "age": "67591",
+                "x-ipfs-root": "QmSqZwqrdh51sTs6SX2QsbGg4Ahdyfa5cthsV414sp4Bzp",
+                "x-cf-ipfs-cache-status": "hit",
+                "server": "cloudflare",
+                "x-ipfs-roots": "QmSqZwqrdh51sTs6SX2QsbGg4Ahdyfa5cthsV414sp4Bzp",
+                "etag": "W/\"QmSqZwqrdh51sTs6SX2QsbGg4Ahdyfa5cthsV414sp4Bzp\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Content-Length, Content-Range, X-Chunked-Output, X-Ipfs-Path, X-Ipfs-Roots, X-Stream-Output",
+                "cache-control": "public, max-age=29030400, immutable",
+                "x-ipfs-path": "/ipfs/QmSqZwqrdh51sTs6SX2QsbGg4Ahdyfa5cthsV414sp4Bzp/",
+                "cf-ray": "78e0b4c83d1f23f7-ZRH",
+                "access-control-allow-headers": "Content-Type, Range, User-Agent, X-Requested-With"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.55",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmQ9GgAJcAEK2DkprxdDMrERppicfnHkkHq69Q4FWsLSKj/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "age": "32740",
+                "x-ipfs-root": "QmQ9GgAJcAEK2DkprxdDMrERppicfnHkkHq69Q4FWsLSKj",
+                "x-cf-ipfs-cache-status": "hit",
+                "server": "cloudflare",
+                "x-ipfs-roots": "QmQ9GgAJcAEK2DkprxdDMrERppicfnHkkHq69Q4FWsLSKj",
+                "etag": "W/\"QmQ9GgAJcAEK2DkprxdDMrERppicfnHkkHq69Q4FWsLSKj\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Content-Length, Content-Range, X-Chunked-Output, X-Ipfs-Path, X-Ipfs-Roots, X-Stream-Output",
+                "cache-control": "public, max-age=29030400, immutable",
+                "x-ipfs-path": "/ipfs/QmQ9GgAJcAEK2DkprxdDMrERppicfnHkkHq69Q4FWsLSKj/",
+                "cf-ray": "78e0b4c83d2223f7-ZRH",
+                "access-control-allow-headers": "Content-Type, Range, User-Agent, X-Requested-With"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.56",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmeopjrU4LAw8bDf8CfajU3smyxfy4AW9vtfASaSw3W7Ha/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "age": "32740",
+                "x-ipfs-root": "QmeopjrU4LAw8bDf8CfajU3smyxfy4AW9vtfASaSw3W7Ha",
+                "x-cf-ipfs-cache-status": "hit",
+                "server": "cloudflare",
+                "x-ipfs-roots": "QmeopjrU4LAw8bDf8CfajU3smyxfy4AW9vtfASaSw3W7Ha",
+                "etag": "W/\"QmeopjrU4LAw8bDf8CfajU3smyxfy4AW9vtfASaSw3W7Ha\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Content-Length, Content-Range, X-Chunked-Output, X-Ipfs-Path, X-Ipfs-Roots, X-Stream-Output",
+                "cache-control": "public, max-age=29030400, immutable",
+                "x-ipfs-path": "/ipfs/QmeopjrU4LAw8bDf8CfajU3smyxfy4AW9vtfASaSw3W7Ha/",
+                "cf-ray": "78e0b4c83d2523f7-ZRH",
+                "access-control-allow-headers": "Content-Type, Range, User-Agent, X-Requested-With"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#"
+            ],
+            "id": "26164.573",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:59:22.567Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"326c59348a354834aea8272c11c6cc72\",\"init\":false,\"started\":\"2023-01-23T12:59:21.335Z\",\"timestamp\":\"2023-01-23T12:59:22.567Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#"
+            ],
+            "id": "26164.574",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T12:59:22.568Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a3f142af79e248bd9cc298188998e4af\",\"init\":true,\"started\":\"2023-01-23T12:59:22.567Z\",\"timestamp\":\"2023-01-23T12:59:22.567Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "E5FC2A47FC25219F071FF1C088F748E2",
+            "url": "https://app.behodler.io/apps",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "age": "60996",
+                "content-encoding": "br",
+                "content-type": "text/html",
+                "date": "Sun, 22 Jan 2023 20:03:21 GMT",
+                "etag": "W/\"8873a8f3479633bc13c59b731fa30b49\"",
+                "last-modified": "Sun, 17 Oct 2021 09:42:15 GMT",
+                "server": "AmazonS3",
+                "vary": "Accept-Encoding",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "x-amz-cf-id": "bzOBfOx2BJpzHJwV8Jmdi4YKPCPOc7vWEyE77lhlZ1mEQTfv5J4HxQ==",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-cache": "Error from cloudfront"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.58",
+            "url": "https://app.behodler.io/static/css/4.a292c540.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:38:55 GMT",
+                "content-encoding": "br",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:15 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "4803",
+                "etag": "W/\"588c588cb4210ca60b0dbcf1e21d6f84\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "text/css",
+                "x-amz-cf-id": "m5d92IWYKCdapqPrvVtGaGwxxuLV-AKGV1IfmrhaoeAyr4DktvHkqw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.59",
+            "url": "https://app.behodler.io/static/css/main.f74235e8.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sun, 22 Jan 2023 20:36:59 GMT",
+                "content-encoding": "br",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:15 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "58919",
+                "etag": "W/\"2a933d406dfa5dcc326fb3f808991a52\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "text/css",
+                "x-amz-cf-id": "gXRblABh81-FNOC42i9yD5DMYoUEAi1ohB4itQ7U8GU8v6OrIrQ_ag=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.60",
+            "url": "https://app.behodler.io/static/js/4.fa854fff.chunk.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.61",
+            "url": "https://app.behodler.io/static/js/main.87029cae.chunk.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.66",
+            "url": "https://app.behodler.io/static/media/dm-sans-latin-400-normal.9566aaac.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/static/css/4.a292c540.chunk.css",
+                "origin": "https://app.behodler.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.68",
+            "url": "https://app.behodler.io/static/media/SVN-Gilroy-Regular.6b1bcdc2.otf",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/static/css/main.f74235e8.chunk.css",
+                "origin": "https://app.behodler.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.69",
+            "url": "https://app.behodler.io/static/media/SVN-Gilroy-Medium.bc38048a.otf",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/static/css/main.f74235e8.chunk.css",
+                "origin": "https://app.behodler.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.73",
+            "url": "https://app.behodler.io/static/js/12.8f90e38f.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:38:56 GMT",
+                "content-encoding": "br",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:15 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "4804",
+                "etag": "W/\"fcdc3c3422103a60aa4e2aafed6904ef\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "application/javascript",
+                "x-amz-cf-id": "C3mdwPVvxOXmW7RDGoUwnl1315c8SKL1sGwaM6EjlkkJOOuANrfA5g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.74",
+            "url": "https://app.behodler.io/images/favicon-32x32.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:00 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:04 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"3ecbce8de6e8a95c485d70f5f851f861\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "2795",
+                "x-amz-cf-id": "_0pCFNyQyiJBMsCjrsIEvCd2wnz4njGCnRD7of-3YNbqeKBlBA1tcg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.75",
+            "url": "https://app.behodler.io/static/media/scx-logo.5af50162.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:00 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:27 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"67cd4c9d4e07f7f7d75b47cc55a50a82\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "71063",
+                "x-amz-cf-id": "oDVOSy6Cy7wEEKdgUqWtf3zLg_FxqPHgN8RGWVcXdwpPA3R5ya023A=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.76",
+            "url": "https://app.behodler.io/images/favicon-32x32.png",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:00 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:04 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"3ecbce8de6e8a95c485d70f5f851f861\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "2795",
+                "x-amz-cf-id": "_0pCFNyQyiJBMsCjrsIEvCd2wnz4njGCnRD7of-3YNbqeKBlBA1tcg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.77",
+            "url": "https://app.behodler.io/manifest.json",
+            "type": "Manifest",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:01 GMT",
+                "via": "1.1 25d46f0dbca17b9a78cca036e17d8ad2.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:15 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"29b34914ad8236265cda0dcb8170ff26\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "accept-ranges": "bytes",
+                "content-length": "493",
+                "x-amz-cf-id": "yJvS-NgKhU6PAkbwLlqBfpF58I7sq_LJUApoa41NX5oqh-9IIhyABQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.78",
+            "url": "https://app.behodler.io/images/logo-192x192.png",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:01 GMT",
+                "via": "1.1 7245e91891539560c1f484b1e46159c8.cloudfront.net (CloudFront)",
+                "last-modified": "Sun, 17 Oct 2021 09:42:04 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"20b2222dd0357fd88cb0876343ec3325\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "16239",
+                "x-amz-cf-id": "vkvlbFTmH9J5-vLiOXMwoNfzYcHc53GuRgQa48P1gShXhFfc2yvpZg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.79",
+            "url": "https://yearn.science/static/tokenlist.json",
+            "type": "Fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.80",
+            "url": "https://raw.githubusercontent.com/compound-finance/token-list/master/compound.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "962de5f949322e9c6ccbb0ab2fe274e01961d250",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "x-cache": "MISS",
+                "content-length": "3844",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220064-HHN",
+                "x-github-request-id": "A4C2:191D:7D59FA:A759A2:63CE8493",
+                "x-timer": "S1674478740.837853,VS0,VE90",
+                "etag": "W/\"e0f4798cabc5703161b931b5d659e3f78169d6818f71ec1ffb7b58d0ff42feec\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Mon, 23 Jan 2023 13:03:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.81",
+            "url": "https://umaproject.org/uma.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:57 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "age": "78513",
+                "content-disposition": "inline; filename=\"uma.tokenlist.json\"",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "strict-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1::zdmtm-1674478797540-5c5d9b5dc073",
+                "x-matched-path": "/uma.tokenlist.json",
+                "x-vercel-cache": "MISS",
+                "etag": "W/\"93838acf6cd342ec80a4d07ad780753e\"",
+                "x-frame-options": "DENY",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "permissions-policy": "geolocation=(self), microphone=()"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.82",
+            "url": "https://nftx.ethereumdb.com/v1/tokenlist/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 google",
+                "server": "NFTX API",
+                "age": "22",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=60,public",
+                "access-control-allow-headers": "Authorization, Content-Type",
+                "content-length": "2296",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.83",
+            "url": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/set.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "3c9736aa57d364cc9766518fd58c738a5081cc46",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "x-cache": "MISS",
+                "content-length": "4810",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220064-HHN",
+                "x-github-request-id": "0C2E:47E3:E7BA5:2E6D65:63CE8493",
+                "x-timer": "S1674478740.837833,VS0,VE101",
+                "etag": "W/\"faf3c13f45ce4bf051d669bb3ebbc3a6689b44226d3111f028058fe47bab4a66\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Mon, 23 Jan 2023 13:03:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.84",
+            "url": "https://raw.githubusercontent.com/opynfinance/opyn-tokenlist/master/opyn-v1.tokenlist.json",
+            "type": "Fetch",
+            "status": 404,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "964182b5371891468513a2c1efc48083300b8d45",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "x-content-type-options": "nosniff",
+                "x-cache-hits": "0",
+                "via": "1.1 varnish",
+                "x-cache": "MISS",
+                "content-length": "14",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220064-HHN",
+                "x-github-request-id": "3130:3E8A:3089FC:537783:63CE8493",
+                "x-timer": "S1674478740.837819,VS0,VE93",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "accept-ranges": "bytes",
+                "expires": "Mon, 23 Jan 2023 13:03:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.85",
+            "url": "https://app.tryroll.com/tokens.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "gzip",
+                "cf-cache-status": "HIT",
+                "server": "cloudflare",
+                "age": "4804",
+                "etag": "W/\"3ebf-Z7wm5a51+80jZPu03IujC6jLID4\"",
+                "x-powered-by": "Express",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Authorization",
+                "cache-control": "public, max-age=14400",
+                "cf-ray": "78e0b43bfe55bb61-FRA",
+                "expires": "Mon, 23 Jan 2023 16:58:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.86",
+            "url": "https://www.gemini.com/uniswap/manifest.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQFBDGV0RABMBT9XKZET41R8",
+                "date": "Mon, 23 Jan 2023 04:54:34 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "via": "1.1 e1532b3ffd3d84bfecb9972a863a75ee.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "29124",
+                "x-cache": "Miss from cloudfront",
+                "content-length": "4064",
+                "x-xss-protection": "1; mode=block",
+                "server": "Netlify",
+                "etag": "\"e6702264272ea85d23df038f01604fed-ssl\"",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "xMzsmMXgqeUF47H7xbFJ0j8emBLcN7ZeWlGrzj2WctPk5MoenI9nEw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.87",
+            "url": "https://unpkg.com/quickswap-default-token-list@1.0.39/build/quickswap-default.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:58:59 GMT",
+                "via": "1.1 fly.io",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "age": "1667062",
+                "last-modified": "Sat, 26 Oct 1985 08:15:00 GMT",
+                "fly-request-id": "01GNXNH0SSPZGQ39QMZM4XATMY-fra",
+                "server": "cloudflare",
+                "etag": "W/\"3c09-rBI9fl4Yo6bVOqz2lmqShYEuES8\"",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "cf-ray": "78e0b43bdc400221-ZRH"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.88",
+            "url": "https://app.behodler.io/static/media/bonfire.9d976e70.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.89",
+            "url": "https://app.behodler.io/static/media/limbo.5d3c627e.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.90",
+            "url": "https://app.behodler.io/static/media/pyrotokens.0ecb40ef.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.91",
+            "url": "https://app.behodler.io/static/media/tentacles.a5047b64.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/apps",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.93",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmTP6pKCE6HQGohYJCjMmHLqLUfScHKWic3L3Cg5yah6J9/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "age": "84070",
+                "x-ipfs-root": "QmTP6pKCE6HQGohYJCjMmHLqLUfScHKWic3L3Cg5yah6J9",
+                "x-cf-ipfs-cache-status": "hit",
+                "server": "cloudflare",
+                "x-ipfs-roots": "QmTP6pKCE6HQGohYJCjMmHLqLUfScHKWic3L3Cg5yah6J9",
+                "etag": "W/\"QmTP6pKCE6HQGohYJCjMmHLqLUfScHKWic3L3Cg5yah6J9\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Content-Length, Content-Range, X-Chunked-Output, X-Ipfs-Path, X-Ipfs-Roots, X-Stream-Output",
+                "cache-control": "public, max-age=29030400, immutable",
+                "x-ipfs-path": "/ipfs/QmTP6pKCE6HQGohYJCjMmHLqLUfScHKWic3L3Cg5yah6J9/",
+                "cf-ray": "78e0b4c83d2023f7-ZRH",
+                "access-control-allow-headers": "Content-Type, Range, User-Agent, X-Requested-With"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.94",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmZcSgNpUR55HpAVJcYnn382aUgfYsuEvgVCZFqCc9sWCa/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "age": "82846",
+                "x-ipfs-root": "QmZcSgNpUR55HpAVJcYnn382aUgfYsuEvgVCZFqCc9sWCa",
+                "x-cf-ipfs-cache-status": "hit",
+                "server": "cloudflare",
+                "x-ipfs-roots": "QmZcSgNpUR55HpAVJcYnn382aUgfYsuEvgVCZFqCc9sWCa",
+                "etag": "W/\"QmZcSgNpUR55HpAVJcYnn382aUgfYsuEvgVCZFqCc9sWCa\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Content-Length, Content-Range, X-Chunked-Output, X-Ipfs-Path, X-Ipfs-Roots, X-Stream-Output",
+                "cache-control": "public, max-age=29030400, immutable",
+                "x-ipfs-path": "/ipfs/QmZcSgNpUR55HpAVJcYnn382aUgfYsuEvgVCZFqCc9sWCa/",
+                "cf-ray": "78e0b4c83d1c23f7-ZRH",
+                "access-control-allow-headers": "Content-Type, Range, User-Agent, X-Requested-With"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.95",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmeopjrU4LAw8bDf8CfajU3smyxfy4AW9vtfASaSw3W7Ha/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "age": "32740",
+                "x-ipfs-root": "QmeopjrU4LAw8bDf8CfajU3smyxfy4AW9vtfASaSw3W7Ha",
+                "x-cf-ipfs-cache-status": "hit",
+                "server": "cloudflare",
+                "x-ipfs-roots": "QmeopjrU4LAw8bDf8CfajU3smyxfy4AW9vtfASaSw3W7Ha",
+                "etag": "W/\"QmeopjrU4LAw8bDf8CfajU3smyxfy4AW9vtfASaSw3W7Ha\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Content-Length, Content-Range, X-Chunked-Output, X-Ipfs-Path, X-Ipfs-Roots, X-Stream-Output",
+                "cache-control": "public, max-age=29030400, immutable",
+                "x-ipfs-path": "/ipfs/QmeopjrU4LAw8bDf8CfajU3smyxfy4AW9vtfASaSw3W7Ha/",
+                "cf-ray": "78e0b4c83d2523f7-ZRH",
+                "access-control-allow-headers": "Content-Type, Range, User-Agent, X-Requested-With"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.96",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmQ9GgAJcAEK2DkprxdDMrERppicfnHkkHq69Q4FWsLSKj/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "age": "32740",
+                "x-ipfs-root": "QmQ9GgAJcAEK2DkprxdDMrERppicfnHkkHq69Q4FWsLSKj",
+                "x-cf-ipfs-cache-status": "hit",
+                "server": "cloudflare",
+                "x-ipfs-roots": "QmQ9GgAJcAEK2DkprxdDMrERppicfnHkkHq69Q4FWsLSKj",
+                "etag": "W/\"QmQ9GgAJcAEK2DkprxdDMrERppicfnHkkHq69Q4FWsLSKj\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Content-Length, Content-Range, X-Chunked-Output, X-Ipfs-Path, X-Ipfs-Roots, X-Stream-Output",
+                "cache-control": "public, max-age=29030400, immutable",
+                "x-ipfs-path": "/ipfs/QmQ9GgAJcAEK2DkprxdDMrERppicfnHkkHq69Q4FWsLSKj/",
+                "cf-ray": "78e0b4c83d2223f7-ZRH",
+                "access-control-allow-headers": "Content-Type, Range, User-Agent, X-Requested-With"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.97",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmSqZwqrdh51sTs6SX2QsbGg4Ahdyfa5cthsV414sp4Bzp/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "age": "67591",
+                "x-ipfs-root": "QmSqZwqrdh51sTs6SX2QsbGg4Ahdyfa5cthsV414sp4Bzp",
+                "x-cf-ipfs-cache-status": "hit",
+                "server": "cloudflare",
+                "x-ipfs-roots": "QmSqZwqrdh51sTs6SX2QsbGg4Ahdyfa5cthsV414sp4Bzp",
+                "etag": "W/\"QmSqZwqrdh51sTs6SX2QsbGg4Ahdyfa5cthsV414sp4Bzp\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Content-Length, Content-Range, X-Chunked-Output, X-Ipfs-Path, X-Ipfs-Roots, X-Stream-Output",
+                "cache-control": "public, max-age=29030400, immutable",
+                "x-ipfs-path": "/ipfs/QmSqZwqrdh51sTs6SX2QsbGg4Ahdyfa5cthsV414sp4Bzp/",
+                "cf-ray": "78e0b4c83d1f23f7-ZRH",
+                "access-control-allow-headers": "Content-Type, Range, User-Agent, X-Requested-With"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.behodler.io/apps"
+            ],
+            "id": "26165.98",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmPe1JqDyNy7Jd9wFmqBEkgMW6BQHwJgeX1RAErnKfVfh7/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.behodler.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 12:59:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "age": "54236",
+                "x-ipfs-root": "QmPe1JqDyNy7Jd9wFmqBEkgMW6BQHwJgeX1RAErnKfVfh7",
+                "x-cf-ipfs-cache-status": "hit",
+                "server": "cloudflare",
+                "x-ipfs-roots": "QmPe1JqDyNy7Jd9wFmqBEkgMW6BQHwJgeX1RAErnKfVfh7",
+                "etag": "W/\"QmPe1JqDyNy7Jd9wFmqBEkgMW6BQHwJgeX1RAErnKfVfh7\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "Content-Length, Content-Range, X-Chunked-Output, X-Ipfs-Path, X-Ipfs-Roots, X-Stream-Output",
+                "cache-control": "public, max-age=29030400, immutable",
+                "x-ipfs-path": "/ipfs/QmPe1JqDyNy7Jd9wFmqBEkgMW6BQHwJgeX1RAErnKfVfh7/",
+                "cf-ray": "78e0b4c83d1d23f7-ZRH",
+                "access-control-allow-headers": "Content-Type, Range, User-Agent, X-Requested-With"
+            }
+        }
+    ],
+    "cookies": [],
+    "success": true,
+    "connected": true,
+    "connect_label": "Connect to a wallet",
+    "metamask_label": "MetaMask",
+    "checkbox_clicked": false,
+    "signature_request": false,
+    "switch_network": false
+}

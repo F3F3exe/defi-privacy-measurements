@@ -1,0 +1,3616 @@
+{
+    "url": "https://ampt.finance/dashboard",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://ampt.finance/dashboard",
+        "walletPath": "metamask-chrome-10.22.2",
+        "destination": "../results/dapps/crawl",
+        "force": false,
+        "executablePath": "/Users/christof/.cache/puppeteer/chrome/mac-1056772/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    },
+    "timestamps": {
+        "start": 1674473954873,
+        "end": 1674474051783
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "21398.82",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "21398.255",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:20.617Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"967a9f646fe74fdba4f3e73c0437c13a\",\"init\":true,\"started\":\"2023-01-23T11:39:20.617Z\",\"timestamp\":\"2023-01-23T11:39:20.617Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:21 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "21398.283",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "21398.284",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "21398.285",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:23.294Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"967a9f646fe74fdba4f3e73c0437c13a\",\"init\":false,\"started\":\"2023-01-23T11:39:20.617Z\",\"timestamp\":\"2023-01-23T11:39:23.294Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:23 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "21398.286",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:23.295Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"76914b4510514f8e964ccbb83679d4b8\",\"init\":true,\"started\":\"2023-01-23T11:39:23.293Z\",\"timestamp\":\"2023-01-23T11:39:23.293Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:23 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "21398.98",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "21398.100",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "21398.287",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "21398.289",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:23.408Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"76914b4510514f8e964ccbb83679d4b8\",\"init\":false,\"started\":\"2023-01-23T11:39:23.293Z\",\"timestamp\":\"2023-01-23T11:39:23.408Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:23 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "21398.290",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:23.409Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"cb9a8fcfe2644b11a5fd6b966592c63a\",\"init\":true,\"started\":\"2023-01-23T11:39:23.408Z\",\"timestamp\":\"2023-01-23T11:39:23.408Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:23 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "21398.292",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/metrics-chart.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "21398.86",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "21398.101",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "21398.293",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:23.453Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"cb9a8fcfe2644b11a5fd6b966592c63a\",\"init\":false,\"started\":\"2023-01-23T11:39:23.408Z\",\"timestamp\":\"2023-01-23T11:39:23.453Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:23 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "21398.294",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:23.454Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"0eee4725ad5c4616a4f3e4d2159df622\",\"init\":true,\"started\":\"2023-01-23T11:39:23.453Z\",\"timestamp\":\"2023-01-23T11:39:23.453Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:23 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "21398.296",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:23.473Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"0eee4725ad5c4616a4f3e4d2159df622\",\"init\":false,\"started\":\"2023-01-23T11:39:23.453Z\",\"timestamp\":\"2023-01-23T11:39:23.473Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:23 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "21398.297",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:23.474Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d746a35b6d8c417fab29696101f0a54a\",\"init\":true,\"started\":\"2023-01-23T11:39:23.473Z\",\"timestamp\":\"2023-01-23T11:39:23.473Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:23 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "21398.94",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Roboto/Roboto-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "21398.89",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-regular-400.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "21398.304",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:26.359Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d746a35b6d8c417fab29696101f0a54a\",\"init\":false,\"started\":\"2023-01-23T11:39:23.473Z\",\"timestamp\":\"2023-01-23T11:39:26.358Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:26 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "21398.305",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:26.360Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"9f1b618005e540a6b250a88fdd25750c\",\"init\":true,\"started\":\"2023-01-23T11:39:26.358Z\",\"timestamp\":\"2023-01-23T11:39:26.358Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:26 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "BAC33640CA6116D5C52255153960F562",
+            "url": "https://ampt.finance/dashboard",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "age": "0",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "content-encoding": "gzip",
+                "content-length": "9919",
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-type": "text/html",
+                "date": "Mon, 23 Jan 2023 11:39:30 GMT",
+                "link": "</client/06354203d45cc3224d75/main.js>;rel=\"preload\";as=\"script\", </client/06354203d45cc3224d75/dashboard.33.js>;rel=\"preload\";as=\"script\"",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "strict-transport-security": "max-age=63072000",
+                "vary": "Accept-Encoding",
+                "x-content-type-options": "nosniff",
+                "x-frame-options": "same-origin",
+                "x-vercel-cache": "MISS",
+                "x-vercel-id": "fra1::iad1::sbfqr-1674473966624-f001b452c97d",
+                "x-xss-protection": "1;mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "21398.308",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:26.422Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"9f1b618005e540a6b250a88fdd25750c\",\"init\":false,\"started\":\"2023-01-23T11:39:26.358Z\",\"timestamp\":\"2023-01-23T11:39:26.421Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:26 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "21398.309",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:26.423Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"32675889fc5e4153888c0ec3a02d7155\",\"init\":true,\"started\":\"2023-01-23T11:39:26.421Z\",\"timestamp\":\"2023-01-23T11:39:26.421Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:26 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "21398.311",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/eth_logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.2",
+            "url": "https://ampt.finance/client/06354203d45cc3224d75/main.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:30 GMT",
+                "strict-transport-security": "max-age=63072000",
+                "age": "19185",
+                "content-disposition": "inline; filename=\"main.js\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::sbfqr-1674473970968-9b1b98cc9fb8",
+                "etag": "W/\"5634ff161c446df40a5dd7e07c304fa4\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=31536000,immutable"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.3",
+            "url": "https://ampt.finance/client/06354203d45cc3224d75/dashboard.33.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:30 GMT",
+                "strict-transport-security": "max-age=63072000",
+                "age": "19181",
+                "content-disposition": "inline; filename=\"dashboard.33.js\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::txzgg-1674473970969-7185c3c10d61",
+                "etag": "W/\"86518c1205a72221f48da53352427d04\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=31536000,immutable"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.4",
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "strict-transport-security": "max-age=31536000",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "x-xss-protection": "0",
+                "last-modified": "Mon, 23 Jan 2023 10:47:11 GMT",
+                "server": "ESF",
+                "cross-origin-opener-policy": "same-origin-allow-popups",
+                "x-frame-options": "SAMEORIGIN",
+                "content-type": "text/css; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+                "timing-allow-origin": "*",
+                "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+                "expires": "Mon, 23 Jan 2023 11:39:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.6",
+            "url": "https://ampt.finance/logo-default.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=63072000",
+                "age": "7553434",
+                "content-disposition": "inline; filename=\"logo-default.png\"",
+                "content-length": "3248",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::flwdk-1674473971098-45561ba503f7",
+                "etag": "\"276b2919a0a47a6b22fec6133f8a51ba\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.7",
+            "url": "https://ampt.finance/logo-small.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=63072000",
+                "age": "7764083",
+                "content-disposition": "inline; filename=\"logo-small.png\"",
+                "content-length": "1874",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::kkzpq-1674473971121-232951600c9d",
+                "etag": "\"26f8e42fcfcb4d54de0ed5ade48511d6\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.8",
+            "url": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sun, 22 Jan 2023 18:49:34 GMT",
+                "via": "1.1 27fe4928fb2081beeb65fdbf439bb418.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 10 Nov 2022 08:49:17 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "60598",
+                "etag": "\"ae9f6b15ca809b5d92a8f305d954682b\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "923",
+                "x-amz-cf-id": "9j8G8bIgvjjcifj46UgX_LYbrQT9oQJeZW8jF4wQVFzq9V7Ne1igCQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.10",
+            "url": "https://ampt.finance/networks/polygon-icon.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=63072000",
+                "age": "7460030",
+                "content-disposition": "inline; filename=\"polygon-icon.png\"",
+                "content-length": "1618",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::xtxn5-1674473971368-bb8874da8574",
+                "etag": "\"ad311caea36dcacd6900e3271abf44d8\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.11",
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-ST6HHZWFFF",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "content-encoding": "br",
+                "strict-transport-security": "max-age=31536000; includeSubDomains",
+                "server": "Google Tag Manager",
+                "vary": "Accept-Encoding",
+                "content-type": "application/javascript; charset=UTF-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "private, max-age=900",
+                "access-control-allow-credentials": "true",
+                "cross-origin-resource-policy": "cross-origin",
+                "access-control-allow-headers": "Cache-Control",
+                "content-length": "78667",
+                "x-xss-protection": "0",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "expires": "Mon, 23 Jan 2023 11:39:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.19",
+            "url": "https://client.crisp.chat/l.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "age": "2318",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 14 Mar 2022 13:16:27 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"622f402b-20fd\"",
+                "access-control-max-age": "300",
+                "access-control-allow-methods": "HEAD, GET, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=86400",
+                "access-control-allow-credentials": "false",
+                "vary": "Accept-Encoding",
+                "cf-ray": "78e03fd40a71bb3e-FRA",
+                "access-control-allow-headers": "Content-Type, Origin",
+                "expires": "Tue, 24 Jan 2023 11:39:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.21",
+            "url": "https://ampt.finance/client/06354203d45cc3224d75/credit$45lines~credit$45lines_$id~dashboard.2.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "strict-transport-security": "max-age=63072000",
+                "age": "19182",
+                "content-disposition": "inline; filename=\"credit$45lines~credit$45lines_$id~dashboard.2.js\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::z7f7h-1674473971503-de126ece38df",
+                "etag": "W/\"4c4c72644c2ad4094f40baac7dd5a132\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=31536000,immutable"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.23",
+            "url": "https://ampt.finance/favicon.ico",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "strict-transport-security": "max-age=63072000",
+                "age": "0",
+                "content-disposition": "inline; filename=\"favicon.ico\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::xtxn5-1674473971503-b60058c37c54",
+                "etag": "W/\"332738e42f2ba479cf95a4aa572e54b3\"",
+                "x-vercel-cache": "MISS",
+                "x-frame-options": "same-origin",
+                "content-type": "image/vnd.microsoft.icon",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.59",
+            "url": "https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7W0Q5n-wU.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/",
+                "origin": "https://ampt.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 03:48:11 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "460280",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "27048",
+                "x-xss-protection": "0",
+                "last-modified": "Thu, 28 Jan 2021 22:58:49 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Thu, 18 Jan 2024 03:48:11 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.30",
+            "url": "https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://ampt.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sun, 22 Jan 2023 04:43:25 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "111366",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "37780",
+                "x-xss-protection": "0",
+                "last-modified": "Mon, 11 Jul 2022 20:54:10 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Mon, 22 Jan 2024 04:43:25 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.211",
+            "url": "https://api.thegraph.com/subgraphs/name/amplify-labs/amplify-matic",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"operationName\":\"poolsList\",\"variables\":{\"first\":100,\"orderBy\":\"createdAt\",\"orderDirection\":\"desc\",\"skip\":0,\"where\":{\"isClosed\":false}},\"query\":\"query poolsList($first: Int = 100, $orderBy: Pool_orderBy = createdAt, $orderDirection: OrderDirection = desc, $skip: Int = 0, $where: Pool_filter) {\\n  pools(\\n    first: $first\\n    orderBy: $orderBy\\n    orderDirection: $orderDirection\\n    skip: $skip\\n    where: $where\\n  ) {\\n    ...PoolFragment\\n    __typename\\n  }\\n}\\n\\nfragment PoolFragment on Pool {\\n  id\\n  name\\n  access\\n  stableCoin\\n  owner\\n  members\\n  joins\\n  minDeposit\\n  totalDeposited\\n  totalBorrowed\\n  createdAt\\n  isClosed\\n  rewardApy\\n  assetsLocked {\\n    ...AssetFragment\\n    __typename\\n  }\\n  members\\n  __typename\\n}\\n\\nfragment AssetFragment on Asset {\\n  id\\n  hash\\n  uri\\n  value\\n  riskRating\\n  maturityDate\\n  owner\\n  isLocked\\n  isRedeemed\\n  uploadedAt\\n  __typename\\n}\\n\"}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "graph-attestable": "true",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, OPTIONS, POST",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cf-ray": "78e03fd5981023af-ZRH",
+                "access-control-allow-headers": "Content-Type, User-Agent"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "63DC1684303E21A39BBC6FBDC6D48C67",
+            "url": "https://api.thegraph.com/subgraphs/name/amplify-labs/amplify-matic",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://ampt.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Content-Type, User-Agent",
+                "access-control-allow-methods": "GET, OPTIONS, POST",
+                "access-control-allow-origin": "*",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "78e03fd48e2823af-ZRH",
+                "content-encoding": "br",
+                "content-type": "text/html",
+                "date": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "vary": "Accept-Encoding"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.212",
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-ST6HHZWFFF&gtm=2oe1i0&_p=647264970&cid=1306397449.1674473972&ul=en-us&sr=3440x1440&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Mac%20OS%20X&uapv=10_15_7&uaw=0&_s=1&sid=1674473971&sct=1&seg=0&dl=https%3A%2F%2Fampt.finance%2Fdashboard&dt=%231%20marketplace%20for%20real%20asset%20pools%20-%20Amplify%20Protocol&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
+            "type": "Ping",
+            "status": 204,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "no-cache",
+                "date": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "server": "Golfe2",
+                "content-type": "text/plain",
+                "access-control-allow-origin": "https://ampt.finance",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "access-control-allow-credentials": "true",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "0",
+                "expires": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.213",
+            "url": "https://client.crisp.chat/static/javascripts/client.js?71328d6",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "age": "2318",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 13 Jun 2022 13:12:02 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"62a737a2-63a23\"",
+                "access-control-max-age": "300",
+                "access-control-allow-methods": "HEAD, GET, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=315360000",
+                "access-control-allow-credentials": "false",
+                "vary": "Accept-Encoding",
+                "cf-ray": "78e03fd44af9bb3e-FRA",
+                "access-control-allow-headers": "Content-Type, Origin",
+                "expires": "Thu, 20 Jan 2033 11:39:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.214",
+            "url": "https://client.crisp.chat/static/stylesheets/client_default.css?71328d6",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "age": "2318",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 23 Jan 2023 10:59:57 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"63ce68ad-561c1\"",
+                "access-control-max-age": "300",
+                "access-control-allow-methods": "HEAD, GET, OPTIONS",
+                "content-type": "text/css",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=315360000",
+                "access-control-allow-credentials": "false",
+                "vary": "Accept-Encoding",
+                "cf-ray": "78e03fd44afbbb3e-FRA",
+                "access-control-allow-headers": "Content-Type, Origin",
+                "expires": "Thu, 20 Jan 2033 11:39:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.445",
+            "url": "https://ampt.finance/manifest.json",
+            "type": "Manifest",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "date": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=63072000",
+                "age": "0",
+                "content-disposition": "inline; filename=\"manifest.json\"",
+                "content-length": "405",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::nf978-1674473971948-e37719bb5acc",
+                "etag": "\"092bd5e74a8cf16f06afc83ae3536a71\"",
+                "x-vercel-cache": "MISS",
+                "x-frame-options": "same-origin",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.446",
+            "url": "https://ampt.finance/favicon.ico",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "content-security-policy": "frame-ancestors 'none'",
+                "age": "0",
+                "content-disposition": "inline; filename=\"favicon.ico\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1::6c4zm-1674473971949-37d389a175ce",
+                "x-vercel-cache": "MISS",
+                "etag": "W/\"332738e42f2ba479cf95a4aa572e54b3\"",
+                "x-frame-options": "same-origin",
+                "content-type": "image/vnd.microsoft.icon",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.447",
+            "url": "https://client.crisp.chat/settings/website/f02176d3-42aa-4e66-b172-388232a5fbb7/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2023-0-23-12-39",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "MISS",
+                "content-encoding": "br",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "server": "cloudflare",
+                "access-control-max-age": "300",
+                "access-control-allow-methods": "HEAD, GET, OPTIONS",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=14400",
+                "access-control-allow-credentials": "false",
+                "vary": "Accept-Encoding",
+                "cf-ray": "78e03fd4ec50bb3e-FRA",
+                "access-control-allow-headers": "Content-Type, Origin",
+                "expires": "Mon, 23 Jan 2023 15:39:32 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.449",
+            "url": "https://ampt.finance/favicon/android-chrome-192x192.png",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "date": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=63072000",
+                "age": "0",
+                "content-disposition": "inline; filename=\"android-chrome-192x192.png\"",
+                "content-length": "8118",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::nf978-1674473972203-55a56eef7d58",
+                "etag": "\"51a04513af4a129ed809ce50432a9de6\"",
+                "x-vercel-cache": "MISS",
+                "x-frame-options": "same-origin",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.450",
+            "url": "https://ampt.finance/client/06354203d45cc3224d75/3.3.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "strict-transport-security": "max-age=63072000",
+                "age": "19185",
+                "content-disposition": "inline; filename=\"3.3.js\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::mfhsf-1674473971506-4b59cecae591",
+                "etag": "W/\"359ecef11d61bfebec5c79479be71890\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=31536000,immutable"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.451",
+            "url": "https://ampt.finance/client/06354203d45cc3224d75/56.56.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "strict-transport-security": "max-age=63072000",
+                "age": "19184",
+                "content-disposition": "inline; filename=\"56.56.js\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::ht7rh-1674473971506-216f6cc4b2bd",
+                "etag": "W/\"db7f2c3f76d744d61937b262d4573c96\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=31536000,immutable"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.452",
+            "url": "https://ampt.finance/client/06354203d45cc3224d75/57.57.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=63072000",
+                "age": "19185",
+                "content-disposition": "inline; filename=\"57.57.js\"",
+                "content-length": "101",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::6c4zm-1674473971510-0e965796f9cc",
+                "etag": "\"80662b8a3dcfcaa9fbb01ca74fd5095f\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=31536000,immutable",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.453",
+            "url": "https://api.thegraph.com/subgraphs/name/amplify-labs/amplify-matic",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"operationName\":\"dashboardInfo\",\"variables\":{},\"query\":\"query dashboardInfo($owner: Bytes!) {\\n  pools(where: {owner: $owner}) {\\n    id\\n    __typename\\n  }\\n  loans(where: {borrower: $owner}) {\\n    id\\n    available\\n    isClosed\\n    pool {\\n      stableCoin\\n      __typename\\n    }\\n    __typename\\n  }\\n  assets(where: {owner: $owner}) {\\n    id\\n    isLocked\\n    isRedeemed\\n    __typename\\n  }\\n}\\n\"}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "graph-attestable": "true",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, OPTIONS, POST",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cf-ray": "78e03fd72a9c23af-ZRH",
+                "access-control-allow-headers": "Content-Type, User-Agent"
+            }
+        },
+        {
+            "requestContext": [
+                "https://client.crisp.chat/static/javascripts/client.js?71328d6",
+                "https://client.crisp.chat/settings/website/f02176d3-42aa-4e66-b172-388232a5fbb7/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2023-0-23-12-39"
+            ],
+            "id": "21399.448",
+            "url": "wss://client.relay.crisp.chat/w/d1/?EIO=4&transport=websocket",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "40",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://client.crisp.chat/static/javascripts/client.js?71328d6",
+                "https://client.crisp.chat/settings/website/f02176d3-42aa-4e66-b172-388232a5fbb7/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2023-0-23-12-39"
+            ],
+            "id": "21399.448",
+            "url": "wss://client.relay.crisp.chat/w/d1/?EIO=4&transport=websocket",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "42[\"session:create\",{\"website_id\":\"f02176d3-42aa-4e66-b172-388232a5fbb7\",\"website_domain\":\"ampt.finance\",\"useragent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"timezone\":-60,\"capabilities\":[\"browsing\",\"call\"],\"locales\":[\"en-US\",\"en\"]}]",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "21398.348",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "https://client.crisp.chat/static/javascripts/client.js?71328d6",
+                "https://client.crisp.chat/settings/website/f02176d3-42aa-4e66-b172-388232a5fbb7/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2023-0-23-12-39"
+            ],
+            "id": "21399.448",
+            "url": "wss://client.relay.crisp.chat/w/d1/?EIO=4&transport=websocket",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "42[\"session:join\",{\"session_id\":\"session_34825348-403a-4f3a-9487-4b9842c53703\",\"expire\":300000,\"storage\":true,\"sync\":false,\"useragent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"timezone\":-60,\"capabilities\":[\"browsing\",\"call\"],\"locales\":[\"en-US\",\"en\"],\"device\":{\"page_url\":\"https://ampt.finance/dashboard\",\"page_title\":\"#1 marketplace for real asset pools - Amplify Protocol\"}}]",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "21398.521",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:32.633Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"2c51f7c030aa4b59a8517ba722374eba\",\"init\":true,\"started\":\"2023-01-23T11:39:32.632Z\",\"timestamp\":\"2023-01-23T11:39:32.632Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.459",
+            "url": "https://client.crisp.chat/settings/website/f02176d3-42aa-4e66-b172-388232a5fbb7/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&1638949328430",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "MISS",
+                "content-encoding": "br",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "server": "cloudflare",
+                "access-control-max-age": "300",
+                "access-control-allow-methods": "HEAD, GET, OPTIONS",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=14400",
+                "access-control-allow-credentials": "false",
+                "vary": "Accept-Encoding",
+                "cf-ray": "78e03fd92cbbbb3e-FRA",
+                "access-control-allow-headers": "Content-Type, Origin",
+                "expires": "Mon, 23 Jan 2023 15:39:32 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.460",
+            "url": "https://client.crisp.chat/static/javascripts/locales/en.js?71328d6",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "age": "2315",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 13 Jun 2022 13:12:02 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"62a737a2-1afd\"",
+                "access-control-max-age": "300",
+                "access-control-allow-methods": "HEAD, GET, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=315360000",
+                "access-control-allow-credentials": "false",
+                "vary": "Accept-Encoding",
+                "cf-ray": "78e03fd9fe7cbb3e-FRA",
+                "access-control-allow-headers": "Content-Type, Origin",
+                "expires": "Thu, 20 Jan 2033 11:39:32 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.461",
+            "url": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwIiB3aWR0aD0iMzUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxmaWx0ZXIgaWQ9ImEiIGhlaWdodD0iMTM4LjclIiB3aWR0aD0iMTMxLjQlIiB4PSItMTUuNyUiIHk9Ii0xNS4xJSI+PGZlTW9ycGhvbG9neSBpbj0iU291cmNlQWxwaGEiIG9wZXJhdG9yPSJkaWxhdGUiIHJhZGl1cz0iMSIgcmVzdWx0PSJzaGFkb3dTcHJlYWRPdXRlcjEiLz48ZmVPZmZzZXQgZHk9IjEiIGluPSJzaGFkb3dTcHJlYWRPdXRlcjEiIHJlc3VsdD0ic2hhZG93T2Zmc2V0T3V0ZXIxIi8+PGZlR2F1c3NpYW5CbHVyIGluPSJzaGFkb3dPZmZzZXRPdXRlcjEiIHJlc3VsdD0ic2hhZG93Qmx1ck91dGVyMSIgc3RkRGV2aWF0aW9uPSIxIi8+PGZlQ29tcG9zaXRlIGluPSJzaGFkb3dCbHVyT3V0ZXIxIiBpbjI9IlNvdXJjZUFscGhhIiBvcGVyYXRvcj0ib3V0IiByZXN1bHQ9InNoYWRvd0JsdXJPdXRlcjEiLz48ZmVDb2xvck1hdHJpeCBpbj0ic2hhZG93Qmx1ck91dGVyMSIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjA3IDAiLz48L2ZpbHRlcj48cGF0aCBpZD0iYiIgZD0iTTE0LjIzIDIwLjQ2bC05LjY1IDEuMUwzIDUuMTIgMzAuMDcgMmwxLjU4IDE2LjQ2LTkuMzcgMS4wNy0zLjUgNS43Mi00LjU1LTQuOHoiLz48L2RlZnM+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48dXNlIGZpbGw9IiMwMDAiIGZpbHRlcj0idXJsKCNhKSIgeGxpbms6aHJlZj0iI2IiLz48dXNlIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyIiB4bGluazpocmVmPSIjYiIvPjwvZz48L3N2Zz4=",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "21398.546",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "21398.547",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lxF8CcNRMMOJIcRyUFQht"
+            ],
+            "id": "21398.367",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lxF8CcNRMMOJIcRyUFQht"
+            ],
+            "id": "21398.364",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lxF8CcNRMMOJIcRyUFQht"
+            ],
+            "id": "21398.352",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lxF8CcNRMMOJIcRyUFQht"
+            ],
+            "id": "21398.366",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lxF8CcNRMMOJIcRyUFQht"
+            ],
+            "id": "21398.548",
+            "url": "https://ampt.finance/favicon.ico",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:34 GMT",
+                "strict-transport-security": "max-age=63072000",
+                "age": "2",
+                "content-disposition": "inline; filename=\"favicon.ico\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::tqf27-1674473974480-faae57c71fe4",
+                "etag": "W/\"332738e42f2ba479cf95a4aa572e54b3\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "image/vnd.microsoft.icon",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.462",
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-ST6HHZWFFF&gtm=2oe1i0&_p=647264970&cid=1306397449.1674473972&ul=en-us&sr=3440x1440&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Mac%20OS%20X&uapv=10_15_7&uaw=0&_s=2&sid=1674473971&sct=1&seg=0&dl=https%3A%2F%2Fampt.finance%2Fdashboard&dt=%231%20marketplace%20for%20real%20asset%20pools%20-%20Amplify%20Protocol&en=scroll&epn.percent_scrolled=90&_et=7",
+            "type": "Ping",
+            "status": 204,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "no-cache",
+                "date": "Mon, 23 Jan 2023 11:39:36 GMT",
+                "server": "Golfe2",
+                "content-type": "text/plain",
+                "access-control-allow-origin": "https://ampt.finance",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "access-control-allow-credentials": "true",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "0",
+                "expires": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lxF8CcNRMMOJIcRyUFQht/confirm-permissions"
+            ],
+            "id": "21398.554",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:46.346Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"2c51f7c030aa4b59a8517ba722374eba\",\"init\":false,\"started\":\"2023-01-23T11:39:32.632Z\",\"timestamp\":\"2023-01-23T11:39:46.345Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:46 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/lxF8CcNRMMOJIcRyUFQht/confirm-permissions"
+            ],
+            "id": "21398.555",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:46.347Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"b8be8e881ad143b89fefddd2088c542d\",\"init\":true,\"started\":\"2023-01-23T11:39:46.344Z\",\"timestamp\":\"2023-01-23T11:39:46.345Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:46 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#"
+            ],
+            "id": "21398.560",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:47.576Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"b8be8e881ad143b89fefddd2088c542d\",\"init\":false,\"started\":\"2023-01-23T11:39:46.344Z\",\"timestamp\":\"2023-01-23T11:39:47.576Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#"
+            ],
+            "id": "21398.561",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T11:39:47.578Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"67e6fdfbfe914f3fa448c35c72168e40\",\"init\":true,\"started\":\"2023-01-23T11:39:47.576Z\",\"timestamp\":\"2023-01-23T11:39:47.576Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://client.crisp.chat/static/javascripts/client.js?71328d6",
+                "https://client.crisp.chat/settings/website/f02176d3-42aa-4e66-b172-388232a5fbb7/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2023-0-23-12-39"
+            ],
+            "id": "21399.448",
+            "url": "wss://client.relay.crisp.chat/w/d1/?EIO=4&transport=websocket",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "3",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "173FDF58138EDA1DE9E97ED6E78E5C68",
+            "url": "https://ampt.finance/dashboard",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "age": "0",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "content-encoding": "gzip",
+                "content-length": "9927",
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-type": "text/html",
+                "date": "Mon, 23 Jan 2023 11:40:21 GMT",
+                "link": "</client/06354203d45cc3224d75/main.js>;rel=\"preload\";as=\"script\", </client/06354203d45cc3224d75/dashboard.33.js>;rel=\"preload\";as=\"script\"",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "strict-transport-security": "max-age=63072000",
+                "vary": "Accept-Encoding",
+                "x-content-type-options": "nosniff",
+                "x-frame-options": "same-origin",
+                "x-vercel-cache": "MISS",
+                "x-vercel-id": "fra1::iad1::bx57j-1674474020807-69b61b1b5b9d",
+                "x-xss-protection": "1;mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.469",
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-ST6HHZWFFF&gtm=2oe1i0&_p=647264970&cid=1306397449.1674473972&ul=en-us&sr=3440x1440&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Mac%20OS%20X&uapv=10_15_7&uaw=0&_s=3&sid=1674473971&sct=1&seg=1&dl=https%3A%2F%2Fampt.finance%2Fdashboard&dt=%231%20marketplace%20for%20real%20asset%20pools%20-%20Amplify%20Protocol&en=user_engagement&_et=35704",
+            "type": "Ping",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-credentials": "true",
+                "access-control-allow-origin": "https://ampt.finance",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "content-length": "0",
+                "content-type": "text/plain",
+                "cross-origin-resource-policy": "cross-origin",
+                "date": "Mon, 23 Jan 2023 11:40:21 GMT",
+                "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+                "pragma": "no-cache",
+                "server": "Golfe2"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.471",
+            "url": "https://ampt.finance/client/06354203d45cc3224d75/main.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:30 GMT",
+                "strict-transport-security": "max-age=63072000",
+                "age": "19185",
+                "content-disposition": "inline; filename=\"main.js\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::sbfqr-1674473970968-9b1b98cc9fb8",
+                "etag": "W/\"5634ff161c446df40a5dd7e07c304fa4\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=31536000,immutable"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.472",
+            "url": "https://ampt.finance/client/06354203d45cc3224d75/dashboard.33.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:30 GMT",
+                "strict-transport-security": "max-age=63072000",
+                "age": "19181",
+                "content-disposition": "inline; filename=\"dashboard.33.js\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::txzgg-1674473970969-7185c3c10d61",
+                "etag": "W/\"86518c1205a72221f48da53352427d04\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=31536000,immutable"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.473",
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=31536000",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "x-xss-protection": "0",
+                "last-modified": "Mon, 23 Jan 2023 10:47:11 GMT",
+                "server": "ESF",
+                "cross-origin-opener-policy": "same-origin-allow-popups",
+                "x-frame-options": "SAMEORIGIN",
+                "content-type": "text/css; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+                "timing-allow-origin": "*",
+                "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+                "expires": "Mon, 23 Jan 2023 11:39:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.475",
+            "url": "https://ampt.finance/networks/polygon-icon.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "date": "Mon, 23 Jan 2023 11:39:36 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "7460030",
+                "content-disposition": "inline; filename=\"polygon-icon.png\"",
+                "content-length": "1618",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1::txzgg-1674473976900-fc658d685004",
+                "etag": "\"ad311caea36dcacd6900e3271abf44d8\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.476",
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-ST6HHZWFFF",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "content-encoding": "br",
+                "strict-transport-security": "max-age=31536000; includeSubDomains",
+                "server": "Google Tag Manager",
+                "vary": "Accept-Encoding",
+                "content-type": "application/javascript; charset=UTF-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "private, max-age=900",
+                "access-control-allow-credentials": "true",
+                "cross-origin-resource-policy": "cross-origin",
+                "access-control-allow-headers": "Cache-Control",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "78667",
+                "x-xss-protection": "0",
+                "expires": "Mon, 23 Jan 2023 11:39:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.486",
+            "url": "https://client.crisp.chat/l.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "age": "2318",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 14 Mar 2022 13:16:27 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"622f402b-20fd\"",
+                "access-control-max-age": "300",
+                "access-control-allow-methods": "HEAD, GET, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=86400",
+                "access-control-allow-credentials": "false",
+                "vary": "Accept-Encoding",
+                "cf-ray": "78e03fd40a71bb3e-FRA",
+                "access-control-allow-headers": "Content-Type, Origin",
+                "expires": "Tue, 24 Jan 2023 11:39:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.524",
+            "url": "https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7W0Q5n-wU.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/",
+                "origin": "https://ampt.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 03:48:11 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "460280",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "27048",
+                "x-xss-protection": "0",
+                "last-modified": "Thu, 28 Jan 2021 22:58:49 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Thu, 18 Jan 2024 03:48:11 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.481",
+            "url": "https://ampt.finance/logo-default.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "date": "Mon, 23 Jan 2023 11:39:36 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "7553434",
+                "content-disposition": "inline; filename=\"logo-default.png\"",
+                "content-length": "3248",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1::h6rpj-1674473976852-855ff01100dc",
+                "etag": "\"276b2919a0a47a6b22fec6133f8a51ba\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.484",
+            "url": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sun, 22 Jan 2023 18:49:34 GMT",
+                "via": "1.1 27fe4928fb2081beeb65fdbf439bb418.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 10 Nov 2022 08:49:17 GMT",
+                "server": "AmazonS3",
+                "age": "60598",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"ae9f6b15ca809b5d92a8f305d954682b\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "923",
+                "x-amz-cf-id": "9j8G8bIgvjjcifj46UgX_LYbrQT9oQJeZW8jF4wQVFzq9V7Ne1igCQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.533",
+            "url": "https://ampt.finance/client/06354203d45cc3224d75/credit$45lines~credit$45lines_$id~dashboard.2.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "strict-transport-security": "max-age=63072000",
+                "age": "19182",
+                "content-disposition": "inline; filename=\"credit$45lines~credit$45lines_$id~dashboard.2.js\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::z7f7h-1674473971503-de126ece38df",
+                "etag": "W/\"4c4c72644c2ad4094f40baac7dd5a132\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=31536000,immutable"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.535",
+            "url": "https://ampt.finance/favicon.ico",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:36 GMT",
+                "age": "0",
+                "content-disposition": "inline; filename=\"favicon.ico\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1::mfhsf-1674473976285-fc8d9be25334",
+                "etag": "W/\"332738e42f2ba479cf95a4aa572e54b3\"",
+                "x-vercel-cache": "MISS",
+                "x-frame-options": "same-origin",
+                "content-type": "image/vnd.microsoft.icon",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.494",
+            "url": "https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://ampt.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sun, 22 Jan 2023 04:43:25 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "111366",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "37780",
+                "x-xss-protection": "0",
+                "last-modified": "Mon, 11 Jul 2022 20:54:10 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Mon, 22 Jan 2024 04:43:25 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.537",
+            "url": "https://client.crisp.chat/static/javascripts/client.js?71328d6",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "age": "2318",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 13 Jun 2022 13:12:02 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"62a737a2-63a23\"",
+                "access-control-max-age": "300",
+                "access-control-allow-methods": "HEAD, GET, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=315360000",
+                "access-control-allow-credentials": "false",
+                "vary": "Accept-Encoding",
+                "cf-ray": "78e03fd44af9bb3e-FRA",
+                "access-control-allow-headers": "Content-Type, Origin",
+                "expires": "Thu, 20 Jan 2033 11:39:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.538",
+            "url": "https://client.crisp.chat/static/stylesheets/client_default.css?71328d6",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "age": "2318",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 23 Jan 2023 10:59:57 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"63ce68ad-561c1\"",
+                "access-control-max-age": "300",
+                "access-control-allow-methods": "HEAD, GET, OPTIONS",
+                "content-type": "text/css",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=315360000",
+                "access-control-allow-credentials": "false",
+                "vary": "Accept-Encoding",
+                "cf-ray": "78e03fd44afbbb3e-FRA",
+                "access-control-allow-headers": "Content-Type, Origin",
+                "expires": "Thu, 20 Jan 2033 11:39:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.541",
+            "url": "https://api.thegraph.com/subgraphs/name/amplify-labs/amplify-matic",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"operationName\":\"poolsList\",\"variables\":{\"first\":100,\"orderBy\":\"createdAt\",\"orderDirection\":\"desc\",\"skip\":0,\"where\":{\"isClosed\":false}},\"query\":\"query poolsList($first: Int = 100, $orderBy: Pool_orderBy = createdAt, $orderDirection: OrderDirection = desc, $skip: Int = 0, $where: Pool_filter) {\\n  pools(\\n    first: $first\\n    orderBy: $orderBy\\n    orderDirection: $orderDirection\\n    skip: $skip\\n    where: $where\\n  ) {\\n    ...PoolFragment\\n    __typename\\n  }\\n}\\n\\nfragment PoolFragment on Pool {\\n  id\\n  name\\n  access\\n  stableCoin\\n  owner\\n  members\\n  joins\\n  minDeposit\\n  totalDeposited\\n  totalBorrowed\\n  createdAt\\n  isClosed\\n  rewardApy\\n  assetsLocked {\\n    ...AssetFragment\\n    __typename\\n  }\\n  members\\n  __typename\\n}\\n\\nfragment AssetFragment on Asset {\\n  id\\n  hash\\n  uri\\n  value\\n  riskRating\\n  maturityDate\\n  owner\\n  isLocked\\n  isRedeemed\\n  uploadedAt\\n  __typename\\n}\\n\"}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:40:22 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "graph-attestable": "true",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, OPTIONS, POST",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cf-ray": "78e0410c49e823af-ZRH",
+                "access-control-allow-headers": "Content-Type, User-Agent"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "59B63B0F1EF3BCCC9C758B9BDC10E723",
+            "url": "https://api.thegraph.com/subgraphs/name/amplify-labs/amplify-matic",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://ampt.finance",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Content-Type, User-Agent",
+                "access-control-allow-methods": "GET, OPTIONS, POST",
+                "access-control-allow-origin": "*",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "78e0410b1faa23af-ZRH",
+                "content-encoding": "br",
+                "content-type": "text/html",
+                "date": "Mon, 23 Jan 2023 11:40:21 GMT",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "vary": "Accept-Encoding"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.772",
+            "url": "https://ampt.finance/favicon.ico",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:36 GMT",
+                "age": "0",
+                "content-disposition": "inline; filename=\"favicon.ico\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1::mfhsf-1674473976285-fc8d9be25334",
+                "etag": "W/\"332738e42f2ba479cf95a4aa572e54b3\"",
+                "x-vercel-cache": "MISS",
+                "x-frame-options": "same-origin",
+                "content-type": "image/vnd.microsoft.icon",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.773",
+            "url": "https://ampt.finance/manifest.json",
+            "type": "Manifest",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "date": "Mon, 23 Jan 2023 11:39:36 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "0",
+                "content-disposition": "inline; filename=\"manifest.json\"",
+                "content-length": "405",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1::z7f7h-1674473976866-0ecccde1d5e5",
+                "etag": "\"092bd5e74a8cf16f06afc83ae3536a71\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.774",
+            "url": "https://ampt.finance/favicon/android-chrome-192x192.png",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "date": "Mon, 23 Jan 2023 11:39:35 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "0",
+                "content-disposition": "inline; filename=\"android-chrome-192x192.png\"",
+                "content-length": "8118",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1::flwdk-1674473975146-3835a14f0968",
+                "etag": "\"51a04513af4a129ed809ce50432a9de6\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.775",
+            "url": "https://client.crisp.chat/settings/website/f02176d3-42aa-4e66-b172-388232a5fbb7/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2023-0-23-12-40",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:40:21 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "MISS",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 23 Jan 2023 11:40:21 GMT",
+                "server": "cloudflare",
+                "access-control-max-age": "300",
+                "access-control-allow-methods": "HEAD, GET, OPTIONS",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=14400",
+                "access-control-allow-credentials": "false",
+                "vary": "Accept-Encoding",
+                "cf-ray": "78e0410b8c67bb3e-FRA",
+                "access-control-allow-headers": "Content-Type, Origin",
+                "expires": "Mon, 23 Jan 2023 15:40:21 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.778",
+            "url": "https://ampt.finance/client/06354203d45cc3224d75/3.3.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "strict-transport-security": "max-age=63072000",
+                "age": "19185",
+                "content-disposition": "inline; filename=\"3.3.js\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::mfhsf-1674473971506-4b59cecae591",
+                "etag": "W/\"359ecef11d61bfebec5c79479be71890\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=31536000,immutable"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.779",
+            "url": "https://ampt.finance/client/06354203d45cc3224d75/56.56.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "strict-transport-security": "max-age=63072000",
+                "age": "19184",
+                "content-disposition": "inline; filename=\"56.56.js\"",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::ht7rh-1674473971506-216f6cc4b2bd",
+                "etag": "W/\"db7f2c3f76d744d61937b262d4573c96\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=31536000,immutable"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.780",
+            "url": "https://ampt.finance/client/06354203d45cc3224d75/57.57.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://ampt.finance/dashboard",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'",
+                "date": "Mon, 23 Jan 2023 11:39:31 GMT",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=63072000",
+                "age": "19185",
+                "content-disposition": "inline; filename=\"57.57.js\"",
+                "content-length": "101",
+                "x-xss-protection": "1;mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Vercel",
+                "x-vercel-id": "fra1:fra1::6c4zm-1674473971510-0e965796f9cc",
+                "etag": "\"80662b8a3dcfcaa9fbb01ca74fd5095f\"",
+                "x-vercel-cache": "HIT",
+                "x-frame-options": "same-origin",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=31536000,immutable",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.781",
+            "url": "https://api.thegraph.com/subgraphs/name/amplify-labs/amplify-matic",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"operationName\":\"dashboardInfo\",\"variables\":{},\"query\":\"query dashboardInfo($owner: Bytes!) {\\n  pools(where: {owner: $owner}) {\\n    id\\n    __typename\\n  }\\n  loans(where: {borrower: $owner}) {\\n    id\\n    available\\n    isClosed\\n    pool {\\n      stableCoin\\n      __typename\\n    }\\n    __typename\\n  }\\n  assets(where: {owner: $owner}) {\\n    id\\n    isLocked\\n    isRedeemed\\n    __typename\\n  }\\n}\\n\"}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:40:22 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "graph-attestable": "true",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, OPTIONS, POST",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cf-ray": "78e0410ddc6a23af-ZRH",
+                "access-control-allow-headers": "Content-Type, User-Agent"
+            }
+        },
+        {
+            "requestContext": [
+                "https://client.crisp.chat/static/javascripts/client.js?71328d6",
+                "https://client.crisp.chat/settings/website/f02176d3-42aa-4e66-b172-388232a5fbb7/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2023-0-23-12-40"
+            ],
+            "id": "21399.777",
+            "url": "wss://client.relay.crisp.chat/w/d1/?EIO=4&transport=websocket",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "40",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://client.crisp.chat/static/javascripts/client.js?71328d6",
+                "https://client.crisp.chat/settings/website/f02176d3-42aa-4e66-b172-388232a5fbb7/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2023-0-23-12-40"
+            ],
+            "id": "21399.777",
+            "url": "wss://client.relay.crisp.chat/w/d1/?EIO=4&transport=websocket",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "42[\"session:join\",{\"session_id\":\"session_34825348-403a-4f3a-9487-4b9842c53703\",\"expire\":300000,\"storage\":true,\"sync\":true,\"useragent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"timezone\":-60,\"capabilities\":[\"browsing\",\"call\"],\"locales\":[\"en-US\",\"en\"],\"device\":{\"page_url\":\"https://ampt.finance/dashboard\",\"page_title\":\"#1 marketplace for real asset pools - Amplify Protocol\"}}]",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.787",
+            "url": "https://client.crisp.chat/settings/website/f02176d3-42aa-4e66-b172-388232a5fbb7/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&1638949328430",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "MISS",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "server": "cloudflare",
+                "access-control-max-age": "300",
+                "access-control-allow-methods": "HEAD, GET, OPTIONS",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=14400",
+                "access-control-allow-credentials": "false",
+                "vary": "Accept-Encoding",
+                "cf-ray": "78e03fd92cbbbb3e-FRA",
+                "access-control-allow-headers": "Content-Type, Origin",
+                "expires": "Mon, 23 Jan 2023 15:39:32 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.789",
+            "url": "https://client.crisp.chat/static/javascripts/locales/en.js?71328d6",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 11:39:32 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "age": "2315",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 13 Jun 2022 13:12:02 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"62a737a2-1afd\"",
+                "access-control-max-age": "300",
+                "access-control-allow-methods": "HEAD, GET, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=315360000",
+                "access-control-allow-credentials": "false",
+                "vary": "Accept-Encoding",
+                "cf-ray": "78e03fd9fe7cbb3e-FRA",
+                "access-control-allow-headers": "Content-Type, Origin",
+                "expires": "Thu, 20 Jan 2033 11:39:32 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.791",
+            "url": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwIiB3aWR0aD0iMzUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxmaWx0ZXIgaWQ9ImEiIGhlaWdodD0iMTM4LjclIiB3aWR0aD0iMTMxLjQlIiB4PSItMTUuNyUiIHk9Ii0xNS4xJSI+PGZlTW9ycGhvbG9neSBpbj0iU291cmNlQWxwaGEiIG9wZXJhdG9yPSJkaWxhdGUiIHJhZGl1cz0iMSIgcmVzdWx0PSJzaGFkb3dTcHJlYWRPdXRlcjEiLz48ZmVPZmZzZXQgZHk9IjEiIGluPSJzaGFkb3dTcHJlYWRPdXRlcjEiIHJlc3VsdD0ic2hhZG93T2Zmc2V0T3V0ZXIxIi8+PGZlR2F1c3NpYW5CbHVyIGluPSJzaGFkb3dPZmZzZXRPdXRlcjEiIHJlc3VsdD0ic2hhZG93Qmx1ck91dGVyMSIgc3RkRGV2aWF0aW9uPSIxIi8+PGZlQ29tcG9zaXRlIGluPSJzaGFkb3dCbHVyT3V0ZXIxIiBpbjI9IlNvdXJjZUFscGhhIiBvcGVyYXRvcj0ib3V0IiByZXN1bHQ9InNoYWRvd0JsdXJPdXRlcjEiLz48ZmVDb2xvck1hdHJpeCBpbj0ic2hhZG93Qmx1ck91dGVyMSIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjA3IDAiLz48L2ZpbHRlcj48cGF0aCBpZD0iYiIgZD0iTTE0LjIzIDIwLjQ2bC05LjY1IDEuMUwzIDUuMTIgMzAuMDcgMmwxLjU4IDE2LjQ2LTkuMzcgMS4wNy0zLjUgNS43Mi00LjU1LTQuOHoiLz48L2RlZnM+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48dXNlIGZpbGw9IiMwMDAiIGZpbHRlcj0idXJsKCNhKSIgeGxpbms6aHJlZj0iI2IiLz48dXNlIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyIiB4bGluazpocmVmPSIjYiIvPjwvZz48L3N2Zz4=",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://ampt.finance/dashboard"
+            ],
+            "id": "21399.792",
+            "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-ST6HHZWFFF&gtm=2oe1i0&_p=1904711738&cid=1306397449.1674473972&ul=en-us&sr=3440x1440&uaa=x86&uab=64&uafvl=Not%253FA_Brand%3B8.0.0.0%7CChromium%3B108.0.5351.0&uamb=0&uam=&uap=Mac%20OS%20X&uapv=10_15_7&uaw=0&sid=1674473971&sct=1&seg=1&dl=https%3A%2F%2Fampt.finance%2Fdashboard&dt=%231%20marketplace%20for%20real%20asset%20pools%20-%20Amplify%20Protocol&_s=1",
+            "type": "Ping",
+            "status": 204,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "en=page_view&_ee=1\r\nen=scroll&epn.percent_scrolled=90&_et=24",
+            "responseHeaders": {
+                "pragma": "no-cache",
+                "date": "Mon, 23 Jan 2023 11:40:26 GMT",
+                "server": "Golfe2",
+                "content-type": "text/plain",
+                "access-control-allow-origin": "https://ampt.finance",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "access-control-allow-credentials": "true",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "0",
+                "expires": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://client.crisp.chat/static/javascripts/client.js?71328d6",
+                "https://client.crisp.chat/settings/website/f02176d3-42aa-4e66-b172-388232a5fbb7/prelude/?callback=window.%24__CRISP_INSTANCE.__spool.website_handler&2023-0-23-12-40"
+            ],
+            "id": "21399.777",
+            "url": "wss://client.relay.crisp.chat/w/d1/?EIO=4&transport=websocket",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "3",
+            "responseHeaders": {}
+        }
+    ],
+    "cookies": [
+        {
+            "name": "accessToken",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJiYWFzX2RldmljZV9pZCI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsImJhYXNfZG9tYWluX2lkIjoiNjBlOTU1ZGFiOTY4NGJhMzM2NjM3ZGE5IiwiZXhwIjoxNjc0NDc1NzcwLCJpYXQiOjE2NzQ0NzM5NzAsImlzcyI6IjYzY2U3MWYyNDQ2YTkyODg2ZmNjMjIwZSIsInN0aXRjaF9kZXZJZCI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsInN0aXRjaF9kb21haW5JZCI6IjYwZTk1NWRhYjk2ODRiYTMzNjYzN2RhOSIsInN1YiI6IjYzY2U3MWYyNDQ2YTkyODg2ZmNjMjIwYSIsInR5cCI6ImFjY2VzcyJ9.2M_AWOdijELgv6c1-CF-Et7cFVzyETRPKCiY9KjQRVc",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": 1674475770.951991,
+            "size": 480,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "refreshToken",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJiYWFzX2RhdGEiOm51bGwsImJhYXNfZGV2aWNlX2lkIjoiMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwiYmFhc19kb21haW5faWQiOiI2MGU5NTVkYWI5Njg0YmEzMzY2MzdkYTkiLCJiYWFzX2lkIjoiNjNjZTcxZjI0NDZhOTI4ODZmY2MyMjBlIiwiYmFhc19pZGVudGl0eSI6eyJpZCI6IjYzY2U3MWYyNDQ2YTkyODg2ZmNjMjIwOS1rbnZ2Y3BicXd1bnZsZHJ1c3ZwcnBtYmYiLCJwcm92aWRlcl90eXBlIjoiYW5vbi11c2VyIiwicHJvdmlkZXJfaWQiOiI2MTdhZWNkYTMyNDAzOTRiYzM2NGI0NzkifSwiZXhwIjozMjUxMjczOTcwLCJpYXQiOjE2NzQ0NzM5NzAsInN0aXRjaF9kYXRhIjpudWxsLCJzdGl0Y2hfZGV2SWQiOiIwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJzdGl0Y2hfZG9tYWluSWQiOiI2MGU5NTVkYWI5Njg0YmEzMzY2MzdkYTkiLCJzdGl0Y2hfaWQiOiI2M2NlNzFmMjQ0NmE5Mjg4NmZjYzIyMGUiLCJzdGl0Y2hfaWRlbnQiOnsiaWQiOiI2M2NlNzFmMjQ0NmE5Mjg4NmZjYzIyMDkta252dmNwYnF3dW52bGRydXN2cHJwbWJmIiwicHJvdmlkZXJfdHlwZSI6ImFub24tdXNlciIsInByb3ZpZGVyX2lkIjoiNjE3YWVjZGEzMjQwMzk0YmMzNjRiNDc5In0sInN1YiI6IjYzY2U3MWYyNDQ2YTkyODg2ZmNjMjIwYSIsInR5cCI6InJlZnJlc2gifQ.oJawp1Gkx3Ojw1e6PGybew653LCBwa2CileVPO4FeQU",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": -1,
+            "size": 971,
+            "httpOnly": false,
+            "secure": false,
+            "session": true,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga",
+            "value": "GA1.1.1306397449.1674473972",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": 1709034021.592321,
+            "size": 30,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "crisp-client%2Fsession%2Ff02176d3-42aa-4e66-b172-388232a5fbb7",
+            "value": "session_34825348-403a-4f3a-9487-4b9842c53703",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": 1690242022,
+            "size": 105,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "amplifyAppChainId",
+            "value": "137",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": -1,
+            "size": 20,
+            "httpOnly": false,
+            "secure": false,
+            "session": true,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga_ST6HHZWFFF",
+            "value": "GS1.1.1674473971.1.1.1674474021.0.0.0",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": 1709034021.617937,
+            "size": 51,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "accessToken",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJiYWFzX2RldmljZV9pZCI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsImJhYXNfZG9tYWluX2lkIjoiNjBlOTU1ZGFiOTY4NGJhMzM2NjM3ZGE5IiwiZXhwIjoxNjc0NDc1NzcwLCJpYXQiOjE2NzQ0NzM5NzAsImlzcyI6IjYzY2U3MWYyNDQ2YTkyODg2ZmNjMjIwZSIsInN0aXRjaF9kZXZJZCI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsInN0aXRjaF9kb21haW5JZCI6IjYwZTk1NWRhYjk2ODRiYTMzNjYzN2RhOSIsInN1YiI6IjYzY2U3MWYyNDQ2YTkyODg2ZmNjMjIwYSIsInR5cCI6ImFjY2VzcyJ9.2M_AWOdijELgv6c1-CF-Et7cFVzyETRPKCiY9KjQRVc",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": 1674475770.951991,
+            "size": 480,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "refreshToken",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJiYWFzX2RhdGEiOm51bGwsImJhYXNfZGV2aWNlX2lkIjoiMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwiYmFhc19kb21haW5faWQiOiI2MGU5NTVkYWI5Njg0YmEzMzY2MzdkYTkiLCJiYWFzX2lkIjoiNjNjZTcxZjI0NDZhOTI4ODZmY2MyMjBlIiwiYmFhc19pZGVudGl0eSI6eyJpZCI6IjYzY2U3MWYyNDQ2YTkyODg2ZmNjMjIwOS1rbnZ2Y3BicXd1bnZsZHJ1c3ZwcnBtYmYiLCJwcm92aWRlcl90eXBlIjoiYW5vbi11c2VyIiwicHJvdmlkZXJfaWQiOiI2MTdhZWNkYTMyNDAzOTRiYzM2NGI0NzkifSwiZXhwIjozMjUxMjczOTcwLCJpYXQiOjE2NzQ0NzM5NzAsInN0aXRjaF9kYXRhIjpudWxsLCJzdGl0Y2hfZGV2SWQiOiIwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJzdGl0Y2hfZG9tYWluSWQiOiI2MGU5NTVkYWI5Njg0YmEzMzY2MzdkYTkiLCJzdGl0Y2hfaWQiOiI2M2NlNzFmMjQ0NmE5Mjg4NmZjYzIyMGUiLCJzdGl0Y2hfaWRlbnQiOnsiaWQiOiI2M2NlNzFmMjQ0NmE5Mjg4NmZjYzIyMDkta252dmNwYnF3dW52bGRydXN2cHJwbWJmIiwicHJvdmlkZXJfdHlwZSI6ImFub24tdXNlciIsInByb3ZpZGVyX2lkIjoiNjE3YWVjZGEzMjQwMzk0YmMzNjRiNDc5In0sInN1YiI6IjYzY2U3MWYyNDQ2YTkyODg2ZmNjMjIwYSIsInR5cCI6InJlZnJlc2gifQ.oJawp1Gkx3Ojw1e6PGybew653LCBwa2CileVPO4FeQU",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": -1,
+            "size": 971,
+            "httpOnly": false,
+            "secure": false,
+            "session": true,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga",
+            "value": "GA1.1.1306397449.1674473972",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": 1709034021.592321,
+            "size": 30,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "crisp-client%2Fsession%2Ff02176d3-42aa-4e66-b172-388232a5fbb7",
+            "value": "session_34825348-403a-4f3a-9487-4b9842c53703",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": 1690242022,
+            "size": 105,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "amplifyAppChainId",
+            "value": "137",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": -1,
+            "size": 20,
+            "httpOnly": false,
+            "secure": false,
+            "session": true,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga_ST6HHZWFFF",
+            "value": "GS1.1.1674473971.1.1.1674474021.0.0.0",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": 1709034021.617937,
+            "size": 51,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "accessToken",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJiYWFzX2RldmljZV9pZCI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsImJhYXNfZG9tYWluX2lkIjoiNjBlOTU1ZGFiOTY4NGJhMzM2NjM3ZGE5IiwiZXhwIjoxNjc0NDc1NzcwLCJpYXQiOjE2NzQ0NzM5NzAsImlzcyI6IjYzY2U3MWYyNDQ2YTkyODg2ZmNjMjIwZSIsInN0aXRjaF9kZXZJZCI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsInN0aXRjaF9kb21haW5JZCI6IjYwZTk1NWRhYjk2ODRiYTMzNjYzN2RhOSIsInN1YiI6IjYzY2U3MWYyNDQ2YTkyODg2ZmNjMjIwYSIsInR5cCI6ImFjY2VzcyJ9.2M_AWOdijELgv6c1-CF-Et7cFVzyETRPKCiY9KjQRVc",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": 1674475770.951991,
+            "size": 480,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "refreshToken",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJiYWFzX2RhdGEiOm51bGwsImJhYXNfZGV2aWNlX2lkIjoiMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwiYmFhc19kb21haW5faWQiOiI2MGU5NTVkYWI5Njg0YmEzMzY2MzdkYTkiLCJiYWFzX2lkIjoiNjNjZTcxZjI0NDZhOTI4ODZmY2MyMjBlIiwiYmFhc19pZGVudGl0eSI6eyJpZCI6IjYzY2U3MWYyNDQ2YTkyODg2ZmNjMjIwOS1rbnZ2Y3BicXd1bnZsZHJ1c3ZwcnBtYmYiLCJwcm92aWRlcl90eXBlIjoiYW5vbi11c2VyIiwicHJvdmlkZXJfaWQiOiI2MTdhZWNkYTMyNDAzOTRiYzM2NGI0NzkifSwiZXhwIjozMjUxMjczOTcwLCJpYXQiOjE2NzQ0NzM5NzAsInN0aXRjaF9kYXRhIjpudWxsLCJzdGl0Y2hfZGV2SWQiOiIwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJzdGl0Y2hfZG9tYWluSWQiOiI2MGU5NTVkYWI5Njg0YmEzMzY2MzdkYTkiLCJzdGl0Y2hfaWQiOiI2M2NlNzFmMjQ0NmE5Mjg4NmZjYzIyMGUiLCJzdGl0Y2hfaWRlbnQiOnsiaWQiOiI2M2NlNzFmMjQ0NmE5Mjg4NmZjYzIyMDkta252dmNwYnF3dW52bGRydXN2cHJwbWJmIiwicHJvdmlkZXJfdHlwZSI6ImFub24tdXNlciIsInByb3ZpZGVyX2lkIjoiNjE3YWVjZGEzMjQwMzk0YmMzNjRiNDc5In0sInN1YiI6IjYzY2U3MWYyNDQ2YTkyODg2ZmNjMjIwYSIsInR5cCI6InJlZnJlc2gifQ.oJawp1Gkx3Ojw1e6PGybew653LCBwa2CileVPO4FeQU",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": -1,
+            "size": 971,
+            "httpOnly": false,
+            "secure": false,
+            "session": true,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga",
+            "value": "GA1.1.1306397449.1674473972",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": 1709034021.592321,
+            "size": 30,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "crisp-client%2Fsession%2Ff02176d3-42aa-4e66-b172-388232a5fbb7",
+            "value": "session_34825348-403a-4f3a-9487-4b9842c53703",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": 1690242022,
+            "size": 105,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "amplifyAppChainId",
+            "value": "137",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": -1,
+            "size": 20,
+            "httpOnly": false,
+            "secure": false,
+            "session": true,
+            "sameSite": "Lax",
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga_ST6HHZWFFF",
+            "value": "GS1.1.1674473971.1.1.1674474021.0.0.0",
+            "domain": ".ampt.finance",
+            "path": "/",
+            "expires": 1709034021.617937,
+            "size": 51,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        }
+    ],
+    "success": true,
+    "connected": true,
+    "connect_label": "Connect wallet",
+    "metamask_label": "",
+    "checkbox_clicked": false,
+    "signature_request": false,
+    "switch_network": false
+}

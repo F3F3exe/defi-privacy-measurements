@@ -1,0 +1,2827 @@
+{
+    "url": "https://dicether.com/",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://dicether.com/",
+        "walletPath": "metamask-chrome-10.22.2",
+        "destination": "../results/dapps/crawl",
+        "force": false,
+        "executablePath": "/Users/christof/.cache/puppeteer/chrome/mac-1056772/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    },
+    "timestamps": {
+        "start": 1674564167393,
+        "end": 1674564269191
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "35801.82",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "35801.255",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:52.807Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"3f5742a755404799ae09b3162837452c\",\"init\":true,\"started\":\"2023-01-24T12:42:52.806Z\",\"timestamp\":\"2023-01-24T12:42:52.806Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:42:54 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "3",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "35801.283",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "35801.284",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "35801.285",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 429,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:55.419Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"3f5742a755404799ae09b3162837452c\",\"init\":false,\"started\":\"2023-01-24T12:42:52.806Z\",\"timestamp\":\"2023-01-24T12:42:55.418Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 24 Jan 2023 12:42:55 GMT",
+                "server": "nginx",
+                "connection": "keep-alive",
+                "etag": "\"60e4059e-3\"",
+                "content-length": "3",
+                "content-type": "text/plain"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "35801.286",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:55.420Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ace7b371d01d413b918bc6227a69842d\",\"init\":true,\"started\":\"2023-01-24T12:42:55.418Z\",\"timestamp\":\"2023-01-24T12:42:55.418Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:42:55 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "35801.98",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "35801.100",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "35801.287",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "35801.289",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:55.530Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ace7b371d01d413b918bc6227a69842d\",\"init\":false,\"started\":\"2023-01-24T12:42:55.418Z\",\"timestamp\":\"2023-01-24T12:42:55.529Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:42:55 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "35801.290",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:55.531Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a516ab1e7b554d53b706722098a26d1e\",\"init\":true,\"started\":\"2023-01-24T12:42:55.529Z\",\"timestamp\":\"2023-01-24T12:42:55.529Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:42:55 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "35801.292",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/metrics-chart.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "35801.86",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "35801.101",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "35801.293",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:55.584Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a516ab1e7b554d53b706722098a26d1e\",\"init\":false,\"started\":\"2023-01-24T12:42:55.529Z\",\"timestamp\":\"2023-01-24T12:42:55.583Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:42:55 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "35801.294",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:55.585Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"3a775180f4274065a194c73a68798df8\",\"init\":true,\"started\":\"2023-01-24T12:42:55.583Z\",\"timestamp\":\"2023-01-24T12:42:55.583Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:42:55 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "35801.296",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:55.606Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"3a775180f4274065a194c73a68798df8\",\"init\":false,\"started\":\"2023-01-24T12:42:55.583Z\",\"timestamp\":\"2023-01-24T12:42:55.605Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:42:55 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "35801.297",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:55.607Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"50ebc1c4777042ccb00192839b83ba26\",\"init\":true,\"started\":\"2023-01-24T12:42:55.605Z\",\"timestamp\":\"2023-01-24T12:42:55.605Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:42:55 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "35801.94",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Roboto/Roboto-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "35801.89",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-regular-400.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "35801.304",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:58.441Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"50ebc1c4777042ccb00192839b83ba26\",\"init\":false,\"started\":\"2023-01-24T12:42:55.605Z\",\"timestamp\":\"2023-01-24T12:42:58.440Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:42:58 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "35801.305",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:58.443Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f64bcdaaeebb4aebbb82a0d74c9d6829\",\"init\":true,\"started\":\"2023-01-24T12:42:58.440Z\",\"timestamp\":\"2023-01-24T12:42:58.440Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:42:58 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "11203EB9C50964218686D61767F03849",
+            "url": "https://dicether.com/",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "age": "102020",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "content-encoding": "br",
+                "content-length": "539",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Mon, 23 Jan 2023 08:22:39 GMT",
+                "etag": "\"9977d2b1739956750989656dcf72f94c-ssl-df\"",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "strict-transport-security": "max-age=31536000",
+                "vary": "Accept-Encoding",
+                "x-content-type-options": "nosniff",
+                "x-frame-options": "DENY",
+                "x-nf-request-id": "01GQHWV51Z8GBYYP43JH8VKYN1",
+                "x-xss-protection": "1; mode=block"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "35801.308",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:58.512Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f64bcdaaeebb4aebbb82a0d74c9d6829\",\"init\":false,\"started\":\"2023-01-24T12:42:58.440Z\",\"timestamp\":\"2023-01-24T12:42:58.511Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:42:58 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "35801.309",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:58.513Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"960093046f6442c6be3881e99d2489c8\",\"init\":true,\"started\":\"2023-01-24T12:42:58.510Z\",\"timestamp\":\"2023-01-24T12:42:58.511Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:42:58 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "35801.311",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/eth_logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.2",
+            "url": "https://dicether.com/static/index.acf91290e7cc6690d294.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV57F47Q2RW7PNTHJN8BG",
+                "date": "Tue, 24 Jan 2023 12:42:59 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=31536000",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"4076c7d9097634792229f00d837affe1-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "x-frame-options": "DENY",
+                "content-type": "text/css; charset=UTF-8",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.3",
+            "url": "https://dicether.com/static/runtime.c740540c377d22739409.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV57FG610WQRW534H2Q8W",
+                "date": "Tue, 24 Jan 2023 12:42:59 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=31536000",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-length": "1129",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"98642a99ae655ea4433d56f8eb94285d-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "x-frame-options": "DENY",
+                "content-type": "application/javascript; charset=UTF-8",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.4",
+            "url": "https://dicether.com/static/vendor.f263168550cfabecd726.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV5A1QPGQPKVCVEMN3NJZ",
+                "date": "Sun, 22 Jan 2023 22:23:17 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=31536000",
+                "age": "137983",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-length": "1120276",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"4bc6cefc05414eb33f6ae8d75b9a6cfa-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "x-frame-options": "DENY",
+                "content-type": "application/javascript; charset=UTF-8",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.5",
+            "url": "https://dicether.com/static/index.307c7a23544414a49954.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV5DFP2KMP2NQCBN8H0JY",
+                "date": "Sun, 22 Jan 2023 22:23:17 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=31536000",
+                "age": "137983",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-length": "78764",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"f88a65fbe8711dc88333ced4de68df6a-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "x-frame-options": "DENY",
+                "content-type": "application/javascript; charset=UTF-8",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.10",
+            "url": "https://websocket.dicether.com/socket.io/?EIO=4&transport=polling&t=ONZpPT5",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "content-encoding": "br",
+                "x-frame-options": "Deny",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=xalRTQ3tysXMMsyCrgRXGyfhaXqfIBMiXQYQxVrqPnxXMIf9jvZRMUtio5U8XJnTWBuJPBZt%2FAGnsFInl7B0X3TJSivNzYH7i1CL%2Bo6XuQh4kNrfNsN8ZZnwr1D%2BbtgMShAqCUtgthRZ\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/plain; charset=UTF-8",
+                "access-control-allow-origin": "https://dicether.com",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "78e8da2e0c5b3b51-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.11",
+            "url": "https://dicether.com/sentry",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "https://dicether.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:42:59.999Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"7.28.1\"},\"dsn\":\"https://551f6a44d9a54cfe9c18e976685f8234@o103499.ingest.sentry.io/227657\"}\n{\"type\":\"session\"}\n{\"sid\":\"1ea8ac9c441b4157a6215339a3be9577\",\"init\":true,\"started\":\"2023-01-24T12:42:59.999Z\",\"timestamp\":\"2023-01-24T12:42:59.999Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"dicether@38f18c6ecb525e4d056bd6b308d36299ec9139de\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV60XSWBC5B4V1WWTXSD7",
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "via": "1.1 google",
+                "server": "Netlify",
+                "age": "1",
+                "content-type": "application/json",
+                "access-control-allow-origin": "https://dicether.com",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.12",
+            "url": "https://www.google-analytics.com/analytics.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "strict-transport-security": "max-age=10886400; includeSubDomains; preload",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "date": "Tue, 24 Jan 2023 12:24:42 GMT",
+                "last-modified": "Tue, 10 Jan 2023 21:29:14 GMT",
+                "server": "Golfe2",
+                "age": "1098",
+                "vary": "Accept-Encoding",
+                "content-type": "text/javascript",
+                "cache-control": "public, max-age=7200",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "20085",
+                "expires": "Tue, 24 Jan 2023 14:24:42 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.13",
+            "url": "https://api.dicether.com/api/bets/lastBets",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "content-encoding": "br",
+                "vary": "Origin",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=2mX3xX7VBG5pVHVydO55FpG4iojq%2BDIykEMal1iWLorvlVB8aD%2FcTf9I67Yfsm2Ihgo7glisjKGV07hjlVEWsboCkAN7rSUb%2B%2FXr4sto1UXpFP3a9ItZ0zJQpvNB9Wv8MjDJ\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/json",
+                "access-control-allow-origin": "https://dicether.com",
+                "x-frame-options": "Deny",
+                "cf-ray": "78e8da2e6c733b51-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.14",
+            "url": "https://api.dicether.com/api/chat/messages",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "content-encoding": "br",
+                "vary": "Origin",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=1Xfuz%2FhxY0TFqHQtchZ79f8ST6U17orn6MU43ChHYI%2F%2BQm2FTlZmkX2gMx9WuvqU98eVXB9M03Xl9aHigDxYI%2FnrqzIXZEY9ls5WtN%2FvFGV0sv1hFiPVBr9tSuHiq84Q85jl\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/json",
+                "access-control-allow-origin": "https://dicether.com",
+                "x-frame-options": "Deny",
+                "cf-ray": "78e8da2e6c703b51-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.15",
+            "url": "https://dicether.com/static/288b30dfee2186e54788.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV67P6ZRQCA3V708N0Z96",
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=31536000",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"70003167790ff7723e033c12cf7367a0-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "x-frame-options": "DENY",
+                "content-type": "image/svg+xml",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.16",
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTYwbW0iIGhlaWdodD0iMTYwbW0iIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDE2MCAxNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE5OS4xIC01MTkuNTIpIj4KICA8Zz4KICAgPHJlY3QgeD0iMTk5LjEiIHk9IjUxOS41MiIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxNjAiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iLjM3NjI3Ii8+CiAgIDxnIGZpbGw9IiMzNDk4ZGIiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLXdpZHRoPSIuNDY2NTYiPgogICAgPHBhdGggZD0ibTI3NC43MiA1NTUuNzhjLTEuNzIxLTQuMTU0OC02LjQ1MTItNi4xMTQyLTEwLjYwNi00LjM5MzJsLTU5Ljk5OCAyNC44NTJjLTQuMTU0OCAxLjcyMS02LjExNDIgNi40NTEyLTQuMzkzMiAxMC42MDZsMjQuODUyIDU5Ljk5N2MxLjcyMSA0LjE1NDggNi40NTE0IDYuMTE0NSAxMC42MDYgNC4zOTM2bDU5Ljk5OC0yNC44NTJjNC4xNTQ4LTEuNzIxIDYuMTE0LTYuNDUxNiA0LjM5My0xMC42MDZ6bS0zLjYyNDQgOC43NTAyYTguMTE3NiA4LjExNzYgMCAwIDEgLTQuMzkzMiAxMC42MDYgOC4xMTc2IDguMTE3NiAwIDAgMSAtMTAuNjA2IC00LjM5MzIgOC4xMTc2IDguMTE3NiAwIDAgMSA0LjM5MyAtMTAuNjA2IDguMTE3NiA4LjExNzYgMCAwIDEgMTAuNjA2IDQuMzkzNnptMTkuNzI2IDQ3LjYyM2E4LjExNzYgOC4xMTc2IDAgMCAxIC00LjM5MzIgMTAuNjA2IDguMTE3NiA4LjExNzYgMCAwIDEgLTEwLjYwNiAtNC4zOTMyIDguMTE3NiA4LjExNzYgMCAwIDEgNC4zOTMyIC0xMC42MDYgOC4xMTc2IDguMTE3NiAwIDAgMSAxMC42MDYgNC4zOTMyem0tMzMuNjc0LTEzLjk0OGE4LjExNzYgOC4xMTc2IDAgMCAxIC00LjM5MzIgMTAuNjA2IDguMTE3NiA4LjExNzYgMCAwIDEgLTEwLjYwNiAtNC4zOTMyIDguMTE3NiA4LjExNzYgMCAwIDEgNC4zOTMyIC0xMC42MDYgOC4xMTc2IDguMTE3NiAwIDAgMSAxMC42MDYgNC4zOTMyem0tMzMuNjc0LTEzLjk0OGE4LjExNzYgOC4xMTc2IDAgMCAxIC00LjM5MzIgMTAuNjA2IDguMTE3NiA4LjExNzYgMCAwIDEgLTEwLjYwNiAtNC4zOTMyIDguMTE3NiA4LjExNzYgMCAwIDEgNC4zOTMgLTEwLjYwNiA4LjExNzYgOC4xMTc2IDAgMCAxIDEwLjYwNiA0LjM5MzZ6bTE5LjcyNiA0Ny42MjNhOC4xMTc2IDguMTE3NiAwIDAgMSAtNC4zOTMyIDEwLjYwNiA4LjExNzYgOC4xMTc2IDAgMCAxIC0xMC42MDYgLTQuMzkzMiA4LjExNzYgOC4xMTc2IDAgMCAxIDQuMzkzMiAtMTAuNjA2IDguMTE3NiA4LjExNzYgMCAwIDEgMTAuNjA2IDQuMzkzMnoiLz4KICAgIDxwYXRoIGQ9Im0yOTAuOTIgNTQ3LjE5Yy0zLjE2MzkgMC4wMTk3LTYuMTQ3NiAxLjkwMDUtNy40Mzg0IDUuMDE2NmwtMy4wOTU4IDcuNDc0IDIzLjczMiA1Ny4yOTNjMS44OTMxIDQuNTcwMy0wLjI2MjE5IDkuNzczNy00LjgzMjUgMTEuNjY3bC0xMS4wOTMgNC41OTUxIDM0LjgyOCAxNC40MjZjNC4xNTQ4IDEuNzIxIDguODg0OS0wLjIzODA3IDEwLjYwNi00LjM5MjlsMjQuODUyLTU5Ljk5OGMxLjcyMS00LjE1NDgtMC4yMzgwNy04Ljg4NDktNC4zOTI5LTEwLjYwNmwtNTkuOTk3LTI0Ljg1MmMtMS4wMzg3LTAuNDMwMjQtMi4xMTM0LTAuNjMwMzgtMy4xNjgtMC42MjM3OHptMy44NjM1IDguNzU3NmE4LjExNzYgOC4xMTc2IDAgMCAxIDIuOTI4NCAwLjYxNjIzIDguMTE3NiA4LjExNzYgMCAwIDEgNC4zOTM3IDEwLjYwNiA4LjExNzYgOC4xMTc2IDAgMCAxIC0xMC42MDcgNC4zOTMzIDguMTE3NiA4LjExNzYgMCAwIDEgLTQuMzkyOSAtMTAuNjA2IDguMTE3NiA4LjExNzYgMCAwIDEgNy42Nzc1IC01LjAwOTF6bTI3Ljg5NyA2Ny4zNDlhOC4xMTc2IDguMTE3NiAwIDAgMSAyLjkyODQgMC42MTU4IDguMTE3NiA4LjExNzYgMCAwIDEgNC4zOTM3IDEwLjYwNiA4LjExNzYgOC4xMTc2IDAgMCAxIC0xMC42MDYgNC4zOTI5IDguMTE3NiA4LjExNzYgMCAwIDEgLTQuMzkzMyAtMTAuNjA2IDguMTE3NiA4LjExNzYgMCAwIDEgNy42Nzc1IC01LjAwOTF6Ii8+CiAgIDwvZz4KICA8L2c+CiA8L2c+Cjwvc3ZnPgo=",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.17",
+            "url": "https://dicether.com/static/15a2d3c60bd2fa16e95f.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV67RVPMDCC90JWCPY6JV",
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=31536000",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"45177a9c4240cc43855f968e6cf733a3-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "x-frame-options": "DENY",
+                "content-type": "image/svg+xml",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.18",
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTYwbW0iIGhlaWdodD0iMTYwbW0iIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDE2MC4wMDAwMSAxNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogPGRlZnM+CiAgPGNsaXBQYXRoIGlkPSJjbGlwUGF0aDU2MzUiPgogICA8cGF0aCBkPSJtNDYuNjM4IDE1Ny44MmE1MCA1MCAwIDAgMCAtMzEuODkxIDExLjU0NSA1NSA1NSAwIDAgMSAxNS42OTEgMzguNDU1IDU1IDU1IDAgMCAxIC0xNS43NDIgMzguNDQ2IDUwIDUwIDAgMCAwIDMxLjk0MiAxMS41NTMgNTAgNTAgMCAwIDAgNTAgLTUwIDUwIDUwIDAgMCAwIC01MCAtNTB6IiBmaWxsPSIjZjAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZS13aWR0aD0iLjM2MjE5Ii8+CiAgPC9jbGlwUGF0aD4KIDwvZGVmcz4KIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk0LjMxOSAtMTY4LjI1KSI+CiAgPGc+CiAgIDxyZWN0IHg9Ii05NC4zMTkiIHk9IjE2OC4yNSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxNjAiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iLjI0NDM2Ii8+CiAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01LjgwNjQgOC4yMzI0KSIgZmlsbD0iIzM0OThkYiIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxnIHRyYW5zZm9ybT0ibWF0cml4KC45Mzk5OSAuMTI4OTggLS4xMjg5OCAuOTM5OTkgNy40NDYxIDQzLjIzNCkiIGNsaXAtcGF0aD0idXJsKCNjbGlwUGF0aDU2MzUpIj4KICAgICA8cGF0aCBkPSJtNDYuMTc3IDE1Ny44MmE1MCA1MCAwIDAgMCAtNTAgNTAgNTAgNTAgMCAwIDAgNTAgNTAgNTAgNTAgMCAwIDAgNTAgLTUwIDUwIDUwIDAgMCAwIC01MCAtNTB6bTAgNC45OTk3YTQ1IDQ1IDAgMCAxIDQ1IDQ1IDQ1IDQ1IDAgMCAxIC00NSA0NSA0NSA0NSAwIDAgMSAtNDUgLTQ1IDQ1IDQ1IDAgMCAxIDQ1IC00NXoiIHN0cm9rZS13aWR0aD0iLjM0MjAxIi8+CiAgICAgPHBhdGggZD0ibTQ2LjE3NyAxNjUuMzJhNDIuNSA0Mi41IDAgMCAwIC00Mi41IDQyLjUgNDIuNSA0Mi41IDAgMCAwIDQyLjUgNDIuNSA0Mi41IDQyLjUgMCAwIDAgNDIuNSAtNDIuNSA0Mi41IDQyLjUgMCAwIDAgLTQyLjUgLTQyLjV6bS0yLjMxNDEgMTEuNjMyaDYuNDA0OHY1NS40NTVoMTAuOTA5djYuMjgxM2gtMzB2LTYuMjgxM2gxMS4xNTd2LTQxLjI0aC0xMS4xNTd2LTUuNjE5OGM0LjIxNDkgMCA3LjMxNDItMC41OTIwNiA5LjI5NzYtMS43NzY2IDIuMDExLTEuMjEyMSAzLjE0MDUtMy40ODQ5IDMuMzg4NC02LjgxODJ6IiBzdHJva2Utd2lkdGg9Ii40MzAyOCIvPgogICAgPC9nPgogICAgPGcgdHJhbnNmb3JtPSJtYXRyaXgoLjkwMjM5IC0uMjkzMDggLjI5MzA4IC45MDIzOSAtNDcuNjg2IDI2LjEzNCkiPgogICAgIDxwYXRoIGQ9Im0tNjEuNTMxIDE2OS41MmE0Mi41IDQyLjUgMCAwIDAgLTQyLjUgNDIuNSA0Mi41IDQyLjUgMCAwIDAgNDIuNSA0Mi41IDQyLjUgNDIuNSAwIDAgMCA0Mi41IC00Mi41IDQyLjUgNDIuNSAwIDAgMCAtNDIuNSAtNDIuNXptMC4wMzkzIDkuMzM5IDE5LjcwOSAzMi45LTE5Ljc4NyAxMS42MjItMTkuNzA5LTExLjc3OXptLTE5Ljc0OCAzOC42MjEgMTkuNjMgMTEuNDY0IDE5Ljc4Ny0xMS4zODUtMTkuODY2IDI3LjY0eiIgc3Ryb2tlLXdpZHRoPSIuMjkwNyIvPgogICAgIDxwYXRoIGQ9Im0tNjEuNTMxIDE2Mi4wMmE1MCA1MCAwIDAgMCAtNTAgNTAgNTAgNTAgMCAwIDAgNTAgNTAgNTAgNTAgMCAwIDAgNTAgLTUwIDUwIDUwIDAgMCAwIC01MCAtNTB6bTAgNC45OTk3YTQ1IDQ1IDAgMCAxIDQ1IDQ1IDQ1IDQ1IDAgMCAxIC00NSA0NSA0NSA0NSAwIDAgMSAtNDUgLTQ1IDQ1IDQ1IDAgMCAxIDQ1IC00NXoiIHN0cm9rZS13aWR0aD0iLjM0MjAxIi8+CiAgICA8L2c+CiAgIDwvZz4KICA8L2c+CiA8L2c+Cjwvc3ZnPgo=",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.19",
+            "url": "https://dicether.com/static/71a415a57ff220f5c5d2.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV6BN8T3JF4053PN802WC",
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=31536000",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"7c2d5d7bfa10f3c281251e4f67f2353c-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "x-frame-options": "DENY",
+                "content-type": "image/svg+xml",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.20",
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iODguMTI3bW0iIGhlaWdodD0iODguMTI3bW0iIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDg4LjEyNyA4OC4xMjciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzOTUuMzkgNTQwLjI4KSI+CiAgPGcgZmlsbD0iI2YwZiI+PC9nPgogIDxyZWN0IHg9Ii0zOTUuMzkiIHk9Ii01NDAuMjgiIHdpZHRoPSI4OC4xMjciIGhlaWdodD0iODguMTI3IiBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9Ii4zNzk3MSIvPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTc3LjU4MykiIGZpbGw9IiMzNDk4ZGIiPgogICA8cGF0aCBkPSJtLTM1OS43My0zODMuMi0xLjk0NjEgNy4yNjQzYTQwIDQwIDAgMCAwIDI3LjI1Ny0yLjM4NWwtMy4xNzczLTYuODEzN2EzMi41IDMyLjUgMCAwIDEtMjIuMTM0IDEuOTM0NHoiIHN0eWxlPSJwYWludC1vcmRlcjpub3JtYWwiLz4KICAgPHBhdGggZD0ibS0zMzcuNjQtNDUyLjE2LTIuNTc2MyA3LjA3OGEzMi41IDMyLjUgMCAwIDEgMTcuMDQxIDE0LjI2bDYuNDk1LTMuNzQ5OWE0MCA0MCAwIDAgMC0yMC45Ni0xNy41ODh6IiBzdHlsZT0icGFpbnQtb3JkZXI6bm9ybWFsIi8+CiAgIDxwYXRoIGQ9Im0tMzcxLjMyLTQ0OS4yMWE0MCA0MCAwIDAgMC0xNy41ODcgMjAuOTZsNy4wNzggMi41NzYzYTMyLjUgMzIuNSAwIDAgMSAxNC4yNTktMTcuMDQxeiIgc3R5bGU9InBhaW50LW9yZGVyOm5vcm1hbCIvPgogICA8cGF0aCBkPSJtLTM4OS45Ni00MjQuOTNhNDAgNDAgMCAwIDAgMi4zODQ2IDI3LjI1N2w2LjgxMzctMy4xNzczYTMyLjUgMzIuNSAwIDAgMS0xLjkzMzctMjIuMTM0eiIgc3R5bGU9InBhaW50LW9yZGVyOm5vcm1hbCIvPgogICA8cGF0aCBkPSJtLTM4NS45Ni0zOTQuNTdhNDAgNDAgMCAwIDAgMjAuOTYgMTcuNTg4bDIuNTc2NC03LjA3OGEzMi41IDMyLjUgMCAwIDEtMTcuMDQxLTE0LjI2eiIgc3R5bGU9InBhaW50LW9yZGVyOm5vcm1hbCIvPgogICA8cGF0aCBkPSJtLTMyMC44MS00MDMuNDdhMzIuNSAzMi41IDAgMCAxLTE0LjI2IDE3LjA0MWwzLjc0OTkgNi40OTVhNDAgNDAgMCAwIDAgMTcuNTg4LTIwLjk2eiIgc3R5bGU9InBhaW50LW9yZGVyOm5vcm1hbCIvPgogICA8cGF0aCBkPSJtLTMyMS44OC00MjguM2EzMi41IDMyLjUgMCAwIDEgMS45MzM3IDIyLjEzNGw3LjI2NDYgMS45NDY1YTQwIDQwIDAgMCAwLTIuMzg0Ni0yNy4yNTd6IiBzdHlsZT0icGFpbnQtb3JkZXI6bm9ybWFsIi8+CiAgIDxwYXRoIGQ9Im0tMzUxLjMyLTQzNC41N2EyMCAyMCAwIDAgMC0yMCAyMCAyMCAyMCAwIDAgMCAyMCAyMCAyMCAyMCAwIDAgMCAyMC0yMCAyMCAyMCAwIDAgMC0yMC0yMHptLTMuNDcyNiA3Ljc3MDhoOC43MzEyYzEuNzE5OCAwIDIuNTc5NiAwLjY1NTk2IDIuNTc5NiAxLjk2NzkgMCAwLjU3MzI3LTAuMjA5NDMgMS4wMzYzLTAuNjI4MzUgMS4zODkxLTAuNDE4OTIgMC4zNTI3OC0xLjAzNjMgMC41MjkxNy0xLjg1MjEgMC41MjkxN2gtNy44NTQ4bC0wLjk0MjU4IDUuMzU3OWMxLjU2NTQtMC44Mzc4NSAzLjAwOTYtMS4yNTY4IDQuMzMyNS0xLjI1NjggMS4wNTgzIDAgMi4wNDUgMC4xOTg0NSAyLjk2IDAuNTk1MzMgMC45MjYwNCAwLjM5Njg3IDEuNzM2MyAwLjk0ODA5IDIuNDMwOCAxLjY1MzYgMC42OTQ1IDAuNjk0NTQgMS4yNDAyIDEuNTIxNCAxLjYzNzEgMi40ODA1IDAuMzk2ODcgMC45NTkxMyAwLjU5NTMxIDEuOTg5OSAwLjU5NTMxIDMuMDkyNCAwIDEuNTk4Ni0wLjM1ODI3IDMuMDUzOC0xLjA3NDkgNC4zNjU3LTAuNzE2NTUgMS4zMTE5LTEuNzUyOCAyLjM1MzctMy4xMDg4IDMuMTI1NC0xLjM0NSAwLjc3MTcxLTIuODk5NCAxLjE1NzYtNC42NjMyIDEuMTU3Ni0xLjk3MzQgMC0zLjU3NzQtMC4zNjM4MS00LjgxMjEtMS4wOTE0LTEuMjIzNy0wLjcyNzYtMi4wOTQ2LTEuNTU5OS0yLjYxMjgtMi40OTctMC41MDcxMi0wLjk0ODEtMC43NjA2NS0xLjc3NDktMC43NjA2NS0yLjQ4MDUgMC0wLjQyOTk1IDAuMTc2MzktMC44Mzc4NiAwLjUyOTE2LTEuMjIzNyAwLjM2Mzc4LTAuMzg1ODQgMC44MTU3OS0wLjU3ODc4IDEuMzU2LTAuNTc4NzggMC45MjYwMyAwIDEuNjE1IDAuNTM0NjkgMi4wNjcgMS42MDQxIDAuNDQwOTcgMC45ODExNyAxLjAzNjMgMS43NDc0IDEuNzg1OSAyLjI5ODYgMC43NDk2NCAwLjU0MDIxIDEuNTg3NSAwLjgxMDMgMi41MTM1IDAuODEwMyAwLjg0ODg1IDAgMS41OTMtMC4yMjA0OCAyLjIzMjQtMC42NjE0NiAwLjYzOTQtMC40NDA5OCAxLjEzLTEuMDQ3MyAxLjQ3MTctMS44MTkgMC4zNTI3OS0wLjc3MTcxIDAuNTI5MTctMS42NDgyIDAuNTI5MTctMi42MjkzIDAtMS4wNTgzLTAuMTg3NDItMS45NjI0LTAuNTYyMjUtMi43MTItMC4zNzQ4Mi0wLjc0OTY2LTAuODc2NC0xLjMwNjQtMS41MDQ4LTEuNjcwMi0wLjYyODM3LTAuMzc0ODMtMS4zMjg0LTAuNTYyMjQtMi4xMDAxLTAuNTYyMjQtMC45NDgwOSAwLTEuNjI2MSAwLjExNTczLTIuMDM0IDAuMzQ3MjUtMC40MDc5MSAwLjIzMTUzLTAuOTk3NzIgMC42Mzk0Mi0xLjc2OTQgMS4yMjM3LTAuNzYwNjYgMC41NzMyNy0xLjM4OTEgMC44NTk5LTEuODg1MSAwLjg1OTktMC41NDAyIDAtMS4wMTk3LTAuMTkyOTItMS40Mzg3LTAuNTc4NzgtMC40MTg5MS0wLjM5Njg4LTAuNjI4MzktMC44NDMzNi0wLjYyODM5LTEuMzM5NSAwLTAuMDU1MSAwLjA2MDctMC40Mjk5NSAwLjE4MTg5LTEuMTI0NWwxLjM4OTEtNy45MjFjMC4xNTQzMy0wLjk0ODEgMC40NDA5Ny0xLjYzNzEgMC44NTk4OC0yLjA2NzEgMC40MTg5Mi0wLjQyOTk1IDEuMTAyNC0wLjY0NDkzIDIuMDUwNS0wLjY0NDkzeiIgc3R5bGU9InBhaW50LW9yZGVyOm5vcm1hbCIvPgogICA8cGF0aCBkPSJtLTM1Mi44NS00NTQuNTRhNDAgNDAgMCAwIDAtMTUuMzc3IDMuNzE4MWwzLjE3NzYgNi44MTRhMzIuNSAzMi41IDAgMCAxIDIyLjEzNC0xLjkzNDhsMS45NDYxLTcuMjYzNmE0MCA0MCAwIDAgMC05LjA1NDItMS4zMDA3bC0xLjI5ODYgNC41NTU4LTEuMzA3NC00LjU4NjNhNDAgNDAgMCAwIDAtMC4yMjAxMy0zZS0zeiIgc3R5bGU9InBhaW50LW9yZGVyOm5vcm1hbCIvPgogICA8cGF0aCBkPSJtLTM1NC4zMS00NjIuNTRhMTcuMjc2IDEwLjY4NyAwIDAgMSA2IDBsLTMgMTAuNTI1eiIgc3R5bGU9InBhaW50LW9yZGVyOm5vcm1hbCIvPgogIDwvZz4KIDwvZz4KPC9zdmc+Cg==",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.21",
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPg0KPHN2ZyB3aWR0aD0iMjYuNDU4bW0iIGhlaWdodD0iMjYuNDU4bW0iIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDI2LjQ1OCAyNi40NTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZGVmcz4NCiAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXJHcmFkaWVudDExOTgiIHgxPSIxMjYuMzkiIHgyPSIxMjYuNDIiIHkxPSItNzUuNjY5IiB5Mj0iLTYwLjU5MiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCguNjAzNTQgMS42ODExZS04IDAgMS4zMjcyIDY3Ljk1OSAxMzkuNDUpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeGxpbms6aHJlZj0iI2xpbmVhckdyYWRpZW50MTA0NiIvPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhckdyYWRpZW50MTA0NiI+DQogICA8c3RvcCBzdG9wLWNvbG9yPSIjMjk5M2Q5IiBvZmZzZXQ9IjAiLz4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiMyOTkzZDkiIHN0b3Atb3BhY2l0eT0iMCIgb2Zmc2V0PSIxIi8+DQogIDwvbGluZWFyR3JhZGllbnQ+DQogIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyR3JhZGllbnQxMDQ4LTgtNSIgeDE9IjEyNi4zOSIgeDI9IjEyNi40MiIgeTE9Ii03NS42NjkiIHkyPSItNjAuNTkyIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC42NzgwMiAzLjk4MjVlLTggNy4xNTkzZS04IDEuNjk1OSAzMC4wNzEgMTI0Ljk5KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDEwNDYiLz4NCiAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXJHcmFkaWVudDEwNDgtOCIgeDE9IjEyNi4zOSIgeDI9IjEyNi40MiIgeTE9Ii03NS42NjkiIHkyPSItNjAuNTkyIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC42MDM1NCAyLjYwNDJlLTggMy40ODc3ZS04IDEuMzI3MiA3NC45NTIgMTQ1LjQ2KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHhsaW5rOmhyZWY9IiNsaW5lYXJHcmFkaWVudDEwNDYiLz4NCiAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXJHcmFkaWVudDExNDEiIHgxPSIzMS4zODciIHgyPSIzMi42MDkiIHkxPSIxMjEuODUiIHkyPSIxMTkuNTkiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMS4wMDU1IDAgMCAxLjAwOTUgMS42MjkyIC05LjQ0MzgpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQogICA8c3RvcCBzdG9wLWNvbG9yPSIjMDAwMDgwIiBvZmZzZXQ9IjAiLz4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiMyOTkzZDkiIG9mZnNldD0iMSIvPg0KICA8L2xpbmVhckdyYWRpZW50Pg0KICA8cmFkaWFsR3JhZGllbnQgaWQ9InJhZGlhbEdyYWRpZW50MTA1OSIgY3g9IjMyLjkwNiIgY3k9IjExOS44NCIgcj0iMS40NjE1IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIDEgMS43OTY4IC04LjI4MTIpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQogICA8c3RvcCBzdG9wLWNvbG9yPSIjZmZmIiBvZmZzZXQ9IjAiLz4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMCIgb2Zmc2V0PSIxIi8+DQogIDwvcmFkaWFsR3JhZGllbnQ+DQogPC9kZWZzPg0KIDxtZXRhZGF0YT4NCiAgPHJkZjpSREY+DQogICA8Y2M6V29yayByZGY6YWJvdXQ9IiI+DQogICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+DQogICAgPGRjOnR5cGUgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIvPg0KICAgIDxkYzp0aXRsZS8+DQogICA8L2NjOldvcms+DQogIDwvcmRmOlJERj4NCiA8L21ldGFkYXRhPg0KIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02OS44OTEgLTkyLjAwNikiPg0KICA8ZyB0cmFuc2Zvcm09Im1hdHJpeCgxLjA0MTcgMCAwIDEuMDQxNyAtNi45MiAtMTMuNDUxKSI+DQogICA8cmVjdCB4PSI3My43MzkiIHk9IjEwMS4yNCIgd2lkdGg9IjI1LjQiIGhlaWdodD0iMjUuNCIgcnk9IjAiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iLjI1Mjg4Ii8+DQogICA8cmVjdCB4PSI3My43MzkiIHk9IjEwMS4yNCIgd2lkdGg9IjI1LjQiIGhlaWdodD0iMjUuNCIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIuMzA0MDMiLz4NCiAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsMS4wMTYpIj4NCiAgICA8ZyB0cmFuc2Zvcm09Im1hdHJpeCguNzUxNTMgLjA3MTczMiAtLjA3MTczMiAuNzUxNTMgNjIuNzgyIDMyLjcxNSkiPg0KICAgICA8ZWxsaXBzZSB0cmFuc2Zvcm09Im1hdHJpeCguMDgzODY4IC45OTY0OCAuNTI2NTggLS44NTAxMyAwIDApIiBjeD0iMTQ0LjM2IiBjeT0iNDUuOTciIHJ4PSIxLjg2MDYiIHJ5PSI3LjIzODEiIGZpbGw9InVybCgjbGluZWFyR3JhZGllbnQxMTk4KSIgc3R5bGU9InBhaW50LW9yZGVyOm5vcm1hbCIvPg0KICAgICA8ZWxsaXBzZSB0cmFuc2Zvcm09Im1hdHJpeCguMzA1NzQgLjk1MjEyIC41MTU5NCAtLjg1NjYzIDAgMCkiIGN4PSIxMTUuOSIgY3k9IjUuNTQyNiIgcng9IjIuMDkwMiIgcnk9IjkuMjQ4OCIgZmlsbD0idXJsKCNsaW5lYXJHcmFkaWVudDEwNDgtOC01KSIgc3R5bGU9InBhaW50LW9yZGVyOm5vcm1hbCIvPg0KICAgICA8ZWxsaXBzZSB0cmFuc2Zvcm09Im1hdHJpeCguMDgzODY4IC45OTY0OCAuNTI2NTggLS44NTAxMyAwIDApIiBjeD0iMTUxLjM1IiBjeT0iNTEuOTgzIiByeD0iMS44NjA2IiByeT0iNy4yMzgxIiBmaWxsPSJ1cmwoI2xpbmVhckdyYWRpZW50MTA0OC04KSIgc3R5bGU9InBhaW50LW9yZGVyOm5vcm1hbCIvPg0KICAgICA8Y2lyY2xlIGN4PSIzNC43MDMiIGN5PSIxMTEuNTYiIHI9IjIuNTEzOCIgZmlsbD0idXJsKCNsaW5lYXJHcmFkaWVudDExNDEpIiBzdHlsZT0icGFpbnQtb3JkZXI6bm9ybWFsIi8+DQogICAgIDxwYXRoIGQ9Im0zMi44NjkgMTA5LjkyYTIuNSAyLjQ5MDEgMCAwIDAtMC42NjM0IDEuNjg1MSAyLjUgMi40OTAxIDAgMCAwIDIuNDk5OCAyLjQ5IDIuNSAyLjQ5MDEgMCAwIDAgMi4zMzg0LTEuNjE3NSAyLjUgMi40OTAxIDAgMCAxLTEuODM3MSAwLjgwNjIgMi41IDIuNDkwMSAwIDAgMS0yLjQ5OTgtMi40OSAyLjUgMi40OTAxIDAgMCAxIDAuMTYyMTQtMC44NzM3NHoiIGZpbGw9IiMwMDAwODAiIG9wYWNpdHk9Ii4wMyIgc3R5bGU9InBhaW50LW9yZGVyOm5vcm1hbCIvPg0KICAgICA8cGF0aCBkPSJtMzQuNzAzIDExMC4xYTEuNDYxNiAxLjQ2MTYgMCAwIDAtMS40NjE1IDEuNDYxNSAxLjQ2MTYgMS40NjE2IDAgMCAwIDEuNDYxNSAxLjQ2MTUgMS40NjE2IDEuNDYxNiAwIDAgMCAxLjQ2MTUtMS40NjE1IDEuNDYxNiAxLjQ2MTYgMCAwIDAtMS40NjE1LTEuNDYxNXptMCAwLjM2NTJhMS4wOTYyIDEuMDk2MiAwIDAgMSAxLjA5NTkgMS4wOTYzIDEuMDk2MiAxLjA5NjIgMCAwIDEtMS4wOTU5IDEuMDk2MyAxLjA5NjIgMS4wOTYyIDAgMCAxLTEuMDk2My0xLjA5NjMgMS4wOTYyIDEuMDk2MiAwIDAgMSAxLjA5NjMtMS4wOTYzeiIgZmlsbD0idXJsKCNyYWRpYWxHcmFkaWVudDEwNTkpIiBzdHlsZT0icGFpbnQtb3JkZXI6bm9ybWFsIi8+DQogICAgPC9nPg0KICAgIDxnIGZpbGw9IiMyYzk0ZDkiPg0KICAgICA8Y2lyY2xlIGN4PSI3OS4wMyIgY3k9IjExNi4zMyIgcj0iLjk2IiBzdHlsZT0icGFpbnQtb3JkZXI6bm9ybWFsIi8+DQogICAgIDxjaXJjbGUgY3g9IjgyLjYyNSIgY3k9IjEyMy40NCIgcj0iLjk2IiBzdHlsZT0icGFpbnQtb3JkZXI6bm9ybWFsIi8+DQogICAgIDxjaXJjbGUgY3g9IjkzLjQwOSIgY3k9IjExNi4zMyIgcj0iLjk2IiBzdHlsZT0icGFpbnQtb3JkZXI6bm9ybWFsIi8+DQogICAgIDxjaXJjbGUgY3g9IjgyLjYyNSIgY3k9IjEwOS43MyIgcj0iLjk2IiBzdHlsZT0icGFpbnQtb3JkZXI6bm9ybWFsIi8+DQogICAgIDxjaXJjbGUgY3g9Ijk3LjAwNCIgY3k9IjEyMy40NCIgcj0iLjk2IiBzdHlsZT0icGFpbnQtb3JkZXI6bm9ybWFsIi8+DQogICAgIDxjaXJjbGUgY3g9Ijg5LjgxNSIgY3k9IjEwOS43MyIgcj0iLjk2IiBzdHlsZT0icGFpbnQtb3JkZXI6bm9ybWFsIi8+DQogICAgIDxjaXJjbGUgY3g9Ijg2LjIyIiBjeT0iMTE2LjMzIiByPSIuOTYiIHN0eWxlPSJwYWludC1vcmRlcjpub3JtYWwiLz4NCiAgICAgPGNpcmNsZSBjeD0iODkuODE1IiBjeT0iMTIzLjQ0IiByPSIuOTYiIHN0eWxlPSJwYWludC1vcmRlcjpub3JtYWwiLz4NCiAgICAgPGNpcmNsZSBjeD0iNzUuNDM1IiBjeT0iMTIzLjQ0IiByPSIuOTYiIHN0eWxlPSJwYWludC1vcmRlcjpub3JtYWwiLz4NCiAgICAgPGNpcmNsZSBjeD0iODYuMjIiIGN5PSIxMDIuMTEiIHI9Ii45NiIgc3R5bGU9InBhaW50LW9yZGVyOm5vcm1hbCIvPg0KICAgIDwvZz4NCiAgIDwvZz4NCiAgPC9nPg0KIDwvZz4NCjwvc3ZnPg0K",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.22",
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyBmaWxsPSIjZmZjMTA3IiB3aWR0aD0iMjMwNCIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMjMwNCAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNzI4IDQ0OGwtMzg0IDcwNGg3Njh6bS0xMjgwIDBsLTM4NCA3MDRoNzY4em04MjEtMTkycS0xNCA0MC00NS41IDcxLjV0LTcxLjUgNDUuNXYxMjkxaDYwOHExNCAwIDIzIDl0OSAyM3Y2NHEwIDE0LTkgMjN0LTIzIDloLTEzNDRxLTE0IDAtMjMtOXQtOS0yM3YtNjRxMC0xNCA5LTIzdDIzLTloNjA4di0xMjkxcS00MC0xNC03MS41LTQ1LjV0LTQ1LjUtNzEuNWgtNDkxcS0xNCAwLTIzLTl0LTktMjN2LTY0cTAtMTQgOS0yM3QyMy05aDQ5MXEyMS01NyA3MC05Mi41dDExMS0zNS41IDExMSAzNS41IDcwIDkyLjVoNDkxcTE0IDAgMjMgOXQ5IDIzdjY0cTAgMTQtOSAyM3QtMjMgOWgtNDkxem0tMTgxIDE2cTMzIDAgNTYuNS0yMy41dDIzLjUtNTYuNS0yMy41LTU2LjUtNTYuNS0yMy41LTU2LjUgMjMuNS0yMy41IDU2LjUgMjMuNSA1Ni41IDU2LjUgMjMuNXptMTA4OCA4ODBxMCA3My00Ni41IDEzMXQtMTE3LjUgOTEtMTQ0LjUgNDkuNS0xMzkuNSAxNi41LTEzOS41LTE2LjUtMTQ0LjUtNDkuNS0xMTcuNS05MS00Ni41LTEzMXEwLTExIDM1LTgxdDkyLTE3NC41IDEwNy0xOTUuNSAxMDItMTg0IDU2LTEwMHExOC0zMyA1Ni0zM3Q1NiAzM3E0IDcgNTYgMTAwdDEwMiAxODQgMTA3IDE5NS41IDkyIDE3NC41IDM1IDgxem0tMTI4MCAwcTAgNzMtNDYuNSAxMzF0LTExNy41IDkxLTE0NC41IDQ5LjUtMTM5LjUgMTYuNS0xMzkuNS0xNi41LTE0NC41LTQ5LjUtMTE3LjUtOTEtNDYuNS0xMzFxMC0xMSAzNS04MXQ5Mi0xNzQuNSAxMDctMTk1LjUgMTAyLTE4NCA1Ni0xMDBxMTgtMzMgNTYtMzN0NTYgMzNxNCA3IDU2IDEwMHQxMDIgMTg0IDEwNyAxOTUuNSA5MiAxNzQuNSAzNSA4MXoiLz48L3N2Zz4=",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.23",
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyBmaWxsPSIjZTc0YzNjIiB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNTA0IDQ0OHEwLTQwLTI4LTY4dC02OC0yOC02OCAyOC0yOCA2OCAyOCA2OCA2OCAyOCA2OC0yOCAyOC02OHptMjI0LTI4OHEwIDI0OS03NS41IDQzMC41dC0yNTMuNSAzNjAuNXEtODEgODAtMTk1IDE3NmwtMjAgMzc5cS0yIDE2LTE2IDI2bC0zODQgMjI0cS03IDQtMTYgNC0xMiAwLTIzLTlsLTY0LTY0cS0xMy0xNC04LTMybDg1LTI3Ni0yODEtMjgxLTI3NiA4NXEtMyAxLTkgMS0xNCAwLTIzLTlsLTY0LTY0cS0xNy0xOS01LTM5bDIyNC0zODRxMTAtMTQgMjYtMTZsMzc5LTIwcTk2LTExNCAxNzYtMTk1IDE4OC0xODcgMzU4LTI1OHQ0MzEtNzFxMTQgMCAyNCA5LjV0MTAgMjIuNXoiLz48L3N2Zz4=",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.24",
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik03MDQgMTUzNmw5Ni00NDgtOTYtMTI4LTEyOC02NHptMjU2IDBsMTI4LTY0MC0xMjggNjQtOTYgMTI4em0xNjAtMTAxMHEtMi00LTQtNi0xMC04LTk2LTgtNzAgMC0xNjcgMTktNyAyLTIxIDJ0LTIxLTJxLTk3LTE5LTE2Ny0xOS04NiAwLTk2IDgtMiAyLTQgNiAyIDE4IDQgMjcgMiAzIDcuNSA2LjV0Ny41IDEwLjVxMiA0IDcuNSAyMC41dDcgMjAuNSA3LjUgMTcgOC41IDE3IDkgMTQgMTIgMTMuNSAxNCA5LjUgMTcuNSA4IDIwLjUgNCAyNC41IDJxMzYgMCA1OS0xMi41dDMyLjUtMzAgMTQuNS0zNC41IDExLjUtMjkuNSAxNy41LTEyLjVoMTJxMTEgMCAxNy41IDEyLjV0MTEuNSAyOS41IDE0LjUgMzQuNSAzMi41IDMwIDU5IDEyLjVxMTMgMCAyNC41LTJ0MjAuNS00IDE3LjUtOCAxNC05LjUgMTItMTMuNSA5LTE0IDguNS0xNyA3LjUtMTcgNy0yMC41IDcuNS0yMC41cTItNyA3LjUtMTAuNXQ3LjUtNi41cTItOSA0LTI3em00MTYgODc5cTAgMTIxLTczIDE5MHQtMTk0IDY5aC04NzRxLTEyMSAwLTE5NC02OXQtNzMtMTkwcTAtNjEgNC41LTExOHQxOS0xMjUuNSAzNy41LTEyMy41IDYzLjUtMTAzLjUgOTMuNS03NC41bC05MC0yMjBoMjE0cS0yMi02NC0yMi0xMjggMC0xMiAyLTMyLTE5NC00MC0xOTQtOTYgMC01NyAyMTAtOTkgMTctNjIgNTEuNS0xMzR0NzAuNS0xMTRxMzItMzcgNzYtMzcgMzAgMCA4NCAzMXQ4NCAzMSA4NC0zMSA4NC0zMXE0NCAwIDc2IDM3IDM2IDQyIDcwLjUgMTE0dDUxLjUgMTM0cTIxMCA0MiAyMTAgOTkgMCA1Ni0xOTQgOTYgNyA4MS0yMCAxNjBoMjE0bC04MiAyMjVxNjMgMzMgMTA3LjUgOTYuNXQ2NS41IDE0My41IDI5IDE1MS41IDggMTQ4LjV6Ii8+PC9zdmc+",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.26",
+            "url": "https://dicether.com/static/favicon.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV6BZ3BEWER9FTDJD85GW",
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-length": "2327",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"5f566de7e199918a4378ec311b0cbbe0-ssl\"",
+                "x-frame-options": "DENY",
+                "content-type": "image/png",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "35801.314",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Ping",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{}\n{\"type\":\"client_report\"}\n{\"timestamp\":1674564180.233,\"discarded_events\":[{\"reason\":\"network_error\",\"category\":\"session\",\"quantity\":1}]}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.27",
+            "url": "https://www.google-analytics.com/j/collect?v=1&_v=j99&aip=1&a=597352207&t=pageview&_s=1&dl=https%3A%2F%2Fdicether.com%2F&ul=en-us&de=UTF-8&dt=Dicether&sd=24-bit&sr=3440x1440&vp=3440x1206&je=0&_u=YEBAAEABAAAAACAAI~&jid=1599356664&gjid=1006580110&cid=788441968.1674564180&tid=UA-107010485-1&_gid=181077201.1674564180&_r=1&_slc=1&z=632026014",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "no-cache",
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "x-content-type-options": "nosniff",
+                "last-modified": "Sun, 17 May 1998 03:00:00 GMT",
+                "server": "Golfe2",
+                "content-type": "text/plain",
+                "access-control-allow-origin": "https://dicether.com",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "access-control-allow-credentials": "true",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "2",
+                "expires": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.28",
+            "url": "https://www.google-analytics.com/collect?v=1&_v=j99&aip=1&a=597352207&t=pageview&_s=2&dl=https%3A%2F%2Fdicether.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=Dicether&sd=24-bit&sr=3440x1440&vp=3440x1206&je=0&_u=YEBAAEABAAAAACAAI~&jid=&gjid=&cid=788441968.1674564180&tid=UA-107010485-1&_gid=181077201.1674564180&z=1226395142",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "no-cache",
+                "date": "Tue, 24 Jan 2023 02:53:58 GMT",
+                "x-content-type-options": "nosniff",
+                "last-modified": "Sun, 17 May 1998 03:00:00 GMT",
+                "server": "Golfe2",
+                "age": "35342",
+                "content-type": "image/gif",
+                "access-control-allow-origin": "*",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "35",
+                "expires": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.29",
+            "url": "https://websocket.dicether.com/socket.io/?EIO=4&transport=polling&t=ONZpPcq&sid=mei-YNr682XqBw1PALWe",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "text/plain;charset=UTF-8",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "40",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "x-frame-options": "Deny",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=rI6%2BITXb39XC8YrNulk412cMPzuSvNxfgs1%2F3Vu6UoWF7JwvhQAKxxfxkkwNB9z9eB1n6Kn5O9Mg7ElP31xR9Ds0SfkXYux6lqJIX89%2FNRnb6GXMPZSdeljnPLMrdlSfAIIkmG5H2RB8\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/plain",
+                "access-control-allow-origin": "https://dicether.com",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "78e8da2f8ca93b51-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.31",
+            "url": "https://websocket.dicether.com/socket.io/?EIO=4&transport=polling&t=ONZpPcs&sid=mei-YNr682XqBw1PALWe",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "content-encoding": "br",
+                "x-frame-options": "Deny",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=XweeYvUccrypgA89GWxVhdoyl%2F2qUJe5xdf4dzS8dJOjZRPfhXMfQmU2SZQMw8DI2luxJjNsVv5JLPb8%2BTrXZ8w1Vdb0LCibWvCfh3aObQaBuM77K9%2BHzt04JhFgtG6fz8oP52OmFbp8\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/plain; charset=UTF-8",
+                "access-control-allow-origin": "https://dicether.com",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "78e8da2f8cab3b51-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.32",
+            "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgc3R5bGU9Imlzb2xhdGlvbjppc29sYXRlIiB2aWV3Qm94PSI5Ni4zMyA1MzMgNjQ1IDY2MiIgd2lkdGg9IjY0NSIgaGVpZ2h0PSI2NjIiPjxnIGlkPSJTeW1ib2wgMSI+PGcgaWQ9Ikdyb3VwIj48cGF0aCBkPSIgTSA5Ni4zMyA4NzIuNSBDIDk2LjMzIDY5NC41MDcgMjQwLjgzNyA1NTAgNDE4LjgzIDU1MCBDIDU5Ni44MjMgNTUwIDc0MS4zMyA2OTQuNTA3IDc0MS4zMyA4NzIuNSBDIDc0MS4zMyAxMDUwLjQ5MyA1OTYuODIzIDExOTUgNDE4LjgzIDExOTUgQyAyNDAuODM3IDExOTUgOTYuMzMgMTA1MC40OTMgOTYuMzMgODcyLjUgWiAiIGZpbGw9InJnYig2OSw3NCwxMTIpIi8+PHBhdGggZD0iIE0gNDE4LjgzIDYwNC42NzMgTCA1NzkuMTYgODM0LjI5MyBMIDQxOC44MyA5MzIuNjA3IEwgMjU4LjUgODM0LjI5MyBMIDQxOC44MyA2MDQuNjczIFogIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9InJnYigyNTUsMjU1LDI1NSkiLz48cGF0aCBkPSIgTSA0MTguODMgMTExNSBMIDU3OS4xNiA4NTMuNjQgTCA0MTguODMgOTU1LjMyNyBMIDI1OC41IDg1My42NCBMIDQxOC44MyAxMTE1IFogIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9InJnYigyNTUsMjU1LDI1NSkiLz48L2c+PC9nPjwvc3ZnPg==",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.72",
+            "url": "https://dicether.com/static/favicon.png",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV6BZ3BEWER9FTDJD85GW",
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-length": "2327",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"5f566de7e199918a4378ec311b0cbbe0-ssl\"",
+                "x-frame-options": "DENY",
+                "content-type": "image/png",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.73",
+            "url": "https://websocket.dicether.com/socket.io/?EIO=4&transport=polling&t=ONZpPj9&sid=mei-YNr682XqBw1PALWe",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "content-encoding": "br",
+                "x-frame-options": "Deny",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=21syRCQ%2Fl9%2BbDl1H8bs5xe8qxDQmu0Db%2BPDSnUCCRI8mtXNdytYaJyPN4lzGpdO8QqVN1OBBEYAKtr8dyB%2FwkNmETjOKC42yGYn%2BmwV0K6MNy6HNXTMd1C1uzmIgJOcyZ2sPzjcQ3Pdi\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/plain; charset=UTF-8",
+                "access-control-allow-origin": "https://dicether.com",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "78e8da320d1a3b51-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.74",
+            "url": "https://websocket.dicether.com/socket.io/?EIO=4&transport=polling&t=ONZpPkK&sid=mei-YNr682XqBw1PALWe",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "content-type": "text/plain;charset=UTF-8",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "42[\"getUsersOnline\"]",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "x-frame-options": "Deny",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=GrAOObhNx3g1wQtGl7ZOMyRDqWJGyeml0%2F9mLUWNm8lS0ZUkZTQTSqYqUTrAOB0dDaKdRlXyE17d8Nv7sdyZf9zjf7uuGe0u89SQ71dNUY7ISa%2FK8dT2UD4IfkEGLAzFvbvMFXgMA1nx\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/plain",
+                "access-control-allow-origin": "https://dicether.com",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "78e8da327d2f3b51-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/static/vendor.f263168550cfabecd726.js"
+            ],
+            "id": "35802.30",
+            "url": "wss://websocket.dicether.com/socket.io/?EIO=4&transport=websocket&sid=mei-YNr682XqBw1PALWe",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "2probe",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.75",
+            "url": "https://websocket.dicether.com/socket.io/?EIO=4&transport=polling&t=ONZpPlP&sid=mei-YNr682XqBw1PALWe",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "*/*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:43:00 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "x-frame-options": "Deny",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2BGvNG9SRINhQb%2BSNuRcGDWX9vGN4aJ0jXZCUDIFbJ2RuR1Pk4Si5w%2Fn2QGBT7Vvd1P7yJK%2BABsnNz4UOd95TnZz6SMFTOT7IMyvyn2LPVGLjAT1vVchkEcbkvhz9yHGa2caYhJgse%2BiJ\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/plain; charset=UTF-8",
+                "access-control-allow-origin": "https://dicether.com",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "78e8da32ed3b3b51-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "1"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/static/vendor.f263168550cfabecd726.js"
+            ],
+            "id": "35802.30",
+            "url": "wss://websocket.dicether.com/socket.io/?EIO=4&transport=websocket&sid=mei-YNr682XqBw1PALWe",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "5",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.76",
+            "url": "https://dicether.com/static/08103c89a0bf1ee6ab0c.wav",
+            "type": "Media",
+            "status": 206,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "accept-encoding": "identity;q=1, *;q=0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "range": "bytes=0-",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV7864GYW5A526B0QWB7M",
+                "date": "Tue, 24 Jan 2023 12:43:01 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-range": "bytes 0-55263/55264",
+                "content-length": "55264",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"0f53ca6e6dedc27036f10faa2b7ce402-ssl\"",
+                "x-frame-options": "DENY",
+                "content-type": "audio/x-wav",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.77",
+            "url": "https://dicether.com/static/54c0f0c146276c75ce92.wav",
+            "type": "Media",
+            "status": 206,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "accept-encoding": "identity;q=1, *;q=0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "range": "bytes=0-",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV787741ET1NNFZHH9BR7",
+                "date": "Tue, 24 Jan 2023 12:43:01 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-range": "bytes 0-11293/11294",
+                "content-length": "11294",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"62fe91147ecfcc44faa9c9b63002ded3-ssl\"",
+                "x-frame-options": "DENY",
+                "content-type": "audio/x-wav",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.78",
+            "url": "https://dicether.com/static/d29666438ecb3a9ae1ad.wav",
+            "type": "Media",
+            "status": 206,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "accept-encoding": "identity;q=1, *;q=0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "range": "bytes=0-",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV787CWM1DRMYS6EE0Z25",
+                "date": "Tue, 24 Jan 2023 12:43:01 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-range": "bytes 0-4167/4168",
+                "content-length": "4168",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"7b792530dcf083990daf8f07067f69ab-ssl\"",
+                "x-frame-options": "DENY",
+                "content-type": "audio/x-wav",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.79",
+            "url": "https://dicether.com/static/d29666438ecb3a9ae1ad.wav",
+            "type": "Media",
+            "status": 206,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "accept-encoding": "identity;q=1, *;q=0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "range": "bytes=0-",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV787CWM1DRMYS6EE0Z25",
+                "date": "Tue, 24 Jan 2023 12:43:01 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-range": "bytes 0-4167/4168",
+                "content-length": "4168",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"7b792530dcf083990daf8f07067f69ab-ssl\"",
+                "x-frame-options": "DENY",
+                "content-type": "audio/x-wav",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.80",
+            "url": "https://dicether.com/static/d29666438ecb3a9ae1ad.wav",
+            "type": "Media",
+            "status": 206,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "accept-encoding": "identity;q=1, *;q=0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "range": "bytes=0-",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV787CWM1DRMYS6EE0Z25",
+                "date": "Tue, 24 Jan 2023 12:43:01 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-range": "bytes 0-4167/4168",
+                "content-length": "4168",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"7b792530dcf083990daf8f07067f69ab-ssl\"",
+                "x-frame-options": "DENY",
+                "content-type": "audio/x-wav",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.81",
+            "url": "https://dicether.com/static/08103c89a0bf1ee6ab0c.wav",
+            "type": "Media",
+            "status": 206,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "accept-encoding": "identity;q=1, *;q=0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "range": "bytes=0-",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV7G158VA8Y95Q45CW3WS",
+                "date": "Tue, 24 Jan 2023 12:43:01 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-range": "bytes 0-55263/55264",
+                "content-length": "55264",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"0f53ca6e6dedc27036f10faa2b7ce402-ssl\"",
+                "x-frame-options": "DENY",
+                "content-type": "audio/x-wav",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.82",
+            "url": "https://dicether.com/static/d29666438ecb3a9ae1ad.wav",
+            "type": "Media",
+            "status": 206,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "accept-encoding": "identity;q=1, *;q=0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "range": "bytes=0-",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV787CWM1DRMYS6EE0Z25",
+                "date": "Tue, 24 Jan 2023 12:43:01 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-range": "bytes 0-4167/4168",
+                "content-length": "4168",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"7b792530dcf083990daf8f07067f69ab-ssl\"",
+                "x-frame-options": "DENY",
+                "content-type": "audio/x-wav",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/"
+            ],
+            "id": "35802.83",
+            "url": "https://dicether.com/static/08103c89a0bf1ee6ab0c.wav",
+            "type": "Media",
+            "status": 206,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dicether.com/",
+                "accept-encoding": "identity;q=1, *;q=0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "range": "bytes=0-",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQHWV7G158VA8Y95Q45CW3WS",
+                "date": "Tue, 24 Jan 2023 12:43:01 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "0",
+                "content-security-policy-report-only": "default-src 'self'; connect-src *; style-src 'self' 'unsafe-inline' https://translate.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://translate.google.com https://www.gstatic.com; script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://translate.googleapis.com; report-uri https://sentry.io/api/227657/security/?sentry_key=551f6a44d9a54cfe9c18e976685f8234",
+                "content-range": "bytes 0-55263/55264",
+                "content-length": "55264",
+                "x-xss-protection": "1; mode=block",
+                "referrer-policy": "same-origin",
+                "server": "Netlify",
+                "etag": "\"0f53ca6e6dedc27036f10faa2b7ce402-ssl\"",
+                "x-frame-options": "DENY",
+                "content-type": "audio/x-wav",
+                "cache-control": "public,max-age=14400",
+                "feature-policy": "autoplay 'self'",
+                "permissions-policy": "speaker=*, autoplay=(self)",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/static/vendor.f263168550cfabecd726.js"
+            ],
+            "id": "35802.30",
+            "url": "wss://websocket.dicether.com/socket.io/?EIO=4&transport=websocket&sid=mei-YNr682XqBw1PALWe",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "3",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/games/flipACoin"
+            ],
+            "id": "35802.164",
+            "url": "https://www.google-analytics.com/collect?v=1&_v=j99&aip=1&a=597352207&t=pageview&_s=3&dl=https%3A%2F%2Fdicether.com%2F&dp=%2Fgames%2FflipACoin&ul=en-us&de=UTF-8&dt=Dicether&sd=24-bit&sr=3440x1440&vp=3440x1206&je=0&_u=aEBAAEABAAAAACAAI~&jid=&gjid=&cid=788441968.1674564180&tid=UA-107010485-1&_gid=181077201.1674564180&z=1912316954",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "no-cache",
+                "date": "Tue, 24 Jan 2023 02:53:58 GMT",
+                "x-content-type-options": "nosniff",
+                "last-modified": "Sun, 17 May 1998 03:00:00 GMT",
+                "server": "Golfe2",
+                "age": "35387",
+                "content-type": "image/gif",
+                "access-control-allow-origin": "*",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "35",
+                "expires": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dicether.com/static/vendor.f263168550cfabecd726.js"
+            ],
+            "id": "35802.30",
+            "url": "wss://websocket.dicether.com/socket.io/?EIO=4&transport=websocket&sid=mei-YNr682XqBw1PALWe",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "3",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "BD94A241CDA1B86A5B865829D047FD17",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "content-type": "text/html",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.326",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/index.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.327",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/index-rtl.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.328",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.329",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/spinner.gif",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/gif"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.330",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/globalthis.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.331",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/sentry-install.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.332",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/runtime-lavamoat.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.333",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/lockdown-more.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.334",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/policy-load.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.335",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-0.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.336",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-1.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.337",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-2.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.338",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-3.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.339",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-4.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.340",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-5.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.341",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-6.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.342",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-7.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.343",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-8.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.344",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-9.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.345",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-0.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.346",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-1.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.347",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-2.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.348",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-3.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.349",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-4.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.350",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-5.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.351",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-6.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.352",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-7.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.353",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-8.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.354",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-9.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.359",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.361",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:43:53.368Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"40b249a0fd06445daff34bd130bbf112\",\"init\":true,\"started\":\"2023-01-24T12:43:53.366Z\",\"timestamp\":\"2023-01-24T12:43:53.366Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:43:53 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.558",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "35801.559",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        }
+    ],
+    "cookies": [],
+    "success": true,
+    "connected": false,
+    "connect_label": "",
+    "metamask_label": "",
+    "checkbox_clicked": false,
+    "signature_request": false,
+    "switch_network": false
+}

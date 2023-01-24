@@ -1,0 +1,2879 @@
+{
+    "url": "https://fomocube.io/",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://fomocube.io/",
+        "walletPath": "metamask-chrome-10.22.2",
+        "destination": "../results/dapps/crawl",
+        "force": false,
+        "executablePath": "/Users/christof/.cache/puppeteer/chrome/mac-1056772/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    },
+    "timestamps": {
+        "start": 1674564784950,
+        "end": 1674564880035
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "43282.82",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "43282.255",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:10.267Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"49b43e03ff52408599e634c7cfb48147\",\"init\":true,\"started\":\"2023-01-24T12:53:10.266Z\",\"timestamp\":\"2023-01-24T12:53:10.266Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:11 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "43282.283",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "43282.284",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "43282.285",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:12.873Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"49b43e03ff52408599e634c7cfb48147\",\"init\":false,\"started\":\"2023-01-24T12:53:10.266Z\",\"timestamp\":\"2023-01-24T12:53:12.872Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:12 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "43282.286",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:12.874Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"6d6ca09a23cb4660ad725449d78130b9\",\"init\":true,\"started\":\"2023-01-24T12:53:12.872Z\",\"timestamp\":\"2023-01-24T12:53:12.872Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:12 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "2",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "43282.98",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "43282.100",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "43282.287",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "43282.289",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:12.991Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"6d6ca09a23cb4660ad725449d78130b9\",\"init\":false,\"started\":\"2023-01-24T12:53:12.872Z\",\"timestamp\":\"2023-01-24T12:53:12.991Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:13 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "43282.290",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:12.992Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"44fde41246b3436ebaf9e2bd40157abd\",\"init\":true,\"started\":\"2023-01-24T12:53:12.991Z\",\"timestamp\":\"2023-01-24T12:53:12.991Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:13 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "43282.292",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/metrics-chart.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "43282.86",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "43282.101",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "43282.293",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:13.039Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"44fde41246b3436ebaf9e2bd40157abd\",\"init\":false,\"started\":\"2023-01-24T12:53:12.991Z\",\"timestamp\":\"2023-01-24T12:53:13.038Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:13 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "43282.294",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:13.040Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d6bc73d90ad74c14ba02eb7afe1d2985\",\"init\":true,\"started\":\"2023-01-24T12:53:13.038Z\",\"timestamp\":\"2023-01-24T12:53:13.038Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:13 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "43282.296",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:13.058Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d6bc73d90ad74c14ba02eb7afe1d2985\",\"init\":false,\"started\":\"2023-01-24T12:53:13.038Z\",\"timestamp\":\"2023-01-24T12:53:13.057Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:13 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "43282.297",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:13.059Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a2cdbd45ed1a4356b3a80ececb66ed60\",\"init\":true,\"started\":\"2023-01-24T12:53:13.057Z\",\"timestamp\":\"2023-01-24T12:53:13.057Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:13 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "43282.94",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Roboto/Roboto-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "43282.89",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-regular-400.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "43282.304",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:15.871Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a2cdbd45ed1a4356b3a80ececb66ed60\",\"init\":false,\"started\":\"2023-01-24T12:53:13.057Z\",\"timestamp\":\"2023-01-24T12:53:15.870Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:15 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "43282.305",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:15.872Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7ed486171ae540a7979f54507d3f3baa\",\"init\":true,\"started\":\"2023-01-24T12:53:15.870Z\",\"timestamp\":\"2023-01-24T12:53:15.870Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:15 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "566A3345D3E985AF710105C8BC4A9EE6",
+            "url": "https://fomocube.io/",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "78e8e938be4d3b52-GVA",
+                "content-encoding": "br",
+                "content-type": "text/html",
+                "date": "Tue, 24 Jan 2023 12:53:16 GMT",
+                "last-modified": "Wed, 05 Aug 2020 23:56:49 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=GgTEltOXnkkCHPurtRpUnHkSJT0a%2BRj6tkqD59D5mFC%2FLLt9CWQsxgK7%2FdKWsJ1VRstUosDUHsqWpatRe%2FCJIxj4wI3GAETXBzjy8ULRUN0iKyaVVE%2FSzWOuVvN4SA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "x-turbo-charged-by": "LiteSpeed"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "43282.307",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:15.927Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7ed486171ae540a7979f54507d3f3baa\",\"init\":false,\"started\":\"2023-01-24T12:53:15.870Z\",\"timestamp\":\"2023-01-24T12:53:15.926Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:15 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "43282.308",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:15.928Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8a44c441ddeb443eb7f54d6f8aa0b642\",\"init\":true,\"started\":\"2023-01-24T12:53:15.926Z\",\"timestamp\":\"2023-01-24T12:53:15.926Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:15 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "43282.310",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/eth_logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.2",
+            "url": "https://fonts.googleapis.com/css?family=Audiowide&display=swap",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "strict-transport-security": "max-age=31536000",
+                "date": "Tue, 24 Jan 2023 12:53:17 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "x-xss-protection": "0",
+                "last-modified": "Tue, 24 Jan 2023 12:53:17 GMT",
+                "server": "ESF",
+                "cross-origin-opener-policy": "same-origin-allow-popups",
+                "x-frame-options": "SAMEORIGIN",
+                "content-type": "text/css; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+                "timing-allow-origin": "*",
+                "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+                "expires": "Tue, 24 Jan 2023 12:53:17 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.3",
+            "url": "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:17 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "cdn-edgestorageid": "617",
+                "age": "723987",
+                "cdn-cachedat": "2021-06-08 14:35:32",
+                "cdn-pullzone": "252412",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 25 Jan 2021 22:04:55 GMT",
+                "server": "cloudflare",
+                "cdn-requestpullcode": "200",
+                "vary": "Accept-Encoding",
+                "content-type": "text/css; charset=utf-8",
+                "cdn-cache": "HIT",
+                "access-control-allow-origin": "*",
+                "cdn-uid": "b1941f61-b576-4f40-80de-5677acb38f74",
+                "cache-control": "public, max-age=31919000",
+                "cdn-requestid": "8e03a0f40ac23c08b1fbc5b05ccb27fd",
+                "timing-allow-origin": "*",
+                "cdn-requestcountrycode": "US",
+                "cf-ray": "78e8e93e9b53922b-FRA",
+                "cdn-requestpullsuccess": "True"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.4",
+            "url": "https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "origin": "https://fomocube.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:17 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "age": "26710253",
+                "x-jsd-version": "1.1.7",
+                "content-encoding": "br",
+                "x-cache": "HIT, HIT",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "x-served-by": "cache-fra19141-FRA, cache-hhn4037-HHN",
+                "x-jsd-version-type": "version",
+                "server": "cloudflare",
+                "etag": "W/\"887e-Pld4fTaChORP94Ab3NgjCNE6cYA\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=PkIJKbqYQ6jIYwHPHDJ0YzWkIKCZT8%2Bu37DRvwuyBrL9IqB%2BpTk8V5a3nY1TJlzbcAFyLKcA9ywMFPCBBbCzI6RvqjqLKQdjOt5SVitKJpK974ViSroxIakVjAYumdHBaOU%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "*",
+                "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+                "timing-allow-origin": "*",
+                "cf-ray": "78e8e93e986e920b-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.5",
+            "url": "https://fomocube.io/styles.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:17 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "MISS",
+                "last-modified": "Mon, 18 Nov 2019 21:04:02 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=uVAXrXaWfFbsJx%2BN2wbnuE609i1ZtY%2FixhgjnLXcxyiMD1KgRkpVRKImCpmxoTDb2RFTRS5ukgIZeG%2FkJNrbmDFtn%2B5YEZuDostVfib5nBxe8k5WyUeuczm3sahdwA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "cf-ray": "78e8e93ebf4e3b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "expires": "Tue, 31 Jan 2023 12:53:17 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.6",
+            "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Thu, 19 Jan 2023 13:19:13 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "age": "430444",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/hosted-libraries-pushers",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "30774",
+                "x-xss-protection": "0",
+                "last-modified": "Mon, 13 May 2019 14:37:17 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"hosted-libraries-pushers\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"group\":\"hosted-libraries-pushers\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/hosted-libraries-pushers\"}]}",
+                "content-type": "text/javascript; charset=UTF-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Fri, 19 Jan 2024 13:19:13 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.7",
+            "url": "https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:17 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "age": "26710264",
+                "x-jsd-version": "2.8.0",
+                "content-encoding": "br",
+                "x-cache": "HIT",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "x-served-by": "cache-fra19135-FRA",
+                "x-jsd-version-type": "version",
+                "server": "cloudflare",
+                "etag": "W/\"26431-Lr+QDgOGdJNz6YhwJlkP59r8MK4\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=gvOUVqZCrdWHMPDL8D45wMho%2FuqAexm9EFEsQPfd1Hp3QI8SKvF06C%2BQqC3yaFwz7VMph7DYdMu%2BGhAuVku2o9xDKSfFNBSC7gxHaAPIT3c7u0RPstBpnYs67pslA7rBBVg%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "*",
+                "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+                "timing-allow-origin": "*",
+                "cf-ray": "78e8e940b9e8cc36-ZRH"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.8",
+            "url": "https://fomocube.io/js/web3.min.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:19 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "MISS",
+                "last-modified": "Thu, 14 Nov 2019 10:47:03 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=yu8urssByVCPLW54vrtK%2BjYdsbW5N7BbBLWkBycQpqJud9PqKTHZOO7WTK2CXdD0dRvpH%2BWQrFHyA%2BlB7ZYSwZMjZ4q838I05TIsnC1MKLqtCQTSeMDkdUTxhSc97g%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "cf-ray": "78e8e9411fc13b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "expires": "Tue, 31 Jan 2023 12:53:18 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.9",
+            "url": "https://fomocube.io/js/blockies.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:18 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "MISS",
+                "last-modified": "Thu, 14 Nov 2019 10:46:59 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=q%2B1Sl%2BYbVH3v%2BoqfPnP8RMmhm4X9xX2EZ8egxehl1fYg69GHW3m1%2FDQriHNjz2J0AlQ4DBZXVntXo1yeDceKV8YhNjaloOKo6VkGJT7%2BOsgLyx9F3t5FRJYApd%2FPMQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "cf-ray": "78e8e9412fc53b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "expires": "Tue, 31 Jan 2023 12:53:18 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.10",
+            "url": "https://fomocube.io/js/main.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:18 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Thu, 06 Aug 2020 00:11:50 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=0zkbAEFFCRZKrcqGk0U2sJp3aaF9UuIyMQoAN3B%2FiyjSIbhttN2iGFWREalDpiZCDhW5g6v6p2mTC9F9ozt1sgv0mKAQPjGtX1bcplVff1MehTuEAYeOMcZYTiUH7w%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "cf-ray": "78e8e9422fe43b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "expires": "Tue, 31 Jan 2023 12:53:17 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.11",
+            "url": "https://fomocube.io/js/chart.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:18 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "MISS",
+                "last-modified": "Thu, 14 Nov 2019 10:46:59 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=Ib14qwkc22oxyMSDlzWfoTIWJFuEaPiwTfAN8il%2BfRObtaWtz1Uidqrcw7qlaDj%2FS9sTHGxeEf%2FAMiZcq22rPEu1Q4WEvYL%2FgUNReDL8N7E5wYkCTP3kXwZoWztKwQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "cf-ray": "78e8e944c85c3b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "expires": "Tue, 31 Jan 2023 12:53:18 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.12",
+            "url": "https://fomocube.io/img/moonman.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:18 GMT",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Thu, 14 Nov 2019 10:30:40 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=0jP6x8HhmelNb%2FtvyNBq5KWmdvFNiMZnRO0ipyy7RR3kpWLztE0MUGwnDNsu32%2FiujoRIqgUwEghP36c4s%2BmHlDBg0%2FCMrhIe4QSnfJFDVnZFc7mVJoqJKHDTuvLQg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e94809103b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "306310",
+                "expires": "Tue, 31 Jan 2023 12:53:18 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.13",
+            "url": "https://fomocube.io/img/lights.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:19 GMT",
+                "cf-cache-status": "MISS",
+                "last-modified": "Tue, 22 Oct 2019 17:17:56 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=NBSEzCi59TXTI0K1OMqYbPxcy0b2BUY5qDwiO9%2FJRerUUevD7zmd4%2FjqT0W784KQ%2BgYp5rib63YZzBNC8jEudXg4GzUqDchJqD%2BVtqAhTZ7vd7C%2F5v9e2aDG4QH0tg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e94949503b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "404706",
+                "expires": "Tue, 31 Jan 2023 12:53:19 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.14",
+            "url": "https://fomocube.io/img/distribution.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:19 GMT",
+                "cf-cache-status": "MISS",
+                "last-modified": "Wed, 20 Nov 2019 05:15:38 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=cdXToqrj02bOcy40RamIv7X7fOfqi3iGYSFIwiV%2FjnVcdp%2Bae%2FbHue28z%2Bq3vcftCv38BhGibHO43nlRqx1N45pIiQd0HkjgD%2B9%2F%2B%2FBHoPx%2FMb4YCLeWnSvMRKSM5w%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e94c3a163b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "24296",
+                "expires": "Tue, 31 Jan 2023 12:53:19 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.15",
+            "url": "https://fomocube.io/img/pc.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:20 GMT",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Tue, 22 Oct 2019 18:16:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=jHHneskWKf45zERUly3IwYGLpLtV9i1a9Z4rNmLWEvhuT4HBupAONG78M9lAt5CWjTm3pwSC%2F63iGutJtaCR%2F3dSGAwOjxjkNlmWbh04puKrUvWwPh1iFJugoCGMnQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e94cda363b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "185600",
+                "expires": "Tue, 31 Jan 2023 12:53:19 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.16",
+            "url": "https://fomocube.io/img/cam.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:21 GMT",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Tue, 22 Oct 2019 18:19:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=oYrmajyeq4%2FUpGyvmLwuyCywb1ePnlA9Il0CzBHw3BUPL4Fo7fGqAGK9UIn3gAtmqTQCf%2FoTJj%2BnJstHlgrlR4r9LEBPB7b9P6zbaSREX8%2Fo%2F1B4rlu6YcXMYs9Eyw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e9537b473b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "283815",
+                "expires": "Tue, 31 Jan 2023 12:53:20 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.17",
+            "url": "https://fomocube.io/img/flare.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:21 GMT",
+                "cf-cache-status": "MISS",
+                "last-modified": "Tue, 22 Oct 2019 18:28:10 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2FtblB06xTAaRxqN4N8oAAVSk96Gjm3Cr%2FOOMVAuZJCWngorN0QStc9RZQtpm1%2BziaoHo2h9Fo68%2BaldnX%2BoUlbv1SLMUS8H8MmS4tRr0K3%2BetZY0RR%2BR3BTzavH%2FcA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e9535b433b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "340837",
+                "expires": "Tue, 31 Jan 2023 12:53:20 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.18",
+            "url": "https://fomocube.io/img/aliens.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:21 GMT",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Tue, 22 Oct 2019 18:29:04 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=5EbxbQeStJsTHC%2BMWzMb%2FtSTWG4QVjVezAS9%2Bq8DtCiFFbjjFBvtjDhmpQK0wfMVxSNuPxzqJnFhURSBrzxOQ7VrueNYQwkb%2F6bAunZLKflaI5LLuEpM9ZMDtEGKRA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e9537b483b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "214779",
+                "expires": "Tue, 31 Jan 2023 12:53:20 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.19",
+            "url": "https://fomocube.io/img/statue.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:21 GMT",
+                "cf-cache-status": "MISS",
+                "last-modified": "Tue, 22 Oct 2019 18:30:26 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=9FXrTebT8%2Bli2UvP6fXNG3Bqbxxp%2BvtAobiN2gqDPOclOMl3tLSVQpvEhFO%2FCGQG%2F6uHYD%2FKX80PjO%2BAnXm90FET0aBUQwp1pnjRHKaGxJZBN6oi9tYhvVNBd9AiHg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e9537b493b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "404351",
+                "expires": "Tue, 31 Jan 2023 12:53:20 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.21",
+            "url": "https://fomocube.io/img/face.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:21 GMT",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Tue, 22 Oct 2019 18:32:11 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=uR%2FPyf4RuLmk9tGJkiRuAmpxUeENCOe%2BwL1iVl25jea5RWhiuVhZkpdxs7KR32jAHTK1nIcGbBIOMGlhv%2Fa6%2FcaXc5G2sFXAm4yFRcLD9VYuoAY%2Biqg0hM5C0X03Zw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e9537b4a3b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "314959",
+                "expires": "Tue, 31 Jan 2023 12:53:20 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.42",
+            "url": "https://fomocube.io/icons/favicon-32x32.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:20 GMT",
+                "cf-cache-status": "MISS",
+                "last-modified": "Thu, 14 Nov 2019 10:30:06 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=aOr55uZD8A0SqyyV9hVA7nYfqzG5sWdC4XXOgBJNndXdlMSZ5DjmQcGjsVsRta7Lo5St7PzMjXhmjjtJQw3KnmwA4v%2FSSA%2BWeHoTHr2MYqGcMpNPqi%2B4yDgm2XQpKQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e9537b4c3b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "2472",
+                "expires": "Tue, 31 Jan 2023 12:53:20 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.51",
+            "url": "https://fomocube.io/img/cur.cur",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/styles.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:20 GMT",
+                "cf-cache-status": "DYNAMIC",
+                "last-modified": "Tue, 22 Oct 2019 17:31:56 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=sMVSWE5sGGUxWbczy1%2BKLppwKhv%2FyT%2FiTspG7YDq9q7xhWUHsr1Bvt%2BzKzdYq2IxD30imrYYaQjP3%2FlWRBGIOC4R6obXdMN0I7Cujz2cOsZPwQL92p435vwliAganA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/octet-stream",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e94efa983b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "4286"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.52",
+            "url": "https://fomocube.io/img/space.jpg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/styles.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:20 GMT",
+                "cf-cache-status": "MISS",
+                "last-modified": "Tue, 22 Oct 2019 17:32:57 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=hOebW2IQe12t2fBwNz10AXPdu8kAPNf2u862RxGs%2FpT%2FXGKboYO70uwvd48G0Z6DlXNH2ADlN9qBPokjXGWyjqsBaCkcWou5YIaDPBM6cnY%2FsZXVWbGM%2BBJulCj5qA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/jpeg",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e9502acf3b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "900185",
+                "expires": "Tue, 31 Jan 2023 12:53:20 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.53",
+            "url": "https://fomocube.io/img/shade.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/styles.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:20 GMT",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Tue, 22 Oct 2019 17:14:27 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=EMcUVtbt5RQdYbxOoPl3TbqHCIZgJHKMqYxANFkFnR%2Bp5o3M9i5FQewKnZluS8N7u2jvR72gpVrM%2By%2FiCovJVArLqsGceP0xZsglrXyhO%2BX3164TrgrWxmoJ2lZ4rA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e9504ad33b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "479190",
+                "expires": "Tue, 31 Jan 2023 12:53:20 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.44",
+            "url": "https://fonts.gstatic.com/s/audiowide/v16/l7gdbjpo0cum0ckerWCdlg_OMRlABg.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://fomocube.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 10:05:06 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "528493",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "13712",
+                "x-xss-protection": "0",
+                "last-modified": "Tue, 19 Apr 2022 18:20:17 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Thu, 18 Jan 2024 10:05:06 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.54",
+            "url": "https://fomocube.io/img/discord.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/styles.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:21 GMT",
+                "cf-cache-status": "MISS",
+                "last-modified": "Tue, 22 Oct 2019 17:35:12 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=cPIIdqumnEXFVisECJefLLVS%2F4jhKL%2Fq0Y3F%2FlLYK0%2F%2BFvB1Acr2OGPgBKOhxPYBX%2BFtAawk%2FQuPvhymimTq1idmDf3cRckblRpx%2BMXb8HbV1cCmi3E4MlotIWaxlg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e9537b463b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "6274",
+                "expires": "Tue, 31 Jan 2023 12:53:20 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.48",
+            "url": "https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/fonts/forkawesome-webfont.woff2?v=1.1.7",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css",
+                "origin": "https://fomocube.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:19 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "age": "720764",
+                "x-jsd-version": "1.1.7",
+                "x-cache": "HIT, HIT",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "91624",
+                "x-served-by": "cache-fra19127-FRA, cache-jnb7021-JNB",
+                "x-jsd-version-type": "version",
+                "server": "cloudflare",
+                "etag": "W/\"165e8-U/ztVY7ugFjEDSvi9fiG9XaMzOY\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=WdWBdeRpzPbSWuBW9%2FAnJEP7Px777vexABlMIj7wgIIy1CQXX%2B%2FkpFMEWrZQepHTPwOHPizLzX5mA33cg4yoyOEMy1Id4cv0IFWEkrigKHt9iWBAjEix3XNgDfYVwQygxDc%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "*",
+                "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "cf-ray": "78e8e94edd30920b-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.55",
+            "url": "https://api.etherscan.io/api?module=account&action=txlist&address=0xF5a01f0cc73A83b59e0C833405E243DF7014C75d&startblock=0&page=1&offset=10&sort=asc",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:22 GMT",
+                "content-encoding": "gzip",
+                "server": "nginx",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "private",
+                "x-frame-options": "SAMEORIGIN",
+                "access-control-allow-headers": "Content-Type",
+                "content-length": "7336"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.56",
+            "url": "https://fomocube.io/icons/site.webmanifest",
+            "type": "Manifest",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:22 GMT",
+                "cf-cache-status": "DYNAMIC",
+                "last-modified": "Thu, 14 Nov 2019 10:30:10 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=mrEdqP7m%2BgVi9C8rgUTC2FJfrxXW%2FbyJchubg%2FruqTs1ByHOB%2Bhac2NfI90h%2BpmLkf%2B4RWjwSDjP3UB6md%2F1nslMLt41l4RqPbtOQ4EwsXFIcFqVl8ye1frOGEPXaA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/octet-stream",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e960db423b58-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "492"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.57",
+            "url": "https://fomocube.io/icons/favicon.ico",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Thu, 14 Nov 2019 10:30:06 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=Ptjvc%2F9VQRu7NslbELQngClfm0FdeGj%2Fq9UQRis9kh%2BZd57h5t6182g7Uxuy8XLojxJOo9zZirxI61V0ilkHf8bG6vGwbuMqIKpDVwPwRNbpMyMm85b5VCBMfTW%2Ftg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/x-icon",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "cf-ray": "78e8e95eee063b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "expires": "Tue, 31 Jan 2023 12:53:22 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "43282.348",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "43282.521",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:22.658Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"4cbfab6a12224dd290e63ef3cfea5b48\",\"init\":true,\"started\":\"2023-01-24T12:53:22.657Z\",\"timestamp\":\"2023-01-24T12:53:22.657Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:22 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "43282.948",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "43282.949",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/dP9rrYCxE0hRqvQiGxd2F"
+            ],
+            "id": "43282.367",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/dP9rrYCxE0hRqvQiGxd2F"
+            ],
+            "id": "43282.364",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/dP9rrYCxE0hRqvQiGxd2F"
+            ],
+            "id": "43282.352",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/dP9rrYCxE0hRqvQiGxd2F"
+            ],
+            "id": "43282.366",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/dP9rrYCxE0hRqvQiGxd2F"
+            ],
+            "id": "43282.950",
+            "url": "https://fomocube.io/icons/favicon-32x32.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:25 GMT",
+                "cf-cache-status": "HIT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "age": "5",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "2472",
+                "last-modified": "Thu, 14 Nov 2019 10:30:06 GMT",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=rt7c9IjWlJ9dh296eQc6gZFaXQdh5%2BP96MeZrlfQCdlhusbNihfY71QXWwUCoTcN%2BmUKl5YeKDeJvoDhWlRKPBZvXlt%2BiD78O3Djg3mIV%2FAQ8b%2BQVcycH%2FaeMkLMlg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e9725f633b58-GVA",
+                "expires": "Tue, 31 Jan 2023 12:53:20 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/dP9rrYCxE0hRqvQiGxd2F/confirm-permissions"
+            ],
+            "id": "43282.2564",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:34.804Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"4cbfab6a12224dd290e63ef3cfea5b48\",\"init\":false,\"started\":\"2023-01-24T12:53:22.657Z\",\"timestamp\":\"2023-01-24T12:53:34.803Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:34 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/dP9rrYCxE0hRqvQiGxd2F/confirm-permissions"
+            ],
+            "id": "43282.2565",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:34.807Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f78cf0b18b1f4bcb8d508de14dc4a9f3\",\"init\":true,\"started\":\"2023-01-24T12:53:34.803Z\",\"timestamp\":\"2023-01-24T12:53:34.803Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:34 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.58",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAK5JREFUWEdjvOj29j8DHvBzEyuKLLvfb3zKGUhVzzjqgAEPgVM/PqGkAUJxjDcBECGJnkYYRx0w4CEw4Ilw1AGDPgSIyNoUKSFYF1BkOhGaRx1AclHc66OLN2CLt1wmqb0w6oCBDwH0gojUNh2hnEbIPIxsSEgDIQvR5QmZN+oAxrhJUnj7BTlpN1BCdcosDbyxQKr6UQcMfAiQ2iAhNRsS6mcQrI7R8/GoA6gdAgDFJ/IZr3JegQAAAABJRU5ErkJggg==",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.59",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAMhJREFUWEdjXLTI/D8DEsh7bY3MZZgkehSFjy6PIsnAQFA9unmMow4Y8BAQ6C1CSQPfFumgROuc4pno0UwSP6U3HUU9V9wVFD7jqAMGPATQEyF6nFE7DaCbh1EOjDqA7iGAnggJlf3o8uiFAql1CUY5MOoAuocAocqIUH1PKA0Q0k+wPUDIgFEHUD0ECFX2pLYJCZmHkQYIaRh1AM1DgFAbjlAUocsTamMSbA+gNyJHHUD1ECDUHqC0oCGkn2B7gJABlNYVow4AAPehFmD/Xc7QAAAAAElFTkSuQmCC",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#"
+            ],
+            "id": "43282.2779",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:36.045Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f78cf0b18b1f4bcb8d508de14dc4a9f3\",\"init\":false,\"started\":\"2023-01-24T12:53:34.803Z\",\"timestamp\":\"2023-01-24T12:53:36.045Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#"
+            ],
+            "id": "43282.2780",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-24T12:53:36.047Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ee2c1adbe8ac4c18803f70fc8c7754f7\",\"init\":true,\"started\":\"2023-01-24T12:53:36.045Z\",\"timestamp\":\"2023-01-24T12:53:36.045Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "BCBF1E0EC9801AF1449C76989D375993",
+            "url": "https://fomocube.io/",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "78e8ea83ea523b52-GVA",
+                "content-encoding": "br",
+                "content-type": "text/html",
+                "date": "Tue, 24 Jan 2023 12:54:09 GMT",
+                "last-modified": "Wed, 05 Aug 2020 23:56:49 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=VOl1OAyMqbo2fSALR6l4M2D%2F74P33mEjSf0%2FHMtb7aDSG0R7Rq3G03CHe5w62pV4RHsttX0eItVw9S5%2B52EEYqoXvY56t%2BbsqiTJLyhXSzpmKK1NLix%2BYBl6n9OUNQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "x-turbo-charged-by": "LiteSpeed"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.61",
+            "url": "https://fonts.googleapis.com/css?family=Audiowide&display=swap",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "strict-transport-security": "max-age=31536000",
+                "date": "Tue, 24 Jan 2023 12:53:17 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "x-xss-protection": "0",
+                "last-modified": "Tue, 24 Jan 2023 12:53:17 GMT",
+                "server": "ESF",
+                "cross-origin-opener-policy": "same-origin-allow-popups",
+                "x-frame-options": "SAMEORIGIN",
+                "content-type": "text/css; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+                "timing-allow-origin": "*",
+                "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+                "expires": "Tue, 24 Jan 2023 12:53:17 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.62",
+            "url": "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:17 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "cdn-edgestorageid": "617",
+                "age": "723987",
+                "cdn-cachedat": "2021-06-08 14:35:32",
+                "cdn-pullzone": "252412",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "last-modified": "Mon, 25 Jan 2021 22:04:55 GMT",
+                "server": "cloudflare",
+                "cdn-requestpullcode": "200",
+                "vary": "Accept-Encoding",
+                "content-type": "text/css; charset=utf-8",
+                "cdn-cache": "HIT",
+                "access-control-allow-origin": "*",
+                "cdn-uid": "b1941f61-b576-4f40-80de-5677acb38f74",
+                "cache-control": "public, max-age=31919000",
+                "cdn-requestid": "8e03a0f40ac23c08b1fbc5b05ccb27fd",
+                "timing-allow-origin": "*",
+                "cdn-requestcountrycode": "US",
+                "cf-ray": "78e8e93e9b53922b-FRA",
+                "cdn-requestpullsuccess": "True"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.63",
+            "url": "https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "origin": "https://fomocube.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:17 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "age": "26710253",
+                "x-jsd-version": "1.1.7",
+                "content-encoding": "br",
+                "x-cache": "HIT, HIT",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "x-served-by": "cache-fra19141-FRA, cache-hhn4037-HHN",
+                "x-jsd-version-type": "version",
+                "server": "cloudflare",
+                "etag": "W/\"887e-Pld4fTaChORP94Ab3NgjCNE6cYA\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=PkIJKbqYQ6jIYwHPHDJ0YzWkIKCZT8%2Bu37DRvwuyBrL9IqB%2BpTk8V5a3nY1TJlzbcAFyLKcA9ywMFPCBBbCzI6RvqjqLKQdjOt5SVitKJpK974ViSroxIakVjAYumdHBaOU%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "*",
+                "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+                "timing-allow-origin": "*",
+                "cf-ray": "78e8e93e986e920b-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.64",
+            "url": "https://fomocube.io/styles.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:17 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "MISS",
+                "last-modified": "Mon, 18 Nov 2019 21:04:02 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=uVAXrXaWfFbsJx%2BN2wbnuE609i1ZtY%2FixhgjnLXcxyiMD1KgRkpVRKImCpmxoTDb2RFTRS5ukgIZeG%2FkJNrbmDFtn%2B5YEZuDostVfib5nBxe8k5WyUeuczm3sahdwA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "cf-ray": "78e8e93ebf4e3b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "expires": "Tue, 31 Jan 2023 12:53:17 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.65",
+            "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.66",
+            "url": "https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.67",
+            "url": "https://fomocube.io/js/web3.min.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.68",
+            "url": "https://fomocube.io/js/blockies.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.69",
+            "url": "https://fomocube.io/js/main.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.70",
+            "url": "https://fomocube.io/js/chart.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.71",
+            "url": "https://fomocube.io/img/moonman.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.72",
+            "url": "https://fomocube.io/img/lights.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.73",
+            "url": "https://fomocube.io/img/distribution.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.74",
+            "url": "https://fomocube.io/img/pc.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.75",
+            "url": "https://fomocube.io/img/cam.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.76",
+            "url": "https://fomocube.io/img/flare.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.77",
+            "url": "https://fomocube.io/img/aliens.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.78",
+            "url": "https://fomocube.io/img/statue.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.80",
+            "url": "https://fomocube.io/img/face.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.92",
+            "url": "https://fonts.gstatic.com/s/audiowide/v16/l7gdbjpo0cum0ckerWCdlg_OMRlABg.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://fomocube.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.96",
+            "url": "https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/fonts/forkawesome-webfont.woff2?v=1.1.7",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css",
+                "origin": "https://fomocube.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.99",
+            "url": "https://fomocube.io/img/cur.cur",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/styles.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.100",
+            "url": "https://fomocube.io/img/space.jpg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/styles.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.111",
+            "url": "https://fomocube.io/img/shade.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/styles.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.112",
+            "url": "https://fomocube.io/img/discord.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/styles.css",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.113",
+            "url": "https://fomocube.io/icons/favicon-32x32.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:20 GMT",
+                "cf-cache-status": "MISS",
+                "last-modified": "Thu, 14 Nov 2019 10:30:06 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=aOr55uZD8A0SqyyV9hVA7nYfqzG5sWdC4XXOgBJNndXdlMSZ5DjmQcGjsVsRta7Lo5St7PzMjXhmjjtJQw3KnmwA4v%2FSSA%2BWeHoTHr2MYqGcMpNPqi%2B4yDgm2XQpKQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e9537b4c3b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "2472",
+                "expires": "Tue, 31 Jan 2023 12:53:20 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.114",
+            "url": "https://api.etherscan.io/api?module=account&action=txlist&address=0xF5a01f0cc73A83b59e0C833405E243DF7014C75d&startblock=0&page=1&offset=10&sort=asc",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:54:10 GMT",
+                "content-encoding": "gzip",
+                "server": "nginx",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "private",
+                "x-frame-options": "SAMEORIGIN",
+                "access-control-allow-headers": "Content-Type",
+                "content-length": "7337"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.115",
+            "url": "https://fomocube.io/icons/favicon.ico",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:22 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Thu, 14 Nov 2019 10:30:06 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=Ptjvc%2F9VQRu7NslbELQngClfm0FdeGj%2Fq9UQRis9kh%2BZd57h5t6182g7Uxuy8XLojxJOo9zZirxI61V0ilkHf8bG6vGwbuMqIKpDVwPwRNbpMyMm85b5VCBMfTW%2Ftg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/x-icon",
+                "cache-control": "public, max-age=604800",
+                "x-turbo-charged-by": "LiteSpeed",
+                "cf-ray": "78e8e95eee063b52-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "expires": "Tue, 31 Jan 2023 12:53:22 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.116",
+            "url": "https://fomocube.io/icons/site.webmanifest",
+            "type": "Manifest",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fomocube.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 24 Jan 2023 12:53:22 GMT",
+                "cf-cache-status": "DYNAMIC",
+                "last-modified": "Thu, 14 Nov 2019 10:30:10 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=mrEdqP7m%2BgVi9C8rgUTC2FJfrxXW%2FbyJchubg%2FruqTs1ByHOB%2Bhac2NfI90h%2BpmLkf%2B4RWjwSDjP3UB6md%2F1nslMLt41l4RqPbtOQ4EwsXFIcFqVl8ye1frOGEPXaA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/octet-stream",
+                "x-turbo-charged-by": "LiteSpeed",
+                "accept-ranges": "bytes",
+                "cf-ray": "78e8e960db423b58-GVA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "492"
+            }
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.117",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAK5JREFUWEdjvOj29j8DHvBzEyuKLLvfb3zKGUhVzzjqgAEPgVM/PqGkAUJxjDcBECGJnkYYRx0w4CEw4Ilw1AGDPgSIyNoUKSFYF1BkOhGaRx1AclHc66OLN2CLt1wmqb0w6oCBDwH0gojUNh2hnEbIPIxsSEgDIQvR5QmZN+oAxrhJUnj7BTlpN1BCdcosDbyxQKr6UQcMfAiQ2iAhNRsS6mcQrI7R8/GoA6gdAgDFJ/IZr3JegQAAAABJRU5ErkJggg==",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://fomocube.io/"
+            ],
+            "id": "43283.118",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAMhJREFUWEdjXLTI/D8DEsh7bY3MZZgkehSFjy6PIsnAQFA9unmMow4Y8BAQ6C1CSQPfFumgROuc4pno0UwSP6U3HUU9V9wVFD7jqAMGPATQEyF6nFE7DaCbh1EOjDqA7iGAnggJlf3o8uiFAql1CUY5MOoAuocAocqIUH1PKA0Q0k+wPUDIgFEHUD0ECFX2pLYJCZmHkQYIaRh1AM1DgFAbjlAUocsTamMSbA+gNyJHHUD1ECDUHqC0oCGkn2B7gJABlNYVow4AAPehFmD/Xc7QAAAAAElFTkSuQmCC",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        }
+    ],
+    "cookies": [],
+    "success": true,
+    "connected": true,
+    "connect_label": "",
+    "metamask_label": "",
+    "checkbox_clicked": false,
+    "signature_request": false,
+    "switch_network": false
+}

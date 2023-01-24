@@ -1,0 +1,2811 @@
+{
+    "url": "https://app.octusbridge.io/bridge",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://app.octusbridge.io/bridge",
+        "walletPath": "metamask-chrome-10.22.2",
+        "destination": "../results/dapps/crawl",
+        "force": false,
+        "executablePath": "/Users/christof/.cache/puppeteer/chrome/mac-1056772/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    },
+    "timestamps": {
+        "start": 1674006918775,
+        "end": 1674007054200
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "13129.82",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "13129.255",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:24.643Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1955765b878c4b2c962e78586b940fc3\",\"init\":true,\"started\":\"2023-01-18T01:55:24.642Z\",\"timestamp\":\"2023-01-18T01:55:24.642Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:24 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "13129.283",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "13129.284",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "13129.285",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:27.263Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1955765b878c4b2c962e78586b940fc3\",\"init\":false,\"started\":\"2023-01-18T01:55:24.642Z\",\"timestamp\":\"2023-01-18T01:55:27.263Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:27 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "13129.286",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:27.265Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"0d7880b1bb984fc19793874aa04c70d7\",\"init\":true,\"started\":\"2023-01-18T01:55:27.263Z\",\"timestamp\":\"2023-01-18T01:55:27.263Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:27 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "13129.98",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "13129.100",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "13129.287",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "13129.289",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:27.396Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"0d7880b1bb984fc19793874aa04c70d7\",\"init\":false,\"started\":\"2023-01-18T01:55:27.263Z\",\"timestamp\":\"2023-01-18T01:55:27.396Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:27 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "13129.290",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:27.398Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"905cb1669d0747b2aa4fa54ba6fb4df2\",\"init\":true,\"started\":\"2023-01-18T01:55:27.396Z\",\"timestamp\":\"2023-01-18T01:55:27.396Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:27 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "13129.292",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/metrics-chart.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "13129.86",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "13129.101",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "13129.293",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:27.454Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"905cb1669d0747b2aa4fa54ba6fb4df2\",\"init\":false,\"started\":\"2023-01-18T01:55:27.396Z\",\"timestamp\":\"2023-01-18T01:55:27.454Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:27 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "13129.294",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:27.455Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"46b5ae940c5247229f89a35ec2dfcaa4\",\"init\":true,\"started\":\"2023-01-18T01:55:27.453Z\",\"timestamp\":\"2023-01-18T01:55:27.453Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:27 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "13129.296",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:27.482Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"46b5ae940c5247229f89a35ec2dfcaa4\",\"init\":false,\"started\":\"2023-01-18T01:55:27.453Z\",\"timestamp\":\"2023-01-18T01:55:27.481Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:27 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "13129.297",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:27.482Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"21a1a4e4fc8d4fca86492ce35220e2cd\",\"init\":true,\"started\":\"2023-01-18T01:55:27.481Z\",\"timestamp\":\"2023-01-18T01:55:27.481Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:27 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "13129.94",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Roboto/Roboto-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "13129.89",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-regular-400.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "13129.304",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:30.373Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"21a1a4e4fc8d4fca86492ce35220e2cd\",\"init\":false,\"started\":\"2023-01-18T01:55:27.481Z\",\"timestamp\":\"2023-01-18T01:55:30.372Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "13129.305",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:30.374Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f491b7d1c5594bc8b4c0282df2eb16a8\",\"init\":true,\"started\":\"2023-01-18T01:55:30.372Z\",\"timestamp\":\"2023-01-18T01:55:30.372Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "7519A0943A9E91CB4F97298E64115389",
+            "url": "https://app.octusbridge.io/bridge",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cache-control": "no-cache",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "78b3b573dd599188-FRA",
+                "content-encoding": "br",
+                "content-type": "text/html",
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "expires": "Wed, 18 Jan 2023 01:55:29 GMT",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=QQttJSt%2BP3pgxOjFVE%2B4g%2Fl24p5fUfqUvrLzQoIR%2BbYXqZMWzCMOUsjXaHNKnayWkGZp%2FDct%2BmipQgQidWB2IqVYLy5UV88Qe%2FR7PMyOcXDdtBm4xUgBJfgkDa3AoHpb6cMe8A%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "x-frame-options": "SAMEORIGIN"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "13129.308",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:30.431Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f491b7d1c5594bc8b4c0282df2eb16a8\",\"init\":false,\"started\":\"2023-01-18T01:55:30.372Z\",\"timestamp\":\"2023-01-18T01:55:30.430Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "13129.309",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:55:30.432Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"53064447fe274bbcbf81019a9457c5b8\",\"init\":true,\"started\":\"2023-01-18T01:55:30.430Z\",\"timestamp\":\"2023-01-18T01:55:30.430Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "13129.311",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/eth_logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.2",
+            "url": "https://app.octusbridge.io/css/vendors-72fe76.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "cf-polished": "origSize=6139",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-bgj": "minify",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-17fb\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=dMvSiMOm6S7eOIJSrnYs54tMP41XKAtb1uFD09S4UsWad4jnTaDLrqNjTJu%2F8FNiYRbVMZiJogTR0hLUJSQyg8b2DI3nEWpo4ePh7gFnwKfLssXLHlYh6WBx51oCDpbyzbe1ZQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b5747dcc9188-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.3",
+            "url": "https://app.octusbridge.io/css/commons-166ff3.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "cf-polished": "origSize=57687",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-bgj": "minify",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-e157\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=9w5CV07%2BeBa6AgMYcFKRFCWp25Bl%2FtmafbmNZy6%2FTeK2ZMMD5TO8cac3tSW03D%2BvC2dDIUnPJFpaOOYsgoVEmj7UAg5NJeS6yGZYKOLINAmjlYF7r85JbVeO1LpYT6wUMCCEXA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b5747dd19188-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.4",
+            "url": "https://app.octusbridge.io/css/index-17ed16.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "cf-polished": "origSize=55456",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-bgj": "minify",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-d8a0\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=vJt1Mgyy5gkgHrqxl0IGcs%2FT5qlG9yESnnsh%2BXQ5hOY5hyIr6HB8txExD4uJiaj6bQFHB4giffrhjZ6wQvTiZ8ZlvUxkXxaPyw%2FIrpP%2FxMKkcma25iHGSw0uroAzwOIqHAHqTQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b5747dd29188-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.5",
+            "url": "https://app.octusbridge.io/js/vendors-6cee06.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "cf-polished": "origSize=4558932",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-bgj": "minify",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-459054\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=3E6Fo5WguUlZ1C50ehvU0YntMs6aWPmhBMMgFNFaJEpZc94h6ZlbuhvH8pGDkdyhYdlP%2BweMgskU4lqZkSxyuEVIX4fY1HW7CzDscJcjviGDYolyyzj8y78beVW2Tm92nNsCbA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b574fe71901c-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.6",
+            "url": "https://app.octusbridge.io/js/commons-e18d9a.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-bgj": "minify",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-62a00\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=djxw9mFs8u4rZSITtex%2B3%2BLJPLItkXw6Yb6qc7EwoSJ8V4JZXOV%2BzdvL00ms%2F%2F88I%2BSQsa8P35HS1JtyrK8ilufJazITLdFXV9y0OF1wckvHJcx4pCRx3VeEFJsRj%2BOhsTF1aQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b574fe75901c-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.7",
+            "url": "https://app.octusbridge.io/js/index-c5214f.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "MISS",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-d1584\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=NVfiQVLGpYL2ediu0aoYB9VpeT5ebtBwJGzlQykBQHUsA3ruEMyUpgQS%2BjXGFV5ITQxDZ%2BUlLZAY%2FVD1o6OYUMCStE1mzGx3qvgdiBfYErQt%2B7p1vZVS4MyPhJiQHd6SfBnL%2BQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b5751e8e901c-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.8",
+            "url": "https://fonts.cdnfonts.com/css/pt-root-ui",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "cf-bgj": "minify",
+                "last-modified": "Thu, 27 Oct 2022 16:13:14 GMT",
+                "server": "cloudflare",
+                "age": "7119736",
+                "cf-polished": "origSize=812",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=vMrd7ANZTFsZ5LnWVhQ5ypNBj%2F1P0YmcyeulUKrXNjQIGf8mOaQSzeYybJM7e6uZfRMIAWagw2l2%2F7HvYEJtPlJlrKKaEdvoyxDnawmO24C3z7PIeGC%2FuFyUX4X%2Blv812vvD1Q%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css;charset=UTF-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=2678400",
+                "cf-ray": "78b3b574fd889b2e-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.9",
+            "url": "https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/",
+                "origin": "https://app.octusbridge.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "content-encoding": "gzip",
+                "last-modified": "Fri, 21 Oct 2022 01:56:09 GMT",
+                "server": "cloudflare",
+                "etag": "W/2022.10.1",
+                "vary": "Accept-Encoding",
+                "content-type": "text/javascript;charset=UTF-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=86400",
+                "cross-origin-resource-policy": "cross-origin",
+                "cf-ray": "78b3b576c81e01f0-ZRH"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.18",
+            "url": "https://app.octusbridge.io/24d0a573fd4b7ccdf924.wasm",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-13ed72\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=nvM0a0MVReeMTDI1cct0U2Hk6GSxNVPO1ZK0g9Q4NLpD6IDViOJFPnk8HwN7pyVuxRnTBeP4x0UzwcC%2Ble2UpM3RyR6hgTJ7rErOCisx%2BrF6y2Vcke7rp7iyF6j916S%2BNCeGWQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/wasm",
+                "cf-ray": "78b3b5776814901c-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.22",
+            "url": "https://fonts.cdnfonts.com/s/17770/PT%20Root%20UI_Bold.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.cdnfonts.com/css/pt-root-ui",
+                "origin": "https://app.octusbridge.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "cf-cache-status": "HIT",
+                "last-modified": "Sat, 05 Feb 2022 02:00:39 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "age": "610423",
+                "etag": "\"f228-5d73bbbe9acbe\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=8zas1UoH7Z1PK9%2BWjtPcDwL2G2sKF0mkglS2NEs5IddsL1BPjYqxfiH%2BpqzPdecKAcpdNh0f8edu6fqXXQbqbxV6fELpJKvMP7ioxDx7rdA2T3CHm1%2FgyT0hjMLwnBIHfLIv7A%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "font/woff",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=2678400",
+                "accept-ranges": "bytes",
+                "cf-ray": "78b3b579c8d99091-FRA",
+                "content-length": "61992"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.19",
+            "url": "https://fonts.cdnfonts.com/s/17770/PT%20Root%20UI_Regular.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.cdnfonts.com/css/pt-root-ui",
+                "origin": "https://app.octusbridge.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "cf-cache-status": "HIT",
+                "last-modified": "Sat, 05 Feb 2022 02:00:39 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "age": "893628",
+                "etag": "\"efec-5d73bbbe9acbe\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=noATsc2zw9cp1hsfbJdASJJLZRF0Iaf7h4x%2BMUCDDGSuMPuPBLxkCb%2Fa3wym5BOcvUmypSZ4l2gbtAtbUC6zVyhB3JEHMsxy6z%2BtWCOMSFQYhm6kZb6fniQ2fqypHvFIX%2Bcsag%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "font/woff",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=2678400",
+                "accept-ranges": "bytes",
+                "cf-ray": "78b3b579c8db9091-FRA",
+                "content-length": "61420"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.23",
+            "url": "https://raw.githubusercontent.com/broxus/bridge-assets/master/main.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "129e08aed17dc6ddc588aef33cdc09da9c39050f",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache": "MISS",
+                "x-cache-hits": "0",
+                "content-length": "5472",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220034-HHN",
+                "x-github-request-id": "2BC8:1C3F:8ACB2:BC2BE:63C75193",
+                "x-timer": "S1674006931.358532,VS0,VE175",
+                "etag": "W/\"d2cb0c90b22684076381f8c7fe0f4a7fdd43c5b93d3f7ed5814ec2b6cfc6eafd\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 02:00:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.24",
+            "url": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "d384db272e129db58e08c58ffb95777951786d29",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache": "MISS",
+                "x-cache-hits": "0",
+                "content-length": "2199",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220034-HHN",
+                "x-github-request-id": "C82A:20DA:3EC7D:69ACC:63C75193",
+                "x-timer": "S1674006931.358453,VS0,VE153",
+                "etag": "W/\"8da86df0f8f66a1c222e4ec4163d84d5a14499e5f8d965466b83e43a4ca93090\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 02:00:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.25",
+            "url": "https://app.octusbridge.io/2bac7b78ec6ffec336be.wasm",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-89ff3\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=AN76U3qcWCR7I6gpCLHfdOxtMx3kAsyuuoGI9h6vM1Ptymx8K1QsTGZBGRwA%2FPqFZy%2BVDXQEgVeqWCZzkE8t8BgIeSn8qCBZFfcbGpOzJ0roqGZvJdqqCc5x4fv2TxiFM7%2FliQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/wasm",
+                "cf-ray": "78b3b578f915901c-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.26",
+            "url": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM1NSIgdmlld0JveD0iMCAwIDM5NyAzNTUiIHdpZHRoPSIzOTciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiPjxwYXRoIGQ9Im0xMTQuNjIyNjQ0IDMyNy4xOTU0NzIgNTIuMDA0NzE3IDEzLjgxMDE5OHYtMTguMDU5NDlsNC4yNDUyODMtNC4yNDkyOTJoMjkuNzE2OTgydjIxLjI0NjQ1OSAxNC44NzI1MjNoLTMxLjgzOTYyNGwtMzkuMjY4ODY4LTE2Ljk5NzE2OXoiIGZpbGw9IiNjZGJkYjIiLz48cGF0aCBkPSJtMTk5LjUyODMwNSAzMjcuMTk1NDcyIDUwLjk0MzM5NyAxMy44MTAxOTh2LTE4LjA1OTQ5bDQuMjQ1MjgzLTQuMjQ5MjkyaDI5LjcxNjk4MXYyMS4yNDY0NTkgMTQuODcyNTIzaC0zMS44Mzk2MjNsLTM5LjI2ODg2OC0xNi45OTcxNjl6IiBmaWxsPSIjY2RiZGIyIiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSA0ODMuOTYyMjcgMCkiLz48cGF0aCBkPSJtMTcwLjg3MjY0NCAyODcuODg5NTIzLTQuMjQ1MjgzIDM1LjA1NjY1NyA1LjMwNjYwNC00LjI0OTI5Mmg1NS4xODg2OGw2LjM2NzkyNSA0LjI0OTI5Mi00LjI0NTI4NC0zNS4wNTY2NTctOC40OTA1NjUtNS4zMTE2MTUtNDIuNDUyODMyIDEuMDYyMzIzeiIgZmlsbD0iIzM5MzkzOSIvPjxwYXRoIGQ9Im0xNDIuMjE2OTg0IDUwLjk5MTUwMjIgMjUuNDcxNjk4IDU5LjQ5MDA4NTggMTEuNjc0NTI4IDE3My4xNTg2NDNoNDEuMzkxNTExbDEyLjczNTg0OS0xNzMuMTU4NjQzIDIzLjM0OTA1Ni01OS40OTAwODU4eiIgZmlsbD0iI2Y4OWMzNSIvPjxwYXRoIGQ9Im0zMC43NzgzMDIzIDE4MS42NTcyMjYtMjkuNzE2OTgxNTMgODYuMDQ4MTYxIDc0LjI5MjQ1MzkzLTQuMjQ5MjkzaDQ3Ljc1OTQzNDN2LTM3LjE4MTMwM2wtMi4xMjI2NDEtNzYuNDg3MjUzLTEwLjYxMzIwOCA4LjQ5ODU4M3oiIGZpbGw9IiNmODlkMzUiLz48cGF0aCBkPSJtODcuMDI4MzAzMiAxOTEuMjE4MTM0IDg3LjAyODMwMjggMi4xMjQ2NDYtOS41NTE4ODYgNDQuNjE3NTYzLTQxLjM5MTUxMS0xMC42MjMyMjl6IiBmaWxsPSIjZDg3YzMwIi8+PHBhdGggZD0ibTg3LjAyODMwMzIgMTkyLjI4MDQ1NyAzNi4wODQ5MDU4IDMzLjk5NDMzNHYzMy45OTQzMzR6IiBmaWxsPSIjZWE4ZDNhIi8+PHBhdGggZD0ibTEyMy4xMTMyMDkgMjI3LjMzNzExNCA0Mi40NTI4MzEgMTAuNjIzMjI5IDEzLjc5NzE3IDQ1LjY3OTg4OC05LjU1MTg4NiA1LjMxMTYxNS00Ni42OTgxMTUtMjcuNjIwMzk4eiIgZmlsbD0iI2Y4OWQzNSIvPjxwYXRoIGQ9Im0xMjMuMTEzMjA5IDI2MS4zMzE0NDgtOC40OTA1NjUgNjUuODY0MDI0IDU2LjI1LTM5LjMwNTk0OXoiIGZpbGw9IiNlYjhmMzUiLz48cGF0aCBkPSJtMTc0LjA1NjYwNiAxOTMuMzQyNzggNS4zMDY2MDQgOTAuMjk3NDUxLTE1LjkxOTgxMi00Ni4yMTEwNDl6IiBmaWxsPSIjZWE4ZTNhIi8+PHBhdGggZD0ibTc0LjI5MjQ1MzkgMjYyLjM5Mzc3MSA0OC44MjA3NTUxLTEuMDYyMzIzLTguNDkwNTY1IDY1Ljg2NDAyNHoiIGZpbGw9IiNkODdjMzAiLz48cGF0aCBkPSJtMjQuNDEwMzc3NyAzNTUuODc4MTkzIDkwLjIxMjI2NjMtMjguNjgyNzIxLTQwLjMzMDE5MDEtNjQuODAxNzAxLTczLjIzMTEzMzEzIDUuMzExNjE2eiIgZmlsbD0iI2ViOGYzNSIvPjxwYXRoIGQ9Im0xNjcuNjg4NjgyIDExMC40ODE1ODgtNDUuNjM2NzkzIDM4LjI0MzYyNy0zNS4wMjM1ODU4IDQyLjQ5MjkxOSA4Ny4wMjgzMDI4IDMuMTg2OTY5eiIgZmlsbD0iI2U4ODIxZSIvPjxwYXRoIGQ9Im0xMTQuNjIyNjQ0IDMyNy4xOTU0NzIgNTYuMjUtMzkuMzA1OTQ5LTQuMjQ1MjgzIDMzLjk5NDMzNHYxOS4xMjE4MTNsLTM4LjIwNzU0OC03LjQzNjI2eiIgZmlsbD0iI2RmY2VjMyIvPjxwYXRoIGQ9Im0yMjkuMjQ1Mjg2IDMyNy4xOTU0NzIgNTUuMTg4NjgtMzkuMzA1OTQ5LTQuMjQ1MjgzIDMzLjk5NDMzNHYxOS4xMjE4MTNsLTM4LjIwNzU0OC03LjQzNjI2eiIgZmlsbD0iI2RmY2VjMyIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgNTEzLjY3OTI1MiAwKSIvPjxwYXRoIGQ9Im0xMzIuNjY1MDk2IDIxMi40NjQ1OTMtMTEuNjc0NTI4IDI0LjQzMzQyNyA0MS4zOTE1MS0xMC42MjMyMjl6IiBmaWxsPSIjMzkzOTM5IiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAyODMuMzcyNjQ2IDApIi8+PHBhdGggZD0ibTIzLjM0OTA1NyAxLjA2MjMyMjk2IDE0NC4zMzk2MjUgMTA5LjQxOTI2NTA0LTI0LjQxMDM3OC01OS40OTAwODU4eiIgZmlsbD0iI2U4OGYzNSIvPjxwYXRoIGQ9Im0yMy4zNDkwNTcgMS4wNjIzMjI5Ni0xOS4xMDM3NzM5MiA1OC40Mjc3NjI5NCAxMC42MTMyMDc3MiA2My43MzkzNzgxLTcuNDI5MjQ1NDEgNC4yNDkyOTIgMTAuNjEzMjA3NzEgOS41NjA5MDYtOC40OTA1NjYxNyA3LjQzNjI2MSAxMS42NzQ1Mjg0NyAxMC42MjMyMjktNy40MjkyNDU0IDYuMzczOTM4IDE2Ljk4MTEzMjMgMjEuMjQ2NDU5IDc5LjU5OTA1NzctMjQuNDMzNDI4YzM4LjkxNTA5Ni0zMS4xNjE0NzMgNTguMDE4ODY5LTQ3LjA5NjMxOCA1Ny4zMTEzMjItNDcuODA0NTMzLS43MDc1NDgtLjcwODIxNS00OC44MjA3NTYtMzcuMTgxMzAzNi0xNDQuMzM5NjI1LTEwOS40MTkyNjUwNHoiIGZpbGw9IiM4ZTVhMzAiLz48ZyB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAzOTkuMDU2NjExIDApIj48cGF0aCBkPSJtMzAuNzc4MzAyMyAxODEuNjU3MjI2LTI5LjcxNjk4MTUzIDg2LjA0ODE2MSA3NC4yOTI0NTM5My00LjI0OTI5M2g0Ny43NTk0MzQzdi0zNy4xODEzMDNsLTIuMTIyNjQxLTc2LjQ4NzI1My0xMC42MTMyMDggOC40OTg1ODN6IiBmaWxsPSIjZjg5ZDM1Ii8+PHBhdGggZD0ibTg3LjAyODMwMzIgMTkxLjIxODEzNCA4Ny4wMjgzMDI4IDIuMTI0NjQ2LTkuNTUxODg2IDQ0LjYxNzU2My00MS4zOTE1MTEtMTAuNjIzMjI5eiIgZmlsbD0iI2Q4N2MzMCIvPjxwYXRoIGQ9Im04Ny4wMjgzMDMyIDE5Mi4yODA0NTcgMzYuMDg0OTA1OCAzMy45OTQzMzR2MzMuOTk0MzM0eiIgZmlsbD0iI2VhOGQzYSIvPjxwYXRoIGQ9Im0xMjMuMTEzMjA5IDIyNy4zMzcxMTQgNDIuNDUyODMxIDEwLjYyMzIyOSAxMy43OTcxNyA0NS42Nzk4ODgtOS41NTE4ODYgNS4zMTE2MTUtNDYuNjk4MTE1LTI3LjYyMDM5OHoiIGZpbGw9IiNmODlkMzUiLz48cGF0aCBkPSJtMTIzLjExMzIwOSAyNjEuMzMxNDQ4LTguNDkwNTY1IDY1Ljg2NDAyNCA1NS4xODg2OC0zOC4yNDM2MjZ6IiBmaWxsPSIjZWI4ZjM1Ii8+PHBhdGggZD0ibTE3NC4wNTY2MDYgMTkzLjM0Mjc4IDUuMzA2NjA0IDkwLjI5NzQ1MS0xNS45MTk4MTItNDYuMjExMDQ5eiIgZmlsbD0iI2VhOGUzYSIvPjxwYXRoIGQ9Im03NC4yOTI0NTM5IDI2Mi4zOTM3NzEgNDguODIwNzU1MS0xLjA2MjMyMy04LjQ5MDU2NSA2NS44NjQwMjR6IiBmaWxsPSIjZDg3YzMwIi8+PHBhdGggZD0ibTI0LjQxMDM3NzcgMzU1Ljg3ODE5MyA5MC4yMTIyNjYzLTI4LjY4MjcyMS00MC4zMzAxOTAxLTY0LjgwMTcwMS03My4yMzExMzMxMyA1LjMxMTYxNnoiIGZpbGw9IiNlYjhmMzUiLz48cGF0aCBkPSJtMTY3LjY4ODY4MiAxMTAuNDgxNTg4LTQ1LjYzNjc5MyAzOC4yNDM2MjctMzUuMDIzNTg1OCA0Mi40OTI5MTkgODcuMDI4MzAyOCAzLjE4Njk2OXoiIGZpbGw9IiNlODgyMWUiLz48cGF0aCBkPSJtMTMyLjY2NTA5NiAyMTIuNDY0NTkzLTExLjY3NDUyOCAyNC40MzM0MjcgNDEuMzkxNTEtMTAuNjIzMjI5eiIgZmlsbD0iIzM5MzkzOSIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMjgzLjM3MjY0NiAwKSIvPjxwYXRoIGQ9Im0yMy4zNDkwNTcgMS4wNjIzMjI5NiAxNDQuMzM5NjI1IDEwOS40MTkyNjUwNC0yNC40MTAzNzgtNTkuNDkwMDg1OHoiIGZpbGw9IiNlODhmMzUiLz48cGF0aCBkPSJtMjMuMzQ5MDU3IDEuMDYyMzIyOTYtMTkuMTAzNzczOTIgNTguNDI3NzYyOTQgMTAuNjEzMjA3NzIgNjMuNzM5Mzc4MS03LjQyOTI0NTQxIDQuMjQ5MjkyIDEwLjYxMzIwNzcxIDkuNTYwOTA2LTguNDkwNTY2MTcgNy40MzYyNjEgMTEuNjc0NTI4NDcgMTAuNjIzMjI5LTcuNDI5MjQ1NCA2LjM3MzkzOCAxNi45ODExMzIzIDIxLjI0NjQ1OSA3OS41OTkwNTc3LTI0LjQzMzQyOGMzOC45MTUwOTYtMzEuMTYxNDczIDU4LjAxODg2OS00Ny4wOTYzMTggNTcuMzExMzIyLTQ3LjgwNDUzMy0uNzA3NTQ4LS43MDgyMTUtNDguODIwNzU2LTM3LjE4MTMwMzYtMTQ0LjMzOTYyNS0xMDkuNDE5MjY1MDR6IiBmaWxsPSIjOGU1YTMwIi8+PC9nPjwvZz48L3N2Zz4=",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.27",
+            "url": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxyYWRpYWxHcmFkaWVudCBpZD0iYSIgY3g9IjAlIiBjeT0iNTAlIiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM1ZDlkZjYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMDZmZmYiLz48L3JhZGlhbEdyYWRpZW50PjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0ibTI1NiAwYzE0MS4zODQ4OTYgMCAyNTYgMTE0LjYxNTEwNCAyNTYgMjU2cy0xMTQuNjE1MTA0IDI1Ni0yNTYgMjU2LTI1Ni0xMTQuNjE1MTA0LTI1Ni0yNTYgMTE0LjYxNTEwNC0yNTYgMjU2LTI1NnoiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJtNjQuNjkxNzU1OCAzNy43MDg4Mjk4YzUxLjUzMjgwNzItNTAuMjc4NDM5NyAxMzUuMDgzOTk0Mi01MC4yNzg0Mzk3IDE4Ni42MTY3OTkyIDBsNi4yMDIwNTcgNi4wNTEwOTA2YzIuNTc2NjQgMi41MTM5MjE4IDIuNTc2NjQgNi41ODk3OTQ4IDAgOS4xMDM3MTc3bC0yMS4yMTU5OTggMjAuNjk5NTc1OWMtMS4yODgzMjEgMS4yNTY5NjE5LTMuMzc3MSAxLjI1Njk2MTktNC42NjU0MjEgMGwtOC41MzQ3NjYtOC4zMjcwMjA1Yy0zNS45NTA1NzMtMzUuMDc1NDk2Mi05NC4yMzc5NjktMzUuMDc1NDk2Mi0xMzAuMTg4NTQ0IDBsLTkuMTQwMDI4MiA4LjkxNzU1MTljLTEuMjg4MzIxNyAxLjI1Njk2MDktMy4zNzcxMDE2IDEuMjU2OTYwOS00LjY2NTQyMDggMGwtMjEuMjE1OTk3My0yMC42OTk1NzU5Yy0yLjU3NjY0MDMtMi41MTM5MjI5LTIuNTc2NjQwMy02LjU4OTc5NTggMC05LjEwMzcxNzd6bTIzMC40OTM0ODUyIDQyLjgwODkxMTcgMTguODgyMjc5IDE4LjQyMjcyNjJjMi41NzY2MjcgMi41MTM5MTAzIDIuNTc2NjQyIDYuNTg5NzU5My4wMDAwMzIgOS4xMDM2ODYzbC04NS4xNDE0OTggODMuMDcwMzU4Yy0yLjU3NjYyMyAyLjUxMzk0MS02Ljc1NDE4MiAyLjUxMzk2OS05LjMzMDg0LjAwMDA2Ni0uMDAwMDEtLjAwMDAxLS4wMDAwMjMtLjAwMDAyMy0uMDAwMDMzLS4wMDAwMzRsLTYwLjQyODI1Ni01OC45NTc0NTFjLS42NDQxNi0uNjI4NDgxLTEuNjg4NTUtLjYyODQ4MS0yLjMzMjcxIDAtLjAwMDAwNC4wMDAwMDQtLjAwMDAwOC4wMDAwMDctLjAwMDAxMi4wMDAwMTFsLTYwLjQyNjk2ODMgNTguOTU3NDA4Yy0yLjU3NjYxNDEgMi41MTM5NDctNi43NTQxNzQ2IDIuNTEzOTktOS4zMzA4NDA4LjAwMDA5Mi0uMDAwMDE1MS0uMDAwMDE0LS4wMDAwMzA5LS4wMDAwMjktLjAwMDA0NjctLjAwMDA0NmwtODUuMTQzODY3NzQtODMuMDcxNDYzYy0yLjU3NjYzOTI4LTIuNTEzOTIxLTIuNTc2NjM5MjgtNi41ODk3OTUgMC05LjEwMzcxNjNsMTguODgyMzEyNjQtMTguNDIyNjk1NWMyLjU3NjYzOTMtMi41MTM5MjIyIDYuNzU0MTk5My0yLjUxMzkyMjIgOS4zMzA4Mzk3IDBsNjAuNDI5MTM0NyA1OC45NTgyNzU4Yy42NDQxNjA4LjYyODQ4IDEuNjg4NTQ5NS42Mjg0OCAyLjMzMjcxMDMgMCAuMDAwMDA5NS0uMDAwMDA5LjAwMDAxODItLjAwMDAxOC4wMDAwMjc3LS4wMDAwMjVsNjAuNDI2MTA2NS01OC45NTgyNTA4YzIuNTc2NTgxLTIuNTEzOTggNi43NTQxNDItMi41MTQwNzQzIDkuMzMwODQtLjAwMDIxMDMuMDAwMDM3LjAwMDAzNTQuMDAwMDcyLjAwMDA3MDkuMDAwMTA3LjAwMDEwNjNsNjAuNDI5MDU2IDU4Ljk1ODM1NDhjLjY0NDE1OS42Mjg0NzkgMS42ODg1NDkuNjI4NDc5IDIuMzMyNzA5IDBsNjAuNDI4MDc5LTU4Ljk1NzE5MjVjMi41NzY2NC0yLjUxMzkyMzEgNi43NTQxOTktMi41MTM5MjMxIDkuMzMwODM5IDB6IiBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk4IDE2MCkiLz48L2c+PC9zdmc+",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.21",
+            "url": "https://fonts.cdnfonts.com/s/17770/PT%20Root%20UI_Medium.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.cdnfonts.com/css/pt-root-ui",
+                "origin": "https://app.octusbridge.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "cf-cache-status": "HIT",
+                "last-modified": "Sat, 05 Feb 2022 02:00:39 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "age": "893628",
+                "etag": "\"f15c-5d73bbbe9acbe\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=4afPAGH%2FXGmQHvwVIY7QgaMLphO%2FtrDOHXvslQ1wDIUXb%2BXqz8DfiA%2B1CVRHPxai2LwwyPPw1jopm3s7VtP8OF38bfAU97WqHfxGhjyV2M3wCMIy6rAaD4o6%2FxFK2cGkZu5x7Q%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "font/woff",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=2678400",
+                "accept-ranges": "bytes",
+                "cf-ray": "78b3b579e8ea9091-FRA",
+                "content-length": "61788"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.28",
+            "url": "https://app.octusbridge.io/favicon.ico?1",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-558a\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=r2ULmjCglJVTk9Sm0GWj04ockB9qgmqbxU6DIHnqxEnKGHfY00pMwWw9N45ZfdATsixtndwU13utZKRpz8IetpGMfl4wl3gM85hEB0xfpAQAKXV%2BVOQBQquXmJp5JETwOh6egA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/x-icon",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b57a19b2901c-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.29",
+            "url": "https://jrpc.everwallet.net/rpc",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "https://app.octusbridge.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"getContractState\",\"params\":{\"address\":\"-1:0000000000000000000000000000000000000000000000000000000000000000\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "origin, access-control-request-method, access-control-request-headers",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=3JMw3Qee%2FLvv8dlFeXmrLRdmVWzXkITKqbWu%2BOoeJvGZJNsLG0ZQL5d9TX8rwwIjldtEG6yh7Rp34Y%2FO7yHTLF3aa4hzgWsLdYJ2K2tYOI83KfsjsQ%2BfyT8BlyI%2BhDszdSI%2Fe6Mc\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=3",
+                "cf-ray": "78b3b57b0ceb68eb-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "C831CA21D049CA8A48B6DC9995B2921A",
+            "url": "https://jrpc.everwallet.net/rpc",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.octusbridge.io",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "authorization,content-type,api-key",
+                "access-control-allow-methods": "GET,POST,OPTIONS,PUT",
+                "access-control-allow-origin": "*",
+                "allow": "POST",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "78b3b57a8fe0bbe6-FRA",
+                "content-length": "0",
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=oo67rYMaGYTKcqHJjqLFYnLMUxy1B4NtF6ZzsSCIkbnggExmboJYFe622G5wd5hdilrlHy563sAsfGUNJqAyszVyFkCb3sSV5zhOWXUS1nXFFNtRW7W63QZbtoNIJC1L7y9OtWLb\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "vary": "origin\naccess-control-request-method\naccess-control-request-headers"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.30",
+            "url": "https://raw.githubusercontent.com/broxus/bridge-assets/multitoken-1/tokenlist/octus.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "42d1f815499be9251f72c1cbce845fa6f525fc42",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache": "MISS",
+                "x-cache-hits": "0",
+                "content-length": "159",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220034-HHN",
+                "x-github-request-id": "AFCE:516F:5547A:82735:63C75193",
+                "x-timer": "S1674006932.576903,VS0,VE151",
+                "etag": "W/\"ea105865d69a61c10ccad166c0f6f2cc5ed56087df0ae3da8c35c49313950d36\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 02:00:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.31",
+            "url": "https://raw.githubusercontent.com/broxus/bridge-assets/multitoken-1/tokenlist/common.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "8efb21b4c45a9ce00b8f9191a10f9ff626b2e298",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache": "MISS",
+                "x-cache-hits": "0",
+                "content-length": "10144",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220034-HHN",
+                "x-github-request-id": "975C:10E6:A0286:D3076:63C75193",
+                "x-timer": "S1674006932.576866,VS0,VE148",
+                "etag": "W/\"b31fac4320cb3aa2d40318921e76bcd0466c3142dde79423897baf457a1c37fd\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 02:00:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.32",
+            "url": "https://app.octusbridge.io/cdn-cgi/rum?",
+            "type": "Xhr",
+            "status": 204,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"memory\":{\"totalJSHeapSize\":42100000,\"usedJSHeapSize\":37300000,\"jsHeapSizeLimit\":3760000000},\"resources\":[{\"n\":\"https://app.octusbridge.io/css/vendors-72fe76.css\",\"s\":186.9,\"d\":80.4,\"i\":\"link\",\"p\":\"h2\",\"rs\":0,\"re\":0,\"fs\":186.9,\"ds\":186.9,\"de\":186.9,\"cs\":186.9,\"ce\":186.9,\"qs\":189.8,\"ps\":266.7,\"pe\":267.3,\"ws\":0,\"ss\":186.9,\"ts\":1007,\"ec\":707,\"dc\":1813},{\"n\":\"https://app.octusbridge.io/css/commons-166ff3.css\",\"s\":187,\"d\":83.4,\"i\":\"link\",\"p\":\"h2\",\"rs\":0,\"re\":0,\"fs\":187,\"ds\":187,\"de\":187,\"cs\":187,\"ce\":187,\"qs\":190.2,\"ps\":268.6,\"pe\":270.4,\"ws\":0,\"ss\":187,\"ts\":11438,\"ec\":11138,\"dc\":57412},{\"n\":\"https://app.octusbridge.io/css/index-17ed16.css\",\"s\":187.1,\"d\":43.7,\"i\":\"link\",\"p\":\"h2\",\"rs\":0,\"re\":0,\"fs\":187.1,\"ds\":187.1,\"de\":187.1,\"cs\":187.1,\"ce\":187.1,\"qs\":190.4,\"ps\":229.5,\"pe\":230.8,\"ws\":0,\"ss\":187.1,\"ts\":10901,\"ec\":10601,\"dc\":55090},{\"n\":\"https://app.octusbridge.io/js/vendors-6cee06.js\",\"s\":187.1,\"d\":319.5,\"i\":\"script\",\"p\":\"h3\",\"rs\":0,\"re\":0,\"fs\":187.1,\"ds\":274.3,\"de\":274.3,\"cs\":274.3,\"ce\":274.3,\"qs\":274.8,\"ps\":373.1,\"pe\":506.6,\"ws\":0,\"ss\":274.3,\"ts\":1293660,\"ec\":1293360,\"dc\":4558861},{\"n\":\"https://app.octusbridge.io/js/commons-e18d9a.js\",\"s\":187.2,\"d\":322.8,\"i\":\"script\",\"p\":\"h3\",\"rs\":0,\"re\":0,\"fs\":187.2,\"ds\":187.2,\"de\":187.2,\"cs\":187.2,\"ce\":187.2,\"qs\":275,\"ps\":353.9,\"pe\":510,\"ws\":0,\"ss\":187.2,\"ts\":66858,\"ec\":66558,\"dc\":403968},{\"n\":\"https://app.octusbridge.io/js/index-c5214f.js\",\"s\":187.3,\"d\":334.4,\"i\":\"script\",\"p\":\"h3\",\"rs\":0,\"re\":0,\"fs\":187.3,\"ds\":187.3,\"de\":187.3,\"cs\":187.3,\"ce\":187.3,\"qs\":295.9,\"ps\":509.3,\"pe\":521.7,\"ws\":0,\"ss\":187.3,\"ts\":156844,\"ec\":156544,\"dc\":857476},{\"n\":\"https://fonts.cdnfonts.com/css/pt-root-ui\",\"s\":187.4,\"d\":107.3,\"i\":\"link\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":187.4,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":294.7,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993\",\"s\":187.6,\"d\":428.6,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":187.6,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":616.2,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://app.octusbridge.io/24d0a573fd4b7ccdf924.wasm\",\"s\":657.8,\"d\":161.1,\"i\":\"fetch\",\"p\":\"h3\",\"rs\":0,\"re\":0,\"fs\":657.8,\"ds\":657.8,\"de\":657.8,\"cs\":657.8,\"ce\":657.8,\"qs\":658.6,\"ps\":727.7,\"pe\":818.9,\"ws\":0,\"ss\":657.8,\"ts\":516022,\"ec\":515722,\"dc\":1305970},{\"n\":\"https://raw.githubusercontent.com/broxus/bridge-assets/master/main.json\",\"s\":876.9,\"d\":230.4,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":876.9,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":1107.3,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json\",\"s\":877.2,\"d\":209.2,\"i\":\"fetch\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":877.2,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":1086.4,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://app.octusbridge.io/2bac7b78ec6ffec336be.wasm\",\"s\":914.5,\"d\":53.2,\"i\":\"fetch\",\"p\":\"h3\",\"rs\":0,\"re\":0,\"fs\":914.5,\"ds\":914.5,\"de\":914.5,\"cs\":914.5,\"ce\":914.5,\"qs\":915.4,\"ps\":953.7,\"pe\":967.7,\"ws\":0,\"ss\":914.5,\"ts\":203411,\"ec\":203111,\"dc\":565235},{\"n\":\"https://app.octusbridge.io/favicon.ico?1\",\"s\":1038.7,\"d\":127.3,\"i\":\"img\",\"p\":\"h3\",\"rs\":0,\"re\":0,\"fs\":1038.7,\"ds\":1038.7,\"de\":1038.7,\"cs\":1038.7,\"ce\":1038.7,\"qs\":1092.6,\"ps\":1165.2,\"pe\":1166,\"ws\":0,\"ss\":1038.7,\"ts\":20486,\"ec\":20186,\"dc\":21898}],\"referrer\":\"\",\"documentWriteIntervention\":false,\"errorCount\":0,\"eventType\":1,\"firstPaint\":0,\"firstContentfulPaint\":0,\"si\":100,\"startTime\":1674006930427.7,\"versions\":{\"fl\":\"2022.11.3\",\"js\":\"2022.10.1\",\"timings\":2},\"pageloadId\":\"0773ef7b-1eac-490e-8923-f3ee16275d66\",\"location\":\"https://app.octusbridge.io/bridge\",\"wd\":false,\"timingsV2\":{\"unloadEventStart\":0,\"unloadEventEnd\":0,\"domInteractive\":295.80000019073486,\"domContentLoadedEventStart\":1038,\"domContentLoadedEventEnd\":1038.7000000476837,\"domComplete\":1167.7000000476837,\"loadEventStart\":1170.2000000476837,\"loadEventEnd\":1171.1000001430511,\"type\":\"navigate\",\"redirectCount\":0,\"activationStart\":0,\"initiatorType\":\"navigation\",\"nextHopProtocol\":\"h2\",\"workerStart\":0,\"redirectStart\":0,\"redirectEnd\":0,\"fetchStart\":1.1000001430511475,\"domainLookupStart\":54.10000014305115,\"domainLookupEnd\":54.200000047683716,\"connectStart\":54.200000047683716,\"connectEnd\":95.30000019073486,\"secureConnectionStart\":73,\"requestStart\":95.40000009536743,\"responseStart\":168.70000004768372,\"responseEnd\":169.40000009536743,\"transferSize\":1221,\"encodedBodySize\":921,\"decodedBodySize\":2669,\"serverTiming\":[],\"renderBlockingStatus\":\"blocking\",\"name\":\"https://app.octusbridge.io/bridge\",\"entryType\":\"navigation\",\"startTime\":0,\"duration\":1171.1000001430511},\"siteToken\":\"488a0a42294841f581e2ed1efb78f2c1\",\"st\":2}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-max-age": "86400",
+                "access-control-allow-methods": "POST,OPTIONS",
+                "access-control-allow-origin": "https://app.octusbridge.io",
+                "x-frame-options": "DENY",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "78b3b57aa9fe901c-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.33",
+            "url": "https://app.octusbridge.io/favicon.svg?1",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-10a\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=kxOCU9Fu95ACdWmMmmenrnALmEeVrfH3iXHKxbYVnB9MmeMWlzzu9TEnn6BTN3KPGGl6Cg8dIAmiCKG%2BFTqgjdHi%2Ff7AjmemKX4y%2FvQPdB94lgvVQchBwa30Zfx2OhIuOLt6rA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b57aa9ff901c-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.34",
+            "url": "https://app.octusbridge.io/favicon.ico?1",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-558a\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=r2ULmjCglJVTk9Sm0GWj04ockB9qgmqbxU6DIHnqxEnKGHfY00pMwWw9N45ZfdATsixtndwU13utZKRpz8IetpGMfl4wl3gM85hEB0xfpAQAKXV%2BVOQBQquXmJp5JETwOh6egA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/x-icon",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b57a19b2901c-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "13129.364",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "13129.537",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:56:26.938Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d2662664ae7a4cedb1c10bb531e2db56\",\"init\":true,\"started\":\"2023-01-18T01:56:26.937Z\",\"timestamp\":\"2023-01-18T01:56:26.937Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:56:27 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "13129.564",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "13129.565",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/bcbyQPefbE2ZiAdDrPf7g"
+            ],
+            "id": "13129.383",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/bcbyQPefbE2ZiAdDrPf7g"
+            ],
+            "id": "13129.380",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/bcbyQPefbE2ZiAdDrPf7g"
+            ],
+            "id": "13129.368",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/bcbyQPefbE2ZiAdDrPf7g"
+            ],
+            "id": "13129.382",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/bcbyQPefbE2ZiAdDrPf7g"
+            ],
+            "id": "13129.566",
+            "url": "https://app.octusbridge.io/favicon.ico?1",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:56:29 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-558a\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=eTRKvWoRoX7ijRPqJJ7XSp80BxYsTONoCNH1o00U0Ea4ZykIvuqYj7b%2F70V6ZpEq%2FE4z2tnbjSOwNxXB%2FBwzRQB8OR1eU7sD1OUSXLHBuotRLouneuMSnhQrW5XjnepO%2BsmdKQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/x-icon",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b6e32da09bfe-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/bcbyQPefbE2ZiAdDrPf7g/confirm-permissions"
+            ],
+            "id": "13129.567",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:56:29.291Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d2662664ae7a4cedb1c10bb531e2db56\",\"init\":false,\"started\":\"2023-01-18T01:56:26.937Z\",\"timestamp\":\"2023-01-18T01:56:29.291Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:56:29 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/bcbyQPefbE2ZiAdDrPf7g/confirm-permissions"
+            ],
+            "id": "13129.568",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:56:29.294Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"89a9e09f5a994395b3e6faee5dc6b47c\",\"init\":true,\"started\":\"2023-01-18T01:56:29.291Z\",\"timestamp\":\"2023-01-18T01:56:29.291Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:56:29 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#"
+            ],
+            "id": "13129.572",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:56:30.537Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"89a9e09f5a994395b3e6faee5dc6b47c\",\"init\":false,\"started\":\"2023-01-18T01:56:29.291Z\",\"timestamp\":\"2023-01-18T01:56:30.536Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#"
+            ],
+            "id": "13129.573",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:56:30.556Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a19a0422089a491cb3b00a42688b042c\",\"init\":true,\"started\":\"2023-01-18T01:56:30.535Z\",\"timestamp\":\"2023-01-18T01:56:30.536Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "6031E51242ECDC4429B896A10950DB26",
+            "url": "https://app.octusbridge.io/bridge",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cache-control": "no-cache",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "78b3b7bad884912a-FRA",
+                "content-encoding": "br",
+                "content-type": "text/html",
+                "date": "Wed, 18 Jan 2023 01:57:03 GMT",
+                "expires": "Wed, 18 Jan 2023 01:57:02 GMT",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=TwiSFULdrm4cKXV0UMdkIEkB8jpHVhEfYQy6OF7HNpWu3ok5wfZE4PEYMF2sndWj%2FT1HE0n0gYQVZpSCTzc0SRCReah1Pe0lqg3FXABVE49BounKAafiSzvLYsePOfyjTR4z6A%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "x-frame-options": "SAMEORIGIN"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.35",
+            "url": "https://app.octusbridge.io/cdn-cgi/rum?",
+            "type": "Ping",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-credentials": "true",
+                "access-control-allow-methods": "POST,OPTIONS",
+                "access-control-allow-origin": "https://app.octusbridge.io",
+                "access-control-max-age": "86400",
+                "cf-ray": "78b3b7bb68fb912a-FRA",
+                "date": "Wed, 18 Jan 2023 01:57:03 GMT",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "x-content-type-options": "nosniff",
+                "x-frame-options": "DENY"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.37",
+            "url": "https://app.octusbridge.io/css/vendors-72fe76.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "cf-polished": "origSize=6139",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-bgj": "minify",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-17fb\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=dMvSiMOm6S7eOIJSrnYs54tMP41XKAtb1uFD09S4UsWad4jnTaDLrqNjTJu%2F8FNiYRbVMZiJogTR0hLUJSQyg8b2DI3nEWpo4ePh7gFnwKfLssXLHlYh6WBx51oCDpbyzbe1ZQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b5747dcc9188-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.38",
+            "url": "https://app.octusbridge.io/css/commons-166ff3.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "cf-polished": "origSize=57687",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-bgj": "minify",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-e157\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=9w5CV07%2BeBa6AgMYcFKRFCWp25Bl%2FtmafbmNZy6%2FTeK2ZMMD5TO8cac3tSW03D%2BvC2dDIUnPJFpaOOYsgoVEmj7UAg5NJeS6yGZYKOLINAmjlYF7r85JbVeO1LpYT6wUMCCEXA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b5747dd19188-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.39",
+            "url": "https://app.octusbridge.io/css/index-17ed16.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "cf-polished": "origSize=55456",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-bgj": "minify",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-d8a0\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=vJt1Mgyy5gkgHrqxl0IGcs%2FT5qlG9yESnnsh%2BXQ5hOY5hyIr6HB8txExD4uJiaj6bQFHB4giffrhjZ6wQvTiZ8ZlvUxkXxaPyw%2FIrpP%2FxMKkcma25iHGSw0uroAzwOIqHAHqTQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b5747dd29188-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.40",
+            "url": "https://app.octusbridge.io/js/vendors-6cee06.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "cf-polished": "origSize=4558932",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-bgj": "minify",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-459054\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=3E6Fo5WguUlZ1C50ehvU0YntMs6aWPmhBMMgFNFaJEpZc94h6ZlbuhvH8pGDkdyhYdlP%2BweMgskU4lqZkSxyuEVIX4fY1HW7CzDscJcjviGDYolyyzj8y78beVW2Tm92nNsCbA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b574fe71901c-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.41",
+            "url": "https://app.octusbridge.io/js/commons-e18d9a.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-bgj": "minify",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-62a00\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=djxw9mFs8u4rZSITtex%2B3%2BLJPLItkXw6Yb6qc7EwoSJ8V4JZXOV%2BzdvL00ms%2F%2F88I%2BSQsa8P35HS1JtyrK8ilufJazITLdFXV9y0OF1wckvHJcx4pCRx3VeEFJsRj%2BOhsTF1aQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b574fe75901c-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.42",
+            "url": "https://app.octusbridge.io/js/index-c5214f.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:30 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "MISS",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-d1584\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=NVfiQVLGpYL2ediu0aoYB9VpeT5ebtBwJGzlQykBQHUsA3ruEMyUpgQS%2BjXGFV5ITQxDZ%2BUlLZAY%2FVD1o6OYUMCStE1mzGx3qvgdiBfYErQt%2B7p1vZVS4MyPhJiQHd6SfBnL%2BQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b5751e8e901c-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.43",
+            "url": "https://fonts.cdnfonts.com/css/pt-root-ui",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:57:03 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "HIT",
+                "last-modified": "Thu, 27 Oct 2022 16:13:14 GMT",
+                "cf-bgj": "minify",
+                "server": "cloudflare",
+                "age": "7119829",
+                "cf-polished": "origSize=812",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=tuyPgU4sFqC06tZDvJ3BXDEfzwVWm5RtL5izJiNOJKRfuFWI5gO3MsRkj3M02%2B0klCk%2BnsVIarQAw%2BBvwXWPiQl0Z5cPZqbA5ck8j%2BElt0TBeYZV0tTsTD1ZtbuaBIfGiodXsQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css;charset=UTF-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=2678400",
+                "cf-ray": "78b3b7bb89229b2e-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.44",
+            "url": "https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/",
+                "origin": "https://app.octusbridge.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.53",
+            "url": "https://app.octusbridge.io/favicon.ico?1",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-558a\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=r2ULmjCglJVTk9Sm0GWj04ockB9qgmqbxU6DIHnqxEnKGHfY00pMwWw9N45ZfdATsixtndwU13utZKRpz8IetpGMfl4wl3gM85hEB0xfpAQAKXV%2BVOQBQquXmJp5JETwOh6egA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/x-icon",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b57a19b2901c-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.54",
+            "url": "https://fonts.cdnfonts.com/s/17770/PT%20Root%20UI_Regular.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.cdnfonts.com/css/pt-root-ui",
+                "origin": "https://app.octusbridge.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "cf-cache-status": "HIT",
+                "last-modified": "Sat, 05 Feb 2022 02:00:39 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "age": "893628",
+                "etag": "\"efec-5d73bbbe9acbe\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=noATsc2zw9cp1hsfbJdASJJLZRF0Iaf7h4x%2BMUCDDGSuMPuPBLxkCb%2Fa3wym5BOcvUmypSZ4l2gbtAtbUC6zVyhB3JEHMsxy6z%2BtWCOMSFQYhm6kZb6fniQ2fqypHvFIX%2Bcsag%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "font/woff",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=2678400",
+                "accept-ranges": "bytes",
+                "cf-ray": "78b3b579c8db9091-FRA",
+                "content-length": "61420"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.56",
+            "url": "https://fonts.cdnfonts.com/s/17770/PT%20Root%20UI_Medium.woff",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.cdnfonts.com/css/pt-root-ui",
+                "origin": "https://app.octusbridge.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.57",
+            "url": "https://fonts.cdnfonts.com/s/17770/PT%20Root%20UI_Bold.woff",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.cdnfonts.com/css/pt-root-ui",
+                "origin": "https://app.octusbridge.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.58",
+            "url": "https://app.octusbridge.io/24d0a573fd4b7ccdf924.wasm",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-13ed72\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=nvM0a0MVReeMTDI1cct0U2Hk6GSxNVPO1ZK0g9Q4NLpD6IDViOJFPnk8HwN7pyVuxRnTBeP4x0UzwcC%2Ble2UpM3RyR6hgTJ7rErOCisx%2BrF6y2Vcke7rp7iyF6j916S%2BNCeGWQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/wasm",
+                "cf-ray": "78b3b5776814901c-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.59",
+            "url": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM1NSIgdmlld0JveD0iMCAwIDM5NyAzNTUiIHdpZHRoPSIzOTciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiPjxwYXRoIGQ9Im0xMTQuNjIyNjQ0IDMyNy4xOTU0NzIgNTIuMDA0NzE3IDEzLjgxMDE5OHYtMTguMDU5NDlsNC4yNDUyODMtNC4yNDkyOTJoMjkuNzE2OTgydjIxLjI0NjQ1OSAxNC44NzI1MjNoLTMxLjgzOTYyNGwtMzkuMjY4ODY4LTE2Ljk5NzE2OXoiIGZpbGw9IiNjZGJkYjIiLz48cGF0aCBkPSJtMTk5LjUyODMwNSAzMjcuMTk1NDcyIDUwLjk0MzM5NyAxMy44MTAxOTh2LTE4LjA1OTQ5bDQuMjQ1MjgzLTQuMjQ5MjkyaDI5LjcxNjk4MXYyMS4yNDY0NTkgMTQuODcyNTIzaC0zMS44Mzk2MjNsLTM5LjI2ODg2OC0xNi45OTcxNjl6IiBmaWxsPSIjY2RiZGIyIiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSA0ODMuOTYyMjcgMCkiLz48cGF0aCBkPSJtMTcwLjg3MjY0NCAyODcuODg5NTIzLTQuMjQ1MjgzIDM1LjA1NjY1NyA1LjMwNjYwNC00LjI0OTI5Mmg1NS4xODg2OGw2LjM2NzkyNSA0LjI0OTI5Mi00LjI0NTI4NC0zNS4wNTY2NTctOC40OTA1NjUtNS4zMTE2MTUtNDIuNDUyODMyIDEuMDYyMzIzeiIgZmlsbD0iIzM5MzkzOSIvPjxwYXRoIGQ9Im0xNDIuMjE2OTg0IDUwLjk5MTUwMjIgMjUuNDcxNjk4IDU5LjQ5MDA4NTggMTEuNjc0NTI4IDE3My4xNTg2NDNoNDEuMzkxNTExbDEyLjczNTg0OS0xNzMuMTU4NjQzIDIzLjM0OTA1Ni01OS40OTAwODU4eiIgZmlsbD0iI2Y4OWMzNSIvPjxwYXRoIGQ9Im0zMC43NzgzMDIzIDE4MS42NTcyMjYtMjkuNzE2OTgxNTMgODYuMDQ4MTYxIDc0LjI5MjQ1MzkzLTQuMjQ5MjkzaDQ3Ljc1OTQzNDN2LTM3LjE4MTMwM2wtMi4xMjI2NDEtNzYuNDg3MjUzLTEwLjYxMzIwOCA4LjQ5ODU4M3oiIGZpbGw9IiNmODlkMzUiLz48cGF0aCBkPSJtODcuMDI4MzAzMiAxOTEuMjE4MTM0IDg3LjAyODMwMjggMi4xMjQ2NDYtOS41NTE4ODYgNDQuNjE3NTYzLTQxLjM5MTUxMS0xMC42MjMyMjl6IiBmaWxsPSIjZDg3YzMwIi8+PHBhdGggZD0ibTg3LjAyODMwMzIgMTkyLjI4MDQ1NyAzNi4wODQ5MDU4IDMzLjk5NDMzNHYzMy45OTQzMzR6IiBmaWxsPSIjZWE4ZDNhIi8+PHBhdGggZD0ibTEyMy4xMTMyMDkgMjI3LjMzNzExNCA0Mi40NTI4MzEgMTAuNjIzMjI5IDEzLjc5NzE3IDQ1LjY3OTg4OC05LjU1MTg4NiA1LjMxMTYxNS00Ni42OTgxMTUtMjcuNjIwMzk4eiIgZmlsbD0iI2Y4OWQzNSIvPjxwYXRoIGQ9Im0xMjMuMTEzMjA5IDI2MS4zMzE0NDgtOC40OTA1NjUgNjUuODY0MDI0IDU2LjI1LTM5LjMwNTk0OXoiIGZpbGw9IiNlYjhmMzUiLz48cGF0aCBkPSJtMTc0LjA1NjYwNiAxOTMuMzQyNzggNS4zMDY2MDQgOTAuMjk3NDUxLTE1LjkxOTgxMi00Ni4yMTEwNDl6IiBmaWxsPSIjZWE4ZTNhIi8+PHBhdGggZD0ibTc0LjI5MjQ1MzkgMjYyLjM5Mzc3MSA0OC44MjA3NTUxLTEuMDYyMzIzLTguNDkwNTY1IDY1Ljg2NDAyNHoiIGZpbGw9IiNkODdjMzAiLz48cGF0aCBkPSJtMjQuNDEwMzc3NyAzNTUuODc4MTkzIDkwLjIxMjI2NjMtMjguNjgyNzIxLTQwLjMzMDE5MDEtNjQuODAxNzAxLTczLjIzMTEzMzEzIDUuMzExNjE2eiIgZmlsbD0iI2ViOGYzNSIvPjxwYXRoIGQ9Im0xNjcuNjg4NjgyIDExMC40ODE1ODgtNDUuNjM2NzkzIDM4LjI0MzYyNy0zNS4wMjM1ODU4IDQyLjQ5MjkxOSA4Ny4wMjgzMDI4IDMuMTg2OTY5eiIgZmlsbD0iI2U4ODIxZSIvPjxwYXRoIGQ9Im0xMTQuNjIyNjQ0IDMyNy4xOTU0NzIgNTYuMjUtMzkuMzA1OTQ5LTQuMjQ1MjgzIDMzLjk5NDMzNHYxOS4xMjE4MTNsLTM4LjIwNzU0OC03LjQzNjI2eiIgZmlsbD0iI2RmY2VjMyIvPjxwYXRoIGQ9Im0yMjkuMjQ1Mjg2IDMyNy4xOTU0NzIgNTUuMTg4NjgtMzkuMzA1OTQ5LTQuMjQ1MjgzIDMzLjk5NDMzNHYxOS4xMjE4MTNsLTM4LjIwNzU0OC03LjQzNjI2eiIgZmlsbD0iI2RmY2VjMyIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgNTEzLjY3OTI1MiAwKSIvPjxwYXRoIGQ9Im0xMzIuNjY1MDk2IDIxMi40NjQ1OTMtMTEuNjc0NTI4IDI0LjQzMzQyNyA0MS4zOTE1MS0xMC42MjMyMjl6IiBmaWxsPSIjMzkzOTM5IiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAyODMuMzcyNjQ2IDApIi8+PHBhdGggZD0ibTIzLjM0OTA1NyAxLjA2MjMyMjk2IDE0NC4zMzk2MjUgMTA5LjQxOTI2NTA0LTI0LjQxMDM3OC01OS40OTAwODU4eiIgZmlsbD0iI2U4OGYzNSIvPjxwYXRoIGQ9Im0yMy4zNDkwNTcgMS4wNjIzMjI5Ni0xOS4xMDM3NzM5MiA1OC40Mjc3NjI5NCAxMC42MTMyMDc3MiA2My43MzkzNzgxLTcuNDI5MjQ1NDEgNC4yNDkyOTIgMTAuNjEzMjA3NzEgOS41NjA5MDYtOC40OTA1NjYxNyA3LjQzNjI2MSAxMS42NzQ1Mjg0NyAxMC42MjMyMjktNy40MjkyNDU0IDYuMzczOTM4IDE2Ljk4MTEzMjMgMjEuMjQ2NDU5IDc5LjU5OTA1NzctMjQuNDMzNDI4YzM4LjkxNTA5Ni0zMS4xNjE0NzMgNTguMDE4ODY5LTQ3LjA5NjMxOCA1Ny4zMTEzMjItNDcuODA0NTMzLS43MDc1NDgtLjcwODIxNS00OC44MjA3NTYtMzcuMTgxMzAzNi0xNDQuMzM5NjI1LTEwOS40MTkyNjUwNHoiIGZpbGw9IiM4ZTVhMzAiLz48ZyB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAzOTkuMDU2NjExIDApIj48cGF0aCBkPSJtMzAuNzc4MzAyMyAxODEuNjU3MjI2LTI5LjcxNjk4MTUzIDg2LjA0ODE2MSA3NC4yOTI0NTM5My00LjI0OTI5M2g0Ny43NTk0MzQzdi0zNy4xODEzMDNsLTIuMTIyNjQxLTc2LjQ4NzI1My0xMC42MTMyMDggOC40OTg1ODN6IiBmaWxsPSIjZjg5ZDM1Ii8+PHBhdGggZD0ibTg3LjAyODMwMzIgMTkxLjIxODEzNCA4Ny4wMjgzMDI4IDIuMTI0NjQ2LTkuNTUxODg2IDQ0LjYxNzU2My00MS4zOTE1MTEtMTAuNjIzMjI5eiIgZmlsbD0iI2Q4N2MzMCIvPjxwYXRoIGQ9Im04Ny4wMjgzMDMyIDE5Mi4yODA0NTcgMzYuMDg0OTA1OCAzMy45OTQzMzR2MzMuOTk0MzM0eiIgZmlsbD0iI2VhOGQzYSIvPjxwYXRoIGQ9Im0xMjMuMTEzMjA5IDIyNy4zMzcxMTQgNDIuNDUyODMxIDEwLjYyMzIyOSAxMy43OTcxNyA0NS42Nzk4ODgtOS41NTE4ODYgNS4zMTE2MTUtNDYuNjk4MTE1LTI3LjYyMDM5OHoiIGZpbGw9IiNmODlkMzUiLz48cGF0aCBkPSJtMTIzLjExMzIwOSAyNjEuMzMxNDQ4LTguNDkwNTY1IDY1Ljg2NDAyNCA1NS4xODg2OC0zOC4yNDM2MjZ6IiBmaWxsPSIjZWI4ZjM1Ii8+PHBhdGggZD0ibTE3NC4wNTY2MDYgMTkzLjM0Mjc4IDUuMzA2NjA0IDkwLjI5NzQ1MS0xNS45MTk4MTItNDYuMjExMDQ5eiIgZmlsbD0iI2VhOGUzYSIvPjxwYXRoIGQ9Im03NC4yOTI0NTM5IDI2Mi4zOTM3NzEgNDguODIwNzU1MS0xLjA2MjMyMy04LjQ5MDU2NSA2NS44NjQwMjR6IiBmaWxsPSIjZDg3YzMwIi8+PHBhdGggZD0ibTI0LjQxMDM3NzcgMzU1Ljg3ODE5MyA5MC4yMTIyNjYzLTI4LjY4MjcyMS00MC4zMzAxOTAxLTY0LjgwMTcwMS03My4yMzExMzMxMyA1LjMxMTYxNnoiIGZpbGw9IiNlYjhmMzUiLz48cGF0aCBkPSJtMTY3LjY4ODY4MiAxMTAuNDgxNTg4LTQ1LjYzNjc5MyAzOC4yNDM2MjctMzUuMDIzNTg1OCA0Mi40OTI5MTkgODcuMDI4MzAyOCAzLjE4Njk2OXoiIGZpbGw9IiNlODgyMWUiLz48cGF0aCBkPSJtMTMyLjY2NTA5NiAyMTIuNDY0NTkzLTExLjY3NDUyOCAyNC40MzM0MjcgNDEuMzkxNTEtMTAuNjIzMjI5eiIgZmlsbD0iIzM5MzkzOSIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMjgzLjM3MjY0NiAwKSIvPjxwYXRoIGQ9Im0yMy4zNDkwNTcgMS4wNjIzMjI5NiAxNDQuMzM5NjI1IDEwOS40MTkyNjUwNC0yNC40MTAzNzgtNTkuNDkwMDg1OHoiIGZpbGw9IiNlODhmMzUiLz48cGF0aCBkPSJtMjMuMzQ5MDU3IDEuMDYyMzIyOTYtMTkuMTAzNzczOTIgNTguNDI3NzYyOTQgMTAuNjEzMjA3NzIgNjMuNzM5Mzc4MS03LjQyOTI0NTQxIDQuMjQ5MjkyIDEwLjYxMzIwNzcxIDkuNTYwOTA2LTguNDkwNTY2MTcgNy40MzYyNjEgMTEuNjc0NTI4NDcgMTAuNjIzMjI5LTcuNDI5MjQ1NCA2LjM3MzkzOCAxNi45ODExMzIzIDIxLjI0NjQ1OSA3OS41OTkwNTc3LTI0LjQzMzQyOGMzOC45MTUwOTYtMzEuMTYxNDczIDU4LjAxODg2OS00Ny4wOTYzMTggNTcuMzExMzIyLTQ3LjgwNDUzMy0uNzA3NTQ4LS43MDgyMTUtNDguODIwNzU2LTM3LjE4MTMwMzYtMTQ0LjMzOTYyNS0xMDkuNDE5MjY1MDR6IiBmaWxsPSIjOGU1YTMwIi8+PC9nPjwvZz48L3N2Zz4=",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.60",
+            "url": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxyYWRpYWxHcmFkaWVudCBpZD0iYSIgY3g9IjAlIiBjeT0iNTAlIiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM1ZDlkZjYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMDZmZmYiLz48L3JhZGlhbEdyYWRpZW50PjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0ibTI1NiAwYzE0MS4zODQ4OTYgMCAyNTYgMTE0LjYxNTEwNCAyNTYgMjU2cy0xMTQuNjE1MTA0IDI1Ni0yNTYgMjU2LTI1Ni0xMTQuNjE1MTA0LTI1Ni0yNTYgMTE0LjYxNTEwNC0yNTYgMjU2LTI1NnoiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJtNjQuNjkxNzU1OCAzNy43MDg4Mjk4YzUxLjUzMjgwNzItNTAuMjc4NDM5NyAxMzUuMDgzOTk0Mi01MC4yNzg0Mzk3IDE4Ni42MTY3OTkyIDBsNi4yMDIwNTcgNi4wNTEwOTA2YzIuNTc2NjQgMi41MTM5MjE4IDIuNTc2NjQgNi41ODk3OTQ4IDAgOS4xMDM3MTc3bC0yMS4yMTU5OTggMjAuNjk5NTc1OWMtMS4yODgzMjEgMS4yNTY5NjE5LTMuMzc3MSAxLjI1Njk2MTktNC42NjU0MjEgMGwtOC41MzQ3NjYtOC4zMjcwMjA1Yy0zNS45NTA1NzMtMzUuMDc1NDk2Mi05NC4yMzc5NjktMzUuMDc1NDk2Mi0xMzAuMTg4NTQ0IDBsLTkuMTQwMDI4MiA4LjkxNzU1MTljLTEuMjg4MzIxNyAxLjI1Njk2MDktMy4zNzcxMDE2IDEuMjU2OTYwOS00LjY2NTQyMDggMGwtMjEuMjE1OTk3My0yMC42OTk1NzU5Yy0yLjU3NjY0MDMtMi41MTM5MjI5LTIuNTc2NjQwMy02LjU4OTc5NTggMC05LjEwMzcxNzd6bTIzMC40OTM0ODUyIDQyLjgwODkxMTcgMTguODgyMjc5IDE4LjQyMjcyNjJjMi41NzY2MjcgMi41MTM5MTAzIDIuNTc2NjQyIDYuNTg5NzU5My4wMDAwMzIgOS4xMDM2ODYzbC04NS4xNDE0OTggODMuMDcwMzU4Yy0yLjU3NjYyMyAyLjUxMzk0MS02Ljc1NDE4MiAyLjUxMzk2OS05LjMzMDg0LjAwMDA2Ni0uMDAwMDEtLjAwMDAxLS4wMDAwMjMtLjAwMDAyMy0uMDAwMDMzLS4wMDAwMzRsLTYwLjQyODI1Ni01OC45NTc0NTFjLS42NDQxNi0uNjI4NDgxLTEuNjg4NTUtLjYyODQ4MS0yLjMzMjcxIDAtLjAwMDAwNC4wMDAwMDQtLjAwMDAwOC4wMDAwMDctLjAwMDAxMi4wMDAwMTFsLTYwLjQyNjk2ODMgNTguOTU3NDA4Yy0yLjU3NjYxNDEgMi41MTM5NDctNi43NTQxNzQ2IDIuNTEzOTktOS4zMzA4NDA4LjAwMDA5Mi0uMDAwMDE1MS0uMDAwMDE0LS4wMDAwMzA5LS4wMDAwMjktLjAwMDA0NjctLjAwMDA0NmwtODUuMTQzODY3NzQtODMuMDcxNDYzYy0yLjU3NjYzOTI4LTIuNTEzOTIxLTIuNTc2NjM5MjgtNi41ODk3OTUgMC05LjEwMzcxNjNsMTguODgyMzEyNjQtMTguNDIyNjk1NWMyLjU3NjYzOTMtMi41MTM5MjIyIDYuNzU0MTk5My0yLjUxMzkyMjIgOS4zMzA4Mzk3IDBsNjAuNDI5MTM0NyA1OC45NTgyNzU4Yy42NDQxNjA4LjYyODQ4IDEuNjg4NTQ5NS42Mjg0OCAyLjMzMjcxMDMgMCAuMDAwMDA5NS0uMDAwMDA5LjAwMDAxODItLjAwMDAxOC4wMDAwMjc3LS4wMDAwMjVsNjAuNDI2MTA2NS01OC45NTgyNTA4YzIuNTc2NTgxLTIuNTEzOTggNi43NTQxNDItMi41MTQwNzQzIDkuMzMwODQtLjAwMDIxMDMuMDAwMDM3LjAwMDAzNTQuMDAwMDcyLjAwMDA3MDkuMDAwMTA3LjAwMDEwNjNsNjAuNDI5MDU2IDU4Ljk1ODM1NDhjLjY0NDE1OS42Mjg0NzkgMS42ODg1NDkuNjI4NDc5IDIuMzMyNzA5IDBsNjAuNDI4MDc5LTU4Ljk1NzE5MjVjMi41NzY2NC0yLjUxMzkyMzEgNi43NTQxOTktMi41MTM5MjMxIDkuMzMwODM5IDB6IiBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk4IDE2MCkiLz48L2c+PC9zdmc+",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.61",
+            "url": "https://raw.githubusercontent.com/broxus/bridge-assets/master/main.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "129e08aed17dc6ddc588aef33cdc09da9c39050f",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "x-cache": "MISS",
+                "content-length": "5472",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220034-HHN",
+                "x-github-request-id": "2BC8:1C3F:8ACB2:BC2BE:63C75193",
+                "x-timer": "S1674006931.358532,VS0,VE175",
+                "etag": "W/\"d2cb0c90b22684076381f8c7fe0f4a7fdd43c5b93d3f7ed5814ec2b6cfc6eafd\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 02:00:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.62",
+            "url": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "d384db272e129db58e08c58ffb95777951786d29",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "x-cache": "MISS",
+                "content-length": "2199",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220034-HHN",
+                "x-github-request-id": "C82A:20DA:3EC7D:69ACC:63C75193",
+                "x-timer": "S1674006931.358453,VS0,VE153",
+                "etag": "W/\"8da86df0f8f66a1c222e4ec4163d84d5a14499e5f8d965466b83e43a4ca93090\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 02:00:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.63",
+            "url": "https://app.octusbridge.io/2bac7b78ec6ffec336be.wasm",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-89ff3\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=AN76U3qcWCR7I6gpCLHfdOxtMx3kAsyuuoGI9h6vM1Ptymx8K1QsTGZBGRwA%2FPqFZy%2BVDXQEgVeqWCZzkE8t8BgIeSn8qCBZFfcbGpOzJ0roqGZvJdqqCc5x4fv2TxiFM7%2FliQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/wasm",
+                "cf-ray": "78b3b578f915901c-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.64",
+            "url": "https://app.octusbridge.io/cdn-cgi/rum?",
+            "type": "Xhr",
+            "status": 204,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"memory\":{\"totalJSHeapSize\":42100000,\"usedJSHeapSize\":37300000,\"jsHeapSizeLimit\":3760000000},\"resources\":[{\"n\":\"https://app.octusbridge.io/css/vendors-72fe76.css\",\"s\":173.2,\"d\":1.7,\"i\":\"link\",\"p\":\"h2\",\"rs\":0,\"re\":0,\"fs\":173.2,\"ds\":173.2,\"de\":173.2,\"cs\":173.2,\"ce\":173.2,\"qs\":174.8,\"ps\":174.8,\"pe\":174.9,\"ws\":0,\"ss\":173.2,\"ts\":0,\"ec\":707,\"dc\":1813},{\"n\":\"https://app.octusbridge.io/css/commons-166ff3.css\",\"s\":173.4,\"d\":2,\"i\":\"link\",\"p\":\"h2\",\"rs\":0,\"re\":0,\"fs\":173.4,\"ds\":173.4,\"de\":173.4,\"cs\":173.4,\"ce\":173.4,\"qs\":175.2,\"ps\":175.2,\"pe\":175.4,\"ws\":0,\"ss\":173.4,\"ts\":0,\"ec\":11138,\"dc\":57412},{\"n\":\"https://app.octusbridge.io/css/index-17ed16.css\",\"s\":173.5,\"d\":2.1,\"i\":\"link\",\"p\":\"h2\",\"rs\":0,\"re\":0,\"fs\":173.5,\"ds\":173.5,\"de\":173.5,\"cs\":173.5,\"ce\":173.5,\"qs\":175.5,\"ps\":175.5,\"pe\":175.6,\"ws\":0,\"ss\":173.5,\"ts\":0,\"ec\":10601,\"dc\":55090},{\"n\":\"https://app.octusbridge.io/js/vendors-6cee06.js\",\"s\":173.6,\"d\":76.4,\"i\":\"script\",\"p\":\"h3\",\"rs\":0,\"re\":0,\"fs\":173.6,\"ds\":173.6,\"de\":173.6,\"cs\":173.6,\"ce\":173.6,\"qs\":211.1,\"ps\":212.5,\"pe\":250,\"ws\":0,\"ss\":173.6,\"ts\":0,\"ec\":1293360,\"dc\":4558861},{\"n\":\"https://app.octusbridge.io/js/commons-e18d9a.js\",\"s\":173.7,\"d\":37.8,\"i\":\"script\",\"p\":\"h3\",\"rs\":0,\"re\":0,\"fs\":173.7,\"ds\":173.7,\"de\":173.7,\"cs\":173.7,\"ce\":173.7,\"qs\":211.2,\"ps\":211.2,\"pe\":211.5,\"ws\":0,\"ss\":173.7,\"ts\":0,\"ec\":66558,\"dc\":403968},{\"n\":\"https://app.octusbridge.io/js/index-c5214f.js\",\"s\":173.8,\"d\":38.5,\"i\":\"script\",\"p\":\"h3\",\"rs\":0,\"re\":0,\"fs\":173.8,\"ds\":173.8,\"de\":173.8,\"cs\":173.8,\"ce\":173.8,\"qs\":211.9,\"ps\":211.9,\"pe\":212.3,\"ws\":0,\"ss\":173.8,\"ts\":0,\"ec\":156544,\"dc\":857476},{\"n\":\"https://fonts.cdnfonts.com/css/pt-root-ui\",\"s\":173.9,\"d\":30.5,\"i\":\"link\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":173.9,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":204.4,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993\",\"s\":174.2,\"d\":0,\"i\":\"script\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":174.2,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":174.2,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://app.octusbridge.io/favicon.ico?1\",\"s\":225.2,\"d\":1.1,\"i\":\"img\",\"p\":\"h3\",\"rs\":0,\"re\":0,\"fs\":225.2,\"ds\":225.2,\"de\":225.2,\"cs\":225.2,\"ce\":225.2,\"qs\":226.1,\"ps\":226.1,\"pe\":226.3,\"ws\":0,\"ss\":225.2,\"ts\":0,\"ec\":20186,\"dc\":21898},{\"n\":\"https://fonts.cdnfonts.com/s/17770/PT%20Root%20UI_Regular.woff\",\"s\":225.6,\"d\":0,\"i\":\"css\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":225.6,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":225.6,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://fonts.cdnfonts.com/s/17770/PT%20Root%20UI_Medium.woff\",\"s\":225.9,\"d\":0,\"i\":\"css\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":225.9,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":225.9,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://fonts.cdnfonts.com/s/17770/PT%20Root%20UI_Bold.woff\",\"s\":226,\"d\":0,\"i\":\"css\",\"p\":\"\",\"rs\":0,\"re\":0,\"fs\":226,\"ds\":0,\"de\":0,\"cs\":0,\"ce\":0,\"qs\":0,\"ps\":0,\"pe\":226,\"ws\":0,\"ss\":0,\"ts\":0,\"ec\":0,\"dc\":0},{\"n\":\"https://app.octusbridge.io/24d0a573fd4b7ccdf924.wasm\",\"s\":413.2,\"d\":1.2,\"i\":\"fetch\",\"p\":\"h3\",\"rs\":0,\"re\":0,\"fs\":413.2,\"ds\":413.2,\"de\":413.2,\"cs\":413.2,\"ce\":413.2,\"qs\":413.8,\"ps\":413.8,\"pe\":414.4,\"ws\":0,\"ss\":413.2,\"ts\":0,\"ec\":515722,\"dc\":1305970}],\"referrer\":\"\",\"documentWriteIntervention\":false,\"errorCount\":0,\"eventType\":1,\"firstPaint\":0,\"firstContentfulPaint\":0,\"si\":100,\"startTime\":1674007023738,\"versions\":{\"fl\":\"2022.11.3\",\"js\":\"2022.10.1\",\"timings\":2},\"pageloadId\":\"812a1baa-7196-472f-8cac-69263e2cfba3\",\"location\":\"https://app.octusbridge.io/bridge\",\"wd\":false,\"timingsV2\":{\"unloadEventStart\":146.79999995231628,\"unloadEventEnd\":146.79999995231628,\"domInteractive\":223.89999985694885,\"domContentLoadedEventStart\":224.69999980926514,\"domContentLoadedEventEnd\":225.39999985694885,\"domComplete\":731.8999998569489,\"loadEventStart\":733,\"loadEventEnd\":733.6999998092651,\"type\":\"reload\",\"redirectCount\":0,\"activationStart\":0,\"initiatorType\":\"navigation\",\"nextHopProtocol\":\"h2\",\"workerStart\":0,\"redirectStart\":0,\"redirectEnd\":0,\"fetchStart\":19.799999952316284,\"domainLookupStart\":35.5,\"domainLookupEnd\":35.59999990463257,\"connectStart\":35.59999990463257,\"connectEnd\":62.89999985694885,\"secureConnectionStart\":36.19999980926514,\"requestStart\":37.799999952316284,\"responseStart\":133.69999980926514,\"responseEnd\":135.89999985694885,\"transferSize\":1221,\"encodedBodySize\":921,\"decodedBodySize\":2669,\"serverTiming\":[],\"renderBlockingStatus\":\"blocking\",\"name\":\"https://app.octusbridge.io/bridge\",\"entryType\":\"navigation\",\"startTime\":0,\"duration\":733.6999998092651},\"siteToken\":\"488a0a42294841f581e2ed1efb78f2c1\",\"st\":2}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:57:04 GMT",
+                "x-content-type-options": "nosniff",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-max-age": "86400",
+                "access-control-allow-methods": "POST,OPTIONS",
+                "access-control-allow-origin": "https://app.octusbridge.io",
+                "x-frame-options": "DENY",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "78b3b7bf7ce6912a-FRA"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.65",
+            "url": "https://app.octusbridge.io/favicon.svg?1",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-10a\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=kxOCU9Fu95ACdWmMmmenrnALmEeVrfH3iXHKxbYVnB9MmeMWlzzu9TEnn6BTN3KPGGl6Cg8dIAmiCKG%2BFTqgjdHi%2Ff7AjmemKX4y%2FvQPdB94lgvVQchBwa30Zfx2OhIuOLt6rA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/svg+xml",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b57aa9ff901c-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.66",
+            "url": "https://jrpc.everwallet.net/rpc",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "https://app.octusbridge.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"getContractState\",\"params\":{\"address\":\"-1:0000000000000000000000000000000000000000000000000000000000000000\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:57:04 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "origin, access-control-request-method, access-control-request-headers",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=bvBwXraUEsrjS709K5KBLKBf%2FHA%2FN965U%2Bw4V2O3OJUup9bjZeMHn3ApM7MOWrUxYvaTan%2Fu%2BZmCzeyby1lPGWhyUNsDDI5Cl0BTAUSv6gbir2tdwIl7LmXjQRPYi%2FVLn1ir%2FuXk\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "public,max-age=3",
+                "cf-ray": "78b3b7bfefcd9088-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "F9E71D5F472604348007D6A9DFCC7761",
+            "url": "https://jrpc.everwallet.net/rpc",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.octusbridge.io",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "authorization,content-type,api-key",
+                "access-control-allow-methods": "GET,POST,OPTIONS,PUT",
+                "access-control-allow-origin": "*",
+                "allow": "POST",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "78b3b7bfafb09088-FRA",
+                "content-length": "0",
+                "date": "Wed, 18 Jan 2023 01:57:04 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=CxmulXvzMtr5MmGJ5SNvBqR6QnRYuEredGPICtlHV74B9VJ%2FZ09AQNPXXnB0CUnb%2FplIjKjvKsU9%2FrU5IB13yt4ltK%2B9BppA7lsxjNR9YGmYl0F%2ByCCL%2FczNonFBl36mW2NGti1w\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "vary": "origin\naccess-control-request-method\naccess-control-request-headers"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.67",
+            "url": "https://raw.githubusercontent.com/broxus/bridge-assets/multitoken-1/tokenlist/octus.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "42d1f815499be9251f72c1cbce845fa6f525fc42",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "x-cache": "MISS",
+                "content-length": "159",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220034-HHN",
+                "x-github-request-id": "AFCE:516F:5547A:82735:63C75193",
+                "x-timer": "S1674006932.576903,VS0,VE151",
+                "etag": "W/\"ea105865d69a61c10ccad166c0f6f2cc5ed56087df0ae3da8c35c49313950d36\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 02:00:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.68",
+            "url": "https://raw.githubusercontent.com/broxus/bridge-assets/multitoken-1/tokenlist/common.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "8efb21b4c45a9ce00b8f9191a10f9ff626b2e298",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "x-cache": "MISS",
+                "content-length": "10144",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220034-HHN",
+                "x-github-request-id": "975C:10E6:A0286:D3076:63C75193",
+                "x-timer": "S1674006932.576866,VS0,VE148",
+                "etag": "W/\"b31fac4320cb3aa2d40318921e76bcd0466c3142dde79423897baf457a1c37fd\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 02:00:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.octusbridge.io/bridge"
+            ],
+            "id": "13130.69",
+            "url": "https://app.octusbridge.io/favicon.ico?1",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.octusbridge.io/bridge",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:55:31 GMT",
+                "strict-transport-security": "max-age=15724800; includeSubDomains",
+                "content-encoding": "br",
+                "cf-cache-status": "REVALIDATED",
+                "last-modified": "Tue, 15 Nov 2022 04:17:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"637312c5-558a\"",
+                "x-frame-options": "SAMEORIGIN",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=r2ULmjCglJVTk9Sm0GWj04ockB9qgmqbxU6DIHnqxEnKGHfY00pMwWw9N45ZfdATsixtndwU13utZKRpz8IetpGMfl4wl3gM85hEB0xfpAQAKXV%2BVOQBQquXmJp5JETwOh6egA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "image/x-icon",
+                "vary": "Accept-Encoding",
+                "cache-control": "max-age=691200",
+                "cf-ray": "78b3b57a19b2901c-FRA",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+            }
+        }
+    ],
+    "cookies": [],
+    "success": true,
+    "connected": true,
+    "connect_label": "Connect Wallet",
+    "metamask_label": "MetaMask",
+    "checkbox_clicked": false,
+    "signature_request": false,
+    "switch_network": false
+}

@@ -1,0 +1,3179 @@
+{
+    "url": "https://eidoo.app/",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://eidoo.app/",
+        "walletPath": "metamask-chrome-10.22.2",
+        "destination": "../results/dapps/crawl",
+        "force": false,
+        "executablePath": "/Users/christof/.cache/puppeteer/chrome/mac-1056772/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    },
+    "timestamps": {
+        "start": 1674484017783,
+        "end": 1674484118810
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "34868.82",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "34868.255",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:03.354Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"875174a6cf7f47b6bd713ad28612b654\",\"init\":true,\"started\":\"2023-01-23T14:27:03.353Z\",\"timestamp\":\"2023-01-23T14:27:03.353Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:04 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "34868.283",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "34868.284",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "34868.285",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:06.002Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"875174a6cf7f47b6bd713ad28612b654\",\"init\":false,\"started\":\"2023-01-23T14:27:03.353Z\",\"timestamp\":\"2023-01-23T14:27:06.001Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:06 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "34868.286",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:06.003Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f92ceeaba58842efa204879ebaaa103c\",\"init\":true,\"started\":\"2023-01-23T14:27:06.001Z\",\"timestamp\":\"2023-01-23T14:27:06.001Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:06 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "34868.98",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "34868.100",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "34868.287",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "34868.289",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:06.117Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f92ceeaba58842efa204879ebaaa103c\",\"init\":false,\"started\":\"2023-01-23T14:27:06.001Z\",\"timestamp\":\"2023-01-23T14:27:06.117Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:06 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "34868.290",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:06.118Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ec6757056cc84b33a927c7d55785d07a\",\"init\":true,\"started\":\"2023-01-23T14:27:06.117Z\",\"timestamp\":\"2023-01-23T14:27:06.117Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:06 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "34868.292",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/metrics-chart.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "34868.86",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "34868.101",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "34868.293",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:06.160Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ec6757056cc84b33a927c7d55785d07a\",\"init\":false,\"started\":\"2023-01-23T14:27:06.117Z\",\"timestamp\":\"2023-01-23T14:27:06.159Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:06 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "34868.294",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:06.161Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"0d09742be4d247ceb52a0dd385abb01e\",\"init\":true,\"started\":\"2023-01-23T14:27:06.159Z\",\"timestamp\":\"2023-01-23T14:27:06.159Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:06 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "34868.296",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:06.179Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"0d09742be4d247ceb52a0dd385abb01e\",\"init\":false,\"started\":\"2023-01-23T14:27:06.159Z\",\"timestamp\":\"2023-01-23T14:27:06.178Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:06 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "34868.297",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:06.180Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d3af5f914067402682470cded287f905\",\"init\":true,\"started\":\"2023-01-23T14:27:06.178Z\",\"timestamp\":\"2023-01-23T14:27:06.178Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:06 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "34868.94",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Roboto/Roboto-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "34868.89",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-regular-400.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "34868.304",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:09.201Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"d3af5f914067402682470cded287f905\",\"init\":false,\"started\":\"2023-01-23T14:27:06.178Z\",\"timestamp\":\"2023-01-23T14:27:09.200Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:09 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "34868.305",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:09.203Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"accfc223174f458fbc1158fcfe061d4b\",\"init\":true,\"started\":\"2023-01-23T14:27:09.200Z\",\"timestamp\":\"2023-01-23T14:27:09.200Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:09 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "EE4EA20B7FFC64BDEE9852C4A8F6A99E",
+            "url": "https://eidoo.app/",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "age": "0",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "78e135614df1ceab-GVA",
+                "content-encoding": "br",
+                "content-type": "text/html",
+                "date": "Mon, 23 Jan 2023 14:27:09 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=tLPAWmBfzIz3bPmyqi988gqUBpJ81FDPB7ds3m2zlXIms4gb%2B8hgVIM3hA66%2Bc82kun4nRu1FPnbuOxcqtXwoBumKc%2BELIza30jhgX3hcJ0oup0RVR8Zyalll1M%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding,x-wf-forwarded-proto",
+                "x-cache": "HIT, MISS",
+                "x-cache-hits": "20, 0",
+                "x-cluster-name": "eu-west-1-prod-edge-blue",
+                "x-served-by": "cache-iad-kiad7000036-IAD, cache-dub4326-DUB",
+                "x-timer": "S1674484030.804439,VS0,VE94"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "34868.308",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:09.276Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"accfc223174f458fbc1158fcfe061d4b\",\"init\":false,\"started\":\"2023-01-23T14:27:09.200Z\",\"timestamp\":\"2023-01-23T14:27:09.275Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:09 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "34868.309",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:27:09.277Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"6a8ccd234d7e4e68b489b49cabe14cf0\",\"init\":true,\"started\":\"2023-01-23T14:27:09.275Z\",\"timestamp\":\"2023-01-23T14:27:09.275Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:09 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "34868.311",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/eth_logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.2",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/css/new-eidoo-app.webflow.641adab3b.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-amz-version-id": "a9zILcl5jLpQCyiMvlCM45gcfKQEvQHd",
+                "content-encoding": "gzip",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "date": "Mon, 23 Jan 2023 06:55:34 GMT",
+                "age": "27097",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "18017",
+                "last-modified": "Fri, 28 Oct 2022 10:20:57 GMT",
+                "server": "AmazonS3",
+                "etag": "\"bd35792cd5f444ca10dd35fdca926ba7\"",
+                "vary": "Accept-Encoding",
+                "content-type": "text/css",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=84600, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "M1YZvrgpzjMv4GXXBUVXPgfZhaEvOaXDFsPUOaOQrXq48gu-iu0eGQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.3",
+            "url": "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sat, 21 Jan 2023 10:26:30 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "age": "187240",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/hosted-libraries-pushers",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "5437",
+                "x-xss-protection": "0",
+                "last-modified": "Tue, 03 Mar 2020 19:15:00 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"hosted-libraries-pushers\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"group\":\"hosted-libraries-pushers\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/hosted-libraries-pushers\"}]}",
+                "content-type": "text/javascript; charset=UTF-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Sun, 21 Jan 2024 10:26:30 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.4",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f83827dbe3988df1f50f1_Risorsa%201.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Fri, 13 Jan 2023 10:13:07 GMT",
+                "x-amz-version-id": "LwxwGhKumqDNPW4kXfJotoWxylbHERZh",
+                "content-encoding": "br",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "879243",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Thu, 26 May 2022 13:41:24 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"25385152c5194ff4ed1f34c0f1b034d4\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "x-amz-cf-id": "Xs2x3LsBw4f0v3VYnB2UQ-cFeY0CKFaIwugoF3Dp7YYT-vgmXvll9w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.5",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f4236134fab9e6176f85e_menu-icon-white.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Thu, 12 Jan 2023 11:06:37 GMT",
+                "x-amz-version-id": "EpeZuC6ghhzZ9Z2pk07z6JcHDli3O6Nq",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "962434",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "273",
+                "last-modified": "Thu, 26 May 2022 09:02:47 GMT",
+                "server": "AmazonS3",
+                "etag": "\"c2c388d46a1ed15a0e3a951ddfc397b9\"",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "jCn5XV_wzd_QPZgAA-RSmDBlkSCPNTvMXgZIVF3JvANEHhNSXPezUg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.6",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f9524aec1ac3393b00981_logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 10:28:30 GMT",
+                "x-amz-version-id": "bl5iY9zmFPhYTxeZKEX.gCNVN.mG_J_J",
+                "content-encoding": "br",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "14321",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Thu, 26 May 2022 14:56:38 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"650b49f070d2462ebff7eedd0cfc8ac0\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "x-amz-cf-id": "H81FiqVvGLk1EUse8ygh1g4Mk54Zu49k3TOdcHNbLaQz0DIO0xCARw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.7",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f4236134fab3fc676f86c_Apple-Icon.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Thu, 12 Jan 2023 11:06:35 GMT",
+                "x-amz-version-id": "BWjVhmNAhopNZli0tD7G4T6mINe1EFJL",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "962436",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "910",
+                "last-modified": "Thu, 26 May 2022 09:02:48 GMT",
+                "server": "AmazonS3",
+                "etag": "\"60569b4cfa7a99c28202f2a5989ddfff\"",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "ZRMLbGqzrtYksFgPDX2eeJEl7myEF_RySoqi6zafjduO3DYQzbzklA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.8",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f4236134fabaeaf76f86d_Android-Icon.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 10:32:01 GMT",
+                "x-amz-version-id": "YCrOXjjNpF1A1_TqdG6QzebmSPQI2FFA",
+                "content-encoding": "br",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "446110",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Thu, 26 May 2022 09:02:48 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"283abf936c1072eed13fc61ac75a0cc7\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "x-amz-cf-id": "eF3YCOxafQ1BaL6VwJf2GE4ElKL9jonqxVjaHa5_D5eXdFCxYWrvnQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.9",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/63358ffd5416ce215790b0b7_Risorsa%202%404x.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 10:28:31 GMT",
+                "x-amz-version-id": "bs7iqaEFSe33A8YxrsMADwgEqj1qQi1x",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "14320",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "570",
+                "last-modified": "Thu, 29 Sep 2022 12:30:55 GMT",
+                "server": "AmazonS3",
+                "etag": "\"5eaf3eafab9bab6561224f715c7b1a26\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "xmtr-pdTbNIPQPYxSVx2ECzgbRh4ZZ8uixVG5izEmDQ7Qbfhoeu4XA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.12",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6290da4843dad5ce125160d3_home3b-p-500.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Fri, 20 Jan 2023 09:01:12 GMT",
+                "x-amz-version-id": "SbvATaPn1Hh20jUhTVK2iGVwEIMBT3gK",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "278759",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "66806",
+                "last-modified": "Fri, 27 May 2022 14:03:57 GMT",
+                "server": "AmazonS3",
+                "etag": "\"501c3bfae529e90113b8955abfa521dd\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "ZaLKmflW0DGHbJ0cH79wbZAlyU9KRjFDELa5kdm7JzK5LAMbMnuozw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.13",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6290f4f9435d122f3b4b7ba9_opensea.jpeg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sat, 21 Jan 2023 01:01:52 GMT",
+                "x-amz-version-id": "_9141xxaH9BDRyse6u_aUa0jpIvPgMMF",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "221119",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "46149",
+                "last-modified": "Fri, 27 May 2022 15:57:47 GMT",
+                "server": "AmazonS3",
+                "etag": "\"8cffe227b89c5080033b9cc348173e12\"",
+                "content-type": "image/jpeg",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "AMw4qlkK4YKb4ViqZCcMhCiWka6Tmde25wXqXvlAlWQUbgsaV3eEXg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.14",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f96a681a0b05bade33999_Risorsa%202.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Thu, 19 Jan 2023 02:17:52 GMT",
+                "x-amz-version-id": "ll4_ypfMrO7V8XnHzWnRJPMXxI6jLqxd",
+                "content-encoding": "br",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "389359",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Thu, 26 May 2022 15:03:03 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"25c3bc865023ef35e5db0bb28b466946\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "x-amz-cf-id": "nJGmI4pcrRb3TmmSUDAEdx95TiQOuLHBNTCi1bTqGFvL_w3_W52nnQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.15",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f969a244a2dfbf39d0218_1600px-Uniswap_Logo_and_Wordmark.svg.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 09 Jan 2023 23:21:31 GMT",
+                "x-amz-version-id": "ud4WMxmACN7N5q7ALMnX2gEzXFpjUc50",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "1177540",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "52414",
+                "last-modified": "Thu, 26 May 2022 15:02:51 GMT",
+                "server": "AmazonS3",
+                "etag": "\"a4084b46203ddf284b5fbd62a558bb54\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "6zgYNk02kpoZaLkBjsOkHp9xJQU1Sedd2NcKY8R24J79jO3a6H5FdQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.16",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f9698f8b2694bf28af408_1inch-logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 10:28:32 GMT",
+                "x-amz-version-id": "JWRJbwxvJxNbhHo3fZXl3PVMHYpcR4xO",
+                "content-encoding": "br",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "14319",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Thu, 26 May 2022 15:02:50 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"5dc10d52a3f38b9eaa3de6ccb75b4568\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "x-amz-cf-id": "Sw1zDS53cz_L6ZCMKX2FgewlrTk8my1TNviSAqUTg6plSDmWHI-85Q=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.17",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f96986d9bb01fcef93e2d_Unknown.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 10:28:31 GMT",
+                "x-amz-version-id": "YfY5Q7k4XCH1CYJ6XOFpfRaJ8O1zwCaB",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "14320",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "4741",
+                "last-modified": "Thu, 26 May 2022 15:02:50 GMT",
+                "server": "AmazonS3",
+                "etag": "\"750d2204220a0ec8880010ae06aa4607\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "mWIkEg8s4J6XLklsb5Ptm6GXVcVbnUqPKVxS1eFPgLeEr0GjJkAfzA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.18",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f9699caf583459bd658e7_1*8vgtaJOHXFSoiA3bKaGXFg.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Thu, 12 Jan 2023 11:06:35 GMT",
+                "x-amz-version-id": "MfeIezX757lCQsw2D_4qNoXgreHez3k1",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "962436",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "11245",
+                "last-modified": "Thu, 26 May 2022 15:02:51 GMT",
+                "server": "AmazonS3",
+                "etag": "\"a0d98245055e325c3304ef0dde4f61b1\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "23NouFn9TadIsTQu53DBpKuBqNps7pkibh4CgIgGXJgQ-Bv8-ppqEQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.19",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f98112d7b35173bfc92fc_fio.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sun, 22 Jan 2023 13:29:02 GMT",
+                "x-amz-version-id": "sxYo7EndygqOD5.HQZ21rAtkEeX1nhV_",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "89888",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "40851",
+                "last-modified": "Thu, 26 May 2022 15:09:06 GMT",
+                "server": "AmazonS3",
+                "etag": "\"0b6e02c2e70365090f95fdc024c23bee\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "rCiEmSeIGuni2uG_F9fqvhPVdkQHK-Tw_u71n7gRNDw1Qj9vt0KoNQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.20",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f981e7dbe3995121ff722_2.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Fri, 20 Jan 2023 09:01:13 GMT",
+                "x-amz-version-id": "pAfH3vpEmEib_omz8J8Njfli9lwa398Z",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "278758",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "16171",
+                "last-modified": "Thu, 26 May 2022 15:09:20 GMT",
+                "server": "AmazonS3",
+                "etag": "\"6e52c024bcfbd3f84277da51b30a1be9\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "iTsz3CaagcyNzRYBpqaLmQGpv_3Z-jENOFKgBDK6N3nT4_JirOTiZQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.21",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6357f59b60db3332efd0bc5e_01-p-500.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 10:28:32 GMT",
+                "x-amz-version-id": "nVXyIGUamGDPVaI3hw1NRpRMnm5B9t0n",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "14319",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "23157",
+                "last-modified": "Tue, 25 Oct 2022 14:41:34 GMT",
+                "server": "AmazonS3",
+                "etag": "\"be6fdd412b5eb7bff007df45dc14f41d\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "s3DKJdiU0JrG4VsVzrpOKPoRa6xtnNSiKwxXp9Bs03OZEfRpFTmQ9w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.22",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/635a843fdfb493af470d7b43_sec.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sat, 07 Jan 2023 02:17:05 GMT",
+                "x-amz-version-id": "EvxbfPhRzZ7eRpLJ.g5R38BtzhBhnkHi",
+                "content-encoding": "br",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "1426206",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Thu, 27 Oct 2022 13:14:41 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"31e72c4abcf50c7b479079873ff90a47\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "x-amz-cf-id": "Cl2QEZKs0Zul4V0SBpp8qJ2tiDSncDn8xpEE8rdbdGA2phdXKwgxpg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.23",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6357f74109f5c7600e34ee57_03-p-500.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Thu, 12 Jan 2023 15:47:52 GMT",
+                "x-amz-version-id": "rmlZrBRNntBmySed7Pu..e0rXBAUYMlU",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "945559",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "36513",
+                "last-modified": "Tue, 25 Oct 2022 14:48:36 GMT",
+                "server": "AmazonS3",
+                "etag": "\"9c6016575d12076fe5a8f39ac351414d\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "nMKmszubnU2tI7onNXzFnH2n3L5FxWTi2iK-_6S6mPRzNCYMo4HlnA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.24",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6357fe89f9b7bf042f373a42_11-p-500.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 10:28:33 GMT",
+                "x-amz-version-id": "o_NlEpY.xuS2IOKtomFGTygYDAsXvig4",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "14318",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "32843",
+                "last-modified": "Tue, 25 Oct 2022 15:19:40 GMT",
+                "server": "AmazonS3",
+                "etag": "\"3a0a341477cb79b54854d082bca84f95\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "ljhQ4C370Qa-8VnWnJ9cUuvaHtYJPRkFdR0OMIjSjv9M3lX1XkJFww=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.25",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6357fa68d45a971b24125773_06.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Fri, 20 Jan 2023 09:01:13 GMT",
+                "x-amz-version-id": "RAwIlTT6ik2PEUqvWxKqKgFsW4G8DPGR",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "278758",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "90505",
+                "last-modified": "Tue, 25 Oct 2022 15:02:02 GMT",
+                "server": "AmazonS3",
+                "etag": "\"99b2b3159bb273e91ed86e666d0c239b\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "2tNsFOEt_X0R3GgydC4eDuo2mIY1YrmUiX1z6qKODnJqXMrGlw_xGg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.26",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6357fb494db0bc5e361b7b9b_07b-p-500.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sun, 22 Jan 2023 13:29:04 GMT",
+                "x-amz-version-id": "3RllQodZ3_OTzY6UhVddBc8hOvOP_TrY",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "89887",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "35150",
+                "last-modified": "Tue, 25 Oct 2022 15:05:48 GMT",
+                "server": "AmazonS3",
+                "etag": "\"3763000cf271abc39499f7a91a9da5d0\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "YmhSj25RhhcFu4o8clhxqnu6fWp2OHHmGK0Lly5QkdN2f1xFpE7W5Q=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.27",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6357fbe1ca883239841ad4e2_08-p-500.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Fri, 16 Dec 2022 15:05:13 GMT",
+                "x-amz-version-id": "B9Oi7n1lVNpF4jjkqdSEFjekHN6TCMis",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "3280918",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "36996",
+                "last-modified": "Tue, 25 Oct 2022 15:08:22 GMT",
+                "server": "AmazonS3",
+                "etag": "\"0c905cefb63badb75108dc7bd18f8671\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "PSgSps_eqndUJQv1ui7FMg_G0f-wYzhi78jtcPAx2xamkmmlpvdN4A=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.28",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6358007cb9a6684c31987825_12-p-500.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 10:28:33 GMT",
+                "x-amz-version-id": "O0IqGDIaQj18n1YDVznvXvCZadyr4n4X",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "14318",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "39162",
+                "last-modified": "Tue, 25 Oct 2022 15:27:59 GMT",
+                "server": "AmazonS3",
+                "etag": "\"edec21b3de83ea3833e1fb4caba458a8\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "A2A2cZ0_zuuLU7NGuKIvjZSLUcMZ8tM1Xh7EP-C9n8TB96kkRiMMTA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.29",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/635a8cc375825fb42e0d0474_01_c2-p-500.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sat, 14 Jan 2023 13:59:17 GMT",
+                "x-amz-version-id": "nf_eQzQNB4OoKCx0XliXsBQheF2ALYg2",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "779274",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "55562",
+                "last-modified": "Thu, 27 Oct 2022 13:51:05 GMT",
+                "server": "AmazonS3",
+                "etag": "\"8e6010b51c917326886c75bdef6007e2\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "--UT7FlVOk94V2a9DTNs14XdfS4Shd4hZBRidP9wIvBmupXs36Quzg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.30",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f4236134fab228076f87a_Calendar1-p-500.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Fri, 20 Jan 2023 09:01:13 GMT",
+                "x-amz-version-id": "rUTTN5yPd_XbTyyUl4S.2aMOo2lHa3Wy",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "278758",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "50196",
+                "last-modified": "Thu, 26 May 2022 09:02:48 GMT",
+                "server": "AmazonS3",
+                "etag": "\"d922bec66e3548b0fc4b57570290dfcb\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "ft-19TpfLSto-RDKb2s0OWPFkhIvA4aFNhVJa5detqtqisjVYNAEwg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.31",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f4236134fab495476f87b_Calendar2-p-500.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sat, 14 Jan 2023 13:59:17 GMT",
+                "x-amz-version-id": "sPnxUN2kh53Oej6C6fYYoE_flSX4fw2Q",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "779274",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "52384",
+                "last-modified": "Thu, 26 May 2022 09:02:48 GMT",
+                "server": "AmazonS3",
+                "etag": "\"95092b2e7e54505607025c74fefcf948\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "B2HSJ8MxZVWKg6so_K0doTBNEykMR_FIDGk4f8j4r8B9vXYYcMv1cA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.32",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/635a90219c531475b9f3f614_01_cz-p-500.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 17 Jan 2023 14:56:40 GMT",
+                "x-amz-version-id": "__UO7okPlV1WYK_EacoMv2TI5CpE19O1",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "516631",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "119062",
+                "last-modified": "Thu, 27 Oct 2022 14:05:28 GMT",
+                "server": "AmazonS3",
+                "etag": "\"4de28bbb9189e4e7ff9af82d4c7a1542\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "q7oh8snfWrOLMSCZ6bxaHIZgwrQ23a5IM1R955YCUvK3PRG9Fz_2lw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.33",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f4236134fabc69a76f864_BoldApp-1-p-500.jpeg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sat, 14 Jan 2023 13:59:17 GMT",
+                "x-amz-version-id": "teN5cHDXLDDXJ1kbGc3H4dhXMz9Mfa2r",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "779274",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "44564",
+                "last-modified": "Thu, 26 May 2022 09:02:47 GMT",
+                "server": "AmazonS3",
+                "etag": "\"34bde207d3a7369b5491755bcd167d13\"",
+                "content-type": "image/jpeg",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "vpGzjoc_pLSo9V899hdyb8P3GKQaOty2iq2uFyuBKE3vq6c7wHFJJA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.34",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f4236134fab1dbe76f865_BoldApp-2.jpg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Fri, 20 Jan 2023 09:01:13 GMT",
+                "x-amz-version-id": "NN3Iaf_DNeg5RusMth89kK1QB.T_Eluw",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "278758",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "108378",
+                "last-modified": "Thu, 26 May 2022 09:02:47 GMT",
+                "server": "AmazonS3",
+                "etag": "\"8860d6872bb9cdeed3e9704c8a71d171\"",
+                "content-type": "image/jpeg",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "xRpzaZWBwU_sUwoSh4YtTEe1gwIgly8YclehdUY7SvKvjZg-QYZRkQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.35",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628f4236134fab5b3476f881_twitter.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Thu, 05 Jan 2023 02:13:05 GMT",
+                "x-amz-version-id": "7c4iweg9bB6dJJ56bzB3ugzvjA6cbEuF",
+                "content-encoding": "br",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "1599246",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Thu, 26 May 2022 09:02:48 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"74eec34908714eeb62ac5f099d88d97a\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "x-amz-cf-id": "6cgBNoLaEsfoWKKI3H-9eh3D58m7rYJErG5nm8Xl-Pfjnp7TwC0_hw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.36",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628fa2c6f8b269b3418b56f2_telegram-single-path-240px.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Fri, 06 Jan 2023 00:43:05 GMT",
+                "x-amz-version-id": "b7moG04SGbfWOYY3hOUSQ7kMJq4R2rjj",
+                "content-encoding": "br",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "1518246",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Thu, 26 May 2022 15:54:48 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"ed8d81aea2fe005906050f1ac90c0793\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "x-amz-cf-id": "ZfvjZ6pLNadLJvq2ITGiHpP2vM4RrA18c2vNp9fgnfINYMwp1frZYw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.37",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6290eaa0158d30edfd749987_Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 09 Jan 2023 11:23:15 GMT",
+                "x-amz-version-id": "6YCJyusDHCHLVimc.g7zN9s5P_WYpouf",
+                "content-encoding": "br",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "1220636",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Fri, 27 May 2022 15:13:37 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"2928664fe1fc6aca88583a6f606d60ba\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "x-amz-cf-id": "KO2HAdl-qu2OhSUwtn3DDZaj8WGm9wQmncfUh3EcJJJbPaahAaE0MQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.38",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6290eaa8fbfb8460a8bef809_google-play-badge-p-500.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 10:28:34 GMT",
+                "x-amz-version-id": "yVWoWYkU4EYlRGjyiat0KE0a_Bl9zrey",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "14317",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "10353",
+                "last-modified": "Fri, 27 May 2022 15:13:45 GMT",
+                "server": "AmazonS3",
+                "etag": "\"9695a3820f6dac5d1fb48fe211d6fcb3\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "pPFvQmV8fai5fYFTo7QjoM4cMJ76MvSyS9rrPDevrO6aAp7M9GQ4xg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.40",
+            "url": "https://eidoo.app/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:27:10 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "last-modified": "Fri, 13 Jan 2023 23:25:30 GMT",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"63c1e86a-4d7\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=r08SD3ycpyr3kGyQd%2BakVWFx104vW%2FLYv8hatbNBSk5HXRO9%2FMgKbkPtj8wQt51I5GUvwRPAodjXF95VUdAPJ0Cfn6V42l1s%2B6Kmvcl7MroxtQAdpHTWQoR%2Flps%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/javascript",
+                "x-frame-options": "DENY",
+                "cache-control": "max-age=172800, public",
+                "cf-ray": "78e13563ce8aceab-GVA",
+                "expires": "Wed, 25 Jan 2023 14:27:10 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.41",
+            "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=628f4235134fab5d3c76f82d",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "origin": "https://eidoo.app",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 00:22:23 GMT",
+                "content-encoding": "br",
+                "via": "1.1 c07945b00aad28e34fbfebb3d3907060.cloudfront.net (CloudFront)",
+                "age": "50769",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Mon, 20 Jul 2020 17:53:02 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"dc5e7f18c8d36ac1d3d4753a87c98d0a\"",
+                "access-control-max-age": "3000",
+                "access-control-allow-methods": "GET",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=84600, must-revalidate",
+                "vary": "Accept-Encoding",
+                "x-amz-cf-id": "P4pwIjnWunmtR3jdbbsfv9PqJxE1k2aY13XcS_UBWIEStEufJPbQ5g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.42",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/js/webflow.b58940903.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-amz-version-id": "uZ.Igkwzby18H6da7TiEjcj0lh.TP_sG",
+                "content-encoding": "gzip",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "date": "Mon, 23 Jan 2023 02:45:37 GMT",
+                "age": "42094",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "138720",
+                "last-modified": "Fri, 28 Oct 2022 10:20:57 GMT",
+                "server": "AmazonS3",
+                "etag": "\"03d04fb65c58c1b1f06e283bc39d593d\"",
+                "vary": "Accept-Encoding",
+                "content-type": "text/javascript",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=84600, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "IDMSDCPWXIM8a0CAddguEovHWOGMzZqxksyzHGBojvhzqECvZhY7_w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.45",
+            "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "strict-transport-security": "max-age=31536000",
+                "date": "Mon, 23 Jan 2023 14:27:10 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "x-xss-protection": "0",
+                "last-modified": "Mon, 23 Jan 2023 14:12:06 GMT",
+                "server": "ESF",
+                "cross-origin-opener-policy": "same-origin-allow-popups",
+                "x-frame-options": "SAMEORIGIN",
+                "content-type": "text/css; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+                "timing-allow-origin": "*",
+                "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+                "expires": "Mon, 23 Jan 2023 14:27:10 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.139",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628fb670067bea78cfceeac6_Roboto-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/css/new-eidoo-app.webflow.641adab3b.css",
+                "origin": "https://eidoo.app",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sat, 14 Jan 2023 04:21:26 GMT",
+                "x-amz-version-id": "QrSS7lNExqBopT1UvuOteY4li064sqoy",
+                "content-encoding": "br",
+                "via": "1.1 a70d280cd058ea89c08954ea0ad67198.cloudfront.net (CloudFront)",
+                "age": "813945",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Thu, 26 May 2022 17:23:05 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"8a36205bd9b83e03af0591a004bc97f4\"",
+                "access-control-max-age": "3000",
+                "access-control-allow-methods": "GET, HEAD",
+                "content-type": "application/x-font-ttf",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "vary": "Accept-Encoding",
+                "x-amz-cf-id": "edYFTl9oc2bJLYMaRHfBFYXuD-5gSbn34Ysb9w6axWaUED5Rmynu1g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.134",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628fb670f0e43606c62631e0_Roboto-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/css/new-eidoo-app.webflow.641adab3b.css",
+                "origin": "https://eidoo.app",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sat, 07 Jan 2023 02:17:05 GMT",
+                "x-amz-version-id": "QSLs1Q8FKvkvroVMFE0JwS5z3Hv1ZyYk",
+                "content-encoding": "br",
+                "via": "1.1 a70d280cd058ea89c08954ea0ad67198.cloudfront.net (CloudFront)",
+                "age": "1426206",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Thu, 26 May 2022 17:23:03 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"b8e42971dec8d49207a8c8e2b919a6ac\"",
+                "access-control-max-age": "3000",
+                "access-control-allow-methods": "GET, HEAD",
+                "content-type": "application/x-font-ttf",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "vary": "Accept-Encoding",
+                "x-amz-cf-id": "U_ngCRJ_4OP9rDsR_TpCVmGOtmG3nSXyQyyCmjQ9oMeCIWC6U01gKA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.124",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/628fb66f5772f97c282bd05f_Roboto-Black.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/css/new-eidoo-app.webflow.641adab3b.css",
+                "origin": "https://eidoo.app",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 10:32:03 GMT",
+                "x-amz-version-id": "XjxjYwOlUQJE9wKpbWz.Jb0YPvVbx2ID",
+                "content-encoding": "br",
+                "via": "1.1 a70d280cd058ea89c08954ea0ad67198.cloudfront.net (CloudFront)",
+                "age": "446108",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "last-modified": "Thu, 26 May 2022 17:23:05 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"d6a6f8878adb0d8e69f9fa2e0b622924\"",
+                "access-control-max-age": "3000",
+                "access-control-allow-methods": "GET, HEAD",
+                "content-type": "application/x-font-ttf",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "vary": "Accept-Encoding",
+                "x-amz-cf-id": "sZAUDcYQHxw-kaQyqIiNRBahwzmLs0EphHu-4gNlX2q-LLFmBkGg2Q=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.143",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6295d59749d516da2547f529_32.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sat, 07 Jan 2023 08:31:02 GMT",
+                "x-amz-version-id": "k.voaIMi0ihYxulup0jFtzWBFFZfQox5",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "1403769",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "4200",
+                "last-modified": "Tue, 31 May 2022 08:45:12 GMT",
+                "server": "AmazonS3",
+                "etag": "\"be1e19cbac9ed327afbc56fc4cd3afc9\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "DXhL2YJa32A4inbJ3H73I_yLlc9mXQiHMFrSmd4tO_TA8NO-1xXaUA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.191",
+            "url": "https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://eidoo.app",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 06:54:15 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "27176",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "39372",
+                "x-xss-protection": "0",
+                "last-modified": "Mon, 15 Aug 2022 18:20:48 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Tue, 23 Jan 2024 06:54:15 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.151",
+            "url": "https://fonts.gstatic.com/s/opensans/v34/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://eidoo.app",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 20:17:01 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "411010",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "42900",
+                "x-xss-protection": "0",
+                "last-modified": "Mon, 15 Aug 2022 18:16:24 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Thu, 18 Jan 2024 20:17:01 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://eidoo.app/"
+            ],
+            "id": "34869.224",
+            "url": "https://uploads-ssl.webflow.com/628f4235134fab5d3c76f82d/6295d59749d516da2547f529_32.png",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://eidoo.app/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sat, 07 Jan 2023 08:31:02 GMT",
+                "x-amz-version-id": "k.voaIMi0ihYxulup0jFtzWBFFZfQox5",
+                "via": "1.1 a4f3f56409fe4e0b42683dc15dd52ef8.cloudfront.net (CloudFront)",
+                "age": "1403769",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "content-length": "4200",
+                "last-modified": "Tue, 31 May 2022 08:45:12 GMT",
+                "server": "AmazonS3",
+                "etag": "\"be1e19cbac9ed327afbc56fc4cd3afc9\"",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=31536000, must-revalidate",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "DXhL2YJa32A4inbJ3H73I_yLlc9mXQiHMFrSmd4tO_TA8NO-1xXaUA=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "DE01E0B12BE72C140008CB938903559F",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "content-type": "text/html",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.325",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/index.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.326",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/index-rtl.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.327",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.328",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/spinner.gif",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/gif"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.329",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/globalthis.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.330",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/sentry-install.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.331",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/runtime-lavamoat.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.332",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/lockdown-more.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.333",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/policy-load.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.334",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-0.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.335",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-1.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.336",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-2.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.337",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-3.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.338",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-4.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.339",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-5.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.340",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-6.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.341",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-7.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.342",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-8.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.343",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-9.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.344",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-0.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.345",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-1.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.346",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-2.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.347",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-3.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.348",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-4.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.349",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-5.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.350",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-6.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.351",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-7.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.352",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-8.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.353",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-9.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.358",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.360",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T14:28:02.956Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"5a1e0b966a51438381f531c7d1da1517\",\"init\":true,\"started\":\"2023-01-23T14:28:02.954Z\",\"timestamp\":\"2023-01-23T14:28:02.955Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 14:28:03 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.557",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "34868.558",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        }
+    ],
+    "cookies": [],
+    "success": true,
+    "connected": false,
+    "connect_label": "",
+    "metamask_label": "",
+    "checkbox_clicked": false,
+    "signature_request": false,
+    "switch_network": false
+}

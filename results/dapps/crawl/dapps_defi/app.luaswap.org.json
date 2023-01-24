@@ -1,0 +1,2638 @@
+{
+    "url": "https://app.luaswap.org/#/swap",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://app.luaswap.org/#/swap",
+        "walletPath": "metamask-chrome-10.22.2",
+        "destination": "../results/dapps/crawl",
+        "force": false,
+        "executablePath": "/Users/christof/.cache/puppeteer/chrome/mac-1056772/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    },
+    "timestamps": {
+        "start": 1674006818944,
+        "end": 1674006918669
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "13009.82",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "13009.255",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:44.454Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"fc0bd71bab3e4f2194feb7b129e9152e\",\"init\":true,\"started\":\"2023-01-18T01:53:44.453Z\",\"timestamp\":\"2023-01-18T01:53:44.453Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:44 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "13009.283",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "13009.284",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "13009.285",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:47.052Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"fc0bd71bab3e4f2194feb7b129e9152e\",\"init\":false,\"started\":\"2023-01-18T01:53:44.453Z\",\"timestamp\":\"2023-01-18T01:53:47.051Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "13009.286",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:47.054Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"01d0787b3c0e4e0d9cbf9071e2d3953e\",\"init\":true,\"started\":\"2023-01-18T01:53:47.051Z\",\"timestamp\":\"2023-01-18T01:53:47.051Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "13009.98",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "13009.100",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "13009.287",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "13009.289",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:47.156Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"01d0787b3c0e4e0d9cbf9071e2d3953e\",\"init\":false,\"started\":\"2023-01-18T01:53:47.051Z\",\"timestamp\":\"2023-01-18T01:53:47.155Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "5",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "13009.290",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:47.157Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8c2f2ddedb48462bb8093ce00f04a8ee\",\"init\":true,\"started\":\"2023-01-18T01:53:47.155Z\",\"timestamp\":\"2023-01-18T01:53:47.155Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "2",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "13009.292",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/metrics-chart.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "13009.86",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "13009.101",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "13009.293",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:47.236Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8c2f2ddedb48462bb8093ce00f04a8ee\",\"init\":false,\"started\":\"2023-01-18T01:53:47.155Z\",\"timestamp\":\"2023-01-18T01:53:47.235Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "13009.294",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:47.237Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f8529dd30cd64bf2bf900194b9b01d5a\",\"init\":true,\"started\":\"2023-01-18T01:53:47.235Z\",\"timestamp\":\"2023-01-18T01:53:47.235Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "13009.296",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:47.266Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f8529dd30cd64bf2bf900194b9b01d5a\",\"init\":false,\"started\":\"2023-01-18T01:53:47.235Z\",\"timestamp\":\"2023-01-18T01:53:47.265Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "13009.297",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:47.267Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"61f46eff925c4d3392dd318923c2d6bd\",\"init\":true,\"started\":\"2023-01-18T01:53:47.265Z\",\"timestamp\":\"2023-01-18T01:53:47.265Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "13009.94",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Roboto/Roboto-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "13009.89",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-regular-400.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "13009.304",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:50.096Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"61f46eff925c4d3392dd318923c2d6bd\",\"init\":false,\"started\":\"2023-01-18T01:53:47.265Z\",\"timestamp\":\"2023-01-18T01:53:50.095Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:50 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "13009.305",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:50.097Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ffa7c176bcfb41de88f6a2a753fd4248\",\"init\":true,\"started\":\"2023-01-18T01:53:50.095Z\",\"timestamp\":\"2023-01-18T01:53:50.095Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:50 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "ED7FADC8B70BD396EFFEDC53C8B19A02",
+            "url": "https://app.luaswap.org/",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "accept-ranges": "bytes",
+                "access-control-allow-origin": "*",
+                "age": "0",
+                "cache-control": "max-age=600",
+                "content-encoding": "gzip",
+                "content-length": "1618",
+                "content-type": "text/html; charset=utf-8",
+                "date": "Wed, 18 Jan 2023 01:53:50 GMT",
+                "etag": "W/\"6371c8d4-cb7\"",
+                "expires": "Wed, 18 Jan 2023 00:05:50 GMT",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "vary": "Accept-Encoding",
+                "via": "1.1 varnish",
+                "x-cache": "HIT",
+                "x-cache-hits": "1",
+                "x-fastly-request-id": "ad5c54584afdbc5cc0e51c6f844f10b8cc3a1c3e",
+                "x-github-request-id": "63AA:4032:15CC73:1BA46D:63C73586",
+                "x-proxy-cache": "MISS",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "x-timer": "S1674006830.288083,VS0,VE90"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "13009.307",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:50.143Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"ffa7c176bcfb41de88f6a2a753fd4248\",\"init\":false,\"started\":\"2023-01-18T01:53:50.095Z\",\"timestamp\":\"2023-01-18T01:53:50.142Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:50 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "13009.308",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:53:50.144Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"dc574a0e2bc04227939ce96e2ecb7f0e\",\"init\":true,\"started\":\"2023-01-18T01:53:50.141Z\",\"timestamp\":\"2023-01-18T01:53:50.141Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:53:50 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "13009.310",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/eth_logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.2",
+            "url": "https://app.luaswap.org/static/css/3.996ad921.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "d1fb19f3343721c0902366aa53890038ced32792",
+                "date": "Wed, 18 Jan 2023 01:53:50 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache-hits": "1",
+                "age": "0",
+                "x-cache": "HIT",
+                "x-proxy-cache": "MISS",
+                "content-length": "933",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "8C2E:24C0:15E12D:1BB90E:63C73586",
+                "x-timer": "S1674006830.412025,VS0,VE94",
+                "etag": "W/\"6371c8d4-14d3\"",
+                "vary": "Accept-Encoding",
+                "content-type": "text/css; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "expires": "Wed, 18 Jan 2023 00:05:50 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.3",
+            "url": "https://app.luaswap.org/static/js/3.c5db2800.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "0d17abc18ded03eee76561db0ba764cee6f03c00",
+                "date": "Wed, 18 Jan 2023 01:53:50 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "822474",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "0BCC:0DD6:1AE159:2296F0:63C7512E",
+                "x-timer": "S1674006830.412145,VS0,VE519",
+                "etag": "W/\"6371c8d4-2a5b67\"",
+                "vary": "Accept-Encoding",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 02:03:50 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.4",
+            "url": "https://app.luaswap.org/static/js/main.0753d6b3.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "48b7c44423851f04fe44b15c3101bc56cf349ee9",
+                "date": "Wed, 18 Jan 2023 01:53:50 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "154962",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "9BFA:716D:1BF3EC:23AA7A:63C7512D",
+                "x-timer": "S1674006830.412141,VS0,VE106",
+                "etag": "W/\"6371c8d4-9bac4\"",
+                "vary": "Accept-Encoding",
+                "content-type": "application/javascript; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "expires": "Wed, 18 Jan 2023 02:03:50 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.8",
+            "url": "https://www.google-analytics.com/analytics.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "strict-transport-security": "max-age=10886400; includeSubDomains; preload",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "date": "Wed, 18 Jan 2023 00:07:31 GMT",
+                "last-modified": "Tue, 27 Sep 2022 22:01:05 GMT",
+                "server": "Golfe2",
+                "age": "6380",
+                "vary": "Accept-Encoding",
+                "content-type": "text/javascript",
+                "cache-control": "public, max-age=7200",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "20039",
+                "expires": "Wed, 18 Jan 2023 02:07:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.9",
+            "url": "https://app.luaswap.org/locales/en.json",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "x-requested-with": "XMLHttpRequest",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "2f48e1275bbe9fa215972945d432c1bc12519a2e",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "1613",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "6528:8BBD:1A66F2:221CCE:63C7512F",
+                "x-timer": "S1674006831.344408,VS0,VE92",
+                "etag": "W/\"6371c8d4-10e1\"",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "expires": "Wed, 18 Jan 2023 02:03:51 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.10",
+            "url": "https://app.luaswap.org/locales/en-US.json",
+            "type": "Xhr",
+            "status": 404,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "x-requested-with": "XMLHttpRequest",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "6210ae612254c398e8a47ee0f1b7042b75e7d415",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-cache-hits": "0",
+                "content-length": "5232",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "server": "GitHub.com",
+                "x-github-request-id": "2064:7049:1B2BAA:22E077:63C7512F",
+                "x-timer": "S1674006831.361312,VS0,VE93",
+                "etag": "W/\"63b4760b-247b\"",
+                "vary": "Accept-Encoding",
+                "content-type": "text/html; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "x-proxy-cache": "MISS"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.11",
+            "url": "https://raw.githubusercontent.com/tomochain/luaswap-token-list/master/build/luaswap-default.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "78d5aca77a98d818c8a061ad79a153cb15ce7263",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "strict-transport-security": "max-age=31536000",
+                "x-content-type-options": "nosniff",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache": "MISS",
+                "x-cache-hits": "0",
+                "content-length": "1227",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220093-HHN",
+                "x-github-request-id": "3434:3584:9A33C:CC1E3:63C7512F",
+                "x-timer": "S1674006831.429483,VS0,VE246",
+                "etag": "W/\"aa660b2c768fa920c23db4888dac059063ded14af577fe37f98e96967e22a8c3\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 01:58:51 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.12",
+            "url": "https://app.luaswap.org/favicon.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "eb1dbf097825752541c3709474be07e3c43743d2",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "via": "1.1 varnish",
+                "expires": "Wed, 18 Jan 2023 02:03:51 GMT",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "142146",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "C950:3109:1C8E3C:244386:63C7512F",
+                "x-timer": "S1674006831.411982,VS0,VE279",
+                "etag": "\"6371c8d4-22b42\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-cache-hits": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.55",
+            "url": "https://app.luaswap.org/static/media/logo.d77b343b.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "d37df00c59e54b975bf9829b8a4868331493cabd",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "142146",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "D5D8:716D:1BF45B:23AB35:63C7512F",
+                "x-timer": "S1674006832.500435,VS0,VE95",
+                "etag": "\"6371c8d4-22b42\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "expires": "Wed, 18 Jan 2023 02:03:51 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.49",
+            "url": "https://app.luaswap.org/static/media/Inter-roman.var.57fa490c.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/static/css/3.996ad921.chunk.css",
+                "origin": "https://app.luaswap.org",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "53fede0e66f4349521c6a105d8fd051198e041be",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "224744",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "C89A:416A:1A1276:21C7F5:63C7512F",
+                "x-timer": "S1674006832.547915,VS0,VE277",
+                "etag": "\"6371c8d4-36de8\"",
+                "vary": "Accept-Encoding",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "expires": "Wed, 18 Jan 2023 02:03:51 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.56",
+            "url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&a=925582757&t=pageview&_s=1&dl=https%3A%2F%2Fapp.luaswap.org%2F&dp=%2Fswap&ul=en-us&de=UTF-8&dt=LuaSwap%20Interface&sd=30-bit&sr=1512x982&vp=1512x747&je=0&_u=YEBAAEABAAAAACAAI~&jid=213731961&gjid=1959545246&cid=1747052910.1674006832&tid=UA-128182339-4&_gid=228357513.1674006832&_r=1&_slc=1&z=1302765169",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "no-cache",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "x-content-type-options": "nosniff",
+                "last-modified": "Sun, 17 May 1998 03:00:00 GMT",
+                "server": "Golfe2",
+                "content-type": "text/plain",
+                "access-control-allow-origin": "https://app.luaswap.org",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "access-control-allow-credentials": "true",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "2",
+                "expires": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.57",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.58",
+            "url": "https://app.luaswap.org/manifest.json",
+            "type": "Manifest",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "30b033a0665cc42c283721d698c270c2f0328483",
+                "date": "Wed, 18 Jan 2023 01:53:52 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache-hits": "1",
+                "age": "0",
+                "x-cache": "HIT",
+                "x-proxy-cache": "MISS",
+                "content-length": "240",
+                "x-served-by": "cache-hhn-etou8220063-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "C3CC:1D72:15B4A6:1B8B95:63C73586",
+                "x-timer": "S1674006832.941132,VS0,VE90",
+                "etag": "W/\"6371c8d4-1d6\"",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 00:05:50 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.59",
+            "url": "https://app.luaswap.org/favicon.png",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "eb1dbf097825752541c3709474be07e3c43743d2",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "via": "1.1 varnish",
+                "expires": "Wed, 18 Jan 2023 02:03:51 GMT",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "142146",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "C950:3109:1C8E3C:244386:63C7512F",
+                "x-timer": "S1674006831.411982,VS0,VE279",
+                "etag": "\"6371c8d4-22b42\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-cache-hits": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.60",
+            "url": "https://mainnet.infura.io/v3/099fc58e0de9451d80b18d7c74caa7c1",
+            "type": "Fetch",
+            "status": 403,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "[{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"eth_blockNumber\",\"params\":[]}]",
+            "responseHeaders": {
+                "access-control-allow-origin": "https://app.luaswap.org",
+                "date": "Wed, 18 Jan 2023 01:53:52 GMT",
+                "x-content-type-options": "nosniff",
+                "content-length": "90",
+                "vary": "Accept-Encoding, Origin",
+                "content-type": "text/plain; charset=utf-8"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "858BBC953CEFE94BF3B3F150A67656E5",
+            "url": "https://mainnet.infura.io/v3/099fc58e0de9451d80b18d7c74caa7c1",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.luaswap.org",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Content-Type",
+                "access-control-allow-methods": "POST",
+                "access-control-allow-origin": "https://app.luaswap.org",
+                "access-control-max-age": "86400",
+                "content-length": "0",
+                "date": "Wed, 18 Jan 2023 01:53:52 GMT",
+                "vary": "Accept-Encoding\nOrigin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.61",
+            "url": "https://app.luaswap.org/static/media/metamask.023762b6.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "e4746999e2262ec517ec57a2c556025462be7e2b",
+                "date": "Wed, 18 Jan 2023 01:54:02 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "114217",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "5574:4390:1B8AC9:23413C:63C7513A",
+                "x-timer": "S1674006842.161620,VS0,VE110",
+                "etag": "\"6371c8d4-1be29\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "expires": "Wed, 18 Jan 2023 02:04:02 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.62",
+            "url": "https://app.luaswap.org/static/media/walletConnectIcon.8215855c.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "4563d2526dfc2d0ed877ffe7a90572169e749ea4",
+                "date": "Wed, 18 Jan 2023 01:54:02 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "10127",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "3A9C:459B:1A5ADF:22115A:63C7513A",
+                "x-timer": "S1674006842.162807,VS0,VE90",
+                "etag": "W/\"6371c8d4-343d\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "expires": "Wed, 18 Jan 2023 02:04:02 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.63",
+            "url": "https://app.luaswap.org/static/media/coinbaseWalletIcon.62578f59.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "fe18d6a60167e33a21c8bb78fbff1de2bdb2adbf",
+                "date": "Wed, 18 Jan 2023 01:54:02 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "40591",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "1050:2B0E:1BB1BD:2368F1:63C7513A",
+                "x-timer": "S1674006842.162838,VS0,VE95",
+                "etag": "W/\"6371c8d4-d17a\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "expires": "Wed, 18 Jan 2023 02:04:02 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.69",
+            "url": "https://www.google-analytics.com/collect?v=1&_v=j98&a=925582757&t=event&_s=2&dl=https%3A%2F%2Fapp.luaswap.org%2F&ul=en-us&de=UTF-8&dt=LuaSwap%20Interface&sd=30-bit&sr=1512x982&vp=1512x747&je=0&ec=Wallet&ea=Change%20Wallet&el=MetaMask&_u=aEBAAEABAAAAACAAI~&jid=&gjid=&cid=1747052910.1674006832&tid=UA-128182339-4&_gid=228357513.1674006832&z=1868093284",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "no-cache",
+                "date": "Tue, 17 Jan 2023 18:07:31 GMT",
+                "x-content-type-options": "nosniff",
+                "last-modified": "Sun, 17 May 1998 03:00:00 GMT",
+                "server": "Golfe2",
+                "age": "27993",
+                "content-type": "image/gif",
+                "access-control-allow-origin": "*",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "35",
+                "expires": "Mon, 01 Jan 1990 00:00:00 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "13009.348",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "13009.521",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:54:05.251Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f129e94dc3f44078b9b257d4ff638cc1\",\"init\":true,\"started\":\"2023-01-18T01:54:05.251Z\",\"timestamp\":\"2023-01-18T01:54:05.251Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:54:05 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "2",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "13009.551",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "13009.552",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/idc26Wk8QcPcgWeKxW4Q9"
+            ],
+            "id": "13009.367",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/idc26Wk8QcPcgWeKxW4Q9"
+            ],
+            "id": "13009.364",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/idc26Wk8QcPcgWeKxW4Q9"
+            ],
+            "id": "13009.352",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/idc26Wk8QcPcgWeKxW4Q9"
+            ],
+            "id": "13009.366",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/idc26Wk8QcPcgWeKxW4Q9"
+            ],
+            "id": "13009.553",
+            "url": "https://app.luaswap.org/favicon.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "3ae2f9b22daf257fef7a2fc0073272444919ebf6",
+                "date": "Wed, 18 Jan 2023 01:54:07 GMT",
+                "via": "1.1 varnish",
+                "expires": "Wed, 18 Jan 2023 02:03:51 GMT",
+                "age": "16",
+                "x-cache": "HIT",
+                "x-proxy-cache": "MISS",
+                "content-length": "142146",
+                "x-served-by": "cache-hhn-etou8220089-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "C950:3109:1C8E3C:244386:63C7512F",
+                "x-timer": "S1674006847.201575,VS0,VE1",
+                "etag": "\"6371c8d4-22b42\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-cache-hits": "1"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/idc26Wk8QcPcgWeKxW4Q9/confirm-permissions"
+            ],
+            "id": "13009.555",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:54:13.538Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f129e94dc3f44078b9b257d4ff638cc1\",\"init\":false,\"started\":\"2023-01-18T01:54:05.251Z\",\"timestamp\":\"2023-01-18T01:54:13.537Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:54:13 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#connect/idc26Wk8QcPcgWeKxW4Q9/confirm-permissions"
+            ],
+            "id": "13009.556",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:54:13.541Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"b45adb30d3134e768287145f96436b26\",\"init\":true,\"started\":\"2023-01-18T01:54:13.537Z\",\"timestamp\":\"2023-01-18T01:54:13.537Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:54:13 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.70",
+            "url": "https://wallet.tomochain.com/api/luaswap/airdrop/0x7e4ABd63A7C8314Cc28D388303472353D884f292",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:54:14 GMT",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"e-Tj8n9olBUMQK0x0qT7YAC46tguk\"",
+                "x-powered-by": "Express",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=6qDiqZWaB%2Fft4NMlXnFPi6Uh6yQuKmUGRttrjAzz3DRULKaXGFIT8BsDWvxFEAgVCJZu%2FHfyIiOF7%2FdILmvwj%2BnT7azvItdT0oJOefkETXOIg3O1%2B5LwxdMFQgEiYKSZ%2FJOAu%2BfM\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "cf-ray": "78b3b3963ff6921a-FRA",
+                "access-control-allow-headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept",
+                "content-length": "14"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "F3107CCA213ED2C2178B04CF8AC73ED0",
+            "url": "https://wallet.tomochain.com/api/luaswap/read/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.luaswap.org",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept",
+                "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+                "access-control-allow-origin": "*",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "78b3b3963ff8921a-FRA",
+                "content-length": "2",
+                "content-type": "text/plain; charset=utf-8",
+                "date": "Wed, 18 Jan 2023 01:54:14 GMT",
+                "etag": "W/\"2-nOO9QiTIwXgNtWtBJezz8kv3SLc\"",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=MC7HGHGhcD8i9ygCAlR3NRQ%2BekMLpf1ewS2O7F9ZjFTUHaIQBzU6iRnSV3DR7oWmlsvQfWgDQCOtNf72MVAsuw6htAZ4QmopXw6Hy7O3%2F2GlToSDCnud5DYcj7EF5MSIYlMJc7cI\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "x-powered-by": "Express"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "546F23515436FCA8C49283F850B86886",
+            "url": "https://wallet.tomochain.com/api/luaswap/read/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "https://app.luaswap.org",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept",
+                "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+                "access-control-allow-origin": "*",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "78b3b3963ff9921a-FRA",
+                "content-length": "2",
+                "content-type": "text/plain; charset=utf-8",
+                "date": "Wed, 18 Jan 2023 01:54:14 GMT",
+                "etag": "W/\"2-nOO9QiTIwXgNtWtBJezz8kv3SLc\"",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=H1fNyk2AGb4VkCBj%2Fe9SGMWadzqiZNVGXDyxYkBHSJezUjG8PFYNI19010U1JtnuwMP79GcvEP1me4tLbWcZ6DtytJBFnyn5ndxxVMxslQoAo1LYM3faeg%2B5p%2Fa71fFi0bCS3NSk\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "vary": "Accept-Encoding",
+                "x-powered-by": "Express"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.71",
+            "url": "https://wallet.tomochain.com/api/luaswap/read/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "content-type": "application/json;charset=UTF-8",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"lockOf(address):(uint256)\",\"params\":[\"0x7e4ABd63A7C8314Cc28D388303472353D884f292\"],\"cache\":true}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:54:15 GMT",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"c-Xeq/Wb8SIICo/d6jLam26vKV2xc\"",
+                "x-powered-by": "Express",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=PR14ZIfNTjTt8hLYHs4ytrhV7Esg4718yCHKZV2DMZgrKV%2BtKjldfSI5CMWCf%2BxbbQZjZWHTWxgFw2KIgHPbI16gVta7XAnjoK9LnTPGD6rxhddOV%2FiF6Tdd8bNm6tQhHSroeAzc\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "cf-ray": "78b3b39a6afe921a-FRA",
+                "access-control-allow-headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept",
+                "content-length": "12"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.72",
+            "url": "https://wallet.tomochain.com/api/luaswap/read/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "content-type": "application/json;charset=UTF-8",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"canUnlockAmount(address):(uint256)\",\"params\":[\"0x7e4ABd63A7C8314Cc28D388303472353D884f292\"],\"cache\":true}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:54:15 GMT",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "etag": "W/\"c-Xeq/Wb8SIICo/d6jLam26vKV2xc\"",
+                "x-powered-by": "Express",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=qUJmnyBjI9yltU3MIkjtJXZXFL%2Bi6E5lHopXWvrmDp%2F6tMZwcKO0sL9UO5RwbZEd31sxOQGVFDQHFf6R7ZRiRM2etlyFiLLWAbMjVUIa%2BIbKlgdb%2BM5QL93cUdLSQjwZg1Aqf%2B5T\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "cf-ray": "78b3b39a6aff921a-FRA",
+                "access-control-allow-headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept",
+                "content-length": "12"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#"
+            ],
+            "id": "13009.561",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:54:14.791Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"b45adb30d3134e768287145f96436b26\",\"init\":false,\"started\":\"2023-01-18T01:54:13.537Z\",\"timestamp\":\"2023-01-18T01:54:14.791Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html#"
+            ],
+            "id": "13009.562",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T01:54:14.797Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"cea1de6eb5264f968892e93f8e6023bf\",\"init\":true,\"started\":\"2023-01-18T01:54:14.791Z\",\"timestamp\":\"2023-01-18T01:54:14.791Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "F5D8357DD7F9C54F48AF45FF0DA06D3B",
+            "url": "https://app.luaswap.org/",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "accept-ranges": "bytes",
+                "access-control-allow-origin": "*",
+                "age": "58",
+                "cache-control": "max-age=600",
+                "content-encoding": "gzip",
+                "content-length": "1618",
+                "content-type": "text/html; charset=utf-8",
+                "date": "Wed, 18 Jan 2023 01:54:48 GMT",
+                "etag": "W/\"6371c8d4-cb7\"",
+                "expires": "Wed, 18 Jan 2023 00:05:50 GMT",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "vary": "Accept-Encoding",
+                "via": "1.1 varnish",
+                "x-cache": "HIT",
+                "x-cache-hits": "2",
+                "x-fastly-request-id": "aef27ae1785510baf7769047af3491bf37abbde2",
+                "x-github-request-id": "63AA:4032:15CC73:1BA46D:63C73586",
+                "x-proxy-cache": "MISS",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "x-timer": "S1674006888.042781,VS0,VE0"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.74",
+            "url": "https://app.luaswap.org/static/css/3.996ad921.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "d1fb19f3343721c0902366aa53890038ced32792",
+                "date": "Wed, 18 Jan 2023 01:53:50 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache-hits": "1",
+                "age": "0",
+                "x-cache": "HIT",
+                "x-proxy-cache": "MISS",
+                "content-length": "933",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "8C2E:24C0:15E12D:1BB90E:63C73586",
+                "x-timer": "S1674006830.412025,VS0,VE94",
+                "etag": "W/\"6371c8d4-14d3\"",
+                "vary": "Accept-Encoding",
+                "content-type": "text/css; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "expires": "Wed, 18 Jan 2023 00:05:50 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.75",
+            "url": "https://app.luaswap.org/static/js/3.c5db2800.chunk.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.76",
+            "url": "https://app.luaswap.org/static/js/main.0753d6b3.chunk.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.114",
+            "url": "https://app.luaswap.org/static/media/Inter-roman.var.57fa490c.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/static/css/3.996ad921.chunk.css",
+                "origin": "https://app.luaswap.org",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.122",
+            "url": "https://www.google-analytics.com/analytics.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "strict-transport-security": "max-age=10886400; includeSubDomains; preload",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "date": "Wed, 18 Jan 2023 00:07:31 GMT",
+                "last-modified": "Tue, 27 Sep 2022 22:01:05 GMT",
+                "server": "Golfe2",
+                "age": "6380",
+                "vary": "Accept-Encoding",
+                "content-type": "text/javascript",
+                "cache-control": "public, max-age=7200",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "20039",
+                "expires": "Wed, 18 Jan 2023 02:07:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.123",
+            "url": "https://app.luaswap.org/locales/en.json",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "x-requested-with": "XMLHttpRequest",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "2f48e1275bbe9fa215972945d432c1bc12519a2e",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "1613",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "6528:8BBD:1A66F2:221CCE:63C7512F",
+                "x-timer": "S1674006831.344408,VS0,VE92",
+                "etag": "W/\"6371c8d4-10e1\"",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "expires": "Wed, 18 Jan 2023 02:03:51 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.124",
+            "url": "https://app.luaswap.org/locales/en-US.json",
+            "type": "Xhr",
+            "status": 404,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "x-requested-with": "XMLHttpRequest",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "bc280372a59c40bd23cef99a2f9ba697160ffbc0",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "date": "Wed, 18 Jan 2023 01:54:48 GMT",
+                "age": "57",
+                "x-cache": "HIT",
+                "x-cache-hits": "1",
+                "content-length": "5232",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "server": "GitHub.com",
+                "x-github-request-id": "2064:7049:1B2BAA:22E077:63C7512F",
+                "x-timer": "S1674006888.347436,VS0,VE1",
+                "etag": "W/\"63b4760b-247b\"",
+                "vary": "Accept-Encoding",
+                "content-type": "text/html; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "x-proxy-cache": "MISS"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.125",
+            "url": "https://app.luaswap.org/static/media/logo.d77b343b.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "d37df00c59e54b975bf9829b8a4868331493cabd",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "via": "1.1 varnish",
+                "x-proxy-cache": "MISS",
+                "age": "0",
+                "x-cache": "MISS",
+                "expires": "Wed, 18 Jan 2023 02:03:51 GMT",
+                "content-length": "142146",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "D5D8:716D:1BF45B:23AB35:63C7512F",
+                "x-timer": "S1674006832.500435,VS0,VE95",
+                "etag": "\"6371c8d4-22b42\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-origin-cache": "HIT",
+                "x-cache-hits": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.126",
+            "url": "https://app.luaswap.org/favicon.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "eb1dbf097825752541c3709474be07e3c43743d2",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "via": "1.1 varnish",
+                "expires": "Wed, 18 Jan 2023 02:03:51 GMT",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "142146",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "C950:3109:1C8E3C:244386:63C7512F",
+                "x-timer": "S1674006831.411982,VS0,VE279",
+                "etag": "\"6371c8d4-22b42\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-cache-hits": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.127",
+            "url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&a=1578719174&t=pageview&_s=1&dl=https%3A%2F%2Fapp.luaswap.org%2F&dp=%2Fswap&ul=en-us&de=UTF-8&dt=LuaSwap%20Interface&sd=30-bit&sr=1512x982&vp=1512x747&je=0&_u=QACAAEABAAAAACAAI~&jid=&gjid=&cid=1747052910.1674006832&tid=UA-128182339-4&_gid=228357513.1674006832&_slc=1&z=455587233",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "no-cache",
+                "date": "Wed, 18 Jan 2023 01:54:48 GMT",
+                "x-content-type-options": "nosniff",
+                "last-modified": "Sun, 17 May 1998 03:00:00 GMT",
+                "server": "Golfe2",
+                "content-type": "text/plain",
+                "access-control-allow-origin": "https://app.luaswap.org",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "access-control-allow-credentials": "true",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "2",
+                "expires": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.128",
+            "url": "https://app.luaswap.org/manifest.json",
+            "type": "Manifest",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "30b033a0665cc42c283721d698c270c2f0328483",
+                "date": "Wed, 18 Jan 2023 01:53:52 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 varnish",
+                "x-cache-hits": "1",
+                "age": "0",
+                "x-cache": "HIT",
+                "x-proxy-cache": "MISS",
+                "content-length": "240",
+                "x-served-by": "cache-hhn-etou8220063-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "C3CC:1D72:15B4A6:1B8B95:63C73586",
+                "x-timer": "S1674006832.941132,VS0,VE90",
+                "etag": "W/\"6371c8d4-1d6\"",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 00:05:50 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.129",
+            "url": "https://app.luaswap.org/favicon.png",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "eb1dbf097825752541c3709474be07e3c43743d2",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "via": "1.1 varnish",
+                "expires": "Wed, 18 Jan 2023 02:03:51 GMT",
+                "age": "0",
+                "x-cache": "MISS",
+                "x-proxy-cache": "MISS",
+                "content-length": "142146",
+                "x-served-by": "cache-hhn-etou8220038-HHN",
+                "last-modified": "Mon, 14 Nov 2022 04:49:24 GMT",
+                "server": "GitHub.com",
+                "x-github-request-id": "C950:3109:1C8E3C:244386:63C7512F",
+                "x-timer": "S1674006831.411982,VS0,VE279",
+                "etag": "\"6371c8d4-22b42\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=600",
+                "accept-ranges": "bytes",
+                "x-cache-hits": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.130",
+            "url": "https://raw.githubusercontent.com/tomochain/luaswap-token-list/master/build/luaswap-default.tokenlist.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "78d5aca77a98d818c8a061ad79a153cb15ce7263",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "date": "Wed, 18 Jan 2023 01:53:51 GMT",
+                "via": "1.1 varnish",
+                "x-cache-hits": "0",
+                "x-cache": "MISS",
+                "content-length": "1227",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-hhn-etou8220093-HHN",
+                "x-github-request-id": "3434:3584:9A33C:CC1E3:63C7512F",
+                "x-timer": "S1674006831.429483,VS0,VE246",
+                "etag": "W/\"aa660b2c768fa920c23db4888dac059063ded14af577fe37f98e96967e22a8c3\"",
+                "source-age": "0",
+                "x-frame-options": "deny",
+                "vary": "Authorization,Accept-Encoding,Origin",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "expires": "Wed, 18 Jan 2023 01:58:51 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.131",
+            "url": "https://wallet.tomochain.com/api/luaswap/airdrop/0x7e4ABd63A7C8314Cc28D388303472353D884f292",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.luaswap.org/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 01:54:48 GMT",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"e-Tj8n9olBUMQK0x0qT7YAC46tguk\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=U3iv1IOuwIQ%2Bt9pdiMOKaDQyMuIK5I62rUOn1YPjMA2LYrcdmQ%2Fql%2BckXymnubysfoevqw9kehmyk1j35BC2TlJIcDpy7%2F8SwdL7KyruW15T6tPzqMQSr04ooKzaBgVerwMwtH66\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "access-control-allow-origin": "*",
+                "content-type": "application/json; charset=utf-8",
+                "cf-ray": "78b3b46d6e44921a-FRA",
+                "access-control-allow-headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept",
+                "content-length": "14"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.luaswap.org/#/swap"
+            ],
+            "id": "13010.132",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        }
+    ],
+    "cookies": [
+        {
+            "name": "_ga",
+            "value": "GA1.2.1747052910.1674006832",
+            "domain": ".luaswap.org",
+            "path": "/",
+            "expires": 1708566888.414792,
+            "size": 30,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_gid",
+            "value": "GA1.2.228357513.1674006832",
+            "domain": ".luaswap.org",
+            "path": "/",
+            "expires": 1674093288,
+            "size": 30,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga",
+            "value": "GA1.2.1747052910.1674006832",
+            "domain": ".luaswap.org",
+            "path": "/",
+            "expires": 1708566888.414792,
+            "size": 30,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_gid",
+            "value": "GA1.2.228357513.1674006832",
+            "domain": ".luaswap.org",
+            "path": "/",
+            "expires": 1674093288,
+            "size": 30,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_ga",
+            "value": "GA1.2.1747052910.1674006832",
+            "domain": ".luaswap.org",
+            "path": "/",
+            "expires": 1708566888.414792,
+            "size": 30,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        },
+        {
+            "name": "_gid",
+            "value": "GA1.2.228357513.1674006832",
+            "domain": ".luaswap.org",
+            "path": "/",
+            "expires": 1674093288,
+            "size": 30,
+            "httpOnly": false,
+            "secure": false,
+            "session": false,
+            "priority": "Medium",
+            "sameParty": false,
+            "sourceScheme": "Secure",
+            "sourcePort": 443
+        }
+    ],
+    "success": true,
+    "connected": true,
+    "connect_label": "Connect Wallet",
+    "metamask_label": "MetaMask",
+    "checkbox_clicked": false,
+    "signature_request": false,
+    "switch_network": false
+}

@@ -1,0 +1,2415 @@
+{
+    "url": "https://app.degate.com/",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://app.degate.com/",
+        "walletPath": "metamask-chrome-10.22.2",
+        "destination": "../results/dapps/crawl",
+        "force": false,
+        "executablePath": "/Users/christof/.cache/puppeteer/chrome/mac-1056772/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    },
+    "timestamps": {
+        "start": 1674003122662,
+        "end": 1674003227152
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "1806.82",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "1806.255",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:08.601Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"2fe9260318ee48a19a47a483c66ab861\",\"init\":true,\"started\":\"2023-01-18T00:52:08.600Z\",\"timestamp\":\"2023-01-18T00:52:08.600Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:08 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "1806.283",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "1806.284",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "1806.285",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:11.189Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"2fe9260318ee48a19a47a483c66ab861\",\"init\":false,\"started\":\"2023-01-18T00:52:08.600Z\",\"timestamp\":\"2023-01-18T00:52:11.189Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:11 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "1806.286",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:11.190Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"4e4784c5e01d4762bd1d0677b9325d59\",\"init\":true,\"started\":\"2023-01-18T00:52:11.189Z\",\"timestamp\":\"2023-01-18T00:52:11.189Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:11 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "1806.98",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "1806.100",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "1806.287",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "1806.289",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:11.299Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"4e4784c5e01d4762bd1d0677b9325d59\",\"init\":false,\"started\":\"2023-01-18T00:52:11.189Z\",\"timestamp\":\"2023-01-18T00:52:11.299Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:11 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "1806.290",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:11.300Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"abb9d614cd0e4a0a8c26997f72abdbb5\",\"init\":true,\"started\":\"2023-01-18T00:52:11.299Z\",\"timestamp\":\"2023-01-18T00:52:11.299Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:11 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "1806.292",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/metrics-chart.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "1806.86",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "1806.101",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "1806.293",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:11.352Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"abb9d614cd0e4a0a8c26997f72abdbb5\",\"init\":false,\"started\":\"2023-01-18T00:52:11.299Z\",\"timestamp\":\"2023-01-18T00:52:11.352Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:11 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "1806.294",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 429,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:11.352Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"bb7cfcfb24dc41dcac43a4bc383ba839\",\"init\":true,\"started\":\"2023-01-18T00:52:11.352Z\",\"timestamp\":\"2023-01-18T00:52:11.352Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Wed, 18 Jan 2023 00:52:11 GMT",
+                "server": "nginx",
+                "connection": "keep-alive",
+                "etag": "\"60e405a1-3\"",
+                "content-length": "3",
+                "content-type": "text/plain"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "1806.296",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 429,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:11.367Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"bb7cfcfb24dc41dcac43a4bc383ba839\",\"init\":false,\"started\":\"2023-01-18T00:52:11.352Z\",\"timestamp\":\"2023-01-18T00:52:11.367Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Wed, 18 Jan 2023 00:52:11 GMT",
+                "server": "nginx",
+                "connection": "keep-alive",
+                "etag": "\"60e405a1-3\"",
+                "content-length": "3",
+                "content-type": "text/plain"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "1806.297",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:11.368Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"9d80a1f5f3984b6e8e5c8724f754da53\",\"init\":true,\"started\":\"2023-01-18T00:52:11.367Z\",\"timestamp\":\"2023-01-18T00:52:11.367Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:11 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, retry-after, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "1806.94",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Roboto/Roboto-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "1806.89",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-regular-400.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "1806.305",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:14.226Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"9d80a1f5f3984b6e8e5c8724f754da53\",\"init\":false,\"started\":\"2023-01-18T00:52:11.367Z\",\"timestamp\":\"2023-01-18T00:52:14.226Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:14 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "1806.306",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:14.228Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"cb7eac0f76b94d6d89a5dde2d91f8c66\",\"init\":true,\"started\":\"2023-01-18T00:52:14.226Z\",\"timestamp\":\"2023-01-18T00:52:14.226Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:14 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "17551EAB2773AAC2ADA7DFB54AE0204F",
+            "url": "https://app.degate.com/",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "cache-control": "no-store",
+                "content-encoding": "gzip",
+                "content-type": "text/html",
+                "date": "Wed, 18 Jan 2023 00:52:15 GMT",
+                "etag": "W/\"6188be68-c33\"",
+                "last-modified": "Mon, 08 Nov 2021 06:06:32 GMT",
+                "server": "nginx/1.19.2",
+                "vary": "Accept-Encoding",
+                "x-frame-options": "DENY"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "1806.308",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:14.284Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"cb7eac0f76b94d6d89a5dde2d91f8c66\",\"init\":false,\"started\":\"2023-01-18T00:52:14.226Z\",\"timestamp\":\"2023-01-18T00:52:14.284Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:14 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "1806.309",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:52:14.285Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a74eab0ec8f24d31bec5cd2f1e0eec65\",\"init\":true,\"started\":\"2023-01-18T00:52:14.283Z\",\"timestamp\":\"2023-01-18T00:52:14.284Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:14 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "1806.311",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/eth_logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.2",
+            "url": "https://cdn.degate.com/degate/static/css/main~748942c6.6ec919ab.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:15 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 13 May 2021 08:06:50 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "W/\"609cde1a-985ee\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "text/css",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "x-amz-cf-id": "5DBKIkLmzeg0EQaZism1NNgiIs3Hu7RR2K6Ujg8oGpH_Njc-NvPESA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.3",
+            "url": "https://cdn.degate.com/degate/static/js/00.runtime~253ae210.960d0c3d.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:15 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 11 Nov 2021 12:18:37 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "W/\"618d0a1d-9aac0\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "x-amz-cf-id": "GyML4EhB8tO_KPXdtHLNBd_zsSdsztGEICMBlnshUE7vDBMvqLeg1A=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.4",
+            "url": "https://cdn.degate.com/degate/static/js/00.runtime~2a42e354.66f4ef89.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:15 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 11 Nov 2021 12:18:37 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "W/\"618d0a1d-999c2\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "x-amz-cf-id": "GrW_B_DeHJKWG5FvW1g41xcc9T7nZ1GDDKhTQdd34pQsA9vyaX6q7g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.5",
+            "url": "https://cdn.degate.com/degate/static/js/00.runtime~7d359b94.4b1a73b9.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:17 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 11 Nov 2021 12:18:37 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "W/\"618d0a1d-6a78\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "x-amz-cf-id": "SM5IvBt2fno-QOe1_3zx9t3DssCgxnyBE5LFHplGaF_6s9Vt5XC1FA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.6",
+            "url": "https://cdn.degate.com/degate/static/js/00.runtime~cfbf0a2e.0d8ee1e4.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:16 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 11 Nov 2021 12:18:37 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "W/\"618d0a1d-d379\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "x-amz-cf-id": "gOagCknnJiueISvO8C52k0mglRVf5NFfaUNHG6wp6D1uj0hq7WxOlQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.7",
+            "url": "https://cdn.degate.com/degate/static/js/00.runtime~f9ca8911.4997e54b.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:17 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 11 Nov 2021 12:18:37 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "W/\"618d0a1d-87e09\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "x-amz-cf-id": "JCs6OtNj17UzzSeMJtEkenlOeR-5OTeCpKiWODdQ3EDQimJ_YWopnQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.8",
+            "url": "https://cdn.degate.com/degate/static/js/00.runtime~fdadd360.72366b33.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:17 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 11 Nov 2021 12:18:37 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "W/\"618d0a1d-2e487\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "x-amz-cf-id": "0K0VGU8Lpr8y9y_UwwL3hgx3W40Aq21FHXdqT4yNs-BLgBgFIrvJGw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.9",
+            "url": "https://cdn.degate.com/degate/static/js/main~748942c6.ebbb9307.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:17 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 11 Nov 2021 12:18:37 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "W/\"618d0a1d-6abce\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "x-amz-cf-id": "v38abo0jdhcwF55FN8LS_tVpTVShLfo-DVl8wtXjzLnGQ5tySRmaDg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.10",
+            "url": "https://cdn.degate.com/degate/static/js/runtime.21a5c665.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:18 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 11 Nov 2021 12:18:37 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "W/\"618d0a1d-5f2\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "x-amz-cf-id": "kWrlboevnOkyS-gf_dE1G-2Wd5kPCUXE6Ch5TP-aMl6oLZM52AsS9g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.21",
+            "url": "https://backend.degate.com/log/r.gif",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "authorization": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/x-www-form-urlencoded",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "d=eyJwX2lkIjoiZGVnYXRlLWFuZHJvaWQiLCJ0IjoiIiwiZXZlbnRzIjpbeyJpZCI6NzAwMDEsInBhZ2UiOiJEZUdhdGVfaDUiLCJ0cyI6MTY3NDAwMzEzODg5MCwibG9nIjoicGVyZm9ybWFuY2UgMDogMTY3NDAwMzEzNDI3NS43IHtcImNvbm5lY3RTdGFydFwiOjE2NzQwMDMxMzQzNzAsXCJuYXZpZ2F0aW9uU3RhcnRcIjoxNjc0MDAzMTM0Mjc1LFwic2VjdXJlQ29ubmVjdGlvblN0YXJ0XCI6MTY3NDAwMzEzNDYxNyxcImZldGNoU3RhcnRcIjoxNjc0MDAzMTM0Mjc2LFwiZG9tQ29udGVudExvYWRlZEV2ZW50U3RhcnRcIjowLFwicmVzcG9uc2VTdGFydFwiOjE2NzQwMDMxMzUxMTksXCJkb21JbnRlcmFjdGl2ZVwiOjAsXCJkb21haW5Mb29rdXBFbmRcIjoxNjc0MDAzMTM0MzcwLFwicmVzcG9uc2VFbmRcIjoxNjc0MDAzMTM1MTIyLFwicmVkaXJlY3RTdGFydFwiOjAsXCJyZXF1ZXN0U3RhcnRcIjoxNjc0MDAzMTM0ODcxLFwidW5sb2FkRXZlbnRFbmRcIjowLFwidW5sb2FkRXZlbnRTdGFydFwiOjAsXCJkb21Mb2FkaW5nXCI6MTY3NDAwMzEzNTE0MSxcImRvbUNvbXBsZXRlXCI6MCxcImRvbWFpbkxvb2t1cFN0YXJ0XCI6MTY3NDAwMzEzNDM3MCxcImxvYWRFdmVudFN0YXJ0XCI6MCxcImRvbUNvbnRlbnRMb2FkZWRFdmVudEVuZFwiOjAsXCJsb2FkRXZlbnRFbmRcIjowLFwicmVkaXJlY3RFbmRcIjowLFwiY29ubmVjdEVuZFwiOjE2NzQwMDMxMzQ4NzB9In1dfQ==&",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Wed, 18 Jan 2023 00:52:19 GMT",
+                "server": "nginx/1.19.2",
+                "content-length": "29",
+                "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+                "content-type": "application/json;charset=UTF-8"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "19126A886B1B9530F165ACDAEA187F92",
+            "url": "https://backend.degate.com/log/r.gif",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "authorization",
+                "access-control-request-method": "POST",
+                "origin": "https://app.degate.com",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "authorization",
+                "access-control-allow-methods": "POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "1800",
+                "allow": "GET, HEAD, POST, PUT, DELETE, OPTIONS, PATCH",
+                "content-length": "0",
+                "date": "Wed, 18 Jan 2023 00:52:19 GMT",
+                "server": "nginx/1.19.2",
+                "vary": "Origin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.22",
+            "url": "https://cdn.degate.com/degate/favicon.ico",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:19 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 13 May 2021 08:06:50 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "W/\"609cde1a-10be\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "image/x-icon",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "x-amz-cf-id": "UJAoy7-Rgo-BSCRuIouVajQTwnY1wWOiqkGYS4684mLx1XB9rMPE7Q=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "1806.314",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Ping",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{}\n{\"type\":\"client_report\"}\n{\"timestamp\":1674003138.918,\"discarded_events\":[{\"reason\":\"network_error\",\"category\":\"session\",\"quantity\":2}]}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:19 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.24",
+            "url": "https://cdn.degate.com/degate/static/media/logo.c128b443.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:19 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 13 May 2021 08:06:50 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "W/\"609cde1a-8b55\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "x-amz-cf-id": "aS2E7McntOabpL5EqYkqaeCTMIq9jQbXbdnYSl4TSOZmrt-_FHgEMg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.25",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.26",
+            "url": "https://cdn.degate.com/degate/static/images/ge%20ren@3x.ab8a029a.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:19 GMT",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 13 May 2021 08:06:50 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "\"609cde1a-68f9\"",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "accept-ranges": "bytes",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "content-length": "26873",
+                "x-amz-cf-id": "d5kuEm0YhSZVOAJOBzN4X4eTOh0nGJZEgJiquLGZ3ad8PNvbEwbQNA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.27",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.29",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "13BCC093CB6B5C7A4019E5D91B77AE1B",
+            "url": "https://backend.degate.com/log/r.gif",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "authorization",
+                "access-control-request-method": "POST",
+                "origin": "https://app.degate.com",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "authorization",
+                "access-control-allow-methods": "POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "1800",
+                "allow": "GET, HEAD, POST, PUT, DELETE, OPTIONS, PATCH",
+                "content-length": "0",
+                "date": "Wed, 18 Jan 2023 00:52:19 GMT",
+                "server": "nginx/1.19.2",
+                "vary": "Origin\nAccess-Control-Request-Method\nAccess-Control-Request-Headers"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.31",
+            "url": "https://backend.degate.com/log/r.gif",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "authorization": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/x-www-form-urlencoded",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "d=eyJwX2lkIjoiZGVnYXRlLWFuZHJvaWQiLCJ0IjoiIiwiZXZlbnRzIjpbeyJpZCI6NzAwMDEsInBhZ2UiOiJEZUdhdGVfaDUiLCJ0cyI6MTY3NDAwMzEzODk3OSwibG9nIjoiaDUgcmVxdWVzdCBzZW5kaW5nIG90Yy9wYWlycz9kaXI9MiJ9XX0=&",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Wed, 18 Jan 2023 00:52:19 GMT",
+                "server": "nginx/1.19.2",
+                "content-length": "29",
+                "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+                "content-type": "application/json;charset=UTF-8"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "C17D5977F1E778C53B77D4A826E2FA64",
+            "url": "https://backend.degate.com/otc/pairs?dir=2",
+            "type": "Other",
+            "status": 503,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "locale",
+                "access-control-request-method": "GET",
+                "origin": "https://app.degate.com",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-length": "599",
+                "content-type": "text/html",
+                "date": "Wed, 18 Jan 2023 00:52:19 GMT",
+                "server": "nginx/1.19.2"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.32",
+            "url": "https://backend.degate.com/otc/pairs?dir=2",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.degate.com/",
+                "locale": "en-US",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.33",
+            "url": "https://cdn.degate.com/degate/static/images/%E8%83%8C%E6%99%AF%E5%9B%BE%E5%BD%A2@3x.cf191b52.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:19 GMT",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 13 May 2021 08:06:50 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "\"609cde1a-262b3\"",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "accept-ranges": "bytes",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "content-length": "156339",
+                "x-amz-cf-id": "cqRMPPNrXfQI3kUvkBTdgxukqVXIRbrJipshIzfqT6RfUOSJNDPIbw=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://cdn.degate.com/degate/static/js/00.runtime~253ae210.960d0c3d.chunk.js",
+                "https://cdn.degate.com/degate/static/js/main~748942c6.ebbb9307.chunk.js",
+                "https://cdn.degate.com/degate/static/js/runtime.21a5c665.js"
+            ],
+            "id": "1809.20",
+            "url": "wss://bridge.walletconnect.org/?env=browser&host=app.degate.com&protocol=wc&version=1",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "{\"topic\":\"e97a7153-537d-45ee-9346-ffe9e27b11b4\",\"type\":\"sub\",\"payload\":\"\",\"silent\":true}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.40",
+            "url": "https://backend.degate.com/log/r.gif",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "authorization": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/x-www-form-urlencoded",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "d=eyJwX2lkIjoiZGVnYXRlLWFuZHJvaWQiLCJ0IjoiIiwiZXZlbnRzIjpbeyJpZCI6NzAwMDEsInBhZ2UiOiJEZUdhdGVfaDUiLCJ0cyI6MTY3NDAwMzEzOTY4OCwibG9nIjoiaDUgcmVxdWVzdCBlcnJvcjogdW5kZWZpbmVkIHtcIm1lc3NhZ2VcIjpcIk5ldHdvcmsgRXJyb3JcIixcIm5hbWVcIjpcIkVycm9yXCIsXCJzdGFja1wiOlwiRXJyb3I6IE5ldHdvcmsgRXJyb3JcXG4gICAgYXQgTFlORi50LmV4cG9ydHMgKGh0dHBzOi8vY2RuLmRlZ2F0ZS5jb20vZGVnYXRlL3N0YXRpYy9qcy8wMC5ydW50aW1lfjJhNDJlMzU0LjY2ZjRlZjg5LmNodW5rLmpzOjE6MTcxMDAwKVxcbiAgICBhdCBkLm9uZXJyb3IgKGh0dHBzOi8vY2RuLmRlZ2F0ZS5jb20vZGVnYXRlL3N0YXRpYy9qcy8wMC5ydW50aW1lfjJhNDJlMzU0LjY2ZjRlZjg5LmNodW5rLmpzOjY6MTg4NDUwKVwiLFwiY29uZmlnXCI6e1widXJsXCI6XCJodHRwczovL2JhY2tlbmQuZGVnYXRlLmNvbS9vdGMvcGFpcnM/ZGlyPTJcIixcIm1ldGhvZFwiOlwiZ2V0XCIsXCJoZWFkZXJzXCI6e1wiQWNjZXB0XCI6XCJhcHBsaWNhdGlvbi9qc29uLCB0ZXh0L3BsYWluLCAqLypcIixcImxvY2FsZVwiOlwiZW4tVVNcIn0sXCJiYXNlVVJMXCI6XCJodHRwczovL2JhY2tlbmQuZGVnYXRlLmNvbVwiLFwidHJhbnNmb3JtUmVxdWVzdFwiOltudWxsXSxcInRyYW5zZm9ybVJlc3BvbnNlXCI6W251bGxdLFwidGltZW91dFwiOjMwMDAwLFwieHNyZkNvb2tpZU5hbWVcIjpcIlhTUkYtVE9LRU5cIixcInhzcmZIZWFkZXJOYW1lXCI6XCJYLVhTUkYtVE9LRU5cIixcIm1heENvbnRlbnRMZW5ndGhcIjotMX19In1dfQ==&",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Wed, 18 Jan 2023 00:52:19 GMT",
+                "server": "nginx/1.19.2",
+                "content-length": "29",
+                "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+                "content-type": "application/json;charset=UTF-8"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.41",
+            "url": "https://backend.degate.com/log/r.gif",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "authorization": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "application/x-www-form-urlencoded",
+                "accept": "application/json, text/plain, */*",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "d=eyJwX2lkIjoiZGVnYXRlLWFuZHJvaWQiLCJ0IjoiIiwiZXZlbnRzIjpbeyJpZCI6NzAwMDEsInBhZ2UiOiJEZUdhdGVfaDUiLCJ0cyI6MTY3NDAwMzEzOTg5NywibG9nIjoicGVyZm9ybWFuY2UgMTogZG9tTG9hZFRpbWU6IDQwMzQgMTY3NDAwMzEzNDI3NS43IHtcImNvbm5lY3RTdGFydFwiOjE2NzQwMDMxMzQzNzAsXCJuYXZpZ2F0aW9uU3RhcnRcIjoxNjc0MDAzMTM0Mjc1LFwic2VjdXJlQ29ubmVjdGlvblN0YXJ0XCI6MTY3NDAwMzEzNDYxNyxcImZldGNoU3RhcnRcIjoxNjc0MDAzMTM0Mjc2LFwiZG9tQ29udGVudExvYWRlZEV2ZW50U3RhcnRcIjoxNjc0MDAzMTM4OTA0LFwicmVzcG9uc2VTdGFydFwiOjE2NzQwMDMxMzUxMTksXCJkb21JbnRlcmFjdGl2ZVwiOjE2NzQwMDMxMzg5MDQsXCJkb21haW5Mb29rdXBFbmRcIjoxNjc0MDAzMTM0MzcwLFwicmVzcG9uc2VFbmRcIjoxNjc0MDAzMTM1MTIyLFwicmVkaXJlY3RTdGFydFwiOjAsXCJyZXF1ZXN0U3RhcnRcIjoxNjc0MDAzMTM0ODcxLFwidW5sb2FkRXZlbnRFbmRcIjowLFwidW5sb2FkRXZlbnRTdGFydFwiOjAsXCJkb21Mb2FkaW5nXCI6MTY3NDAwMzEzNTE0MSxcImRvbUNvbXBsZXRlXCI6MCxcImRvbWFpbkxvb2t1cFN0YXJ0XCI6MTY3NDAwMzEzNDM3MCxcImxvYWRFdmVudFN0YXJ0XCI6MCxcImRvbUNvbnRlbnRMb2FkZWRFdmVudEVuZFwiOjE2NzQwMDMxMzg5MDUsXCJsb2FkRXZlbnRFbmRcIjowLFwicmVkaXJlY3RFbmRcIjowLFwiY29ubmVjdEVuZFwiOjE2NzQwMDMxMzQ4NzB9In1dfQ==&",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Wed, 18 Jan 2023 00:52:20 GMT",
+                "server": "nginx/1.19.2",
+                "content-length": "29",
+                "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+                "content-type": "application/json;charset=UTF-8"
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.43",
+            "url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAACAAEDAREAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAC//EABQQAQAAAAAAAAAAAAAAAAAAAAD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AP/B//9k=",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/"
+            ],
+            "id": "1809.44",
+            "url": "https://cdn.degate.com/degate/favicon.ico",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:52:19 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 13 May 2021 08:06:50 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "W/\"609cde1a-10be\"",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "image/x-icon",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "x-amz-cf-id": "UJAoy7-Rgo-BSCRuIouVajQTwnY1wWOiqkGYS4684mLx1XB9rMPE7Q=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/login"
+            ],
+            "id": "1809.45",
+            "url": "https://cdn.degate.com/degate/static/images/%E4%B8%AD%E9%97%B4%E5%BD%A2%E7%8A%B6-1@3x.7938ac64.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:53:03 GMT",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 13 May 2021 08:06:50 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "\"609cde1a-5764\"",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "accept-ranges": "bytes",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "content-length": "22372",
+                "x-amz-cf-id": "flcLYWi0g6J2SvvdLF-h0wy_0CSJTrWB1w6KxktaP5-un9CajEoi1A=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/login"
+            ],
+            "id": "1809.46",
+            "url": "https://cdn.degate.com/degate/static/images/%E4%B8%AD%E9%97%B4%E5%BD%A2%E7%8A%B6-2@3x.801e5f8e.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://app.degate.com/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:53:03 GMT",
+                "via": "1.1 cddd3e95f67291463f7a95d065c7fcfe.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 13 May 2021 08:06:50 GMT",
+                "server": "nginx/1.19.2",
+                "x-amz-cf-pop": "DUS51-C1",
+                "etag": "\"609cde1a-7ba6\"",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "image/png",
+                "access-control-allow-origin": "*",
+                "x-cache": "Miss from cloudfront",
+                "access-control-allow-credentials": "true",
+                "accept-ranges": "bytes",
+                "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+                "content-length": "31654",
+                "x-amz-cf-id": "2cFMrFuMhto7cZ7olPdR3_JUcmJuOhAK9blioc2MPUwyqKZlhNJNLQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://app.degate.com/login"
+            ],
+            "id": "1809.50",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAnCAYAAAAVW4iAAAAAAXNSR0IArs4c6QAAAb9JREFUSA21lztLw1AUgM+5CRUUVFCwg4OjuBcLOnRR0E3FVR38H47+BB+LgpOoXQqKLha0otbBTXBREHep2NJCer0nkNCked2bmwNNcx/n+9KEnkMQNEShtJ6HtnXEEeYR4Do/Nr5RqRw2CW2k5ROcd6xbAF4UrJz4zDRbrcb311uN2IwOquHCOZ/uZXSBTzhj0zmR/Q6DI8IvstyBw1P6BVFww8Cl5/vTd0cgnolcxMEf78r2vXeoUgJZOEkSC1TgiQWq8ESCNPBYQVp4pEAHPFSgCx4o0AnvE+iGewRZwF1BVnBbkCWcBCZ1ItEsPPWcSi5VRX/hogTZYNTm+pIQd3XAicuoh/oFnPOd2bm1Zf+8ypgN5Ya3EbHuSeYwYPFuWYfELtel0tboX6dxI6684BEhtA1kq0+1i0vPvMTA7QdZSVwBXVQWEo8gC0mfQLckUKBTEirQJYkU6JDECtJKEgnSSBIL4iSAxspL7fyK9vWGlIASo/6MQRJpgaxESRAnQTCL9YezV9qn9H5AidXq8Y8o9YtBpR64tUl7KJQFlBwqAfykdYpUAgKQZGTQWGCIJwj4Iab2pybZHq1R/AOyqpX6PM4nqQAAAABJRU5ErkJggg==",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://cdn.degate.com/degate/static/js/00.runtime~253ae210.960d0c3d.chunk.js"
+            ],
+            "id": "1809.51",
+            "url": "wss://bridge.walletconnect.org/?env=browser&host=app.degate.com&protocol=wc&version=1",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "{\"topic\":\"9a706857-8e88-40d8-9c7d-fcb1b9903816\",\"type\":\"pub\",\"payload\":\"{\\\"data\\\":\\\"4b5f1e6d4f1364aa4580ec63ab076f3c0862b1ab926420ac36e4b9a03372396abc3445f667a6279b0292599bd4ba56f2ba34902452f22380353c53e05be9613d13d1b41761af5fd4f5772810e4aa279a5bec76a8982f79ab690d5d7a0e980df68e8c3ce1b74d30aa247ffc8b81108f73a60684572d5d1d8ae5d76ec49e4497b17c301bbc39cd8bb0fdada8b50f45790d297b52ab010f9edbe2e7e7eb21d7ea23b90c77519f019355b309024256bf2abcd51788231fc945a13513a1d626835617cb1c9422ba77f6c43cb1cde352a845fe07735ae7569ec9688f4daea15ad9abc6eb19621a60c1da4f3aed0e58827a6c67531a78112dac9cb0f6443f2efa38d98ec5ce032d9ad7892e587b7d2644b59c5ad2c7afde0d71534d248de272e7e0da4c\\\",\\\"hmac\\\":\\\"03040619474854853dd0e4e7b09fd51bbb01baa9ac864fa32cc589b1ed7c7395\\\",\\\"iv\\\":\\\"adc1e38911c75afd02e398e32ec961b8\\\"}\",\"silent\":true}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://cdn.degate.com/degate/static/js/00.runtime~253ae210.960d0c3d.chunk.js"
+            ],
+            "id": "1809.51",
+            "url": "wss://bridge.walletconnect.org/?env=browser&host=app.degate.com&protocol=wc&version=1",
+            "type": "WebSocket",
+            "method": "",
+            "headers": "",
+            "postData": "{\"topic\":\"5c1bdd8f-ddb3-471c-8b59-b3540b27ad58\",\"type\":\"sub\",\"payload\":\"\",\"silent\":true}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "BAA69527A25C393185637AC92C0E8A0B",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "content-type": "text/html",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.333",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/index.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.334",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/index-rtl.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.335",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.336",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/spinner.gif",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/gif"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.337",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/globalthis.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.338",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/sentry-install.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.339",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/runtime-lavamoat.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.340",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/lockdown-more.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.341",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/policy-load.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.342",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-0.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.343",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-1.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.344",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-2.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.345",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-3.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.346",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-4.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.347",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-5.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.348",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-6.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.349",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-7.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.350",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-8.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.351",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-9.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.352",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-0.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.353",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-1.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.354",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-2.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.355",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-3.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.356",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-4.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.357",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-5.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.358",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-6.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.359",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-7.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.360",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-8.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.361",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-9.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.366",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.368",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-18T00:53:11.341Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"cbd55bc4a04c456bb09c876dcb792993\",\"init\":true,\"started\":\"2023-01-18T00:53:11.340Z\",\"timestamp\":\"2023-01-18T00:53:11.340Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 00:53:11 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.565",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "1806.566",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        }
+    ],
+    "cookies": [],
+    "success": true,
+    "connected": false,
+    "connect_label": "",
+    "metamask_label": "",
+    "checkbox_clicked": false,
+    "signature_request": false,
+    "switch_network": false
+}

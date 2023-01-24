@@ -1,0 +1,2283 @@
+{
+    "url": "https://umi.finance/liquidity-farm",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://umi.finance/liquidity-farm",
+        "walletPath": "metamask-chrome-10.22.2",
+        "destination": "../results/dapps/crawl",
+        "force": false,
+        "executablePath": "/Users/christof/.cache/puppeteer/chrome/mac-1056772/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    },
+    "timestamps": {
+        "start": 1674513999005,
+        "end": 1674514096473
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "66310.82",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "66310.255",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:44.400Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"c4e5fd4cd3694f5ab63535069dc03a89\",\"init\":true,\"started\":\"2023-01-23T22:46:44.399Z\",\"timestamp\":\"2023-01-23T22:46:44.399Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:44 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "2",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "66310.283",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html"
+            ],
+            "id": "66310.284",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "66310.285",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:47.139Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"c4e5fd4cd3694f5ab63535069dc03a89\",\"init\":false,\"started\":\"2023-01-23T22:46:44.399Z\",\"timestamp\":\"2023-01-23T22:46:47.139Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "66310.286",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:47.141Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f4c636c5b6ec4f2b8ea464c23cf4abb7\",\"init\":true,\"started\":\"2023-01-23T22:46:47.138Z\",\"timestamp\":\"2023-01-23T22:46:47.138Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "66310.98",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Regular-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "66310.100",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/welcome"
+            ],
+            "id": "66310.287",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "66310.289",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:47.262Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"f4c636c5b6ec4f2b8ea464c23cf4abb7\",\"init\":false,\"started\":\"2023-01-23T22:46:47.138Z\",\"timestamp\":\"2023-01-23T22:46:47.261Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "66310.290",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:47.263Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8d5bb86409c44e0ba815c5f934e38910\",\"init\":true,\"started\":\"2023-01-23T22:46:47.261Z\",\"timestamp\":\"2023-01-23T22:46:47.261Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "66310.292",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/metrics-chart.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "66310.86",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-solid-900.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/metametrics-opt-in"
+            ],
+            "id": "66310.101",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Euclid/EuclidCircularB-Bold-WebXL.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "66310.293",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:47.321Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"8d5bb86409c44e0ba815c5f934e38910\",\"init\":false,\"started\":\"2023-01-23T22:46:47.261Z\",\"timestamp\":\"2023-01-23T22:46:47.320Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "1",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/select-action"
+            ],
+            "id": "66310.294",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:47.322Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a96d81f3d6d6499cb5ddff389e100738\",\"init\":true,\"started\":\"2023-01-23T22:46:47.320Z\",\"timestamp\":\"2023-01-23T22:46:47.320Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "66310.296",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:47.349Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a96d81f3d6d6499cb5ddff389e100738\",\"init\":false,\"started\":\"2023-01-23T22:46:47.320Z\",\"timestamp\":\"2023-01-23T22:46:47.348Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "66310.297",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:47.350Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"e03a4ee7b7334f0291dec0acf38a146e\",\"init\":true,\"started\":\"2023-01-23T22:46:47.348Z\",\"timestamp\":\"2023-01-23T22:46:47.348Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:47 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-error, x-sentry-rate-limits, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "66310.94",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/Roboto/Roboto-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/create-password/import-with-seed-phrase"
+            ],
+            "id": "66310.89",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/fonts/fontawesome/fa-regular-400.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "66310.304",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:50.245Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"e03a4ee7b7334f0291dec0acf38a146e\",\"init\":false,\"started\":\"2023-01-23T22:46:47.348Z\",\"timestamp\":\"2023-01-23T22:46:50.244Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:50 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, x-sentry-error, retry-after",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#initialize/end-of-flow"
+            ],
+            "id": "66310.305",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:50.246Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a2f48074b1724dda9b0d824cca18526f\",\"init\":true,\"started\":\"2023-01-23T22:46:50.244Z\",\"timestamp\":\"2023-01-23T22:46:50.244Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:50 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-error, x-sentry-rate-limits",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "695C8D4B61AC19F1239D1680AB4AEF70",
+            "url": "https://umi.finance/liquidity-farm",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "age": "0",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "content-encoding": "br",
+                "content-length": "1342",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Mon, 23 Jan 2023 22:46:50 GMT",
+                "etag": "\"5178a0bdfa9fe5d5423abd09024908b6-ssl-df\"",
+                "server": "Netlify",
+                "strict-transport-security": "max-age=31536000",
+                "vary": "Accept-Encoding",
+                "x-nf-request-id": "01GQGD04DQ06M7R1MGBSKY0FKP"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "66310.307",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:50.292Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"a2f48074b1724dda9b0d824cca18526f\",\"init\":false,\"started\":\"2023-01-23T22:46:50.244Z\",\"timestamp\":\"2023-01-23T22:46:50.291Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:50 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "66310.308",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:46:50.292Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1d93b97431054b5d8d57a60d43e77ee1\",\"init\":true,\"started\":\"2023-01-23T22:46:50.291Z\",\"timestamp\":\"2023-01-23T22:46:50.291Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:50 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "x-sentry-rate-limits, retry-after, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "66310.310",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/eth_logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.2",
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://umi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:50 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "strict-transport-security": "max-age=15780000",
+                "age": "358050",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "5631",
+                "last-modified": "Mon, 04 May 2020 16:10:07 GMT",
+                "server": "cloudflare",
+                "cf-cdnjs-via": "cfworker/kv",
+                "etag": "\"5eb03e5f-7918\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=9dnjfYastT0iIC7ZTVGIYpoS4q85%2B6GP9lzlkLTPagIiNFhYzEY1XAnZgK79dAQcYUmr2q%2Fup6JZWmIgPhAN0c0rMyHrj8FYhrpaHeoDU%2B1PlcGA5Tt4nVprEOuadPOm12QST5OV\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "text/css; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=30672000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "cf-ray": "78e4115728e001f8-ZRH",
+                "expires": "Sat, 13 Jan 2024 22:46:50 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.3",
+            "url": "https://umi.finance/static/css/2.cf8bf117.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://umi.finance/liquidity-farm",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQGD04JK8GPZY2ARRMB9SJ9H",
+                "date": "Mon, 23 Jan 2023 22:46:50 GMT",
+                "content-encoding": "br",
+                "strict-transport-security": "max-age=31536000",
+                "server": "Netlify",
+                "age": "0",
+                "etag": "\"2470999b96db2cd9c82fc0c062a0377b-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "content-type": "text/css; charset=UTF-8",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.4",
+            "url": "https://umi.finance/static/css/main.40eaca7a.chunk.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://umi.finance/liquidity-farm",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQGD04JKZ77CCN8FG5ZM6M1Z",
+                "date": "Mon, 23 Jan 2023 22:46:50 GMT",
+                "content-encoding": "br",
+                "strict-transport-security": "max-age=31536000",
+                "server": "Netlify",
+                "age": "0",
+                "etag": "\"c90f677ca1567775ba3341f1e4a16ad8-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "content-type": "text/css; charset=UTF-8",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.5",
+            "url": "https://umi.finance/static/js/2.a6d1e8a8.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://umi.finance/liquidity-farm",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQGD04N8T65R28DX610KEQQT",
+                "date": "Mon, 23 Jan 2023 22:46:50 GMT",
+                "content-encoding": "br",
+                "strict-transport-security": "max-age=31536000",
+                "server": "Netlify",
+                "age": "2",
+                "etag": "\"f204f9887b18ba1a55fa37e5ada85fe5-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "content-type": "application/javascript; charset=UTF-8",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.6",
+            "url": "https://umi.finance/static/js/main.33f8bcc0.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://umi.finance/liquidity-farm",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQGD04R1MF41P2K1HFQ929JX",
+                "date": "Mon, 23 Jan 2023 22:46:51 GMT",
+                "content-encoding": "br",
+                "strict-transport-security": "max-age=31536000",
+                "server": "Netlify",
+                "age": "1",
+                "etag": "\"3d45509a4f6c2a8d312074247994ef4b-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "content-type": "application/javascript; charset=UTF-8",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.10",
+            "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://umi.finance/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "strict-transport-security": "max-age=31536000",
+                "date": "Mon, 23 Jan 2023 22:46:50 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "x-xss-protection": "0",
+                "last-modified": "Mon, 23 Jan 2023 22:46:50 GMT",
+                "server": "ESF",
+                "cross-origin-opener-policy": "same-origin-allow-popups",
+                "x-frame-options": "SAMEORIGIN",
+                "content-type": "text/css; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+                "timing-allow-origin": "*",
+                "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+                "expires": "Mon, 23 Jan 2023 22:46:50 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.13",
+            "url": "https://umi.finance/static/media/umi-logo.e2d5bdc6.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://umi.finance/liquidity-farm",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQGD05C7R3K8E6SQ75GGKPR7",
+                "date": "Mon, 23 Jan 2023 22:46:51 GMT",
+                "content-encoding": "br",
+                "strict-transport-security": "max-age=31536000",
+                "server": "Netlify",
+                "age": "0",
+                "etag": "\"287d3cdc40043f7308068df996aada28-ssl-df\"",
+                "vary": "Accept-Encoding",
+                "content-type": "image/svg+xml",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.14",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.15",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.17",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAANqADAAQAAAABAAAANgAAAADzQy6kAAADuUlEQVRoBe2ay2sTURTG82qbRJIgSEGQ2uJGqIjFhQhWKLq1O3f+eW7EXUVciaAFkSKIUOrGtoggFEVMMI/m5e9IAtNz70znTlJ7ixMYZu655/F958ycm7lJJpN+zlYGsicFdzgc5trt9iX8L2Wz2SpHZTAYZDg3mKsj3ysWi18ZD04Cw9SJAbrU6XTuQOIGoM9FgUb3dy6X+zA3N7eJbitK13VuqsSazeYtAK4BougIpA3JV+Vy+Z2jXaj6VIgBqnB4eLhOla6HRooxQfU+zs7ObpCcXgz1SJWJiUEq3+12H/X7/aWwSKNbTp6rDOTleQu9RfP5/N7MzMxjdPph/uLIJyZGg3gA8Js6GNlvc7xttVrb1Wr1e3C+Xq9fKJVKy5C8zWHctpB6T2N5FrRxvZ6IGE1CwD3UQSH6CeBySzX1XHCMXhni6+hdDcrlmqQ8palsa3nccS6uotYDVJ7jvpYDcgtST44jJXaiM9Ld0n7Et8TQ8rjjxMR4rlYIfF4F2iXLLwA8VPLQoeiKDQq7QSXxTZddCcpcrhMTo1lcU4EGkH0OUOcFV2zEFn9HbLkddQwVMnyYiBjZLOPyctAtMmkSP4Iyl2uxFR9BG4gtjGIFxbGuExGjaVzE+5HGQ5veiRUxQkn7oDHlRrEirOxTiYiRyYp2R3f7pmWuY5sPW6w4fhMR4/kyiNVqtUacgFE6Nh+2WFE+xnOJiGFcGDsYn2kAk38NsvswYo1jRp2TEovy6cVcSsyLMjiASCvmkCwvVI/tOKz8eV5NFlg85+l8pV6vJwvzokbPGrSmZVMaL4rvQqEAlGGL9n/AK80XsES+rx359qCBQOgKq7+8VtT03GmOIfiLhXsDgp/DcIQSI0v3MFoNM/RE/obXnpc2LNbmIZU6A6SEz+oIq8HNICbPlNx+hqanAsEqmDU8g5g0Ct+eKQ06OBasgjkok2uDmHQ/reT72IbZIEYGSr4T0fhsmA1io3VK23o9tmE2iHnNwAFcSswhWV6ophXzogwOINKKOSTLC9W0Yl6UwQFEWjGHZHmhmlbMizI4gPh/KsY2V8chMV6o2jAbFWMP4acXaB1A2DAbxPhnzB57dl0Hv6eqKlgFswZhEOM1u81uq3WvThv7MBasglljMYiJApuQ8metfbn2/LM/wmrADN0JZq+uwLbWXUotf9GzJsDw9o8EYALSYJMt7tdUy/pLaiixMcZGozFP11nG2d8fJSj9sTZj22me2WIj18MWhA7YvNmuVCoH0/Sf+jrtDPwBpkpfAbxZxEoAAAAASUVORK5CYII=",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.18",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAANqADAAQAAAABAAAANgAAAADzQy6kAAAExElEQVRoBe2a32sUVxSAndlNsjEm3caY2peW0qgP2hpDRaWJKG0hpZS2D6Wg0Gf/pP4BKqgPIlQMaElBivFnKySIqIX2oUKpJk1NN5vdzfqdZO4y3ezMPbs7N5tNHVjuzD3nnnO+e+69c2dmvS2Oj7m5ude7u7s/Xl5efldc+b7/JJfLXctms7MuXXsujZfL5V4gTnme1xP2Q/0CsN9R/0+4PslzP0lj1baWlpY+qYYSHakTWbV+ktfOwMjKdobfe1HBikx0ouTN1jsDYwgeJbi4oe6RNdFxcjgBIxP9qVQqMluGhKy9L7rmOsnSCRiZGCNojW3J2liSQMaWxrnRVZWyvAO1X6W8qrRf2tShr1JNHCyTyYziWW1XMkubxLOmDkDTTcyXLEv5sEY3rEO7YWkbrmv2PFGwfD4/SgZSDQTlS9sG2kU2SQyMHu/jdyDSk0VApg/Q/jWLmlqcGFjQ441kayVYyTQ2PlRHblFMBIye7qXHRyy+rGKxIZm3KioUmgYjkOzi4uJX9Hha4S9WRWwUCoUvxWasokIYt+WpNMdRhot+bqay/9vOo0d/qOyuKCZ4go8cPp5TPjNlZ2fnM1w8J7OLNlcVMIKX80GCHzCBS/AY6Uf2n8cOm1HXcmJaIKZq6L/w+yeysvhfAWPS7iuVSuNUbnMdlEv7wL5gjzrR1dU17TE/dlNxwqXD9bZNgs76QDl7dFhvIONPmJhO/humYrOUwuQzt/7dLECGQ5j8jo6On03FZimFyU+n09cB+nWzQAmLMK0s90y2DlbHb6gcanPAxzzbnWNVLIRv0Gluzl9zU97TjnAsGA/ZmVwAqijxV/aKUoHgPNl70G5gErPEbqAk/krGDAxKKTInm9p9pm4jl2RqGqiLQJXCca4BEyFwPnBfAFfPS5mw3XU5B+o+UJeAWq52WBNMlAK4z4Fr+Km42lmS18DcY0/4fS0o8RMJJkLgPDbIn1F+INcb5QDmDlCXKVd28rXiigUzDbgVfArcIXPdyhKYmyzpV2wxqMDECHDjwB22GXQpB2oKqAmNj8pyb1Mm9VfRydv0HMrzQQwqF2owekuW08gxrfLWnFI5iEFlRQ3GMOzForz7aNWRIQb1Gyw1GKvjYKuIjF9i2GHObaUajHcJLQerJwY1GDfqloPVE8P/G4xJ67EvU49v2/hvVC4xSCya9tqMZRkGnRqDLnWCGFSvv1VgG2FFNB2mjUUFRvpbvnAYMO3K2HZgfI1RdbLq0w+TdpCsmU6rq6TtEnNDNq9T0pDN9CHqjjQ6ZyUWTQBWMIB8ghnQGKvSKbG3u80T7nXKhZBsEpu3mCtjlAepr+srKG0G+PnYXPPUHPKxxQqG8tY6nZfp1V8A+hHnf4edmfMAdIIAb/AK4hjZk38aqJbxIBaJ6YWxV6vUgBVqNaxVB9AMmZjs6+uTb1XWIwC/ND8//xOPJMcB3GtttKpgjUnVS/zh6yT2dsU4lReVPxDo0xgdq4gMvsmw/wjFoShlOu8RnXAmSm7qVWD06ACvjb8l8OrHht8DoN+MwSRKAN8OAN8K28P/LFCnKeWTbeyhAhMLOOspFosjDJednMs34BmgnL7zZ6S8A8QQP/l/1h/4u8t5LpbolbBNe+AlGtUNCZ59j2EAAAAASUVORK5CYII=",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.19",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAANqADAAQAAAABAAAANgAAAADzQy6kAAADQElEQVRoBe1aPW8TQRCNzz7bZyWiSUE6GqRIIAQCIVHQQAUNdX4haSlpaCiQaJAQSCB6QFEaw2HrfP7gTeSgY3U7+zFz4GItRdnbnXnz3n7d7th7e+mTeiD1QJc90OsSfLPZEP7RYrE4zLJsn2Kt1+tyOByeo/it1+ttqK6LTyfCIGi/qqqHEHED5C8EmeRhU0Lsx9Fo9Bo2pdkufVYXVtf1g+Vy+QjEck9y9WAweJXn+RtPey8zNWEYgT6m3DOM0i2vyIYRRu89pugLjN7KaIp6zKK8Wpww9Z7GiiI48gXGkxboqCoVYRip2xixu1EMGk7AuEdYjaroolgYyORYU4+jGRiOhEWYRnXwo1jYfD6/g3VxEBzZ4kBYhGlp9q4WC8OOduwdzdNQA1MkDFNmsFqtrnny9TYjTML2dmgxFAmbTqc0BUUYLZyoKttiW5rd1SJSeO+0nircYd0WUmyRsKIoFm6KcRZSbJEwUFY/4zW64WejHFwUCcPW/AuL/EdwVIcDYQJ75jBjm0XCCBlnvM9shIhGDUyxMFw73kVwZ100MMXCMGW+0r2KZRrQSFiEGeDSaioWRqjYml9iXYg3EsIgrFamgZUqwtDDtIGc4q8OjN80J9/TLVazPqqsdtGk6OjxqzjAnoDclRA28JvivfUcft9D/DhbVWEUCCQLyneA5H1cHtnzHtbTEvZvt3mPOUc0tE1d2CUBED6YzWbHOKlfR/kQQi+OXyiXKJ/j3vVlMpl8Qln0Ir6Ml/6nHkg98G97IHrzwCZAvn/S19gMRhrUsdlU2E3FafBgYRDkTF9rCCQM2kHpiBWTBg8SFpG+1tIYnAb3EoaeE6WvtdRh9LzT4F5nRWn6WktYSBrcKUwrfa0lDrPHKw3OCgOIavpaS5xPGpwVpp2+1hKG86UzDc4K00g1a4kxcVzcrMIwDTtJX5sEY59daXCrsA7T17FaTD82DW4VJk0xmyy6eOY4WoVhgbK33y6IhmJyHK3CQoPsmn0Stmsj4uJjHbHxeFy5nP93O8fRKgykz7A46TdPO/nZcjuzkWOvLXhJF7iD3cTLsLNvLm3EuPp+v1/iJ0ofIE41F8nFTG2pB1IP/N0DvwHVIksoO2SdIwAAAABJRU5ErkJggg==",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.20",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAKaADAAQAAAABAAAAKAAAAAD9QK3vAAABIklEQVRYCe2SzUrDQBSF506yclEKlWJNKB2qSJdd+DR9woJtHyHgK+hGQVA7ZKerLiz5uU7oppRkJmbAbk5Wk3vuvefMxwiBDwRAAARAAARAAARAAAS6E6Duo4fJJEnCyeTuRkoenO5iFlwUpKfT689T7S//3iG323RRlnxrMyUKHsbjq2dbj02TNtGlMXPoCljtICqtl3D5eIUkolxK0i4TIYI3d09zh1fIau1uV24Mq32ThbnEaxwPn5r0NnXvkLNZ/BWGvK4zMwG/83y/NsS5Tm9b8w5ZGUVR9GLe5+OxqQmWZVmwVEr9HNe7nIMuQ3Uz/X7vYz6/vxSChyZwwUwrpUbvdb1nr2mtB2maXpw9CAKAAAiAAAiAAAiAAAj8B4Ffo31GYJOKLzQAAAAASUVORK5CYII=",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.23",
+            "url": "blob:https://umi.finance/bafa3412-7957-4fa7-a173-efb1d64ae38d",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-length": "0",
+                "content-type": "application/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.24",
+            "url": "https://umi.finance/favicon.ico",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://umi.finance/liquidity-farm",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQGD05CB426NWH5K9HPS9NFE",
+                "date": "Mon, 23 Jan 2023 22:46:51 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "server": "Netlify",
+                "age": "0",
+                "etag": "\"c8012ca0924a9fe61825c19e781db3ac-ssl\"",
+                "content-type": "image/vnd.microsoft.icon",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes",
+                "content-length": "15406"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.44",
+            "url": "https://umi.finance/static/media/samurai-bg.eb7f2e09.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://umi.finance/liquidity-farm",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQGD05CC3ATBT3GE6X730YHK",
+                "date": "Mon, 23 Jan 2023 22:46:51 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "server": "Netlify",
+                "age": "0",
+                "etag": "\"90240225924d98dc1aae8b8582d9e567-ssl\"",
+                "content-type": "image/png",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes",
+                "content-length": "111926"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.45",
+            "url": "https://umi.finance/static/media/bg-image.5f92a36a.jpg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://umi.finance/liquidity-farm",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQGD05DJSF850SN89ARFCBWH",
+                "date": "Mon, 23 Jan 2023 22:46:51 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "server": "Netlify",
+                "age": "0",
+                "etag": "\"0a772b55f3b6c9fd162cf11e81cdf8d2-ssl\"",
+                "content-type": "image/jpeg",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes",
+                "content-length": "35906"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.39",
+            "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://umi.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 17 Jan 2023 07:01:29 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "575122",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "7748",
+                "x-xss-protection": "0",
+                "last-modified": "Wed, 27 Apr 2022 16:10:09 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Wed, 17 Jan 2024 07:01:29 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.30",
+            "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1xlFd2JQEk.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://umi.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 18:36:48 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "447003",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "7932",
+                "x-xss-protection": "0",
+                "last-modified": "Wed, 27 Apr 2022 16:05:25 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Thu, 18 Jan 2024 18:36:48 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.42",
+            "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://umi.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sat, 21 Jan 2023 21:07:13 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "178778",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "8000",
+                "x-xss-protection": "0",
+                "last-modified": "Wed, 27 Apr 2022 16:59:03 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Sun, 21 Jan 2024 21:07:13 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.25",
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+                "origin": "https://umi.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:46:51 GMT",
+                "strict-transport-security": "max-age=15780000",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "age": "1478747",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "content-length": "77160",
+                "last-modified": "Mon, 04 May 2020 16:10:07 GMT",
+                "server": "cloudflare",
+                "cf-cdnjs-via": "cfworker/kv",
+                "etag": "\"5eb03e5f-12d68\"",
+                "vary": "Accept-Encoding",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=5vX6gWb3V69nKOddMnVN3tz65DeW0MWnYq00fB1tMRoOMGs2p6H%2BlJE889ygNyj1dGDHvTC0%2BFqK1toORlsuNMUx3jDdJlW%2BobqFCPv93qa7jOFCx01CCNp3uaGnM%2F0tKLCwIrdD\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "content-type": "application/octet-stream; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=30672000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "cf-ray": "78e4115c6a8123f7-ZRH",
+                "expires": "Sat, 13 Jan 2024 22:46:51 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.33",
+            "url": "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFd2JQEk.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://umi.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Thu, 19 Jan 2023 04:56:59 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "409792",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "7840",
+                "x-xss-protection": "0",
+                "last-modified": "Wed, 27 Apr 2022 16:05:46 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Fri, 19 Jan 2024 04:56:59 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.36",
+            "url": "https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "https://umi.finance",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Wed, 18 Jan 2023 09:58:30 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "478101",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                "content-length": "7884",
+                "x-xss-protection": "0",
+                "last-modified": "Wed, 27 Apr 2022 16:07:00 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Thu, 18 Jan 2024 09:58:30 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.46",
+            "url": "https://umi.finance/favicon.ico",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://umi.finance/liquidity-farm",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-nf-request-id": "01GQGD05Q8YRKTPZW8NS1TB26K",
+                "date": "Mon, 23 Jan 2023 22:46:51 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "server": "Netlify",
+                "age": "0",
+                "etag": "\"c8012ca0924a9fe61825c19e781db3ac-ssl\"",
+                "content-type": "image/vnd.microsoft.icon",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "accept-ranges": "bytes",
+                "content-length": "15406"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.47",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAEqADAAQAAAABAAAAEgAAAACaqbJVAAABEUlEQVQ4Ea2UsW7CMBCGz+eBB2JmRGLszsTUuQsbElIHJJbOTLCwM1Zi7FMxOCafi1ESbCeR8JBEvv//fD47Zza709SI+/JWD9/r1Z+MGJv9cWZc9enF/miAiF9K5a7b/XExlBO0tcfXXhhKJmLkJl4mrnKXITA0aPHghaFsx6r9GArrQvDCMHErKcF2vfqNcd4lzRPUJyxB8LZAORjzzZqwnW62L6AUjLlY2BSEcBJEoLWVf+UtByGsPN4xkhm1suGOMR53JpfVC6gLwQhnVLFTkHg6pRgLPTPqEyIuaQKoJADQHDmtoRXw5/cVswQTtXOln4yBAKRu4RAeXQOG0pSMmDPUWNjm6rnvoK09eGHcAfCiEf7Gi2ZeAAAAAElFTkSuQmCC",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/liquidity-farm"
+            ],
+            "id": "66311.48",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/"
+            ],
+            "id": "66311.53",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/"
+            ],
+            "id": "66311.54",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/"
+            ],
+            "id": "66311.55",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "https://umi.finance/"
+            ],
+            "id": "66311.56",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/home.html#"
+            ],
+            "id": "01E3ED6B7AFAD5E66DA234B06A5E68B7",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "content-type": "text/html",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.327",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/index.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.328",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/index-rtl.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.329",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/logo/metamask-fox.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.330",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/images/spinner.gif",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "image/gif"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.331",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/globalthis.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.332",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/sentry-install.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.333",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/runtime-lavamoat.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.334",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/lockdown-more.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.335",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/policy-load.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.336",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-0.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.337",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-1.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.338",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-2.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.339",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-3.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.340",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-4.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.341",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-5.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.342",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-6.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.343",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-7.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.344",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-8.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.345",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/common-9.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.346",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-0.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.347",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-1.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.348",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-2.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.349",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-3.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.350",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-4.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.351",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-5.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.352",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-6.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.353",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-7.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.354",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-8.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.355",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/ui-9.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.360",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/react-gallery/carousel.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "if-modified-since": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.362",
+            "url": "https://sentry.io/api/273505/envelope/?sentry_key=3567c198f8a8412082d32655da2961d0&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2023-01-23T22:47:40.628Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.13.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"de1a71404778436db6380c85c389ecf0\",\"init\":true,\"started\":\"2023-01-23T22:47:40.626Z\",\"timestamp\":\"2023-01-23T22:47:40.627Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"10.22.2\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 22:47:40 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "server": "nginx",
+                "vary": "Origin",
+                "content-type": "application/json",
+                "access-control-allow-origin": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh",
+                "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+                "x-envoy-upstream-service-time": "0",
+                "connection": "keep-alive",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.559",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/notification.html"
+            ],
+            "id": "66310.560",
+            "url": "chrome-extension://glepecflakcnfpeedbnclfdcabngidkh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "frame-ancestors 'none'; script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 13 Jul 2016 22:00:00 GMT",
+                "etag": "\"gPLYIMUa/KmKEIA9gAMAi0BgfrQ=\"",
+                "content-type": "application/json"
+            }
+        }
+    ],
+    "cookies": [],
+    "success": true,
+    "connected": false,
+    "connect_label": "Connect wallet",
+    "metamask_label": "",
+    "checkbox_clicked": false,
+    "signature_request": false,
+    "switch_network": false
+}

@@ -1,0 +1,3233 @@
+{
+    "url": "https://dashboard.purefi.io/",
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "secs": 30,
+        "url": "https://dashboard.purefi.io/",
+        "walletPath": "metamask-chrome-10.22.2",
+        "destination": "../results/dapps/crawl",
+        "force": false,
+        "executablePath": "/Users/christof/.cache/puppeteer/chrome/mac-1056772/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+    },
+    "timestamps": {
+        "start": 1674509282613,
+        "end": 1674509916448
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "1E5447C14E57B3280C4EDB348C013526",
+            "url": "https://dashboard.purefi.io/",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "accept-ranges": "bytes",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "content-encoding": "gzip",
+                "content-length": "2616",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Mon, 23 Jan 2023 21:28:41 GMT",
+                "etag": "\"417e50b3326bd1bde86ed4d857e5371f\"",
+                "last-modified": "Sat, 03 Dec 2022 11:04:50 GMT",
+                "server": "AmazonS3",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "x-amz-cf-id": "od4E-1BJJM9ecR8CPTTQ-JFKdHSK3GI-Cj3mmiQdABOty3afdD772g==",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-amz-meta-etag": "QX5QszJr0b3obtTYV+U3Hw==",
+                "x-cache": "Miss from cloudfront"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.2",
+            "url": "https://purefi.io/js/script.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Sun, 22 Jan 2023 21:56:14 GMT",
+                "content-encoding": "br",
+                "x-content-type-options": "nosniff",
+                "via": "1.1 aa001e3127bb5bd7bbc48bc4fef44b78.cloudfront.net (CloudFront)",
+                "cdn-edgestorageid": "1080",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "age": "84746",
+                "x-cache": "Hit from cloudfront",
+                "cdn-cachedat": "01/22/2023 10:07:08",
+                "cdn-pullzone": "682664",
+                "cross-origin-resource-policy": "cross-origin",
+                "application": "10.0.0.6",
+                "server": "BunnyCDN-DE1-1077",
+                "cdn-proxyver": "1.03",
+                "cdn-requestpullcode": "200",
+                "vary": "Accept-Encoding,Accept-Encoding",
+                "content-type": "application/javascript",
+                "access-control-allow-origin": "*",
+                "cdn-cache": "HIT",
+                "cdn-uid": "153cb5b1-399a-48ef-b5bf-098c03770254",
+                "cache-control": "public, must-revalidate, max-age=86400",
+                "permissions-policy": "interest-cohort=()",
+                "cdn-requestid": "500afcf06b4474bd0a0e5481699bf60b",
+                "cdn-requestcountrycode": "DE",
+                "cdn-status": "200",
+                "x-amz-cf-id": "HA6jfTuFwOe4fpsvZxUmz4W7czBwSifEGkijvXkw2lae-bM8xP2R-g==",
+                "cdn-requestpullsuccess": "True"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.3",
+            "url": "https://dashboard.purefi.io/static/js/main.0d2eb7ee.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Wed, 23 Nov 2022 09:11:30 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"1cb8b8dea62f0fe1a6696f84ed86dc3e\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "RefreshHit from cloudfront",
+                "content-type": "application/javascript; charset=UTF-8",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "accept-ranges": "bytes",
+                "content-length": "1527584",
+                "x-amz-cf-id": "i8f_2rantpY_xJkSnSNx1u-Msrk1tsX6rArQ_-evM0g2Ipegjlpx1w==",
+                "x-amz-meta-etag": "ZwT600tnT6+mNDFIcUKa+Q=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.4",
+            "url": "https://dashboard.purefi.io/static/media/action-back.8da17b463ec990caae230f50ae684afb.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"f43b712465f37a531c86867f2af20996\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "320",
+                "x-amz-cf-id": "0l398jh2dJ70RGqDVS1BBSFxYmWz375BI_r7y-5nIhWZ7dk7pJ7UDg==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.5",
+            "url": "https://dashboard.purefi.io/static/media/action-copy.066d5cfc19b81950e6a82385e33afaaa.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"7597c286efb2cf94473ee7a22b461de6\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "599",
+                "x-amz-cf-id": "zRJMXXA_rTEa8-JGiS5u5B35dP7-LtB6rCAxeyKDEltU5vPMM4zHXA==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.6",
+            "url": "https://dashboard.purefi.io/static/media/action-edit.e8ba05d2deefab2f6f57e72db469d41f.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"8471d6faae02f89b00cb181638966784\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "495",
+                "x-amz-cf-id": "y_GOqCz-QAp-eUoSwsfJqncOc-J1Rtry5Wkdpjv6EcB9ztsqKAEBbQ==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.7",
+            "url": "https://dashboard.purefi.io/static/media/action-exit.23413e38c2d77ec396ad160d0aa53827.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"dffaf8edf2cc8c1da180b076beb28143\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "364",
+                "x-amz-cf-id": "dsKecgTGavt5xmMAC1k2mZmupVOCczwmnN9gdovlKXdY9qtGd2FhbQ==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.8",
+            "url": "https://dashboard.purefi.io/static/media/action-expand-not-fill.32a9598ec44ca91422c2c85311e5781b.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"a431301ed7c4a4da22c7547f4c93a1a3\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "268",
+                "x-amz-cf-id": "XLMnED9ThKM5vFreTd-CpytXYa8ZjcPZ2EWOSNKGo1_QJxCtC1ewkA==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.9",
+            "url": "https://dashboard.purefi.io/static/media/action-expand.2970d2740e45259b87717dadc69e7e48.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"079f9cfecc48ef54941e60c0ea1b02af\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "285",
+                "x-amz-cf-id": "5feSp0Nta_SSFAzpHSmMK4d2R4SKNErWDDaUMXyck4bKkqsPVq5zLA==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.10",
+            "url": "https://dashboard.purefi.io/static/media/action-go-white.aca412ee7a5146179fc0a0158c490841.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:22 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"f4e2297d1bf3c4ff35394068ed0aefe3\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "545",
+                "x-amz-cf-id": "2Nlo8nra2U82WiqNbk2h5Rlneth23VoeM73LzOwX1t0e5KvcsXzHxQ==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.11",
+            "url": "https://dashboard.purefi.io/static/media/action-go.e7687c286c49bdfd1254e53fac5ac148.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"829fefdd0d55ea3b38792c2fa3a5b7ec\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "545",
+                "x-amz-cf-id": "pphaQpjJQg7JYL82A6spNxNVvrTzyLVE93YNg3zJVS_brYGwjDcMTw==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.12",
+            "url": "https://dashboard.purefi.io/static/media/action-info.769c659e138d27989535cd06fb8ca5ba.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"2772239529cb49e41032147244ec63a5\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "296",
+                "x-amz-cf-id": "tjssi-8z0SwSZLLh-HUjaS3WmMQAcccveDwn53-8v0keXxaBB5a4BQ==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.13",
+            "url": "https://dashboard.purefi.io/static/media/action-plus.74f9f1fa7c4fb856f6bd21f583a5aca2.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"10a24e59a2275c16ad8f0eadaba72835\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "179",
+                "x-amz-cf-id": "C1p6QCE5q6ypsXBVpokL8vjkD5rrAUFRJWBAJYM1_CVFflitIjRn9Q==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.14",
+            "url": "https://dashboard.purefi.io/static/media/action-refresh.cfd99b20a5c8f67eae95fd4774f62a91.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"5b57b65f4dd52d2c7619ebc264c89cee\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "677",
+                "x-amz-cf-id": "eltUUVZmDiPd3G5VhCGAS7fbGi0eVw7Tk94QylgXlDUaq1MdkeGr9Q==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.15",
+            "url": "https://dashboard.purefi.io/static/media/bad-risk-big.c4f77593855f444f6958aed0cdc02586.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 12 May 2022 12:29:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"f991d82d4c912f0c48c4fd9c0ce92b3d\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "2145",
+                "x-amz-cf-id": "q_eeAUepyKTc_LC55deWZI4l5ec-9vvT24vmkaQFGmzKt_M4Mzo8Kg==",
+                "x-amz-meta-etag": "ox25uxpAXoPZYlgLQjRPhA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.16",
+            "url": "https://dashboard.purefi.io/static/media/bad-risk-small.c83e2e8b7ef19e6d7af0b07b181f0d71.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 12 May 2022 12:29:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"fc9be28478cb5dd1b85e9b29bd60196e\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "1489",
+                "x-amz-cf-id": "qEaxgkmK5e4mQEJsf9jYBxc1O-ApEVVU8_e8nDmI4terfxzphSTTWQ==",
+                "x-amz-meta-etag": "ox25uxpAXoPZYlgLQjRPhA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.17",
+            "url": "https://dashboard.purefi.io/static/media/balance-purefi.b20cb2db88c6ded84f76707d79e3de68.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"4bc14a5a513ea2569436bc7e5956524d\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "1126",
+                "x-amz-cf-id": "Y5I73G06FMf_1CnZRF0u-eoKCeOgME58p845RaRdv3s_sOAJhjLHcg==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.18",
+            "url": "https://dashboard.purefi.io/static/media/binance-coin-bnb-logo.d8c61230b25fa2075462dce262c6dd2a.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"2044e3d3396114ad08e5724344e2b05a\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "399",
+                "x-amz-cf-id": "84LodGlc72-jweMhRCmN-TGy-yPBMjidOXHTw0qZljRXW0kEp4CAWg==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.19",
+            "url": "https://dashboard.purefi.io/static/media/bsc.c019f67a3666cac5ab1caa6ddc4042e6.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"872b9a875aa6586473b5b709d72735f4\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "342",
+                "x-amz-cf-id": "dzucNeKcZTLhwFy2bSrTm-6t7oogrkSoTegsvevr3Br3OYSxee61xw==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.20",
+            "url": "https://dashboard.purefi.io/static/media/cert-failure.da9c76bc491e435fb80b9aeb25b714e2.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Tue, 04 Oct 2022 17:32:49 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"71791c320c86658ec2eeac54db2d37eb\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "219",
+                "x-amz-cf-id": "A9yFZnQq8jztHH0cihDi3_vU3uPGZipz0GDHjXRSs4PjlFIftP6BOw==",
+                "x-amz-meta-etag": "xhb+tDP5PQabygcxQmjKmg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.21",
+            "url": "https://dashboard.purefi.io/static/media/cert-success.f0fb2488592d3aa94f7f68ceb19b2e73.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Tue, 04 Oct 2022 17:32:49 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"e1fbdad2fed93811f004e414a4ac69f0\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "229",
+                "x-amz-cf-id": "urPSQpeCLh_XwFsqRqFhO6nEQArNa282r7dVGPSe4CipsNMTioMxdQ==",
+                "x-amz-meta-etag": "xhb+tDP5PQabygcxQmjKmg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.22",
+            "url": "https://dashboard.purefi.io/static/media/chain-avalanche-transparent.70d20d25495e3b0788c56b33da8270eb.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"bae02606dbef78807da9ff758f03da9d\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "421",
+                "x-amz-cf-id": "MiEyu0hMeS3Y4IqKISVvLS3o-vM__yYIS1S4RzTNmqta6gO9J-jLoA==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.23",
+            "url": "https://dashboard.purefi.io/static/media/chain-avalanche.d3db713a03058a42a2c0f2cb7da217c1.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"779a0222e63a984939d0c96ab9c7ecde\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "411",
+                "x-amz-cf-id": "NDWaKF7qDX2DMEBAksD1CtPWPN4dUZ0HIni4MS184LCeyRDyoUXy1w==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.24",
+            "url": "https://dashboard.purefi.io/static/media/chain-bsc-transparent.b15c46df8a09afb2de31841a3d6e3823.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"613b221c33bcc007d672f3760cb287ec\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "418",
+                "x-amz-cf-id": "2Xp6ttKU8kDi-oemLioRmwwtprIHnrksKfUnk6VFUY_iqTdKwirTDQ==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.25",
+            "url": "https://dashboard.purefi.io/static/media/chain-bsc.c0b7183746213ff350f3734f068543a5.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"526a795b3e782a751b305103786da9dd\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "407",
+                "x-amz-cf-id": "TCWhuFdKRaoUWapGeIbht9x7SFglanwPV0hLfPkotKt9BaUclphhsA==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.26",
+            "url": "https://dashboard.purefi.io/static/media/chain-eth-transparent.1b069ce07ad62095c55c8e2d81d5ded9.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"07c555f1b1f04bd2f890bbd38768a2b3\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "459",
+                "x-amz-cf-id": "4atZ5HXt3GOh5fgwzcMz1iJDuHjlXduylpCRgN_BHdnVlSUjPMp1Iw==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.27",
+            "url": "https://dashboard.purefi.io/static/media/chain-eth.b3438006810bc43d3f9e17f5dfc39c8e.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"4d76ce18a0939980581db873d9a79cad\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "449",
+                "x-amz-cf-id": "664PY0El57j8rrVUAuGMF8lR9ZxRAlKhNQLj_zPuxvQWxSxIYdHEQQ==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.28",
+            "url": "https://dashboard.purefi.io/static/media/chain-matic-transparent.49778650c4942569dcf69879eed30c11.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"073837632be08527be3d5f7e743f721f\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "763",
+                "x-amz-cf-id": "IthH5JBDjdEK-63CENvRbVfZ1lXDjh04HA0IwK-xOFUQq32hIrUelg==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.29",
+            "url": "https://dashboard.purefi.io/static/media/chain-matic.986ffef8103930503e2dad300a8d310a.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"c8a9ad974b238e45d697c251c11d491a\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "751",
+                "x-amz-cf-id": "z89TJUvLYsIktmi9OEMtxLGVWoENJwPQqC7CCtc5bATWlgUZr9lCXQ==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.30",
+            "url": "https://dashboard.purefi.io/static/media/close.6f0f3f4226bd5d55e1fca86b0f38a0f9.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:22 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"9c525d470e617c442527fdc25262b12d\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "218",
+                "x-amz-cf-id": "h1MLHNMz5ieEAduvV7aTFxdn3NgGvE6fkumhm76OnyWbUHbqvLxkpQ==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.31",
+            "url": "https://dashboard.purefi.io/static/media/danger-icon.dcc70e19b3196ecc5af11aaf2819c79f.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"22ecab2c9c15ebc6a9e6364549f88a20\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "518",
+                "x-amz-cf-id": "evZ13HWEU9mHo1Lg4vyV3PeMyH-ED5_7WuuJs6U1sg5l8n4rRfDI1g==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.32",
+            "url": "https://dashboard.purefi.io/static/media/ethereum-eth-logo.dc0e7f13284279e2bfbc2f047da58091.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"759a037db7ccb5487b0de97356fab275\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "390",
+                "x-amz-cf-id": "i_2BcN7f-zceUxn8EK97m4_r1IWe_dYgxUYm9e-MrXWceEiTQ0pwCQ==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.33",
+            "url": "https://dashboard.purefi.io/static/media/ethereum.b1488aa37fc96513ba635f6f63de74b6.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"e907008b8f2fdcb695bb099e1e42bef4\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "334",
+                "x-amz-cf-id": "kCPBzUd_899jiucttFbw85WP5TZNE3VG6Y7xJ-puCm1l0WMlJMxGWA==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.34",
+            "url": "https://dashboard.purefi.io/static/media/gate.6c2e62c4c8e49b0045280183fbc3de14.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 17 Mar 2022 16:37:00 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"ed1f6c2120549c0f7a8839203df490c2\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "325",
+                "x-amz-cf-id": "c4GjSP9ynQ3thuZslq7gHH9cs1gcqcxjKBNWQbaibDEYNJpiwTio2w==",
+                "x-amz-meta-etag": "+Cs5U0b+jnSELZuyc8YZbQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.35",
+            "url": "https://dashboard.purefi.io/static/media/good-risk-big.70a1f09b53aeb93ccd09c33fda0f362f.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 12 May 2022 12:29:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"22b1b0fc1cb093cc21b476512564d8d2\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "2104",
+                "x-amz-cf-id": "8gTnElvdJZkaf8JlFBLspHf3uG9TWv-oEZUCb9X4VENNxnBiCFnI2Q==",
+                "x-amz-meta-etag": "ox25uxpAXoPZYlgLQjRPhA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.36",
+            "url": "https://dashboard.purefi.io/static/media/good-risk-small.e92703eb32cdfe90dca43ca09bed779c.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 12 May 2022 12:29:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"a31db9bb1a405e83d962580b42344f84\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "2025",
+                "x-amz-cf-id": "baoxCZdS92J--Zg3MA0NhWCfTFVzATwbrIWycZqkrXGfpI81Wh6fVQ==",
+                "x-amz-meta-etag": "ox25uxpAXoPZYlgLQjRPhA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.37",
+            "url": "https://dashboard.purefi.io/static/media/metamask.426833f105404ecf229ed49b361b08a0.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"c8f2c4a5fcce36159eb5bb27cdd2f45b\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "1319",
+                "x-amz-cf-id": "kghLCC1_6EAHs-M7jVEOkqDkAyx2ORGaWSXVvK7P9mP1u4-v58CNbw==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.38",
+            "url": "https://dashboard.purefi.io/static/media/moderate-risk-big.87d0e98c79e3a6c6ce9676dd30849b69.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 12 May 2022 12:29:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"c7858544db06f77e047373ae07fc21af\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "2292",
+                "x-amz-cf-id": "DPVhN-NmJ12DNg5k7WGQAOE8qzygQTB4iIjZ0OFAophqf1oLyDgv1Q==",
+                "x-amz-meta-etag": "ox25uxpAXoPZYlgLQjRPhA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.39",
+            "url": "https://dashboard.purefi.io/static/media/moderate-risk-small.c1398f07d3f1f89653729ba364bd747f.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 12 May 2022 12:29:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"a28122c65d426a690d151ee1d9f159a4\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "1757",
+                "x-amz-cf-id": "803JEVvJumdu6CdExR3gwVyZ6EeKlCkImkWP_Ay9w2_F0di6j3wJEg==",
+                "x-amz-meta-etag": "ox25uxpAXoPZYlgLQjRPhA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.40",
+            "url": "https://dashboard.purefi.io/static/media/next-icon.a3e7299acde0e58b508c8b0df0cb33e9.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:22 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"3b9f959d49b935e74122958f0c4e2754\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "205",
+                "x-amz-cf-id": "Q_HLB7_fpD_lwQskgZMbverzCZwIoCkItlxnOBTE6erd-OBKySJ5_Q==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.41",
+            "url": "https://dashboard.purefi.io/static/media/not-connected.aeb00d225d25dc28d852bdf798d97701.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 12 May 2022 12:29:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"96fc7dc3b227fbba2e0d9eee2c7c7011\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "5394",
+                "x-amz-cf-id": "QKPTJL4AUcEnINL9TkYThRBbCGM4DcViCOzG1K7KyoeDm3jEHKw4JA==",
+                "x-amz-meta-etag": "ox25uxpAXoPZYlgLQjRPhA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.42",
+            "url": "https://dashboard.purefi.io/static/media/pancake.285bc1bc8857f04d0bbbca88775c2e79.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 17 Mar 2022 16:37:00 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"88857c8c0b657d96e41e2dbeffc1a2de\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "854",
+                "x-amz-cf-id": "kFT4bZ6Iq6qAGTnR8gl3Ixy0Sda8Nj90IasxFXRWTDsWcvCkLEG_bQ==",
+                "x-amz-meta-etag": "+Cs5U0b+jnSELZuyc8YZbQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.43",
+            "url": "https://dashboard.purefi.io/static/media/polygon.9bf5e6b10911850a27cf10de1e0b6509.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"26839fa64aa684506dfe825a24be69e0\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "601",
+                "x-amz-cf-id": "NKZcsfQgTDrqveHYBi-zCb0sfgkjF3uxOabqr2pq_1ORiv85aoV_Ng==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.44",
+            "url": "https://dashboard.purefi.io/static/media/polygon2.9bf5e6b10911850a27cf10de1e0b6509.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"26839fa64aa684506dfe825a24be69e0\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "601",
+                "x-amz-cf-id": "81ZKaN8NVy16NP8dMz0QNLhshka4Yu6uFh8_axH5rpeJ9OFfykXXcw==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.45",
+            "url": "https://dashboard.purefi.io/static/media/purefi-logo.6c06e003a1c6aaae9691d1efd0dd2a86.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"b9c564f962b4fb43030f622fd6a2b962\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "2830",
+                "x-amz-cf-id": "uK6RfnivS9SQGaqAWgTVMm149YR0Y_7QfCMJtDAh69sw2RA8YApCcg==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.46",
+            "url": "https://dashboard.purefi.io/static/media/sanctions-free.dd7e4019ca5c542e7a31d447a9e83f19.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"da0aba0f8d074c1a463eaf61563816a8\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "1615",
+                "x-amz-cf-id": "GlHN-nNPoBdoxiHtZburL3guRWPqgLrYCUI2wCBBCZfMhVB5xPI-hg==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.47",
+            "url": "https://dashboard.purefi.io/static/media/sanctions-imposed.4e60f14519a0ae84dd65c42b6ad85fa8.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"1beea285af36cd9340557435d641aa34\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "508",
+                "x-amz-cf-id": "OwCjcTk6IczdIpUM0yAtraD24jXSF6uxOgzZdORg7b8_zYiGQgd31g==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.48",
+            "url": "https://dashboard.purefi.io/static/media/sidebar-idcard.f6577a1a949fd176fbfd1d611d8e5b08.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"4aed780c0613a8bca8d62c11e0f11790\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "489",
+                "x-amz-cf-id": "998A7moIscG0hnQpO9Csm6t9S8Uad3bPhbejzGILlAoJHEsD3Ka1uQ==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.49",
+            "url": "https://dashboard.purefi.io/static/media/sidebar-star.74390e00659cbcbc33215bd04d7fb04f.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"588e216835b15738db09fe4432342bad\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "473",
+                "x-amz-cf-id": "ybV3JpwcIWgyzi66Un1qEB0cH6_FRv0F5e0jr5_TyueGPpa1C7gYqQ==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.50",
+            "url": "https://dashboard.purefi.io/static/media/sidebar-wallet.951ca0aacdcd49b5120cdfdb56798245.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"361d0b9495f5da84a304ba5b6e247664\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "383",
+                "x-amz-cf-id": "asnOuRuLg5AidqEOH2rb8lWmIEsvC9R_pVQmcFSe4kIsW8g3uccM7w==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.51",
+            "url": "https://dashboard.purefi.io/static/media/star.d1d93b457e1e8243a9327e7de6d9fe9d.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"a29413755946f94bd41acc52bd9ca04e\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "984",
+                "x-amz-cf-id": "FuCCW8zvJyCNz5OCqBUqQiP5SR-I1jCTbORyJgLvPezbTPJCzyWIZg==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.52",
+            "url": "https://dashboard.purefi.io/static/media/status-bad.bf051dd068fb37a83e9b05a12d17646b.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"d6efc32d7559d96f3e8e48d0f6b4a4a8\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "343",
+                "x-amz-cf-id": "5H2LIotBtdwcBxNxikVCjTQ80I_0Jqo6YgrqEDxoDvMC7Q9pt-LQBA==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.53",
+            "url": "https://dashboard.purefi.io/static/media/status-good.0f624ee40fc69bfb63d2e2eab3193756.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"f0b4c61b6d23217a1838039eea169763\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "362",
+                "x-amz-cf-id": "rzB8L4Gq6HsplbDVj1bO2evrnz5vOCOUjw2dOpGXp2nodYfhVnEotw==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.54",
+            "url": "https://dashboard.purefi.io/static/media/status-moderate.015731b408d89ca138fa8ce08f6ede2e.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"0f1cf82dd4b6a6724f5fbbe38f9a3a6c\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "421",
+                "x-amz-cf-id": "p-IPD6XYUBkBQuNjoNwlhTmiqhyd-VGng0aL8qb8DK7pr366Nuow4w==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.55",
+            "url": "https://dashboard.purefi.io/static/media/status-unknown.cfa276a54031b5789864f41b17ddc5a7.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"92f4df5bbdeab5ba19f289c738999538\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "570",
+                "x-amz-cf-id": "ksTUpbNgEWM6rv6pUKbT0P2aRDUKwlI5_Cuxa3UamBAsMi9RalmePg==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.56",
+            "url": "https://dashboard.purefi.io/static/media/status-warning.30f5a4efc95fc3dc716d4cf1941f505d.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"4ad935f02eb0f143790da420f0bf25bc\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "530",
+                "x-amz-cf-id": "o6lOfAUMdFBaKH-8bSaGhvC77x-B97E2ptXIkl1vRXoa5vA4VD5RSw==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.57",
+            "url": "https://dashboard.purefi.io/static/media/success-logo.93b56cf94a118fa298effaa7cf87b70f.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"29277d36de24dff10f9d8078b027e355\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "638",
+                "x-amz-cf-id": "n9FFBsi7l9hHJWs3Twtt1u4BkvIFfDmyOhUiv8pbwwlUVGSc9KiSrQ==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.58",
+            "url": "https://dashboard.purefi.io/static/media/tick.ea386f6c68fa0345fb8101e92c965070.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"f39c6d6e0c6eb773db1a5670fb3d7fdf\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "311",
+                "x-amz-cf-id": "uVOqH9Pp7BQ11ewzbe-IgMQUbUiQzvf1tqtNoaffUIeOl7_DcfEx-A==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.59",
+            "url": "https://dashboard.purefi.io/static/media/tier-basic.03cc29424a16ec3373de93b91d56c30f.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"cf97dbccaf7c05bba1f1c28557c85915\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "1374",
+                "x-amz-cf-id": "_yUMRYrrpTalaG292DRU2lZsi56HYIf78h_EDCTWINzi-0FnN9nCAQ==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.60",
+            "url": "https://dashboard.purefi.io/static/media/tier-professional.f67214a11272a6159ab2d63452119b57.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"2ece6a9e5e600a6c6af4e6773a92263e\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "1816",
+                "x-amz-cf-id": "uXSocFERxEwzBh-CJmc_F4Oh8qT5h1B1y8EnLo8PS21SN1Nh3820Vw==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.61",
+            "url": "https://dashboard.purefi.io/static/media/tier-standard.62097f4a834cf309f9cb98a4d58b879a.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"938fc71558844bbd0375683da3c021c2\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "1479",
+                "x-amz-cf-id": "Y_uj7oE15h87sm3rf9nNShZ_uqyim9GMzL95VARK524n7MQOZFFpjw==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.62",
+            "url": "https://dashboard.purefi.io/static/media/token-purefi.1d7d3aac65ee2b1b81ff6d3e37d41c87.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 14 Jul 2022 13:48:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"f6a3ed96c98a23bbf352d7644b381252\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "1127",
+                "x-amz-cf-id": "kHEMajQVrIyofNHB9VHVYEH-junoD7AW_dQHZm2oaiTAIdRrZJZxOQ==",
+                "x-amz-meta-etag": "9OIpfRvzxP81OUBo7Qrv4w=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.63",
+            "url": "https://dashboard.purefi.io/static/media/trusted-icon.3f062a10c4d7a966af6d0179f63b4b8f.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"7c4eeeb97ef1742a7315c2f1d69524ca\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "416",
+                "x-amz-cf-id": "tXyhX9BFn_HXj9zCimnNGhjsCyS8GOkW2n_EAdzztPBbLKikD4RgPw==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.64",
+            "url": "https://dashboard.purefi.io/static/media/uniswap.dbe6034cd96602e3e20a6bb066fddc48.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 17 Mar 2022 16:37:00 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"3ff820e987efae253aa2cdfc9a29ac06\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "3845",
+                "x-amz-cf-id": "Dfpw_-jTnNg1PV-QjhWuhxhk5Lh8JfL7l0E6I-8qSZ6KVCaR3a5tzA==",
+                "x-amz-meta-etag": "+Cs5U0b+jnSELZuyc8YZbQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.65",
+            "url": "https://dashboard.purefi.io/static/media/unknown-risk-big.5af7916afcc656b24af2c5db74aff59e.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 12 May 2022 12:29:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"c5c218c4c51fc8bcbc9a7289fc9e7cd5\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "1905",
+                "x-amz-cf-id": "1s9EpSw2ZhoWc2qKx61dOrh-HUdcskPMmr-zt3nc9_mFfap72djp5g==",
+                "x-amz-meta-etag": "ox25uxpAXoPZYlgLQjRPhA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.66",
+            "url": "https://dashboard.purefi.io/static/media/unknown-risk-small.5af7916afcc656b24af2c5db74aff59e.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 12 May 2022 12:29:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"c5c218c4c51fc8bcbc9a7289fc9e7cd5\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "1905",
+                "x-amz-cf-id": "bPGDEVOWzASGvJQws_U6yD35r04cJ-Gx-A6a8okA9mDsuCd7Aozh1Q==",
+                "x-amz-meta-etag": "ox25uxpAXoPZYlgLQjRPhA=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.67",
+            "url": "https://dashboard.purefi.io/static/media/wallet-connect.986542a28e6ee66213285f7523df0cea.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"63a277f8d2634ae39cfe96c336b4517a\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "637",
+                "x-amz-cf-id": "CZnxddIqxVzL3qD9NG26R4pG31iSuhW2t_QBCucdnVI4rdLz7ydHJQ==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.68",
+            "url": "https://dashboard.purefi.io/static/media/warning-icon.00f327212589b605651bd3dfd8dae99f.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"4d6c72fdf52ab2618868323f1281f44f\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "image/svg+xml",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "978",
+                "x-amz-cf-id": "dpJuhmZ9HKhHjE0ZcT6KroQTTL-kV7WJphxpn1-Am7e-rZQD5vK1Iw==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.69",
+            "url": "https://dashboard.purefi.io/static/media/Poppins-Bold.b138d0279be06a607215.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 18 Aug 2022 22:11:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"e4c7b713e4aa4df2effbb68ae349eabd\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff2",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "48748",
+                "x-amz-cf-id": "_KbTVbDt7xbICxDaJDPchJpOyZX5EU-XowTAxdjcw_CdOi5T5v-2rQ==",
+                "x-amz-meta-etag": "CEyUVeirmLJmkDoDvusB3g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.70",
+            "url": "https://dashboard.purefi.io/static/media/Poppins-Bold.c4e77e991e26d17e68c5.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 18 Aug 2022 22:11:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"ae8674b35513691e1ba5229f64df99b9\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "67468",
+                "x-amz-cf-id": "J_bcHL6zMLjO2GFU46_6UOEPLWxQMpsTQfX94NlYw6tFzEvQcw0d3Q==",
+                "x-amz-meta-etag": "CEyUVeirmLJmkDoDvusB3g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.71",
+            "url": "https://dashboard.purefi.io/static/media/Poppins-Light.4df27bdff91bff9a7ee9.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 18 Aug 2022 22:11:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"db357c14d26f4f89427abe05a969a2dc\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "68108",
+                "x-amz-cf-id": "QxWoCiomjQRJ08yrn97RQMuLXJ4rfI59qJJbavjcONhbbzYy2mD8OQ==",
+                "x-amz-meta-etag": "CEyUVeirmLJmkDoDvusB3g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.72",
+            "url": "https://dashboard.purefi.io/static/media/Poppins-Light.f7847222cbc0bdfca78d.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 18 Aug 2022 22:11:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"56898f3ce3805aa121dbfe8e22f5e9ab\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff2",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "48956",
+                "x-amz-cf-id": "Sw3jQuqfHu3jKf409a5aKBtkgDosbli0YLEFssppaNtz8LRdXe-O2Q==",
+                "x-amz-meta-etag": "CEyUVeirmLJmkDoDvusB3g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.73",
+            "url": "https://dashboard.purefi.io/static/media/Poppins-Medium.26c20b0f1f2b2d0d7f4e.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 18 Aug 2022 22:11:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"ecfdbb20c11be6b0e880067576cc03a9\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "67868",
+                "x-amz-cf-id": "x7JwHZpWlyFXPNPmk5tnjCmEqa0FiEhwHVxOCuLLwSQA_ZrZmY8TlQ==",
+                "x-amz-meta-etag": "CEyUVeirmLJmkDoDvusB3g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.74",
+            "url": "https://dashboard.purefi.io/static/media/Poppins-Medium.a19883c1cd77faacd63d.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 18 Aug 2022 22:11:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"d319a98a33d78cbd3ee4f7966641ef13\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff2",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "49000",
+                "x-amz-cf-id": "rPY6_kemPusV1OBNYDmfB8-VqCzxvDjVcjB4AG8SS0rHhf7-4zASeQ==",
+                "x-amz-meta-etag": "CEyUVeirmLJmkDoDvusB3g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.75",
+            "url": "https://dashboard.purefi.io/static/media/Poppins-Regular.5a6c15af2151cfa27e76.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 18 Aug 2022 22:11:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"bebb23ead35b42aaf2cb2ddf30d5339b\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff2",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "49048",
+                "x-amz-cf-id": "0ecEdIzf-qbMUQfNO-m9M083ov8dlnfHhjAoHZPav8h3fJIZ37MQlw==",
+                "x-amz-meta-etag": "CEyUVeirmLJmkDoDvusB3g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.76",
+            "url": "https://dashboard.purefi.io/static/media/Poppins-Regular.9b9d9585fc27c8fff554.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 18 Aug 2022 22:11:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"26fc2ac807606fd4ea10de435e8ef1e2\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "68032",
+                "x-amz-cf-id": "k8SRip9Yz7lkTBr6PFm9WJ7lZ475vs68imi6AZqg_uQnmYYgC5BPbg==",
+                "x-amz-meta-etag": "CEyUVeirmLJmkDoDvusB3g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.77",
+            "url": "https://dashboard.purefi.io/static/media/Poppins-SemiBold.5159bcc22685da086734.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 18 Aug 2022 22:11:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"135d72377efa35a01edacfdf9ba90172\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "67320",
+                "x-amz-cf-id": "X32QbyKPb4poAq3z9LMjV0Gt-87RYwURb4NQrCXr9mJ1y95T_t7SUQ==",
+                "x-amz-meta-etag": "CEyUVeirmLJmkDoDvusB3g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.78",
+            "url": "https://dashboard.purefi.io/static/media/Poppins-SemiBold.810728e0001e1f7c0a71.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Thu, 18 Aug 2022 22:11:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"bb8f49b65a0581c340859912a352f061\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff2",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "48508",
+                "x-amz-cf-id": "AEPR0vQTegvFZLC18SPNlSNbkxsjP1BUZg4AbGWsLtnbfn4ZxX8Q2g==",
+                "x-amz-meta-etag": "CEyUVeirmLJmkDoDvusB3g=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.79",
+            "url": "https://dashboard.purefi.io/static/media/inter-v3-latin_cyrillic-300.5b9c7e63544fbd76f459.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"f47bb5847daa3f1a241e717ddfed97ac\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "27804",
+                "x-amz-cf-id": "veGcf1E1_WQkXxOwWHwaz0G7ST_4BxpaodJ2e3z4f8Zqt9OqZ_tI-Q==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.80",
+            "url": "https://dashboard.purefi.io/static/media/inter-v3-latin_cyrillic-300.dcb7cc86cb13cd86b591.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"b0e2d9f416358caa340608de29a3d128\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff2",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "22264",
+                "x-amz-cf-id": "JEUxCEOS-y3Sb6QcK6NE6JwuqksCswfBgZ5dgLQzYUavJKIlTietwg==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.81",
+            "url": "https://dashboard.purefi.io/static/media/inter-v3-latin_cyrillic-500.0bf89b2de818afcbe47c.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"aa91ece30a16b207269561ae253e8777\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "28288",
+                "x-amz-cf-id": "wMX8xmfS84K-7kRs5PXY9Jle7xcge5q9UazzLcDd6eUsNU9PVsmarQ==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.82",
+            "url": "https://dashboard.purefi.io/static/media/inter-v3-latin_cyrillic-500.6ec7ed4e8bb2539ef7f1.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"161f0e1b5c76bb217d1d4395132b5d87\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff2",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "22776",
+                "x-amz-cf-id": "1hDWNfsX4FbC2saliTdeKpMRrlr_-HPpLgkW0R6OxT7K3OcCN_W3GQ==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.83",
+            "url": "https://dashboard.purefi.io/static/media/inter-v3-latin_cyrillic-600.1e2f49c2eb5e3e66b82d.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"8b04696c7a9e1c29ed43d0f1723e71a3\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "28428",
+                "x-amz-cf-id": "KjebeN2nEAlUm9yuEg864GljZFyWdZChSswK8hb4kkVXQlm2wgyKzw==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.84",
+            "url": "https://dashboard.purefi.io/static/media/inter-v3-latin_cyrillic-600.e395c69c1e9b3eecf384.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"5ae516688a306cb69fd68e022a02fb53\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff2",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "22576",
+                "x-amz-cf-id": "nZYHX3dlP-0iGxNI10uhQt7mEMFyuzQJnULn7D4dXiZE3wxY1-rQMg==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.85",
+            "url": "https://dashboard.purefi.io/static/media/inter-v3-latin_cyrillic-700.510424c693fd867b2bce.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"831c4f70be54d339cef18e6207e4b61f\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff2",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "22892",
+                "x-amz-cf-id": "OIh_wtJzCsxdNqZc73sYebeltBLVhzcI5EWoO1a4zvQvYsZqbR08Qw==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.86",
+            "url": "https://dashboard.purefi.io/static/media/inter-v3-latin_cyrillic-700.7a6521fecbca44c4efbd.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"022d2cab4c6180febc02c2dd94d33be5\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "28460",
+                "x-amz-cf-id": "3GOfhJfOk1Al6hondLblXff9d5XcH5kshI45xUrLVmlgojMr0NltuQ==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.87",
+            "url": "https://dashboard.purefi.io/static/media/inter-v3-latin_cyrillic-regular.0cee8475d5c1448f05e4.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"96d0272e2bcb7d2c0bd8edef19cc9890\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff2",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "21492",
+                "x-amz-cf-id": "exp4t8KAomfxv_YbC2YAtt3HGs8AbkXZJVYlNPx6XtU9hQeYZnjaMg==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.88",
+            "url": "https://dashboard.purefi.io/static/media/inter-v3-latin_cyrillic-regular.4142cf2e29adc01c89f4.woff",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "origin": "https://dashboard.purefi.io",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"3d2619bb4f30fba1596541e36f389251\"",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "font/woff",
+                "cache-control": "max-age=604800",
+                "accept-ranges": "bytes",
+                "content-length": "26860",
+                "x-amz-cf-id": "rrhRoEh0hlmWRw-mAojMEFETaoB018QsFzX5pWm1bqjbqSxSEkNB2g==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.89",
+            "url": "https://dashboard.purefi.io/static/css/main.1d2c5a98.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:42 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Wed, 23 Nov 2022 09:11:30 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"cda4e8e4b2b1ff7f02d18e70357323c4\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "RefreshHit from cloudfront",
+                "content-type": "text/css; charset=UTF-8",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "accept-ranges": "bytes",
+                "content-length": "85637",
+                "x-amz-cf-id": "1G6lk43IguuIkz2kUIjXo-ZY5ynpFDlDiGOCbGconLbwLufv2_KqpQ==",
+                "x-amz-meta-etag": "ZwT600tnT6+mNDFIcUKa+Q=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.198",
+            "url": "https://purefi.io/api/event",
+            "type": "Xhr",
+            "status": 202,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"n\":\"pageview\",\"u\":\"https://dashboard.purefi.io/\",\"d\":\"dashboard.purefi.io\",\"r\":null,\"w\":1512}",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:41 GMT",
+                "via": "1.1 cd66c5a89ae3376f15c155e3b52a758c.cloudfront.net (CloudFront)",
+                "cdn-edgestorageid": "889",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "x-cache": "Miss from cloudfront",
+                "cdn-cachedat": "01/23/2023 21:28:41",
+                "cdn-pullzone": "682664",
+                "application": "10.0.0.8",
+                "content-length": "2",
+                "x-request-id": "Fz0NWyyJxpAks0YQVsuH",
+                "server": "BunnyCDN-CH1-889",
+                "cdn-proxyver": "1.03",
+                "cdn-requestpullcode": "202",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cdn-uid": "153cb5b1-399a-48ef-b5bf-098c03770254",
+                "cache-control": "must-revalidate, max-age=0, private",
+                "access-control-allow-credentials": "true",
+                "permissions-policy": "interest-cohort=()",
+                "cdn-requestid": "fbee65c40a049022ea35e24bb70a1978",
+                "cdn-requestcountrycode": "US",
+                "x-amz-cf-id": "zQmVamH2amL68hmrX-ogc235Y0JQztAXFNCi2hBdk-xJWLj8FgezHw==",
+                "cdn-requestpullsuccess": "True"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.199",
+            "url": "data:image/jpg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4QA6RXhpZgAATU0AKgAAAAgAAwESAAMAAAABAAYAAAEoAAMAAAABAAIAAAITAAMAAAABAAEAAAAAAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////wAALCAABAAIBASIA/8QAJgABAAAAAAAAAAAAAAAAAAAAAxABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQAAPwBH/9k=",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/jpg"
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.200",
+            "url": "https://dashboard.purefi.io/favicon.ico",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:43 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"ddbf34e0cdd091741f668c8b54dc5394\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "RefreshHit from cloudfront",
+                "content-type": "image/xicon",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "accept-ranges": "bytes",
+                "content-length": "1150",
+                "x-amz-cf-id": "5cjYlpqKTz7WgCEJvVvnuaVkIGASMUtUZuua3AOXAcpXeGVj8q8BAA==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.201",
+            "url": "https://dashboard.purefi.io/manifest.json",
+            "type": "Manifest",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:44 GMT",
+                "via": "1.1 666ff4ad81b3b60af3d2241160893ee2.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"0ee9001e67fcb921b18b94d336c7c376\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "RefreshHit from cloudfront",
+                "content-type": "application/json; charset=UTF-8",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "accept-ranges": "bytes",
+                "content-length": "299",
+                "x-amz-cf-id": "HsZ2foyhS-Mih7EsW_eCrZYHEQoaKHpgAD_a0fEY9C1Cx2C_R6osQA==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        },
+        {
+            "requestContext": [
+                "https://dashboard.purefi.io/"
+            ],
+            "id": "60896.202",
+            "url": "https://dashboard.purefi.io/favicon.ico",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "https://dashboard.purefi.io/",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Mon, 23 Jan 2023 21:28:43 GMT",
+                "via": "1.1 e6b325a976b10aa826ec63757afbdeda.cloudfront.net (CloudFront)",
+                "last-modified": "Mon, 14 Mar 2022 15:21:11 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "ZRH50-C1",
+                "etag": "\"ddbf34e0cdd091741f668c8b54dc5394\"",
+                "vary": "Accept-Encoding",
+                "x-cache": "Hit from cloudfront",
+                "content-type": "image/xicon",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "accept-ranges": "bytes",
+                "content-length": "1150",
+                "x-amz-cf-id": "_VuKipmgfo5KrDvNCAZjhutj8jQHsdPVYU8Zr_ZF2gx_5DDpJspjpw==",
+                "x-amz-meta-etag": "Ei58NK+Zh5cmwv7ON9jRxg=="
+            }
+        }
+    ],
+    "cookies": [],
+    "success": true,
+    "connected": false,
+    "connect_label": "",
+    "metamask_label": "",
+    "checkbox_clicked": false,
+    "signature_request": false,
+    "switch_network": false
+}

@@ -3,17 +3,19 @@
 import json
 import os
 import sys
-from urllib.parse import urlparse
-
 import matplotlib.pyplot as plt
 import publicsuffix2
 import networkx as nx
-
 import LeakDetector
+
+from urllib.parse import urlparse
+
 MAX_LEAK_DETECTION_LAYERS = 3
 
 ETH_ADDR_WHATS_IN_YOUR_WALLET = "FDb672F061E5718eF0A56Db332e08616e9055548"
 ETH_ADDR = "7e4ABd63A7C8314Cc28D388303472353D884f292"
+
+DEBUG = False
 
 class colors:
     INFO = '\033[94m'
@@ -47,6 +49,13 @@ def is_irrelevant(req):
         return True
     return False
 
+def is_same_request_context(request_context, origin):
+    same = True
+    for url in request_context:
+        if get_etld1(url) != origin:
+            same = False
+    return same
+
 def are_unrelated(domain, origin):
     """Return True if the two given domains are likely independent."""
     if domain != None and "." in domain:
@@ -54,8 +63,18 @@ def are_unrelated(domain, origin):
             return False
     return domain != origin
 
-def analyse_reqs(origin, reqs, G, script_nodes, edges, addr_leaks, post_leaks, eth_address):
-    """Analyze the given requests for the given origin."""
+def add_leak(domain, type, origin, leaks, leak, encoding):
+    if not origin in leaks:
+        leaks[origin] = dict()
+    if not type in leaks[origin]:
+        leaks[origin][type] = dict()
+    if not domain in leaks[origin][type]:
+        leaks[origin][type][domain] = list()
+    leaks[origin][type][domain].append((leak, encoding))
+
+def analyse_data(json_data, G, script_nodes, edges, addr_leaks, post_leaks, eth_address):
+    origin = json_data["url"]
+    reqs = json_data["requests"]
     script_domains = set()
     req_dst = {}
     origin = get_etld1(origin)
@@ -72,8 +91,12 @@ def analyse_reqs(origin, reqs, G, script_nodes, edges, addr_leaks, post_leaks, e
         debugging=False
     )
 
+    leaks = {}
+
     for req in reqs:
         if is_irrelevant(req):
+            continue
+        if not is_same_request_context(req["requestContext"], origin):
             continue
         url = req["url"]
         domain = get_etld1(url)
@@ -85,23 +108,73 @@ def analyse_reqs(origin, reqs, G, script_nodes, edges, addr_leaks, post_leaks, e
             edges.append(tuple([origin, domain]))
 
         if are_unrelated(domain, origin):
+            # Get
             url_leaks_detected = detector.check_url(req["url"], encoding_layers=MAX_LEAK_DETECTION_LAYERS)
             if len(url_leaks_detected) > 0 or has_eth_addr(req["url"], eth_address.lower()):
-                log(colors.OK+"Found leak (URL): "+req["url"]+colors.END)
+                encoding = ""
+                for url_leak in url_leaks_detected:
+                    if url_leak[0].lower() != eth_address.lower():
+                        encoding = url_leak[0]
+                if DEBUG:
+                    log(colors.OK+"Found leak (GET): "+req["url"]+" "+encoding+colors.END)
                 addr_leaks[origin] = addr_leaks.get(origin, 0) + 1
+                add_leak(domain, "GET", origin, leaks, req["url"], encoding)
+
+            # Post & WebSockets
             if "postData" in req:
                 post_leaks_detected = detector.check_post_data(req["postData"], encoding_layers=MAX_LEAK_DETECTION_LAYERS)
                 if len(post_leaks_detected) > 0 or has_eth_addr(req["postData"], eth_address.lower()):
-                    log(colors.OK+"Found leak (POST DATA): "+req["url"]+colors.END)
+                    type = req["type"] if req["type"] == "WebSocket" else "POST"
+                    encoding = ""
+                    for post_leak in post_leaks_detected:
+                        if post_leak[0].lower() != eth_address.lower():
+                            encoding = post_leak[0]
+                    if DEBUG:
+                        log(colors.OK+"Found leak ("+type+"): "+req["url"]+colors.END)
                     addr_leaks[origin] = addr_leaks.get(origin, 0) + 1
                     post_leaks[origin] = post_leaks.get(origin, 0) + 1
+                    add_leak(domain, type, origin, leaks, req["postData"], encoding)
+
+            # Referer
+            if "headers" in req and "referer" in req["headers"] and req["headers"]["referer"]:
+                referrer_leaks_detected = detector.check_referrer_str(req["headers"]["referer"], encoding_layers=MAX_LEAK_DETECTION_LAYERS)
+                if len(referrer_leaks_detected) > 0 or has_eth_addr(req["headers"]["referer"], eth_address.lower()):
+                    encoding = ""
+                    for referrer_leak in referrer_leaks_detected:
+                        if referrer_leak[0].lower() != eth_address.lower():
+                            encoding = referrer_leak[0]
+                    add_leak(domain, "Referer", origin, leaks, req["headers"]["referer"], encoding)
+
+            # Cookies
+            if "responseHeaders" in req and req["responseHeaders"] and "set-cookie" in req["responseHeaders"] and req["responseHeaders"]["set-cookie"]:
+                cookie_leaks_detected = detector.check_cookie_str(req["responseHeaders"]["set-cookie"], encoding_layers=MAX_LEAK_DETECTION_LAYERS)
+                if len(cookie_leaks_detected) > 0 or has_eth_addr(req["responseHeaders"]["set-cookie"], eth_address.lower()):
+                    encoding = ""
+                    for cookie_leak in cookie_leaks_detected:
+                        if cookie_leak[0].lower() != eth_address.lower():
+                            encoding = cookie_leak[0]
+                    add_leak(domain, "Cookies", origin, leaks, req["responseHeaders"]["set-cookie"], encoding)
 
         req_dst[domain] = req_dst.get(domain, 0) + 1
 
+    if "cookies" in json_data:
+        for cookie in json_data["cookies"]:
+            if are_unrelated(cookie["domain"], origin):
+                cookie_leaks_detected = detector.check_cookie_str(cookie["value"], encoding_layers=MAX_LEAK_DETECTION_LAYERS)
+                if len(cookie_leaks_detected) > 0 or has_eth_addr(cookie["value"], eth_address.lower()):
+                    encoding = ""
+                    for cookie_leak in cookie_leaks_detected:
+                        if cookie_leak[0].lower() != eth_address.lower():
+                            encoding = cookie_leak[0]
+                    add_leak(cookie["domain"], "Cookies", origin, leaks, cookie["value"], encoding)
+
+    if DEBUG:
+        log("Third-parties: "+str(list(script_domains)))
     log("Found "+colors.INFO+str(len(script_domains))+colors.END+" third-party script(s).")
 
+    return leaks
+
 def print_leaks(total, addr_leaks, post_leaks, whats_in_your_wallet_leaks):
-    """Print the number of Ethereum address leaks per DeFi origin."""
     log("")
     ratio = len(addr_leaks) / total * 100
     log("Found "+colors.INFO+str(len(addr_leaks))+"/"+str(total)+" ("+str(int(ratio))+"%)"+colors.END+" websites leaking the Ethereum wallet address.")
@@ -176,14 +249,24 @@ def parse_directory(directory, eth_address):
     total_sites = 0
     post_leaks = {}
 
+    successful = 0
+    connected = 0
+    connect_labels = {}
+    metamask_labels = {}
+
+    leaks = dict()
+
     for file_name in os.listdir(directory):
         file_name = os.path.join(directory, file_name)
         if not os.path.isfile(file_name) or not file_name.endswith(".json"):
-            log("Skipping {}; not a JSON file.".format(file_name))
+            if DEBUG:
+                log("")
+                log("Skipping {}; not a JSON file.".format(file_name))
             continue
 
         total_sites += 1
 
+        log("")
         log("Parsing file: "+colors.INFO+file_name+colors.END)
         try:
             json_data = parse_file(file_name)
@@ -199,17 +282,194 @@ def parse_directory(directory, eth_address):
         G.add_node(defi_domain)
         defi_nodes.add(defi_domain)
 
-        analyse_reqs(json_data["url"], json_data["requests"], G, script_nodes, edges, addr_leaks, post_leaks, eth_address)
-    return total_sites, addr_leaks, post_leaks
+        leaks.update(analyse_data(json_data, G, script_nodes, edges, addr_leaks, post_leaks, eth_address))
+
+        """if json_data["success"]:
+            successful += 1
+        else:
+            print(colors.FAIL+json_data["msg"]+colors.END)
+
+        if json_data["connected"]:
+            connected += 1
+        else:
+            log(colors.FAIL+"Could not connect MetaMask to: "+json_data["url"]+colors.END)
+
+        if json_data["connect_label"]:
+            if not json_data["connect_label"] in connect_labels:
+                connect_labels[json_data["connect_label"]] = 0
+            connect_labels[json_data["connect_label"]] += 1
+            connect_labels = dict(sorted(connect_labels.items(), key=lambda item: item[1]))
+
+        if json_data["metamask_label"]:
+            if not json_data["metamask_label"] in metamask_labels:
+                metamask_labels[json_data["metamask_label"]] = 0
+            metamask_labels[json_data["metamask_label"]] += 1
+            metamask_labels = dict(sorted(metamask_labels.items(), key=lambda item: item[1]))"""
+
+    #log("")
+    #log("Successful: "+str(successful)+"/"+str(total_sites)+"("+"{:.2f}".format(successful/total_sites*100.0)+"%)")
+    #log("Connected: "+str(connected)+"/"+str(total_sites)+"("+"{:.2f}".format(connected/total_sites*100.0)+"%)")
+    #import pprint
+    #pprint.pprint(connect_labels)
+    #pprint.pprint(metamask_labels)
+
+    return leaks
+
+def compare_leaks(other_leaks, our_leaks):
+    sorted_domains = set()
+    sorted_domains.update(list(other_leaks.keys()))
+    sorted_domains.update(list(our_leaks.keys()))
+    sorted_domains = list(sorted_domains)
+    sorted_domains.sort()
+
+    our_leaky_third_parties = dict()
+
+    print("")
+    print("DeFi Website              GET |   GET \t POST \t WebSocket \t Cookies")
+
+    whats_in_your_wallet_third_parties_mapping = dict()
+    whats_in_your_wallet_leaky_websites = 0
+    our_leaky_websites = 0
+    our_leaky_gets = 0
+    our_leaky_posts = 0
+    our_leaky_websockets = 0
+    our_leaky_cookies = 0
+
+    for domain in sorted_domains:
+        whats_in_your_wallet_third_parties_mapping[domain] = list()
+        whats_in_your_wallet_third_parties = 0
+        our_leaks_number_get_third_parties, our_leaks_number_get_third_parties_overlap = 0, 0
+        our_leaks_number_post_third_parties, our_leaks_number_post_third_parties_overlap = 0, 0
+        our_leaks_number_websocket_third_parties, our_leaks_number_websocket_third_parties_overlap = 0, 0
+        our_leaks_number_cookie_third_parties, our_leaks_number_cookie_third_parties_overlap = 0, 0
+
+        if domain in other_leaks:
+            whats_in_your_wallet_leaky_websites += 1
+            for third_party in other_leaks[domain]["GET"]:
+                whats_in_your_wallet_third_parties += 1
+                whats_in_your_wallet_third_parties_mapping[domain].append(third_party)
+        else:
+            whats_in_your_wallet_third_parties = "-"
+
+        if domain in our_leaks:
+            our_leaky_websites += 1
+            if "GET" in our_leaks[domain]:
+                our_leaky_gets += 1
+                for third_party in our_leaks[domain]["GET"]:
+                    if not third_party in our_leaky_third_parties:
+                        our_leaky_third_parties[third_party] = dict()
+                        our_leaky_third_parties[third_party]["GET"] = list()
+                        our_leaky_third_parties[third_party]["POST"] = list()
+                        our_leaky_third_parties[third_party]["WebSocket"] = list()
+                        our_leaky_third_parties[third_party]["Cookies"] = list()
+                    if not domain in our_leaky_third_parties[third_party]:
+                        our_leaky_third_parties[third_party]["GET"].append(domain)
+                    our_leaks_number_get_third_parties += 1
+                    if third_party in whats_in_your_wallet_third_parties_mapping[domain]:
+                        our_leaks_number_get_third_parties_overlap += 1
+            if "POST" in our_leaks[domain]:
+                our_leaky_posts += 1
+                for third_party in our_leaks[domain]["POST"]:
+                    if not third_party in our_leaky_third_parties:
+                        our_leaky_third_parties[third_party] = dict()
+                        our_leaky_third_parties[third_party]["GET"] = list()
+                        our_leaky_third_parties[third_party]["POST"] = list()
+                        our_leaky_third_parties[third_party]["WebSocket"] = list()
+                        our_leaky_third_parties[third_party]["Cookies"] = list()
+                    if not domain in our_leaky_third_parties[third_party]:
+                        our_leaky_third_parties[third_party]["POST"].append(domain)
+                    our_leaks_number_post_third_parties += 1
+                    if third_party in whats_in_your_wallet_third_parties_mapping[domain]:
+                        our_leaks_number_post_third_parties_overlap += 1
+            if "WebSocket" in our_leaks[domain]:
+                our_leaky_websockets += 1
+                for third_party in our_leaks[domain]["WebSocket"]:
+                    if not third_party in our_leaky_third_parties:
+                        our_leaky_third_parties[third_party] = dict()
+                        our_leaky_third_parties[third_party]["GET"] = list()
+                        our_leaky_third_parties[third_party]["POST"] = list()
+                        our_leaky_third_parties[third_party]["WebSocket"] = list()
+                        our_leaky_third_parties[third_party]["Cookies"] = list()
+                    if not domain in our_leaky_third_parties[third_party]:
+                        our_leaky_third_parties[third_party]["WebSocket"].append(domain)
+                    our_leaks_number_websocket_third_parties += 1
+                    if third_party in whats_in_your_wallet_third_parties_mapping[domain]:
+                        our_leaks_number_websocket_third_parties_overlap += 1
+            if "Cookies" in our_leaks[domain]:
+                our_leaky_cookies += 1
+                for third_party in our_leaks[domain]["Cookies"]:
+                    if not third_party in our_leaky_third_parties:
+                        our_leaky_third_parties[third_party] = dict()
+                        our_leaky_third_parties[third_party]["GET"] = list()
+                        our_leaky_third_parties[third_party]["POST"] = list()
+                        our_leaky_third_parties[third_party]["WebSocket"] = list()
+                        our_leaky_third_parties[third_party]["Cookies"] = list()
+                    if not domain in our_leaky_third_parties[third_party]:
+                        our_leaky_third_parties[third_party]["Cookies"].append(domain)
+                    our_leaks_number_cookie_third_parties += 1
+                    if third_party in whats_in_your_wallet_third_parties_mapping[domain]:
+                        our_leaks_number_cookie_third_parties_overlap += 1
+                        print(third_party, our_leaks[domain]["Cookies"][third_party])
+        else:
+            our_leaks_number_get_third_parties = "-"
+            our_leaks_number_get_third_parties_overlap = ""
+            our_leaks_number_post_third_parties = "-"
+            our_leaks_number_post_third_parties_overlap = ""
+            our_leaks_number_websocket_third_parties = "-"
+            our_leaks_number_websocket_third_parties_overlap = ""
+            our_leaks_number_cookie_third_parties = "-"
+            our_leaks_number_cookie_third_parties_overlap = ""
+
+        if str(our_leaks_number_get_third_parties_overlap) != "":
+            our_leaks_number_get_third_parties_overlap = "("+str(our_leaks_number_get_third_parties_overlap)+")"
+        if str(our_leaks_number_post_third_parties_overlap) != "":
+            our_leaks_number_post_third_parties_overlap = "("+str(our_leaks_number_post_third_parties_overlap)+")"
+        if str(our_leaks_number_websocket_third_parties_overlap) != "":
+            our_leaks_number_websocket_third_parties_overlap = "("+str(our_leaks_number_websocket_third_parties_overlap)+")"
+        if str(our_leaks_number_cookie_third_parties_overlap) != "":
+            our_leaks_number_cookie_third_parties_overlap = "("+str(our_leaks_number_cookie_third_parties_overlap)+")"
+
+        print(str("\\textbf{"+domain+"}").ljust(26), "&", whats_in_your_wallet_third_parties, " & ", our_leaks_number_get_third_parties, our_leaks_number_get_third_parties_overlap, " & ", our_leaks_number_post_third_parties, our_leaks_number_post_third_parties_overlap, " & ", our_leaks_number_websocket_third_parties, our_leaks_number_websocket_third_parties_overlap, " & ", our_leaks_number_cookie_third_parties, our_leaks_number_cookie_third_parties_overlap, "\\\\")
+    print("")
+    print(str("\\textbf{Total}").ljust(26), "&", whats_in_your_wallet_leaky_websites, " & ", our_leaky_gets, " & ", our_leaky_posts, " & ", our_leaky_websockets, " & ", our_leaky_cookies, "\\\\")
+    print("")
+    print("Whats in your wallet leaks:", whats_in_your_wallet_leaky_websites)
+    print("Our leaks:", our_leaky_websites)
+
+    print("")
+    print("Number of identified third-parties:", len(our_leaky_third_parties))
+    sorted_third_parties = dict()
+    websites_with_third_parties = set()
+    for third_party in our_leaky_third_parties:
+        total = 0
+        websites_with_third_parties.update(our_leaky_third_parties[third_party]["GET"])
+        total += len(our_leaky_third_parties[third_party]["GET"])
+        total += len(our_leaky_third_parties[third_party]["POST"])
+        total += len(our_leaky_third_parties[third_party]["WebSocket"])
+        total += len(our_leaky_third_parties[third_party]["Cookies"])
+        sorted_third_parties[third_party] = [total, len(our_leaky_third_parties[third_party]["GET"]), len(our_leaky_third_parties[third_party]["POST"]), len(our_leaky_third_parties[third_party]["WebSocket"]), len(our_leaky_third_parties[third_party]["Cookies"])]
+    sorted_third_parties = dict(sorted(sorted_third_parties.items(), key=lambda x:x[0]))
+    sorted_third_parties = dict(sorted(sorted_third_parties.items(), key=lambda x:x[1][0], reverse=True))
+
+    top = 20
+    print("Websites with third-party scripts:", len(websites_with_third_parties))
+    print("Third-Party \t DeFi Website \t GET \t POST \t WebSockets \t Cookies")
+    for i in range(len(sorted_third_parties)):
+        if i < top:
+            third_party = list(sorted_third_parties.keys())[i]
+            print(str("\\textbf{"+third_party+"}").ljust(26), " & ", sorted_third_parties[third_party][0], " & ", sorted_third_parties[third_party][1], " & ", sorted_third_parties[third_party][2], " & ", sorted_third_parties[third_party][3], " & ", sorted_third_parties[third_party][4], "\\\\")
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage: {} <DIRECTORY_WITH_LATEST_CRAWLS> <DIRECTORY_WITH_WHATS_IN_YOUR_WALLET_CRAWLS>".format(sys.argv[0]), file=sys.stderr)
         sys.exit(1)
-    total_latest_sites, latest_leaks, post_leaks = parse_directory(sys.argv[1], ETH_ADDR)
-    _, whats_in_your_wallet_leaks, _ = parse_directory(sys.argv[2], ETH_ADDR_WHATS_IN_YOUR_WALLET)
+    our_leaks = parse_directory(sys.argv[1], ETH_ADDR)
+    whats_in_your_wallet_leaks = parse_directory(sys.argv[2], ETH_ADDR_WHATS_IN_YOUR_WALLET)
 
     # create_connectivity_graph()
-    print_leaks(total_latest_sites, latest_leaks, post_leaks, whats_in_your_wallet_leaks)
+    #print_leaks(total_latest_sites, latest_leaks, post_leaks, whats_in_your_wallet_leaks)
+
+    compare_leaks(whats_in_your_wallet_leaks, our_leaks)
 
     #print_sourced_script_popularity()

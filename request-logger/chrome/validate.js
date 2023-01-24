@@ -28,7 +28,7 @@ const validate = rawArgs => {
     executablePath = rawArgs.binary
   }
 
-  if (!isUrl(rawArgs.url)) {
+  if ((rawArgs.url != undefined) && (!isUrl(rawArgs.url))) {
     return [false, `Found invalid URL: ${rawArgs.url}`]
   }
 
@@ -46,9 +46,11 @@ const validate = rawArgs => {
     headless: !rawArgs.interactive,
     profilePath: rawArgs.profile,
     secs: rawArgs.secs,
+    links: rawArgs.links,
     url: rawArgs.url,
-    metamaskPath: rawArgs.metamask,
+    walletPath: rawArgs.wallet,
     destination: destination,
+    force: rawArgs.force,
     executablePath
   }
   return [true, Object.freeze(validatedArgs)]

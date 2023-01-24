@@ -3,12 +3,11 @@ const fs = require('fs')
 const argparseLib = require('argparse')
 
 
-const braveCrawlLib = require('./brave/crawl.js')
-const braveLoggerLib = require('./brave/logging.js')
-const braveValidateLib = require('./brave/validate.js')
+const chromeCrawlLib = require('./chrome/crawl.js')
+const chromeLoggerLib = require('./chrome/logging.js')
+const chromeValidateLib = require('./chrome/validate.js')
 
 const defaultDebugSetting = 'none'
-const defaultCrawlSecs = 45
 
 const parser = new argparseLib.ArgumentParser({
   add_help: true,
@@ -25,7 +24,7 @@ parser.add_argument('--debug', {
 })
 parser.add_argument('-u', '--url', {
   help: 'The URL to record requests',
-  required: true
+  required: false
 })
 parser.add_argument('-p', '--profile', {
   help: 'Path to use and store profile data to.',
@@ -40,35 +39,53 @@ parser.add_argument('--interactive', {
   help: 'Show the browser when recording (by default runs headless).',
   action: 'store_true'
 })
-parser.add_argument('-t', '--secs', {
-  help: `The dwell time in seconds. Defaults: ${defaultCrawlSecs} sec.`,
-  type: 'int',
-  default: defaultCrawlSecs
+group = parser.add_mutually_exclusive_group({required: true})
+group.add_argument('-t', '--secs', {
+  help: `The dwell time in seconds.`,
+  type: 'int'
 })
-parser.add_argument('-m', '--metamask', {
-  help: 'Path to the MetaMask extension.',
-  required: false
+group.add_argument('-l', '--links', {
+  help: `The maximum number of links to follow.`,
+  type: 'int'
+})
+parser.add_argument('-w', '--wallet', {
+  help: 'Path to the wallet extension.',
+  required: true
 })
 parser.add_argument('-d', '--destination', {
   help: 'Path where to log intercepted requests.',
   required: false
 })
+parser.add_argument('-f', '--force', {
+  help: 'Force override if results file already exists.',
+  action: 'store_true'
+})
 
 const rawArgs = parser.parse_args()
-const [isValid, errorOrArgs] = braveValidateLib.validate(rawArgs)
+const [isValid, errorOrArgs] = chromeValidateLib.validate(rawArgs)
 if (!isValid) {
   throw errorOrArgs
 }
 
 (async _ => {
-  const logger = braveLoggerLib.getLoggerForLevel(errorOrArgs.debugLevel)
-  logger.debug('Executing with arguments: ', errorOrArgs)
-  const crawlLog = await braveCrawlLib.crawl(errorOrArgs)
-  try {
-    domain = errorOrArgs.url.split('//')[1].split('?')[0].split('/')[0]
-    fs.writeFileSync(errorOrArgs.destination+'/'+domain+'.json', JSON.stringify(crawlLog, null, 4))
-  } catch (err) {
-    console.error(err);
+  const logger = chromeLoggerLib.getLoggerForLevel(errorOrArgs.debugLevel)
+  let id
+  if (errorOrArgs.url == undefined) {
+    id = errorOrArgs.walletPath.slice(errorOrArgs.walletPath.lastIndexOf('/') + 1)
+  } else {
+    id = errorOrArgs.url.split('//')[1].split('?')[0].split('/')[0]
   }
-  process.exit(crawlLog.success === true ? 0 : 1)
+  const path = errorOrArgs.destination+'/'+id+'.json'
+  if (!fs.existsSync(path) || errorOrArgs.force) {
+    logger.debug('Executing with arguments: ', errorOrArgs)
+    const crawlLog = await chromeCrawlLib.crawl(errorOrArgs)
+    try {
+      fs.writeFileSync(path, JSON.stringify(crawlLog, null, 4))
+    } catch (err) {
+      console.error(err);
+    }
+    process.exit(crawlLog.success === true ? 0 : 1)
+  } else {
+    console.log('File '+path+' already exists!')
+  }
 })()

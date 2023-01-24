@@ -4,8 +4,9 @@ const { getLogger } = require('./logging')
 puppeteerExtraLib.use(puppeteerExtraPluginStealthLib())
 
 const launch = async args => {
+  //also added a default view port, so the 'coordinate-based-clicks' work on different laptops
   const puppeteerArgs = {
-    defaultViewport: null,
+    defaultViewport: {width: 1280, height: 960, deviceScaleFactor: 1, },
     args: [],
     executablePath: args.executablePath,
     headless: args.headless

@@ -103,22 +103,26 @@ const crawl = async args => {
 
     browser.on('targetcreated', onTargetCreated.bind(undefined, args, log))
 
-    //await mm_page.bringToFront()
-
 
     const page = await browser.newPage()
     await waitForNavigation(page)
     logger.debug(`Visiting ${url}`)
 
     const pages = await browser.pages()
-
-    //logger.debug(`nr of pages:: ${pages.length}`)
     const mm_login = await pages[pages.length - 1]
+
     await mm_login.bringToFront();
    
     try {
-      mm_login.setDefaultNavigationTimeout(0);
-      await importWallet(mm_login);
+      //read in the passphrase and password from a given file
+      var data = fs.readFileSync('./../request-logger/wallet_info.txt','utf8');
+      var wallet_info = data.split('\n');
+
+      let wallet_passphrase = wallet_info[0];
+      let wallet_password = wallet_info[1];
+
+      await importWallet(mm_login, wallet_passphrase, wallet_password);
+
     } catch {
       logger.debug('failed to import wallet');
     }
@@ -136,7 +140,7 @@ const crawl = async args => {
 
 
 
-    const waitTimeMs = args.secs * 500
+    const waitTimeMs = args.secs * 500;
     logger.debug(`Waiting for ${waitTimeMs}ms`)
     await page.waitForTimeout(waitTimeMs)
     await page.close()
@@ -157,31 +161,9 @@ const crawl = async args => {
   return log
 }
 
-const timeoutPromise = async (promise, ms) => {
-  let timeout = new Promise(function(resolve, reject) {
-      setTimeout(resolve, ms, 1);
-  });
-  let result = Promise.race([promise, timeout]).then(function(value) {
-      return value;
-  });
-  return result;
-}
 
 
-const click = async (elHandle, loginRegisterLinkAttrs, method = "method1", page) => {
-  try {
-      if (method === NATIVE_CLICK) {
-          await elHandle.click();
-      } else {
-          await page.evaluate(el => el.click(), elHandle);
-      }
-  } catch (error) {
-      console.log(`Error while ${method} clicking on ${await page.url()} ` +
-          `${JSON.stringify(loginRegisterLinkAttrs)} ErrorMsg: `);
-      return false;
-  }
-  return true;
-}
+
 
 module.exports = {
   crawl

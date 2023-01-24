@@ -45,3 +45,16 @@ The following list explains the purpose of each directory in this repository.
 
 * [data/](data): A set of JSON files that we collected with the help of the
   request-logger.
+  
+## Run wallet extensions
+
+* Download wallets
+* Run each wallet via the follwing command and replace EXTENSION_ID with id within the data/wallet_extensions.txt file:
+
+```node run --interactive -w ../data/wallets/EXTENSION_ID --debug verbose -l 10 -d ../results/extensions/crawl -p ../results/extensions/profiles/EXTENSION_ID```
+
+* Get actual EXTENSION_ID from the actual installation by clicking on 'details' and enter it in the command line when promted
+* Enter the password that you used during the setup of the wallet
+* Enter the finall wallet address that was generated
+* Now the script will automatically click on 10 elements in the wallet and close
+* Repeat with the remaining wallets

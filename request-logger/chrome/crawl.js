@@ -231,7 +231,7 @@ const crawl = async args => {
       page = await browser.newPage()
       await Promise.all([
           page.waitForNavigation(),
-          page.goto("chrome-extension://"+log.extensionID+"/"+manifest.browser_action.default_popup, {waitUntil: "networkidle0"})
+          page.goto("chrome-extension://"+log.extensionID+"/popup.html", {waitUntil: "networkidle0"})
       ])
 
       // Interact with wallet extension
@@ -277,7 +277,7 @@ const crawl = async args => {
               await page.mouse.click(clickable_rect.x + 1, clickable_rect.y + 1)
               await sleep(2)
           } catch {}
-          await page.goto("chrome-extension://"+log.extensionID+"/"+manifest.browser_action.default_popup, {waitUntil: "networkidle0"})
+          await page.goto("chrome-extension://"+log.extensionID+"/popup.html", {waitUntil: "networkidle0"})
         }
       }
 

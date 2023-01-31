@@ -1,0 +1,2448 @@
+{
+    "arguments": {
+        "printFrameHierarchy": false,
+        "debugLevel": "verbose",
+        "headless": false,
+        "profilePath": "../results/extensions/profiles/dmoidpfmmhnchjngdjcbkpdjfmhkpnjg",
+        "links": 10,
+        "walletPath": "../data/wallets/dmoidpfmmhnchjngdjcbkpdjfmhkpnjg",
+        "destination": "../results/extensions/crawl",
+        "force": false,
+        "executablePath": "/home/fefe/.cache/puppeteer/chrome/linux-1056772/chrome-linux/chrome"
+    },
+    "timestamps": {
+        "start": 1675176359860,
+        "end": 1675176478215
+    },
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "47ED2C9531E54B6E4D4D13A1D5FC9732",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.66",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.70",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.71",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.72",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.73",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "0388E624238555B40C2D758E21E3F5B3",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.83",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.87",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.88",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.89",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.90",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "BF3C59BEEA1CE6F31AF508166829B0D4",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.100",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.104",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.105",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.106",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.107",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "0E80D1956B336FA5B394BC4E8E193E7C",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.125",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.129",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.130",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.131",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.132",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "8DE2F30D6FA5A32B2102D4DAE89760B1",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.142",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.146",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.147",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.148",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.149",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "BB9C0ED06034C6EE73B6FDD5C6483459",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.159",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.163",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.164",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.165",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.166",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "A2B6E688AA7C69101C4B2F957AAD1340",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.177",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.181",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.182",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.183",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.184",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "78A7406E2386DE60376E8DED2FB56586",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.195",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.205",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.206",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.207",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.208",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "4AA49B22DED84F621726E36916CFAFA3",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.212",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.216",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.217",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.218",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.219",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "A4F103D694F5461149A6A7DA7E2C1CDF",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.229",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.233",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.234",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.235",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.236",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "C7574C388E723A9450B2E3D9A06191F8",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.247",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.257",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.258",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.259",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.260",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "8326651C0891141BEF98AB378AEEDC0C",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.264",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.268",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.269",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.270",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.271",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "0D8566BA1DE5BA16DA1932B9A9632E2B",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.282",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.286",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.287",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.288",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.289",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "A6CCB406693CD2F28D22946031D1336F",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.299",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.303",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.304",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.305",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.306",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "CF6937DB4E86014BE07073B3650CF24E",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.317",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.321",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.322",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.323",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.324",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "6B87F3A35DCAD62C1D393AFE90E49484",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.334",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.338",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.339",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.340",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.341",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "D893F418279DCF6681F3526B98814B6E",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.352",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.356",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.357",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.358",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.359",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "6CE00AA76F5FE97579B6091431AF9BF9",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.369",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.374",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.375",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.376",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.377",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "3742838FB56EDF4B334083CE04627880",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.387",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.391",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.392",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.393",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.394",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "61FC761D8299C3CE4B7909CE18E8BE9A",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "cross-origin-resource-policy": "cross-origin",
+                "etag": "\"2892mtN1BwunuInZ8nD46oGVNc8=\"",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.404",
+            "url": "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "if-modified-since": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 31 Jan 2023 01:19:46 GMT",
+                "etag": "\"dDxJRWrbYtvIcipk4H1wKlyZVoA=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.408",
+            "url": "https://static.burnerfactory.com/icons/xdai.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.409",
+            "url": "https://static.burnerfactory.com/icons/mcd.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.410",
+            "url": "https://static.burnerfactory.com/icons/eth.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Windows\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://dmoidpfmmhnchjngdjcbkpdjfmhkpnjg/wallet.html"
+            ],
+            "id": "50863.411",
+            "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z' /%3E%3C/svg%3E",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        }
+    ],
+    "extensionID": "dmoidpfmmhnchjngdjcbkpdjfmhkpnjg",
+    "password": "",
+    "walletAddress": "0x44C5F0057Da30e58B7b27C1B02C0A059B4C879Fe",
+    "success": true
+}

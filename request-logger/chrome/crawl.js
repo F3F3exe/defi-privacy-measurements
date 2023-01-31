@@ -225,6 +225,7 @@ const crawl = async args => {
         })
       })
 
+      console.log(`wallet path: ${args.walletPath}`)
       // Search manifest for default popup and open it
       let manifest = JSON.parse(fs.readFileSync(args.walletPath+'/manifest.json'))
       page.close()
@@ -232,6 +233,7 @@ const crawl = async args => {
       await Promise.all([
           page.waitForNavigation(),
           page.goto("chrome-extension://"+log.extensionID+"/popup.html", {waitUntil: "networkidle0"})
+          //page.goto("chrome-extension://"+log.extensionID+"/"+manifest.browser_action.default_popup, {waitUntil: "networkidle0"})
       ])
 
       // Interact with wallet extension
@@ -278,6 +280,8 @@ const crawl = async args => {
               await sleep(2)
           } catch {}
           await page.goto("chrome-extension://"+log.extensionID+"/popup.html", {waitUntil: "networkidle0"})
+
+          //await page.goto("chrome-extension://"+log.extensionID+"/"+manifest.browser_action.default_popup, {waitUntil: "networkidle0"})
         }
       }
 
